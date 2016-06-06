@@ -2828,6 +2828,12 @@ $lang['contract_send_to_client_preview_template'] = 'Preview Email Template';
 $lang['include_attachments_to_email'] = 'Include attachments to email';
 $lang['contract_sent_to_client_success'] = 'The contract is successfully sent to the customer';
 $lang['contract_sent_to_client_fail'] = 'Failed to send contract';
+
+# Version 1.1.3
+$lang['client_invalid_username_or_password'] = 'Invalid username or password';
+$lang['client_old_password_incorect']     = 'Your old password is incorrect';
+$lang['client_password_changed']          = 'Your password has been changed';
+$lang['check_for_new_version']          = 'Check for new version';
 /* STOP TRANSLATING */
 
 ?>
