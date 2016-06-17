@@ -1127,7 +1127,6 @@ $lang['invoice_add_edit_recurring_no']                                        = 
 $lang['invoice_add_edit_recurring_month']                                     = '每个月';
 $lang['invoice_add_edit_recurring_months']                                    = '每个月';
 $lang['invoices_list_all']                                                    = '所有';
-$lang['invoices_list_tooltip']                                                = '查看发票';
 $lang['invoices_list_not_sent']                                               = '发票没有发送';
 $lang['invoices_list_not_have_payment']                                       = '没有付款记录的发票';
 $lang['invoices_list_recuring']                                               = '经常性发票';
@@ -1347,7 +1346,6 @@ $lang['estimate_add_edit_advanced_options'] = '高级选项';
 $lang['estimate_vat']                       = 'VAT 数';
 $lang['estimate_to']                        = 'To';
 $lang['estimates_list_all']                 = 'All';
-$lang['estimates_list_tooltip']             = '筛选';
 
 $lang['estimate_invoiced_date']                  = '报价发票在 %s';
 $lang['edit_estimate_tooltip']                   = '编辑报价';
@@ -1526,7 +1524,6 @@ $lang['settings_custom_pdf_logo_image_url_tooltip']   = '你可能会有问题�
 $lang['sale_agent_string']               = '销售代理';
 $lang['amount_display_in_base_currency'] = '在您的基础货币中显示的金额';
 
-$lang['multiple_currencies_is_used_expenses_vs_income_report'] = '使用多种货币作发票。收入金额不会100%准确.';
 # Leads
 $lang['leads_summary']                                         = '总结线索';
 
@@ -1650,7 +1647,6 @@ $lang['expense_add_edit_currency']                                   = '货币';
 $lang['expense_add_edit_note']                                       = '备注';
 $lang['expense_add_edit_date']                                       = '费用日期';
 $lang['expense_add_edit_amount']                                     = '总额';
-$lang['expense_add_edit_amount_tooltip']                             = '将显示和计算你的基础货币';
 $lang['expense_add_edit_billable']                                   = '计费';
 $lang['expense_add_edit_attach_receipt']                             = '附收据';
 $lang['expense_add_edit_reference_no']                               = '参考';
@@ -1667,7 +1663,6 @@ $lang['expense_converted_to_invoice_fail']                           = '没能�
 $lang['expense_copy_success']                                        = '复制成功';
 $lang['expense_copy_fail']                                           = '复制费用失败。请检查所需的字段，然后再试一次';
 $lang['expenses_list_all']                                           = '全部';
-$lang['expenses_list_tooltip']                                       = '查看费用';
 $lang['expenses_list_billable']                                      = '计费';
 $lang['expenses_list_non_billable']                                  = '非结算';
 $lang['expenses_list_invoiced']                                      = '开发票';
@@ -1720,9 +1715,6 @@ $lang['nav_todo_items']               = '所有的物品';
 # Clients
 # Contracts
 $lang['clients_contracts_type']       = '合同类型';
-# Home
-$lang['exchange_rate_base_currency']  = '基础货币';
-$lang['home_currency_exchange_rates'] = '货币兑换率';
 
 # Version 1.0.5
 # General
@@ -2065,7 +2057,6 @@ $lang['proposal_subject']                       = '主题';
 $lang['proposal_total']                         = '总计';
 $lang['proposal_status']                        = '状态';
 $lang['proposals_list_all']                     = '所有';
-$lang['proposals_list_view']                    = '标书书';
 $lang['proposals_leads_related']                = '信息相关';
 $lang['proposals_customers_related']            = '相关的客户';
 $lang['proposal_related']                       = '相关的';
@@ -2154,7 +2145,6 @@ $lang['customer_group_lowercase']    = '客户群';
 $lang['customer_have_invoices_by']       = '包含发票的状态 %s';
 $lang['customer_have_estimates_by']      = '包含状态％S报价';
 $lang['customer_have_contracts_by_type'] = '有％S合同的类型';
-$lang['customer_view_by']                = '客户分类';
 
 # Custom fields
 $lang['custom_field_show_on_table']              = '显示表';
@@ -2456,7 +2446,6 @@ $lang['task_duedate'] = '截止日期';
 $lang['task_view_comments'] = '评论';
 $lang['task_comment_updated'] = '评论更新';
 $lang['task_visible_to_client'] = '可见客户';
-$lang['tasks_filter_by'] = '过滤';
 $lang['task_hourly_rate'] = '每小时收费';
 $lang['hours'] = '小时';
 $lang['seconds'] = '秒';
@@ -2507,7 +2496,6 @@ $lang['project_invoice_timesheet_start_time'] = '开始时间: %s';
 $lang['project_invoice_timesheet_end_time'] = '结束时间: %s';
 $lang['project_invoice_timesheet_total_logged_time'] = '记录时间: %s';
 $lang['project_view_as_client'] = '项目客户';
-$lang['project_tasks_overview'] = '任务概述';
 $lang['project_mark_all_tasks_as_completed'] = '完成所有的任务，停止所有定时器 (没有发送给项目成员的通知)';
 $lang['project_not_started_status_tasks_timers_found'] = '此项目发现任务计时器，但该项目尚未启动. 建议更改项目状态进展';
 $lang['project_status'] = '状态';
@@ -2606,7 +2594,6 @@ $lang['project_allow_client_to'] = '允许客户 %s';
 $lang['project_setting_view_task_attachments'] = '查看任务附件';
 $lang['project_setting_view_task_checklist_items'] = '查看任务清单项目';
 $lang['project_setting_upload_files'] = '上传文件';
-$lang['project_setting_view_tasks_overview'] = '查看任务概述';
 $lang['project_setting_view_task_comments'] = '查看任务的意见';
 $lang['project_setting_upload_on_tasks'] = '上传任务附件';
 $lang['project_setting_view_task_total_logged_time'] = '查看任务总日志时间';
@@ -2841,6 +2828,71 @@ $lang['client_invalid_username_or_password'] = 'Invalid username or password';
 $lang['client_old_password_incorect']     = 'Your old password is incorrect';
 $lang['client_password_changed']          = 'Your password has been changed';
 $lang['check_for_new_version']          = 'Check for new version';
+
+# Version 1.1.4
+$lang['total_leads_deleted'] = 'Total leads deleted: %s';
+$lang['total_clients_deleted'] = 'Total customers deleted: %s';
+$lang['confirm_action_prompt'] = 'Are you sure you want to perform this action?';
+$lang['mass_delete'] = 'Mass Delete';
+$lang['email_protocol'] = 'Email Protocol';
+$lang['add_edit_members'] = 'Add/Edit Members';
+$lang['project_overview_logged_hours'] = 'Logged Hours:';
+$lang['project_overview_billable_hours'] = 'Billable Hours:';
+$lang['project_overview_billed_hours'] = 'Billed Hours:';
+$lang['project_overview_unbilled_hours'] = 'Unbilled Hours:';
+$lang['calendar_first_day'] = 'First Day';
+$lang['dt_mass_delete_help'] = 'Use the checkboxes on the right side for mass delete.';
+$lang['permission_view'] = 'View';
+$lang['permission_edit'] = 'Edit';
+$lang['permission_create'] = 'Create';
+$lang['permission_delete'] = 'Delete';
+$lang['permission'] = 'Permission';
+$lang['permissions'] = 'Permissions';
+$lang['access_denied'] = 'Access Danied';
+$lang['proposals_pipeline'] = 'Proposals Pipeline';
+$lang['proposals_pipeline_sort'] = 'Sort By';
+$lang['proposals_sort_open_till'] = 'Open Till';
+$lang['proposals_sort_pipeline'] = 'Pipeline Order';
+$lang['proposals_sort_datecreated'] = 'Date Created';
+$lang['proposals_sort_proposal_date'] = 'Proposal Date';
+$lang['is_not_staff_member'] = 'Not staff member';
+$lang['lead_created'] = 'Created';
+$lang['access_tickets_to_none_staff_members'] = 'Allow access to tickets for none staff members';
+$lang['project_expenses'] = 'Expenses';
+$lang['expense_currency'] = 'Currency';
+$lang['currency_valid_code_help'] = 'Make sure to enter valid currency code.';
+$lang['week'] = 'Week';
+$lang['weeks'] = 'Weeks';
+$lang['month'] = 'Month';
+$lang['months'] = 'Months';
+$lang['year'] = 'Year';
+$lang['years'] = 'Years';
+$lang['expense_report_category'] = 'Category';
+$lang['expense_paid_via'] = 'Paid Via %s';
+$lang['item_as_expense'] = '[Expense]';
+$lang['show_help_on_setup_menu'] = 'Show help menu item on setup menu';
+$lang['customers_summary_total'] = 'Total Customers';
+$lang['filter_by'] = 'Filter by';
+$lang['re_captcha'] = 'reCAPTCHA';
+$lang['recaptcha_site_key'] = 'Site key';
+$lang['recaptcha_secret_key'] = 'Secret key';
+$lang['recaptcha_error'] = 'The reCAPTCHA field is telling that you are a robot.';
+$lang['smtp_username'] = 'SMTP Username';
+$lang['smtp_username_help'] = 'Fill only if your email client use username for SMTP login.';
+$lang['pinned_project']= 'Pinned Project';
+$lang['pin_project']= 'Pin Project';
+$lang['unpin_project']= 'Unpin Project';
+$lang['smtp_encryption']= 'Email Encryption';
+$lang['smtp_encryption_none']= 'None';
+$lang['show_proposals_on_calendar']= 'Proposals';
+$lang['invoice_project_see_billed_expenses']= 'See expenses who wil be billed on this invoice';
+$lang['recaptcha_help_settings']= 'If fields are not filled or there is no internet connection, reCAPTCHA will not be used.';
+$lang['project_overview_expenses'] = 'Total Expenses';
+$lang['project_overview_expenses_billable'] = 'Billable Expenses';
+$lang['project_overview_expenses_billed'] = 'Billed Expenses';
+$lang['project_overview_expenses_unbilled'] = 'Unbilled Expenses';
+$lang['announcement_date_list'] = 'Date';
+$lang['project_setting_view_finance_overview'] = 'view finance overview';
 
 /* STOP TRANSLATING */
 ?>
