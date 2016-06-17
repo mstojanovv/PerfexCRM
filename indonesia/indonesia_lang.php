@@ -3,7 +3,7 @@
 #
 # General
 $lang['id']                   = 'ID';
-$lang['nama']                 = 'Nama';
+$lang['name']                 = 'Nama';
 $lang['options']              = 'Pilihan';
 $lang['submit']               = 'Simpan';
 $lang['added_successfuly']    = '%s berhasil ditambahkan.';
@@ -105,9 +105,7 @@ $lang['clients_notes_table_addedfrom_heading']   = 'Ditambahkan Dari';
 $lang['clients_notes_table_dateadded_heading']   = 'Tanggal Ditambahkan';
 
 $lang['clients_list_full_name']   = 'Nama lengkap';
-$lang['clients_list_email']       = 'Email';
 $lang['clients_list_last_login']  = 'Login terakhir';
-$lang['clients_list_last_active'] = 'Aktif';
 
 # Kontrak
 $lang['contracts']                = 'Kontrak';
@@ -364,14 +362,6 @@ $lang['mail_lists_dt_creator']                = 'Pencipta';
 $lang['email_added_to_mail_list_successfuly'] = 'Email ditambahkan ke daftar';
 $lang['email_is_duplicate_mail_list']         = 'Email sudah ada di daftar ini';
 
-# Media
-$lang['media_dt_filename']      = 'Nama file';
-$lang['media_dt_last_modified'] = 'Terakhir diubah';
-$lang['media_dt_filesize']      = 'Ukuran file';
-$lang['media_dt_mime_type']     = 'Mengetik';
-$lang['media_heading']          = 'Media';
-$lang['media_files']            = 'arsip';
-
 # Pembayaran modes
 $lang['new_payment_mode']       = 'arsip';
 $lang['payment_modes']          = 'Mode Pembayaran';
@@ -453,7 +443,7 @@ $lang['services_dt_name']      = 'Nama layanan';
 $lang['service_add_edit_name'] = 'Nama layanan';
 
 # Settings
-$lang['pengaturan']                     = 'pengaturan';
+$lang['settings']                     = 'pengaturan';
 $lang['settings_updated']             = 'pengaturan Updated';
 $lang['settings_save']                = 'Simpan Pengaturan';
 $lang['settings_group_general']       = 'Umum';
@@ -498,7 +488,6 @@ $lang['settings_localization_date_format']      = 'Format tanggal';
 $lang['settings_localization_default_timezone'] = 'Timezone bawaan';
 $lang['settings_localization_default_language'] = 'Bahasa default';
 
-$lang['settings_newsfeed_allowed_file_extensions'] = 'Diizinkan ekstensi file untuk upload';
 $lang['settings_newsfeed_max_file_upload_post']    = 'file maksimum upload di posting';
 $lang['settings_newsfeed_max_file_size']           = 'Maksimum ukuran file (MB)';
 
@@ -1136,7 +1125,6 @@ $lang['invoice_add_edit_recurring_no']                                        = 
 $lang['invoice_add_edit_recurring_month']                                     = 'Setiap %s bulan';
 $lang['invoice_add_edit_recurring_months']                                    = 'Setiap %s bulanan';
 $lang['invoices_list_all']                                                    = 'Semua';
-$lang['invoices_list_tooltip']                                                = 'Filter berdasarkan';
 $lang['invoices_list_not_sent']                                               = 'Tagihan Tidak Dikirim';
 $lang['invoices_list_not_have_payment']                                       = 'Tidak ada catatan tagihan pembayaran';
 $lang['invoices_list_recuring']                                               = 'Tagihan Berulang';
@@ -1356,7 +1344,6 @@ $lang['estimate_add_edit_advanced_options'] = 'Opsi Lanjutan';
 $lang['estimate_vat']                       = 'VAT Number';
 $lang['estimate_to']                        = 'Ke';
 $lang['estimates_list_all']                 = 'Semua';
-$lang['estimates_list_tooltip']             = 'Filter berdasarkan';
 
 $lang['estimate_invoiced_date']                  = 'Estimasi Invoiced %s';
 $lang['edit_estimate_tooltip']                   = 'Edit Estimasi';
@@ -1489,7 +1476,6 @@ $lang['client_expenses_tab']               = 'Pengeluaran';
 $lang['customers_summary']                 = 'Customers Ringkasan';
 $lang['customers_summary_active']          = 'Aktif';
 $lang['customers_summary_inactive']        = 'Inactive';
-$lang['customers_summary_companies']       = 'Companies';
 $lang['customers_summary_logged_in_today'] = 'Login hari ini';
 
 # Authentication
@@ -1536,7 +1522,6 @@ $lang['settings_custom_pdf_logo_image_url_tooltip']   = 'Mungkin Anda akan memil
 $lang['sale_agent_string']               = 'Agen Sales';
 $lang['amount_display_in_base_currency'] = 'Jumlah is displayed in your base currency';
 
-$lang['multiple_currencies_is_used_expenses_vs_income_report'] = 'Beberapa mata uang untuk tagihan digunakan. Jumlah penghasilan tidak akan seratus persen akurat.';
 # Potensial
 $lang['leads_summary']                                         = 'Potensial Ringkasan';
 
@@ -1660,7 +1645,6 @@ $lang['expense_add_edit_currency']                                   = 'Mata uan
 $lang['expense_add_edit_note']                                       = 'Catatan';
 $lang['expense_add_edit_date']                                       = 'Pengeluaran Tanggal';
 $lang['expense_add_edit_amount']                                     = 'Jumlah';
-$lang['expense_add_edit_amount_tooltip']                             = 'Jumlah will be displayed and calculated in your base currency';
 $lang['expense_add_edit_billable']                                   = 'Billable';
 $lang['expense_add_edit_attach_receipt']                             = 'Lampirkan Tanda Terima';
 $lang['expense_add_edit_reference_no']                               = 'Reference #';
@@ -1677,7 +1661,6 @@ $lang['expense_converted_to_invoice_fail']                           = 'Gagal un
 $lang['expense_copy_success']                                        = 'The expense is copied successfuly.';
 $lang['expense_copy_fail']                                           = 'Gagal untuk copy expense. Mohon check the required fields and try again';
 $lang['expenses_list_all']                                           = 'Semua';
-$lang['expenses_list_tooltip']                                       = 'Filter berdasarkan';
 $lang['expenses_list_billable']                                      = 'Billable';
 $lang['expenses_list_non_billable']                                  = 'Non Billable';
 $lang['expenses_list_invoiced']                                      = 'Invoiced';
@@ -1730,10 +1713,6 @@ $lang['nav_todo_items']               = 'Todo items';
 # Clients
 # Kontrak
 $lang['clients_contracts_type']       = 'Jenis Kontrak';
-# Home
-$lang['exchange_rate_base_currency']  = 'Mata uang Dasar';
-$lang['home_currency_exchange_rates'] = 'Nilai tukar Mata Uang';
-
 # Version 1.0.5
 # General
 $lang['no_tax']                             = 'Tanpa Pajak';
@@ -2075,7 +2054,6 @@ $lang['proposal_subject']                       = 'Judul';
 $lang['proposal_total']                         = 'Total';
 $lang['proposal_status']                        = 'Status';
 $lang['proposals_list_all']                     = 'Semua';
-$lang['proposals_list_view']                    = 'Lihat Proposal';
 $lang['proposals_leads_related']                = 'Potensial Terkait';
 $lang['proposals_customers_related']            = 'Customers Terkait';
 $lang['proposal_related']                       = 'Terkait';
@@ -2089,8 +2067,6 @@ $lang['new_proposal']                           = 'Proposal Baru';
 $lang['proposal_currency']                      = 'Mata uang';
 $lang['proposal_allow_comments']                = 'Izinkan Komentar';
 $lang['proposal_allow_comments_help']           = 'Jika Anda memeriksa pilihan ini komentar akan diizinkan ketika klien Anda melihat proposal.';
-$lang['proposal_insert_items']                  = 'Masukkan Item';
-$lang['proposal_add_items']                     = 'Tambah Item';
 $lang['proposal_edit']                          = 'Edit';
 $lang['proposal_pdf']                           = 'PDF';
 $lang['proposal_send_to_email']                 = 'Kirim ke Email';
@@ -2166,7 +2142,6 @@ $lang['customer_group_lowercase']    = 'group pelanggan';
 $lang['customer_have_invoices_by']       = 'Berisi faktur berdasarkan status %s';
 $lang['customer_have_estimates_by']      = 'Berisi estimasi berdasarkan status %s';
 $lang['customer_have_contracts_by_type'] = 'Memiliki kontrak menurut jenis %s';
-$lang['customer_view_by']                = 'Filter berdasarkan';
 
 # Custom fields
 $lang['custom_field_show_on_table']              = 'Tampilkan di tabel';
@@ -2468,7 +2443,6 @@ $lang['task_duedate'] = 'Jatuh Tempo';
 $lang['task_view_comments'] = 'Komentar';
 $lang['task_comment_updated'] = 'Komentar diperbarui';
 $lang['task_visible_to_client'] = 'Terlihat untuk customer';
-$lang['tasks_filter_by'] = 'Filter berdasarkan';
 $lang['task_hourly_rate'] = 'Nilai Per Jam';
 $lang['hours'] = 'Jam';
 $lang['seconds'] = 'Kalender';
@@ -2519,7 +2493,6 @@ $lang['project_invoice_timesheet_start_time'] = 'Mulai time: %s';
 $lang['project_invoice_timesheet_end_time'] = 'Akhir time: %s';
 $lang['project_invoice_timesheet_total_logged_time'] = 'Logged time: %s';
 $lang['project_view_as_client'] = 'Lihat project sbg customer';
-$lang['project_tasks_overview'] = 'Tugas Ikhtisar';
 $lang['project_mark_all_tasks_as_completed'] = 'Tandai semua tugas sbg selesai dan menghentikan semua timer (Tidak ada pemberitahuan dikirim kepada anggota proyek)';
 $lang['project_not_started_status_tasks_timers_found'] = 'Tugas timer ditemukan proyek ini, tetapi proyek ini dengan status yang tidak dimulai. Dianjurkan untuk mengubah status proyek untuk kemajuan';
 $lang['project_status'] = 'Status';
@@ -2618,7 +2591,6 @@ $lang['project_allow_client_to'] = 'Allow customer untuk %s';
 $lang['project_setting_view_task_attachments'] = 'lihat task attachments';
 $lang['project_setting_view_task_checklist_items'] = 'lihat task checklist items';
 $lang['project_setting_upload_files'] = 'upload files';
-$lang['project_setting_view_tasks_overview'] = 'lihat tasks overview';
 $lang['project_setting_view_task_comments'] = 'lihat task comments';
 $lang['project_setting_upload_on_tasks'] = 'upload attachments di tasks';
 $lang['project_setting_view_task_total_logged_time'] = 'lihat task total logged time';
@@ -2853,5 +2825,74 @@ $lang['client_invalid_username_or_password'] = 'Invalid username or password';
 $lang['client_old_password_incorect']     = 'Your old password is incorrect';
 $lang['client_password_changed']          = 'Your password has been changed';
 $lang['check_for_new_version']          = 'Check for new version';
+
+# Version 1.1.4
+$lang['total_leads_deleted'] = 'Total leads deleted: %s';
+$lang['total_clients_deleted'] = 'Total customers deleted: %s';
+$lang['confirm_action_prompt'] = 'Are you sure you want to perform this action?';
+$lang['mass_delete'] = 'Mass Delete';
+$lang['email_protocol'] = 'Email Protocol';
+$lang['add_edit_members'] = 'Add/Edit Members';
+$lang['project_overview_logged_hours'] = 'Logged Hours:';
+$lang['project_overview_billable_hours'] = 'Billable Hours:';
+$lang['project_overview_billed_hours'] = 'Billed Hours:';
+$lang['project_overview_unbilled_hours'] = 'Unbilled Hours:';
+$lang['calendar_first_day'] = 'First Day';
+$lang['dt_mass_delete_help'] = 'Use the checkboxes on the right side for mass delete.';
+$lang['permission_view'] = 'View';
+$lang['permission_edit'] = 'Edit';
+$lang['permission_create'] = 'Create';
+$lang['permission_delete'] = 'Delete';
+$lang['permission'] = 'Permission';
+$lang['permissions'] = 'Permissions';
+$lang['proposals_pipeline'] = 'Proposals Pipeline';
+$lang['proposals_pipeline_sort'] = 'Sort By';
+$lang['proposals_sort_open_till'] = 'Open Till';
+$lang['proposals_sort_pipeline'] = 'Pipeline Order';
+$lang['proposals_sort_datecreated'] = 'Date Created';
+$lang['proposals_sort_proposal_date'] = 'Proposal Date';
+$lang['is_not_staff_member'] = 'Not staff member';
+$lang['lead_created'] = 'Created';
+$lang['access_tickets_to_none_staff_members'] = 'Allow access to tickets for none staff members';
+$lang['project_expenses'] = 'Expenses';
+$lang['expense_currency'] = 'Currency';
+$lang['currency_valid_code_help'] = 'Make sure to enter valid currency code.';
+$lang['week'] = 'Week';
+$lang['weeks'] = 'Weeks';
+$lang['month'] = 'Month';
+$lang['months'] = 'Months';
+$lang['year'] = 'Year';
+$lang['years'] = 'Years';
+$lang['expense_report_category'] = 'Category';
+$lang['expense_paid_via'] = 'Paid Via %s';
+$lang['item_as_expense'] = '[Expense]';
+$lang['show_help_on_setup_menu'] = 'Show help menu item on setup menu';
+$lang['customers_summary_total'] = 'Total Customers';
+$lang['filter_by'] = 'Filter by';
+$lang['re_captcha'] = 'reCAPTCHA';
+$lang['recaptcha_site_key'] = 'Site key';
+$lang['recaptcha_secret_key'] = 'Secret key';
+$lang['recaptcha_error'] = 'The reCAPTCHA field is telling that you are a robot.';
+$lang['smtp_username'] = 'SMTP Username';
+$lang['smtp_username_help'] = 'Fill only if your email client use username for SMTP login.';
+$lang['pinned_project']= 'Pinned Project';
+$lang['pin_project']= 'Pin Project';
+$lang['unpin_project']= 'Unpin Project';
+$lang['smtp_encryption']= 'Email Encryption';
+$lang['smtp_encryption_none']= 'None';
+$lang['show_proposals_on_calendar']= 'Proposals';
+$lang['invoice_project_see_billed_expenses']= 'See expenses who wil be billed on this invoice';
+$lang['recaptcha_help_settings']= 'If fields are not filled or there is no internet connection, reCAPTCHA will not be used.';
+$lang['project_overview_expenses'] = 'Total Expenses';
+$lang['project_overview_expenses_billable'] = 'Billable Expenses';
+$lang['project_overview_expenses_billed'] = 'Billed Expenses';
+$lang['project_overview_expenses_unbilled'] = 'Unbilled Expenses';
+$lang['announcement_date_list'] = 'Date';
+$lang['project_setting_view_finance_overview'] = 'view finance overview';
+$lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks related to projects (includes non-staff)';
+$lang['user_note'] = 'User note';
+$lang['not_staff_added_as_project_member'] = 'Added you as project member';
+$lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
+
 /* STOP TRANSLATING */
 ?>
