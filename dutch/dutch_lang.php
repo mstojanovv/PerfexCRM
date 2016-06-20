@@ -2911,7 +2911,3 @@ $lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks r
 $lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
-
-/* STOP TRANSLATING */
-?>
-
