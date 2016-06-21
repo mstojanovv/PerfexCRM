@@ -457,7 +457,7 @@ $lang['settings_group_cronjob']       = 'Cron Job';
 
 $lang['settings_yes']                                        = 'Ja';
 $lang['settings_no']                                         = 'Nein';
-$lang['settings_clients_default_theme']                      = 'Standart Kunden Vorlage';
+$lang['settings_clients_default_theme']                      = 'Standard Kunden Vorlage';
 $lang['settings_clients_allow_registration']                 = 'Kunden können sich anmelden';
 $lang['settings_clients_allow_kb_view_without_registration'] = 'Wissensdatenbank Zugriff ohne Login';
 
@@ -2730,7 +2730,7 @@ $lang['tasks_reminder_notification_before_help'] = 'Notify task assignees about 
 /* STOP TRANSLATING */
 # Version 1.1.0
 $lang['project_invoice_select_all_tasks'] = 'Select all tasks';
-$lang['lead_company'] = 'Company';
+$lang['lead_company'] = 'Unternehmen';
 
 # Version 1.1.1
 $lang['admin_auth_forgot_password_button'] = 'Bestätigen';
@@ -2808,25 +2808,25 @@ $lang['view_pdf'] = 'Zeige PDF';
 $lang['expense_repeat_every'] = 'Wiederhole alle';
 
 # Version 1.1.2
-$lang['leads_switch_to_kanban'] = 'Switch to kan ban';
-$lang['survey_no_questions'] = 'This survey does not have questions added yet.';
-$lang['survey_submit'] = 'Submit';
-$lang['contract_content'] = 'Contract';
-$lang['contract_save'] = 'Save Contract';
-$lang['contract_send_to_email'] = 'Send to email';
-$lang['contract_send_to_client_modal_heading'] = 'Send contract to email';
-$lang['contract_send_to'] = 'Send to';
-$lang['contract_send_to_client_attach_pdf'] = 'Attach PDF';
-$lang['contract_send_to_client_preview_template'] = 'Preview Email Template';
-$lang['include_attachments_to_email'] = 'Include attachments to email';
-$lang['contract_sent_to_client_success'] = 'The contract is successfully sent to the customer';
-$lang['contract_sent_to_client_fail'] = 'Failed to send contract';
+$lang['leads_switch_to_kanban'] = 'Wechseln zu Kan Ban';
+$lang['survey_no_questions'] = 'Dieser Umfrage wurden bisher keine Fragen zugefügt.';
+$lang['survey_submit'] = 'Senden';
+$lang['contract_content'] = 'Vertrag';
+$lang['contract_save'] = 'Vertrag speichern';
+$lang['contract_send_to_email'] = 'Sende an E-Mail';
+$lang['contract_send_to_client_modal_heading'] = 'SEnde Vertrag an E-Mail';
+$lang['contract_send_to'] = 'Senden an';
+$lang['contract_send_to_client_attach_pdf'] = 'PDF anhängen';
+$lang['contract_send_to_client_preview_template'] = 'Vorschau Email Template';
+$lang['include_attachments_to_email'] = 'Alagen der E-Mail hinzufügen';
+$lang['contract_sent_to_client_success'] = 'Der Vertrag wurde erfolgreich an den Kunden versandt ';
+$lang['contract_sent_to_client_fail'] = 'Senden des Vertrages fehlgeschlagen';
 
 # Version 1.1.3
-$lang['client_invalid_username_or_password'] = 'Invalid username or password';
-$lang['client_old_password_incorect']     = 'Your old password is incorrect';
-$lang['client_password_changed']          = 'Your password has been changed';
-$lang['check_for_new_version']          = 'Check for new version';
+$lang['client_invalid_username_or_password'] = 'Ungültiger Nutzername oder Passwort';
+$lang['client_old_password_incorect']     = 'Ihr altes Passwort ist nicht korrekt';
+$lang['client_password_changed']          = 'Ihr Passwort wurde geändert';
+$lang['check_for_new_version']          = 'Überprüfe auf neue Version';
 
 # Version 1.1.4
 $lang['total_leads_deleted'] = 'Total leads deleted: %s';
