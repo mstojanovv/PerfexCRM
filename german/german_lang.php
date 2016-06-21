@@ -1732,7 +1732,7 @@ $lang['invoice_table_item_description']          = 'Beschreibung';
 $lang['invoice_recurring_indicator']             = 'Wiederholung';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'Angebot erfolgreich zu rechnung konvertiert';
+$lang['estimate_convert_to_invoice_successfuly'] = 'Angebot erfolgreich zu Rechnung konvertiert';
 $lang['estimate_table_item_description']         = 'Beschreibung';
 
 # Version 1.0.6
@@ -1740,7 +1740,7 @@ $lang['estimate_table_item_description']         = 'Beschreibung';
 # Currencies
 $lang['cant_delete_base_currency'] = 'Sie können nicht die Basiswährung löschen. Zuerst bitte eine neue Standardwährung definieren.';
 $lang['invoice_copy']              = 'Kopiere Rechnung';
-$lang['invoice_copy_success']      = 'Rechnung erfolgreich kopier';
+$lang['invoice_copy_success']      = 'Rechnung erfolgreich kopiert';
 $lang['invoice_copy_fail']         = 'Kopieren der Rechnung fehlgeschlagen';
 $lang['invoice_due_after_help']    = 'Setze auf Null um Kalkulation zu vermeiden';
 
@@ -1808,7 +1808,7 @@ $lang['expense_list_unbilled']            = 'Nicht abgerechnet';
 $lang['lead_merge_custom_field']          = 'Als benutzerdefinierts Feld zusammen führen';
 $lang['lead_merge_custom_field_existing'] = 'Mit existierendem Datenbank Feld zusammen führen';
 $lang['lead_dont_merge_custom_field']     = 'Nicht zusammen führen';
-$lang['no_lead_notes_found']              = 'Keine Lead Notize gefunden';
+$lang['no_lead_notes_found']              = 'Keine Lead Notizen gefunden';
 $lang['leads_view_list']                  = 'Liste';
 $lang['lost_leads']                       = 'Verlorene Leads';
 $lang['junk_leads']                       = 'Junk Leads';
@@ -1819,9 +1819,9 @@ $lang['lead_unmarked_as_lost']            = 'Lead erfolgreich als nicht verloren
 $lang['leads_status_color']               = 'Farbe';
 
 $lang['lead_mark_as_junk']     = 'Als Junk markieren';
-$lang['lead_unmark_as_junk']   = 'Lead nicht als Junk markieren';
+$lang['lead_unmark_as_junk']   = 'Lead als KEIN Junk markieren';
 $lang['lead_marked_as_junk']   = 'Lead erfolgreich als Junk markiert.';
-$lang['lead_unmarked_as_junk'] = 'Lead erfolgreich als kein Junk markiert.';
+$lang['lead_unmarked_as_junk'] = 'Lead erfolgreich als KEIN Junk markiert.';
 
 $lang['lead_not_found']                                                      = 'Lead nicht gefunden';
 $lang['lead_lost']                                                           = 'Verloren';
@@ -1834,7 +1834,7 @@ $lang['contract_attachments']                                                = '
 # Tasks
 $lang['task_view_make_public']                                               = 'Öffentliche Aufgabe';
 $lang['task_is_private']                                                     = 'Private Aufgabe';
-$lang['task_is_private_help']                                                = 'Diese Aufgabe ist nur Zugewiesenen sichtbar, Followers, dem Ersteller und Adminis';
+$lang['task_is_private_help']                                                = 'Diese Aufgabe ist nur Zugewiesenen sichtbar, Followers, dem Ersteller und Admins';
 $lang['task_finished']                                                       = 'Beendet';
 $lang['task_single_related']                                                 = 'Zugehörig';
 $lang['task_unmark_as_complete']                                             = 'Unkomplett markieren';
@@ -1844,7 +1844,7 @@ $lang['task_public']                                                         = '
 $lang['task_public_help']                                                    = 'Wenn Sie diese Aufgabe öffentlich setzen,wird sie für alle Mitarbeiter sichtbar. Andernfalls nur für zugewiesene Mitarbeiter, Follower, dem Ersteller und dem Administrator';
 # Settings
 $lang['settings_general_favicon']                                            = 'Favicon';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Output client PDF documents from admin area in client language';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Ausgabe von PDF Dokumenten im Admin Berech in Kundensprache';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Wenn diese Option auf JA gesetzt ist und zB. die Standardsprache english ist, der Kunde aber deutsch eingestellt hat, wird das pdf Dokument in deutsch erstellt.';
 $lang['settings_cron_surveys']                                               = 'Umfragen';
 $lang['settings_default_tax']                                                = 'Standard Steuer';
@@ -1857,32 +1857,32 @@ $lang['settings_gcal_main_calendar_id_help']                                 = '
 
 $lang['show_on_calendar']                  = 'Zeige auf dem Kalender';
 $lang['show_invoices_on_calendar']         = 'Rechnungen';
-$lang['show_estimates_on_calendar']        = 'Estimates';
+$lang['show_estimates_on_calendar']        = 'Angebote';
 $lang['show_contracts_on_calendar']        = 'Verträge';
-$lang['show_tasks_on_calendar']            = 'Tasks';
-$lang['show_client_reminders_on_calendar'] = 'Client Reminders';
+$lang['show_tasks_on_calendar']            = 'Aufgaben';
+$lang['show_client_reminders_on_calendar'] = 'Kunden Erinnerungen';
 
 # Leads
-$lang['copy_custom_fields_convert_to_customer']                      = 'Copy custom fields to customer profile';
-$lang['copy_custom_fields_convert_to_customer_help']                 = 'If any of the following custom fields do not exists for customer will be auto created with the same name otherwise only the value will be copied from the lead profile.';
+$lang['copy_custom_fields_convert_to_customer']                      = 'Kopiere benutzerdefinierte Felder zum Kundenprofil';
+$lang['copy_custom_fields_convert_to_customer_help']                 = 'Wenn eines der folgenden benutzerdefinierten Felder noch nicht beim Kunden existiert, wird es automatisch erstellt. Anderfalls wird nur der Wert vom Lead Profil kopiert.';
 $lang['lead_profile']                                                = 'Profil';
 $lang['lead_is_client']                                              = 'Kunden';
 $lang['leads_kan_ban_notes_title']                                   = 'Notizen';
-$lang['leads_email_integration_folder_no_encryption']                = 'No Encryption';
+$lang['leads_email_integration_folder_no_encryption']                = 'Keine Verschlüsselung';
 $lang['leads_email_integration']                                     = 'Email Integration';
-$lang['leads_email_active']                                          = 'Active';
+$lang['leads_email_active']                                          = 'Aktiv';
 $lang['leads_email_integration_imap']                                = 'IMAP Server';
-$lang['leads_email_integration_email']                               = 'Email address (Login)';
-$lang['leads_email_integration_password']                            = 'Password';
+$lang['leads_email_integration_email']                               = 'Email adress (Login)';
+$lang['leads_email_integration_password']                            = 'Passwort';
 $lang['leads_email_integration_port']                                = 'Port';
-$lang['leads_email_integration_default_source']                      = 'Default Source';
-$lang['leads_email_integration_check_every']                         = 'Check Every (minutes)';
-$lang['leads_email_integration_default_assigned']                    = 'Responsibe for new lead';
-$lang['leads_email_encryption']                                      = 'Encryption';
-$lang['leads_email_integration_updated']                             = 'Email Integration Updated';
-$lang['leads_email_integration_default_status']                      = 'Default Status';
-$lang['leads_email_integration_folder']                              = 'Folder';
-$lang['leads_email_integration_notify_when_lead_imported']           = 'Notify when lead imported';
+$lang['leads_email_integration_default_source']                      = 'Standard Quelle';
+$lang['leads_email_integration_check_every']                         = 'prüfe alle (Minuten)';
+$lang['leads_email_integration_default_assigned']                    = 'Verantwortlich für neuen Lead';
+$lang['leads_email_encryption']                                      = 'Verschlüsselung';
+$lang['leads_email_integration_updated']                             = 'Email Integration aktualisert';
+$lang['leads_email_integration_default_status']                      = 'Standard Status';
+$lang['leads_email_integration_folder']                              = 'Ordner';
+$lang['leads_email_integration_notify_when_lead_imported']           = 'Informieren wenn Lead importiert ist';
 $lang['leads_email_integration_only_check_unseen_emails']            = 'Wähle nur nicht /* veröffentlicht */e Emails';
 $lang['leads_email_integration_only_check_unseen_emails_help']       = 'Das Skript wird automatisch die Emails nach dem Markieren als geöffnet setzen. Verwendet, um zu verhindenr dass alle Mails immer und immer wieder markiert werden. Es ist nicht empfohlen, diese Option zu deaktiveren wenn Sie eine Menge Mails haben und eine Menge Weiterleitungen an die Mail haben, die Sie für Leads definiert haben.';
 $lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Benachrichtigen, wenn Lead E-Mail mehrfach versendet.';
@@ -1970,7 +1970,7 @@ $lang['task_checklist_items']     = 'Checklisten Einträge';
 $lang['default_pass_clients_import'] = 'Kennwort für alle importierten Benutzer';
 $lang['simulate_import']             = 'Simuliere Import';
 $lang['import_upload_failed']        = 'Hochladen fehlgeschlagen';
-$lang['import_total_imported']       = 'Total importiert: %s';
+$lang['import_total_imported']       = 'Gesamt importiert: %s';
 $lang['import_leads']                = 'Leads importieren';
 $lang['import_customers']            = 'Kunden importieren';
 $lang['choose_csv_file']             = 'Wähle eine CSV Datei';
@@ -1987,7 +1987,7 @@ $lang['delete_invoice'] = 'Lösche Rechnung';
 # Calendar
 $lang['calendar_lead_reminder'] = 'Lead Erinnerung';
 
-$lang['items']      = 'Items';
+$lang['items']      = 'Einträge';
 $lang['support']    = 'Support';
 $lang['new_ticket'] = 'Neues Ticket';
 
@@ -2019,19 +2019,19 @@ $lang['reminder_added_successfuly']                               = 'Erinnerung 
 $lang['reminder_description']                                     = 'Beschreibung';
 $lang['reminder_date']                                            = 'Datum';
 $lang['reminder_staff']                                           = 'Erinnern';
-$lang['reminder_is_notified']                                     = 'Ist erinnert?';
+$lang['reminder_is_notified']                                     = 'Wurde erinnert?';
 $lang['reminder_is_notified_boolean_no']                          = 'Nein';
 $lang['reminder_is_notified_boolean_yes']                         = 'Ja';
 $lang['reminder_set_to']                                          = 'Setze Erinnerung zu ';
 $lang['reminder_deleted']                                         = 'Erinnerung erfolgreich gelöscht';
 $lang['reminder_failed_to_delete']                                = 'Fehler beim Löschen der Erinnerung';
 $lang['show_invoice_estimate_status_on_pdf']                      = 'Zeige Rechnung / Angebot Status in PDF'; //ToDo
-$lang['email_piping_default_priority']                            = 'Default priority on piped ticket';
+$lang['email_piping_default_priority']                            = 'Standard Priorität bei piped Tickets';
 $lang['show_lead_reminders_on_calendar']                          = 'Lead Erinnerung';
 $lang['tickets_piping']                                           = 'Email Piping';
-$lang['email_piping_only_replies']                                = 'Only Replies Allowed by Email';
+$lang['email_piping_only_replies']                                = 'Nur Antworten per E-Mail erlauben';
 $lang['email_piping_only_registered']                             = 'Pipe Only on Registed Users';
-$lang['email_piping_enabled']                                     = 'Enabled';
+$lang['email_piping_enabled']                                     = 'Aktiviert';
 
 # Estimates
 $lang['view_estimate_as_client']         = 'Zeige Kostenvoranschlag als Kunde';
@@ -2047,18 +2047,18 @@ $lang['proposal_address']                       = 'Adresse';
 $lang['proposal_phone']                         = 'Telefon';
 $lang['proposal_email']                         = 'E-Mail';
 $lang['proposal_date_created']                  = 'Daum erstellt';
-$lang['proposal_open_till']                     = 'Open Till';
+$lang['proposal_open_till']                     = 'Offen bis';
 $lang['proposal_status_open']                   = 'Offen';
 $lang['proposal_status_accepted']               = 'Akzeptiert';
 $lang['proposal_status_declined']               = 'Abgelehnt';
-$lang['proposal_status_sent']                   = 'Sent';
+$lang['proposal_status_sent']                   = 'Gesendet';
 $lang['proposal_expired']                       = 'Abgelaufen';
 $lang['proposal_subject']                       = 'Thema/Betreff';
-$lang['proposal_total']                         = 'Total';
+$lang['proposal_total']                         = 'Gesamtsumme';
 $lang['proposal_status']                        = 'Status';
 $lang['proposals_list_all']                     = 'Alle';
-$lang['proposals_leads_related']                = 'Mit Leads Verbunden';
-$lang['proposals_customers_related']            = 'Mit Kunden Verbunden';
+$lang['proposals_leads_related']                = 'Mit Leads verbunden';
+$lang['proposals_customers_related']            = 'Mit Kunden verbunden';
 $lang['proposal_related']                       = 'Verbunden';
 $lang['proposal_for_lead']                      = 'Lead';
 $lang['proposal_for_customer']                  = 'Kunden';
@@ -2087,26 +2087,26 @@ $lang['proposal_to']                            = 'Für';
 $lang['proposal_add_comment']                   = 'Komentart hinzufügen';
 $lang['proposal_sent_to_email_success']         = 'Angbeot erfolgreich per E-Mail versendet';
 $lang['proposal_sent_to_email_fail']            = 'Fehler beim versenden des Angebotes';
-$lang['proposal_copy_fail']                     = 'Fehler ebi kopieres des Angbotes';
-$lang['proposal_copy_success']                  = 'Angbot erfolreich kopiert';
+$lang['proposal_copy_fail']                     = 'Fehler bei Kopieren des Angbotes';
+$lang['proposal_copy_success']                  = 'Angbot erfolgreich kopiert';
 $lang['proposal_status_changed_success']        = 'Angbot Status erfolgreich verändert';
-$lang['proposal_status_changed_fail']           = 'Fehler beim ändern des Status beim Angebot';
+$lang['proposal_status_changed_fail']           = 'Fehler beim Ändern des Status beim Angebot';
 $lang['proposal_assigned']                      = 'Zugewiesen';
 $lang['proposal_comments']                      = 'Kommentar';
 $lang['proposal_convert']                       = 'Umwandeln';
-$lang['proposal_convert_estimate']              = 'Kostenvoranschlag';
+$lang['proposal_convert_estimate']              = 'Angebot';
 $lang['proposal_convert_invoice']               = 'Rechnung';
-$lang['proposal_convert_to_estimate']           = 'Umwandeln zu Kostenvoranschlag';
+$lang['proposal_convert_to_estimate']           = 'Umwandeln zu Angebot';
 $lang['proposal_convert_to_invoice']            = 'Umwandeln zu Rechnung';
 $lang['proposal_convert_to_lead_disabled_help'] = 'Sie müssen den Lead zuerst in einen Kunden umwandeln - %s';
-$lang['proposal_convert_not_related_help']      = 'The proposal needs to be related to customer in order to convert to %s';
+$lang['proposal_convert_not_related_help']      = 'Der Vorschlag muss zu einem Kunden gehören, um ihn zu %s zu wandeln.';
 $lang['proposal_converted_to_estimate_success'] = 'Angebot erfolgreich zu einem Kostenvoranschlag umgewandelt';
 $lang['proposal_converted_to_invoice_success']  = 'Angebot erfolgreich zu einer Rechnung umgewandelt';
 $lang['proposal_converted_to_estimate_fail']    = 'Angebot nicht erfolgreich zu einem Kostenvoranschlag umgewandelt';
 $lang['proposal_converted_to_invoice_fail']     = 'Angebot nicht erfolgreich zu einer Rechnung umgewandelt';
 
 # Angebot - view proposal template
-$lang['proposal_total_info']   = 'Total %s';
+$lang['proposal_total_info']   = 'Gesamt %s';
 $lang['proposal_accept_info']  = 'Akzeptiert';
 $lang['proposal_decline_info'] = 'Abgelehnt';
 $lang['proposal_pdf_info']     = 'PDF';
@@ -2134,85 +2134,85 @@ $lang['task_table_is_not_finished_indicator'] = 'Nein';
 $lang['tasks_dt_finished']                    = 'Abgeschlossen';
 
 # Customer Groups
-$lang['customer_group_add_heading']  = 'Add New Customer Group';
-$lang['customer_group_edit_heading'] = 'Edit Customer Group';
-$lang['new_customer_group']          = 'New Customer Group';
+$lang['customer_group_add_heading']  = 'Neue Kundengruppe zufügen';
+$lang['customer_group_edit_heading'] = 'Kundengruppe bearbeiten';
+$lang['new_customer_group']          = 'Neue Kundengruppe';
 $lang['customer_group_name']         = 'Name';
 $lang['customer_groups']             = 'Gruppe';
 $lang['customer_group']              = 'Kunden Gruppe';
 $lang['customer_group_lowercase']    = 'kunden gruppe';
 
-$lang['customer_have_invoices_by']       = 'Contains invoices by status %s';
-$lang['customer_have_estimates_by']      = 'Contains estimates by status %s';
-$lang['customer_have_contracts_by_type'] = 'Having contracts by type %s';
+$lang['customer_have_invoices_by']       = 'Enthält Rechnungem mit Status %s';
+$lang['customer_have_estimates_by']      = 'Enthält Angebote mit Status %s';
+$lang['customer_have_contracts_by_type'] = 'Hat Verträge vom Typ %s';
 
 # Custom fields
 $lang['custom_field_show_on_table']              = 'Zeige auf Tabelle';
 $lang['custom_field_show_on_client_portal']      = 'Zeige im Frontend';
-$lang['custom_field_show_on_client_portal_help'] = 'If this field is checked also will be shown in tables';
-$lang['custom_field_visibility']                 = 'Visibility';
+$lang['custom_field_show_on_client_portal_help'] = 'Wenn das Feld aktiviert wird, wird es auch in Tabellen angezeigt';
+$lang['custom_field_visibility']                 = 'Sichtbarkeit';
 
 # Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'You can add here also translate strings. So if staff/system have language other then the default the menu item names will be outputed in the staff language. Otherwise if the string dont exists in the translate file will be taken the string you enter here.';
+$lang['utilities_menu_translate_name_help'] = 'Sie können hier auch Übersetzungsstrings zufügen. Wenn der Mitarbeiter / das System eine andere als die Standard Sprache nutzt, wird der Menüpunkt in der Mitarbeitersprache ausgegeben. Andernfalls, wenn der String in der Übersetzung nicht existiert, wird der hier eingegebene String verwendet.';
 $lang['utilities_menu_icon']                = 'Icon';
-$lang['active_menu_items']                  = 'Active Menu Items';
-$lang['inactive_menu_items']                = 'Inactive Menu Items';
-$lang['utilities_menu_permission']          = 'Permission';
+$lang['active_menu_items']                  = 'Aktive Menüpunkte';
+$lang['inactive_menu_items']                = 'Inaktive Menüpunkte';
+$lang['utilities_menu_permission']          = 'Berechtigung';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = 'Name';
-$lang['utilities_menu_save']                = 'Save Menu';
+$lang['utilities_menu_save']                = 'Menü speichern';
 
 # Knowledge Base
-$lang['view_articles_list']     = 'View Articles';
-$lang['view_articles_list_all'] = 'All Articles';
-$lang['als_add_article']        = 'Add Article';
-$lang['als_all_articles']       = 'All Articles';
-$lang['als_kb_groups']          = 'Groups';
+$lang['view_articles_list']     = 'Artikel ansehen';
+$lang['view_articles_list_all'] = 'Alle Artikel';
+$lang['als_add_article']        = 'Artikel zufügen';
+$lang['als_all_articles']       = 'Alle Artikel';
+$lang['als_kb_groups']          = 'Gruppen';
 
 # Customizer Menu
-$lang['menu_builder']            = 'Menu Setup';
-$lang['main_menu']               = 'Main Menu';
-$lang['setup_menu']              = 'Setup Menu';
-$lang['utilities_menu_url_help'] = '%s is auto appended to the url';
+$lang['menu_builder']            = 'Menü Setup';
+$lang['main_menu']               = 'Haupt-Menü';
+$lang['setup_menu']              = 'Menüsetup';
+$lang['utilities_menu_url_help'] = '%s wird automatisch an die Url angefügt';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Spam Filters';
 $lang['spam_filter']                  = 'Spam Filter';
-$lang['new_spam_filter']              = 'New Spam Filter';
-$lang['spam_filter_blocked_senders']  = 'Blocked Senders';
-$lang['spam_filter_blocked_subjects'] = 'Blocked Subjects';
-$lang['spam_filter_blocked_phrases']  = 'Blocked Phrases';
-$lang['spam_filter_content']          = 'Content';
-$lang['spamfilter_edit_heading']      = 'Edit Spam Filter';
-$lang['spamfilter_add_heading']       = 'Add Spam Filter';
-$lang['spamfilter_type']              = 'Type';
-$lang['spamfilter_type_subject']      = 'Subject';
+$lang['new_spam_filter']              = 'Neuer Spam Filter';
+$lang['spam_filter_blocked_senders']  = 'Blockierte Sender';
+$lang['spam_filter_blocked_subjects'] = 'Blockierte Betreffzeilen';
+$lang['spam_filter_blocked_phrases']  = 'Blockierte Wortphrasen';
+$lang['spam_filter_content']          = 'Inhalt';
+$lang['spamfilter_edit_heading']      = 'Spam Filter bearbeiten';
+$lang['spamfilter_add_heading']       = 'Spam Filter zufügen';
+$lang['spamfilter_type']              = 'Typ';
+$lang['spamfilter_type_subject']      = 'Betreff';
 $lang['spamfilter_type_sender']       = 'Sender';
 $lang['spamfilter_type_phrase']       = 'Phrase';
 
 # Tickets
-$lang['block_sender']               = 'Block Sender';
-$lang['sender_blocked']             = 'Sender Blocked';
-$lang['sender_blocked_successfuly'] = 'Sender Blocked Successfuly';
-$lang['ticket_date_created']        = 'Date Created';
+$lang['block_sender']               = 'Blockiere Absender';
+$lang['sender_blocked']             = 'Absender blockiert';
+$lang['sender_blocked_successfuly'] = 'Absender erfolgreich blockiert';
+$lang['ticket_date_created']        = 'Erstelldatum';
 
 #KB
-$lang['edit_kb_group']             = 'Edit group';
+$lang['edit_kb_group']             = 'Gruppe bearbeiten';
 # Leads
-$lang['edit_source']               = 'Edit Source';
-$lang['edit_status']               = 'Edit Status';
+$lang['edit_source']               = 'Quelle bearbeiten';
+$lang['edit_status']               = 'Status bearbeiten';
 # Contacts
-$lang['contract_type_edit']        = 'Edit Contract Type';
+$lang['contract_type_edit']        = 'Vertragstyp bearbeiten';
 # Reports
-$lang['report_by_customer_groups'] = 'Total Value By Customer Groups';
+$lang['report_by_customer_groups'] = 'Gesamtumsatz durch Kundegruppe';
 #Utilities
 $lang['ticket_pipe_log']           = 'Ticket Pipe Log';
-$lang['ticket_pipe_name']          = 'From Name';
-$lang['ticket_pipe_email_to']      = 'To';
-$lang['ticket_pipe_email']         = 'From Email';
-$lang['ticket_pipe_subject']       = 'Subject';
-$lang['ticket_pipe_message']       = 'Message';
-$lang['ticket_pipe_date']          = 'Date';
+$lang['ticket_pipe_name']          = 'Von Name';
+$lang['ticket_pipe_email_to']      = 'An';
+$lang['ticket_pipe_email']         = 'Von Email';
+$lang['ticket_pipe_subject']       = 'Betreff';
+$lang['ticket_pipe_message']       = 'Nachricht';
+$lang['ticket_pipe_date']          = 'Datum';
 $lang['ticket_pipe_status']        = 'Status';
 
 # Home
@@ -2225,25 +2225,25 @@ $lang['home_latest_activity']       = 'Letzte Augaben';
 $lang['home_my_tasks']              = 'Meine Aufgaben';
 $lang['home_latest_activity']       = 'Letzte Aufgaben';
 $lang['home_my_todo_items']         = 'Meine ToDo´s';
-$lang['home_widget_view_all']       = 'Zeige alles';
+$lang['home_widget_view_all']       = 'Zeige alle';
 $lang['home_stats_full_report']     = 'Komplette Aufzeichung';
 
 # Validation - Customer Portal
 
-$lang['form_validation_required']    = 'Das {field} Feld ist ein Pfichfeld.';
+$lang['form_validation_required']    = 'Das {field} Feld ist ein Pfichtfeld.';
 $lang['form_validation_valid_email'] = 'Das {field} muss eine E-Mailadresse sein.';
 $lang['form_validation_matches']     = 'Das {field} das Feld stimt nicht mit {param} überein.';
 $lang['form_validation_is_unique']   = 'Das {field} muss ein eindeutiger Wert sein.';
 
 # Version 1.0.8
 # Notifications & Leads/Estimates/Invoices Activity Log
-$lang['not_event'] = 'Aufgabe startet heute - %s ...';
-$lang['not_event_public'] = 'Team Aufgabe startet heute - %s ...';
-$lang['not_contract_expiry_reminder'] = 'Vertragsauslauf Erinnerung- %s ...';
-$lang['not_recurring_expense_cron_activity_heading'] = 'Einmalaufwendungen Cron-Job Aktivität';
-$lang['not_recurring_invoices_cron_activity_heading'] = 'Wiederholungsrechnungen Cron Auftragsaktivität';
-$lang['not_recurring_total_renewed'] = 'Insgesamt erneuert: %s';
-$lang['not_recurring_expenses_action_taken_from'] = 'Aktion aus wiederkehrenden Kosten übernommen';
+$lang['not_event']                      = 'Aufgabe startet heute - %s ...';
+$lang['not_event_public']               = 'Team Aufgabe startet heute - %s ...';
+$lang['not_contract_expiry_reminder']   = 'Vertragsauslauf Erinnerung- %s ...';
+$lang['not_recurring_expense_cron_activity_heading']    = 'Einmalaufwendungen Cron-Job Aktivität';
+$lang['not_recurring_invoices_cron_activity_heading']   = 'Wiederholungsrechnungen Cron Auftragsaktivität';
+$lang['not_recurring_total_renewed']                    = 'Insgesamt erneuert: %s';
+$lang['not_recurring_expenses_action_taken_from']       = 'Aktion aus wiederkehrenden Kosten übernommen';
 $lang['not_invoice_created'] = 'Rechnung erstellt:';
 $lang['not_invoice_renewed'] = 'Erneuere Rechnung:';
 $lang['not_expense_renewed'] = 'Erneuere Betriebsausgaben:';
@@ -2276,7 +2276,7 @@ $lang['not_lead_activity_marked_junk'] = 'Markiere als Spam';
 $lang['not_lead_activity_unmarked_junk'] = 'Entferne Markierung als Spam';
 $lang['not_lead_activity_added_attachment'] = 'Anlage hinzufügen';
 $lang['not_lead_activity_email_change'] = 'Lead email was not the same with client email when this lead is converted to client.';
-$lang['not_lead_activity_converted_email'] = 'Lead email changed. First lead email was: %s and added as customer with email %s';
+$lang['not_lead_activity_converted_email'] = 'Lead email geändert. Vorherige war: %s und wurde dem Kunden mit der Mail: %s hinzugefügt';
 $lang['not_lead_activity_converted'] = '%s konvertiere diesen Interessenten zum Kunden';
 $lang['not_liked_your_post'] = '%s gefällt dein Eintrag %s ...';
 $lang['not_commented_your_post'] = '%s hat deinen Eintrag kommentiert %s ...';
@@ -2295,34 +2295,34 @@ $lang['not_task_new_attachment'] = 'Neue Anlage hinzugefügt';
 $lang['not_task_marked_as_complete'] = 'markiere Aufgabe als erledigt %s';
 $lang['not_task_unmarked_as_complete'] = 'entferne markierung als Erledigt von dieser Aufgabe %s';
 $lang['not_ticket_assigned_to_you'] = 'Ticket Ihnen zugewiesenen - %s ...';
-$lang['not_ticket_reassigned_to_you'] = 'Ticket Ihnen entwiesenen- %s ...';
-$lang['not_estimate_customer_accepted'] = 'Glückwunsch! Der Kunde hat den Kostenvoranschlag %s akzeptiert!';
-$lang['not_estimate_customer_declined'] = 'Der Kunde hat den Kostenvoranschlag %s abgelehnt.';
-$lang['estimate_activity_converted'] = 'wandel diesen kostenvoranschlag zu einer Rechnung um.<br /> %s';
-$lang['estimate_activity_created'] = 'Erstelle den Kostenvoranschlag';
+$lang['not_ticket_reassigned_to_you'] = 'Ticket Ihnen nicht zugewiesen - %s ...';
+$lang['not_estimate_customer_accepted'] = 'Glückwunsch! Der Kunde hat das Angebot %s akzeptiert!';
+$lang['not_estimate_customer_declined'] = 'Der Kunde hat das Angebot %s abgelehnt.';
+$lang['estimate_activity_converted'] = 'Wandele das Angebot zu einer Rechnung um.<br /> %s';
+$lang['estimate_activity_created'] = 'Erstelle das Angebot';
 $lang['invoice_estimate_activity_removed_item'] = 'Entferne Eintrag <b>%s</b>';
-$lang['estimate_activity_number_changed'] = 'Kostenvoranschlag Nummer gewechselt von %s zu %s';
+$lang['estimate_activity_number_changed'] = 'Angebots-Nummer gewechselt von %s zu %s';
 $lang['invoice_activity_number_changed'] = 'Rechnungsnummer gewechselt von  %s zu %s';
 $lang['invoice_estimate_activity_updated_item_short_description'] = 'Aktualisierte die Kurzbschreibung von %s zu %s';
 $lang['invoice_estimate_activity_updated_item_long_description'] = 'Aktualisierte die lange Beschreibung von  <b>%s</b> zu <b>%s</b>';
 $lang['invoice_estimate_activity_updated_item_rate'] = 'Aktualisierte Preis von  %s zu %s';
 $lang['invoice_estimate_activity_updated_qty_item'] = 'Aktualisierte Anzahl <b>%s</b> von %s zu %s';
 $lang['invoice_estimate_activity_added_item'] = 'Neue Position eingefügt <b>%s</b>';
-$lang['estimate_activity_client_accepted_and_converted'] = 'Kunde hat den Kostenvoranschlag angenommen. Es wurde die Rechnung %s erstellt.';
-$lang['estimate_activity_client_accepted'] = 'Kunde hat diesen Kostenvoranschlag angenommen';
-$lang['estimate_activity_client_declined'] = 'Kunde hat diesen Kostenvoranschlag nicht angenommen';
-$lang['estimate_activity_marked'] = 'markiere den Kostenvoranschlag als %s';
-$lang['invoice_activity_status_updated'] = 'Rechnung akuslaiisert von %s zu %s';
+$lang['estimate_activity_client_accepted_and_converted'] = 'Kunde hat das Angebot angenommen. Es wurde die Rechnung %s erstellt.';
+$lang['estimate_activity_client_accepted'] = 'Kunde hat diesen Angebot angenommen';
+$lang['estimate_activity_client_declined'] = 'Kunde hat diesen Angebot nicht angenommen';
+$lang['estimate_activity_marked'] = 'Markiere das Angebotals %s';
+$lang['invoice_activity_status_updated'] = 'Rechnung aktualisiert von %s zu %s';
 $lang['invoice_activity_created'] = 'Erstellte neue Rechnung';
-$lang['invoice_activity_from_expense'] = 'Konvertierte kostenvoranschlag zu Rechnung';
+$lang['invoice_activity_from_expense'] = 'Konvertierte Angebot zu Rechnung';
 $lang['invoice_activity_recuring_created'] = '[Wiederkehrend] Rechnung erstellt von CRON';
-$lang['invoice_activity_recuring_from_expense_created'] = '[Rechnugn von Kostenvoranschlag] Rechnung erstellt von CRON';
+$lang['invoice_activity_recuring_from_expense_created'] = '[Rechnung von Kostenvoranschlag] Rechnung erstellt von CRON';
 $lang['invoice_activity_sent_to_client_cron'] = 'Rechnung an den Kunden gesendet von CRON';
 $lang['invoice_activity_sent_to_client'] = 'sendete Rechnung an Kunden';
 $lang['invoice_activity_marked_as_sent'] = 'markierte Rechnung als versendet';
-$lang['invoice_activity_payment_deleted'] = 'löschte Zahlung von Rechnung. Zahlung #%s, Total: %s';
+$lang['invoice_activity_payment_deleted'] = 'löschte Zahlung von Rechnung. Zahlung #%s, Gesamt: %s';
 $lang['invoice_activity_payment_made_by_client'] = 'Kunde machte eine Zahlung über <b>%s</b> - %s';
-$lang['invoice_activity_payment_made_by_staff'] = 'Aufgezeichnet Zahlung von insgesamt <b>%s</b> - %s';
+$lang['invoice_activity_payment_made_by_staff'] = 'Aufgezeichnete Zahlung von insgesamt <b>%s</b> - %s';
 $lang['invoice_activity_added_attachment'] = 'Anlage anfügen';
 
 # Navigation
@@ -2339,10 +2339,10 @@ $lang['estimate_copied_fail'] = 'Fehler beim Kopieren des Angebotes';
 # Tasks
 $lang['tasks_view_assigned_to_user'] = 'Aufgabe ist mir zugeordnet';
 $lang['tasks_view_follower_by_user'] = 'Aufgaben den ich folge';
-$lang['no_tasks_found'] = 'Keine Aufgaben / WVL gefunden';
+$lang['no_tasks_found'] = 'Keine Aufgaben gefunden';
 
 # Leads
-$lang['leads_dt_datecreated'] = 'Ersterllt';
+$lang['leads_dt_datecreated'] = 'Erstellt';
 $lang['leads_sort_by'] = 'Sortieren nach';
 $lang['leads_sort_by_datecreated'] = 'Erstellt am';
 $lang['leads_sort_by_kanban_order'] = 'Kan Ban Sortierung';
@@ -2356,22 +2356,22 @@ $lang['proposal_items_tax'] = 'Steuer';
 $lang['proposal_items_amount'] = 'Gesamt';
 
 # Authentication
-$lang['check_email_for_reseting_password'] = 'Check your email for further instructions resetting your password';
-$lang['inactive_account'] = 'Inactive Account';
-$lang['error_setting_new_password_key'] = 'Error setting new password';
-$lang['password_reset_message'] = 'Your password has been reset. Please login now!';
-$lang['password_reset_message_fail'] = 'Error resetting your password. Try again.';
-$lang['password_reset_key_expired'] = 'Password key expired or invalid user';
+$lang['check_email_for_reseting_password'] = 'Prüfe deine Mail für weitere Instruktionen zum Rücksetzen des Passwortes';
+$lang['inactive_account'] = 'Inaktiver Account';
+$lang['error_setting_new_password_key'] = 'Error beim Setzen des neuen Passwortes';
+$lang['password_reset_message'] = 'Dein Passwort wurde zurück gesetzt. Bitte jetzt einloggen!';
+$lang['password_reset_message_fail'] = 'Error beim Rücksetzen des Passwortes. Bitte erneut versuchen.';
+$lang['password_reset_key_expired'] = 'Passwortschlüssel ist abgelaufen oder der Nutzer ist invalid';
 $lang['admin_auth_reset_pass_repeat'] = 'Passwort wiederholen';
 $lang['auth_reset_pass_email_not_found'] = 'Email nicht gefunden';
 $lang['auth_reset_password_submit'] = 'Passwort zurücksetzen';
 
 # Settings
-$lang['settings_amount_to_words'] = 'Amount to words';
-$lang['settings_amount_to_words_desc'] = 'Output total amount to words in invoice/estimate';
+$lang['settings_amount_to_words'] = 'Wortausgabe';
+$lang['settings_amount_to_words_desc'] = 'Gibt den Gesamtbetrag in Worten auf der Rechnung / dem Angebot aus';
 $lang['settings_amount_to_words_enabled'] = 'Aktivieren';
-$lang['settings_total_to_words_lowercase'] = 'number words into lowercase';
-$lang['settings_show_tax_per_item'] = 'Show TAX per item (Invoices/Estimates)';
+$lang['settings_total_to_words_lowercase'] = 'Wortausgabe in Kleinbuchstaben';
+$lang['settings_show_tax_per_item'] = 'Zeige Steuer pro Posten (Rechnungen/Angebote)';
 
 # Reports
 $lang['report_sales_months_three_months'] = 'letzten 3 Monate';
@@ -2383,31 +2383,31 @@ $lang['report_invoice_amount'] = 'Betrag';
 $lang['report_invoice_amount_with_tax'] = 'Betrag mit Steuern';
 $lang['report_invoice_amount_open'] = 'Betrag offen';
 $lang['report_invoice_status'] = 'Status';
-$lang['report_invoice_total_amount_with_tax'] = 'Total mit Mwst.';
-$lang['report_invoice_total_amount_without_tax'] = 'Total Netto';
+$lang['report_invoice_total_amount_with_tax'] = 'Gesamt mit Mwst.';
+$lang['report_invoice_total_amount_without_tax'] = 'Gesamt Netto';
 $lang['report_invoice_total_taxes'] = 'Steuern';
 
 #Version 1.0.9
 
 # Home stats
 $lang['home_stats_see_weekly_payments'] = 'Zeige aktuelle Zahlungen';
-$lang['home_stats_by_project_status'] = 'Statistics by project status';
+$lang['home_stats_by_project_status'] = 'Statistiken nach Projekt Status';
 $lang['home_invoice_overview'] = 'Rechnungs Überblick';
 $lang['home_estimate_overview'] = 'Kostenvoranschlag Überblick';
 $lang['home_proposal_overview'] = 'Angebote Überblick';
-$lang['home_lead_overview'] = 'Lead overview';
+$lang['home_lead_overview'] = 'Lead Übersicht';
 $lang['home_my_projects'] = 'Meine Projekte';
-$lang['home_announcements'] = 'Announcements';
+$lang['home_announcements'] = 'Ankündigungen';
 
 # Settings
-$lang['settings_leads_kanban_limit'] = 'Limit leads Kan Ban rows per status';
-$lang['settings_group_misc'] = 'Misc';
-$lang['show_projects_on_calendar'] = 'Show projects on calendar';
-$lang['settings_media_max_file_size_upload'] = 'Max file size upload in Media (MB)';
-$lang['settings_client_staff_add_edit_delete_task_comments_first_hour'] = 'Allow customer/staff to add/edit task comments only in the first hour (Administrators not applied)';
+$lang['settings_leads_kanban_limit'] = 'Limitiere die Leads auf Kan Ban Reihen pro Status';
+$lang['settings_group_misc'] = 'Verschiedenes';
+$lang['show_projects_on_calendar'] = 'Zeige Projekte im Kalender';
+$lang['settings_media_max_file_size_upload'] = 'Max dateigröße in Medien (MB)';
+$lang['settings_client_staff_add_edit_delete_task_comments_first_hour'] = 'Erlaube dem Kunden / Mitarbeiter Kommentare nur in der ersten Stunde zu bearbeiten / hinzuzufügen. (Administratoren sind ausgenommen)';
 
 # Email templates
-$lang['email_template_only_domain_email'] = 'Only domain email';
+$lang['email_template_only_domain_email'] = 'Nur Domain Email';
 
 # Announcements
 $lang['dismiss_announcement'] = 'Dismiss announcement';
