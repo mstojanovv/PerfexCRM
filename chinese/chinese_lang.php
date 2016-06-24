@@ -943,9 +943,6 @@ $lang['nav_no_notifications']       = '没有新通知';
 $lang['nav_view_all_notifications'] = '查看所有通知';
 $lang['nav_customizer_tooltip']     = '自定义设置';
 $lang['nav_notifications_tooltip']  = '查看通知';
-$lang['nav_sidebar_toggle_tooltip'] = '切换侧边栏';
-
-
 
 ## Clients
 #
@@ -968,13 +965,6 @@ $lang['clients_contracts_dt_end_date']   = '结束日期';
 # Home
 $lang['clients_quick_invoice_info']                = '发票概述';
 $lang['clients_home_currency_select_tooltip']      = '你需要选择币种因为你有发票使用不同的币种';
-$lang['clients_report_sales_months_all_time']      = '全部时间';
-$lang['clients_report_sales_months_six_months']    = '过去的6个月';
-$lang['clients_report_sales_months_twelve_months'] = '过去的12个月';
-$lang['clients_report_sales_months_custom']        = '自定义';
-$lang['clients_report_select_from_date']           = '从';
-$lang['clients_report_select_to_date']             = '到';
-
 # Invoices
 $lang['clients_invoice_html_btn_download'] = '下载';
 
@@ -1202,7 +1192,6 @@ $lang['invoice_html_amount']                     = '金额';
 # Admin
 #
 # DataTables
-$lang['dt_column_visibility_tooltip'] = '可以使用显示方式来调整所需要的信息，重置情况下所有信息将会被导出.';
 $lang['dt_button_column_visibility']  = '显示方式';
 $lang['dt_button_reload']             = '重置';
 $lang['dt_button_excel']              = 'Excel';
@@ -2894,5 +2883,20 @@ $lang['project_overview_expenses_unbilled'] = 'Unbilled Expenses';
 $lang['announcement_date_list'] = 'Date';
 $lang['project_setting_view_finance_overview'] = 'view finance overview';
 
-/* STOP TRANSLATING */
-?>
+# Version 1.1.6
+$lang['project_activity_recorded_expense'] = 'Recorded Expense';
+$lang['save_customer_and_add_contact'] = 'Save and create contact';
+$lang['tickets_chart_weekly_opening_stats'] = 'Weekly Stats';
+$lang['related_knowledgebase_articles'] = 'Related Articles';
+$lang['detailed_overview'] = 'Tasks Overview';
+$lang['tasks_total_checklists_finished'] = 'Total checklist items marked as finished';
+$lang['tasks_total_added_attachments'] = 'Total attachments added';
+$lang['tasks_total_comments'] = 'Total comments';
+$lang['task_finished_on_time'] = 'Finished on time?';
+$lang['task_finished_on_time_indicator'] = 'Yes';
+$lang['task_not_finished_on_time_indicator'] = 'No';
+$lang['task_filter_fetch_month_by'] = 'Fetch month from';
+$lang['filter'] = 'Filter';
+$lang['task_filter_detailed_all_months'] = 'All Months';
+$lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
