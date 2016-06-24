@@ -948,10 +948,6 @@ $lang['nav_no_notifications']       = 'Aucune notification trouvée';
 $lang['nav_view_all_notifications'] = 'Voir toutes les notifications';
 $lang['nav_customizer_tooltip']     = 'Personnaliser les paramètres';
 $lang['nav_notifications_tooltip']  = 'Voir les notifications';
-$lang['nav_sidebar_toggle_tooltip'] = 'Réduire le volet';
-
-
-
 ## Clients
 #
 
@@ -974,13 +970,6 @@ $lang['clients_contracts_dt_end_date']   = 'Date de fin';
 $lang['clients_quick_invoice_info']                = 'Synthèse de facturation';
 $lang['clients_home_currency_select_tooltip']      = 'Vous devez sélectionner une devise car vous avez des factures avec des devises différentes
 ';
-$lang['clients_report_sales_months_all_time']      = 'Depuis le début';
-$lang['clients_report_sales_months_six_months']    = '6 derniers mois';
-$lang['clients_report_sales_months_twelve_months'] = '12 derniers mois';
-$lang['clients_report_sales_months_custom']        = 'Période personnalisée';
-$lang['clients_report_select_from_date']           = 'Date du';
-$lang['clients_report_select_to_date']             = 'Date au';
-
 # Factures
 $lang['clients_invoice_html_btn_download'] = 'Télécharger';
 
@@ -1209,7 +1198,6 @@ $lang['invoice_html_amount']                     = 'Montant';
 # Admin
 #
 # DataTables
-$lang['dt_column_visibility_tooltip'] = 'Vous pouvez choisir les colonnes à exporter. Par défaut toutes les colonnes seront exportées.';
 $lang['dt_button_column_visibility']  = 'Affichage';
 $lang['dt_button_reload']             = 'Actualiser';
 $lang['dt_button_excel']              = 'Excel';
@@ -2905,5 +2893,20 @@ $lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
 
-/* STOP TRANSLATING */
-?>
+# Version 1.1.6
+$lang['project_activity_recorded_expense'] = 'Recorded Expense';
+$lang['save_customer_and_add_contact'] = 'Save and create contact';
+$lang['tickets_chart_weekly_opening_stats'] = 'Weekly Stats';
+$lang['related_knowledgebase_articles'] = 'Related Articles';
+$lang['detailed_overview'] = 'Tasks Overview';
+$lang['tasks_total_checklists_finished'] = 'Total checklist items marked as finished';
+$lang['tasks_total_added_attachments'] = 'Total attachments added';
+$lang['tasks_total_comments'] = 'Total comments';
+$lang['task_finished_on_time'] = 'Finished on time?';
+$lang['task_finished_on_time_indicator'] = 'Yes';
+$lang['task_not_finished_on_time_indicator'] = 'No';
+$lang['task_filter_fetch_month_by'] = 'Fetch month from';
+$lang['filter'] = 'Filter';
+$lang['task_filter_detailed_all_months'] = 'All Months';
+$lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
