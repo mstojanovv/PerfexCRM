@@ -945,7 +945,6 @@ $lang['nav_no_notifications']       = 'No se encontraron notificaciones';
 $lang['nav_view_all_notifications'] = 'Ver todas las notificaciones';
 $lang['nav_customizer_tooltip']     = 'Personalización de la configuración';
 $lang['nav_notifications_tooltip']  = 'Ver notificaciones';
-$lang['nav_sidebar_toggle_tooltip'] = 'Activar la barra lateral';
 
 ## Clients
 $lang['clients_required_field'] = 'este campo es requerido';
@@ -966,13 +965,6 @@ $lang['clients_contracts_dt_end_date']   = 'Fecha final';
 # Home
 $lang['clients_quick_invoice_info']                = 'rápida Información de Las facturas';
 $lang['clients_home_currency_select_tooltip']      = 'Es necesario seleccionar la moneda por que usted tiene facturas con moneda diferente';
-$lang['clients_report_sales_months_all_time']      = 'Todo el tiempo';
-$lang['clients_report_sales_months_six_months']    = 'Últimos 6 meses';
-$lang['clients_report_sales_months_twelve_months'] = 'Últimos 12 meses';
-$lang['clients_report_sales_months_custom']        = 'Personalizado';
-$lang['clients_report_select_from_date']           = 'A partir de la fecha';
-$lang['clients_report_select_to_date']             = 'Hasta la fecha';
-
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Descargar';
 
@@ -1201,7 +1193,6 @@ $lang['invoice_html_amount']                     = 'Cantidad';
 # Admin
 #
 # DataTables
-$lang['dt_column_visibility_tooltip'] = 'Se puede utilizar también la visibilidad de la columna para ajustar las columnas de exportación. Por defecto se exportarán todas las columnas.';
 $lang['dt_button_column_visibility']  = 'Visibilidad';
 $lang['dt_button_reload']             = 'Actualizar';
 $lang['dt_button_excel']              = 'Excel';
@@ -2891,3 +2882,21 @@ $lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks r
 $lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
+
+# Version 1.1.6
+$lang['project_activity_recorded_expense'] = 'Recorded Expense';
+$lang['save_customer_and_add_contact'] = 'Save and create contact';
+$lang['tickets_chart_weekly_opening_stats'] = 'Weekly Stats';
+$lang['related_knowledgebase_articles'] = 'Related Articles';
+$lang['detailed_overview'] = 'Tasks Overview';
+$lang['tasks_total_checklists_finished'] = 'Total checklist items marked as finished';
+$lang['tasks_total_added_attachments'] = 'Total attachments added';
+$lang['tasks_total_comments'] = 'Total comments';
+$lang['task_finished_on_time'] = 'Finished on time?';
+$lang['task_finished_on_time_indicator'] = 'Yes';
+$lang['task_not_finished_on_time_indicator'] = 'No';
+$lang['task_filter_fetch_month_by'] = 'Fetch month from';
+$lang['filter'] = 'Filter';
+$lang['task_filter_detailed_all_months'] = 'All Months';
+$lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
