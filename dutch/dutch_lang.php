@@ -622,7 +622,7 @@ $lang['dt_loading_records']         = 'Laden...';
 $lang['dt_length_menu']             = '_MENU_ inzendingen';
 $lang['dt_info_filtered']           = '(gefilterd van _MAX_ totaal {0})';
 $lang['dt_info_empty']              = '0 tot 0 van 0 weergeven {0}';
-$lang['dt_info']                    = '_START_ tot _EIND_ van _TOTAAL_weergeven_ {0}';
+$lang['dt_info']                    = '_START_ tot _EIND_ van _TOTAL_weergeven_ {0}';
 $lang['dt_empty_table']             = 'Geen {0} gevonden';
 $lang['dt_sort_ascending']          = 'Activeer om kolom stijgend te sorteren';
 $lang['dt_sort_descending']         = 'Activeer om kolom afdalend te sorteren';
@@ -961,10 +961,6 @@ $lang['nav_no_notifications']       = 'Geen Notificaties Gevonden';
 $lang['nav_view_all_notifications'] = 'Bekijk Alle Notificaties';
 $lang['nav_customizer_tooltip']     = 'Instellingen aanpassen aan voorkeur';
 $lang['nav_notifications_tooltip']  = 'Bekijk notificaties';
-$lang['nav_sidebar_toggle_tooltip'] = 'Sidebar wisselen';
-
-
-
 ## Clients
 #
 
@@ -986,12 +982,6 @@ $lang['clients_contracts_dt_end_date']   = 'Eind Datum';
 # Home
 $lang['clients_quick_invoice_info']                = 'Snelle Factuur Info';
 $lang['clients_home_currency_select_tooltip']      = 'U moet een munteenheid selecteren omdat u facturen heeft met verschillede munteenheden.';
-$lang['clients_report_sales_months_all_time']      = 'Van Alle Tijden';
-$lang['clients_report_sales_months_six_months']    = 'Afgelopen 6 Maanden';
-$lang['clients_report_sales_months_twelve_months'] = 'Afgelopen 12 Maanden';
-$lang['clients_report_sales_months_custom']        = 'Aangepast';
-$lang['clients_report_select_from_date']           = 'Van Datum';
-$lang['clients_report_select_to_date']             = 'Naar Datum';
 
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Download';
@@ -1220,7 +1210,6 @@ $lang['invoice_html_amount']                     = 'Bedrag';
 # Admin
 #
 # DataTables
-$lang['dt_column_visibility_tooltip'] = 'You can use column visibility also to adjust the export columns. By default all columns will be exported.';
 $lang['dt_button_column_visibility']  = 'Zichtbaarheid';
 $lang['dt_button_reload']             = 'Herlaad';
 $lang['dt_button_excel']              = 'Excel';
@@ -1521,7 +1510,7 @@ $lang['calendar_task']                                = 'Taken';
 $lang['lead_edit_delete_tooltip']                     = 'Verwijder Tip';
 $lang['lead_attachments']                             = 'Documenten';
 # Admin Customizer Sidebar
-$lang['acs_finance']                                  = 'Financien';
+$lang['acs_finance']                                  = 'Financiën';
 # Settings
 $lang['new_company_field_info']                       = 'Dit veld zal zichtbaar zijn op facturen/schattingen op de bedrijfs kant (links). U bent niet toegestaan om karakters (punten, strepen, etc.) toe te voegen in het NAAM veld.';
 $lang['new_company_field_name']                       = 'Veld Naam';
@@ -2869,7 +2858,7 @@ $lang['proposals_sort_pipeline'] = 'Pijplijn Bestelling';
 $lang['proposals_sort_datecreated'] = 'Datum van Aanmaak';
 $lang['proposals_sort_proposal_date'] = 'Voorgestelde Datum';
 $lang['is_not_staff_member'] = 'Onbevoegde gebruikers';
-$lang['lead_created'] = 'Gecreëerd';
+$lang['lead_created'] = 'Gecreeerd';
 $lang['access_tickets_to_none_staff_members'] = 'Verschaf toegang tot de tickets aan onbevoegde gebruikers.';
 $lang['project_expenses'] = 'Kosten';
 $lang['expense_currency'] = 'Munteenheid';
@@ -2911,3 +2900,21 @@ $lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks r
 $lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
+
+# Version 1.1.6
+$lang['project_activity_recorded_expense'] = 'Recorded Expense';
+$lang['save_customer_and_add_contact'] = 'Save and create contact';
+$lang['tickets_chart_weekly_opening_stats'] = 'Weekly Stats';
+$lang['related_knowledgebase_articles'] = 'Related Articles';
+$lang['detailed_overview'] = 'Tasks Overview';
+$lang['tasks_total_checklists_finished'] = 'Total checklist items marked as finished';
+$lang['tasks_total_added_attachments'] = 'Total attachments added';
+$lang['tasks_total_comments'] = 'Total comments';
+$lang['task_finished_on_time'] = 'Finished on time?';
+$lang['task_finished_on_time_indicator'] = 'Yes';
+$lang['task_not_finished_on_time_indicator'] = 'No';
+$lang['task_filter_fetch_month_by'] = 'Fetch month from';
+$lang['filter'] = 'Filter';
+$lang['task_filter_detailed_all_months'] = 'All Months';
+$lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
