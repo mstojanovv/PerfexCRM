@@ -948,10 +948,6 @@ $lang['nav_no_notifications']       = 'Nessuna notifica trovata';
 $lang['nav_view_all_notifications'] = 'Vedi tutte le notifiche';
 $lang['nav_customizer_tooltip']     = 'Personalizza Impostazioni';
 $lang['nav_notifications_tooltip']  = 'Vedi Notifiche';
-$lang['nav_sidebar_toggle_tooltip'] = 'Nascondi Barra Laterale';
-
-
-
 ## Clients
 #
 
@@ -973,13 +969,6 @@ $lang['clients_contracts_dt_end_date']   = 'Data Fine';
 # Home
 $lang['clients_quick_invoice_info']                = 'Info Fattura Rapide';
 $lang['clients_home_currency_select_tooltip']      = 'Devi selezionare la valuta perchè hai fatture con valute diferenti';
-$lang['clients_report_sales_months_all_time']      = 'Sempre';
-$lang['clients_report_sales_months_six_months']    = 'Ultimi 6 mesi';
-$lang['clients_report_sales_months_twelve_months'] = 'Ultimi 12 mesi';
-$lang['clients_report_sales_months_custom']        = 'Personalizza';
-$lang['clients_report_select_from_date']           = 'Data Da';
-$lang['clients_report_select_to_date']             = 'Data A';
-
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Scarica';
 
@@ -1208,7 +1197,6 @@ $lang['invoice_html_amount']                     = 'Importo';
 # Admin
 #
 # DataTables
-$lang['dt_column_visibility_tooltip'] = 'È possibile utilizzare la visibilità della colonna anche per regolare le colonne di esportazione. Per impostazione predefinita, verranno esportate tutte le colonne.';
 $lang['dt_button_column_visibility']  = 'Visibilità';
 $lang['dt_button_reload']             = 'Ricarica';
 $lang['dt_button_excel']              = 'Excel';
@@ -2897,4 +2885,20 @@ $lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
 
-?>
+# Version 1.1.6
+$lang['project_activity_recorded_expense'] = 'Recorded Expense';
+$lang['save_customer_and_add_contact'] = 'Save and create contact';
+$lang['tickets_chart_weekly_opening_stats'] = 'Weekly Stats';
+$lang['related_knowledgebase_articles'] = 'Related Articles';
+$lang['detailed_overview'] = 'Tasks Overview';
+$lang['tasks_total_checklists_finished'] = 'Total checklist items marked as finished';
+$lang['tasks_total_added_attachments'] = 'Total attachments added';
+$lang['tasks_total_comments'] = 'Total comments';
+$lang['task_finished_on_time'] = 'Finished on time?';
+$lang['task_finished_on_time_indicator'] = 'Yes';
+$lang['task_not_finished_on_time_indicator'] = 'No';
+$lang['task_filter_fetch_month_by'] = 'Fetch month from';
+$lang['filter'] = 'Filter';
+$lang['task_filter_detailed_all_months'] = 'All Months';
+$lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
