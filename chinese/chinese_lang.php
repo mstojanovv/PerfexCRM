@@ -558,7 +558,6 @@ $lang['leads_status_add_edit_name']  = '状态名称';
 $lang['leads_status_add_edit_order'] = '排序';
 
 $lang['lead_statuses_not_found']      = '无机会状态发现';
-$lang['lead_noted_added_successfuly'] = '铅备注成功添加';
 $lang['lead_status_updated']          = '导致更新';
 $lang['leads_search']                 = '搜索引';
 
@@ -684,8 +683,6 @@ $lang['ticket_add_attachments']                             = '附件';
 $lang['ticket_no_reply_yet']                                = '还没有回复';
 $lang['new_ticket_added_succesfuly']                        = '工单 #%s 添加成功';
 $lang['replied_to_ticket_succesfuly']                       = '工单 #%s 回复成功';
-$lang['ticket_note_added_successfuly']                      = '工单备注添加成功';
-$lang['ticket_note_deleted_successfuly']                    = '工单备注成功删除';
 $lang['ticket_settings_updated_successfuly']                = '工单设置更新成功';
 $lang['ticket_settings_updated_successfuly_and_reassigned'] = '票务设置成功更新 - 分配给部门 %s';
 $lang['ticket_dt_subject']                                  = '项目';
@@ -1487,7 +1484,7 @@ $lang['admin_auth_inactive_account']                  = '无效帐户';
 $lang['calendar_estimate']                            = '报价';
 $lang['calendar_invoice']                             = '发票';
 $lang['calendar_contract']                            = '合同';
-$lang['calendar_client_reminder']                     = '客户的提醒';
+$lang['calendar_customer_reminder']                     = '客户的提醒';
 $lang['calendar_event']                               = '事件';
 $lang['calendar_task']                                = '任务';
 # Leads
@@ -1849,7 +1846,6 @@ $lang['show_invoices_on_calendar']         = '发票';
 $lang['show_estimates_on_calendar']        = '报价';
 $lang['show_contracts_on_calendar']        = '合同';
 $lang['show_tasks_on_calendar']            = '任务';
-$lang['show_client_reminders_on_calendar'] = '客户的提醒';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = '复制自定义字段到客户简介';
@@ -2246,9 +2242,7 @@ $lang['not_received_lead_imported_email_integration'] = '主要导入电子邮�
 $lang['not_lead_imported_attachment'] = '从电子邮件附件导入';
 $lang['not_estimate_status_change'] = '从电子邮件附件导入';
 $lang['not_estimate_status_updated'] = '报价状态更新:从 %s 到 %s';
-$lang['not_goal_achieved_heading'] = '恭喜！我们实现了新的目标.';
-$lang['not_goal_failed_heading'] = '我们未能实现目标!';
-$lang['not_goal_message'] = '目标类型: %s
+$lang['not_goal_message_success'] = '恭喜！我们实现了新的目标. <br /> 目标类型: %s
 <br />Goal Achievement: %s
 <br />Total Achivement: %s
 <br />Start Date: %s
@@ -2264,7 +2258,6 @@ $lang['not_lead_activity_unmarked_lost'] = '标记为丢失';
 $lang['not_lead_activity_marked_junk'] = '标记为垃圾';
 $lang['not_lead_activity_unmarked_junk'] = '标记为垃圾';
 $lang['not_lead_activity_added_attachment'] = '新增附件';
-$lang['not_lead_activity_email_change'] = '电子邮件是不一样客户的电子邮件时，将这一线索转化为客户.';
 $lang['not_lead_activity_converted_email'] = '电子邮件改变了线索. 第一封电子邮件的线索是: %s 和增加作为客户的电子邮件%s';
 $lang['not_lead_activity_converted'] = '%s 将这一转变为顾客';
 $lang['not_liked_your_post'] = '%s 喜欢你的文章 %s ...';
@@ -2899,4 +2892,54 @@ $lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
-$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
+
+
+# Version 1.1.7
+$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
+$lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
+$lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
+$lang['not_invoice_payment_recored'] = 'New invoice payment - %s';
+$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
+$lang['theme_style'] = 'Theme Style';
+$lang['change_role_permission_warning'] = 'Changing role permissions now wont affected current staff members permissions that are using this role.';
+$lang['task_copied_successfuly'] = 'Task copied successfully';
+$lang['failed_to_copy_task'] = 'Failed to copy task';
+$lang['not_project_file_uploaded'] = 'New project file added';
+$lang['settings_calendar_color'] = '%s Color';
+$lang['settings_calendar_colors_heading'] = 'Colors';
+$lang['reminder'] = 'Reminder';
+$lang['back_to_tasks_list'] = 'Back to tasks list';
+$lang['copy_task_confirm'] = 'Confirm';
+$lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates.';
+$lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
+$lang['note'] = 'Note';
+$lang['leads_staff_report_converted'] = 'Total converted leads';
+$lang['leads_staff_report_created'] = 'Total created leads';
+$lang['leads_staff_report_lost'] = 'Total lost leads';
+$lang['client_go_to_dashboard'] = 'Back to portal';
+$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
+$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
+$lang['calendar_estimate_reminder'] = 'Estimate Reminder';
+$lang['calendar_invoice_reminder'] = 'Invoice Reminder';
+$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
+$lang['calendar_proposal_reminder'] = 'Proposal Reminder';
+$lang['proposal_due_after']= 'Proposal Due After (days)';
+$lang['project_progress']= 'Progress';
+$lang['calculate_progress_through_tasks']= 'Calculate progress through tasks';
+$lang['allow_customer_to_change_ticket_status']= 'Allow customer to change ticket status from customers area';
+$lang['switch_to_general_report']= 'Switch to staff report';
+$lang['switch_to_staff_report']= 'Switch to general report';
+$lang['generate']= 'Generate';
+$lang['from_date']= 'From date';
+$lang['to_date']= 'To date';
+$lang['not_results_found']= 'No results found';
+$lang['lead_lock_after_convert_to_customer']= 'Dont allow editing the lead after converting to customer (admins not applied)';
+$lang['default_pipeline_sort'] = 'Default pipeline sort';
+$lang['not_goal_message_failed'] = 'We failed to achieve goal!<br /> Goal Type: %s
+<br />Goal Achievement: %s
+<br />Total Achivement: %s
+<br />Start Date: %s
+<br />End Date: %s';
+$lang['toggle_full_view'] = 'Toggle full view';
+$lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
+$lang['not_task_new_comment'] = 'commented on task %s';
