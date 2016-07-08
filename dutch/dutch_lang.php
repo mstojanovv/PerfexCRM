@@ -576,7 +576,6 @@ $lang['leads_status_add_edit_name']  = 'Status Naam';
 $lang['leads_status_add_edit_order'] = 'Volgorde';
 
 $lang['lead_statuses_not_found']      = 'Geen Tip Statussen Gevonden';
-$lang['lead_noted_added_successfuly'] = 'Tip notitie succesvol toegevoegd';
 $lang['lead_status_updated']          = 'Tip geupdate';
 $lang['leads_search']                 = 'Doorzoek Tips';
 
@@ -622,7 +621,7 @@ $lang['dt_loading_records']         = 'Laden...';
 $lang['dt_length_menu']             = '_MENU_ inzendingen';
 $lang['dt_info_filtered']           = '(gefilterd van _MAX_ totaal {0})';
 $lang['dt_info_empty']              = '0 tot 0 van 0 weergeven {0}';
-$lang['dt_info']                    = '_START_ tot _EIND_ van _TOTAL_weergeven_ {0}';
+$lang['dt_info']                    = 'Resultaat _START_ om _END_ van _TOTAL_ {0}';
 $lang['dt_empty_table']             = 'Geen {0} gevonden';
 $lang['dt_sort_ascending']          = 'Activeer om kolom stijgend te sorteren';
 $lang['dt_sort_descending']         = 'Activeer om kolom afdalend te sorteren';
@@ -702,8 +701,6 @@ $lang['ticket_add_attachments']                             = 'Documenten';
 $lang['ticket_no_reply_yet']                                = 'Nog Geen Antwoord';
 $lang['new_ticket_added_succesfuly']                        = 'Ticket #%s succesvol toegevoegd';
 $lang['replied_to_ticket_succesfuly']                       = 'succesvol op ticket #%s gereageerd';
-$lang['ticket_note_added_successfuly']                      = 'Ticket notitie succesvol toegevoegd';
-$lang['ticket_note_deleted_successfuly']                    = 'Ticket notitie succesvol verwijderd';
 $lang['ticket_settings_updated_successfuly']                = 'Ticket instellingen succesvol geupdate';
 $lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ticket instellingen succesvol geupdate - Opnieuw toegewezen naar afdeling %s';
 $lang['ticket_dt_subject']                                  = 'Onderwerp';
@@ -1503,7 +1500,7 @@ $lang['admin_auth_inactive_account']                  = 'Onactief Account';
 $lang['calendar_estimate']                            = 'Schatting';
 $lang['calendar_invoice']                             = 'Factuur';
 $lang['calendar_contract']                            = 'Contract';
-$lang['calendar_client_reminder']                     = 'Klant Herinnering';
+$lang['calendar_customer_reminder']                     = 'Klant Herinnering';
 $lang['calendar_event']                               = 'Evenement';
 $lang['calendar_task']                                = 'Taken';
 # Leads
@@ -1861,7 +1858,6 @@ $lang['show_invoices_on_calendar']         = 'Facturen';
 $lang['show_estimates_on_calendar']        = 'Schattingen';
 $lang['show_contracts_on_calendar']        = 'Contracten';
 $lang['show_tasks_on_calendar']            = 'Taken';
-$lang['show_client_reminders_on_calendar'] = 'Klant herinneringen';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Kopieer aangepaste velden naar klant profiel';
@@ -2259,9 +2255,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Tip geimporteerd van em
 $lang['not_lead_imported_attachment'] = 'Document van email geimporteerd';
 $lang['not_estimate_status_change'] = 'Document van email geimporteerd';
 $lang['not_estimate_status_updated'] = 'Schatting Status Geupdate: Van: %s naar %s';
-$lang['not_goal_achieved_heading'] = 'Gefeliciteerd! We hebben een nieuw doel bereikt.';
-$lang['not_goal_failed_heading'] = 'We hebben ons doel niet bereikt!';
-$lang['not_goal_message'] = 'Doel type: %s
+$lang['not_goal_message_success'] = 'Gefeliciteerd! We hebben een nieuw doel bereikt.<br />Doel type: %s
 <br />Doel Prestatie: %s
 <br />Totaal Prestatie: %s
 <br />Start Datum: %s
@@ -2277,7 +2271,6 @@ $lang['not_lead_activity_unmarked_lost'] = 'Ongemarkeerd als verloren';
 $lang['not_lead_activity_marked_junk'] = 'Gemarkeerd als junk';
 $lang['not_lead_activity_unmarked_junk'] = 'Ongemarkeerd als junk';
 $lang['not_lead_activity_added_attachment'] = 'Document Toegevoegd';
-$lang['not_lead_activity_email_change'] = 'Tip email was niet hetzelfde als client email toen deze tip werd omgezet naar client.';
 $lang['not_lead_activity_converted_email'] = 'Tip email is veranderd. Eerste tip email was: %s en is toegevoegd als klant met %s';
 $lang['not_lead_activity_converted'] = '%s heeft deze tip omgezet naar klant';
 $lang['not_liked_your_post'] = '%s vond uw bericht leuk%s ...';
@@ -2897,7 +2890,6 @@ $lang['project_overview_expenses_unbilled'] = 'Ongefactureerde kosten';
 $lang['announcement_date_list'] = 'Datum';
 $lang['project_setting_view_finance_overview'] = 'view finance overview';
 $lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks related to projects (includes non-staff)';
-$lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
 $lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
 
@@ -2917,4 +2909,54 @@ $lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
-$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
+
+
+# Version 1.1.7
+$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
+$lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
+$lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
+$lang['not_invoice_payment_recored'] = 'New invoice payment - %s';
+$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
+$lang['theme_style'] = 'Theme Style';
+$lang['change_role_permission_warning'] = 'Changing role permissions now wont affected current staff members permissions that are using this role.';
+$lang['task_copied_successfuly'] = 'Task copied successfully';
+$lang['failed_to_copy_task'] = 'Failed to copy task';
+$lang['not_project_file_uploaded'] = 'New project file added';
+$lang['settings_calendar_color'] = '%s Color';
+$lang['settings_calendar_colors_heading'] = 'Colors';
+$lang['reminder'] = 'Reminder';
+$lang['back_to_tasks_list'] = 'Back to tasks list';
+$lang['copy_task_confirm'] = 'Confirm';
+$lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates.';
+$lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
+$lang['note'] = 'Note';
+$lang['leads_staff_report_converted'] = 'Total converted leads';
+$lang['leads_staff_report_created'] = 'Total created leads';
+$lang['leads_staff_report_lost'] = 'Total lost leads';
+$lang['client_go_to_dashboard'] = 'Back to portal';
+$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
+$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
+$lang['calendar_estimate_reminder'] = 'Estimate Reminder';
+$lang['calendar_invoice_reminder'] = 'Invoice Reminder';
+$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
+$lang['calendar_proposal_reminder'] = 'Proposal Reminder';
+$lang['proposal_due_after']= 'Proposal Due After (days)';
+$lang['project_progress']= 'Progress';
+$lang['calculate_progress_through_tasks']= 'Calculate progress through tasks';
+$lang['allow_customer_to_change_ticket_status']= 'Allow customer to change ticket status from customers area';
+$lang['switch_to_general_report']= 'Switch to staff report';
+$lang['switch_to_staff_report']= 'Switch to general report';
+$lang['generate']= 'Generate';
+$lang['from_date']= 'From date';
+$lang['to_date']= 'To date';
+$lang['not_results_found']= 'No results found';
+$lang['lead_lock_after_convert_to_customer']= 'Dont allow editing the lead after converting to customer (admins not applied)';
+$lang['default_pipeline_sort'] = 'Default pipeline sort';
+$lang['not_goal_message_failed'] = 'We failed to achieve goal!<br /> Goal Type: %s
+<br />Goal Achievement: %s
+<br />Total Achivement: %s
+<br />Start Date: %s
+<br />End Date: %s';
+$lang['toggle_full_view'] = 'Toggle full view';
+$lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
+$lang['not_task_new_comment'] = 'commented on task %s';
