@@ -56,7 +56,7 @@ $lang['announcement_lowercase']       = 'announcement';
 $lang['announcements']                = 'Announcements';
 $lang['announcements_lowercase']      = 'announcements';
 $lang['new_announcement']             = 'New Announcement';
-$lang['announcement_name']            = 'Announcement name';
+$lang['announcement_name']            = 'Subject';
 $lang['announcement_message']         = 'Message';
 $lang['announcement_show_to_staff']   = 'Show to staff';
 $lang['announcement_show_to_clients'] = 'Show to clients';
@@ -239,7 +239,7 @@ $lang['invoice']                        = 'Invoice';
 $lang['invoice_lowercase']              = 'invoice';
 $lang['create_new_invoice']             = 'Create New Invoice';
 $lang['view_invoice']                   = 'View Invoice';
-$lang['invoice_number_changed']         = 'Invoice created successfuly but the number is changed becuase someone added new invoice before you.';
+$lang['invoice_number_changed']         = 'Invoice created successfuly but the number is changed because someone added new invoice before you.';
 $lang['invoice_payment_recorded']       = 'Invoice Payment Recorded';
 $lang['invoice_payment_record_failed']  = 'Failed to Record Invoice Payment';
 $lang['invoice_sent_to_client_success'] = 'The invoice is sent successfuly to the client';
@@ -406,13 +406,13 @@ $lang['report_kb_yes']                      = 'Yes';
 $lang['report_kb_no']                       = 'No';
 $lang['report_kb_no_votes']                 = 'No votes yet';
 $lang['report_this_week_leads_conversions'] = 'This Week Leads Conversions';
-$lang['report_leads_sources_conversions']   = 'Sources';
+$lang['report_leads_sources_conversions']   = 'Sources Conversion';
 $lang['report_leads_monthly_conversions']   = 'Monthly';
 $lang['sales_report_heading']               = 'Sales Report';
 $lang['report_sales_type_income']           = 'Total Income';
 
 $lang['report_sales_type_customer']                    = 'Customer Report';
-$lang['report_sales_base_currency_select_explanation'] = 'You need to select currency becuase you have invoices with different currency';
+$lang['report_sales_base_currency_select_explanation'] = 'You need to select currency because you have invoices with different currency';
 $lang['report_sales_from_date']                        = 'From Date';
 $lang['report_sales_to_date']                          = 'To Date';
 
@@ -562,7 +562,6 @@ $lang['leads_status_add_edit_name']  = 'Status Name';
 $lang['leads_status_add_edit_order'] = 'Order';
 
 $lang['lead_statuses_not_found']      = 'No leads statuses found';
-$lang['lead_noted_added_successfuly'] = 'Lead note added succesfuly';
 $lang['lead_status_updated']          = 'Lead updated';
 $lang['leads_search']                 = 'Search Leads';
 
@@ -688,8 +687,6 @@ $lang['ticket_add_attachments']                             = 'Attachments';
 $lang['ticket_no_reply_yet']                                = 'No Reply Yet';
 $lang['new_ticket_added_succesfuly']                        = 'Ticket #%s added successfuly';
 $lang['replied_to_ticket_succesfuly']                       = 'Replied to ticket #%s successfuly';
-$lang['ticket_note_added_successfuly']                      = 'Ticket note added successfuly';
-$lang['ticket_note_deleted_successfuly']                    = 'Ticket note deleted successfuly';
 $lang['ticket_settings_updated_successfuly']                = 'Ticket settings updated successfuly';
 $lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ticket settings updated successfuly - reasigned to department %s';
 $lang['ticket_dt_subject']                                  = 'Subject';
@@ -968,7 +965,7 @@ $lang['clients_contracts_dt_end_date']   = 'End Date';
 
 # Home
 $lang['clients_quick_invoice_info']                = 'Quick Invoices Info';
-$lang['clients_home_currency_select_tooltip']      = 'You need to select currency becuase you have invoices with different currency';
+$lang['clients_home_currency_select_tooltip']      = 'You need to select currency because you have invoices with different currency';
 
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Download';
@@ -995,7 +992,6 @@ $lang['clients_city']      = 'City';
 $lang['clients_address']   = 'Address';
 $lang['clients_zip']       = 'Zip';
 $lang['clients_state']     = 'State';
-
 # Used for edit profile and register END
 
 $lang['clients_register_password']        = 'Password';
@@ -1241,7 +1237,7 @@ $lang['payment_view_heading'] = 'Payment';
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Allow customer to modify the amount to pay (for online payments)';
 $lang['settings_survey_send_emails_per_cron_run']                   = 'How much emails to sent per hour';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'This option is used when sending Surveys. The Survey cron runs every 5 minutes. So you can set how much email to be sent every 5 minutes';
+$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'This option is used when sending Surveys. The Survey cron will sent X emails per hour. Some hosting providers have limit for sending emails per hour.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Delete invoice allowed only on last invoice';
 $lang['settings_sales_estimate_prefix']                             = 'Estimate Number Prefix';
 $lang['settings_sales_next_estimate_number']                        = 'Next estimate Number';
@@ -1320,7 +1316,7 @@ $lang['estimate']                           = 'Estimate';
 $lang['estimate_lowercase']                 = 'estimate';
 $lang['create_new_estimate']                = 'Create New Estimate';
 $lang['view_estimate']                      = 'View estimate';
-$lang['estimate_number_changed']            = 'Estimate created successfuly but the number is changed becuase someone added new estimate before you.';
+$lang['estimate_number_changed']            = 'Estimate created successfuly but the number is changed because someone added new estimate before you.';
 $lang['estimate_sent_to_client_success']    = 'The estimate is sent successfuly to the client';
 $lang['estimate_sent_to_client_fail']       = 'Problem while sending the estimate';
 $lang['estimate_reminder_send_problem']     = 'Problem sending estimate overdue reminder';
@@ -1492,7 +1488,7 @@ $lang['admin_auth_inactive_account']                  = 'Inactive Account';
 $lang['calendar_estimate']                            = 'Estimate';
 $lang['calendar_invoice']                             = 'Invoice';
 $lang['calendar_contract']                            = 'Contract';
-$lang['calendar_client_reminder']                     = 'Client Reminder';
+$lang['calendar_customer_reminder']                     = 'Client Reminder';
 $lang['calendar_event']                               = 'Event';
 $lang['calendar_task']                                = 'Task';
 # Leads
@@ -1591,7 +1587,7 @@ $lang['goal_progress']                                 = 'Progress';
 $lang['goal_total']                                    = 'Total: %s';
 $lang['goal_result_heading']                           = 'Goal Progress';
 $lang['goal_income_shown_in_base_currency']            = 'Total income is shown in your base currency';
-$lang['goal_notify_when_end_date_arrives']             = 'The staff members will be notified when the end date arrives.';
+$lang['goal_notify_when_end_date_arrives']             = 'The staff members will be notified when the end date arrives (Requires CRON).';
 $lang['goal_staff_members_notified_about_achievement'] = 'The staff members are notified about this goal achievement';
 $lang['goal_staff_members_notified_about_failure']     = 'Staff member are notified about the failure';
 $lang['goal_notify_staff_manualy']                     = 'Notify Staff Members Manualy';
@@ -1614,7 +1610,7 @@ $lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Is calcu
 $lang['goal_type_make_contracts_by_type_calc_date']                  = 'Make Contracts By Type';
 $lang['goal_type_make_contracts_by_type_calc_date_subtext']          = 'Is calculated from the contract start date';
 $lang['goal_type_total_estimates_converted']                         = 'X Estimates Conversion ';
-$lang['goal_type_total_estimates_converted_subtext']                 = 'Will be taken only estimates who will be converted to invoices';
+$lang['goal_type_total_estimates_converted_subtext']                 = 'Will be taken only estimates that will be converted to invoices';
 $lang['goal_type_income_subtext']                                    = 'Income will be calculated in your base currency (not converted)';
 # Payments
 $lang['payment_transaction_id']                                      = 'Transaction ID';
@@ -1851,7 +1847,7 @@ $lang['show_invoices_on_calendar']         = 'Invoices';
 $lang['show_estimates_on_calendar']        = 'Estimates';
 $lang['show_contracts_on_calendar']        = 'Contracts';
 $lang['show_tasks_on_calendar']            = 'Tasks';
-$lang['show_client_reminders_on_calendar'] = 'Client Reminders';
+$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Copy custom fields to customer profile';
@@ -2249,16 +2245,14 @@ $lang['not_received_lead_imported_email_integration'] = 'Lead Imported From Emai
 $lang['not_lead_imported_attachment'] = 'Imported attachment from email';
 $lang['not_estimate_status_change'] = 'Imported attachment from email';
 $lang['not_estimate_status_updated'] = 'Estimate Status Updated: From: %s to %s';
-$lang['not_goal_achieved_heading'] = 'Congratiolation! We achieved new goal.';
-$lang['not_goal_failed_heading'] = 'We failed to achieve goal!';
-$lang['not_goal_message'] = 'Goal Type: %s
+$lang['not_goal_message_success'] = 'Congratulations! We achieved new goal.<br /> Goal Type: %s
 <br />Goal Achievement: %s
 <br />Total Achivement: %s
 <br />Start Date: %s
 <br />End Date: %s';
 $lang['not_assigned_lead_to_you'] = '%s assigned lead %s to you';
 $lang['not_lead_activity_assigned_to'] = '%s assigned to %s';
-$lang['not_lead_activity_attachment_deleted'] = 'Delete Attachment';
+$lang['not_lead_activity_attachment_deleted'] = 'Deleted Attachment';
 $lang['not_lead_activity_status_updated'] = '%s updated lead status from %s to %s';
 $lang['not_lead_activity_contacted'] = '%s contacted this lead on %s';
 $lang['not_lead_activity_created'] = '%s created lead';
@@ -2267,7 +2261,6 @@ $lang['not_lead_activity_unmarked_lost'] = 'Unmarked as lost';
 $lang['not_lead_activity_marked_junk'] = 'Marked as junk';
 $lang['not_lead_activity_unmarked_junk'] = 'Unmarked as junk';
 $lang['not_lead_activity_added_attachment'] = 'Added attachment';
-$lang['not_lead_activity_email_change'] = 'Lead email was not the same with client email when this lead is converted to client.';
 $lang['not_lead_activity_converted_email'] = 'Lead email changed. First lead email was: %s and added as customer with email %s';
 $lang['not_lead_activity_converted'] = '%s Converted this lead to customer';
 $lang['not_liked_your_post'] = '%s liked your post %s ...';
@@ -2288,7 +2281,7 @@ $lang['not_task_marked_as_complete'] = 'marked task as complete %s';
 $lang['not_task_unmarked_as_complete'] = 'unmarked task as complete %s';
 $lang['not_ticket_assigned_to_you'] = 'Ticket assigned to you - %s ...';
 $lang['not_ticket_reassigned_to_you'] = 'Ticket reassigned to you - %s ...';
-$lang['not_estimate_customer_accepted'] = 'Congratiolations! Client accepted estimate with number %s';
+$lang['not_estimate_customer_accepted'] = 'Congratulations! Client accepted estimate with number %s';
 $lang['not_estimate_customer_declined'] = 'Client declined estimate with number %s';
 $lang['estimate_activity_converted'] = 'converted this estimate to invoice.<br /> %s';
 $lang['estimate_activity_created'] = 'Created the estimate';
@@ -2360,7 +2353,7 @@ $lang['auth_reset_pass_email_not_found'] = 'Email not found';
 $lang['auth_reset_password_submit'] = 'Reset Password';
 
 # Settings
-$lang['settings_amount_to_words'] = 'Amount to words (BETA)';
+$lang['settings_amount_to_words'] = 'Amount to words';
 $lang['settings_amount_to_words_desc'] = 'Output total amount to words in invoice/estimate';
 $lang['settings_amount_to_words_enabled'] = 'Enable';
 $lang['settings_total_to_words_lowercase'] = 'Number words into lowercase';
@@ -2397,7 +2390,7 @@ $lang['settings_leads_kanban_limit'] = 'Limit leads Kan Ban rows per status';
 $lang['settings_group_misc'] = 'Misc';
 $lang['show_projects_on_calendar'] = 'Projects';
 $lang['settings_media_max_file_size_upload'] = 'Max file size upload in Media (MB)';
-$lang['settings_client_staff_add_edit_delete_task_comments_first_hour'] = 'Allow customer/staff to add/edit task comments only in the first hour (Administrators not applied)';
+$lang['settings_client_staff_add_edit_delete_task_comments_first_hour'] = 'Allow customer/staff to add/edit task comments only in the first hour (administrators not applied)';
 
 # Email templates
 $lang['email_template_only_domain_email'] = 'Only domain email';
@@ -2771,7 +2764,7 @@ $lang['company_primary_email'] = 'Primary email';
 $lang['client_register_contact_info'] = 'Primary Contact Information';
 $lang['client_register_company_info'] = 'Company Informations';
 $lang['contact_permissions_info'] = 'Make sure to set appropriate permissions for this contact';
-$lang['defaut_leads_kanban_sort'] = 'Default leads Kan Ban Sort';
+$lang['defaut_leads_kanban_sort'] = 'Default leads kan ban sort';
 $lang['defaut_leads_kanban_sort_type'] = 'Sort';
 $lang['order_ascending'] = 'Ascending';
 $lang['order_descending'] = 'Descending';
@@ -2848,7 +2841,7 @@ $lang['proposals_sort_datecreated'] = 'Date Created';
 $lang['proposals_sort_proposal_date'] = 'Proposal Date';
 $lang['is_not_staff_member'] = 'Not staff member';
 $lang['lead_created'] = 'Created';
-$lang['access_tickets_to_none_staff_members'] = 'Allow access to tickets for none staff members';
+$lang['access_tickets_to_none_staff_members'] = 'Allow access to tickets for non staff members';
 $lang['project_expenses'] = 'Expenses';
 $lang['expense_currency'] = 'Currency';
 $lang['currency_valid_code_help'] = 'Make sure to enter valid currency code.';
@@ -2876,7 +2869,7 @@ $lang['unpin_project']= 'Unpin Project';
 $lang['smtp_encryption']= 'Email Encryption';
 $lang['smtp_encryption_none']= 'None';
 $lang['show_proposals_on_calendar']= 'Proposals';
-$lang['invoice_project_see_billed_expenses']= 'See expenses who wil be billed on this invoice';
+$lang['invoice_project_see_billed_expenses']= 'See expenses that wil be billed on this invoice';
 $lang['recaptcha_help_settings']= 'If fields are not filled or there is no internet connection, reCAPTCHA will not be used.';
 $lang['project_overview_expenses'] = 'Total Expenses';
 $lang['project_overview_expenses_billable'] = 'Billable Expenses';
@@ -2885,9 +2878,8 @@ $lang['project_overview_expenses_unbilled'] = 'Unbilled Expenses';
 $lang['announcement_date_list'] = 'Date';
 $lang['project_setting_view_finance_overview'] = 'view finance overview';
 $lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks related to projects (includes non-staff)';
-$lang['user_note'] = 'User note';
 $lang['not_staff_added_as_project_member'] = 'Added you as project member';
-$lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency becuase the system found different currencies used for expenses.';
+$lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency because the system found different currencies used for expenses.';
 
 # Version 1.1.6
 $lang['project_activity_recorded_expense'] = 'Recorded Expense';
@@ -2905,5 +2897,54 @@ $lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
-$lang['staff_finished_all_tasks_on_time'] = 'All tasks finished on time (Based on filter)';
-?>
+$lang['kb_article_slug'] = 'Slug';
+
+# Version 1.1.7
+$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
+$lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
+$lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
+$lang['not_invoice_payment_recored'] = 'New invoice payment - %s';
+$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
+$lang['theme_style'] = 'Theme Style';
+$lang['change_role_permission_warning'] = 'Changing role permissions wont affected current staff members permissions that are using this role.';
+$lang['task_copied_successfuly'] = 'Task copied successfully';
+$lang['failed_to_copy_task'] = 'Failed to copy task';
+$lang['not_project_file_uploaded'] = 'New project file added';
+$lang['settings_calendar_color'] = '%s Color';
+$lang['settings_calendar_colors_heading'] = 'Colors';
+$lang['reminder'] = 'Reminder';
+$lang['back_to_tasks_list'] = 'Back to tasks list';
+$lang['copy_task_confirm'] = 'Confirm';
+$lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates.';
+$lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
+$lang['note'] = 'Note';
+$lang['leads_staff_report_converted'] = 'Total converted leads';
+$lang['leads_staff_report_created'] = 'Total created leads';
+$lang['leads_staff_report_lost'] = 'Total lost leads';
+$lang['client_go_to_dashboard'] = 'Back to portal';
+$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
+$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
+$lang['calendar_estimate_reminder'] = 'Estimate Reminder';
+$lang['calendar_invoice_reminder'] = 'Invoice Reminder';
+$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
+$lang['calendar_proposal_reminder'] = 'Proposal Reminder';
+$lang['proposal_due_after']= 'Proposal Due After (days)';
+$lang['project_progress']= 'Progress';
+$lang['calculate_progress_through_tasks']= 'Calculate progress through tasks';
+$lang['allow_customer_to_change_ticket_status']= 'Allow customer to change ticket status from customers area';
+$lang['switch_to_general_report']= 'Switch to staff report';
+$lang['switch_to_staff_report']= 'Switch to general report';
+$lang['generate']= 'Generate';
+$lang['from_date']= 'From date';
+$lang['to_date']= 'To date';
+$lang['not_results_found']= 'No results found';
+$lang['lead_lock_after_convert_to_customer']= 'Dont allow editing the lead after converting to customer (admins not applied)';
+$lang['default_pipeline_sort'] = 'Default pipeline sort';
+$lang['not_goal_message_failed'] = 'We failed to achieve goal!<br /> Goal Type: %s
+<br />Goal Achievement: %s
+<br />Total Achivement: %s
+<br />Start Date: %s
+<br />End Date: %s';
+$lang['toggle_full_view'] = 'Toggle full view';
+$lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
+$lang['not_task_new_comment'] = 'commented on task %s';
