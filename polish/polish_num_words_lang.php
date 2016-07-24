@@ -116,7 +116,7 @@ $lang["num_word_zillion"] ="Trylion";
 $lang["num_word_cents"] ="Groszy";
 
 // Show in invoices and estimates
-$lang["num_word"] ="Ze słów";
+$lang["num_word"] ="Słownie";
 
 $currencies = array(
     'USD'=>'Dollars',
