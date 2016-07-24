@@ -119,8 +119,9 @@ $lang["num_word_cents"] ="Groszy";
 $lang["num_word"] ="Słownie";
 
 $currencies = array(
-    'USD'=>'Dollars',
-    'EUR'=>'Euros',
+    'USD'=>'Dolarów',
+    'EUR'=>'Euro',
+    'PLN'=>'Złotych',
 );
 
 $currencies = do_action('before_number_format_render_languge_currencies',$currencies);
