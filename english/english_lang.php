@@ -174,7 +174,6 @@ $lang['template_fromemail']                                 = 'From Email';
 $lang['send_as_plain_text']                                 = 'Send as Plaintext';
 $lang['email_template_disabed']                             = 'Disabled';
 $lang['email_template_email_message']                       = 'Email message';
-$lang['email_template_merge_fields']                        = 'Merge fields';
 $lang['available_merge_fields']                             = 'Available merge fields';
 # Home
 $lang['dashboard_string']                                   = 'Dashboard';
@@ -239,7 +238,7 @@ $lang['invoice']                        = 'Invoice';
 $lang['invoice_lowercase']              = 'invoice';
 $lang['create_new_invoice']             = 'Create New Invoice';
 $lang['view_invoice']                   = 'View Invoice';
-$lang['invoice_number_changed']         = 'Invoice created successfuly but the number is changed because someone added new invoice before you.';
+
 $lang['invoice_payment_recorded']       = 'Invoice Payment Recorded';
 $lang['invoice_payment_record_failed']  = 'Failed to Record Invoice Payment';
 $lang['invoice_sent_to_client_success'] = 'The invoice is sent successfuly to the client';
@@ -268,7 +267,7 @@ $lang['send_overdue_notice_tooltip']            = 'Send Overdue Notice';
 $lang['invoice_view_activity_tooltip']          = 'Activity Log';
 $lang['invoice_record_payment']                 = 'Record Payment';
 
-$lang['invoice_send_to_client_modal_heading']    = 'Send this invoice to client';
+$lang['invoice_send_to_client_modal_heading']    = 'Send invoice to client';
 $lang['invoice_send_to_client_attach_pdf']       = 'Attach Invoice PDF';
 $lang['invoice_send_to_client_preview_template'] = 'Preview Email Template';
 
@@ -480,7 +479,7 @@ $lang['settings_email_charset']   = 'Email Charset';
 $lang['settings_email_signature'] = 'Email Signature';
 
 $lang['settings_general_company_logo']                = 'Company Logo';
-$lang['settings_general_company_logo_tooltip']        = 'Recomended dimensions: 150 x 32px';
+$lang['settings_general_company_logo_tooltip']        = 'Recomended dimensions: 150 x 34px';
 $lang['settings_general_company_remove_logo_tooltip'] = 'Remove company logo';
 $lang['settings_general_company_name']                = 'Company Name';
 $lang['settings_general_company_main_domain']         = 'Company Main Domain';
@@ -562,7 +561,6 @@ $lang['leads_status_add_edit_name']  = 'Status Name';
 $lang['leads_status_add_edit_order'] = 'Order';
 
 $lang['lead_statuses_not_found']      = 'No leads statuses found';
-$lang['lead_status_updated']          = 'Lead updated';
 $lang['leads_search']                 = 'Search Leads';
 
 $lang['leads_table_total'] = 'Total Leads: %s';
@@ -1109,7 +1107,6 @@ $lang['lead_to_client_base_converted_success']    = 'Lead converted to customer 
 $lang['lead_already_converted']                   = 'Converted to customer';
 $lang['lead_have_client_profile']                 = 'This lead have customer profile.';
 $lang['lead_converted_edit_client_profile']       = 'Edit Profile';
-$lang['lead_is_client_cant_change_status_canban'] = 'This lead is converted to customer. You cant change his status.';
 
 # Invoices
 $lang['view_invoice_as_customer_tooltip']                                     = 'View invoice as customer';
@@ -1256,7 +1253,7 @@ $lang['settings_send_test_email_subheading']                        = 'Send test
 $lang['settings_send_test_email_string']                            = 'Email Address';
 $lang['settings_smtp_settings_heading']                             = 'SMTP Settings';
 $lang['settings_smtp_settings_subheading']                          = 'Setup main email';
-$lang['settings_getaways_heading_notice']                           = 'For security reasons online payment gataways are visible only to user with ID 1.Which means to user that installed the CRM.';
+
 $lang['settings_sales_heading_general']                             = 'General';
 $lang['settings_sales_heading_invoice']                             = 'Invoice';
 $lang['settings_sales_heading_estimates']                           = 'Estimates';
@@ -1316,7 +1313,6 @@ $lang['estimate']                           = 'Estimate';
 $lang['estimate_lowercase']                 = 'estimate';
 $lang['create_new_estimate']                = 'Create New Estimate';
 $lang['view_estimate']                      = 'View estimate';
-$lang['estimate_number_changed']            = 'Estimate created successfuly but the number is changed because someone added new estimate before you.';
 $lang['estimate_sent_to_client_success']    = 'The estimate is sent successfuly to the client';
 $lang['estimate_sent_to_client_fail']       = 'Problem while sending the estimate';
 $lang['estimate_reminder_send_problem']     = 'Problem sending estimate overdue reminder';
@@ -1345,7 +1341,7 @@ $lang['estimate_already_send_to_client_tooltip'] = 'This estimate is already sen
 $lang['send_overdue_notice_tooltip']             = 'Send Overdue Notice';
 $lang['estimate_view_activity_tooltip']          = 'Activity Log';
 
-$lang['estimate_send_to_client_modal_heading']    = 'Send this estimate to client';
+$lang['estimate_send_to_client_modal_heading']    = 'Send estimate to client';
 $lang['estimate_send_to_client_attach_pdf']       = 'Attach estimate PDF';
 $lang['estimate_send_to_client_preview_template'] = 'Preview Email Template';
 
@@ -1769,8 +1765,8 @@ $lang['client_send_set_password_email']                        = 'Send SET passw
 $lang['customer_billing_same_as_profile']                      = 'Same as Customer Info';
 $lang['customer_billing_copy']                                 = 'Copy Billing Address';
 $lang['customer_map']                                          = 'Map';
-$lang['set_password_email_sent_to_client']                     = 'Email to set password is successfuly sent to the client';
-$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profile updated and email to set password is successfuly sent to the client';
+$lang['set_password_email_sent_to_client']                     = 'Email to set password is successfuly sent to contact';
+$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profile updated and email to set password is successfuly sent to contact';
 $lang['customer_attachments']                                  = 'Files';
 $lang['customer_longitude']                                    = 'Longitude (Google Maps)';
 $lang['customer_latitude']                                     = 'Latitude (Google Maps)';
@@ -1821,7 +1817,6 @@ $lang['contract_attachments']                                                = '
 # Tasks
 $lang['task_view_make_public']                                               = 'Make public';
 $lang['task_is_private']                                                     = 'Private Task';
-$lang['task_is_private_help']                                                = 'This task is only visible to assignees,followers,creator and administrators';
 $lang['task_finished']                                                       = 'Finished';
 $lang['task_single_related']                                                 = 'Related';
 $lang['task_unmark_as_complete']                                             = 'Unmark as complete';
@@ -1861,7 +1856,6 @@ $lang['leads_email_active']                                          = 'Active';
 $lang['leads_email_integration_imap']                                = 'IMAP Server';
 $lang['leads_email_integration_email']                               = 'Email address (Login)';
 $lang['leads_email_integration_password']                            = 'Password';
-$lang['leads_email_integration_port']                                = 'Port';
 $lang['leads_email_integration_default_source']                      = 'Default Source';
 $lang['leads_email_integration_check_every']                         = 'Check Every (minutes)';
 $lang['leads_email_integration_default_assigned']                    = 'Responsibe for new lead';
@@ -2225,7 +2219,7 @@ $lang['form_validation_is_unique']   = 'The {field} field must contain a unique 
 
 # Version 1.0.8
 # Notifications & Leads/Estimates/Invoices Activity Log
-$lang['not_event'] = 'Event start today - %s ...';
+$lang['not_event'] = 'Calendar event today - %s ...';
 $lang['not_event_public'] = 'Public event start today - %s ...';
 $lang['not_contract_expiry_reminder'] = 'Contract expiry reminder - %s ...';
 $lang['not_recurring_expense_cron_activity_heading'] = 'Recurring Expenses Cron Job Activity';
@@ -2422,7 +2416,7 @@ $lang['calendar_project'] = 'Project';
 # Leads
 $lang['leads_import_assignee'] = 'Assignee';
 $lang['customer_from_lead'] = 'Customer from %s';
-$lang['lead_kan_ban_attachments'] = 'Attachments %s';
+$lang['lead_kan_ban_attachments'] = 'Attachments: %s';
 $lang['leads_sort_by_lastcontact'] = 'Last Contact';
 
 # Tasks
@@ -2658,7 +2652,7 @@ $lang['project_activity_status_updated'] = 'Updated project status';
 $lang['project_activity_visible_to_customer'] = 'Visible to customer';
 $lang['project_activity_project_file_removed'] = 'Removed project file';
 
-# Notifications
+# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
 $lang['not_customer_uploaded_project_file'] = 'New file uploaded';
 $lang['not_customer_created_new_project_discussion'] = 'New project discussion created';
 $lang['not_customer_commented_on_project_discussion'] = 'New comment on project discussion';
@@ -2870,7 +2864,7 @@ $lang['smtp_encryption']= 'Email Encryption';
 $lang['smtp_encryption_none']= 'None';
 $lang['show_proposals_on_calendar']= 'Proposals';
 $lang['invoice_project_see_billed_expenses']= 'See expenses that wil be billed on this invoice';
-$lang['recaptcha_help_settings']= 'If fields are not filled or there is no internet connection, reCAPTCHA will not be used.';
+$lang['recaptcha_help_settings']= 'If fields are not filled reCAPTCHA will not be used.';
 $lang['project_overview_expenses'] = 'Total Expenses';
 $lang['project_overview_expenses_billable'] = 'Billable Expenses';
 $lang['project_overview_expenses_billed'] = 'Billed Expenses';
@@ -2911,7 +2905,7 @@ $lang['task_copied_successfuly'] = 'Task copied successfully';
 $lang['failed_to_copy_task'] = 'Failed to copy task';
 $lang['not_project_file_uploaded'] = 'New project file added';
 $lang['settings_calendar_color'] = '%s Color';
-$lang['settings_calendar_colors_heading'] = 'Colors';
+$lang['settings_calendar_colors_heading'] = 'Styling';
 $lang['reminder'] = 'Reminder';
 $lang['back_to_tasks_list'] = 'Back to tasks list';
 $lang['copy_task_confirm'] = 'Confirm';
@@ -2948,3 +2942,75 @@ $lang['not_goal_message_failed'] = 'We failed to achieve goal!<br /> Goal Type: 
 $lang['toggle_full_view'] = 'Toggle full view';
 $lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
 $lang['not_task_new_comment'] = 'commented on task %s';
+
+# Version 1.1.8
+$lang['invoice_number_exists'] = 'This invoice number exists for the ongoing year.';
+$lang['estimate_number_exists'] = 'This estimate number exists for the ongoing year.';
+$lang['email_exists'] = 'Email already exists';
+$lang['field_is_required'] = 'This field is required';
+$lang['field_max_length'] = 'Please enter value no more than {0} characters';
+$lang['not_uploaded_project_file'] = 'New file uploaded';
+$lang['not_created_new_project_discussion'] = 'New project discussion created';
+$lang['not_commented_on_project_discussion'] = 'New comment on project discussion';
+$lang['all_staff_members'] = 'All staff members';
+$lang['help_project_permissions'] = 'VIEW allows staff member to see ALL projects. If you only want them to see projects they are assigned (added as members), do not give VIEW permissions.';
+$lang['help_tasks_permissions'] = 'VIEW allows staff member to see ALL tasks. If you only want them to see tasks they are assigned to or following, do not give VIEW permissions.';
+$lang['expense_recuring_days'] = 'Day(s)';
+$lang['expense_recuring_weeks'] = 'Week(s)';
+$lang['expense_recuring_months'] = 'Month(s)';
+$lang['expense_recuring_years'] = 'Years(s)';
+$lang['reset_to_default_color'] = 'Reset to default color';
+$lang['pdf_logo_width'] = 'Logo Width (PX)';
+$lang['drop_files_here_to_upload'] = 'Drop files here to upload';
+$lang['browser_not_support_drag_and_drop'] = 'Your browser does not support drag\'n\'drop file uploads';
+$lang['remove_file'] = 'Remove file';
+$lang['you_can_not_upload_any_more_files'] = 'You can not upload any more files';
+$lang['custom_field_only_admin'] = 'Restrict visibility for administrators only';
+$lang['leads_default_source'] = 'Default source';
+$lang['clear_activity_log'] = 'Clear log';
+$lang['default_contact_permissions'] = 'Default contact permissions';
+$lang['invoice_activity_marked_as_cancelled'] = 'marked invoice as cancelled';
+$lang['invoice_activity_unmarked_as_cancelled'] = 'unmarked invoice as cancelled';
+$lang['wait_text'] = 'Please wait...';
+$lang['projects_summary'] = 'Projects summary';
+$lang['dept_imap_host'] = 'IMAP Host';
+$lang['dept_encryption'] = 'Encryption';
+$lang['dept_email_password'] = 'Password';
+$lang['dept_email_no_encryption'] = 'No Encryption';
+$lang['failed_to_decrypt_password'] = 'Failed to decrypt password';
+$lang['delete_mail_after_import'] = 'Delete mail after import?';
+$lang['expiry_reminder_enabled'] = 'Send expiration reminder';
+$lang['send_expiry_reminder_before'] = 'Send expiration reminder before (DAYS)';
+$lang['not_expiry_reminder_sent'] = 'Expiry reminder sent';
+$lang['send_expiry_reminder'] = 'Sent expiration reminder';
+$lang['sent_expiry_reminder_success'] = 'Expiration reminder successfuly sent';
+$lang['sent_expiry_reminder_fail'] = 'Failed to send expiration reminder';
+$lang['leads_default_status'] = 'Default status';
+$lang['item_description_placeholder'] = 'Description';
+$lang['item_long_description_placeholder'] = 'Long description';
+$lang['item_quantity_placeholder'] = 'Quantity';
+$lang['item_rate_placeholder'] = 'Rate';
+$lang['tickets_summary'] = 'Tickets Summary';
+$lang['tasks_list_priority'] = 'Priority';
+$lang['ticket_status_db_2'] = 'In Progress';
+$lang['ticket_status_db_1'] = 'Open';
+$lang['ticket_status_db_3'] = 'Answered';
+$lang['ticket_status_db_4'] = 'On Hold';
+$lang['ticket_status_db_5'] = 'Closed';
+$lang['ticket_priority_db_1'] = 'Low';
+$lang['ticket_priority_db_2'] = 'Medium';
+$lang['ticket_priority_db_3'] = 'High';
+$lang['customer_have_projects_by'] = 'Contains projects by status %s';
+$lang['customer_have_proposals_by'] = 'Contains proposals by status %s';
+$lang['do_not_redirect_payment'] = 'Do not redirect me to the payment processor';
+$lang['extension_not_allowed'] = 'Extension not allowed';
+$lang['project_tickets'] = 'Tickets';
+$lang['invoice_report'] = 'Invoice Report';
+$lang['payment_modes_report'] = 'Payment Modes (Transactions)';
+$lang['customer_admins'] = 'Customer Admins';
+$lang['assign_admin'] = 'Assign admin';
+$lang['customer_admin_date_assigned'] = 'Date Assigned';
+$lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer. To see all customer data and adjust the portal login as customer.';
+$lang['ticket_form_validation_file_size'] = 'File size must be less than %s';
+$lang['has_transactions_currency_base_change'] = 'Changing the base currency is possible only if there are no transactions recorded in that currency. Delete the transactions to change the base currency';
+$lang['customers_sort_all'] = 'All';
