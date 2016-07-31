@@ -3020,3 +3020,10 @@ $lang['customer_admin_login_as_client_message'] = 'Witaj %s. Zostałeś dodany j
 $lang['ticket_form_validation_file_size'] = 'Rozmiar pliku musi być mniejszy niż %s';
 $lang['has_transactions_currency_base_change'] = 'Changing the base currency is possible only if there are no transactions recorded in that currency. Delete the transactions to change the base currency';
 $lang['customers_sort_all'] = 'Wszystkie';
+
+# Version 1.1.9
+$lang['use_recaptcha_customers_area'] = 'Allow recaptcha on customers area (Login/Register)';
+$lang['project_marked_as_finished'] = 'Project completed';
+$lang['project_status_updated'] = 'Project status updated';
+$lang['remove_decimals_on_zero'] = 'Remove decimals on numbers/money with zero decimals (2.00 will become 2, 2.25 will stay 2.25)';
+$lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row (Invoices/Estimates)';
