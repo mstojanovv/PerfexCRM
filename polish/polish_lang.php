@@ -309,7 +309,7 @@ $lang['payment_edit_lave_note']       = 'Zostaw notatkę';
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = 'Temat';
 $lang['kb_article_add_edit_group']   = 'Grupa';
-$lang['kb_string']                   = 'Baza Wiedzy';
+$lang['kb_string']                   = 'Baza wiedzy';
 $lang['kb_article']                  = 'Artykuł';
 $lang['kb_article_lowercase']        = 'artykuł';
 $lang['kb_article_new_article']      = 'Nowy artykuł';
@@ -2144,8 +2144,8 @@ $lang['custom_field_visibility']                 = 'Widoczność';
 $lang['utilities_menu_translate_name_help'] = 'You can add here also translate strings. So if staff/system have language other then the default the menu item names will be outputed in the staff language. Otherwise if the string dont exists in the translate file will be taken the string you enter here.';
 $lang['utilities_menu_icon']                = 'Ikona';
 $lang['active_menu_items']                  = 'Aktywne pozycje menu';
-$lang['inactive_menu_items']                = 'Nie aktywne pozycje menu';
-$lang['utilities_menu_permission']          = 'Poziom dostępu';
+$lang['inactive_menu_items']                = 'Nieaktywne pozycje menu';
+$lang['utilities_menu_permission']          = 'Uprawnienia';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = 'Nazwa';
 $lang['utilities_menu_save']                = 'Zapisz menu';
@@ -2235,7 +2235,7 @@ $lang['not_recurring_expenses_action_taken_from'] = 'Action taken from recurring
 $lang['not_invoice_created'] = 'Faktura utworzona:';
 $lang['not_invoice_renewed'] = 'Renewed Invoice:';
 $lang['not_expense_renewed'] = 'Renewed Expense:';
-$lang['not_invoice_sent_to_customer'] = 'Faktur wysłana do klienta: %s';
+$lang['not_invoice_sent_to_customer'] = 'Faktura wysłana do klienta: %s';
 $lang['not_invoice_sent_yes'] = 'Tak';
 $lang['not_invoice_sent_not'] = 'Nie';
 $lang['not_action_taken_from_recurring_invoice'] = 'Action taken from recurring invoice:';
@@ -2248,7 +2248,7 @@ $lang['not_estimate_status_updated'] = 'Estimate Status Updated: From: %s to %s'
 $lang['not_goal_message_success'] = 'Congratulations! We achieved new goal.<br /> Goal Type: %s
 <br />Goal Achievement: %s
 <br />Total Achivement: %s
-<br />Start Date: %s
+<br />Data rozpoczęcia: %s
 <br />End Date: %s';
 $lang['not_assigned_lead_to_you'] = '%s assigned lead %s to you';
 $lang['not_lead_activity_assigned_to'] = '%s przypisany do %s';
@@ -2324,7 +2324,7 @@ $lang['estimate_copied_fail'] = 'Failed to copy estimate';
 
 # Tasks
 $lang['tasks_view_assigned_to_user'] = 'Zadania przypisane do mnie';
-$lang['tasks_view_follower_by_user'] = 'Zadania, które obserwuje';
+$lang['tasks_view_follower_by_user'] = 'Zadania, które obserwuję';
 $lang['no_tasks_found'] = 'Brak zadań';
 
 # Leads
@@ -2480,14 +2480,14 @@ $lang['project_customer_permission_warning'] = 'The system indicated that the pr
 $lang['project_invoice_timesheet_start_time'] = 'Start time: %s';
 $lang['project_invoice_timesheet_end_time'] = 'End time: %s';
 $lang['project_invoice_timesheet_total_logged_time'] = 'Logged time: %s';
-$lang['project_view_as_client'] = 'View project as customer';
+$lang['project_view_as_client'] = 'Zobacz projekt jako klient';
 $lang['project_mark_all_tasks_as_completed'] = 'Mark all tasks as completed and stop all timers (No notifications sent to project members)';
 $lang['project_not_started_status_tasks_timers_found'] = 'Task timers found for this project but the project is with status Not Started. Recomended to change the project status to In Progress';
 $lang['project_status'] = 'Status';
-$lang['project_status_1'] = 'Not Started';
+$lang['project_status_1'] = 'Nierozpoczęty';
 $lang['project_status_2'] = 'W trakcie';
-$lang['project_status_3'] = 'Wstrzymane';
-$lang['project_status_4'] = 'Zakończone';
+$lang['project_status_3'] = 'Wstrzymany';
+$lang['project_status_4'] = 'Zakończony';
 
 $lang['project_file_uploaded_by_customer'] = 'Klient';
 $lang['project_file_dateadded'] = 'Date uploaded';
@@ -2507,11 +2507,11 @@ $lang['project_lowercase']       = 'projekt';
 $lang['projects']                = 'Projekty';
 $lang['projects_lowercase']      = 'projekty';
 $lang['project_settings']      = 'Ustawienia projektu';
-$lang['project_invoiced_successfuly']             = 'Project Invoiced Successfuly';
+$lang['project_invoiced_successfuly']             = 'Projekt zafakturowano prawidłowo';
 $lang['new_project']             = 'Nowy projekt';
 $lang['project_files']            = 'Pliki';
 $lang['project_activity']            = 'Aktywność';
-$lang['project_name']            = 'Nazwa projketu';
+$lang['project_name']            = 'Nazwa projektu';
 $lang['project_description']            = 'Opis projektu';
 $lang['project_customer']            = 'Klient';
 $lang['project_start_date']            = 'Data rozpoczęcia';
@@ -2538,11 +2538,11 @@ $lang['milestone_name']            = 'Nazwa';
 $lang['milestone_due_date']            = 'Termin';
 $lang['project_milestone']            = 'Kamień milowy';
 $lang['project_notes']            = 'Notatki';
-$lang['project_timesheets']            = 'Grafiki';
-$lang['project_timesheet']            = 'Grafik';
+$lang['project_timesheets']            = 'Karty pracy';
+$lang['project_timesheet']            = 'Karta pracy';
 $lang['milestone_total_logged_time']            = 'Logged Time';
 $lang['project_overview_total_logged_hours']            = 'Total Logged Hours';
-$lang['milestones_uncategorized']            = 'Uncategorized';
+$lang['milestones_uncategorized']            = 'Bez kategorii';
 $lang['milestone_no_tasks_found']            = 'Brak zadań';
 $lang['copy_project_discussions_not_included']            = 'Attachments and comments are not included';
 $lang['project_copied_successfuly']            = 'Project data copied successfuly';
@@ -2562,7 +2562,7 @@ $lang['project_timesheet_time_spend']            = 'Spędzony czas';
 $lang['project_timesheet_task']            = 'Zadanie';
 $lang['project_invoices']                = 'Faktury';
 $lang['total_logged_hours_by_staff']            = 'Total Logged Time';
-$lang['invoice_project']            = 'Invoice Project';
+$lang['invoice_project']            = 'Zafakturuj projekt';
 $lang['invoice_project_info']            = 'Project Invoice Info';
 $lang['invoice_project_data_single_line']            = 'Single line';
 $lang['invoice_project_data_task_per_item']            = 'Task per item';
@@ -2582,17 +2582,17 @@ $lang['project_setting_upload_files'] = 'wgraj pliki';
 $lang['project_setting_view_task_comments'] = 'view task comments';
 $lang['project_setting_upload_on_tasks'] = 'upload attachments on tasks';
 $lang['project_setting_view_task_total_logged_time'] = 'view task total logged time';
-$lang['project_setting_open_discussions'] = 'open discussions';
-$lang['project_setting_comment_on_tasks'] = 'comment on project tasks';
-$lang['project_setting_view_tasks'] = 'zobaczyć zadania';
-$lang['project_setting_view_milestones'] = 'view milestones';
-$lang['project_setting_view_gantt'] = 'view Gantt';
-$lang['project_setting_view_timesheets'] = 'view timesheets';
-$lang['project_setting_view_activity_log'] = 'Zobacz dziennik aktywności';
-$lang['project_setting_view_team_members'] = 'view team members';
+$lang['project_setting_open_discussions'] = 'otwarcie dyskusji';
+$lang['project_setting_comment_on_tasks'] = 'komentowanie zadań projektu';
+$lang['project_setting_view_tasks'] = 'przeglądanie zadań';
+$lang['project_setting_view_milestones'] = 'przeglądanie kamieni milowych';
+$lang['project_setting_view_gantt'] = 'przegladanie wykresu Gantta';
+$lang['project_setting_view_timesheets'] = 'przeglądanie kart pracy';
+$lang['project_setting_view_activity_log'] = 'przeglądanie logu aktywności';
+$lang['project_setting_view_team_members'] = 'przeglądanie członków projektu';
 
 $lang['project_discussion_visible_to_customer_yes']                 = 'Widoczne';
-$lang['project_discussion_visible_to_customer_no']                 = 'Nie widoczne';
+$lang['project_discussion_visible_to_customer_no']                 = 'Niewidoczne';
 
 $lang['project_discussion_posted_on']                 = 'Posted on %s';
 $lang['project_discussion_posted_by']                 = 'Posted by %s';
@@ -2611,11 +2611,11 @@ $lang['project_discussion_last_activity'] = 'Ostatnia aktywność';
 $lang['discussion_add_comment'] = 'Dodaj komentarz';
 $lang['discussion_newest'] = 'Najnowsze';
 $lang['discussion_oldest'] = 'Najstarsze';
-$lang['discussion_attachments'] = 'Załaczniki';
+$lang['discussion_attachments'] = 'Załączniki';
 $lang['discussion_send'] = 'Wyślij';
-$lang['discussion_reply'] = 'Answer';
+$lang['discussion_reply'] = 'Odpowiedz';
 $lang['discussion_edit'] = 'Edytuj';
-$lang['discussion_edited'] = 'Modified';
+$lang['discussion_edited'] = 'Zmodyfikowano';
 $lang['discussion_you'] = 'Ty';
 $lang['discussion_save'] = 'Zapisz';
 $lang['discussion_delete'] = 'Usuń';
@@ -2720,7 +2720,7 @@ $lang['lead_company'] = 'Firma';
 
 # Version 1.1.1
 $lang['admin_auth_forgot_password_button'] = 'Potwierdź';
-$lang['task_assigned'] = 'Assigned to';
+$lang['task_assigned'] = 'Przydzielono do';
 $lang['switch_to_pipeline'] = 'Switch to pipeline';
 $lang['switch_to_list_view'] = 'Switch to list';
 $lang['estimates_pipeline'] = 'Estimates Pipeline';
@@ -2794,7 +2794,7 @@ $lang['view_pdf'] = 'View PDF';
 $lang['expense_repeat_every'] = 'Repeat every';
 
 # Version 1.1.2
-$lang['leads_switch_to_kanban'] = 'Switch to kan ban';
+$lang['leads_switch_to_kanban'] = 'Przełącz na kan ban';
 $lang['survey_no_questions'] = 'This survey does not have questions added yet.';
 $lang['survey_submit'] = 'Wyślij';
 $lang['contract_content'] = 'Umowa';
@@ -2812,7 +2812,7 @@ $lang['contract_sent_to_client_fail'] = 'Failed to send contract';
 $lang['client_invalid_username_or_password'] = 'Błedna nazwa użytkownika lub hasło';
 $lang['client_old_password_incorect']     = 'Twoje stare hasło jest nieprawidłowe';
 $lang['client_password_changed']          = 'Twoje hasło zostało zmienione';
-$lang['check_for_new_version']          = 'Check for new version';
+$lang['check_for_new_version']          = 'Sprawdź aktualizacje';
 
 # Version 1.1.4
 $lang['total_leads_deleted'] = 'Total leads deleted: %s';
