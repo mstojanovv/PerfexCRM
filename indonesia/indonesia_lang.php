@@ -360,6 +360,10 @@ $lang['mail_lists_dt_creator']                = 'Pencipta';
 $lang['email_added_to_mail_list_successfuly'] = 'Email ditambahkan ke daftar';
 $lang['email_is_duplicate_mail_list']         = 'Email sudah ada di daftar ini';
 
+# Media
+
+$lang['media_files']            = 'Files';
+
 # Pembayaran modes
 $lang['new_payment_mode']       = 'arsip';
 $lang['payment_modes']          = 'Mode Pembayaran';
@@ -1402,7 +1406,6 @@ $lang['client_add_edit_profile']                = 'Profil';
 $lang['home_invoice_not_sent']        = 'Tagihan Tidak Dikirim';
 $lang['home_expired_estimates']       = 'Estimasi Kedaluwarsa';
 $lang['home_invoice_overdue']         = 'Tagihan Terlambat';
-$lang['home_payments_received_today'] = 'Pembayaran Diterima Hari ini';
 
 # Reports
 
@@ -1668,7 +1671,6 @@ $lang['report_expenses_full']                                        = 'Semua La
 $lang['expenses_yearly_by_categories']                               = 'Pengeluaran Yearly by Categories';
 $lang['total_expenses_for']                                          = 'Total Pengeluaran untuk'; // year
 $lang['expenses_report_for']                                         = 'Pengeluaran untuk'; // year
-$lang['expense_report_info']                                         = 'Billable expenses are not calculated in the report.';
 # Custom fields
 $lang['custom_field_required']                                       = 'Required';
 $lang['custom_field_show_on_pdf']                                    = 'Tampilkan di PDF';
@@ -1835,6 +1837,7 @@ $lang['show_invoices_on_calendar']         = 'Tagihan';
 $lang['show_estimates_on_calendar']        = 'Estimasi';
 $lang['show_contracts_on_calendar']        = 'Kontrak';
 $lang['show_tasks_on_calendar']            = 'Tugas';
+$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
 
 # Potensial
 $lang['copy_custom_fields_convert_to_customer']                      = 'Salin custom fields untuk customer profile';
@@ -2052,10 +2055,6 @@ $lang['proposal_preview_template']              = 'Pratinjau Template';
 $lang['proposal_view']                          = 'Lihat Proposal';
 $lang['proposal_copy']                          = 'Salin';
 $lang['proposal_delete']                        = 'Hapus';
-$lang['proposal_mark_as_open']                  = 'Tandai sbg Dibuka';
-$lang['proposal_mark_as_declined']              = 'Tandai sbg Ditolak';
-$lang['proposal_mark_as_accepted']              = 'Tandai sbg Diterima';
-$lang['proposal_mark_as_sent']                  = 'Tandai sbg Dikirim';
 $lang['proposal_to']                            = 'Ke';
 $lang['proposal_add_comment']                   = 'Tambah Komentar';
 $lang['proposal_sent_to_email_success']         = 'Proposal berhasil dikirim ke email';
@@ -2362,7 +2361,6 @@ $lang['report_invoice_total_taxes'] = 'Pajak';
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_see_weekly_payments'] = 'See weekly payments';
 $lang['home_stats_by_project_status'] = 'Statistics by project status';
 $lang['home_invoice_overview'] = 'Ikhtisar Tagihan';
 $lang['home_estimate_overview'] = 'Ikhtisar Estimasi';
@@ -2766,7 +2764,6 @@ $lang['leads_merge_as_contact_field'] = 'Merge as contact field';
 $lang['lead_convert_to_client_phone'] = 'Telepon';
 $lang['invoice_status_report_all'] = 'Semua';
 $lang['import_contact_field'] = 'Contact field';
-$lang['proposal_mark_as_draft'] = 'Tandai Draft';
 
 $lang['file_uploaded_success'] = 'Tidak ada kesalahan, file upload sukses';
 $lang['file_exceds_max_filesize'] = 'The uploaded file exceeds the upload_max_filesize directive in php.ini';
@@ -2884,80 +2881,80 @@ $lang['task_filter_fetch_month_by'] = 'Ambil bulan dari';
 $lang['filter'] = 'Saring';
 $lang['task_filter_detailed_all_months'] = 'Semua Bulan';
 $lang['task_filter_detailed_show_tasks'] = 'Lihat Tugas';
-
-
+$lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
-$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
-$lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
-$lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
-$lang['not_invoice_payment_recored'] = 'New invoice payment - %s';
-$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
+$lang['email_template_ticket_warning'] = 'Jika tiket diimpor dengan email piping dan kontak tidak ada dalam CRM bidang tidak akan diganti.';
+$lang['auto_stop_tasks_timers_on_new_timer'] = 'Hentikan semua selain mulai timer ketika memulai timer baru';
+$lang['notification_when_customer_pay_invoice'] = 'Menerima pemberitahuan bila pelanggan membayar faktur (built-in)';
+$lang['not_invoice_payment_recored'] = 'Faktur pembayaran baru - %s';
+$lang['email_template_contact_warning'] = 'Jika kontak tidak login sementara membuat aksi kontak kolom gabungan tidak akan diganti.';
 $lang['theme_style'] = 'Theme Style';
-$lang['change_role_permission_warning'] = 'Changing role permissions now wont affected current staff members permissions that are using this role.';
-$lang['task_copied_successfuly'] = 'Task copied successfully';
-$lang['failed_to_copy_task'] = 'Failed to copy task';
-$lang['not_project_file_uploaded'] = 'New project file added';
-$lang['settings_calendar_color'] = '%s Color';
+$lang['change_role_permission_warning'] = 'Mengubah izin peran sekarang tidak akan mempengaruhi anggota staf saat izin yang menggunakan peran ini.';
+$lang['task_copied_successfuly'] = 'Tugas berhasil disalin';
+$lang['failed_to_copy_task'] = 'Tugas gagal disalin';
+$lang['not_project_file_uploaded'] = 'File Proyek baru ditambahkan';
+$lang['settings_calendar_color'] = '%s Warna';
 $lang['settings_calendar_colors_heading'] = 'Styling';
-$lang['reminder'] = 'Reminder';
-$lang['back_to_tasks_list'] = 'Back to tasks list';
-$lang['copy_task_confirm'] = 'Confirm';
-$lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates.';
-$lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
-$lang['note'] = 'Note';
-$lang['leads_staff_report_converted'] = 'Total converted leads';
-$lang['leads_staff_report_created'] = 'Total created leads';
-$lang['leads_staff_report_lost'] = 'Total lost leads';
-$lang['client_go_to_dashboard'] = 'Back to portal';
-$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
-$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
-$lang['calendar_estimate_reminder'] = 'Estimate Reminder';
-$lang['calendar_invoice_reminder'] = 'Invoice Reminder';
-$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
-$lang['calendar_proposal_reminder'] = 'Proposal Reminder';
-$lang['proposal_due_after']= 'Proposal Due After (days)';
-$lang['project_progress']= 'Progress';
-$lang['calculate_progress_through_tasks']= 'Calculate progress through tasks';
-$lang['allow_customer_to_change_ticket_status']= 'Allow customer to change ticket status from customers area';
-$lang['switch_to_general_report']= 'Switch to staff report';
-$lang['switch_to_staff_report']= 'Switch to general report';
+$lang['reminder'] = 'Pengingat';
+$lang['back_to_tasks_list'] = 'Kembali ke daftar tugas';
+$lang['copy_task_confirm'] = 'Konfirmasi';
+$lang['changing_items_affect_warning'] = 'Mengubah Info barang tidak akan mempengaruhi pada pembuatan faktur/perkiraan.';
+$lang['tax_is_used_in_expenses_warning'] = 'Anda tidak bisa memperbarui pajak ini karena ditemukan transaksi pengeluaran menggunakan pajak ini.';
+$lang['note'] = 'Catatan';
+$lang['leads_staff_report_converted'] = 'Total Potensial Dikonversi';
+$lang['leads_staff_report_created'] = 'Total Potensial Dibuat';
+$lang['leads_staff_report_lost'] = 'Total Potensial Lost';
+$lang['client_go_to_dashboard'] = 'Kembali ke Portal';
+$lang['show_estimate_reminders_on_calendar'] = 'Pengingat Estimasi';
+$lang['show_invoice_reminders_on_calendar'] = 'Pengingat Invoice';
+$lang['calendar_estimate_reminder'] = 'Pengingat Estimasi';
+$lang['calendar_invoice_reminder'] = 'Pengingat Invoice';
+$lang['show_proposal_reminders_on_calendar'] = 'Pengingat Proposal';
+$lang['calendar_proposal_reminder'] = 'Pengingat Proposal';
+$lang['proposal_due_after']= 'Proposal Jatuh Tempo stlh (days)';
+$lang['project_progress']= 'Progres';
+$lang['calculate_progress_through_tasks']= 'Hitung progres melalui tugas';
+$lang['allow_customer_to_change_ticket_status']= 'Memungkinkan pelanggan untuk mengubah status tiket dari customer area';
+$lang['switch_to_general_report']= 'Beralih ke laporan staf';
+$lang['switch_to_staff_report']= 'Beralih ke laporan umum';
 $lang['generate']= 'Generate';
-$lang['from_date']= 'From date';
-$lang['to_date']= 'To date';
-$lang['not_results_found']= 'No results found';
-$lang['lead_lock_after_convert_to_customer']= 'Dont allow editing the lead after converting to customer (admins not applied)';
+$lang['from_date']= 'Dari tanggal';
+$lang['to_date']= 'Sampai tanggal';
+$lang['not_results_found']= 'Tidak ada hasil';
+$lang['lead_lock_after_convert_to_customer']= 'Jangan biarkan mengedit potensial setelah mengkonversi ke pelanggan (admin tidak diterapkan)';
 $lang['default_pipeline_sort'] = 'Default pipeline sort';
-$lang['not_goal_message_failed'] = 'We failed to achieve goal!<br /> Goal Type: %s
-<br />Goal Achievement: %s
-<br />Total Achivement: %s
-<br />Start Date: %s
-<br />End Date: %s';
+$lang['not_goal_message_failed'] = 'Kami gagal mencapai tujuan!<br /> Tipe Tujuan: %s
+<br />Prestasi Tujuan: %s
+<br />Total Prestasi: %s
+<br />Waktu Dimulai: %s
+<br />Waktu Berakhir: %s';
 $lang['toggle_full_view'] = 'Toggle full view';
 $lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
 $lang['not_task_new_comment'] = 'commented on task %s';
+
 # Version 1.1.8
 $lang['invoice_number_exists'] = 'This invoice number exists for the ongoing year.';
-$lang['estimate_number_exists'] = 'This estimate number exists for the ongoing year.';
-$lang['email_exists'] = 'Email already exists';
-$lang['field_is_required'] = 'This field is required';
-$lang['field_max_length'] = 'Please enter value no more than {0} characters';
-$lang['not_uploaded_project_file'] = 'New file uploaded';
-$lang['not_created_new_project_discussion'] = 'New project discussion created';
-$lang['not_commented_on_project_discussion'] = 'New comment on project discussion';
-$lang['all_staff_members'] = 'All staff members';
+$lang['estimate_number_exists'] = 'Jumlah estimasi ini ada untuk tahun berjalan.';
+$lang['email_exists'] = 'Email sudah ada';
+$lang['field_is_required'] = 'Bagian ini diperlukan';
+$lang['field_max_length'] = 'Masukkan nilai tidak lebih dari {0} karakter';
+$lang['not_uploaded_project_file'] = 'File baru diunggah';
+$lang['not_created_new_project_discussion'] = 'Diskusi proyek baru dibuat';
+$lang['not_commented_on_project_discussion'] = 'Komentar baru pada diskusi proyek';
+$lang['all_staff_members'] = 'Semua anggota staf';
 $lang['help_project_permissions'] = 'VIEW allows staff member to see ALL projects. If you only want them to see projects they are assigned (added as members), do not give VIEW permissions.';
 $lang['help_tasks_permissions'] = 'VIEW allows staff member to see ALL tasks. If you only want them to see tasks they are assigned to or following, do not give VIEW permissions.';
-$lang['expense_recuring_days'] = 'Day(s)';
-$lang['expense_recuring_weeks'] = 'Week(s)';
-$lang['expense_recuring_months'] = 'Month(s)';
-$lang['expense_recuring_years'] = 'Years(s)';
-$lang['reset_to_default_color'] = 'Reset to default color';
+$lang['expense_recuring_days'] = 'Harian';
+$lang['expense_recuring_weeks'] = 'Mingguan';
+$lang['expense_recuring_months'] = 'Bulanan';
+$lang['expense_recuring_years'] = 'Tahunan';
+$lang['reset_to_default_color'] = 'Reset ke warna default';
 $lang['pdf_logo_width'] = 'Logo Width (PX)';
 $lang['drop_files_here_to_upload'] = 'Drop files here to upload';
 $lang['browser_not_support_drag_and_drop'] = 'Your browser does not support drag\'n\'drop file uploads';
-$lang['remove_file'] = 'Remove file';
-$lang['you_can_not_upload_any_more_files'] = 'You can not upload any more files';
+$lang['remove_file'] = 'Hapus file';
+$lang['you_can_not_upload_any_more_files'] = 'Anda tidak dapat meng-upload file lagi';
 $lang['custom_field_only_admin'] = 'Restrict visibility for administrators only';
 $lang['leads_default_source'] = 'Default source';
 $lang['clear_activity_log'] = 'Clear log';
@@ -2967,51 +2964,112 @@ $lang['invoice_activity_unmarked_as_cancelled'] = 'unmarked invoice as cancelled
 $lang['wait_text'] = 'Please wait...';
 $lang['projects_summary'] = 'Projects summary';
 $lang['dept_imap_host'] = 'IMAP Host';
-$lang['dept_encryption'] = 'Encryption';
+$lang['dept_encryption'] = 'Enkripsi';
 $lang['dept_email_password'] = 'Password';
 $lang['dept_email_no_encryption'] = 'No Encryption';
 $lang['failed_to_decrypt_password'] = 'Failed to decrypt password';
-$lang['delete_mail_after_import'] = 'Delete mail after import?';
-$lang['expiry_reminder_enabled'] = 'Send expiration reminder';
-$lang['send_expiry_reminder_before'] = 'Send expiration reminder before (DAYS)';
+$lang['delete_mail_after_import'] = 'Hapus mail setelah impor?';
+$lang['expiry_reminder_enabled'] = 'Kirim pengingat kedaluwarsa';
+$lang['send_expiry_reminder_before'] = 'Kirim pengingat kedaluwarsa sebelum (DAYS)';
 $lang['not_expiry_reminder_sent'] = 'Expiry reminder sent';
 $lang['send_expiry_reminder'] = 'Sent expiration reminder';
 $lang['sent_expiry_reminder_success'] = 'Expiration reminder successfuly sent';
 $lang['sent_expiry_reminder_fail'] = 'Failed to send expiration reminder';
 $lang['leads_default_status'] = 'Default status';
-$lang['item_description_placeholder'] = 'Description';
+$lang['item_description_placeholder'] = 'Deskripsi';
 $lang['item_long_description_placeholder'] = 'Long description';
-$lang['item_quantity_placeholder'] = 'Quantity';
-$lang['item_rate_placeholder'] = 'Rate';
+$lang['item_quantity_placeholder'] = 'Kuantitas';
+$lang['item_rate_placeholder'] = 'Nilai';
 $lang['tickets_summary'] = 'Tickets Summary';
 $lang['tasks_list_priority'] = 'Priority';
 $lang['ticket_status_db_2'] = 'In Progress';
-$lang['ticket_status_db_1'] = 'Open';
-$lang['ticket_status_db_3'] = 'Answered';
-$lang['ticket_status_db_4'] = 'On Hold';
-$lang['ticket_status_db_5'] = 'Closed';
-$lang['ticket_priority_db_1'] = 'Low';
-$lang['ticket_priority_db_2'] = 'Medium';
-$lang['ticket_priority_db_3'] = 'High';
+$lang['ticket_status_db_1'] = 'Terbuka';
+$lang['ticket_status_db_3'] = 'Terjawab';
+$lang['ticket_status_db_4'] = 'Tertahan';
+$lang['ticket_status_db_5'] = 'Tertutup';
+$lang['ticket_priority_db_1'] = 'Rendah';
+$lang['ticket_priority_db_2'] = 'Sedang';
+$lang['ticket_priority_db_3'] = 'Tinggi';
 $lang['customer_have_projects_by'] = 'Contains projects by status %s';
 $lang['customer_have_proposals_by'] = 'Contains proposals by status %s';
 $lang['do_not_redirect_payment'] = 'Do not redirect me to the payment processor';
 $lang['extension_not_allowed'] = 'Extension not allowed';
-$lang['project_tickets'] = 'Tickets';
-$lang['invoice_report'] = 'Invoice Report';
-$lang['payment_modes_report'] = 'Payment Modes (Transactions)';
+$lang['project_tickets'] = 'Tiket';
+$lang['invoice_report'] = 'Laporan Invoice';
+$lang['payment_modes_report'] = 'Mode Pembayaran (Transactions)';
 $lang['customer_admins'] = 'Customer Admins';
-$lang['assign_admin'] = 'Assign admin';
-$lang['customer_admin_date_assigned'] = 'Date Assigned';
+$lang['assign_admin'] = 'Tugaskan Admin';
+$lang['customer_admin_date_assigned'] = 'Waktu Ditugaskan';
 $lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer. To see all customer data and adjust the portal login as customer.';
-$lang['ticket_form_validation_file_size'] = 'File size must be less than %s';
+$lang['ticket_form_validation_file_size'] = 'Ukuran file harus kurang dari %s';
 $lang['has_transactions_currency_base_change'] = 'Changing the base currency is possible only if there are no transactions recorded in that currency. Delete the transactions to change the base currency';
-$lang['customers_sort_all'] = 'All';
+$lang['customers_sort_all'] = 'Semua';
 
 # Version 1.1.9
-$lang['use_recaptcha_customers_area'] = 'Allow recaptcha on customers area (Login/Register)';
-$lang['project_marked_as_finished'] = 'Project completed';
-$lang['project_status_updated'] = 'Project status updated';
+$lang['use_recaptcha_customers_area'] = 'Izinkan recaptcha pada member area (Login/Register)';
+$lang['project_marked_as_finished'] = 'Proyek Selesai';
+$lang['project_status_updated'] = 'Status Proyek Diperbarui';
 $lang['remove_decimals_on_zero'] = 'Remove decimals on numbers/money with zero decimals (2.00 will become 2, 2.25 will stay 2.25)';
-$lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row (Invoices/Estimates)';
+$lang['remove_tax_name_from_item_table'] = 'Menghapus nama pajak dari baris tabel barang (Invoices/Estimates)';
 
+# Version 1.2.0
+$lang['not_billable_expenses_by_categories'] = 'Tidak ada pengeluaran dapat ditagih berdasarkan kategori';
+$lang['billable_expenses_by_categories'] = 'Pengeluaran dapat ditagih berdasarkan kategori';
+$lang['format_letter_size'] = 'Letter';
+$lang['pdf_formats'] = 'Format Dokumen';
+$lang['swap_pdf_info'] = 'Tukar Perusahaan/Detail Pelanggan (rincian perusahaan untuk sisi kanan, rincian pelanggan untuk sisi kiri)';
+$lang['invoice_estimate_pdf_text_color'] = 'Warna teks Invoice/Estimasi';
+$lang['expenses_filter_by_categories'] = 'Bdskn Kategori';
+$lang['task_copy'] = 'Salin';
+$lang['estimates_not_sent'] = 'Estimasi Tak Terkirim';
+$lang['estimate_status'] = 'Status';
+$lang['expenses_report_exclude_billable'] = 'Exclude Pengeluaran Ditagih';
+$lang['expenses_total'] = 'Total';
+$lang['estimate_activity_added_attachment'] = 'Lampiran Ditambah';
+$lang['show_to_customer'] = 'Tampilkan u/ pelanggan';
+$lang['hide_from_customer'] = 'Sembunyikan dari pelanggan';
+$lang['expenses_report_total'] = 'Total';
+$lang['expenses_report'] = 'Laporan Pengeluaran';
+$lang['expenses_report_tax'] = 'Pajak';
+$lang['expenses_report_total_tax'] = 'Total Pajak';
+$lang['expenses_detailed_report'] = 'Laporan Rinci';
+$lang['expense_not_billable'] = 'Tak Ditagih';
+$lang['notification_settings'] = 'Pengaturan Notifikasi';
+$lang['staff_with_roles'] = 'Anggota dengan Peran';
+$lang['specific_staff_members'] = 'Spesifik Staff Members';
+$lang['proposal_mark_as'] = 'Tandai sbg %s';
+$lang['kb_report_total_answers'] = 'Total';
+$lang['ticket_message_edit'] = 'Sunting';
+$lang['invoice_files'] = 'File Invoice';
+$lang['estimate_files'] = 'File Estimasi';
+$lang['proposal_files'] = 'File Proposal';
+$lang['invoices_awaiting_payment'] = 'Invoice menunggu Pmbayaran';
+$lang['tasks_not_finished'] = 'Tugas Tidak Selesai';
+$lang['outstanding_invoices'] = 'Invoice Pengeluaran';
+$lang['past_due_invoices'] = 'Invoice Lampau';
+$lang['paid_invoices'] = 'Invoice Dibayar';
+$lang['invoice_estimate_year'] = 'Tahun';
+$lang['no_results_text_search_dropdown'] = 'Tak ada Hasil Cocok';
+$lang['task_stats_logged_hours'] = 'Jam Tercatat';
+$lang['leads_converted_to_client'] = 'Leads Converted to Customer';
+$lang['current_version'] = 'Versi Sekarang: %s';
+$lang['task_assigned_from'] = 'Tugas ini diberikan kepada Anda oleh %s';
+$lang['auto_check_for_new_notifications'] = 'Auto cek untuk notifikasi baru (Seconds - Set 0 to disable)';
+$lang['recurring_ends_on'] = 'Ends On (Leave blank for never)';
+$lang['new_note'] = 'Catatan Baru';
+$lang['my_tickets_assigned'] = 'Tickets assigned to me';
+$lang['filter_by_assigned'] = 'By Assigned Member';
+$lang['staff_stats_total_logged_time'] = 'Total Logged Time';
+$lang['staff_stats_last_month_total_logged_time'] = 'Last Month Logged Time';
+$lang['staff_stats_this_month_total_logged_time'] = 'This Month Logged Time';
+$lang['staff_stats_last_week_total_logged_time'] = 'Last Week Logged Time';
+$lang['staff_stats_this_week_total_logged_time'] = 'This Week Logged Time';
+// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+$lang['timesheet_user'] = $lang['project_timesheet_user'];
+$lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
+$lang['timesheet_end_time'] = $lang['project_timesheet_end_time'];
+$lang['timesheet_time_spend'] = $lang['project_timesheet_time_spend'];
+$lang['task_timesheets'] = $lang['project_timesheets'];
+$lang['task_log_time_start'] = $lang['project_timesheet_start_time'];
+$lang['task_log_time_end'] = $lang['project_timesheet_end_time'];
+$lang['task_single_log_user'] = $lang['project_timesheet_user'];
