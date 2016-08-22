@@ -1405,7 +1405,6 @@ $lang['client_add_edit_profile']                = '简介';
 $lang['home_invoice_not_sent']        = '未发送的发票';
 $lang['home_expired_estimates']       = '过期的报价';
 $lang['home_invoice_overdue']         = '逾期发票';
-$lang['home_payments_received_today'] = '今天收到的款项';
 
 # Reports
 
@@ -1671,7 +1670,6 @@ $lang['report_expenses_full']                                        = '完整�
 $lang['expenses_yearly_by_categories']                               = '按类别分类费用';
 $lang['total_expenses_for']                                          = '总费用'; // year
 $lang['expenses_report_for']                                         = '费用'; // year
-$lang['expense_report_info']                                         = '计费的费用不计算在报告中';
 # Custom fields
 $lang['custom_field_required']                                       = '要求';
 $lang['custom_field_show_on_pdf']                                    = '显示PDF';
@@ -1839,7 +1837,7 @@ $lang['show_invoices_on_calendar']         = '发票';
 $lang['show_estimates_on_calendar']        = '报价';
 $lang['show_contracts_on_calendar']        = '合同';
 $lang['show_tasks_on_calendar']            = '任务';
-
+$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = '复制自定义字段到客户简介';
 $lang['copy_custom_fields_convert_to_customer_help']                 = '如果不存在下列自定义域中，客户将被自动创建，否则只能被复制从引线配置文件';
@@ -2056,10 +2054,6 @@ $lang['proposal_preview_template']              = '预览模板';
 $lang['proposal_view']                          = '查看标书';
 $lang['proposal_copy']                          = '复制';
 $lang['proposal_delete']                        = '删除';
-$lang['proposal_mark_as_open']                  = '标记为公开';
-$lang['proposal_mark_as_declined']              = '标记为已拒绝';
-$lang['proposal_mark_as_accepted']              = '标记为接受';
-$lang['proposal_mark_as_sent']                  = '标记为发送';
 $lang['proposal_to']                            = '公司名称';
 $lang['proposal_add_comment']                   = '添加评论';
 $lang['proposal_sent_to_email_success']         = '标书发送到电子邮件成功';
@@ -2365,7 +2359,6 @@ $lang['report_invoice_total_taxes'] = '税额';
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_see_weekly_payments'] = '看每周支付';
 $lang['home_stats_by_project_status'] = '通过项目状态统计';
 $lang['home_invoice_overview'] = '发票概述';
 $lang['home_estimate_overview'] = '估价概述';
@@ -2731,7 +2724,7 @@ $lang['delete_event'] = 'Delete';
 $lang['not_new_ticket_created'] = 'New ticket opened in your department - %s';
 $lang['receive_notification_on_new_ticket'] = 'Receive notification on new ticket opened';
 $lang['receive_notification_on_new_ticket_help'] = 'All staff members which belong to the ticket department will receive notification that new ticket is opened';
-$lang['event_updated'] = 'Event updated successfuly';
+$lang['event_updated'] = 'Event updated successfully';
 $lang['customer_contacts'] = 'Contacts';
 $lang['new_contact'] = 'New Contact';
 $lang['contact'] = 'Contact';
@@ -2768,7 +2761,6 @@ $lang['leads_merge_as_contact_field'] = 'Merge as contact field';
 $lang['lead_convert_to_client_phone'] = 'Phone';
 $lang['invoice_status_report_all'] = 'All';
 $lang['import_contact_field'] = 'Contact field';
-$lang['proposal_mark_as_draft'] = 'Mark as Draft';
 
 $lang['file_uploaded_success'] = 'There is no error, the file uploaded with success';
 $lang['file_exceds_max_filesize'] = 'The uploaded file exceeds the upload_max_filesize directive in php.ini';
@@ -2867,6 +2859,10 @@ $lang['project_overview_expenses_billed'] = 'Billed Expenses';
 $lang['project_overview_expenses_unbilled'] = 'Unbilled Expenses';
 $lang['announcement_date_list'] = 'Date';
 $lang['project_setting_view_finance_overview'] = 'view finance overview';
+$lang['project_setting_view_finance_overview'] = 'view finance overview';
+$lang['show_all_tasks_for_project_member'] = 'Allow all staff to see all tasks related to projects (includes non-staff)';
+$lang['not_staff_added_as_project_member'] = 'Added you as project member';
+$lang['report_expenses_base_currency_select_explanation'] = 'You need to select currency because the system found different currencies used for expenses.';
 
 # Version 1.1.6
 $lang['project_activity_recorded_expense'] = 'Recorded Expense';
@@ -2884,6 +2880,7 @@ $lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['task_filter_detailed_show_tasks'] = 'Show Tasks';
+$lang['kb_article_slug'] = 'Slug';
 
 
 # Version 1.1.7
@@ -2976,7 +2973,7 @@ $lang['expiry_reminder_enabled'] = 'Send expiration reminder';
 $lang['send_expiry_reminder_before'] = 'Send expiration reminder before (DAYS)';
 $lang['not_expiry_reminder_sent'] = 'Expiry reminder sent';
 $lang['send_expiry_reminder'] = 'Sent expiration reminder';
-$lang['sent_expiry_reminder_success'] = 'Expiration reminder successfuly sent';
+$lang['sent_expiry_reminder_success'] = 'Expiration reminder successfully sent';
 $lang['sent_expiry_reminder_fail'] = 'Failed to send expiration reminder';
 $lang['leads_default_status'] = 'Default status';
 $lang['item_description_placeholder'] = 'Description';
@@ -3015,3 +3012,64 @@ $lang['project_status_updated'] = 'Project status updated';
 $lang['remove_decimals_on_zero'] = 'Remove decimals on numbers/money with zero decimals (2.00 will become 2, 2.25 will stay 2.25)';
 $lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row (Invoices/Estimates)';
 
+# Version 1.2.0
+$lang['not_billable_expenses_by_categories'] = 'Not billable expenses by categories';
+$lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
+$lang['format_letter_size'] = 'Letter';
+$lang['pdf_formats'] = 'Document formats';
+$lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to right side, customer details to left side)';
+$lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
+$lang['expenses_filter_by_categories'] = 'By Categories';
+$lang['task_copy'] = 'Copy';
+$lang['estimates_not_sent'] = 'Estimate Not Sent';
+$lang['estimate_status'] = 'Status';
+$lang['expenses_report_exclude_billable'] = 'Exclude Billable Expenses';
+$lang['expenses_total'] = 'Total';
+$lang['estimate_activity_added_attachment'] = 'Added attachment';
+$lang['show_to_customer'] = 'Show to customer';
+$lang['hide_from_customer'] = 'Hide from customer';
+$lang['expenses_report_total'] = 'Total';
+$lang['expenses_report'] = 'Expenses report';
+$lang['expenses_report_tax'] = 'Tax';
+$lang['expenses_report_total_tax'] = 'Total Tax';
+$lang['expenses_detailed_report'] = 'Detailed Report';
+$lang['expense_not_billable'] = 'Not Billable';
+$lang['notification_settings'] = 'Notification settings';
+$lang['staff_with_roles'] = 'Staff members with roles';
+$lang['specific_staff_members'] = 'Specific Staff Members';
+$lang['proposal_mark_as'] = 'Mark as %s';
+$lang['kb_report_total_answers'] = 'Total';
+$lang['ticket_message_edit'] = 'Edit';
+$lang['invoice_files'] = 'Invoice Files';
+$lang['estimate_files'] = 'Estimate Files';
+$lang['proposal_files'] = 'Proposal Files';
+$lang['invoices_awaiting_payment'] = 'Invoices Awaiting Payment';
+$lang['tasks_not_finished'] = 'Tasks Not Finished';
+$lang['outstanding_invoices'] = 'Outstanding Invoices';
+$lang['past_due_invoices'] = 'Past Due Invoices';
+$lang['paid_invoices'] = 'Paid Invoices';
+$lang['invoice_estimate_year'] = 'Year';
+$lang['no_results_text_search_dropdown'] = 'No Results Matched';
+$lang['task_stats_logged_hours'] = 'Logged Hours';
+$lang['leads_converted_to_client'] = 'Leads Converted to Customer';
+$lang['current_version'] = 'Current Version: %s';
+$lang['task_assigned_from'] = 'This task is assigned to you by %s';
+$lang['auto_check_for_new_notifications'] = 'Auto check for new notifications (Seconds - Set 0 to disable)';
+$lang['recurring_ends_on'] = 'Ends On (Leave blank for never)';
+$lang['new_note'] = 'New Note';
+$lang['my_tickets_assigned'] = 'Tickets assigned to me';
+$lang['filter_by_assigned'] = 'By Assigned Member';
+$lang['staff_stats_total_logged_time'] = 'Total Logged Time';
+$lang['staff_stats_last_month_total_logged_time'] = 'Last Month Logged Time';
+$lang['staff_stats_this_month_total_logged_time'] = 'This Month Logged Time';
+$lang['staff_stats_last_week_total_logged_time'] = 'Last Week Logged Time';
+$lang['staff_stats_this_week_total_logged_time'] = 'This Week Logged Time';
+// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+$lang['timesheet_user'] = $lang['project_timesheet_user'];
+$lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
+$lang['timesheet_end_time'] = $lang['project_timesheet_end_time'];
+$lang['timesheet_time_spend'] = $lang['project_timesheet_time_spend'];
+$lang['task_timesheets'] = $lang['project_timesheets'];
+$lang['task_log_time_start'] = $lang['project_timesheet_start_time'];
+$lang['task_log_time_end'] = $lang['project_timesheet_end_time'];
+$lang['task_single_log_user'] = $lang['project_timesheet_user'];
