@@ -123,7 +123,7 @@ $currencies = array(
     'EUR'=>'Euros',
 );
 
-$currencies = doe_actiie('voor_nummer_formaat_render_taal_munteenheden',$currencies);
+$currencies = do_action('before_number_format_render_languge_currencies',$currencies);
 foreach($currencies as $key =>$val){
     $lang['num_word_'.strtoupper($key)] = $val;
 }
