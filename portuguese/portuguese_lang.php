@@ -1405,7 +1405,6 @@ $lang['client_add_edit_profile']                = 'Perfil';
 $lang['home_invoice_not_sent']        = 'Fatura não Enviada';
 $lang['home_expired_estimates']       = 'Estimativa Expirada';
 $lang['home_invoice_overdue']         = 'Fatura Vencida';
-$lang['home_payments_received_today'] = 'Pagamentos Recebidos Hoje';
 
 # Reports
 
@@ -1671,7 +1670,6 @@ $lang['report_expenses_full']                                        = 'Relatór
 $lang['expenses_yearly_by_categories']                               = 'Despesas anuais por Categorias';
 $lang['total_expenses_for']                                          = 'Total de Despesas para'; // year
 $lang['expenses_report_for']                                         = 'Despesas para'; // year
-$lang['expense_report_info']                                         = 'Despesas faturáveis não estão calculadas no relatório';
 # Custom fields
 $lang['custom_field_required']                                       = 'Necessário';
 $lang['custom_field_show_on_pdf']                                    = 'Mostrar em PDF';
@@ -1839,7 +1837,7 @@ $lang['show_invoices_on_calendar']         = 'Faturas';
 $lang['show_estimates_on_calendar']        = 'Estimativas';
 $lang['show_contracts_on_calendar']        = 'Contratos';
 $lang['show_tasks_on_calendar']            = 'Tarefas';
-
+$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Copiar os campos personalizados ao perfil do cliente';
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'Se qualquer um dos seguintes campos personalizados não existir para o cliente será automaticamente criado com o mesmo nome de outra forma apenas o valor será copiado do perfil do lead.';
@@ -2056,10 +2054,6 @@ $lang['proposal_preview_template']              = 'Pré-visualizar o modelo';
 $lang['proposal_view']                          = 'Visualizar a Proposta';
 $lang['proposal_copy']                          = 'Copiar';
 $lang['proposal_delete']                        = 'Deletar';
-$lang['proposal_mark_as_open']                  = 'Marcar como Aberto';
-$lang['proposal_mark_as_declined']              = 'Marcar como Declinado';
-$lang['proposal_mark_as_accepted']              = 'Marcar como Aceito';
-$lang['proposal_mark_as_sent']                  = 'Marcar como Enviado';
 $lang['proposal_to']                            = 'Para';
 $lang['proposal_add_comment']                   = 'Adicionar comentário';
 $lang['proposal_sent_to_email_success']         = 'Proposta enviado por e-mail com sucesso';
@@ -2282,6 +2276,7 @@ $lang['invoice_estimate_activity_updated_item_long_description'] = 'descrição 
 $lang['invoice_estimate_activity_updated_item_rate'] = 'tarifa do item atualizada de %s para %s';
 $lang['invoice_estimate_activity_updated_qty_item'] = 'quantidade atualizada no item <b>%s</b> de %s para %s';
 $lang['invoice_estimate_activity_added_item'] = 'novo item adicionado <b>%s</b>';
+$lang['invoice_estimate_activity_sent_to_client'] = 'sent estimate to client';
 $lang['estimate_activity_client_accepted_and_converted'] = 'Consumidor aceitou esta estimativa. Estimativa é convertida para faturar com número %s';
 $lang['estimate_activity_client_accepted'] = 'Consumidor aceitou essa estimativa';
 $lang['estimate_activity_client_declined'] = 'Cliente declinou dessa estimativa';
@@ -2364,7 +2359,6 @@ $lang['report_invoice_total_taxes'] = 'Taxas';
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_see_weekly_payments'] = 'Ver pagamentos semanais';
 $lang['home_stats_by_project_status'] = 'Estatisticas do status do projeto';
 $lang['home_invoice_overview'] = 'Visão geral da fatura';
 $lang['home_estimate_overview'] = 'Visão geral da estimativa';
@@ -2497,6 +2491,7 @@ $lang['project_settings']      = 'Configurações do Projeto';
 $lang['project_invoiced_successfuly']             = 'Projeto Faturado com Sucesso';
 $lang['new_project']             = 'Novo Projeto';
 $lang['project_files']            = 'Arquivos';
+$lang['project_activity']            = 'Activity';
 $lang['project_name']            = 'Nome do Projeto';
 $lang['project_description']            = 'Descrição do Projeto';
 $lang['project_customer']            = 'Consumidor';
@@ -2664,6 +2659,10 @@ $lang['task_not_finished'] = 'Incompleto';
 $lang['task_billed_cant_start_timer'] = 'Tarefa faturada. Cronômetro não pode ser o começo';
 $lang['invoice_task_billable_timers_found'] = 'Cronômetro iniciado encontrado';
 $lang['project_timesheet_not_updated'] = 'Quadro de horários não afetado';
+$lang['sales_report_cancelled_invoices_not_included'] = 'Faturas canceladas estão excluidas dos relatórios';
+$lang['invoices_merge_cancel_merged_invoices'] = 'Marque as faturas mescladas como canceladas em vez de apagalas';
+$lang['invoice_marked_as_cancelled_successfuly'] = 'Fatura marcada como cancelada com sucesso';
+$lang['invoice_unmarked_as_cancelled'] = 'Fatura desmarcada como cancelada com sucesso';
 $lang['project_invoice_task_no_timers_found'] = 'Nenhum cronômetro encontrado para esta tarefa';
 $lang['invoice_project_tasks_not_started'] = 'Ainda não iniciado | Data de início: %s.';
 $lang['invoice_project_see_billed_tasks'] = 'Ver tarefas que serão cobradas nesta fatura';
@@ -2760,7 +2759,6 @@ $lang['leads_merge_as_contact_field'] = 'Mesclar como campo de contato';
 $lang['lead_convert_to_client_phone'] = 'Telefone';
 $lang['invoice_status_report_all'] = 'Todos';
 $lang['import_contact_field'] = 'Campo de contatos';
-$lang['proposal_mark_as_draft'] = 'Marcar como rascunho';
 
 $lang['file_uploaded_success'] = 'Não há nenhum erro, o arquivo enviado com sucesso';
 $lang['file_exceds_max_filesize'] = 'O arquivo enviado excede a diretiva upload_max_filesize em php.ini';
@@ -2878,7 +2876,7 @@ $lang['task_filter_fetch_month_by'] = 'Buscar mês de';
 $lang['filter'] = 'Filtro';
 $lang['task_filter_detailed_all_months'] = 'Todos os meses';
 $lang['task_filter_detailed_show_tasks'] = 'Mostrar Tarefas';
-
+$lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
 $lang['email_template_ticket_warning'] = 'Se o tiquet for importado com o direcionamento de email e o contato não existir no CRM os campos não serão substituidos.';
@@ -3009,3 +3007,64 @@ $lang['project_status_updated'] = 'Project status updated';
 $lang['remove_decimals_on_zero'] = 'Remove decimals on numbers/money with zero decimals (2.00 will become 2, 2.25 will stay 2.25)';
 $lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row (Invoices/Estimates)';
 
+# Version 1.2.0
+$lang['not_billable_expenses_by_categories'] = 'Not billable expenses by categories';
+$lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
+$lang['format_letter_size'] = 'Letter';
+$lang['pdf_formats'] = 'Document formats';
+$lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to right side, customer details to left side)';
+$lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
+$lang['expenses_filter_by_categories'] = 'By Categories';
+$lang['task_copy'] = 'Copy';
+$lang['estimates_not_sent'] = 'Estimate Not Sent';
+$lang['estimate_status'] = 'Status';
+$lang['expenses_report_exclude_billable'] = 'Exclude Billable Expenses';
+$lang['expenses_total'] = 'Total';
+$lang['estimate_activity_added_attachment'] = 'Added attachment';
+$lang['show_to_customer'] = 'Show to customer';
+$lang['hide_from_customer'] = 'Hide from customer';
+$lang['expenses_report_total'] = 'Total';
+$lang['expenses_report'] = 'Expenses report';
+$lang['expenses_report_tax'] = 'Tax';
+$lang['expenses_report_total_tax'] = 'Total Tax';
+$lang['expenses_detailed_report'] = 'Detailed Report';
+$lang['expense_not_billable'] = 'Not Billable';
+$lang['notification_settings'] = 'Notification settings';
+$lang['staff_with_roles'] = 'Staff members with roles';
+$lang['specific_staff_members'] = 'Specific Staff Members';
+$lang['proposal_mark_as'] = 'Mark as %s';
+$lang['kb_report_total_answers'] = 'Total';
+$lang['ticket_message_edit'] = 'Edit';
+$lang['invoice_files'] = 'Invoice Files';
+$lang['estimate_files'] = 'Estimate Files';
+$lang['proposal_files'] = 'Proposal Files';
+$lang['invoices_awaiting_payment'] = 'Invoices Awaiting Payment';
+$lang['tasks_not_finished'] = 'Tasks Not Finished';
+$lang['outstanding_invoices'] = 'Outstanding Invoices';
+$lang['past_due_invoices'] = 'Past Due Invoices';
+$lang['paid_invoices'] = 'Paid Invoices';
+$lang['invoice_estimate_year'] = 'Year';
+$lang['no_results_text_search_dropdown'] = 'No Results Matched';
+$lang['task_stats_logged_hours'] = 'Logged Hours';
+$lang['leads_converted_to_client'] = 'Leads Converted to Customer';
+$lang['current_version'] = 'Current Version: %s';
+$lang['task_assigned_from'] = 'This task is assigned to you by %s';
+$lang['auto_check_for_new_notifications'] = 'Auto check for new notifications (Seconds - Set 0 to disable)';
+$lang['recurring_ends_on'] = 'Ends On (Leave blank for never)';
+$lang['new_note'] = 'New Note';
+$lang['my_tickets_assigned'] = 'Tickets assigned to me';
+$lang['filter_by_assigned'] = 'By Assigned Member';
+$lang['staff_stats_total_logged_time'] = 'Total Logged Time';
+$lang['staff_stats_last_month_total_logged_time'] = 'Last Month Logged Time';
+$lang['staff_stats_this_month_total_logged_time'] = 'This Month Logged Time';
+$lang['staff_stats_last_week_total_logged_time'] = 'Last Week Logged Time';
+$lang['staff_stats_this_week_total_logged_time'] = 'This Week Logged Time';
+// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+$lang['timesheet_user'] = $lang['project_timesheet_user'];
+$lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
+$lang['timesheet_end_time'] = $lang['project_timesheet_end_time'];
+$lang['timesheet_time_spend'] = $lang['project_timesheet_time_spend'];
+$lang['task_timesheets'] = $lang['project_timesheets'];
+$lang['task_log_time_start'] = $lang['project_timesheet_start_time'];
+$lang['task_log_time_end'] = $lang['project_timesheet_end_time'];
+$lang['task_single_log_user'] = $lang['project_timesheet_user'];
