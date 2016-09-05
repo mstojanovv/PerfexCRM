@@ -2598,7 +2598,6 @@ $lang['filter'] = 'Filtr';
 $lang['task_filter_detailed_all_months'] = 'Wszystkie miesiące';
 $lang['task_filter_detailed_show_tasks'] = 'Pokaż zadania';
 $lang['kb_article_slug'] = 'slug';
-
 # Version 1.1.7
 $lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
@@ -2725,7 +2724,6 @@ $lang['project_marked_as_finished'] = 'Projekt zakończony';
 $lang['project_status_updated'] = 'Status projektu zaktualizowany';
 $lang['remove_decimals_on_zero'] = 'Usuń zera z części dziesiętnej wartości (np. 2.00 zostanie zamienione na  2, 2.25 pozostanie bez zmian jako 2.25)';
 $lang['remove_tax_name_from_item_table'] = 'Ukryj nazwę podatku na dokumentach (Faktury/Wyceny)';
-
 # Version 1.2.0
 $lang['not_billable_expenses_by_categories'] = 'Not billable expenses by categories';
 $lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
@@ -2787,3 +2785,27 @@ $lang['task_timesheets'] = $lang['project_timesheets'];
 $lang['task_log_time_start'] = $lang['project_timesheet_start_time'];
 $lang['task_log_time_end'] = $lang['project_timesheet_end_time'];
 $lang['task_single_log_user'] = $lang['project_timesheet_user'];
+# Version 1.2.2
+$lang['milestone_description'] = 'Description';
+$lang['description_visible_to_customer'] = 'Show description to customer';
+$lang['upcoming_tasks'] = 'Upcoming Tasks';
+$lang['paymentmethod_two_checkout_account_number'] = 'Account Number (Seller ID)';
+$lang['paymentmethod_two_checkout_private_key'] = 'Private Key';
+$lang['paymentmethod_two_checkout_publishable_key'] = 'Publishable Key';
+$lang['payment_credit_card_number'] = 'Card Number';
+$lang['payment_credit_card_expiration_date'] = 'Expiration Date';
+$lang['payment_billing_email'] = 'Email';
+$lang['payment_billing_name'] = 'Billing Name';
+$lang['submit_payment'] = 'Submit Payment';
+$lang['2checkout_notice_payment'] = 'Credit card details are processed via secure token provided from 2Checkout';
+$lang['2checkout_usage_notice'] = 'SSL is required if you\'re using the 2Checkout payment API. It is required to safely call the tokenization and authorizations. The system will function without SSL, however, this will place you out of compliance, which risks deactivation of your API permissions.';
+$lang['custom_field_disallow_customer_to_edit'] = 'Disalow customer to edit this field';
+$lang['project_due_notice'] = 'This project is overdue by %s days';
+$lang['not_lead_added_attachment'] = 'added new attachment to lead %s';
+$lang['lead_note_date_added'] = 'Note added: %s';
+$lang['recurring_custom'] = 'Custom';
+// Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
+$lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
+$lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
+$lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
+$lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
