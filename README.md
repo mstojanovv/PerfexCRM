@@ -1,3 +1,3 @@
 # <a href="http://perfexcrm.com">PerfexCRM</a>
 Perfex CRM - Language files
-Version 1.2.2
+Version 1.2.3
