@@ -516,7 +516,7 @@ $lang['settings_sales_require_client_logged_in_to_view_invoice']   = 'Require cl
 $lang['settings_sales_next_invoice_number']                        = 'Next Invoice Number';
 $lang['settings_sales_next_invoice_number_tooltip']                = 'Set this field to 1 if you want to start from begining';
 $lang['settings_sales_decrement_invoice_number_on_delete']         = 'Decrement invoice number on delete';
-$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last invoice is deleted? Ex. If is set this option to YES and before invoice delete the next invoice number is 15 the next invoice number will decrement to 14. If is set to NO the number will remain to 15.  If you have setup delete only on last invoice to NO you should set this option to NO too to keep the next invoice number not decremented.';
+$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last invoice is deleted? eq. If is set this option to YES and before invoice delete the next invoice number is 15 the next invoice number will decrement to 14. If is set to NO the number will remain to 15.  If you have setup delete only on last invoice to NO you should set this option to NO too to keep the next invoice number not decremented.';
 $lang['settings_sales_invoice_number_format']                      = 'Invoice Number Format';
 $lang['settings_sales_invoice_number_format_year_based']           = 'Year Based';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Number Based (000001)';
@@ -1112,12 +1112,11 @@ $lang['invoice_add_edit_recurring_no']                                        = 
 $lang['invoice_add_edit_recurring_month']                                     = 'Every %s month';
 $lang['invoice_add_edit_recurring_months']                                    = 'Every %s months';
 $lang['invoices_list_all']                                                    = 'All';
-$lang['invoices_list_not_sent']                                               = 'Invoice Not Sent';
 $lang['invoices_list_not_have_payment']                                       = 'Invoices with no payment record';
 $lang['invoices_list_recuring']                                               = 'Recurring Invoices';
 $lang['invoices_list_made_payment_by']                                        = 'Made Payment by %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Create new invoice from main recurring invoice only if is with status Paid';
-$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Create new invoice from the main recurring invoice only if the main invoice is with status paid? If this field is set to No and the recurring invoice is not with status paid the new invoice wont be created';
+$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'If this field is set to YES and the recurring invoices is not with status PAID, the new invoice will NOT be created.';
 $lang['send_renewed_invoice_from_recurring_to_email']                         = 'Auto send the renewed invoice to the customer';
 $lang['view_invoice_pdf_link_pay']                                            = 'Pay Invoice';
 
@@ -1237,7 +1236,7 @@ $lang['settings_sales_estimate_prefix']                             = 'Estimate 
 $lang['settings_sales_next_estimate_number']                        = 'Next estimate Number';
 $lang['settings_sales_next_estimate_number_tooltip']                = 'Set this field to 1 if you want to start from begining';
 $lang['settings_sales_decrement_estimate_number_on_delete']         = 'Decrement estimate number on delete';
-$lang['settings_sales_decrement_estimate_number_on_delete_tooltip'] = 'Do you want to decrement the estimate number when the last estimate is deleted? Ex. If is set this option to YES and before estimate delete the next estimate number is 15 the next estimate number will decrement to 14.If is set to NO the number will remain to 15. If you have setup delete only on last estimate to NO you should set this option to NO too to keep the next estimate number not decremented.';
+$lang['settings_sales_decrement_estimate_number_on_delete_tooltip'] = 'Do you want to decrement the estimate number when the last estimate is deleted? eq. If is set this option to YES and before estimate delete the next estimate number is 15 the next estimate number will decrement to 14.If is set to NO the number will remain to 15. If you have setup delete only on last estimate to NO you should set this option to NO too to keep the next estimate number not decremented.';
 $lang['settings_sales_estimate_number_format']                      = 'Estimate Number Format';
 $lang['settings_sales_estimate_number_format_year_based']           = 'Year Based';
 $lang['settings_sales_estimate_number_format_number_based']         = 'Number Based (000001)';
@@ -1269,10 +1268,10 @@ $lang['ticket_settings_client'] = 'Customer';
 
 # Settings
 $lang['settings_rtl_support_admin']                                   = 'RTL Admin Area (Right to Left)';
-$lang['settings_rtl_support_client']                                  = 'RTL Client Area (Right to Left)';
+$lang['settings_rtl_support_client']                                  = 'RTL Customers Area (Right to Left)';
 $lang['acs_language_editor']                                          = 'Language Editor';
 $lang['settings_estimate_auto_convert_to_invoice_on_client_accept']   = 'Auto convert the estimate to invoice after client accept';
-$lang['settings_exclude_estimate_from_client_area_with_draft_status'] = 'Exclude estimates with draft status from client area';
+$lang['settings_exclude_estimate_from_client_area_with_draft_status'] = 'Exclude estimates with draft status from customers area';
 
 # Months
 $lang['January']   = 'January';
@@ -1402,16 +1401,6 @@ $lang['clients_estimate_declined']              = 'Estimate declined. You can ac
 $lang['clients_estimate_failed_action']         = 'Failed to take action on this estimate';
 $lang['client_add_edit_profile']                = 'Profile';
 
-# Version 1.0.3
-# Admin
-# Home
-$lang['home_invoice_not_sent']        = 'Invoice Not Sent';
-$lang['home_expired_estimates']       = 'Expired Estimates';
-$lang['home_invoice_overdue']         = 'Invoice Overdue';
-
-
-# Reports
-
 # Custom Fields
 $lang['custom_field']                          = 'Custom field';
 $lang['custom_field_lowercase']                = 'custom field';
@@ -1422,7 +1411,7 @@ $lang['custom_field_name']                     = 'Field Name';
 $lang['custom_field_add_edit_type']            = 'Type';
 $lang['custom_field_add_edit_belongs_top']     = 'Field Belongs to';
 $lang['custom_field_add_edit_options']         = 'Options';
-$lang['custom_field_add_edit_options_tooltip'] = 'Only use for Select types. Populate the field by separating the options by coma. Ex. apple,orange,banana';
+$lang['custom_field_add_edit_options_tooltip'] = 'Only use for Select, Checkbox types. Populate the field by separating the options by coma. eq. apple,orange,banana';
 $lang['custom_field_add_edit_order']           = 'Order';
 
 $lang['custom_field_dt_field_to']       = 'Belongs to';
@@ -1494,7 +1483,7 @@ $lang['new_company_field_info']                       = 'This field will be show
 $lang['new_company_field_name']                       = 'Field Name';
 $lang['new_company_field_value']                      = 'Field Value';
 $lang['new_company_field']                            = 'Add New Company Field';
-$lang['settings_number_padding_invoice_and_estimate'] = 'Invoice/Estimate Number Padding Zero\'s. <br /> <small>Ex. If this value is 3 the number will be formated: 005 or 025</small>';
+$lang['settings_number_padding_invoice_and_estimate'] = 'Invoice/Estimate Number Padding Zero\'s. <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
 $lang['settings_show_sale_agent_on_invoices']         = 'Show Sale Agent on Invoice';
 $lang['settings_show_sale_agent_on_estimates']        = 'Show Sale Agent on Estimate';
 $lang['settings_predefined_predefined_term']          = 'Predefined Terms & Conditions';
@@ -1528,7 +1517,7 @@ $lang['contract_summary_by_type']             = 'Contracts by Type';
 $lang['contract_summary_by_type_value']       = 'Contracts Value by Type';
 $lang['contract_renewed_successfuly']         = 'Contract renewed successfully';
 $lang['contract_renewed_fail']                = 'Problem while renewing the contract. Contact administrator';
-$lang['no_contract_renewals_found']           = 'Renewals for this contracts is not found';
+$lang['no_contract_renewals_found']           = 'Renewals for this contract is not found';
 $lang['no_contract_renewals_history_heading'] = 'Contract Renewal History';
 $lang['contract_renewed_by']                  = '%s renewed this contract';
 $lang['contract_renewal_deleted']             = 'Renewal successfully deleted';
@@ -1647,7 +1636,7 @@ $lang['expenses_list_all']                                           = 'All';
 $lang['expenses_list_billable']                                      = 'Billable';
 $lang['expenses_list_non_billable']                                  = 'Non Billable';
 $lang['expenses_list_invoiced']                                      = 'Invoiced';
-$lang['expenses_list_unbilled']                                      = 'Unbilled';
+$lang['expenses_list_unbilled']                                      = 'Not Invoiced';
 $lang['expenses_list_recurring']                                     = 'Recurring';
 $lang['expense_invoice_delete_not_allowed']                          = 'You cant delete this expense. The expense is already invoiced.';
 $lang['expense_convert_to_invoice']                                  = 'Convert To Invoice';
@@ -1782,7 +1771,7 @@ $lang['advanced_options']                 = 'Advanced Options';
 # Expenses
 $lang['expense_list_invoice']             = 'Invoiced';
 $lang['expense_list_billed']              = 'Billed';
-$lang['expense_list_unbilled']            = 'Unbilled';
+$lang['expense_list_unbilled']            = 'Not Invoiced';
 # Leads
 $lang['lead_merge_custom_field']          = 'Merge as custom field';
 $lang['lead_merge_custom_field_existing'] = 'Merge with database field';
@@ -1823,7 +1812,7 @@ $lang['task_public_help']                                                    = '
 # Settings
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Output client PDF documents from admin area in client language';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'If this options is set to yes and ex. the system default language is english and client have setup language french the pdf documents will be outputed in the client language';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'If this options is set to yes and eq. the system default language is english and client have setup language french the pdf documents will be outputed in the client language';
 $lang['settings_cron_surveys']                                               = 'Surveys';
 $lang['settings_default_tax']                                                = 'Default Tax';
 $lang['setup_calendar_by_departments']                                       = 'Setup calendar by Departments';
@@ -1886,7 +1875,7 @@ $lang['bulk_export_status_all']        = 'All';
 $lang['bulk_export_status']            = 'Status';
 $lang['bulk_export_zip_payment_modes'] = 'Made payments by';
 $lang['bulk_export_include_tag']       = 'Include Tag';
-$lang['bulk_export_include_tag_help']  = 'Ex. Original or Copy. The tag will be outputed in the PDF. Recomended to use only 1 tag';
+$lang['bulk_export_include_tag_help']  = 'eq. Original or Copy. The tag will be outputed in the PDF. Recomended to use only 1 tag';
 # Predefined replies
 $lang['no_predefined_replies_found']   = 'No predefined replies found';
 ## Clients area
@@ -2190,11 +2179,6 @@ $lang['ticket_pipe_date']          = 'Date';
 $lang['ticket_pipe_status']        = 'Status';
 
 # Home
-$lang['home_invoice_paid']          = 'Invoice Paid';
-$lang['home_invoice_partialy_paid'] = 'Invoice Partially Paid';
-$lang['home_estimate_declined']     = 'Estimate Declined';
-$lang['home_estimate_accepted']     = 'Estimate Accepted';
-$lang['home_estimate_sent']         = 'Estimate Sent';
 $lang['home_latest_activity']       = 'Latest Activity';
 $lang['home_my_tasks']              = 'My Tasks';
 $lang['home_latest_activity']       = 'Latest Activity';
@@ -2462,7 +2446,7 @@ $lang['timer_top_started']            = 'Started at %s';
 
 # Projects
 $lang['cant_change_billing_type_billed_tasks_found'] = 'You cant change billing type. Billed tasks already found for this project.';
-$lang['project_customer_permission_warning'] = 'The system indicated that the primary contact dont have permission for projects. The customer wont be able to see the project. Consider add permission in the customer profile tab Permissions.';
+$lang['project_customer_permission_warning'] = 'The system indicated that the primary contact dont have permission for projects. The primary contact wont be able to see the project. Consider add permission in the contact profile.';
 $lang['project_invoice_timesheet_start_time'] = 'Start time: %s';
 $lang['project_invoice_timesheet_end_time'] = 'End time: %s';
 $lang['project_invoice_timesheet_total_logged_time'] = 'Logged time: %s';
@@ -2939,8 +2923,6 @@ $lang['not_task_new_comment'] = 'commented on task %s';
 $lang['invoice_number_exists'] = 'This invoice number exists for the ongoing year.';
 $lang['estimate_number_exists'] = 'This estimate number exists for the ongoing year.';
 $lang['email_exists'] = 'Email already exists';
-$lang['field_is_required'] = 'This field is required';
-$lang['field_max_length'] = 'Please enter value no more than {0} characters';
 $lang['not_uploaded_project_file'] = 'New file uploaded';
 $lang['not_created_new_project_discussion'] = 'New project discussion created';
 $lang['not_commented_on_project_discussion'] = 'New comment on project discussion';
@@ -2995,14 +2977,13 @@ $lang['ticket_priority_db_3'] = 'High';
 $lang['customer_have_projects_by'] = 'Contains projects by status %s';
 $lang['customer_have_proposals_by'] = 'Contains proposals by status %s';
 $lang['do_not_redirect_payment'] = 'Do not redirect me to the payment processor';
-$lang['extension_not_allowed'] = 'Extension not allowed';
 $lang['project_tickets'] = 'Tickets';
 $lang['invoice_report'] = 'Invoice Report';
 $lang['payment_modes_report'] = 'Payment Modes (Transactions)';
 $lang['customer_admins'] = 'Customer Admins';
 $lang['assign_admin'] = 'Assign admin';
 $lang['customer_admin_date_assigned'] = 'Date Assigned';
-$lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer. To see all customer data and adjust the portal login as customer.';
+$lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer.';
 $lang['ticket_form_validation_file_size'] = 'File size must be less than %s';
 $lang['has_transactions_currency_base_change'] = 'Changing the base currency is possible only if there are no transactions recorded in that currency. Delete the transactions to change the base currency';
 $lang['customers_sort_all'] = 'All';
@@ -3017,13 +2998,12 @@ $lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table 
 # Version 1.2.0
 $lang['not_billable_expenses_by_categories'] = 'Not billable expenses by categories';
 $lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
-$lang['format_letter_size'] = 'Letter';
+$lang['format_letter_size'] = 'A4 Landscape';
 $lang['pdf_formats'] = 'Document formats';
 $lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to right side, customer details to left side)';
 $lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
 $lang['expenses_filter_by_categories'] = 'By Categories';
 $lang['task_copy'] = 'Copy';
-$lang['estimates_not_sent'] = 'Estimate Not Sent';
 $lang['estimate_status'] = 'Status';
 $lang['expenses_report_exclude_billable'] = 'Exclude Billable Expenses';
 $lang['expenses_total'] = 'Total';
@@ -3100,3 +3080,72 @@ $lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
 $lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
 $lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
 $lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
+
+# Version 1.2.4
+$lang['document_direction'] = 'Direction';
+$lang['notify_project_members_status_change'] = 'Notify project members that project status is changed';
+$lang['not_project_status_updated'] = 'Project status updated from %s to %s';
+$lang['ticket_not_found'] = 'Ticket not found';
+$lang['project_not_found'] = 'Project not found';
+$lang['export_project_data'] = 'Export project data';
+$lang['total_project_members'] = 'Total Project Members';
+$lang['total_project_files'] = 'Files attached';
+$lang['total_project_discussions_created'] = 'Discussions created';
+$lang['project_member'] = 'Member';
+$lang['total_project_discussions_comments'] = 'Total discussion comments';
+$lang['staff_total_task_assigned'] = 'Total tasks assigned';
+$lang['staff_total_comments_on_tasks'] = 'Comments on tasks';
+$lang['project_members_overview'] = 'Project members overview';
+$lang['project_milestones_overview'] = 'Milestones overview';
+$lang['total_tasks_in_milestones'] = 'Total tasks assigned';
+$lang['total_task_members_assigned'] = 'Total members assigned';
+$lang['total_task_members_followers'] = 'Total followers';
+$lang['total_milestones'] = 'Total milestones';
+$lang['total_project_worked_days'] = 'Total days worked';
+$lang['finance_overview'] = 'Finance Overview';
+$lang['project_custom_fields'] = 'Custom fields';
+$lang['total_tickets_related_to_project'] = 'Total tickets linked to project';
+$lang['projects_total_invoices_created'] = 'Total invoices created';
+$lang['total_invoiced_amount'] = 'Total invoices created';
+$lang['do_not_send_invoice_payment_email_template_contact'] = 'Dont send invoice payment recorded email to customer contacts';
+$lang['no_preview_available_for_file'] = 'No preview available for this file.';
+$lang['project_activity_deleted_file_discussion_comment'] = 'File discussion comment deleted';
+$lang['file_not_found'] = 'File not found';
+$lang['email_template_discussion_info'] = 'This template is used for both project discussion comments emails. (files discussions and regular discussions)';
+$lang['format_a4_portrait_size'] = 'Portrait';
+$lang['only_show_contact_tickets'] = 'In customer profile only show tickets related to the logged in contact (Primary contact not applied)';
+$lang['cancel_overdue_reminders_invoice'] = 'Prevent sending overdue reminders for this invoice';
+$lang['customer_shipping_address_notice'] = 'Dont fill shipping address informations if you wont use shipping address on customer invoices';
+$lang['timesheets_overview'] = 'Timesheets overview';
+$lang['invoice_status_draft'] = 'Draft';
+$lang['save_as_draft'] = 'Save as Draft';
+$lang['convert_and_save_as_draft'] = 'Convert and save as draft';
+$lang['convert'] = 'Convert';
+$lang['exclude_invoices_draft_from_client_area'] = 'Exclude invoices with draft status from customers area';
+$lang['invoice_draft_status_info'] = 'This invoice is with status Draft, status will be auto changed when you send the invoice to the customer or mark as sent.';
+$lang['task_info'] = 'Task info';
+$lang['recurring_tasks'] = 'Recurring';
+// Dont translate these, already translated
+$lang['task_repeat_every'] = $lang['expense_repeat_every'];
+$lang['task_recuring_months'] = $lang['expense_recuring_months'];
+$lang['task_recuring_years'] = $lang['expense_recuring_years'];
+$lang['task_recuring_days'] = $lang['expense_recuring_days'];
+$lang['task_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['todays_tasks'] = 'Today\'s tasks';
+$lang['payment_mode_invoices_only'] = 'Invoices Only';
+$lang['payment_mode_expenses_only'] = 'Expenses Only';
+$lang['task_no_checklist_items_found'] = 'Checklist items not found for this task';
+$lang['task_no_description'] = 'No description for this task';
+$lang['expenses_reminders'] = 'Reminders';
+$lang['expense_set_reminder_title'] = 'Set expense reminder';
+$lang['calendar_expense_reminder'] = 'Expense Reminder';
+$lang['recurring_task'] = 'Recurring Task';
+$lang['disable_email_from_being_sent'] = 'Disable this email from being sent';
+$lang['not_sent_indicator'] =  'Not Sent';
+$lang['proposal_status_revised'] =  'Revised';
+$lang['customer_currency_change_notice'] =  'If the customer use other currency then the base currency make sure you select the approprite currency for this customer. Changing the currency is not possible after transactions are recorded.';
+$lang['click_to_add_content'] =  'Click here to add content';
+$lang['related_to_project'] =  'This %s is related to %s: %s';
+$lang['back_to_lead'] =  'Back to lead';
+$lang['add_task_timer_started_warning'] =  'Stop current started timer for this task to be able to add new timer manualy.';
+$lang['sending_email_contact_permissions_warning'] =  'Failed to auto select customer contacts. Please make sure that the customer have associated contacts with permission %s';
