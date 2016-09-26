@@ -1116,7 +1116,6 @@ $lang['invoice_add_edit_recurring_no']                                        = 
 $lang['invoice_add_edit_recurring_month']                                     = 'Tous les %s mois';
 $lang['invoice_add_edit_recurring_months']                                    = 'Tous les %s mois';
 $lang['invoices_list_all']                                                    = 'Toutes';
-$lang['invoices_list_not_sent']                                               = 'Facture non envoyée';
 $lang['invoices_list_not_have_payment']                                       = 'Factures with no payment record';
 $lang['invoices_list_recuring']                                               = 'Factures récurrentes';
 $lang['invoices_list_made_payment_by']                                        = 'Paiement effectué par %s';
@@ -1406,14 +1405,7 @@ $lang['clients_estimate_failed_action']         = 'Impossible de prendre une dé
 $lang['client_add_edit_profile']                = 'Profil';
 
 # Version 1.0.3
-# Admin
-# Home
-$lang['home_invoice_not_sent']        = 'Factures non envoyées';
-$lang['home_expired_estimates']       = 'Devis Expirés';
-$lang['home_invoice_overdue']         = 'Factures échues';
-
-# Reports
-
+#
 # Champs personnalisés
 $lang['custom_field']                          = 'Champ personnalisé';
 $lang['custom_field_lowercase']                = 'champ personnalisé';
@@ -2194,11 +2186,6 @@ $lang['ticket_pipe_date']          = 'Date';
 $lang['ticket_pipe_status']        = 'Statut';
 
 # Home
-$lang['home_invoice_paid']          = 'Factures payées';
-$lang['home_invoice_partialy_paid'] = 'Factures partiellement payées';
-$lang['home_estimate_declined']     = 'Devis annulés';
-$lang['home_estimate_accepted']     = 'Devis acceptés';
-$lang['home_estimate_sent']         = 'Devis envoyés';
 $lang['home_latest_activity']       = 'Dernières activités';
 $lang['home_my_tasks']              = 'Mes Tâches';
 $lang['home_latest_activity']       = 'Dernières Activités';
@@ -2943,8 +2930,6 @@ $lang['not_task_new_comment'] = 'commented on task %s';
 $lang['invoice_number_exists'] = 'This invoice number exists for the ongoing year.';
 $lang['estimate_number_exists'] = 'This estimate number exists for the ongoing year.';
 $lang['email_exists'] = 'Email already exists';
-$lang['field_is_required'] = 'This field is required';
-$lang['field_max_length'] = 'Please enter value no more than {0} characters';
 $lang['not_uploaded_project_file'] = 'New file uploaded';
 $lang['not_created_new_project_discussion'] = 'New project discussion created';
 $lang['not_commented_on_project_discussion'] = 'New comment on project discussion';
@@ -2999,14 +2984,13 @@ $lang['ticket_priority_db_3'] = 'High';
 $lang['customer_have_projects_by'] = 'Contains projects by status %s';
 $lang['customer_have_proposals_by'] = 'Contains proposals by status %s';
 $lang['do_not_redirect_payment'] = 'Do not redirect me to the payment processor';
-$lang['extension_not_allowed'] = 'Extension not allowed';
 $lang['project_tickets'] = 'Tickets';
 $lang['invoice_report'] = 'Invoice Report';
 $lang['payment_modes_report'] = 'Payment Modes (Transactions)';
 $lang['customer_admins'] = 'Customer Admins';
 $lang['assign_admin'] = 'Assign admin';
 $lang['customer_admin_date_assigned'] = 'Date Assigned';
-$lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer. To see all customer data and adjust the portal login as customer.';
+$lang['customer_admin_login_as_client_message'] = 'Hello %s. You are added as admin to this customer.';
 $lang['ticket_form_validation_file_size'] = 'File size must be less than %s';
 $lang['has_transactions_currency_base_change'] = 'Changing the base currency is possible only if there are no transactions recorded in that currency. Delete the transactions to change the base currency';
 $lang['customers_sort_all'] = 'All';
@@ -3022,13 +3006,12 @@ $lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table 
 # Version 1.2.0
 $lang['not_billable_expenses_by_categories'] = 'Not billable expenses by categories';
 $lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
-$lang['format_letter_size'] = 'Letter';
+$lang['format_letter_size'] = 'A4 Landscape';
 $lang['pdf_formats'] = 'Document formats';
 $lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to right side, customer details to left side)';
 $lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
 $lang['expenses_filter_by_categories'] = 'By Categories';
 $lang['task_copy'] = 'Copy';
-$lang['estimates_not_sent'] = 'Estimate Not Sent';
 $lang['estimate_status'] = 'Status';
 $lang['expenses_report_exclude_billable'] = 'Exclude Billable Expenses';
 $lang['expenses_total'] = 'Total';
@@ -3104,3 +3087,72 @@ $lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
 $lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
 $lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
 $lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
+
+# Version 1.2.4
+$lang['document_direction'] = 'Direction';
+$lang['notify_project_members_status_change'] = 'Notify project members that project status is changed';
+$lang['not_project_status_updated'] = 'Project status updated from %s to %s';
+$lang['ticket_not_found'] = 'Ticket not found';
+$lang['project_not_found'] = 'Project not found';
+$lang['export_project_data'] = 'Export project data';
+$lang['total_project_members'] = 'Total Project Members';
+$lang['total_project_files'] = 'Files attached';
+$lang['total_project_discussions_created'] = 'Discussions created';
+$lang['project_member'] = 'Member';
+$lang['total_project_discussions_comments'] = 'Total discussion comments';
+$lang['staff_total_task_assigned'] = 'Total tasks assigned';
+$lang['staff_total_comments_on_tasks'] = 'Comments on tasks';
+$lang['project_members_overview'] = 'Project members overview';
+$lang['project_milestones_overview'] = 'Milestones overview';
+$lang['total_tasks_in_milestones'] = 'Total tasks assigned';
+$lang['total_task_members_assigned'] = 'Total members assigned';
+$lang['total_task_members_followers'] = 'Total followers';
+$lang['total_milestones'] = 'Total milestones';
+$lang['total_project_worked_days'] = 'Total days worked';
+$lang['finance_overview'] = 'Finance Overview';
+$lang['project_custom_fields'] = 'Custom fields';
+$lang['total_tickets_related_to_project'] = 'Total tickets linked to project';
+$lang['projects_total_invoices_created'] = 'Total invoices created';
+$lang['total_invoiced_amount'] = 'Total invoices created';
+$lang['do_not_send_invoice_payment_email_template_contact'] = 'Dont send invoice payment recorded email to customer contacts';
+$lang['no_preview_available_for_file'] = 'No preview available for this file.';
+$lang['project_activity_deleted_file_discussion_comment'] = 'File discussion comment deleted';
+$lang['file_not_found'] = 'File not found';
+$lang['email_template_discussion_info'] = 'This template is used for both project discussion comments emails. (files discussions and regular discussions)';
+$lang['format_a4_portrait_size'] = 'Portrait';
+$lang['only_show_contact_tickets'] = 'In customer profile only show tickets related to the logged in contact (Primary contact not applied)';
+$lang['cancel_overdue_reminders_invoice'] = 'Prevent sending overdue reminders for this invoice';
+$lang['customer_shipping_address_notice'] = 'Dont fill shipping address informations if you wont use shipping address on customer invoices';
+$lang['timesheets_overview'] = 'Timesheets overview';
+$lang['invoice_status_draft'] = 'Draft';
+$lang['save_as_draft'] = 'Save as Draft';
+$lang['convert_and_save_as_draft'] = 'Convert and save as draft';
+$lang['convert'] = 'Convert';
+$lang['exclude_invoices_draft_from_client_area'] = 'Exclude invoices with draft status from customers area';
+$lang['invoice_draft_status_info'] = 'This invoice is with status Draft, status will be auto changed when you send the invoice to the customer or mark as sent.';
+$lang['task_info'] = 'Task info';
+$lang['recurring_tasks'] = 'Recurring';
+// Dont translate these, already translated
+$lang['task_repeat_every'] = $lang['expense_repeat_every'];
+$lang['task_recuring_months'] = $lang['expense_recuring_months'];
+$lang['task_recuring_years'] = $lang['expense_recuring_years'];
+$lang['task_recuring_days'] = $lang['expense_recuring_days'];
+$lang['task_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['todays_tasks'] = 'Today\'s tasks';
+$lang['payment_mode_invoices_only'] = 'Invoices Only';
+$lang['payment_mode_expenses_only'] = 'Expenses Only';
+$lang['task_no_checklist_items_found'] = 'Checklist items not found for this task';
+$lang['task_no_description'] = 'No description for this task';
+$lang['expenses_reminders'] = 'Reminders';
+$lang['expense_set_reminder_title'] = 'Set expense reminder';
+$lang['calendar_expense_reminder'] = 'Expense Reminder';
+$lang['recurring_task'] = 'Recurring Task';
+$lang['disable_email_from_being_sent'] = 'Disable this email from being sent';
+$lang['not_sent_indicator'] =  'Not Sent';
+$lang['proposal_status_revised'] =  'Revised';
+$lang['customer_currency_change_notice'] =  'If the customer use other currency then the base currency make sure you select the approprite currency for this customer. Changing the currency is not possible after transactions are recorded.';
+$lang['click_to_add_content'] =  'Click here to add content';
+$lang['related_to_project'] =  'This %s is related to %s: %s';
+$lang['back_to_lead'] =  'Back to lead';
+$lang['add_task_timer_started_warning'] =  'Stop current started timer for this task to be able to add new timer manualy.';
+$lang['sending_email_contact_permissions_warning'] =  'Failed to auto select customer contacts. Please make sure that the customer have associated contacts with permission %s';
