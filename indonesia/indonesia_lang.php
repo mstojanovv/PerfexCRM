@@ -2841,7 +2841,6 @@ $lang['smtp_encryption']= 'Enkripsi Email';
 $lang['smtp_encryption_none']= 'Tak Ada';
 $lang['show_proposals_on_calendar']= 'Proposal';
 $lang['invoice_project_see_billed_expenses']= 'Lihat pengeluaran yang akan ditagihkan pada faktur ini';
-$lang['recaptcha_help_settings']= 'Jika field tidak diisi atau tidak ada koneksi internet, reCAPTCHA tidak akan digunakan.';
 $lang['project_overview_expenses'] = 'Total Pengeluaran';
 $lang['project_overview_expenses_billable'] = 'Pengeluaran Dapat Ditagih';
 $lang['project_overview_expenses_billed'] = 'Pengeluaran Ditagihkan';
@@ -3149,3 +3148,16 @@ $lang['related_to_project'] =  'This %s is related to %s: %s';
 $lang['back_to_lead'] =  'Back to lead';
 $lang['add_task_timer_started_warning'] =  'Stop current started timer for this task to be able to add new timer manualy.';
 $lang['sending_email_contact_permissions_warning'] =  'Failed to auto select customer contacts. Please make sure that the customer have associated contacts with permission %s';
+
+# Version 1.2.6
+$lang['currently_supported_currencies'] = 'Currently supported currencies';
+$lang['authorize_notice'] = 'SSL is required if you\'re using the Authorize.Net AIM payment API. Authorize.net only supports 1 currency per account. Make sure you add only 1 currency associated with your Authorize account in the currencies field.';
+$lang['settings_paymentmethod_developer_mode'] = 'Developer Mode';
+$lang['payment_cardholder_name'] = 'Cardholder\'s Name';
+$lang['settings_paymentmethod_authorize_api_login_id'] =  'API Login ID';
+$lang['settings_paymentmethod_mollie_api_key'] =  'API Key';
+$lang['settings_paymentmethod_authorize_api_transaction_key'] =  'API Transaction ID';
+$lang['settings_paymentmethod_authorize_secret_key'] =  'Secret Key';
+$lang['leads_report_converted_notice'] =  'Only leads thats belongs in the default status Client will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
+$lang['payment_method'] = 'Payment Method';
+$lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, Paypal, Bank.';
