@@ -119,10 +119,8 @@ $lang["num_word_cents"] ="Centimes";
 $lang["num_word"] ="En lettres";
 
 $currencies = array(
-	'DZD'=>'Dinar Algerien',
     'USD'=>'Dollars',
     'EUR'=>'Euros',   
-
 );
 
 $currencies = do_action('before_number_format_render_languge_currencies',$currencies);
