@@ -521,8 +521,6 @@ $lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Vuoi dimin
 $lang['settings_sales_invoice_number_format']                      = 'Formato Numero Fattura';
 $lang['settings_sales_invoice_number_format_year_based']           = 'Basato su Anno';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Basat su Numero (000001)';
-$lang['settings_sales_invoice_year']                               = 'Anno Fattura (AAAA/000001)';
-$lang['settings_sales_invoice_year_tooltip']                       = 'Anno fattura corrente. Resettarlo col nuovo anno.';
 
 $lang['settings_sales_company_info_heading'] = 'Ditta';
 $lang['settings_sales_company_info_note']    = 'Queste informazioni verranno visualizzate su fatture/preventivi/pagamenti e altri documenti PDF in cui è richiesta informazione aziendale';
@@ -1243,8 +1241,6 @@ $lang['settings_sales_decrement_estimate_number_on_delete_tooltip'] = 'Vuoi dimi
 $lang['settings_sales_estimate_number_format']                      = 'Formato Numero Preventivo';
 $lang['settings_sales_estimate_number_format_year_based']           = 'Basato su Anno';
 $lang['settings_sales_estimate_number_format_number_based']         = 'Basato su Numero (000001)';
-$lang['settings_sales_estimate_year']                               = 'Preventivo su Anno (AAAA/000001)';
-$lang['settings_sales_estimate_year_tooltip']                       = 'Anno corrente preventivo. Resettalo quando inizia un nuovo anno.';
 $lang['settings_delete_only_on_last_estimate']                      = 'Eliminare preventivo consentito solo su ultima fattura';
 $lang['settings_cron_invoice_heading']                              = 'Fattura';
 $lang['settings_send_test_email_heading']                           = 'Invia Test Email';
@@ -1483,10 +1479,6 @@ $lang['lead_attachments']                             = 'Allegati';
 # Admin Customizer Sidebar
 $lang['acs_finance']                                  = 'Finanza';
 # Settings
-$lang['new_company_field_info']                       = 'Questo campo sarà visualizzato su fatture/preventivi sul lato ditta (a sinistra). Non è consentito aggiungere alcun carattere (punti, trattini, segni, ecc) nel campo NOME.';
-$lang['new_company_field_name']                       = 'Nome Campo';
-$lang['new_company_field_value']                      = 'Valore Campo';
-$lang['new_company_field']                            = 'Aggiungi Nuovo Campo Ditta';
 $lang['settings_number_padding_invoice_and_estimate'] = 'Nuemro di zeri su Fattura/Preventivo. <br /> <small>Es. Se questo valore è 3 il numero sarà formattato: 005 o 025</small>';
 $lang['settings_show_sale_agent_on_invoices']         = 'Mostra Agente di Vendita su Fattura';
 $lang['settings_show_sale_agent_on_estimates']        = 'Mostra Agente di Vendita su Preventivo';
@@ -2192,7 +2184,7 @@ $lang['home_my_todo_items']         = 'My Todo Items';
 $lang['home_widget_view_all']       = 'View All';
 $lang['home_stats_full_report']     = 'Full Report';
 
-# Validation - Customer Portal
+# Validation
 
 $lang['form_validation_required']    = 'The {field} field is required.';
 $lang['form_validation_valid_email'] = 'The {field} field must contain a valid email address.';
@@ -2519,7 +2511,6 @@ $lang['milestone_total_logged_time']            = 'Logged Time';
 $lang['project_overview_total_logged_hours']            = 'Total Logged Hours';
 $lang['milestones_uncategorized']            = 'Uncategorized';
 $lang['milestone_no_tasks_found']            = 'No tasks found';
-$lang['copy_project_discussions_not_included']            = 'Attachments and comments are not included';
 $lang['project_copied_successfuly']            = 'Project data copied successfuly';
 $lang['failed_to_copy_project']            = 'Failed to copy project';
 $lang['copy_project_task_include_check_list_items']            = 'Copy checklist items';
@@ -3164,3 +3155,39 @@ $lang['settings_paymentmethod_authorize_secret_key'] =  'Secret Key';
 $lang['leads_report_converted_notice'] =  'Only leads thats belongs in the default status Client will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
 $lang['payment_method'] = 'Payment Method';
 $lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, Paypal, Bank.';
+
+# Version 1.2.7
+$lang['dropbox_app_key'] = 'Dropbox APP Key';
+$lang['project_invoice_select_all_expenses'] = 'Select all expenses';
+$lang['role_update_staff_permissions'] = 'Update all staff members permissions that are using this role';
+$lang['customer_active'] = 'Active';
+$lang['customer_disable_tooltip'] = 'Customer data exists, delete all data related to this customer to mark as disabled (eq. Invoices, Estimates, Contracts)';
+$lang['note_updated_successfuly'] = 'Note updated successfully';
+$lang['update_note'] = 'Update note';
+$lang['update_comment'] = 'Update comment';
+$lang['comment_updated_successfuly'] = 'Comment updated successfully';
+$lang['staff_send_welcome_email'] = 'Send welcome email';
+$lang['proposal_warning_email_change'] = 'Email changed for %s. This %s is linked to proposal/s. Do you want to update all proposals emails linked to %s?';
+$lang['update_proposal_email_yes'] = 'Yes update all linked emails.';
+$lang['update_proposal_email_no'] = 'No, i will update manually.';
+$lang['proposals_emails_updated'] = 'All proposals emails linked to this %s updated to %s';
+$lang['custom_field_company'] = 'Company';
+$lang['actions'] = 'Actions';
+$lang['project_mark_as'] = 'Mark as %s';
+$lang['todo_edit_title'] = 'Edit todo item';
+$lang['additional_action_required'] = 'Additional action required!';
+$lang['project_mark_tasks_finished_confirm'] = 'Confirm';
+$lang['project_marked_as_success'] = 'Project marked as %s successfully';
+$lang['project_marked_as_failed'] = 'Failed to mark project as %s';
+$lang['auto_assign_customer_admin_after_lead_convert'] = 'Auto assign as admin to customer after convert';
+$lang['auto_assign_customer_admin_after_lead_convert_help'] = 'If this option is set to YES the staff member that converted lead to customer will be auto assigned as customer admin. NOTE: This option will apply only on staff members that dont have permission for customers VIEW';
+$lang['auto_close_tickets_disable'] = 'Set 0 to disable';
+$lang['task_checklist_item_completed_by'] = 'Completed by %s';
+$lang['staff_email_signature_help'] = 'If empty default email signature from settings will be used';
+$lang['customer_sales'] = 'Sales';
+$lang['default_task_priority'] = 'Default Priority';
+$lang['project_send_created_email'] = 'Send project created email';
+$lang['survey_send_to_lists'] = 'Survey send lists';
+$lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
+$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
+$lang['custom_field_company_info'] = 'Edit custom fields for company in Setup->Settings->Company';
