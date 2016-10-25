@@ -56,7 +56,7 @@ $lang['announcement_message']         = 'Nachricht';
 $lang['announcement_show_to_staff']   = 'Zeige den Mitarbeitern';
 $lang['announcement_show_to_clients'] = 'Zeige den Kunden';
 $lang['announcement_show_my_name']    = 'Zeige meinen Namen';
-# Clients
+#  Clients
 $lang['clients']                               = 'Kunden';
 $lang['client']                                = 'Kunde';
 $lang['new_client']                            = 'Neuer Kunde';
