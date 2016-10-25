@@ -520,10 +520,8 @@ $lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you wan
 $lang['settings_sales_invoice_number_format']                      = 'Invoice Number Format';
 $lang['settings_sales_invoice_number_format_year_based']           = 'Year Based';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Number Based (000001)';
-$lang['settings_sales_invoice_year']                               = 'Invoice Year (YYYY/000001)';
-$lang['settings_sales_invoice_year_tooltip']                       = 'Current invoice year. Reset this when new year arrives.';
 
-$lang['settings_sales_company_info_heading'] = 'Company';
+
 $lang['settings_sales_company_info_note']    = 'This informations will be displayed on invoices/estimates/payments and other PDF documents where company info is required';
 $lang['settings_sales_company_name']         = 'Company Name';
 $lang['settings_sales_address']              = 'Address';
@@ -767,7 +765,7 @@ $lang['staff_profile_notifications'] = 'Notifications';
 $lang['staff_profile_departments']   = 'Departments';
 
 $lang['staff_edit_profile_image']                     = 'Profile Image';
-$lang['staff_edit_profile_your_departments']          = 'Your Departments';
+$lang['staff_edit_profile_your_departments']          = 'Departments';
 $lang['staff_edit_profile_change_your_password']      = 'Change your password';
 $lang['staff_edit_profile_change_old_password']       = 'Old password';
 $lang['staff_edit_profile_change_new_password']       = 'New password';
@@ -1124,7 +1122,7 @@ $lang['view_invoice_pdf_link_pay']                                            = 
 $lang['payment_mode_add_edit_description']         = 'Bank Accounts / Description';
 $lang['payment_mode_add_edit_description_tooltip'] = 'You can set here bank accounts informations. Will be shown on HTML Invoice';
 $lang['payment_modes_dt_description']              = 'Bank Accounts / Description';
-$lang['payment_modes_add_edit_announcement']       = 'Note: Payment modes listed below are offline modes. Online payment modes can be configured in Settings-> Payment Gataways';
+$lang['payment_modes_add_edit_announcement']       = 'Note: Payment modes listed below are offline modes. Online payment modes can be configured in Settings-> Payment Gateways';
 $lang['payment_mode_add_edit_active']              = 'Active';
 $lang['payment_modes_dt_active']                   = 'Active';
 
@@ -1133,7 +1131,7 @@ $lang['contract_not_found'] = 'Contract not found. Maybe is deleted, check activ
 
 # Settings
 $lang['setting_bar_heading']                 = 'Setup';
-$lang['settings_group_online_payment_modes'] = 'Payment Gataways';
+$lang['settings_group_online_payment_modes'] = 'Payment Gateways';
 $lang['settings_paymentmethod_mode_label']   = 'Label';
 $lang['settings_paymentmethod_active']       = 'Active';
 $lang['settings_paymentmethod_currencies']   = 'Currencies (coma separated)';
@@ -1240,8 +1238,6 @@ $lang['settings_sales_decrement_estimate_number_on_delete_tooltip'] = 'Do you wa
 $lang['settings_sales_estimate_number_format']                      = 'Estimate Number Format';
 $lang['settings_sales_estimate_number_format_year_based']           = 'Year Based';
 $lang['settings_sales_estimate_number_format_number_based']         = 'Number Based (000001)';
-$lang['settings_sales_estimate_year']                               = 'Estimate Year (YYYY/000001)';
-$lang['settings_sales_estimate_year_tooltip']                       = 'Current estimate year. Reset this when new year arrives.';
 $lang['settings_delete_only_on_last_estimate']                      = 'Delete estimate allowed only on last invoice';
 $lang['settings_cron_invoice_heading']                              = 'Invoice';
 $lang['settings_send_test_email_heading']                           = 'Send Test Email';
@@ -1479,10 +1475,7 @@ $lang['lead_attachments']                             = 'Attachments';
 # Admin Customizer Sidebar
 $lang['acs_finance']                                  = 'Finance';
 # Settings
-$lang['new_company_field_info']                       = 'This field will be shown on invoices/estimates on the company side (left). You are not allowed to add any characters(dots,dashes,signs etc.) in the NAME field.';
-$lang['new_company_field_name']                       = 'Field Name';
-$lang['new_company_field_value']                      = 'Field Value';
-$lang['new_company_field']                            = 'Add New Company Field';
+
 $lang['settings_number_padding_invoice_and_estimate'] = 'Invoice/Estimate Number Padding Zero\'s. <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
 $lang['settings_show_sale_agent_on_invoices']         = 'Show Sale Agent on Invoice';
 $lang['settings_show_sale_agent_on_estimates']        = 'Show Sale Agent on Estimate';
@@ -1572,7 +1565,7 @@ $lang['goal_income_shown_in_base_currency']            = 'Total income is shown 
 $lang['goal_notify_when_end_date_arrives']             = 'The staff members will be notified when the end date arrives (Requires CRON).';
 $lang['goal_staff_members_notified_about_achievement'] = 'The staff members are notified about this goal achievement';
 $lang['goal_staff_members_notified_about_failure']     = 'Staff member are notified about the failure';
-$lang['goal_notify_staff_manualy']                     = 'Notify Staff Members Manualy';
+$lang['goal_notify_staff_manualy']                     = 'Notify Staff Members Manually';
 $lang['goal_notify_staff_notified_manualy_success']    = 'The staff members are notified about this goal result';
 $lang['goal_notify_staff_notified_manualy_fail']       = 'Failed to notify staff members about this goal result';
 
@@ -1864,7 +1857,7 @@ $lang['lead_public']                                                 = 'Public';
 $lang['kb_group_color']                = 'Color';
 $lang['kb_group_order']                = 'Order';
 # Utilities - BULK PDF Exporter
-$lang['bulk_pdf_exporter']             = 'Bulk PDF Exporter';
+$lang['bulk_pdf_exporter']             = 'Bulk PDF Export';
 $lang['bulk_export_pdf_payments']      = 'Payments';
 $lang['bulk_export_pdf_estimates']     = 'Estimates';
 $lang['bulk_export_pdf_invoices']      = 'Invoices';
@@ -2129,7 +2122,7 @@ $lang['utilities_menu_save']                = 'Save Menu';
 $lang['view_articles_list']     = 'View Articles';
 $lang['view_articles_list_all'] = 'All Articles';
 $lang['als_add_article']        = 'Add Article';
-$lang['als_all_articles']       = 'All Articles';
+$lang['als_all_articles']       = 'Articles';
 $lang['als_kb_groups']          = 'Groups';
 
 # Customizer Menu
@@ -2186,7 +2179,7 @@ $lang['home_my_todo_items']         = 'My Todo Items';
 $lang['home_widget_view_all']       = 'View All';
 $lang['home_stats_full_report']     = 'Full Report';
 
-# Validation - Customer Portal
+# Validation
 
 $lang['form_validation_required']    = 'The {field} field is required.';
 $lang['form_validation_valid_email'] = 'The {field} field must contain a valid email address.';
@@ -2514,7 +2507,6 @@ $lang['milestone_total_logged_time']            = 'Logged Time';
 $lang['project_overview_total_logged_hours']            = 'Total Logged Hours';
 $lang['milestones_uncategorized']            = 'Uncategorized';
 $lang['milestone_no_tasks_found']            = 'No tasks found';
-$lang['copy_project_discussions_not_included']            = 'Attachments and comments are not included';
 $lang['project_copied_successfuly']            = 'Project data copied successfully';
 $lang['failed_to_copy_project']            = 'Failed to copy project';
 $lang['copy_project_task_include_check_list_items']            = 'Copy checklist items';
@@ -3146,7 +3138,7 @@ $lang['customer_currency_change_notice'] =  'If the customer use other currency 
 $lang['click_to_add_content'] =  'Click here to add content';
 $lang['related_to_project'] =  'This %s is related to %s: %s';
 $lang['back_to_lead'] =  'Back to lead';
-$lang['add_task_timer_started_warning'] =  'Stop current started timer for this task to be able to add new timer manualy.';
+$lang['add_task_timer_started_warning'] =  'Stop current started timer for this task to be able to add new timer manually.';
 $lang['sending_email_contact_permissions_warning'] =  'Failed to auto select customer contacts. Please make sure that the customer have associated contacts with permission %s';
 
 # Version 1.2.6
@@ -3161,3 +3153,39 @@ $lang['settings_paymentmethod_authorize_secret_key'] =  'Secret Key';
 $lang['leads_report_converted_notice'] =  'Only leads thats belongs in the default status Client will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
 $lang['payment_method'] = 'Payment Method';
 $lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, Paypal, Bank.';
+
+# Version 1.2.7
+$lang['dropbox_app_key'] = 'Dropbox APP Key';
+$lang['project_invoice_select_all_expenses'] = 'Select all expenses';
+$lang['role_update_staff_permissions'] = 'Update all staff members permissions that are using this role';
+$lang['customer_active'] = 'Active';
+$lang['customer_disable_tooltip'] = 'Customer data exists, delete all data related to this customer to mark as disabled (eq. Invoices, Estimates, Contracts)';
+$lang['note_updated_successfuly'] = 'Note updated successfully';
+$lang['update_note'] = 'Update note';
+$lang['update_comment'] = 'Update comment';
+$lang['comment_updated_successfuly'] = 'Comment updated successfully';
+$lang['staff_send_welcome_email'] = 'Send welcome email';
+$lang['proposal_warning_email_change'] = 'Email changed for %s. This %s is linked to proposal/s. Do you want to update all proposals emails linked to %s?';
+$lang['update_proposal_email_yes'] = 'Yes update all linked emails.';
+$lang['update_proposal_email_no'] = 'No, i will update manually.';
+$lang['proposals_emails_updated'] = 'All proposals emails linked to this %s updated to %s';
+$lang['custom_field_company'] = 'Company';
+$lang['actions'] = 'Actions';
+$lang['project_mark_as'] = 'Mark as %s';
+$lang['todo_edit_title'] = 'Edit todo item';
+$lang['additional_action_required'] = 'Additional action required!';
+$lang['project_mark_tasks_finished_confirm'] = 'Confirm';
+$lang['project_marked_as_success'] = 'Project marked as %s successfully';
+$lang['project_marked_as_failed'] = 'Failed to mark project as %s';
+$lang['auto_assign_customer_admin_after_lead_convert'] = 'Auto assign as admin to customer after convert';
+$lang['auto_assign_customer_admin_after_lead_convert_help'] = 'If this option is set to YES the staff member that converted lead to customer will be auto assigned as customer admin. NOTE: This option will apply only on staff members that dont have permission for customers VIEW';
+$lang['auto_close_tickets_disable'] = 'Set 0 to disable';
+$lang['task_checklist_item_completed_by'] = 'Completed by %s';
+$lang['staff_email_signature_help'] = 'If empty default email signature from settings will be used';
+$lang['customer_sales'] = 'Sales';
+$lang['default_task_priority'] = 'Default Priority';
+$lang['project_send_created_email'] = 'Send project created email';
+$lang['survey_send_to_lists'] = 'Survey send lists';
+$lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
+$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
+$lang['custom_field_company_info'] = 'Edit custom fields for company in Setup->Settings->Company';
