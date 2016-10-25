@@ -516,10 +516,7 @@ $lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = '当上次�
 $lang['settings_sales_invoice_number_format']                      = '发票号码格式';
 $lang['settings_sales_invoice_number_format_year_based']           = '去年的基础';
 $lang['settings_sales_invoice_number_format_number_based']         = '数量为基础（1 00000）';
-$lang['settings_sales_invoice_year']                               = '发票（年/ 00000年1）';
-$lang['settings_sales_invoice_year_tooltip']                       = '现行发票年度。重置这个新年到来时';
 
-$lang['settings_sales_company_info_heading'] = '公司';
 $lang['settings_sales_company_info_note']    = '此信息将显示在发票/报价/付款和其他PDF文件在公司的信息是必需的';
 $lang['settings_sales_company_name']         = '公司名称';
 $lang['settings_sales_address']              = '地址';
@@ -1238,8 +1235,6 @@ $lang['settings_sales_decrement_estimate_number_on_delete_tooltip'] = '你想在
 $lang['settings_sales_estimate_number_format']                      = '报价的数字格式';
 $lang['settings_sales_estimate_number_format_year_based']           = '去年的基础';
 $lang['settings_sales_estimate_number_format_number_based']         = '基于数字(000001)';
-$lang['settings_sales_estimate_year']                               = '报价年份 (YYYY/000001)';
-$lang['settings_sales_estimate_year_tooltip']                       = '目前报价年份. 重置这个新年到来时.';
 $lang['settings_delete_only_on_last_estimate']                      = '删除报价只允许在最后一张发票';
 $lang['settings_cron_invoice_heading']                              = '发票';
 $lang['settings_send_test_email_heading']                           = '发送测试电子邮件';
@@ -1478,10 +1473,6 @@ $lang['lead_attachments']                             = '附件';
 # Admin Customizer Sidebar
 $lang['acs_finance']                                  = '财务';
 # Settings
-$lang['new_company_field_info']                       = '这一领域将显示在发票/报价的公司方面（左）。你是不允许添加任何字符（点、线、标志等）在名称字段.';
-$lang['new_company_field_name']                       = '字段名称';
-$lang['new_company_field_value']                      = '字段值';
-$lang['new_company_field']                            = '加入新公司';
 $lang['settings_number_padding_invoice_and_estimate'] = '发票/报价数补 0\'s. <br /> <small>Ex. 如果这个值为3的号码将被格式化: 005 or 025</small>';
 $lang['settings_show_sale_agent_on_invoices']         = '在发票上显示销售代理';
 $lang['settings_show_sale_agent_on_estimates']        = '显示销售代理';
@@ -2186,7 +2177,7 @@ $lang['home_my_todo_items']         = '我的所有项目';
 $lang['home_widget_view_all']       = '查看所有';
 $lang['home_stats_full_report']     = '完整的报告';
 
-# Validation - Customer Portal
+# Validation
 
 $lang['form_validation_required']    = '{域}域是必需的.';
 $lang['form_validation_valid_email'] = '{域}域必须包含一个有效的电子邮件地址.';
@@ -2513,7 +2504,6 @@ $lang['milestone_total_logged_time']            = '记录时间';
 $lang['project_overview_total_logged_hours']            = '总记录时间';
 $lang['milestones_uncategorized']            = '未分类';
 $lang['milestone_no_tasks_found']            = '没有找到任务';
-$lang['copy_project_discussions_not_included']            = '附件和注释不包括在内';
 $lang['project_copied_successfuly']            = '项目数据复制成功';
 $lang['failed_to_copy_project']            = '复制项目失败';
 $lang['copy_project_task_include_check_list_items']            = '复制清单项目';
@@ -3161,3 +3151,39 @@ $lang['settings_paymentmethod_authorize_secret_key'] =  'Secret Key';
 $lang['leads_report_converted_notice'] =  'Only leads thats belongs in the default status Client will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
 $lang['payment_method'] = 'Payment Method';
 $lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, Paypal, Bank.';
+
+# Version 1.2.7
+$lang['dropbox_app_key'] = 'Dropbox APP Key';
+$lang['project_invoice_select_all_expenses'] = 'Select all expenses';
+$lang['role_update_staff_permissions'] = 'Update all staff members permissions that are using this role';
+$lang['customer_active'] = 'Active';
+$lang['customer_disable_tooltip'] = 'Customer data exists, delete all data related to this customer to mark as disabled (eq. Invoices, Estimates, Contracts)';
+$lang['note_updated_successfuly'] = 'Note updated successfully';
+$lang['update_note'] = 'Update note';
+$lang['update_comment'] = 'Update comment';
+$lang['comment_updated_successfuly'] = 'Comment updated successfully';
+$lang['staff_send_welcome_email'] = 'Send welcome email';
+$lang['proposal_warning_email_change'] = 'Email changed for %s. This %s is linked to proposal/s. Do you want to update all proposals emails linked to %s?';
+$lang['update_proposal_email_yes'] = 'Yes update all linked emails.';
+$lang['update_proposal_email_no'] = 'No, i will update manually.';
+$lang['proposals_emails_updated'] = 'All proposals emails linked to this %s updated to %s';
+$lang['custom_field_company'] = 'Company';
+$lang['actions'] = 'Actions';
+$lang['project_mark_as'] = 'Mark as %s';
+$lang['todo_edit_title'] = 'Edit todo item';
+$lang['additional_action_required'] = 'Additional action required!';
+$lang['project_mark_tasks_finished_confirm'] = 'Confirm';
+$lang['project_marked_as_success'] = 'Project marked as %s successfully';
+$lang['project_marked_as_failed'] = 'Failed to mark project as %s';
+$lang['auto_assign_customer_admin_after_lead_convert'] = 'Auto assign as admin to customer after convert';
+$lang['auto_assign_customer_admin_after_lead_convert_help'] = 'If this option is set to YES the staff member that converted lead to customer will be auto assigned as customer admin. NOTE: This option will apply only on staff members that dont have permission for customers VIEW';
+$lang['auto_close_tickets_disable'] = 'Set 0 to disable';
+$lang['task_checklist_item_completed_by'] = 'Completed by %s';
+$lang['staff_email_signature_help'] = 'If empty default email signature from settings will be used';
+$lang['customer_sales'] = 'Sales';
+$lang['default_task_priority'] = 'Default Priority';
+$lang['project_send_created_email'] = 'Send project created email';
+$lang['survey_send_to_lists'] = 'Survey send lists';
+$lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
+$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
+$lang['custom_field_company_info'] = 'Edit custom fields for company in Setup->Settings->Company';
