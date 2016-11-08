@@ -517,7 +517,6 @@ $lang['settings_sales_invoice_number_format']                      = 'Formato do
 $lang['settings_sales_invoice_number_format_year_based']           = 'Ano de Base';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Número de Base (000001)';
 
-$lang['settings_sales_company_info_heading'] = 'Empresa';
 $lang['settings_sales_company_info_note']    = 'Essa informação será exibida nas faturas/estimativas/pagamentos e outros documentos em PDF nos quais as informações da empresa são necessárias';
 $lang['settings_sales_company_name']         = 'Nome da Empresa';
 $lang['settings_sales_address']              = 'Endereço';
@@ -839,8 +838,6 @@ $lang['task_no_assignees'] = 'Nenhum destinatário para essa tarefa';
 $lang['task_no_followers'] = 'Nenhum seguidor para essa tarefa';
 
 $lang['task_list_all']            = 'Todos';
-$lang['task_list_finished']       = 'Concluido';
-$lang['task_list_unfinished']     = 'Não concluido';
 $lang['task_list_not_assigned']   = 'Não atribuido';
 $lang['task_list_duedate_passed'] = 'Data de Vencimento passada';
 $lang['tasks_dt_name']            = 'Nome';
@@ -2084,9 +2081,6 @@ $lang['email_template_proposals_fields_heading'] = 'Propostas';
 $lang['add_task_attachments']                 = 'Anexo';
 $lang['task_view_attachments']                = 'Anexos';
 $lang['task_view_description']                = 'Descrição';
-$lang['task_table_is_finished_indicator']     = 'Sim';
-$lang['task_table_is_not_finished_indicator'] = 'Não';
-$lang['tasks_dt_finished']                    = 'Concluido';
 
 # Customer Groups
 $lang['customer_group_add_heading']  = 'Adicionar Novo Grupo de Consumidor';
@@ -2783,7 +2777,6 @@ $lang['project_overview_billable_hours'] = 'Horas Faturáveis:';
 $lang['project_overview_billed_hours'] = 'Horas Faturadas:';
 $lang['project_overview_unbilled_hours'] = 'Horas não Faturadas:';
 $lang['calendar_first_day'] = 'Primeiro dia';
-$lang['dt_mass_delete_help'] = 'Use as caixas de seleção no lado direito para exclusão em massa.';
 $lang['permission_view'] = 'Visualizar';
 $lang['permission_edit'] = 'Editar';
 $lang['permission_create'] = 'Criar';
@@ -2852,7 +2845,6 @@ $lang['task_not_finished_on_time_indicator'] = 'Não';
 $lang['task_filter_fetch_month_by'] = 'Buscar mês de';
 $lang['filter'] = 'Filtro';
 $lang['task_filter_detailed_all_months'] = 'Todos os meses';
-$lang['task_filter_detailed_show_tasks'] = 'Mostrar Tarefas';
 $lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
@@ -3180,3 +3172,44 @@ $lang['survey_send_to_lists'] = 'Listas de envio de pesquisa';
 $lang['survey_send_notice'] = 'Os e-mails serão enviados através do CRON JOB por hora.';
 $lang['view_permission_auto_checked'] = 'Permissão de VISÃO automática marcada. Você precisa selecionar a permissão de VISÃO, se você quiser usar a EDIÇÃO, CRIAÇÃO e EXCLUSÃO adequadamente. A EDIÇÃO, CRIAÇÃO, EXCLUSÃO não podem ser usadas sem VISÃO porque a VISÃO é a permissão global e o usuário não será capaz de abrir os dados e executar as ações.';
 $lang['custom_field_company_info'] = 'Edite os campos personalizados para a empresa em Definições-> Configurações> Empresa';
+
+# Version 1.2.8
+$lang['show_transactions_on_invoice_pdf'] = 'Show invoice payments (transactions) on PDF';
+$lang['bulk_actions'] = 'Bulk Actions';
+$lang['additional_filters'] = 'Additional Filters';
+$lang['expenses_available_to_bill'] = 'Expenses available to bill';
+$lang['bulk_action_customers_groups_warning'] = 'If you dont select any group all groups assigned to the selected customers will be removed.';
+$lang['customer_attachments_show_in_customers_area'] = 'Show to customers area';
+$lang['customer_attachments_show_notice'] = 'Only files uploaded from customer profile have ability to show/hide in customers area.';
+$lang['customer_profile_files'] = 'Files';
+$lang['no_files_found'] = 'No Files Found';
+$lang['survey_customers_all'] = 'All Customers';
+$lang['custom_field_column'] = 'Grid (Bootstrap Column eq. 12) - Max is 12';
+$lang['task_status'] = 'Status';
+$lang['task_status_1'] = 'Not Started';
+$lang['task_status_2'] = 'Awaiting Feedback';
+$lang['task_status_3'] = 'Testing';
+$lang['task_status_4'] = 'In Progress';
+$lang['task_status_5'] = 'Complete';
+$lang['task_mark_as'] = 'Mark as %s';
+$lang['task_marked_as_success'] = 'Task marked as %s successfully';
+$lang['task_drag_drop_notice'] = 'Drag & Drop is used only to easily change %s. The order wont be applied for this area.';
+$lang['search_tasks'] = 'Search Tasks';
+$lang['tasks_kanban_limit'] = 'Limit tasks kan ban rows per status';
+$lang['show_on_invoice_on_pdf'] = 'Show %s on Invoice PDF';
+$lang['show_pay_link_to_invoice_pdf'] = 'Show Pay Invoice link to PDF (Not applied if invoice status is Cancelled)';
+$lang['no_leads_found'] = 'No Leads Found';
+$lang['created_today'] = 'Created Today';
+$lang['total_tasks_deleted'] = 'Total Tasks Deleted: %s';
+$lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
+$lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
+$lang['format_letter_portrait'] = 'Letter Portrait';
+$lang['format_letter_landscape'] = 'Letter Landscape';
+$lang['period_datepicker'] = 'Period';
+$lang['total_by_hourly_rate'] = 'Total By Hourly Rate';
+$lang['staff_hourly_rate'] = $lang['task_hourly_rate'];
+// &#37; is for % so the system can confuse for the original fields like %s
+$lang['remove_tax_name_from_item_table_help'] = 'eq. Item TAX 15&#37; will be shown as 15&#37; without the tax name (Not applied if multiple taxes with the same name and tax percent found for item)';
+$lang['back_to_project'] = 'Back to Project';
+$lang['view_kanban'] = 'View Kan Ban';
+$lang['invoice_is_overdue'] = 'This invoice is overdue by %s days';
