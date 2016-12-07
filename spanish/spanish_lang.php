@@ -585,7 +585,6 @@ $lang['lead_add_edit_contected_this_lead']  = 'Me puse en contacto con este Lead
 $lang['lead_confirmation_canban_contacted'] = '¿Usted se ha puesto en contacto con este Lead?';
 
 # Misc
-$lang['activity_log_when_cron_job'] = 'Cron job';
 $lang['access_denied']              = 'Que da acceso denegado';
 $lang['prev']                       = 'Anterior';
 $lang['next']                       = 'Siguiente';
@@ -1098,7 +1097,6 @@ $lang['lead_convert_to_client_firstname']         = 'Nombre';
 $lang['lead_convert_to_client_lastname']          = 'Apellido';
 $lang['lead_email_already_exists']                = 'El email Lead ya existe en los datos de los clientes';
 $lang['lead_to_client_base_converted_success']    = 'El Lead se ha convertido a cliente exitosamente';
-$lang['lead_already_converted']                   = 'Convertido a cliente';
 $lang['lead_have_client_profile']                 = 'Este Lead tiene un perfil de cliente.';
 $lang['lead_converted_edit_client_profile']       = 'Editar perfil';
 
@@ -1257,9 +1255,6 @@ $lang['tasks_dt_priority']  = 'Prioridad';
 # Invoice General
 $lang['invoice_discount'] = 'Descuento';
 
-# Tickets
-$lang['ticket_settings_client'] = 'Cliente';
-
 # Settings
 $lang['settings_rtl_support_admin']                                   = 'RTL área de administración (de derecha a izquierda) BETA';
 $lang['settings_rtl_support_client']                                  = 'RTL Área del Cliente (derecha a izquierda) BETA';
@@ -1386,7 +1381,7 @@ $lang['clients_estimate_dt_duedate']            = 'Fecha de caducidad';
 $lang['clients_estimate_dt_amount']             = 'Cantidad';
 $lang['clients_estimate_dt_status']             = 'Estado';
 $lang['clients_nav_estimates']                  = 'Presupuestos';
-$lang['clients_decline_estimate']               = 'Disminución';
+$lang['clients_decline_estimate']               = 'No Aceptar';
 $lang['clients_accept_estimate']                = 'Aceptar';
 $lang['clients_my_estimates']                   = 'Presupuestos';
 $lang['clients_estimate_invoiced_successfuly']  = 'Presupuesto Aceptado. Aquí está la factura de esta Presupuesto';
@@ -1476,7 +1471,6 @@ $lang['lead_attachments']                             = 'Archivos adjuntos';
 # Admin Customizer Sidebar
 $lang['acs_finance']                                  = 'Estimaciones';
 # Settings
-$lang['settings_number_padding_invoice_and_estimate'] = 'Factura / Número presupuesto de cero relleno \s. <br/> <small> Ex. Si este valor es el número 3 será formateado: 005 o 025 </small>';
 $lang['settings_show_sale_agent_on_invoices']         = 'Mostrar el comercial en la factura';
 $lang['settings_show_sale_agent_on_estimates']        = 'Mostrar el comercial en Presupuesto';
 $lang['settings_predefined_predefined_term']          = 'Términos y condiciones predefinidos';
@@ -2319,7 +2313,7 @@ $lang['settings_amount_to_words'] = 'Cantidad de palabras';
 $lang['settings_amount_to_words_desc'] = 'Salida de la cantidad total de palabras en la facture / presupuesto';
 $lang['settings_amount_to_words_enabled'] = 'Permitir';
 $lang['settings_total_to_words_lowercase'] = 'Numero de palabras en minúsculas';
-$lang['settings_show_tax_per_item'] = 'Mostrar impuesto por artículo (Facturas/Estimaciones)';
+$lang['settings_show_tax_per_item'] = 'Mostrar impuesto por artículo';
 
 # Reports
 $lang['report_sales_months_three_months'] = 'Los últimos 3 meses';
@@ -2771,7 +2765,6 @@ $lang['contract_sent_to_client_fail'] = 'hubo un error al enviar el contrato';
 $lang['client_invalid_username_or_password'] = 'usuario o contraseña invalido';
 $lang['client_old_password_incorect']     = 'Su antigua contraseña es incorrecta';
 $lang['client_password_changed']          = 'Su contraseña ha sido cambiada';
-$lang['check_for_new_version']          = 'Buscar Actualizaciones';
 
 # Version 1.1.4
 $lang['total_leads_deleted'] = 'Total de leads eliminados: %s';
@@ -2978,7 +2971,7 @@ $lang['use_recaptcha_customers_area'] = 'Allow recaptcha on customers area (Logi
 $lang['project_marked_as_finished'] = 'Proyecto completado';
 $lang['project_status_updated'] = 'Estado del Proyecto actualizado';
 $lang['remove_decimals_on_zero'] = 'Remove decimals on numbers/money with zero decimals (2.00 will become 2, 2.25 will stay 2.25)';
-$lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row (Invoices/Estimates)';
+$lang['remove_tax_name_from_item_table'] = 'Remove the tax name from item table row';
 
 # Version 1.2.0
 $lang['not_billable_expenses_by_categories'] = 'No facturables gastos por categorías';
@@ -3019,7 +3012,6 @@ $lang['invoice_estimate_year'] = 'Año';
 $lang['no_results_text_search_dropdown'] = 'No se encontraron resultados';
 $lang['task_stats_logged_hours'] = 'Horas Registradas';
 $lang['leads_converted_to_client'] = 'Leads Convertidos';
-$lang['current_version'] = 'Versión actual: %s';
 $lang['task_assigned_from'] = 'Esta tarea fue asignada a ti por parte de %s';
 $lang['auto_check_for_new_notifications'] = 'Auto check for new notifications (Seconds - Set 0 to disable)';
 $lang['recurring_ends_on'] = 'Termina en (Leave blank for never)';
@@ -3152,7 +3144,6 @@ $lang['dropbox_app_key'] = 'Dropbox APP Key';
 $lang['project_invoice_select_all_expenses'] = 'Elegir todos los gastos';
 $lang['role_update_staff_permissions'] = 'Actualizar todos los permisos del personal que están utilizando éste rol';
 $lang['customer_active'] = 'Activo';
-$lang['customer_disable_tooltip'] = 'Existen datos de este Cliente. Para marcar como inactivo favor de eliminar los datos relacionados con este cliente (ej. Facturas, Estimaciones, Contratos, etc.)';
 $lang['note_updated_successfuly'] = 'Nota actualizada exitosamente';
 $lang['update_note'] = 'Actualizar Nota';
 $lang['update_comment'] = 'Actualizar comentario';
@@ -3223,3 +3214,56 @@ $lang['remove_tax_name_from_item_table_help'] = 'eq. Item TAX 15&#37; will be sh
 $lang['back_to_project'] = 'Back to Project';
 $lang['view_kanban'] = 'View Kan Ban';
 $lang['invoice_is_overdue'] = 'This invoice is overdue by %s days';
+
+# Version 1.2.9
+$lang['time_decimal'] = 'Time (decimal)';
+$lang['time_h'] = 'Time (h)';
+$lang['proposal_number_prefix'] = 'Proposal Number Prefix';
+$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
+$lang['this_week_payments'] = 'This Week Payments';
+$lang['last_week_payments'] = 'Last Week Payments';
+$lang['not_published_new_post'] = 'published new post';
+$lang['expense_name'] = 'Name';
+$lang['expense_name_help'] = 'For personal usage';
+$lang['adjustments'] = 'Adjustments';
+$lang['tax_breakdown'] = 'Tax Breakdown';
+$lang['payments_received'] = 'Payments Received';
+$lang['not_lead_activity_created_proposal'] = 'Created new proposal - %s';
+$lang['lead_title'] = 'Position';
+$lang['lead_address'] = 'Address';
+$lang['lead_city'] = 'City';
+$lang['lead_state'] = 'State';
+$lang['lead_country'] = 'Country';
+$lang['lead_zip'] = 'Zip Code';
+$lang['lead_is_public_yes'] = 'Yes';
+$lang['lead_is_public_no'] = 'No';
+$lang['lead_info'] = 'Lead Informations';
+$lang['lead_general_info'] = 'General Informations';
+$lang['lead_latest_activity'] = 'Latest Activity';
+$lang['item_description_new_lines_notice'] = 'New lines are not supported for item description. Use the item long description instead.';
+$lang['estimates_report'] = 'Estimates Report';
+$lang['confirm'] = 'Confirm';
+$lang['delete_staff'] = 'Delete Staff Member';
+$lang['delete_staff_info'] = 'Some data for this staff member needs to be transfered to another user. Please select user where you want to transfer the data.';
+$lang['estimate_items'] = 'Estimate Items';
+$lang['no_proposals_found'] = 'No Proposals Found';
+$lang['no_estimates_found'] = 'No Estimates Found';
+$lang['pipeline_limit_status'] = 'Pipeline limit per status';
+$lang['settings_update'] = 'System Update';
+$lang['purchase_key'] = 'Purchase Key';
+$lang['update_now'] = 'Update Now';
+$lang['update_available'] = 'An update is available';
+$lang['latest_version'] = 'Latest Version';
+$lang['your_version'] = 'Your Version';
+$lang['using_latest_version'] = 'You are using the latest version';
+$lang['mark_as_active'] = 'Mark as active';
+$lang['customer_inactive_message'] = 'This is inactive customer profile and some features may be disabled';
+$lang['active_customers'] = 'Active Customers';
+$lang['inactive_active_customers'] = 'Inactive Customers';
+$lang['include_proposal_items_merge_field_help'] = 'Include proposal items with merge field anywhere in proposal content as %s';
+$lang['all_data_synced_successfuly'] = 'All data synced successfully';
+$lang['sync_now'] = 'Sync Now';
+$lang['sync_data'] = 'Sync Data';
+$lang['sync_proposals_up_to_date'] = 'All proposals are up to date, nothing to sync';
+$lang['proposal_sync_1_info'] = 'All proposal data is stored separately for each proposal after creation. Updating the %s info wont affect previous created proposals for this %s.';
+$lang['proposal_sync_2_info'] = 'If you recently updated your %s info you can sync all new data to associated proposals. Here is a list of fields you can sync.';
