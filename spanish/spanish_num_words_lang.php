@@ -114,6 +114,7 @@ $lang["num_word_billion"] = "mil millones";
 $lang["num_word_trillion"] = "billones";
 $lang["num_word_zillion"] = "Infinitos";
 $lang["num_word_cents"] = "centavos";
+$lang["number_word_and"] ="And";
 
 // Show in invoices and estimates
 $lang["num_word"] ="Con Palabras";
