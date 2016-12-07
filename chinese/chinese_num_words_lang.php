@@ -114,6 +114,7 @@ $lang["num_word_billion"] ="十亿";
 $lang["num_word_trillion"] ="万亿";
 $lang["num_word_zillion"] ="无数";
 $lang["num_word_cents"] ="美分";
+$lang["number_word_and"] ="And";
 
 // Show in invoices and estimates
 $lang["num_word"] ="With words";
