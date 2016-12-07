@@ -114,6 +114,7 @@ $lang["num_word_billion"] ="Biljoen";
 $lang["num_word_trillion"] ="Triljoen";
 $lang["num_word_zillion"] ="Ziljoen";
 $lang["num_word_cents"] ="Cent";
+$lang["number_word_and"] ="And";
 
 // Show in invoices and estimates
 $lang["num_word"] ="Met woorden";
