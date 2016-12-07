@@ -114,6 +114,7 @@ $lang["num_word_billion"] ="Milyar";
 $lang["num_word_trillion"] ="Triliun";
 $lang["num_word_zillion"] ="Ziliun";
 $lang["num_word_cents"] ="Sen";
+$lang["number_word_and"] ="And";
 
 // Show in invoices and estimates
 $lang["num_word"] ="Dengan kalimat";
