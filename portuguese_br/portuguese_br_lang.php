@@ -580,7 +580,6 @@ $lang['lead_add_edit_contected_this_lead'] = 'Eu entrei em contato com esse lead
 $lang['lead_confirmation_canban_contacted'] = 'Você entrou em contato com esse lead?';
 
 # Misc
-$lang['activity_log_when_cron_job'] = 'Cron de Trabalho';
 $lang['access_denied'] = 'Acesso negado';
 $lang['prev'] = 'Anterior';
 $lang['next'] = 'próximo';
@@ -1094,7 +1093,6 @@ $lang['lead_convert_to_client_firstname'] = 'Nome';
 $lang['lead_convert_to_client_lastname'] = 'Sobrenome';
 $lang['lead_email_already_exists'] = 'E-mail lead já existe nos dados dos clientes';
 $lang['lead_to_client_base_converted_success'] = 'Lead convertido para o cliente com sucesso';
-$lang['lead_already_converted'] = 'Convertido para o cliente';
 $lang['lead_have_client_profile'] = 'Esse lead está no perfil do cliente.';
 $lang['lead_converted_edit_client_profile'] = 'Editar Perfil';
 
@@ -1252,9 +1250,6 @@ $lang['tasks_dt_priority'] = 'Prioridade';
 
 # Invoice General
 $lang['invoice_discount'] = 'Desconto';
-
-# Tickets
-$lang['ticket_settings_client'] = 'Cliente';
 
 # Settings
 $lang['settings_rtl_support_admin'] = 'RTL Área Admin (Direita para Esquerda)';
@@ -1471,7 +1466,6 @@ $lang['lead_attachments'] = 'Anexos';
 # Admin Customizer Sidebar
 $lang['acs_finance'] = 'Finanças';
 # Settings
-$lang['settings_number_padding_invoice_and_estimate'] = 'Número da Fatura/Estimativa Preenchido com Zero. <br /> <small>Ex. Se esse valor é 3 o número será formatado: 005 ou 025</small>';
 $lang['settings_show_sale_agent_on_invoices'] = 'Mostrar o Agente de Venda na Fatura';
 $lang['settings_show_sale_agent_on_estimates'] = 'Mostrar o Agente da Venda na Estimativa';
 $lang['settings_predefined_predefined_term'] = 'Termos e Condições predefinidos';
@@ -2313,7 +2307,7 @@ $lang['settings_amount_to_words'] = 'Quantidade de palavras';
 $lang['settings_amount_to_words_desc'] = 'Quantia total de saída por palavras em fatura/estimativa';
 $lang['settings_amount_to_words_enabled'] = 'Habilitar';
 $lang['settings_total_to_words_lowercase'] = 'Número de palavras em letras minúsculas';
-$lang['settings_show_tax_per_item'] = 'Mostrar TAXA por item (Faturas/Estimativas)';
+$lang['settings_show_tax_per_item'] = 'Mostrar TAXA por item';
 
 # Reports
 $lang['report_sales_months_three_months'] = 'Últimos 3 meses';
@@ -2764,7 +2758,6 @@ $lang['contract_sent_to_client_fail'] = 'Falha ao enviar o contrato';
 $lang['client_invalid_username_or_password'] = 'Nome do usuário inválido ou senha';
 $lang['client_old_password_incorect'] = 'Sua senha antiga está incorreta';
 $lang['client_password_changed'] = 'Sua senha foi alterada';
-$lang['check_for_new_version'] = 'Verificar nova versão';
 
 # Version 1.1.4
 $lang['total_leads_deleted'] = 'Total de contatos excluídos: %s.';
@@ -2971,7 +2964,7 @@ $lang['use_recaptcha_customers_area'] = 'Permitir recaptcha na área de clientes
 $lang['project_marked_as_finished'] = 'Projeto concluído';
 $lang['project_status_updated'] = 'Status do projeto atualizado';
 $lang['remove_decimals_on_zero'] = 'Remover decimais em números/dinheiro com zero casas decimais (2,00 se tornará 2, 2,25 permanecerá 2.25)';
-$lang['remove_tax_name_from_item_table'] = 'Remover o nome do imposto a partir da linha de item da tabela (Faturas/Estimativas)';
+$lang['remove_tax_name_from_item_table'] = 'Remover o nome do imposto a partir da linha de item da tabela';
 # Version 1.2.0
 $lang['not_billable_expenses_by_categories'] = 'Nenhuma despesa faturável ​​por categorias';
 $lang['billable_expenses_by_categories'] = 'Despesas faturáveis ​​por categorias';
@@ -3011,7 +3004,6 @@ $lang['invoice_estimate_year'] = 'Ano';
 $lang['no_results_text_search_dropdown'] = 'Nenhum Resultado Adequado';
 $lang['task_stats_logged_hours'] = 'Horas Registradas';
 $lang['leads_converted_to_client'] = 'Leads Convertidos';
-$lang['current_version'] = 'Versão Atual: %s';
 $lang['task_assigned_from'] = 'Esta tarefa está atribuída a você por %s';
 $lang['auto_check_for_new_notifications'] = 'Verificação automática para novas notificações (Segundos - Defina 0 para desativar)';
 $lang['recurring_ends_on'] = 'Término em (Deixe em branco para nunca)';
@@ -3144,7 +3136,6 @@ $lang['dropbox_app_key'] = 'Chave do Aplicativo do Dropbox';
 $lang['project_invoice_select_all_expenses'] = 'Selecionar todas as despesas';
 $lang['role_update_staff_permissions'] = 'Atualizar todas as permissões dos membros da equipe que estão usando essa função';
 $lang['customer_active'] = 'Ativo';
-$lang['customer_disable_tooltip'] = 'Existem dados do cliente, exclua todos os dados relacionados a este cliente para marcar como desativado (isto é, Faturas, Estimativas, Contratos)';
 $lang['note_updated_successfuly'] = 'Nota atualizada com sucesso';
 $lang['update_note'] = 'Atualizar nota';
 $lang['update_comment'] = 'Atualizar comentário';
@@ -3215,3 +3206,56 @@ $lang['remove_tax_name_from_item_table_help'] = 'eq. Item TAX 15&#37; will be sh
 $lang['back_to_project'] = 'Back to Project';
 $lang['view_kanban'] = 'View Kan Ban';
 $lang['invoice_is_overdue'] = 'This invoice is overdue by %s days';
+
+# Version 1.2.9
+$lang['time_decimal'] = 'Time (decimal)';
+$lang['time_h'] = 'Time (h)';
+$lang['proposal_number_prefix'] = 'Proposal Number Prefix';
+$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
+$lang['this_week_payments'] = 'This Week Payments';
+$lang['last_week_payments'] = 'Last Week Payments';
+$lang['not_published_new_post'] = 'published new post';
+$lang['expense_name'] = 'Name';
+$lang['expense_name_help'] = 'For personal usage';
+$lang['adjustments'] = 'Adjustments';
+$lang['tax_breakdown'] = 'Tax Breakdown';
+$lang['payments_received'] = 'Payments Received';
+$lang['not_lead_activity_created_proposal'] = 'Created new proposal - %s';
+$lang['lead_title'] = 'Position';
+$lang['lead_address'] = 'Address';
+$lang['lead_city'] = 'City';
+$lang['lead_state'] = 'State';
+$lang['lead_country'] = 'Country';
+$lang['lead_zip'] = 'Zip Code';
+$lang['lead_is_public_yes'] = 'Yes';
+$lang['lead_is_public_no'] = 'No';
+$lang['lead_info'] = 'Lead Informations';
+$lang['lead_general_info'] = 'General Informations';
+$lang['lead_latest_activity'] = 'Latest Activity';
+$lang['item_description_new_lines_notice'] = 'New lines are not supported for item description. Use the item long description instead.';
+$lang['estimates_report'] = 'Estimates Report';
+$lang['confirm'] = 'Confirm';
+$lang['delete_staff'] = 'Delete Staff Member';
+$lang['delete_staff_info'] = 'Some data for this staff member needs to be transfered to another user. Please select user where you want to transfer the data.';
+$lang['estimate_items'] = 'Estimate Items';
+$lang['no_proposals_found'] = 'No Proposals Found';
+$lang['no_estimates_found'] = 'No Estimates Found';
+$lang['pipeline_limit_status'] = 'Pipeline limit per status';
+$lang['settings_update'] = 'System Update';
+$lang['purchase_key'] = 'Purchase Key';
+$lang['update_now'] = 'Update Now';
+$lang['update_available'] = 'An update is available';
+$lang['latest_version'] = 'Latest Version';
+$lang['your_version'] = 'Your Version';
+$lang['using_latest_version'] = 'You are using the latest version';
+$lang['mark_as_active'] = 'Mark as active';
+$lang['customer_inactive_message'] = 'This is inactive customer profile and some features may be disabled';
+$lang['active_customers'] = 'Active Customers';
+$lang['inactive_active_customers'] = 'Inactive Customers';
+$lang['include_proposal_items_merge_field_help'] = 'Include proposal items with merge field anywhere in proposal content as %s';
+$lang['all_data_synced_successfuly'] = 'All data synced successfully';
+$lang['sync_now'] = 'Sync Now';
+$lang['sync_data'] = 'Sync Data';
+$lang['sync_proposals_up_to_date'] = 'All proposals are up to date, nothing to sync';
+$lang['proposal_sync_1_info'] = 'All proposal data is stored separately for each proposal after creation. Updating the %s info wont affect previous created proposals for this %s.';
+$lang['proposal_sync_2_info'] = 'If you recently updated your %s info you can sync all new data to associated proposals. Here is a list of fields you can sync.';
