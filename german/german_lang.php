@@ -2220,7 +2220,6 @@ $lang['milestone_total_logged_time']                                          = 
 $lang['project_overview_total_logged_hours']                                  = 'Gesamt geloggte Stunden';
 $lang['milestones_uncategorized']                                             = 'Unkategorisiert';
 $lang['milestone_no_tasks_found']                                             = 'Keine Aufgaben gefunden';
-$lang['copy_project_discussions_not_included']                                = 'Anhänge und Kommentare sind nicht enthalten';
 $lang['project_copied_successfuly']                                           = 'Projektdaten erfolgreich kopiert';
 $lang['failed_to_copy_project']                                               = 'Fehler beim Kopieren des Projektes';
 $lang['copy_project_task_include_check_list_items']                           = 'Kopiere Checklisten-Einträge';
@@ -2474,7 +2473,6 @@ $lang['contract_sent_to_client_fail']                                         = 
 $lang['client_invalid_username_or_password']                                  = 'Ungültiger Nutzername oder Passwort';
 $lang['client_old_password_incorect']                                         = 'Das alte Passwort ist nicht korrekt';
 $lang['client_password_changed']                                              = 'Das Passwort wurde geändert';
-$lang['check_for_new_version']                                                = 'Auf neue Version überprüfen';
 # Version 1.1.4
 $lang['total_leads_deleted']                                                  = 'Gesamt Leads gelöscht: %s';
 $lang['total_clients_deleted']                                                = 'Gesamt Kunden gelöscht: %s';
