@@ -3347,7 +3347,6 @@ $lang['search_ajax_searching']                              = 'Searching...';
 $lang['search_ajax_initialized']                            = 'Start typing to search';
 $lang['lead_description']                                   = 'Description';
 $lang['lead_website']                                       = 'Website';
-$lang['invoice_activity_auto_converted_from_estimate'] = 'Invoice auto created from estimate with number %s';
 $lang['invoice_activity_auto_converted_from_estimate']      = 'Invoice auto created from estimate with number %s';
 $lang['hour_of_day_perform_auto_operations']                = 'Hour of day to perform automatic operations';
 $lang['hour_of_day_perform_auto_operations_format']         = '24 hours format eq. 9 for 9am or 15 for 3pm.';
