@@ -2207,7 +2207,7 @@ $lang['not_goal_message_success'] = 'Félicitation! Vous avez réussi votre nouv
 <br />Total Achivement: %s
 <br />Date de début : %s
 <br />Date de fin : %s';
-$lang['not_assigned_lead_to_you'] = '%s vous a assigné le prospect %s';
+$lang['not_assigned_lead_to_you'] = 'vous a assigné le prospect %s';
 $lang['not_lead_activity_assigned_to'] = '%s assigné à %s';
 $lang['not_lead_activity_attachment_deleted'] = 'Supprimer les pièces jointes';
 $lang['not_lead_activity_status_updated'] = '%s a mis à jour le statut prospect de %s à %s';
