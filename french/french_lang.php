@@ -3352,3 +3352,21 @@ $lang['hour_of_day_perform_auto_operations'] = 'Heure du jour pour effectuer des
 $lang['hour_of_day_perform_auto_operations_format'] = '24 heures format ex. 9 pour 9h ou 15 pour 3h.';
 $lang['inv_hour_of_day_perform_auto_operations_help'] = 'Utilisé pour les factures récurrentes, les avis en souffrance etc..';
 $lang['use_minified_files'] = 'Utiliser la version des fichiers minifiés pour css et js (uniquement les fichiers système)';
+
+# Version 1.5.0
+$lang['logo_favicon_changed_notice'] = 'Logo or Favicon change detected. If you still see the original CRM logo try to clear your browser cache';
+$lang['kb_search_articles'] = 'Search Knowledge Base Articles';
+$lang['kb_search'] = 'Search';
+$lang['have_a_question'] = 'Have a question?';
+$lang['card_expiration_year'] = 'Expiration Year';
+$lang['card_expiration_month'] = 'Expiration Month';
+$lang['client_website'] = 'Website';
+$lang['search_project_members'] = 'Search Project Members...';
+$lang['cf_translate_input_link_title'] = 'Title';
+$lang['cf_translate_input_link_url'] = 'URL';
+$lang['cf_translate_input_link_tip'] = 'Click here to add link';
+$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['department_username'] = 'IMAP Username';
+$lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
+$lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
+

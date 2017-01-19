@@ -205,7 +205,7 @@ $lang['home_public_event']                                  = 'Openbaar evenemen
 $lang['home_weekly_payment_records']                        = 'Weekelijkse betalings overzicht';
 $lang['home_weekend_ticket_opening_statistics']             = 'Weekelijkste statistieken over open tickets';
 # Newsfeed
-$lang['whats_on_your_mind']                                 = 'Deel documenten, ideeÃ«n..';
+$lang['whats_on_your_mind']                                 = 'Deel documenten, ideeën..';
 $lang['new_post']                                           = 'Post maken';
 $lang['newsfeed_upload_tooltip']                            = 'Tip: Sleep documenten naar het veld om ze te uploaden';
 $lang['newsfeed_all_departments']                           = 'Alle afdelingen';
@@ -535,7 +535,6 @@ $lang['settings_sales_invoice_number_format']                      = 'Factuur Nu
 $lang['settings_sales_invoice_number_format_year_based']           = 'Jaar Gebaseerd';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Nummer Gebaseerd(000001)';
 
-$lang['settings_sales_company_info_heading'] = 'Bedrijf';
 $lang['settings_sales_company_info_note']    = 'Deze informatie zal weegeven worden op facturen/schattingen/betalingen en andere PDF documenten waar bedrijfs informatie nodig is.';
 $lang['settings_sales_company_name']         = 'Bedrijf Naam';
 $lang['settings_sales_address']              = 'Adres';
@@ -645,7 +644,7 @@ $lang['als_staff'] = 'Staff';
 $lang['als_tasks'] = 'Taken';
 $lang['als_kb']    = 'Informatie Centrum';
 
-$lang['als_surveys']               = 'EnquÃªtes';
+$lang['als_surveys']               = 'Enquêtes';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapporten';
 $lang['als_reports_sales_submenu'] = 'Afzet';
@@ -785,41 +784,41 @@ $lang['staff_edit_profile_change_new_password']       = 'Nieuw wachtwoord';
 $lang['staff_edit_profile_change_repet_new_password'] = 'Herhaal nieuw wachtwoord';
 
 # Surveys
-$lang['new_survey']                    = 'Nieuwe enquÃªte';
-$lang['surveys']                       = 'EnquÃªtes';
-$lang['survey']                        = 'EnquÃªte';
-$lang['survey_lowercase']              = 'enquÃªte';
+$lang['new_survey']                    = 'Nieuwe enquête';
+$lang['surveys']                       = 'Enquêtes';
+$lang['survey']                        = 'Enquête';
+$lang['survey_lowercase']              = 'enquête';
 $lang['survey_no_mail_lists_selected'] = 'Geen Mail Lijst Geselecteerd';
-$lang['survey_send_success_note']      = 'Alle EnquÃªte emails(%s) zullen verzonden worden via CRON';
-$lang['survey_result']                 = 'Resultaat voor enquÃªte: %s';
+$lang['survey_send_success_note']      = 'Alle Enquête emails(%s) zullen verzonden worden via CRON';
+$lang['survey_result']                 = 'Resultaat voor enquête: %s';
 $lang['question_string']               = 'Vraag';
 $lang['question_field_string']         = 'Veld';
 
-$lang['survey_list_view_tooltip']         = 'Bekijk enquÃªte';
+$lang['survey_list_view_tooltip']         = 'Bekijk enquête';
 $lang['survey_list_view_results_tooltip'] = 'Bekijk Resultaten';
 
-$lang['survey_add_edit_subject']                   = 'EnquÃªte Onderwerp';
-$lang['survey_add_edit_email_description']         = 'EnquÃªte Beschrijving (Email Beschrijving)';
-$lang['survey_include_survey_link']                = 'EnquÃªte link toevoegen aan beschrijving';
+$lang['survey_add_edit_subject']                   = 'Enquête Onderwerp';
+$lang['survey_add_edit_email_description']         = 'Enquête Beschrijving (Email Beschrijving)';
+$lang['survey_include_survey_link']                = 'Enquête link toevoegen aan beschrijving';
 $lang['survey_available_mail_lists_custom_fields'] = 'Beschikbare aangepaste velden van mailing lijst';
 $lang['survey_mail_lists_custom_fields_tooltip']   = 'Aangepaste velden kunnen gebruikt worden voor mailing editor.';
-$lang['survey_add_edit_short_description_view']    = 'EnquÃªte Korte Beschrijving(Bekijk Beschrijving)';
+$lang['survey_add_edit_short_description_view']    = 'Enquête Korte Beschrijving(Bekijk Beschrijving)';
 $lang['survey_add_edit_from']                      = 'Van (Weergeven in email)';
-$lang['survey_add_edit_redirect_url']              = 'EnquÃªte herwijzing URL';
-$lang['survey_add_edit_red_url_note']              = 'Wanneer gebruikers de enquÃªte afmaken, waar ze naartoe verwezen moeten worden. (Laat leeg voor deze site URL)';
+$lang['survey_add_edit_redirect_url']              = 'Enquête herwijzing URL';
+$lang['survey_add_edit_red_url_note']              = 'Wanneer gebruikers de enquête afmaken, waar ze naartoe verwezen moeten worden. (Laat leeg voor deze site URL)';
 $lang['survey_add_edit_disabled']                  = 'Uitgeschakeld';
 $lang['survey_add_edit_only_for_logged_in']        = 'Alleen voor ingelogde deelnemenrs (staff,klanten)';
-$lang['send_survey_string']                        = 'EnquÃªte versturen';
+$lang['send_survey_string']                        = 'Enquête versturen';
 $lang['survey_send_mail_list_clients']             = 'Klanten';
 $lang['survey_send_mail_list_staff']               = 'Staff';
 $lang['survey_send_mail_lists_string']             = 'Mail Lijsten';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Notitie: Als U de enquÃªte verstuurt naar mail lijsten, moet Alleen voor ingelogde gebruikers niet aangevinkd zijn.';
+$lang['survey_send_mail_lists_note_logged_in']     = 'Notitie: Als U de enquête verstuurt naar mail lijsten, moet Alleen voor ingelogde gebruikers niet aangevinkd zijn.';
 $lang['survey_send_string']                        = 'Versturen';
 
 $lang['survey_send_to_total']  = 'Stuur naar totaal %s emails';
 $lang['survey_send_till_now']  = 'Tot nu toe';
-$lang['survey_send_finished']  = 'EnquÃªte versturen klaar: %s';
-$lang['survey_added_to_queue'] = 'Deze enquÃªte word toegevoegd aan de cron queue op %s';
+$lang['survey_send_finished']  = 'Enquête versturen klaar: %s';
+$lang['survey_added_to_queue'] = 'Deze enquête word toegevoegd aan de cron queue op %s';
 
 $lang['survey_questions_string']          = 'Vragen';
 $lang['survey_insert_field']              = 'Veld toevoegen';
@@ -829,7 +828,7 @@ $lang['survey_field_input']               = 'Input Veld';
 $lang['survey_field_textarea']            = 'schrijf gedeelte';
 $lang['survey_question_required']         = 'Noodzakelijk';
 $lang['survey_question_only_for_preview'] = 'Alleen voor preview';
-$lang['survey_create_first']              = 'U moet eerst de enquÃªte maken, daarna kunt u de vragen toevoegen.';
+$lang['survey_create_first']              = 'U moet eerst de enquête maken, daarna kunt u de vragen toevoegen.';
 
 
 $lang['survey_dt_name']               = 'Naam';
@@ -1163,7 +1162,7 @@ $lang['qa_create_task']     = 'Genereer Taak';
 $lang['qa_create_client']   = 'Genereer Klant';
 $lang['qa_create_contract'] = 'Genereer Contract';
 $lang['qa_create_kba']      = 'Genereer Informatie Centrum Artikel';
-$lang['qa_create_survey']   = 'Genereer EnquÃªte';
+$lang['qa_create_survey']   = 'Genereer Enquête';
 $lang['qa_create_ticket']   = 'Open Ticket';
 $lang['qa_create_staff']    = 'Genereer Staff Lid';
 
@@ -1240,7 +1239,7 @@ $lang['payment_view_heading'] = 'Betaling';
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Klant toestaan het te betalen bedrag te wijzigen (Voor online betalingen)';
 $lang['settings_survey_send_emails_per_cron_run']                   = 'Hoe veel emails per uur te verzenden';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Deze optie wordt gebruikt wanneer u enquÃªtes verstuurd. De enquÃªte cron gaat elke 5 minuten, dus u kunt kiezen hoeveel emails u stuurt elke 5 minuten.';
+$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Deze optie wordt gebruikt wanneer u enquêtes verstuurd. De enquête cron gaat elke 5 minuten, dus u kunt kiezen hoeveel emails u stuurt elke 5 minuten.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Verwijder factuur alleen toegestaan op laatste factuur';
 $lang['settings_sales_estimate_prefix']                             = 'Geschat nummer voorzetsel';
 $lang['settings_sales_next_estimate_number']                        = 'Volgend geschat nummer';
@@ -1481,7 +1480,7 @@ $lang['calendar_task']                                = 'Taken';
 $lang['lead_edit_delete_tooltip']                     = 'Verwijder Tip';
 $lang['lead_attachments']                             = 'Documenten';
 # Admin Customizer Sidebar
-$lang['acs_finance']                                  = 'FinanciÃ«n';
+$lang['acs_finance']                                  = 'Financiën';
 # Settings
 $lang['settings_show_sale_agent_on_invoices']         = 'Laat Verkoper Zien op Factuur';
 $lang['settings_show_sale_agent_on_estimates']        = 'Laat Verkoper Zien op Schattingen';
@@ -1596,14 +1595,14 @@ $lang['goal_type_income_subtext']                                    = 'Inkomen 
 $lang['payment_transaction_id']                                      = 'Transactie ID';
 # Settings Menu
 $lang['acs_expenses']                                                = 'Kosten';
-$lang['acs_expense_categories']                                      = 'Kosten CategorieÃ«n';
+$lang['acs_expense_categories']                                      = 'Kosten Categorieën';
 # Expeneses
 $lang['expense_category']                                            = 'Kosten Categorie';
 $lang['expense_category_lowercase']                                  = 'kosten category';
 $lang['new_expense']                                                 = 'Kosten Opslaan';
 $lang['expense_add_edit_name']                                       = 'Categorie Naam';
 $lang['expense_add_edit_description']                                = 'Categorie Omschrijving';
-$lang['expense_categories']                                          = 'Kosten CategorieÃ«n';
+$lang['expense_categories']                                          = 'Kosten Categorieën';
 $lang['new_expense_category']                                        = 'Nieuwe Categorie';
 $lang['dt_expense_description']                                      = 'Omschrijving';
 $lang['expense']                                                     = 'Kosten';
@@ -1799,7 +1798,7 @@ $lang['contract_edit_overview']                                              = '
 $lang['contract_attachments']                                                = 'Documenten';
 # Tasks
 $lang['task_view_make_public']                                               = 'Maak Openbaar';
-$lang['task_is_private']                                                     = 'PrivÃ¨ Taak';
+$lang['task_is_private']                                                     = 'Privè Taak';
 $lang['task_finished']                                                       = 'Klaar';
 $lang['task_single_related']                                                 = 'Gerelateerd';
 $lang['task_unmark_as_complete']                                             = 'Onmarkeren als klaar';
@@ -1811,7 +1810,7 @@ $lang['task_public_help']                                                    = '
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Output klant PDF documenten van admin ruimte in klant taal';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Als deze optie op ja staat en bv. het systeem standaard taal Engels is en de klant heeft zijn taal op Frans, dan zal de output van de PDF Document in het Frans zijn.';
-$lang['settings_cron_surveys']                                               = 'EnquÃªtes';
+$lang['settings_cron_surveys']                                               = 'Enquêtes';
 $lang['settings_default_tax']                                                = 'Standaard Belasting';
 $lang['setup_calendar_by_departments']                                       = 'Zet kalender op bij afdelingen';
 $lang['settings_calendar']                                                   = 'Kalender';
@@ -2587,7 +2586,7 @@ $lang['discussion_no_comments'] = 'Geen comments';
 $lang['discussion_no_attachments'] = 'Geen Documenten';
 $lang['discussion_attachments_drop'] = 'Sleep en laat los om document te uploaden';
 $lang['project_note'] = 'Notitie';
-$lang['project_note_private'] = 'PrivÃ¨ Notities';
+$lang['project_note_private'] = 'Privè Notities';
 $lang['project_save_note'] = 'Notitie Opslaan';
 
 # Project Activity
@@ -2757,7 +2756,7 @@ $lang['expense_repeat_every'] = 'Herhaal elke';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban'] = 'Wissel naar kan ban';
-$lang['survey_no_questions'] = 'Deze enquÃªte heeft nog geen vragen.';
+$lang['survey_no_questions'] = 'Deze enquête heeft nog geen vragen.';
 $lang['survey_submit'] = 'Inleveren';
 $lang['contract_content'] = 'Contract';
 $lang['contract_save'] = 'Sla Contact Op';
@@ -2859,7 +2858,7 @@ $lang['task_filter_detailed_all_months'] = 'Alle Maanden';
 $lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
-$lang['email_template_ticket_warning'] = 'Als ticket wordt geÃ¯mporteerd ticket is imported  met een pijplijn e-mail en het contact is niet aanwezig in het CRM, dan worden de velden niet vervangen.';
+$lang['email_template_ticket_warning'] = 'Als ticket wordt geïmporteerd ticket is imported  met een pijplijn e-mail en het contact is niet aanwezig in het CRM, dan worden de velden niet vervangen.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop alle andere gestarte timers wanneer een nieuwe timer wordt gestart';
 $lang['notification_when_customer_pay_invoice'] = 'Ontvangen kennisgeving wanneer de klant de factuur betaalt(ingebouwd)';
 $lang['not_invoice_payment_recored'] = 'Nieuwe factuurbetaling - %s';
@@ -2867,7 +2866,7 @@ $lang['email_template_contact_warning'] = 'Indien het contact niet is geregistre
 $lang['theme_style'] = 'Thema Stijl';
 $lang['change_role_permission_warning'] = 'Veranderen van rol permissies heeft nu geen invloed op de huidige medewerkers toestemmingen die gebruik maken van deze rol.';
 $lang['task_copied_successfuly'] = 'Taak met succes gekopieerd';
-$lang['failed_to_copy_task'] = 'Taak kopiÃ«ren is mislukt';
+$lang['failed_to_copy_task'] = 'Taak kopiëren is mislukt';
 $lang['not_project_file_uploaded'] = 'Nieuw projectbestand toegevoegd';
 $lang['settings_calendar_color'] = '%s Kleur';
 $lang['settings_calendar_colors_heading'] = 'Styling';
@@ -2912,7 +2911,7 @@ $lang['not_task_new_comment'] = 'gereageerd op taak %s';
 $lang['invoice_number_exists'] = 'Dit factuurnummer bestaat voor het lopende jaar.';
 $lang['estimate_number_exists'] = 'Dit offertenummer bestaat voor het lopende jaar.';
 $lang['email_exists'] = 'E-mail bestaat al';
-$lang['not_uploaded_project_file'] = 'Nieuw bestand geÃ¼pload';
+$lang['not_uploaded_project_file'] = 'Nieuw bestand geüpload';
 $lang['not_created_new_project_discussion'] = 'Nieuw project discussie aangemaakt';
 $lang['not_commented_on_project_discussion'] = 'Nieuwe reactie op project discussie';
 $lang['all_staff_members'] = 'Alle medewerkers';
@@ -3180,7 +3179,7 @@ $lang['staff_email_signature_help'] = 'Indien leeg, zal de standaard e-mail hand
 $lang['customer_sales'] = 'Verkoop';
 $lang['default_task_priority'] = 'Standaard Prioriteit';
 $lang['project_send_created_email'] = 'Verstuur project aangemaakte e-mail';
-$lang['survey_send_to_lists'] = 'EnquÃªte verstuurd lijsten';
+$lang['survey_send_to_lists'] = 'Enquête verstuurd lijsten';
 $lang['survey_send_notice'] = 'E-mails zullen worden verzonden via CRON JOB per uur.';
 $lang['view_permission_auto_checked'] = 'BEKIJK permissie automatisch gecontroleerd. U moet BEKIJK permissie selecteren als u het wilt gebruiken voor BEWERK, MAAK AAN end VERWIJDER. BEWERK, MAAK AAN, VERWIJDER kan alleen met BEKIJK gebruikt worden, aangezien BEKIJK een algemene permissie is en de gebruiker niet in staat stelt om de gegevens te openen en de acties uit te voeren.';
 $lang['custom_field_company_info'] = 'Bewerk aangepaste velden voor bedrijf in Stel in->Instelling->Bedrijf';
@@ -3365,3 +3364,21 @@ $lang['hour_of_day_perform_auto_operations'] = 'Hour of day to perform automatic
 $lang['hour_of_day_perform_auto_operations_format'] = '24 hours format eq. 9 for 9am or 15 for 3pm.';
 $lang['inv_hour_of_day_perform_auto_operations_help'] = 'Used for recurring invoices, overdue notices etc..';
 $lang['use_minified_files'] = 'Use minified files version for css and js (only system files)';
+
+# Version 1.5.0
+$lang['logo_favicon_changed_notice'] = 'Logo or Favicon change detected. If you still see the original CRM logo try to clear your browser cache';
+$lang['kb_search_articles'] = 'Search Knowledge Base Articles';
+$lang['kb_search'] = 'Search';
+$lang['have_a_question'] = 'Have a question?';
+$lang['card_expiration_year'] = 'Expiration Year';
+$lang['card_expiration_month'] = 'Expiration Month';
+$lang['client_website'] = 'Website';
+$lang['search_project_members'] = 'Search Project Members...';
+$lang['cf_translate_input_link_title'] = 'Title';
+$lang['cf_translate_input_link_url'] = 'URL';
+$lang['cf_translate_input_link_tip'] = 'Click here to add link';
+$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['department_username'] = 'IMAP Username';
+$lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
+$lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
+
