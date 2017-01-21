@@ -3511,3 +3511,13 @@ $lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s t
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
 $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
+
+# Version 1.5.1
+$lang['ticket_linked_to_project'] = 'This ticket is linked to project: %s';
+$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area';
+$lang['only_own_files_contacts_help'] = 'If you share the file manually from customer profile to other contacts they wil be able to see the file.';
+$lang['share_file_with'] = 'Share File With';
+$lang['file_share_visibility_notice'] = 'This file is not shared with contacts, toggle visibility again to reload';
+$lang['share_file_with_show'] = 'This file is shared with: %s';
+$lang['allow_primary_contact_to_view_edit_billing_and_shipping'] = 'Allow primary contact to view/edit billing & shipping details';
+$lang['estimate_due_after'] = 'Estimate Due After (days)';
