@@ -3070,12 +3070,11 @@ $lang['department_username_help']                                             = 
 $lang['total_tickets_deleted']                                                = 'Insgesamt gelöschte Tickets: %s';
 
 # Version 1.5.1
-$lang['ticket_linked_to_project'] = 'This ticket is linked to project: %s';
-$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area';
-$lang['only_own_files_contacts_help'] = 'If you share the file manually from customer profile to other contacts they wil be able to see the file.';
-$lang['share_file_with'] = 'Share File With';
-$lang['file_share_visibility_notice'] = 'This file is not shared with contacts, toggle visibility again to reload';
-$lang['share_file_with_show'] = 'This file is shared with: %s';
-$lang['allow_primary_contact_to_view_edit_billing_and_shipping'] = 'Allow primary contact to view/edit billing & shipping details';
-$lang['estimate_due_after'] = 'Estimate Due After (days)';
-
+$lang['ticket_linked_to_project']                                             = 'Dieses Ticket ist mit folgendem Projekt verknüpft: %s';
+$lang['only_own_files_contacts']                                              = 'Kontakte sehen lediglich die eigenen Dateien, die in dem Kundenbereich hochgeladen wurden';
+$lang['only_own_files_contacts_help']                                         = 'Wenn diese Datei manuell von einem Kundenprofil mit einem anderen Kontakt geteilt wird, haben diese die Berechtigung die Datei ebenfalls zu sehen.';
+$lang['share_file_with']                                                      = 'Datei teilen mit';
+$lang['file_share_visibility_notice']                                         = 'Diese Datei ist nicht mit anderen Kontakten geteilt, Sichtbarkeit erneut ändern, um neu zuladen';
+$lang['share_file_with_show']                                                 = 'Diese Datei ist geteilt mit: %s';
+$lang['allow_primary_contact_to_view_edit_billing_and_shipping']              = 'Primären Kontakt erlauben, die Zahlungs- und Rechnungsinformationen einzusehen und zu ändern';
+$lang['estimate_due_after']                                                   = 'Angebot überfällig nach (Tagen)';
