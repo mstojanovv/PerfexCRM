@@ -2965,7 +2965,7 @@ $lang['sync_proposals_up_to_date']                                            = 
 $lang['proposal_sync_1_info']                                                 = 'Vorschlag nach der Erstellung gespeichert. Die Aktualisierung der %s Informationen wirkt sich nicht auf die zuvor erstellten Vorschläge für diese %s aus.';
 $lang['proposal_sync_2_info']                                                 = 'Wenn Sie vor kurzem Ihre %s info aktualisiert haben, können Sie alle neuen Daten mit den entsprechenden Vorschlägen synchronisieren. Hier ist eine Liste der Felder, die Sie synchronisieren können.';
 # Version 1.3.0
-$lang['expense_include_additional_data_on_convert'] = 'Include additional details to item long description taken from this expense.';
+$lang['expense_include_additional_data_on_convert']                           = 'Weitere Einzelheiten zur langen Beschreibung einfügen, die von dieser Ausgabe genommen wurden.';
 
 # Version 1.4.0
 $lang['calendar_events_limit'] = 'Calendar Events Limit (Month and Week View)';
