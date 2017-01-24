@@ -3053,21 +3053,21 @@ $lang['inv_hour_of_day_perform_auto_operations_help']                         = 
 $lang['use_minified_files']                                                   = 'Verkleinerte Datei Versionen für CSS und JS verwenden (nur System Dateien)';
 
 # Version 1.5.0
-$lang['logo_favicon_changed_notice'] = 'Logo or Favicon change detected. If you still see the original CRM logo try to clear your browser cache';
-$lang['kb_search_articles'] = 'Search Knowledge Base Articles';
-$lang['kb_search'] = 'Search';
-$lang['have_a_question'] = 'Have a question?';
-$lang['card_expiration_year'] = 'Expiration Year';
-$lang['card_expiration_month'] = 'Expiration Month';
-$lang['client_website'] = 'Website';
-$lang['search_project_members'] = 'Search Project Members...';
-$lang['cf_translate_input_link_title'] = 'Title';
-$lang['cf_translate_input_link_url'] = 'URL';
-$lang['cf_translate_input_link_tip'] = 'Click here to add link';
-$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
-$lang['department_username'] = 'IMAP Username';
-$lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
-$lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
+$lang['logo_favicon_changed_notice']                                          = 'Logo oder Favicon-Änderung erkannt. Wenn immer noch das ursprüngliche CRM-Logo angezeigt wird, sollte der Browser-Cache gelöscht werden';
+$lang['kb_search_articles']                                                   = 'Knowledgebase Artikel durchsuchen';
+$lang['kb_search']                                                            = 'Suchen';
+$lang['have_a_question']                                                      = 'Gibt es Fragen?';
+$lang['card_expiration_year']                                                 = 'Ablaufjahr';
+$lang['card_expiration_month']                                                = 'Ablaufmonat';
+$lang['client_website']                                                       = 'Webseite';
+$lang['search_project_members']                                               = 'Nach Projektmitgliedern suchen...';
+$lang['cf_translate_input_link_title']                                        = 'Titel';
+$lang['cf_translate_input_link_url']                                          = 'URL';
+$lang['cf_translate_input_link_tip']                                          = 'Hier klick, um einen Link hinzuzufügen';
+$lang['task_edit_delte_timesheet_notice']                                     = 'Zeiterfassungsaufgabe ist %s, die Zeiterfassung kann nicht %s werden.';
+$lang['department_username']                                                  = 'IMAP Benutzername';
+$lang['department_username_help']                                             = 'Nur ausfüllen, sollte der IMAP Server einen Benutzernamen statt einer E-Mail zum Login benutzen. Achtung: Es muss dennoch eine E-Mail Adresse angegeben werden!';
+$lang['total_tickets_deleted']                                                = 'Insgesamt gelöschte Tickets: %s';
 
 # Version 1.5.1
 $lang['ticket_linked_to_project'] = 'This ticket is linked to project: %s';
