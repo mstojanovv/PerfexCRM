@@ -1981,7 +1981,6 @@ $lang['show_lead_reminders_on_calendar']                          = '机会的�
 $lang['tickets_piping']                                           = '电子邮件管道';
 $lang['email_piping_only_replies']                                = '只允许通过电子邮件回答';
 $lang['email_piping_only_registered']                             = 'Pipe 只有注册用户';
-$lang['email_piping_enabled']                                     = '启用';
 
 # Estimates
 $lang['view_estimate_as_client']         = '视图报价';
@@ -3372,7 +3371,7 @@ $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
 
 # Version 1.5.1
 $lang['ticket_linked_to_project'] = 'This ticket is linked to project: %s';
-$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area';
+$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area (files uploaded in customer profile)';
 $lang['only_own_files_contacts_help'] = 'If you share the file manually from customer profile to other contacts they wil be able to see the file.';
 $lang['share_file_with'] = 'Share File With';
 $lang['file_share_visibility_notice'] = 'This file is not shared with contacts, toggle visibility again to reload';
@@ -3380,3 +3379,39 @@ $lang['share_file_with_show'] = 'This file is shared with: %s';
 $lang['allow_primary_contact_to_view_edit_billing_and_shipping'] = 'Allow primary contact to view/edit billing & shipping details';
 $lang['estimate_due_after'] = 'Estimate Due After (days)';
 
+# Version 1.6.0
+$lang['my_timesheets'] = 'My Timesheets';
+$lang['today'] = 'Today';
+$lang['open_in_dropbox'] = 'Open In Dropbox';
+$lang['show_primary_contact'] = 'Show primary contact full name on %s';
+$lang['view_members_timesheets'] = 'View all timesheets';
+$lang['priority'] = 'Priority';
+$lang['fetch_from_google'] = 'Fetch from google';
+$lang['customer_fetch_lat_lng_usage'] = 'Fill address, city and country before fetching to get best result.';
+$lang['g_search_address_not_found'] = 'The address couldn\'t be found, please try again';
+$lang['proposals_report'] = 'Proposals Report';
+$lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
+$lang['staff_members_open_tickets_to_all_contacts'] = 'Allow staff members to open tickets to all contacts?';
+$lang['charts_based_report'] = 'Charts Based Report';
+$lang['delete_backups_older_then'] = 'Auto delete backups older then X days (set 0 to disable)';
+$lang['responsible_admin'] = 'Responsible admin';
+$lang['tags'] = 'Tags';
+$lang['tag'] = 'Tag';
+$lang['customer_map_notice'] = 'Add longitude and latitude in the customer profile to show the map here';
+$lang['default_view'] = 'Default View';
+$lang['day'] = 'Day';
+$lang['agenda'] = 'Agenda';
+$lang['timesheet_tags'] = 'Timesheet Tags';
+$lang['show_more'] = 'Show more';
+$lang['show_less'] = 'Show less';
+$lang['project_completed_date'] = 'Completed Date';
+$lang['language'] = 'Language';
+$lang['this_week'] = 'This Week';
+$lang['last_week'] = 'Last Week';
+$lang['this_month'] = 'This Month';
+$lang['last_month'] = 'Last Month';
+$lang['no_description_project'] = 'No description for this project';
+$lang['sales_string'] = 'Sales';
+$lang['no_project_members'] = 'No members for this project';
+$lang['search_by_tags'] = 'Use # + tagname to search by tags';
+$lang['project_status_5'] = 'Cancelled';

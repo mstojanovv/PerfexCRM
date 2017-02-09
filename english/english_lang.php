@@ -67,7 +67,7 @@ $lang['clients']                               = 'Customers';
 $lang['client']                                = 'Customer';
 $lang['new_client']                            = 'New Customer';
 $lang['client_lowercase']                      = 'customer';
-$lang['client_delete_tooltip']                 = 'All customer data will be deleted. Contracts,tickets,notes. NOTE: If invoices found customer wont be deleted. You need to assign this invoices to another customer to keep the invoice number';
+$lang['client_delete_tooltip']                 = 'All customer data will be deleted. Contracts,tickets,notes. NOTE: If invoices found customer won\'t be deleted. You need to assign this invoices to another customer to keep the invoice number';
 $lang['customer_delete_invoices_warning']      = 'This customer have invoices on the account. You cant delete this customer. Change all invoices to another customer in a future then delete.';
 $lang['client_firstname']                      = 'First Name';
 $lang['client_lastname']                       = 'Last Name';
@@ -174,15 +174,15 @@ $lang['email_template_email_message']                       = 'Email message';
 $lang['available_merge_fields']                             = 'Available merge fields';
 # Home
 $lang['dashboard_string']                                   = 'Dashboard';
-$lang['home_latest_todos']                                  = 'Latest todo\'s';
+$lang['home_latest_todos']                                  = 'Latest to do\'s';
 $lang['home_no_latest_todos']                               = 'No todos found';
-$lang['home_latest_finished_todos']                         = 'Latest finished todo\'s';
+$lang['home_latest_finished_todos']                         = 'Latest finished to do\'s';
 $lang['home_no_finished_todos_found']                       = 'No finished todos found';
 $lang['home_todo_heading']                                  = 'To do items';
-$lang['home_tickets_awaiting_reply_by_department']          = 'Tickets awaiting reply by department';
-$lang['home_tickets_awaiting_reply_by_status']              = 'Tickets awaiting reply by status';
-$lang['home_this_week_events']                              = 'This week events';
-$lang['home_upcoming_events_next_week']                     = 'Upcoming events next week';
+$lang['home_tickets_awaiting_reply_by_department']          = 'Tickets Awaiting Reply by Department';
+$lang['home_tickets_awaiting_reply_by_status']              = 'Tickets Awaiting Reply by Status';
+$lang['home_this_week_events']                              = 'This Week events';
+$lang['home_upcoming_events_next_week']                     = 'Upcoming events Next Week';
 $lang['home_event_added_by']                                = 'Event added by';
 $lang['home_public_event']                                  = 'Public event';
 $lang['home_weekly_payment_records']                        = 'Weekly Payment Records';
@@ -600,8 +600,8 @@ $lang['dt_info_filtered']           = '(filtered from _MAX_ total {0})';
 $lang['dt_info_empty']              = 'Showing 0 to 0 of 0 {0}';
 $lang['dt_info']                    = 'Showing _START_ to _END_ of _TOTAL_ {0}';
 $lang['dt_empty_table']             = 'No {0} found';
-$lang['dt_sort_ascending']          = 'activate to sort column ascending';
-$lang['dt_sort_descending']         = 'activate to sort column descending';
+$lang['dt_sort_ascending']          = ' activate to sort column ascending';
+$lang['dt_sort_descending']         = ' activate to sort column descending';
 # Invoice Activity Log
 $lang['user_sent_overdue_reminder'] = '%s sent invoice overdue reminder';
 
@@ -894,8 +894,8 @@ $lang['ticket_status_add_edit_color'] = 'Pick Color';
 $lang['ticket_status_add_edit_order'] = 'Status Order';
 
 # Todos
-$lang['new_todo']                  = 'New Todo';
-$lang['my_todos']                  = 'My Todo Items';
+$lang['new_todo']                  = 'New To Do';
+$lang['my_todos']                  = 'My To Do Items';
 $lang['todo']                      = 'Todo Item';
 $lang['todo_lowercase']            = 'todo';
 $lang['todo_status_changed']       = 'Todo Status Changed';
@@ -903,8 +903,8 @@ $lang['todo_add_title']            = 'Add New Todo';
 $lang['add_new_todo_description']  = 'Description';
 $lang['no_finished_todos_found']   = 'No finished todos found';
 $lang['no_unfinished_todos_found'] = 'No todos found';
-$lang['unfinished_todos_title']    = 'Unfinished todo\'s';
-$lang['finished_todos_title']      = 'Latest finished todo\'s';
+$lang['unfinished_todos_title']    = 'Unfinished to do\'s';
+$lang['finished_todos_title']      = 'Latest finished to do\'s';
 
 # Authentication
 $lang['password_changed_email_subject']             = 'Your password has been changed';
@@ -1487,7 +1487,7 @@ $lang['contracts_view_trash']           = 'View Trash';
 $lang['contracts_view_all']             = 'All';
 $lang['contracts_view_exclude_trashed'] = 'Exclude Trashed Contracts';
 $lang['contract_value_tooltip']         = 'Base currency will be used.';
-$lang['contract_trash_tooltip']         = 'If you add contract to trash, wont be shown on client side, wont be included in chart and other stats and also by default wont be shown when you will list all contracts.';
+$lang['contract_trash_tooltip']         = 'If you add contract to trash, won\'t be shown on client side, won\'t be included in chart and other stats and also by default won\'t be shown when you will list all contracts.';
 $lang['contract_summary_active']              = 'Active';
 $lang['contract_renew_heading']               = 'Renew Contract';
 $lang['contract_summary_heading']             = 'Contract Summary';
@@ -1725,7 +1725,7 @@ $lang['customer_file_from']                                    = 'Showing from %
 $lang['customer_default_currency']                             = 'Default Currency';
 $lang['customer_no_attachments_found']                         = 'No attachments found';
 $lang['customer_update_address_info_on_invoices']              = 'Update the shipping/billing info on all previous invoices/estimates';
-$lang['customer_update_address_info_on_invoices_help']         = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid wont be affected.';
+$lang['customer_update_address_info_on_invoices_help']         = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid won\'t be affected.';
 $lang['setup_google_api_key_customer_map']                     = 'Setup google api key in order to view to customer map';
 $lang['customer_attachments_file']                             = 'File';
 $lang['client_send_set_password_email']                        = 'Send SET password email';
@@ -1979,7 +1979,6 @@ $lang['show_lead_reminders_on_calendar']                          = 'Lead Remind
 $lang['tickets_piping']                                           = 'Email Piping';
 $lang['email_piping_only_replies']                                = 'Only Replies Allowed by Email';
 $lang['email_piping_only_registered']                             = 'Pipe Only on Registered Users';
-$lang['email_piping_enabled']                                     = 'Enabled';
 
 # Estimates
 $lang['view_estimate_as_client']         = 'View estimate as customer';
@@ -2161,7 +2160,7 @@ $lang['ticket_pipe_status']        = 'Status';
 $lang['home_latest_activity']       = 'Latest Activity';
 $lang['home_my_tasks']              = 'My Tasks';
 $lang['home_latest_activity']       = 'Latest Activity';
-$lang['home_my_todo_items']         = 'My Todo Items';
+$lang['home_my_todo_items']         = 'My To Do Items';
 $lang['home_widget_view_all']       = 'View All';
 $lang['home_stats_full_report']     = 'Full Report';
 
@@ -2325,11 +2324,11 @@ $lang['report_invoice_total_taxes'] = 'Taxes';
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_by_project_status'] = 'Statistics by project status';
+$lang['home_stats_by_project_status'] = 'Statistics by Project Status';
 $lang['home_invoice_overview'] = 'Invoice overview';
 $lang['home_estimate_overview'] = 'Estimate overview';
 $lang['home_proposal_overview'] = 'Proposal overview';
-$lang['home_lead_overview'] = 'Leads overview';
+$lang['home_lead_overview'] = 'Leads Overview';
 
 $lang['home_my_projects'] = 'My Projects';
 $lang['home_announcements'] = 'Announcements';
@@ -2425,7 +2424,7 @@ $lang['timer_top_started']            = 'Started at %s';
 
 # Projects
 $lang['cant_change_billing_type_billed_tasks_found'] = 'You cant change billing type. Billed tasks already found for this project.';
-$lang['project_customer_permission_warning'] = 'The system indicated that the primary contact do not have permission for projects. The primary contact wont be able to see the project. Consider add permission in the contact profile.';
+$lang['project_customer_permission_warning'] = 'The system indicated that the primary contact do not have permission for projects. The primary contact won\'t be able to see the project. Consider add permission in the contact profile.';
 $lang['project_invoice_timesheet_start_time'] = 'Start time: %s';
 $lang['project_invoice_timesheet_end_time'] = 'End time: %s';
 $lang['project_invoice_timesheet_total_logged_time'] = 'Logged time: %s';
@@ -2647,7 +2646,7 @@ $lang['invoice_total_tax'] = 'Total Tax';
 $lang['estimates_total_tax'] = 'Total Tax';
 $lang['report_invoice_total_tax'] = 'Total Tax';
 $lang['home_tickets'] = 'Tickets';
-$lang['home_project_activity'] = 'Latest projects activity';
+$lang['home_project_activity'] = 'Latest Project Activity';
 $lang['home_project_activity_not_found'] = 'No projects activity found';
 $lang['view_tracking'] = 'Views Tracking';
 $lang['view_date'] = 'Date';
@@ -2695,7 +2694,7 @@ $lang['customer_contacts'] = 'Contacts';
 $lang['new_contact'] = 'New Contact';
 $lang['contact'] = 'Contact';
 $lang['contact_lowercase'] = 'contact';
-$lang['contact_primary'] = 'Primary contact';
+$lang['contact_primary'] = 'Primary Contact';
 $lang['contact_position'] = 'Position';
 $lang['contact_active'] = 'Active';
 $lang['client_company_info'] = 'Company details';
@@ -2708,7 +2707,7 @@ $lang['settings_pdf_table_heading_text_color'] = 'Items table heading text color
 $lang['settings_pdf_font_size'] = 'Default font size';
 $lang['proposal_status_draft'] = 'Draft';
 $lang['custom_field_contacts'] = 'Contacts';
-$lang['company_primary_email'] = 'Primary email';
+$lang['company_primary_email'] = 'Primary Email';
 $lang['client_register_contact_info'] = 'Primary Contact Information';
 $lang['client_register_company_info'] = 'Company Information';
 $lang['contact_permissions_info'] = 'Make sure to set appropriate permissions for this contact';
@@ -2737,7 +2736,7 @@ $lang['file_not_uploaded'] = 'No file was uploaded';
 $lang['file_missing_temporary_folder'] = 'Missing a temporary folder';
 $lang['file_failed_to_write_to_disk'] = 'Failed to write file to disk.';
 $lang['file_php_extension_blocked'] = 'A PHP extension stopped the file upload.';
-$lang['calendar_expand'] = 'Expand';
+$lang['calendar_expand'] = 'expand';
 $lang['view_pdf'] = 'View PDF';
 $lang['expense_repeat_every'] = 'Repeat every';
 
@@ -2844,13 +2843,13 @@ $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
-$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
+$lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields won\'t be replaced.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
 $lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
 $lang['not_invoice_payment_recored'] = 'New invoice payment - %s';
-$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
+$lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields won\'t be replaced.';
 $lang['theme_style'] = 'Theme Style';
-$lang['change_role_permission_warning'] = 'Changing role permissions wont affected current staff members permissions that are using this role.';
+$lang['change_role_permission_warning'] = 'Changing role permissions won\'t affected current staff members permissions that are using this role.';
 $lang['task_copied_successfuly'] = 'Task copied successfully';
 $lang['failed_to_copy_task'] = 'Failed to copy task';
 $lang['not_project_file_uploaded'] = 'New project file added';
@@ -2859,7 +2858,7 @@ $lang['settings_calendar_colors_heading'] = 'Styling';
 $lang['reminder'] = 'Reminder';
 $lang['back_to_tasks_list'] = 'Back to tasks list';
 $lang['copy_task_confirm'] = 'Confirm';
-$lang['changing_items_affect_warning'] = 'Changing item info wont affect on the created invoices/estimates/proposals.';
+$lang['changing_items_affect_warning'] = 'Changing item info won\'t affect on the created invoices/estimates/proposals.';
 $lang['tax_is_used_in_expenses_warning'] = 'You cant update this tax because expenses transactions using this tax are found.';
 $lang['note'] = 'Note';
 $lang['leads_staff_report_converted'] = 'Total converted leads';
@@ -3088,7 +3087,7 @@ $lang['email_template_discussion_info'] = 'This template is used for both projec
 $lang['format_a4_portrait_size'] = 'Portrait';
 $lang['only_show_contact_tickets'] = 'In customer profile only show tickets related to the logged in contact (Primary contact not applied)';
 $lang['cancel_overdue_reminders_invoice'] = 'Prevent sending overdue reminders for this invoice';
-$lang['customer_shipping_address_notice'] = 'Do not fill shipping address information if you wont use shipping address on customer invoices';
+$lang['customer_shipping_address_notice'] = 'Do not fill shipping address information if you won\'t use shipping address on customer invoices';
 $lang['timesheets_overview'] = 'Timesheets overview';
 $lang['invoice_status_draft'] = 'Draft';
 $lang['save_as_draft'] = 'Save as Draft';
@@ -3168,7 +3167,7 @@ $lang['default_task_priority'] = 'Default Priority';
 $lang['project_send_created_email'] = 'Send project created email';
 $lang['survey_send_to_lists'] = 'Survey send lists';
 $lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
-$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
+$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user won\'t be able to open the data and perform the actions.';
 $lang['custom_field_company_info'] = 'Edit custom fields for company in Setup->Settings->Company';
 
 # Version 1.2.8
@@ -3191,7 +3190,7 @@ $lang['task_status_4'] = 'In Progress';
 $lang['task_status_5'] = 'Complete';
 $lang['task_mark_as'] = 'Mark as %s';
 $lang['task_marked_as_success'] = 'Task marked as %s successfully';
-$lang['task_drag_drop_notice'] = 'Drag & Drop is used only to easily change %s. The order wont be applied for this area.';
+$lang['task_drag_drop_notice'] = 'Drag & Drop is used only to easily change %s. The order won\'t be applied for this area.';
 $lang['search_tasks'] = 'Search Tasks';
 $lang['tasks_kanban_limit'] = 'Limit tasks kan ban rows per status';
 $lang['show_on_invoice_on_pdf'] = 'Show %s on Invoice PDF';
@@ -3262,7 +3261,7 @@ $lang['all_data_synced_successfuly'] = 'All data synced successfully';
 $lang['sync_now'] = 'Sync Now';
 $lang['sync_data'] = 'Sync Data';
 $lang['sync_proposals_up_to_date'] = 'All proposals are up to date, nothing to sync';
-$lang['proposal_sync_1_info'] = 'All proposal data is stored separately for each proposal after creation. Updating the %s info wont affect previous created proposals for this %s.';
+$lang['proposal_sync_1_info'] = 'All proposal data is stored separately for each proposal after creation. Updating the %s info won\'t affect previous created proposals for this %s.';
 $lang['proposal_sync_2_info'] = 'If you recently updated your %s info you can sync all new data to associated proposals. Here is a list of fields you can sync.';
 
 # Version 1.3.0
@@ -3271,7 +3270,7 @@ $lang['expense_include_additional_data_on_convert'] = 'Include additional detail
 # Version 1.4.0
 $lang['calendar_events_limit'] = 'Calendar Events Limit (Month and Week View)';
 $lang['show_page_number_on_pdf'] = 'Show page number on PDF';
-$lang['customer_active_inactive_help'] = 'Wont be shown in dropdowns when creating new records';
+$lang['customer_active_inactive_help'] = 'Won\'t be shown in dropdowns when creating new records';
 $lang['item_groups'] = 'Groups';
 $lang['item_group'] = 'Item Group';
 $lang['item_group_name'] = 'Group Name';
@@ -3371,10 +3370,47 @@ $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
 
 # Version 1.5.1
 $lang['ticket_linked_to_project'] = 'This ticket is linked to project: %s';
-$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area';
+$lang['only_own_files_contacts'] = 'Contacts see only own files uploaded in customer area (files uploaded in customer profile)';
 $lang['only_own_files_contacts_help'] = 'If you share the file manually from customer profile to other contacts they wil be able to see the file.';
 $lang['share_file_with'] = 'Share File With';
 $lang['file_share_visibility_notice'] = 'This file is not shared with contacts, toggle visibility again to reload';
 $lang['share_file_with_show'] = 'This file is shared with: %s';
 $lang['allow_primary_contact_to_view_edit_billing_and_shipping'] = 'Allow primary contact to view/edit billing & shipping details';
 $lang['estimate_due_after'] = 'Estimate Due After (days)';
+
+# Version 1.6.0
+$lang['my_timesheets'] = 'My Timesheets';
+$lang['today'] = 'Today';
+$lang['open_in_dropbox'] = 'Open In Dropbox';
+$lang['show_primary_contact'] = 'Show primary contact full name on %s';
+$lang['view_members_timesheets'] = 'View all timesheets';
+$lang['priority'] = 'Priority';
+$lang['fetch_from_google'] = 'Fetch from google';
+$lang['customer_fetch_lat_lng_usage'] = 'Fill address, city and country before fetching to get best result.';
+$lang['g_search_address_not_found'] = 'The address couldn\'t be found, please try again';
+$lang['proposals_report'] = 'Proposals Report';
+$lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
+$lang['staff_members_open_tickets_to_all_contacts'] = 'Allow staff members to open tickets to all contacts?';
+$lang['charts_based_report'] = 'Charts Based Report';
+$lang['delete_backups_older_then'] = 'Auto delete backups older then X days (set 0 to disable)';
+$lang['responsible_admin'] = 'Responsible admin';
+$lang['tags'] = 'Tags';
+$lang['tag'] = 'Tag';
+$lang['customer_map_notice'] = 'Add longitude and latitude in the customer profile to show the map here';
+$lang['default_view'] = 'Default View';
+$lang['day'] = 'Day';
+$lang['agenda'] = 'Agenda';
+$lang['timesheet_tags'] = 'Timesheet Tags';
+$lang['show_more'] = 'Show more';
+$lang['show_less'] = 'Show less';
+$lang['project_completed_date'] = 'Completed Date';
+$lang['language'] = 'Language';
+$lang['this_week'] = 'This Week';
+$lang['last_week'] = 'Last Week';
+$lang['this_month'] = 'This Month';
+$lang['last_month'] = 'Last Month';
+$lang['no_description_project'] = 'No description for this project';
+$lang['sales_string'] = 'Sales';
+$lang['no_project_members'] = 'No members for this project';
+$lang['search_by_tags'] = 'Use # + tagname to search by tags';
+$lang['project_status_5'] = 'Cancelled';

@@ -1760,7 +1760,7 @@ $lang['show_lead_reminders_on_calendar']                                      = 
 $lang['tickets_piping']                                                       = 'Tickets per E-Mail';
 $lang['email_piping_only_replies']                                            = 'Nur Antworten per E-Mail erlauben';
 $lang['email_piping_only_registered']                                         = 'Tickets per E-Mail nur für registrierte Nutzer';
-$lang['email_piping_enabled']                                                 = 'Aktiviert';
+
 # Estimates
 $lang['view_estimate_as_client']                                              = 'Kostenvoranschlag als Kunde anzeigen';
 $lang['estimate_mark_as']                                                     = 'Als %s markieren';
@@ -3073,8 +3073,7 @@ $lang['lead_website']                                                         = 
 $lang['invoice_activity_auto_converted_from_estimate']                        = 'Rechnung automatisch erstellt von Angebot mit der Nummer %s';
 $lang['hour_of_day_perform_auto_operations']                                  = 'Stunde des Tages, um automatische Aufgaben auszuführen';
 $lang['hour_of_day_perform_auto_operations_format']                           = '24 Stunden Format';
-$lang['inv_hour_of_day_perform_auto_operations_help']                         = 'Verwendet
- für wiederkehrende Rechnungen, überfällige Hinweise usw..';
+$lang['inv_hour_of_day_perform_auto_operations_help']                         = 'Verwendet für wiederkehrende Rechnungen, überfällige Hinweise usw..';
 $lang['use_minified_files']                                                   = 'Verkleinerte Datei Versionen für CSS und JS verwenden (nur System Dateien)';
 
 # Version 1.5.0
@@ -3096,10 +3095,47 @@ $lang['total_tickets_deleted']                                                = 
 
 # Version 1.5.1
 $lang['ticket_linked_to_project']                                             = 'Dieses Ticket ist mit folgendem Projekt verknüpft: %s';
-$lang['only_own_files_contacts']                                              = 'Kontakte sehen lediglich die eigenen Dateien, die in dem Kundenbereich hochgeladen wurden';
+$lang['only_own_files_contacts']                                              = 'Kontakte sehen lediglich die eigenen Dateien, die in dem Kundenbereich hochgeladen wurden (dateien, die im Kundenprofil hochgeladen wurden)';
 $lang['only_own_files_contacts_help']                                         = 'Wenn diese Datei manuell von einem Kundenprofil mit einem anderen Kontakt geteilt wird, haben diese die Berechtigung die Datei ebenfalls zu sehen.';
 $lang['share_file_with']                                                      = 'Datei teilen mit';
 $lang['file_share_visibility_notice']                                         = 'Diese Datei ist nicht mit anderen Kontakten geteilt, Sichtbarkeit erneut ändern, um neu zuladen';
 $lang['share_file_with_show']                                                 = 'Diese Datei ist geteilt mit: %s';
 $lang['allow_primary_contact_to_view_edit_billing_and_shipping']              = 'Primären Kontakt erlauben, die Zahlungs- und Rechnungsinformationen einzusehen und zu ändern';
 $lang['estimate_due_after']                                                   = 'Angebot überfällig nach (Tagen)';
+
+# Version 1.6.0
+$lang['my_timesheets'] = 'My Timesheets';
+$lang['today'] = 'Today';
+$lang['open_in_dropbox'] = 'Open In Dropbox';
+$lang['show_primary_contact'] = 'Show primary contact full name on %s';
+$lang['view_members_timesheets'] = 'View all timesheets';
+$lang['priority'] = 'Priority';
+$lang['fetch_from_google'] = 'Fetch from google';
+$lang['customer_fetch_lat_lng_usage'] = 'Fill address, city and country before fetching to get best result.';
+$lang['g_search_address_not_found'] = 'The address couldn\'t be found, please try again';
+$lang['proposals_report'] = 'Proposals Report';
+$lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
+$lang['staff_members_open_tickets_to_all_contacts'] = 'Allow staff members to open tickets to all contacts?';
+$lang['charts_based_report'] = 'Charts Based Report';
+$lang['delete_backups_older_then'] = 'Auto delete backups older then X days (set 0 to disable)';
+$lang['responsible_admin'] = 'Responsible admin';
+$lang['tags'] = 'Tags';
+$lang['tag'] = 'Tag';
+$lang['customer_map_notice'] = 'Add longitude and latitude in the customer profile to show the map here';
+$lang['default_view'] = 'Default View';
+$lang['day'] = 'Day';
+$lang['agenda'] = 'Agenda';
+$lang['timesheet_tags'] = 'Timesheet Tags';
+$lang['show_more'] = 'Show more';
+$lang['show_less'] = 'Show less';
+$lang['project_completed_date'] = 'Completed Date';
+$lang['language'] = 'Language';
+$lang['this_week'] = 'This Week';
+$lang['last_week'] = 'Last Week';
+$lang['this_month'] = 'This Month';
+$lang['last_month'] = 'Last Month';
+$lang['no_description_project'] = 'No description for this project';
+$lang['sales_string'] = 'Sales';
+$lang['no_project_members'] = 'No members for this project';
+$lang['search_by_tags'] = 'Use # + tagname to search by tags';
+$lang['project_status_5'] = 'Cancelled';
