@@ -6,8 +6,8 @@ $lang['id']                   = 'ID';
 $lang['name']                 = 'Naam';
 $lang['options']              = 'Opties';
 $lang['submit']               = 'Opslaan';
-$lang['added_successfuly']    = '%s succesvol toegevoegd.';
-$lang['updated_successfuly']  = '%s succesvol geupdate.';
+$lang['added_successfully']    = '%s succesvol toegevoegd.';
+$lang['updated_successfully']  = '%s succesvol geupdate.';
 $lang['edit']                 = 'Bewerken %s';
 $lang['add_new']              = 'Nieuwe toevoegen %s';
 $lang['deleted']              = '%s Verwijderd';
@@ -171,7 +171,7 @@ $lang['template_subject']                                   = 'Onderwerp';
 $lang['template_fromname']                                  = 'Van Naam';
 $lang['template_fromemail']                                 = 'Van Email';
 $lang['send_as_plain_text']                                 = 'Versturen Als Simpel Tekst';
-$lang['email_template_disabed']                             = 'Uitgeschakeld';
+$lang['email_template_disabled']                             = 'Uitgeschakeld';
 $lang['email_template_email_message']                       = 'Email bericht';
 $lang['available_merge_fields']                             = 'Beschikbare Velden om Samen te Voegen';
 # Home
@@ -373,7 +373,7 @@ $lang['btn_add_email_to_list']                = 'Email aan deze lijst toevoegen'
 $lang['mail_lists_dt_list_name']              = 'Lijst Naam';
 $lang['mail_lists_dt_datecreated']            = 'Datum gemaakt';
 $lang['mail_lists_dt_creator']                = 'Oprichter';
-$lang['email_added_to_mail_list_successfuly'] = 'Email toegevoegd aan lijst';
+$lang['email_added_to_mail_list_successfully'] = 'Email toegevoegd aan lijst';
 $lang['email_is_duplicate_mail_list']         = 'Email bestaat al in deze lijst';
 
 # Media
@@ -396,9 +396,9 @@ $lang['new_predefined_reply']              = 'Nieuw Voorgedefinieerd Antwoord';
 $lang['predefined_replies']                = 'Voorgedefinieerde Antwoorden';
 $lang['predefined_reply']                  = 'Voorgedefinieerd Antwoord';
 $lang['predefined_reply_lowercase']        = 'voorgedefinieerd antwoord';
-$lang['predifined_replies_dt_name']        = 'Voorgedefinieerd Naam';
-$lang['predifined_reply_add_edit_name']    = 'Voorgedefinieerd Antwoord Naam';
-$lang['predifined_reply_add_edit_content'] = 'Beantwoord Inhoud';
+$lang['predefined_replies_dt_name']        = 'Voorgedefinieerd Naam';
+$lang['predefined_reply_add_edit_name']    = 'Voorgedefinieerd Antwoord Naam';
+$lang['predefined_reply_add_edit_content'] = 'Beantwoord Inhoud';
 
 # Ticket Priorities
 $lang['new_ticket_priority']           = 'Nieuwe Prioriteit';
@@ -589,12 +589,12 @@ $lang['lead_add_edit_source']               = 'Bron';
 $lang['lead_add_edit_status']               = 'Tip Status';
 $lang['lead_add_edit_assigned']             = 'Toegewezen';
 $lang['lead_add_edit_datecontacted']        = 'Datum Gecontacteerd';
-$lang['lead_add_edit_contected_today']      = 'Vandaag gecontacteerd';
+$lang['lead_add_edit_contacted_today']      = 'Vandaag gecontacteerd';
 $lang['lead_add_edit_activity']             = 'Activiteiten Log';
 $lang['lead_add_edit_notes']                = 'Notities';
 $lang['lead_add_edit_add_note']             = 'Notitie Toevoegen';
 $lang['lead_not_contacted']                 = 'Ik heb nog geen contact gelegd met deze tip';
-$lang['lead_add_edit_contected_this_lead']  = 'Ik heb contact gelegd met deze tip';
+$lang['lead_add_edit_contacted_this_lead']  = 'Ik heb contact gelegd met deze tip';
 $lang['lead_confirmation_canban_contacted'] = 'Heb je al contact gehad met deze tip?';
 
 # Misc
@@ -692,10 +692,10 @@ $lang['ticket_settings_select_client']                      = 'Selecteer Klant';
 $lang['ticket_add_body']                                    = 'Ticket Lichaam';
 $lang['ticket_add_attachments']                             = 'Documenten';
 $lang['ticket_no_reply_yet']                                = 'Nog Geen Antwoord';
-$lang['new_ticket_added_succesfuly']                        = 'Ticket #%s succesvol toegevoegd';
-$lang['replied_to_ticket_succesfuly']                       = 'succesvol op ticket #%s gereageerd';
-$lang['ticket_settings_updated_successfuly']                = 'Ticket instellingen succesvol geupdate';
-$lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ticket instellingen succesvol geupdate - Opnieuw toegewezen naar afdeling %s';
+$lang['new_ticket_added_successfully']                        = 'Ticket #%s succesvol toegevoegd';
+$lang['replied_to_ticket_successfully']                       = 'succesvol op ticket #%s gereageerd';
+$lang['ticket_settings_updated_successfully']                = 'Ticket instellingen succesvol geupdate';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Ticket instellingen succesvol geupdate - Opnieuw toegewezen naar afdeling %s';
 $lang['ticket_dt_subject']                                  = 'Onderwerp';
 $lang['ticket_dt_department']                               = 'Afdeling';
 $lang['ticket_dt_service']                                  = 'Service';
@@ -722,7 +722,7 @@ $lang['ticket_single_add_response']               = 'Antwoord Toevoegen';
 $lang['ticket_single_note_heading']               = 'Notitie';
 $lang['ticket_single_add_note']                   = 'Notitie Toevoegen';
 $lang['ticket_settings_none_assigned']            = 'Geen';
-$lang['ticket_status_changed_successfuly']        = 'Ticket Status Veranderd';
+$lang['ticket_status_changed_successfully']        = 'Ticket Status Veranderd';
 $lang['ticket_status_changed_fail']               = 'Probleem met ticket status veranderen';
 
 $lang['ticket_staff_string']                    = 'Staff';
@@ -738,7 +738,7 @@ $lang['staff_members']                   = 'Staff Leden';
 $lang['staff_member']                    = 'Staff Lid';
 $lang['staff_member_lowercase']          = 'staff lid';
 $lang['staff_profile_updated']           = 'Uw Profiel is gewijzigd.';
-$lang['staff_old_password_incorect']     = 'Uw oude wachtwoord is incorrect';
+$lang['staff_old_password_incorrect']     = 'Uw oude wachtwoord is incorrect';
 $lang['staff_password_changed']          = 'Uw wachtwoord is veranderd';
 $lang['staff_problem_changing_password'] = 'Probleem met wachtwoord veranderen';
 $lang['staff_profile_string']            = 'Profiel';
@@ -935,8 +935,8 @@ $lang['utility_calendar_new_event_title']           = 'Nieuw Evenement Toevoegen
 $lang['utility_calendar_new_event_start_date']      = 'Start Datum';
 $lang['utility_calendar_new_event_end_date']        = 'Eind Datum';
 $lang['utility_calendar_new_event_make_public']     = 'Maak Openbaar';
-$lang['utility_calendar_event_added_successfuly']   = 'Nieuw evenement succesvol toegevoegd';
-$lang['utility_calendar_event_deleted_successfuly'] = 'Evenement verwijderd';
+$lang['utility_calendar_event_added_successfully']   = 'Nieuw evenement succesvol toegevoegd';
+$lang['utility_calendar_event_deleted_successfully'] = 'Evenement verwijderd';
 $lang['utility_calendar_new_event_placeholder']     = 'Evenement titel';
 
 
@@ -1031,7 +1031,7 @@ $lang['clients_ticket_attachments']                 = 'Documenten';
 $lang['clients_ticket_posted']                      = 'Geschreven: %s';
 $lang['clients_single_ticket_string']               = 'Ticket';
 $lang['clients_single_ticket_replied']              = 'Beantwoord: %s';
-$lang['clients_single_ticket_informations_heading'] = 'Ticket Informatie';
+$lang['clients_single_ticket_information_heading'] = 'Ticket Informatie';
 
 $lang['clients_tickets_dt_number']     = 'Ticket #';
 $lang['clients_tickets_dt_subject']    = 'Onderwerp';
@@ -1041,7 +1041,7 @@ $lang['clients_tickets_dt_status']     = 'Status';
 $lang['clients_tickets_dt_last_reply'] = 'Laatste Antwoord';
 
 $lang['clients_ticket_single_department']        = 'Afdeling: %s';
-$lang['clients_ticket_single_submited']          = 'Verstuurd: %s';
+$lang['clients_ticket_single_submitted']          = 'Verstuurd: %s';
 $lang['clients_ticket_single_status']            = 'Status:';
 $lang['clients_ticket_single_priority']          = 'Prioriteit: %s';
 $lang['clients_ticket_single_add_reply_btn']     = 'Antwoord Toevoegen';
@@ -1122,7 +1122,7 @@ $lang['invoice_add_edit_recurring_month']                                     = 
 $lang['invoice_add_edit_recurring_months']                                    = 'Elke %s maanden';
 $lang['invoices_list_all']                                                    = 'Alles';
 $lang['invoices_list_not_have_payment']                                       = 'Facturen zonder betalings rapporten';
-$lang['invoices_list_recuring']                                               = 'Herhalende Facturen';
+$lang['invoices_list_recurring']                                               = 'Herhalende Facturen';
 $lang['invoices_list_made_payment_by']                                        = 'Betaling gemaakt door %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Maak nieuwe factuur van de hoofdzakelijk herhalende factuur alleen als het met status betaald is.';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Maak nieuwe factuur van de hoofdzakelijk herhalende factuur alleen als het met status betaald is? Als dit veld op nee word gezet, en de herhalende factuur niet met status betaald is, zal de nieuwe factuur niet gemaakt worden.';
@@ -1207,7 +1207,7 @@ $lang['is_active_export']             = 'Ja';
 # Invoice
 $lang['invoice_add_edit_advanced_options']               = 'Geavanceerde Opties';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'Toegestane betalings methodes voor deze factuur';
-$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Herhalende facturen van deze factuur';
+$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'Herhalende facturen van deze factuur';
 $lang['invoice_add_edit_no_payment_modes_found']         = 'Geen betaling methode gevonden.';
 $lang['invoice_html_total_pay']                          = 'Totaal: %s';
 
@@ -1396,7 +1396,7 @@ $lang['clients_nav_estimates']                  = 'Schattingen';
 $lang['clients_decline_estimate']               = 'Afwijzen';
 $lang['clients_accept_estimate']                = 'Accepteren';
 $lang['clients_my_estimates']                   = 'Schattingen';
-$lang['clients_estimate_invoiced_successfuly']  = 'Schatting geaccepteerd. Hier is de factuur van de schatting.';
+$lang['clients_estimate_invoiced_successfully']  = 'Schatting geaccepteerd. Hier is de factuur van de schatting.';
 $lang['clients_estimate_accepted_not_invoiced'] = 'Bedankt voor het accepteren van de schatting';
 $lang['clients_estimate_declined']              = 'Schatting afgewezen. U kunt de schatting op elk moment voor de verval datum accepteren.';
 $lang['clients_estimate_failed_action']         = 'Niet gelukt om actie te ondernemen op deze schatting.';
@@ -1512,7 +1512,7 @@ $lang['contract_summary_recently_added']      = 'Recentelijk Toegevoegd';
 $lang['contract_summary_trash']               = 'Prullenbak';
 $lang['contract_summary_by_type']             = 'Contracten op Type';
 $lang['contract_summary_by_type_value']       = 'Contracten Waarde op Type';
-$lang['contract_renewed_successfuly']         = 'Contract succesvol hernieuwd';
+$lang['contract_renewed_successfully']         = 'Contract succesvol hernieuwd';
 $lang['contract_renewed_fail']                = 'Probleem tijdens hernieuwing contract. Neem contact op met een administrator';
 $lang['no_contract_renewals_found']           = 'Hernieuwingen voor dit contract niet gevonden.';
 $lang['no_contract_renewals_history_heading'] = 'Contract Hernieuwing Geschiedenis';
@@ -1569,9 +1569,9 @@ $lang['goal_income_shown_in_base_currency']            = 'Totaal inkomen is weer
 $lang['goal_notify_when_end_date_arrives']             = 'De staff leden zullen op de hoogte gesteld worden als de eind datum er is.';
 $lang['goal_staff_members_notified_about_achievement'] = 'De staff members zijn op de hoogte gesteld van deze doel prestatie';
 $lang['goal_staff_members_notified_about_failure']     = 'Staff leden zijn op de hoogte gesteld van het gefaald hebben';
-$lang['goal_notify_staff_manualy']                     = 'Staff leden handmatig op de hoogte stellen';
-$lang['goal_notify_staff_notified_manualy_success']    = 'De staff leden zijn op de hoogte gesteld over dit doel resultaat';
-$lang['goal_notify_staff_notified_manualy_fail']       = 'Onsuccesvol geweest in staff leden op de hoogte stellen van het gefaald hebben';
+$lang['goal_notify_staff_manually']                     = 'Staff leden handmatig op de hoogte stellen';
+$lang['goal_notify_staff_notified_manually_success']    = 'De staff leden zijn op de hoogte gesteld over dit doel resultaat';
+$lang['goal_notify_staff_notified_manually_fail']       = 'Onsuccesvol geweest in staff leden op de hoogte stellen van het gefaald hebben';
 
 $lang['goal_achieved'] = 'Behaald';
 $lang['goal_failed']   = 'Gefaald';
@@ -1596,7 +1596,7 @@ $lang['payment_transaction_id']                                      = 'Transact
 # Settings Menu
 $lang['acs_expenses']                                                = 'Kosten';
 $lang['acs_expense_categories']                                      = 'Kosten Categorieën';
-# Expeneses
+# Expenses
 $lang['expense_category']                                            = 'Kosten Categorie';
 $lang['expense_category_lowercase']                                  = 'kosten category';
 $lang['new_expense']                                                 = 'Kosten Opslaan';
@@ -1684,7 +1684,7 @@ $lang['clients_contracts_type']       = 'Contract Type';
 # Version 1.0.5
 # General
 $lang['no_tax']                             = 'Geen Belasting';
-$lang['numbers_not_formated_while_editing'] = 'Het tarief in het input veld is niet geformateerd tijdens item editten/toevoegen en zou zo moeten blijven. Probeer het niet handmatig te formateren hier.';
+$lang['numbers_not_formatted_while_editing'] = 'Het tarief in het input veld is niet geformateerd tijdens item editten/toevoegen en zou zo moeten blijven. Probeer het niet handmatig te formateren hier.';
 # Contracts
 $lang['contracts_view_expired']             = 'Verlopen';
 $lang['contracts_view_without_dateend']     = 'Contracten Zonder Eind Datum';
@@ -1697,7 +1697,7 @@ $lang['invoice_table_item_description']          = 'Beschrijving';
 $lang['invoice_recurring_indicator']             = 'Herhalend';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'Schatting succesvol omgezet naar factuur';
+$lang['estimate_convert_to_invoice_successfully'] = 'Schatting succesvol omgezet naar factuur';
 $lang['estimate_table_item_description']         = 'Beschrijving';
 
 # Version 1.0.6
@@ -1977,7 +1977,7 @@ $lang['set_reminder']                                             = 'Herinnering
 $lang['set_reminder_date']                                        = 'Datum om herinnerd te worden';
 $lang['reminder_description']                                     = 'Beschrijving opzetten';
 $lang['reminder_notify_me_by_email']                              = 'Ook een email sturen voor deze herinnering';
-$lang['reminder_added_successfuly']                               = 'Herinnering succesvol toegevoegd. U zult op tijd herinnerd worden.';
+$lang['reminder_added_successfully']                               = 'Herinnering succesvol toegevoegd. U zult op tijd herinnerd worden.';
 $lang['reminder_description']                                     = 'Beschrijving';
 $lang['reminder_date']                                            = 'Datum';
 $lang['reminder_staff']                                           = 'Herinner';
@@ -2148,7 +2148,7 @@ $lang['spamfilter_type_phrase']       = 'Uitspraak';
 # Tickets
 $lang['block_sender']               = 'Blokkeer Verzender';
 $lang['sender_blocked']             = 'Verzender Geblokkeerd';
-$lang['sender_blocked_successfuly'] = 'Verzender Succesvol Geblokkeerd';
+$lang['sender_blocked_successfully'] = 'Verzender Succesvol Geblokkeerd';
 $lang['ticket_date_created']        = 'Datum Gemaakt';
 
 #KB
@@ -2263,8 +2263,8 @@ $lang['estimate_activity_marked'] = 'schatting gemarkeerd als %s';
 $lang['invoice_activity_status_updated'] = 'factuur status geupdate van %s naar %s';
 $lang['invoice_activity_created'] = 'heeft de factuur gemaakt';
 $lang['invoice_activity_from_expense'] = 'omgezet naar factuur van kosten';
-$lang['invoice_activity_recuring_created'] = '[Recurring] Factuur gemaakt door CRON';
-$lang['invoice_activity_recuring_from_expense_created'] = '[Invoice From Expense] Factuur gemaakt door CRON';
+$lang['invoice_activity_recurring_created'] = '[Recurring] Factuur gemaakt door CRON';
+$lang['invoice_activity_recurring_from_expense_created'] = '[Invoice From Expense] Factuur gemaakt door CRON';
 $lang['invoice_activity_sent_to_client_cron'] = 'Factuur verzonden naar klant door CRON';
 $lang['invoice_activity_sent_to_client'] = 'heeft factuur verzonden naar klant';
 $lang['invoice_activity_marked_as_sent'] = 'heeft factuur gemarkeerd als verzonden';
@@ -2281,7 +2281,7 @@ $lang['staff_profile_inactive_account'] = 'Dit staff lid account is onactief.';
 
 # Estimates
 $lang['copy_estimate'] = 'Kopie Schatting';
-$lang['estimate_copied_successfuly'] = 'Schatting Succesvol Gekopieerd';
+$lang['estimate_copied_successfully'] = 'Schatting Succesvol Gekopieerd';
 $lang['estimate_copied_fail'] = 'Schatting Kopieren Mislukt';
 
 # Tasks
@@ -2304,7 +2304,7 @@ $lang['proposal_items_tax'] = 'Belasting';
 $lang['proposal_items_amount'] = 'Bedrag';
 
 # Authentication
-$lang['check_email_for_reseting_password'] = 'Check uw email voor verdere instructies om uw wachtwoord te resetten.';
+$lang['check_email_for_resetting_password'] = 'Check uw email voor verdere instructies om uw wachtwoord te resetten.';
 $lang['inactive_account'] = 'Inactief Account';
 $lang['error_setting_new_password_key'] = 'Error tijdens nieuw wachtwoord maken.';
 $lang['password_reset_message'] = 'Uw wachtwoord is gereset. U kunt inloggen!';
@@ -2411,7 +2411,7 @@ $lang['task_statistics'] = 'Statistieken';
 $lang['task_milestone'] = 'Mijlpaal';
 
 # Tickets
-$lang['ticket_message_updated_successfuly'] = 'Bericht succesvol geupdate';
+$lang['ticket_message_updated_successfully'] = 'Bericht succesvol geupdate';
 
 # Invoices
 $lang['invoice_task_item_project_tasks_not_included'] = 'Project taken staan niet in deze lijst.';
@@ -2467,7 +2467,7 @@ $lang['project_lowercase']       = 'project';
 $lang['projects']                = 'Projecten';
 $lang['projects_lowercase']      = 'projecten';
 $lang['project_settings']      = 'Project instellingen';
-$lang['project_invoiced_successfuly']             = 'Project succesvol gefactureerd';
+$lang['project_invoiced_successfully']             = 'Project succesvol gefactureerd';
 $lang['new_project']             = 'Nieuw Project';
 $lang['project_files']            = 'Documenten';
 $lang['project_activity']            = 'Activiteit';
@@ -2504,7 +2504,7 @@ $lang['milestone_total_logged_time']            = 'Gelogde Tijd';
 $lang['project_overview_total_logged_hours']            = 'Totaal Gelogde Uren';
 $lang['milestones_uncategorized']            = 'Geen categorie';
 $lang['milestone_no_tasks_found']            = 'Geen taken gevonden';
-$lang['project_copied_successfuly']            = 'Project data succesvol gekopieerd';
+$lang['project_copied_successfully']            = 'Project data succesvol gekopieerd';
 $lang['failed_to_copy_project']            = 'Project kopieren mislukt';
 $lang['copy_project_task_include_check_list_items']            = 'Kopieer checklist items';
 $lang['copy_project_task_include_assignees']            = 'Kopieer dezelfde toegewezene';
@@ -2525,13 +2525,13 @@ $lang['invoice_project']            = 'Factuur Project';
 $lang['invoice_project_info']            = 'Project FactuurInfo';
 $lang['invoice_project_data_single_line']            = 'Enkele Regel';
 $lang['invoice_project_data_task_per_item']            = 'Taak per item';
-$lang['invoice_project_data_timesheets_individualy']            = 'Alle roosters apart';
+$lang['invoice_project_data_timesheets_individually']            = 'Alle roosters apart';
 $lang['invoice_project_item_name_data']            = 'Item naam';
 $lang['invoice_project_description_data']            = 'Beschrijving';
 $lang['invoice_project_projectname_taskname']            = 'Project naam + Taak naam';
 $lang['invoice_project_all_tasks_total_logged_time']            = 'Alle taken + totaal gelogde tijd per taak';
 $lang['invoice_project_project_name_data']            = 'Project naam';
-$lang['invoice_project_timesheet_indivudualy_data']            = 'Rooster start tijd + eind tijd + totaal gelogde tijd';
+$lang['invoice_project_timesheet_individually_data']            = 'Rooster start tijd + eind tijd + totaal gelogde tijd';
 $lang['invoice_project_total_logged_time_data']            = 'Totaal Gelogde Tijd';
 
 $lang['project_allow_client_to'] = 'Klant toestaan om %s';
@@ -2618,7 +2618,7 @@ $lang['project_activity_status_updated'] = 'Project status geupload';
 $lang['project_activity_visible_to_customer'] = 'Zichtbaar voor klant';
 $lang['project_activity_project_file_removed'] = 'Project document verwijderd';
 
-# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
+# Notifications - DEPRECATED - THESE notifications are DEPRECATED and will be removed in further released don't translate them
 $lang['not_customer_uploaded_project_file'] = 'Nieuw document geupload';
 $lang['not_customer_created_new_project_discussion'] = 'Nieuw project discussie gestart';
 $lang['not_customer_commented_on_project_discussion'] = 'Nieuwe comment op project discussie';
@@ -2634,7 +2634,7 @@ $lang['client_profile_image'] = 'Profiel Foto';
 /////
 $lang['sales_report_cancelled_invoices_not_included'] = 'Geannuleerde facturen worden niet meegenomen in de rapporten.';
 $lang['invoices_merge_cancel_merged_invoices'] = 'Markeer samengevoegde facturen als geanuleerd in plaats van verwijderd';
-$lang['invoice_marked_as_cancelled_successfuly'] = 'Factuur succesvol gemarkeerd als geanuleerd';
+$lang['invoice_marked_as_cancelled_successfully'] = 'Factuur succesvol gemarkeerd als geanuleerd';
 $lang['invoice_unmarked_as_cancelled'] = 'Factuur succesvol ongemarkeerd als geannuleerd';
 
 $lang['tasks_reminder_notification_before'] = 'Taak deadline herinnering voor (dagen)';
@@ -2651,7 +2651,7 @@ $lang['invoice_project_all_billable_tasks_marked_as_finished'] = 'Alle verrekenb
 $lang['invoice_project_nothing_to_bill'] = 'Geen taak om te verrekenen. U kunt toevoegen wat u maar wilt in de factuur items.';
 $lang['invoice_project_start_date_tasks_not_passed'] = 'Taken met een start datum in de toekomst kunnen niet verrekend worden.';
 $lang['invoice_project_stop_all_timers'] = 'Stop alle timers';
-$lang['invoice_project_stop_billabe_timers_only'] = 'Stop alleen verrekenbare timers';
+$lang['invoice_project_stop_billable_timers_only'] = 'Stop alleen verrekenbare timers';
 $lang['project_tasks_total_timers_stopped'] = 'Totaal gestopte timers: %s';
 $lang['project_invoice_timers_started'] = 'Taak timers gevonden op verrekenbare taken, factuur kan niet gemaakt worden. Stop alstublieft taak timers om de factuur te maken.';
 $lang['task_start_timer_only_assignee'] = 'U moet toegewezen zijn aan deze taak om de timer te starten!';
@@ -2725,8 +2725,8 @@ $lang['company_primary_email'] = 'Primaire email';
 $lang['client_register_contact_info'] = 'Primaire Contact Informatie';
 $lang['client_register_company_info'] = 'Bedrijf Informatie';
 $lang['contact_permissions_info'] = 'Zorg dat u de gepaste toestemmingen instelt voor dit contact.';
-$lang['defaut_leads_kanban_sort'] = 'Standaard tip Kan Ban Sort';
-$lang['defaut_leads_kanban_sort_type'] = 'Soort';
+$lang['default_leads_kanban_sort'] = 'Standaard tip Kan Ban Sort';
+$lang['default_leads_kanban_sort_type'] = 'Soort';
 $lang['order_ascending'] = 'Stijgend';
 $lang['order_descending'] = 'Afdalen';
 $lang['calendar_expand'] = 'Vergroot';
@@ -2742,8 +2742,8 @@ $lang['invoice_status_report_all'] = 'Alle';
 $lang['import_contact_field'] = 'Contact veld';
 
 $lang['file_uploaded_success'] = 'Er is geen error, uw bestand is zonder problemen geupload.';
-$lang['file_exceds_max_filesize'] = 'Het bestand dat u wilt uploaden overschrijd het upload_max_filesize directive in php.ini';
-$lang['file_exceds_maxfile_size_in_form'] = 'Het bestand dat u wilt uploaden overschrijd het MAX_FILE_SIZE directive die gespecificeerd staat op het HTML formulier';
+$lang['file_exceeds_max_filesize'] = 'Het bestand dat u wilt uploaden overschrijd het upload_max_filesize directive in php.ini';
+$lang['file_exceeds_maxfile_size_in_form'] = 'Het bestand dat u wilt uploaden overschrijd het MAX_FILE_SIZE directive die gespecificeerd staat op het HTML formulier';
 $lang['file_uploaded_partially'] = 'Het bestand die U wilt uploaden is maar gedeeltelijk geupload';
 $lang['file_not_uploaded'] = 'Er is geen bestand geupload';
 $lang['file_missing_temporary_folder'] = 'Er mist een tijdelijke map';
@@ -2770,7 +2770,7 @@ $lang['contract_sent_to_client_fail'] = 'Het is niet gelukt om het contract te v
 
 # Version 1.1.3
 $lang['client_invalid_username_or_password'] = 'Uw gebruikersnaam of wachtwoord is onjuist';
-$lang['client_old_password_incorect']     = 'Uw oude wachtwoord is onjuist';
+$lang['client_old_password_incorrect']     = 'Uw oude wachtwoord is onjuist';
 $lang['client_password_changed']          = 'Uw wachtwoord is gewijzigd';
 
 # Version 1.1.4
@@ -2860,11 +2860,11 @@ $lang['kb_article_slug'] = 'Slug';
 $lang['email_template_ticket_warning'] = 'Als ticket wordt geïmporteerd ticket is imported  met een pijplijn e-mail en het contact is niet aanwezig in het CRM, dan worden de velden niet vervangen.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop alle andere gestarte timers wanneer een nieuwe timer wordt gestart';
 $lang['notification_when_customer_pay_invoice'] = 'Ontvangen kennisgeving wanneer de klant de factuur betaalt(ingebouwd)';
-$lang['not_invoice_payment_recored'] = 'Nieuwe factuurbetaling - %s';
+$lang['not_invoice_payment_recorded'] = 'Nieuwe factuurbetaling - %s';
 $lang['email_template_contact_warning'] = 'Indien het contact niet is geregistreerd tijdens het ondernemen van actie, kunnen de contact samenvoeging velden niet worden vervangen.';
 $lang['theme_style'] = 'Thema Stijl';
 $lang['change_role_permission_warning'] = 'Veranderen van rol permissies heeft nu geen invloed op de huidige medewerkers toestemmingen die gebruik maken van deze rol.';
-$lang['task_copied_successfuly'] = 'Taak met succes gekopieerd';
+$lang['task_copied_successfully'] = 'Taak met succes gekopieerd';
 $lang['failed_to_copy_task'] = 'Taak kopiëren is mislukt';
 $lang['not_project_file_uploaded'] = 'Nieuw projectbestand toegevoegd';
 $lang['settings_calendar_color'] = '%s Kleur';
@@ -2916,10 +2916,10 @@ $lang['not_commented_on_project_discussion'] = 'Nieuwe reactie op project discus
 $lang['all_staff_members'] = 'Alle medewerkers';
 $lang['help_project_permissions'] = 'BEKIJK stelt een medewerker in staat om ALLE projecten te zien. Indien u wilt dat zij alleen de projecten zien die aan hen zijn toegewezen (toegevoegd als leden), geef  hun dan geen BEKIJK permissies.';
 $lang['help_tasks_permissions'] = 'BEKIJK stelt een medewerker in staat om ALLE taken te zien. Indien u wilt dat zij alleen de taken die aan hen zijn toegewezen of volgen, geef hun dan geen BEKIJK permissies.';
-$lang['expense_recuring_days'] = 'Dag(en)';
-$lang['expense_recuring_weeks'] = 'Week(en)';
-$lang['expense_recuring_months'] = 'Maand(en)';
-$lang['expense_recuring_years'] = 'Jaar(en)';
+$lang['expense_recurring_days'] = 'Dag(en)';
+$lang['expense_recurring_weeks'] = 'Week(en)';
+$lang['expense_recurring_months'] = 'Maand(en)';
+$lang['expense_recurring_years'] = 'Jaar(en)';
 $lang['reset_to_default_color'] = 'Stel opnieuw in als standaardkleur';
 $lang['pdf_logo_width'] = 'Logobreedte (PX)';
 $lang['drop_files_here_to_upload'] = 'Zet bestanden hier in voor uploaden';
@@ -3032,7 +3032,7 @@ $lang['staff_stats_last_month_total_logged_time'] = 'Laatste Maand Geregistreerd
 $lang['staff_stats_this_month_total_logged_time'] = 'Deze Maand Geregistreerde Tijd';
 $lang['staff_stats_last_week_total_logged_time'] = 'Laatste Week Geregistreerde Tijd';
 $lang['staff_stats_this_week_total_logged_time'] = 'Deze Week Geregistreerde Tijd';
-// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+// Dont change this because are translated before for the projects timesheets and now are only used for readibility.
 $lang['timesheet_user'] = $lang['project_timesheet_user'];
 $lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
 $lang['timesheet_end_time'] = $lang['project_timesheet_end_time'];
@@ -3060,11 +3060,11 @@ $lang['project_due_notice'] = 'Dit project is te laat met %s dagen';
 $lang['not_lead_added_attachment'] = 'nieuwe bijlage toegevoegd aan lead %s';
 $lang['lead_note_date_added'] = 'Notitie toegevoegd: %s';
 $lang['recurring_custom'] = 'Aangepast';
-// Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
-$lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
-$lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
-$lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
-$lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
+// don't translate these, only added for better readibility already translated for the expenses custom recurring feature.
+$lang['invoice_recurring_months'] = $lang['expense_recurring_months'];
+$lang['invoice_recurring_years'] = $lang['expense_recurring_years'];
+$lang['invoice_recurring_days'] = $lang['expense_recurring_days'];
+$lang['invoice_recurring_weeks'] = $lang['expense_recurring_weeks'];
 
 # Version 1.2.4
 $lang['document_direction'] = 'Richting';
@@ -3110,12 +3110,12 @@ $lang['exclude_invoices_draft_from_client_area'] = 'Sluit facturen met concept s
 $lang['invoice_draft_status_info'] = 'Deze factuur is met de status Concept; status zal automatisch gewijzigd worden wanneer u de factuur naar de klant verzonden of of aanmerkt als verzonden.';
 $lang['task_info'] = 'Taakinformatie';
 $lang['recurring_tasks'] = 'Terugkerend';
-// Dont translate these, already translated
+// don't translate these, already translated
 $lang['task_repeat_every'] = $lang['expense_repeat_every'];
-$lang['task_recuring_months'] = $lang['expense_recuring_months'];
-$lang['task_recuring_years'] = $lang['expense_recuring_years'];
-$lang['task_recuring_days'] = $lang['expense_recuring_days'];
-$lang['task_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['task_recurring_months'] = $lang['expense_recurring_months'];
+$lang['task_recurring_years'] = $lang['expense_recurring_years'];
+$lang['task_recurring_days'] = $lang['expense_recurring_days'];
+$lang['task_recurring_weeks'] = $lang['expense_recurring_weeks'];
 $lang['todays_tasks'] = 'Taken van vandaag';
 $lang['payment_mode_invoices_only'] = 'Alleen Facturen';
 $lang['payment_mode_expenses_only'] = 'Alleen Uitgaven';
@@ -3153,10 +3153,10 @@ $lang['dropbox_app_key'] = 'Dropbox APP Sleutel';
 $lang['project_invoice_select_all_expenses'] = 'Selecteer alle uitgaven';
 $lang['role_update_staff_permissions'] = 'Werk alle medewerkers permissies bij die voor deze rol gebruikt worden';
 $lang['customer_active'] = 'Actief';
-$lang['note_updated_successfuly'] = 'Notitie is met succes bijgewerkt';
+$lang['note_updated_successfully'] = 'Notitie is met succes bijgewerkt';
 $lang['update_note'] = 'Werk notitie bij';
 $lang['update_comment'] = 'Werk reactie bij';
-$lang['comment_updated_successfuly'] = 'Reactie met succes bijgewerkt';
+$lang['comment_updated_successfully'] = 'Reactie met succes bijgewerkt';
 $lang['staff_send_welcome_email'] = 'Verzend welkom e-mail';
 $lang['proposal_warning_email_change'] = 'E-mail gewijzigd voor %s. Deze %s is gekoppeld aan offerte/s. Wilt u alle offertes e-mails gekoppeld aan %s bijwerken?';
 $lang['update_proposal_email_yes'] = 'Ja, werk alle gekoppelde e-mails bij.';
@@ -3228,7 +3228,7 @@ $lang['invoice_is_overdue'] = 'This invoice is overdue by %s days';
 $lang['time_decimal'] = 'Time (decimal)';
 $lang['time_h'] = 'Time (h)';
 $lang['proposal_number_prefix'] = 'Proposal Number Prefix';
-$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
+$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formatted: 005 or 025</small>';
 $lang['this_week_payments'] = 'This Week Payments';
 $lang['last_week_payments'] = 'Last Week Payments';
 $lang['not_published_new_post'] = 'published new post';
@@ -3253,7 +3253,7 @@ $lang['item_description_new_lines_notice'] = 'New lines are not supported for it
 $lang['estimates_report'] = 'Estimates Report';
 $lang['confirm'] = 'Confirm';
 $lang['delete_staff'] = 'Delete Staff Member';
-$lang['delete_staff_info'] = 'Some data for this staff member needs to be transfered to another user. Please select user where you want to transfer the data.';
+$lang['delete_staff_info'] = 'Some data for this staff member needs to be transferred to another user. Please select user where you want to transfer the data.';
 $lang['estimate_items'] = 'Estimate Items';
 $lang['no_proposals_found'] = 'No Proposals Found';
 $lang['no_estimates_found'] = 'No Estimates Found';
@@ -3270,7 +3270,7 @@ $lang['customer_inactive_message'] = 'This is inactive customer profile and some
 $lang['active_customers'] = 'Active Customers';
 $lang['inactive_active_customers'] = 'Inactive Customers';
 $lang['include_proposal_items_merge_field_help'] = 'Include proposal items with merge field anywhere in proposal content as %s';
-$lang['all_data_synced_successfuly'] = 'All data synced successfully';
+$lang['all_data_synced_successfully'] = 'All data synced successfully';
 $lang['sync_now'] = 'Sync Now';
 $lang['sync_data'] = 'Sync Data';
 $lang['sync_proposals_up_to_date'] = 'All proposals are up to date, nothing to sync';
@@ -3324,19 +3324,19 @@ $lang['new_form'] = 'New Form';
 $lang['form_name'] = 'Form Name';
 $lang['cf_option_in_use'] = 'An option you removed is in use and cant be removed. The option is auto appended to the existing options.';
 $lang['form_builder'] = 'Form Builder';
-$lang['form_informations'] = 'Form Informations & Setup';
+$lang['form_informations'] = 'Form Information & Setup';
 $lang['form_builder_create_form_first'] = 'Create form first to be able to use the form builder.';
 $lang['notify_assigned_user'] = 'Responsible person';
 $lang['form_recaptcha'] = 'Use Google Recaptcha';
 $lang['form_lang_validation'] = 'Language';
 $lang['form_lang_validation_help'] = 'For Validation Messages';
 $lang['form_btn_submit_text'] = 'Submit button text';
-$lang['form_success_submit_msg'] = 'Message to show after form is succcesfuly submitted';
+$lang['form_success_submit_msg'] = 'Message to show after form is successfully submitted';
 $lang['total_submissions'] = 'Total Submissions';
 $lang['form_integration_code'] = 'Integration Code';
 $lang['not_lead_imported_from_form'] = 'New Lead Imported from Web to Lead Form - %s';
 $lang['not_lead_activity_log_attachment'] = 'Attachment Imported from form - %s';
-$lang['form_integration_code_help'] = 'Copy & Paste the code anywhere in your site to show the form, additionaly you can adjust the width and height px to fit for your website.';
+$lang['form_integration_code_help'] = 'Copy & Paste the code anywhere in your site to show the form, additionally you can adjust the width and height px to fit for your website.';
 $lang['invoice_not_found'] = 'Invoice not found';
 $lang['estimate_not_found'] = 'Estimate not found';
 $lang['expense_not_found'] = 'Expense not found';
@@ -3376,7 +3376,7 @@ $lang['search_project_members'] = 'Search Project Members...';
 $lang['cf_translate_input_link_title'] = 'Title';
 $lang['cf_translate_input_link_url'] = 'URL';
 $lang['cf_translate_input_link_tip'] = 'Click here to add link';
-$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['task_edit_delete_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
 $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';

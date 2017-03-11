@@ -6,10 +6,10 @@ $lang['id']                   = 'ID';
 $lang['name']                 = 'Nombre';
 $lang['options']              = 'Opciones';
 $lang['submit']               = 'Enviar';
-$lang['added_successfuly']    = '%s añadido con éxito.';
-$lang['updated_successfuly']  = '%s actualizado con éxito.';
+$lang['added_successfully']    = '%s añadido con éxito.';
+$lang['updated_successfully']  = '%s actualizado con éxito.';
 $lang['edit']                 = 'Editar %s';
-$lang['add_new']              = 'Añadir un nuevo %s';
+$lang['add_new']              = 'Añadir %s';
 $lang['deleted']              = '%s borrado';
 $lang['problem_deleting']     = 'Problema al eliminar %s';
 $lang['is_referenced']        = 'El ID de la %s ya está utilizando.';
@@ -22,32 +22,32 @@ $lang['load_more']            = 'Cargar más';
 $lang['cant_delete_default']  = 'No me puedo eliminar por defecto %s';
 
 # Invoice General
-$lang['invoice_status_paid']                = 'Pagado';
-$lang['invoice_status_unpaid']              = 'No pagado';
-$lang['invoice_status_overdue']             = 'Atrasado';
-$lang['invoice_status_not_paid_completely'] = 'Parcialmente pagado';
+$lang['invoice_status_paid']                = 'Pagada';
+$lang['invoice_status_unpaid']              = 'Por Pagar';
+$lang['invoice_status_overdue']             = 'Retrasada';
+$lang['invoice_status_not_paid_completely'] = 'Pagada Parcialmente';
 
 $lang['invoice_pdf_heading'] = 'FACTURA';
 
 $lang['invoice_table_item_heading']            = 'Artículo';
 $lang['invoice_table_quantity_heading']        = 'Cantidad';
-$lang['invoice_table_rate_heading']            = 'Tarifa';
+$lang['invoice_table_rate_heading']            = 'Precio';
 $lang['invoice_table_tax_heading']             = 'Impuesto';
-$lang['invoice_table_amount_heading']          = 'Cantidad';
-$lang['invoice_subtotal']                      = 'Sub total';
+$lang['invoice_table_amount_heading']          = 'Valor';
+$lang['invoice_subtotal']                      = 'Total';
 $lang['invoice_adjustment']                    = 'Ajuste';
-$lang['invoice_total']                         = 'Total';
-$lang['invoice_vat']                           = 'CIF/NIF/VAT';
-$lang['invoice_bill_to']                       = 'Cobrar a';
-$lang['invoice_data_date']                     = 'Fecha de la factura:';
-$lang['invoice_data_duedate']                  = 'Fecha de vencimiento:';
-$lang['invoice_received_payments']             = 'Actas';
-$lang['invoice_no_payments_found']             = 'No se han encontrado para esta factura Pagos';
+$lang['invoice_total']                         = 'Total a Pagar';
+$lang['invoice_vat']                           = 'NIF';
+$lang['invoice_bill_to']                       = 'Facturado a';
+$lang['invoice_data_date']                     = 'Fecha de la Factura:';
+$lang['invoice_data_duedate']                  = 'Fecha de Vencimiento:';
+$lang['invoice_received_payments']             = 'Pagos Recibidos';
+$lang['invoice_no_payments_found']             = 'No se han encontrado pagos para esta factura.';
 $lang['invoice_note']                          = 'Nota:';
 $lang['invoice_payments_table_number_heading'] = 'Pago #';
-$lang['invoice_payments_table_mode_heading']   = 'Modo de pago';
+$lang['invoice_payments_table_mode_heading']   = 'Modo de Pago';
 $lang['invoice_payments_table_date_heading']   = 'Fecha';
-$lang['invoice_payments_table_amount_heading'] = 'Cantidad';
+$lang['invoice_payments_table_amount_heading'] = 'Valor';
 
 
 # Announcements
@@ -55,80 +55,80 @@ $lang['announcement']                 = 'Anuncio';
 $lang['announcement_lowercase']       = 'anuncio';
 $lang['announcements']                = 'Anuncios';
 $lang['announcements_lowercase']      = 'anuncios';
-$lang['new_announcement']             = 'Nuevo aviso';
-$lang['announcement_name']            = 'Anuncio de los nombres';
+$lang['new_announcement']             = 'Nuevo Aviso';
+$lang['announcement_name']            = 'Nombre del Anuncio';
 $lang['announcement_message']         = 'Mensaje';
-$lang['announcement_show_to_staff']   = 'Mostrar a los empleados';
-$lang['announcement_show_to_clients'] = 'Mostrar a los clientes';
-$lang['announcement_show_my_name']    = 'Mostrar mi nombre';
+$lang['announcement_show_to_staff']   = 'Mostrar a los Empleados';
+$lang['announcement_show_to_clients'] = 'Mostrar a los Clientes';
+$lang['announcement_show_my_name']    = 'Mostrar mi Nombre';
 
 # Clients
 $lang['clients']                               = 'Clientes';
 $lang['client']                                = 'Cliente';
-$lang['new_client']                            = 'Nuevo cliente';
+$lang['new_client']                            = 'Nuevo Cliente';
 $lang['client_lowercase']                      = 'cliente';
 $lang['client_delete_tooltip']                 = 'Se eliminarán todos los datos de los clientes. Los contratos, billetes, billetes. NOTA: Si las facturas encontraron al cliente suele ser borrado. Es necesario asignar esta facturas a otro cliente para mantener el número de factura';
 $lang['customer_delete_invoices_warning']      = 'Este cliente tiene facturas en la cuenta. Usted no puede eliminar este cliente. Cambiar todas las facturas a otro cliente y a continuación, elimine.';
 $lang['client_firstname']                      = 'Nombre';
 $lang['client_lastname']                       = 'Apellido';
 $lang['client_email']                          = 'Email';
-$lang['client_company']                        = 'Empresa / Nombre Completo';
-$lang['client_vat_number']                     = 'RNC';
+$lang['client_company']                        = 'Empresa';
+$lang['client_vat_number']                     = 'NIF';
 $lang['client_address']                        = 'Dirección';
-$lang['client_city']                           = 'Sector';
-$lang['client_postal_code']                    = 'Código postal';
+$lang['client_city']                           = 'Localidad';
+$lang['client_postal_code']                    = 'Código Postal';
 $lang['client_state']                          = 'Provincia';
 $lang['client_password']                       = 'Contraseña';
 $lang['client_password_change_populate_note']  = 'Nota: Si rellena estos campos, la contraseña será cambiada para este cliente.';
-$lang['client_password_last_changed']          = 'Contraseña últimos modificados:';
-$lang['login_as_client']                       = 'Entrar como cliente';
+$lang['client_password_last_changed']          = 'Último Cambio de la Contraseña:';
+$lang['login_as_client']                       = 'Entrar como Cliente';
 $lang['client_invoices_tab']                   = 'Facturas';
-$lang['contracts_invoices_tab']                = 'Contratos';
+$lang['contracts_invoices_tab']                = 'Facturas';
 $lang['contracts_tickets_tab']                 = 'Tickets';
 $lang['contracts_notes_tab']                   = 'Notas';
-$lang['client_invoice_number_table_heading']   = 'Factura #';
+$lang['client_invoice_number_table_heading']   = 'Nº Factura';
 $lang['client_invoice_date_table_heading']     = 'Fecha';
-$lang['client_invoice_due_date_table_heading'] = 'Fecha de vencimiento';
+$lang['client_invoice_due_date_table_heading'] = 'Fecha de Vencimiento';
 $lang['client_string_table_heading']           = 'Cliente';
-$lang['client_amount_table_heading']           = 'Cantidad';
+$lang['client_amount_table_heading']           = 'Valor';
 $lang['client_status_table_heading']           = 'Estado';
-$lang['note_description']                      = 'Descripción nota';
+$lang['note_description']                      = 'Descripción Nota';
 
 $lang['client_string_contracts_table_heading']      = 'Cliente';
-$lang['client_start_date_contracts_table_heading']  = 'Fecha de inicio';
-$lang['client_end_date_contracts_table_heading']    = 'Fecha final';
+$lang['client_start_date_contracts_table_heading']  = 'Fecha de Inicio';
+$lang['client_end_date_contracts_table_heading']    = 'Fecha Final';
 $lang['client_description_contracts_table_heading'] = 'Descripción';
 $lang['client_do_not_send_welcome_email']           = 'No enviar email de bienvenida';
 
 $lang['clients_notes_table_description_heading'] = 'Descripción';
-$lang['clients_notes_table_addedfrom_heading']   = 'Desde añadido';
+$lang['clients_notes_table_addedfrom_heading']   = 'Añadida Desde';
 $lang['clients_notes_table_dateadded_heading']   = 'Fecha Agregada';
 
-$lang['clients_list_full_name']   = 'Nombre completo';
-$lang['clients_list_last_login']  = 'Último acceso';
+$lang['clients_list_full_name']   = 'Nombre Completo';
+$lang['clients_list_last_login']  = 'Último Acceso';
 
 # Contracts
 $lang['contracts']                = 'Contratos';
 $lang['contract']                 = 'Contrato';
-$lang['new_contract']             = 'Nuevo contrato';
+$lang['new_contract']             = 'Nuevo Contrato';
 $lang['contract_lowercase']       = 'contrato';
-$lang['contract_start_date']      = 'Fecha de inicio';
-$lang['contract_end_date']        = 'Fecha final';
+$lang['contract_start_date']      = 'Fecha de Inicio';
+$lang['contract_end_date']        = 'Fecha Final';
 $lang['contract_subject']         = 'Tema';
 $lang['contract_description']     = 'Descripción';
 $lang['contract_subject_tooltip'] = 'Tema también es visible para el cliente';
 $lang['contract_client_string']   = 'Cliente';
-$lang['contract_attach']          = 'Documento adjunto';
+$lang['contract_attach']          = 'Documento Adjunto';
 
 $lang['contract_list_client']     = 'Cliente';
 $lang['contract_list_subject']    = 'Tema';
-$lang['contract_list_start_date'] = 'Fecha de inicio';
-$lang['contract_list_end_date']   = 'Fecha final';
+$lang['contract_list_start_date'] = 'Fecha de Inicio';
+$lang['contract_list_end_date']   = 'Fecha Final';
 
 # Currencies
 $lang['currencies']           = 'Monedas';
 $lang['currency']             = 'Moneda';
-$lang['new_currency']         = 'Nueva moneda';
+$lang['new_currency']         = 'Nueva Moneda';
 $lang['currency_lowercase']   = 'moneda';
 $lang['base_currency_set']    = 'Esta es ahora su divisa base.';
 $lang['make_base_currency']   = 'Hacer moneda base';
@@ -148,12 +148,12 @@ $lang['currency_add_heading']  = 'Añadir nueva moneda';
 # Department
 $lang['departments']          = 'Departamentos';
 $lang['department']           = 'Departamento';
-$lang['new_department']       = 'Departamento nuevo';
-$lang['department_lowercase'] = 'Departamento';
+$lang['new_department']       = 'Nuevo Departamento';
+$lang['department_lowercase'] = 'departamento';
 
 $lang['department_name']             = 'Nombre del Departamento';
-$lang['department_email']            = 'Departamento de email';
-$lang['department_hide_from_client'] = 'Esconder del cliente?';
+$lang['department_email']            = 'Email del Departamento';
+$lang['department_hide_from_client'] = 'Esconder del Cliente?';
 $lang['department_list_name']        = 'Nombre';
 
 # Email Templates
@@ -167,43 +167,43 @@ $lang['email_template_clients_fields_heading']  = 'Clientes';
 
 $lang['template_name']                                      = 'Nombre de la plantilla';
 $lang['template_subject']                                   = 'Tema';
-$lang['template_fromname']                                  = 'Desde nombre';
+$lang['template_fromname']                                  = 'Nombre de Envío';
 $lang['template_fromemail']                                 = 'Desde el email';
 $lang['send_as_plain_text']                                 = 'Enviar como texto sin formato';
-$lang['email_template_disabed']                             = 'Desactivar el envio de este correo';
+$lang['email_template_disabled']                             = 'Desactivar el envío de este correo';
 $lang['email_template_email_message']                       = 'Mensaje de email';
 $lang['available_merge_fields']                             = 'campos de combinación disponibles';
 # Home
 $lang['dashboard_string']                                   = 'Panel Principal';
 $lang['home_latest_todos']                                  = 'Últimas Tareas';
-$lang['home_no_latest_todos']                               = 'No se encontraron Todos';
+$lang['home_no_latest_todos']                               = 'No Existen Tareas';
 $lang['home_latest_finished_todos']                         = 'Tareas Acabadas Recientemente';
-$lang['home_no_finished_todos_found']                       = 'No se encontraron Todos terminados';
+$lang['home_no_finished_todos_found']                       = 'No Existen Tareas Terminadas';
 $lang['home_todo_heading']                                  = 'Para hacer artículos';
 $lang['home_tickets_awaiting_reply_by_department']          = 'Incidencias en espera de respuesta por el departamento';
 $lang['home_tickets_awaiting_reply_by_status']              = 'Incidencias en espera de respuesta por situación';
 $lang['home_this_week_events']                              = 'Esta semana los eventos';
 $lang['home_upcoming_events_next_week']                     = 'Próximos eventos de la próxima semana';
 $lang['home_event_added_by']                                = 'Evento añadida por';
-$lang['home_public_event']                                  = 'Evento público';
+$lang['home_public_event']                                  = 'Evento Público';
 $lang['home_weekly_payment_records']                        = 'Resumen de Pagos Semanales';
 $lang['home_weekend_ticket_opening_statistics']             = 'Estadísticas de Tickets Semanal';
 # Newsfeed
 $lang['whats_on_your_mind']                                 = '¿Qué tienes en mente?';
 $lang['new_post']                                           = 'Enviar';
 $lang['newsfeed_upload_tooltip']                            = 'Consejo: Arrastre y suelte archivos para subir';
-$lang['newsfeed_all_departments']                           = 'Todos los departamentos';
-$lang['newsfeed_pin_post']                                  = 'Fijar la publicación';
-$lang['newsfeed_unpin_post']                                = 'Desanclar Post';
+$lang['newsfeed_all_departments']                           = 'Todos los Departamentos';
+$lang['newsfeed_pin_post']                                  = 'Fijar la Publicación';
+$lang['newsfeed_unpin_post']                                = 'Desanclar Publicación';
 $lang['newsfeed_delete_post']                               = 'Borrar';
 $lang['newsfeed_published_post']                            = 'Publicado';
-$lang['newsfeed_you_like_this']                             = 'Te gusta';
-$lang['newsfeed_like_this']                                 = 'Me gusta';
-$lang['newsfeed_one_other']                                 = 'otro';
+$lang['newsfeed_you_like_this']                             = 'Te Gusta';
+$lang['newsfeed_like_this']                                 = 'Me Gusta';
+$lang['newsfeed_one_other']                                 = 'Gtro';
 $lang['newsfeed_you']                                       = 'Tú';
 $lang['newsfeed_and']                                       = 'y';
 $lang['newsfeed_you_and']                                   = 'Usted y';
-$lang['newsfeed_like_this_saying']                          = 'Me gusta';
+$lang['newsfeed_like_this_saying']                          = 'Me Gusta';
 $lang['newsfeed_unlike_this_saying']                        = 'No me gusta esto';
 $lang['newsfeed_show_more_comments']                        = 'Mostrar más comentarios';
 $lang['comment_this_post_placeholder']                      = 'Comentar este post ..';
@@ -211,22 +211,22 @@ $lang['newsfeed_post_likes_modal_heading']                  = 'Colegas que les g
 $lang['newsfeed_comment_likes_modal_heading']               = 'Colegas que les gusta este comentario';
 $lang['newsfeed_newsfeed_post_only_visible_to_departments'] = 'Este blog es sólo visible para los siguientes departamentos: %s';
 # Invoice Items
-$lang['invoice_items']                                      = 'Los artículos de la factura';
-$lang['invoice_item']                                       = 'artículo factura';
-$lang['new_invoice_item']                                   = 'Nuevo artículo';
-$lang['invoice_item_lowercase']                             = 'posición de factura';
+$lang['invoice_items']                                      = 'Artículos de la Factura';
+$lang['invoice_item']                                       = 'Artículo de la Factura';
+$lang['new_invoice_item']                                   = 'Nuevo Artículo';
+$lang['invoice_item_lowercase']                             = 'artículo de la factura';
 
 $lang['invoice_items_list_description'] = 'Descripción';
-$lang['invoice_items_list_rate']        = 'Tarifa';
+$lang['invoice_items_list_rate']        = 'Precio';
 $lang['invoice_items_list_tax']         = 'Impuesto';
 
 $lang['invoice_item_add_edit_description'] = 'Descripción';
-$lang['invoice_item_add_edit_rate']        = 'Tarifa';
+$lang['invoice_item_add_edit_rate']        = 'Precio';
 $lang['invoice_item_add_edit_tax']         = 'Impuesto';
 $lang['invoice_item_add_edit_tax_select']  = 'Seleccione Impuesto';
 
-$lang['invoice_item_edit_heading'] = 'Editar elemento';
-$lang['invoice_item_add_heading']  = 'Agregar nuevo elemento';
+$lang['invoice_item_edit_heading'] = 'Editar Elemento';
+$lang['invoice_item_add_heading']  = 'nuevo Elemento';
 
 # Invoices
 
@@ -235,75 +235,70 @@ $lang['invoices']                       = 'Facturas';
 $lang['invoice']                        = 'Factura';
 $lang['invoice_lowercase']              = 'factura';
 $lang['create_new_invoice']             = 'Crear Factura';
-$lang['view_invoice']                   = 'Ver factura';
+$lang['view_invoice']                   = 'Ver Factura';
 $lang['invoice_payment_recorded']       = 'Factura de pagos registrado';
 $lang['invoice_payment_record_failed']  = 'Error al registrar la factura de pago';
-$lang['invoice_sent_to_client_success'] = 'La factura se ha envíado con éxito al cliente';
+$lang['invoice_sent_to_client_success'] = 'La factura se ha enviado con éxito al cliente';
 $lang['invoice_sent_to_client_fail']    = 'Problema al enviar la factura';
 $lang['invoice_reminder_send_problem']  = 'Problema con la factura enviar recordatorio de retraso';
 $lang['invoice_overdue_reminder_sent']  = 'Recordatorio de factura vencida enviado con éxito';
 
-$lang['invoice_details']              = 'Detalles de la factura';
-$lang['invoice_view']                 = 'Ver factura';
+$lang['invoice_details']              = 'Detalles de la Factura';
+$lang['invoice_view']                 = 'Ver Factura';
 $lang['invoice_select_customer']      = 'Cliente';
-$lang['invoice_add_edit_number']      = 'Número de factura';
-$lang['invoice_add_edit_date']        = 'Fecha de la factura';
-$lang['invoice_add_edit_duedate']     = 'Fecha de vencimiento';
+$lang['invoice_add_edit_number']      = 'Número de Factura';
+$lang['invoice_add_edit_date']        = 'Fecha de la Factura';
+$lang['invoice_add_edit_duedate']     = 'Fecha de Vencimiento';
 $lang['invoice_add_edit_currency']    = 'Moneda';
-$lang['invoice_add_edit_client_note'] = 'Nota cliente';
-$lang['invoice_add_edit_admin_note']  = 'Admin nota';
+$lang['invoice_add_edit_client_note'] = 'Nota para el Cliente';
+$lang['invoice_add_edit_admin_note']  = 'Nota del Comercial';
 
-$lang['invoice_add_edit_search_item']  = 'Búsqueda artículos';
+$lang['invoice_add_edit_search_item']  = 'Búsqueda Artículos';
 $lang['invoices_toggle_table_tooltip'] = 'Ver Tabla completa';
-
-
-
-
 
 $lang['edit_invoice_tooltip']                   = 'Editar factura';
 $lang['delete_invoice_tooltip']                 = 'Eliminar la factura. Nota: Se borrarán todos los pagos con respecto a esta factura (si lo hay).';
-$lang['invoice_sent_to_email_tooltip']          = 'Envía por email';
-$lang['invoice_already_send_to_client_tooltip'] = 'Esta factura ya se ha envíado al cliente %s';
-$lang['send_overdue_notice_tooltip']            = 'Enviar aviso de vencimiento';
-$lang['invoice_view_activity_tooltip']          = 'Registro de actividades';
+$lang['invoice_sent_to_email_tooltip']          = 'Envía Factura por Email';
+$lang['invoice_already_send_to_client_tooltip'] = 'Esta factura ya se ha enviado al cliente %s';
+$lang['send_overdue_notice_tooltip']            = 'Enviar Aviso de Vencimiento';
+$lang['invoice_view_activity_tooltip']          = 'Registro de Actividades';
 $lang['invoice_record_payment']                 = 'Registrar Pago';
-
 
 $lang['invoice_send_to_client_modal_heading']    = 'Enviar esta factura al cliente';
 $lang['invoice_send_to_client_attach_pdf']       = 'Adjuntar la factura en PDF';
 $lang['invoice_send_to_client_preview_template'] = 'Vista previa de plantilla de email';
 
-$lang['invoice_dt_table_heading_number']  = 'Factura #';
+$lang['invoice_dt_table_heading_number']  = 'Nº Factura';
 $lang['invoice_dt_table_heading_date']    = 'Fecha';
 $lang['invoice_dt_table_heading_client']  = 'Cliente';
-$lang['invoice_dt_table_heading_duedate'] = 'Fecha de vencimiento';
-$lang['invoice_dt_table_heading_amount']  = 'Cantidad';
+$lang['invoice_dt_table_heading_duedate'] = 'Fecha de Vencimiento';
+$lang['invoice_dt_table_heading_amount']  = 'Valor';
 $lang['invoice_dt_table_heading_status']  = 'Estado';
 
 $lang['record_payment_for_invoice']              = 'Registrar Pago';
-$lang['record_payment_amount_received']          = 'Cantidad recibida';
-$lang['record_payment_date']                     = 'Fecha de pago';
-$lang['record_payment_leave_note']               = 'Dejar una nota';
-$lang['invoice_payments_received']               = 'Pagos recibidos';
-$lang['invoice_record_payment_note_placeholder'] = 'Admin nota';
+$lang['record_payment_amount_received']          = 'Valor Recibido';
+$lang['record_payment_date']                     = 'Fecha de Pago';
+$lang['record_payment_leave_note']               = 'Dejar una Nota';
+$lang['invoice_payments_received']               = 'Pagos Recibidos';
+$lang['invoice_record_payment_note_placeholder'] = 'Nota del Comercial';
 $lang['no_payments_found']                       = 'No se han encontrado Pagos para esta factura';
-$lang['invoice_email_link_text']                 = 'Ver factura';
+$lang['invoice_email_link_text']                 = 'Ver Factura';
 
 # Payments
 $lang['payments']                             = 'Pagos';
 $lang['payment']                              = 'Pago';
 $lang['payment_lowercase']                    = 'pago';
-$lang['payments_table_number_heading']        = 'Pago #';
-$lang['payments_table_invoicenumber_heading'] = 'Factura #';
-$lang['payments_table_mode_heading']          = 'Modo de pago';
+$lang['payments_table_number_heading']        = 'Pago Nº:';
+$lang['payments_table_invoicenumber_heading'] = 'Factura Nº:';
+$lang['payments_table_mode_heading']          = 'Modo de Pago';
 $lang['payments_table_date_heading']          = 'Fecha';
-$lang['payments_table_amount_heading']        = 'Cantidad';
+$lang['payments_table_amount_heading']        = 'Valor';
 $lang['payments_table_client_heading']        = 'Cliente';
 $lang['payment_not_exists']                   = 'El pago no existe';
 
 $lang['payment_edit_for_invoice']     = 'El pago de la factura';
-$lang['payment_edit_amount_received'] = 'Cantidad recibida';
-$lang['payment_edit_date']            = 'Fecha de pago';
+$lang['payment_edit_amount_received'] = 'Valor Recibido';
+$lang['payment_edit_date']            = 'Fecha de Pago';
 $lang['payment_edit_lave_note']       = 'Deja Nota';
 
 
@@ -359,37 +354,37 @@ $lang['mail_list_available_custom_fields']    = 'Campos personalizados disponibl
 $lang['submit_import_emails']                 = 'Los correos electrónicos de importación';
 $lang['btn_import_emails']                    = 'Los correos electrónicos de importación (Excel)';
 $lang['btn_add_email_to_list']                = 'Añadir a esta lista de email';
-$lang['mail_lists_dt_list_name']              = 'Lista de nombres';
-$lang['mail_lists_dt_datecreated']            = 'fecha de creacion';
+$lang['mail_lists_dt_list_name']              = 'Lista de Nombres';
+$lang['mail_lists_dt_datecreated']            = 'Fecha de la Creación';
 $lang['mail_lists_dt_creator']                = 'Crear';
-$lang['email_added_to_mail_list_successfuly'] = 'Email añadió a la lista';
+$lang['email_added_to_mail_list_successfully'] = 'Email añadió a la lista';
 $lang['email_is_duplicate_mail_list']         = 'email ya existe en esta lista';
 
 # Media
-$lang['media_files']            = 'Files';
+$lang['media_files']            = 'Archivos';
 
 # Payment modes
-$lang['new_payment_mode']       = 'Nuevo Modo de Pago';
-$lang['payment_modes']          = 'Modos de pago';
-$lang['payment_mode']           = 'Modo de pago';
-$lang['payment_mode_lowercase'] = 'modo de pago';
-$lang['payment_modes_dt_name']  = 'Modo de Pago Nombre';
+$lang['new_payment_mode']       = 'Nueva Forma de Pago';
+$lang['payment_modes']          = 'Forma de Pago';
+$lang['payment_mode']           = 'Forma de Pago';
+$lang['payment_mode_lowercase'] = 'forma de pago';
+$lang['payment_modes_dt_name']  = 'Nombre de la forma de pago';
 
-$lang['payment_mode_add_edit_name'] = 'Modo de Pago Nombre';
-$lang['payment_mode_edit_heading']  = 'Modo de edición de Pago';
-$lang['payment_mode_add_heading']   = 'Agregar nuevo modo de pago';
+$lang['payment_mode_add_edit_name'] = 'Nombre de la Forma de Pago';
+$lang['payment_mode_edit_heading']  = 'Editar Forma de Pago';
+$lang['payment_mode_add_heading']   = 'Agregar Nueva Forma de Pago';
 
 # Predefined Ticket Replies
 $lang['new_predefined_reply']              = 'Nueva respuesta predefinida';
 $lang['predefined_replies']                = 'Respuesta predefinida';
 $lang['predefined_reply']                  = 'Responder predefinido';
 $lang['predefined_reply_lowercase']        = 'Respuesta predefinido';
-$lang['predifined_replies_dt_name']        = 'Respuesta predefinida Nombre';
-$lang['predifined_reply_add_edit_name']    = 'Respuesta predefinida Nombre';
-$lang['predifined_reply_add_edit_content'] = 'Responder contenido';
+$lang['predefined_replies_dt_name']        = 'Respuesta predefinida Nombre';
+$lang['predefined_reply_add_edit_name']    = 'Respuesta predefinida Nombre';
+$lang['predefined_reply_add_edit_content'] = 'Responder contenido';
 
 # Ticket Priorities
-$lang['new_ticket_priority']           = 'Nueva prioridad';
+$lang['new_ticket_priority']           = 'Nueva Prioridad';
 $lang['ticket_priorities']             = 'Prioridades de billetes';
 $lang['ticket_priority']               = 'prioridad de billetes';
 $lang['ticket_priority_lowercase']     = 'prioridad de billetes';
@@ -399,8 +394,8 @@ $lang['ticket_priority_add_edit_name'] = 'prioridad Nombre';
 
 # Reports
 $lang['kb_reports']                         = 'Informes de artículos de';
-$lang['sales_reports']                      = 'Informes de ventas';
-$lang['reports_choose_kb_group']            = 'Elegir grupo';
+$lang['sales_reports']                      = 'Informes de Ventas';
+$lang['reports_choose_kb_group']            = 'Elegir Grupo';
 $lang['reports_sales_select_report_type']   = 'Seleccione el tipo de informe';
 $lang['report_kb_yes']                      = 'Sí';
 $lang['report_kb_no']                       = 'No';
@@ -408,16 +403,16 @@ $lang['report_kb_no_votes']                 = 'Sin votos';
 $lang['report_this_week_leads_conversions'] = 'Esta semana Leads Convertidos';
 $lang['report_leads_sources_conversions']   = 'Fuentes';
 $lang['report_leads_monthly_conversions']   = 'Mensual';
-$lang['sales_report_heading']               = 'Reporte de ventas';
-$lang['report_sales_type_income']           = 'Ingresos totales';
+$lang['sales_report_heading']               = 'Informe de Ventas';
+$lang['report_sales_type_income']           = 'Ingresos Totales';
 
-$lang['report_sales_type_customer']                    = 'Informe de cliente';
+$lang['report_sales_type_customer']                    = 'Informe de Ventas por Tipo de Cliente';
 $lang['report_sales_base_currency_select_explanation'] = 'Es necesario seleccionar la moneda por que usted tiene facturas con moneda diferente';
-$lang['report_sales_from_date']                        = 'A partir de la fecha';
-$lang['report_sales_to_date']                          = 'Hasta la fecha';
+$lang['report_sales_from_date']                        = 'Desde la Fecha';
+$lang['report_sales_to_date']                          = 'Hasta la Fecha';
 
 
-$lang['report_sales_months_all_time']      = 'Todo el tiempo';
+$lang['report_sales_months_all_time']      = 'Desde';
 $lang['report_sales_months_six_months']    = 'Últimos 6 meses';
 $lang['report_sales_months_twelve_months'] = 'Últimos 12 meses';
 $lang['report_sales_months_custom']        = 'Personalizado';
@@ -427,37 +422,37 @@ $lang['reports_sales_generated_report']    = 'Informe generado';
 
 $lang['reports_sales_dt_customers_client']                = 'Cliente';
 $lang['reports_sales_dt_customers_total_invoices']        = 'Las facturas totales';
-$lang['reports_sales_dt_items_customers_amount']          = 'Cantidad';
-$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Cantidad con Impuestos';
+$lang['reports_sales_dt_items_customers_amount']          = 'Valor';
+$lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Valor con Impuestos';
 
 # Roles
-$lang['new_role']           = 'Nuevo rol';
-$lang['all_roles']          = 'Todos los roles';
-$lang['roles']              = 'Roles';
-$lang['role']               = 'Papel';
-$lang['role_lowercase']     = 'papel';
-$lang['roles_total_users']  = 'Total de usuarios:';
-$lang['roles_dt_name']      = 'Nombre de rol';
-$lang['role_add_edit_name'] = 'Nombre de rol';
+$lang['new_role']           = 'Nuevo Cargo';
+$lang['all_roles']          = 'Todos los Cargos';
+$lang['roles']              = 'Cargos';
+$lang['role']               = 'Cargo';
+$lang['role_lowercase']     = 'cargo';
+$lang['roles_total_users']  = 'Total de Usuarios:';
+$lang['roles_dt_name']      = 'Nombre del Cargo';
+$lang['role_add_edit_name'] = 'Nombre del Cargo';
 
 # Service
 $lang['new_service']           = 'Nuevo Servicio';
 $lang['services']              = 'Servicios';
 $lang['service']               = 'Servicio';
-$lang['service_lowercase']     = 'Servicio';
+$lang['service_lowercase']     = 'servicio';
 $lang['services_dt_name']      = 'Nombre del Servicio';
 $lang['service_add_edit_name'] = 'Nombre del Servicio';
 
 # Settings
 $lang['settings']                     = 'Ajustes';
 $lang['settings_updated']             = 'Configuración de Actualizada';
-$lang['settings_save']                = 'Guardar ajustes';
+$lang['settings_save']                = 'Guardar Ajustes';
 $lang['settings_group_general']       = 'General';
 $lang['settings_group_localization']  = 'Localización';
 $lang['settings_group_tickets']       = 'Tickets';
-$lang['settings_group_sales']         = 'Financiar';
+$lang['settings_group_sales']         = 'Financiero';
 $lang['settings_group_email']         = 'Email';
-$lang['settings_group_clients']       = 'Clientela';
+$lang['settings_group_clients']       = 'Clientes';
 $lang['settings_group_newsfeed']      = 'Noticias';
 $lang['settings_group_cronjob']       = 'Cron job';
 
@@ -465,7 +460,7 @@ $lang['settings_yes']                                        = 'Sí';
 $lang['settings_no']                                         = 'No';
 $lang['settings_clients_default_theme']                      = 'Tema predeterminado clientes';
 $lang['settings_clients_allow_registration']                 = 'Permitir que los clientes se registren';
-$lang['settings_clients_allow_kb_view_without_registration'] = 'Permitir que la base de conocimientos sea visto sin conexion';
+$lang['settings_clients_allow_kb_view_without_registration'] = 'Permitir que la base de conocimientos sea visto sin conexión';
 
 $lang['settings_cron_send_overdue_reminder']                 = 'Enviará recordatorio para la factura vencida';
 $lang['settings_cron_send_overdue_reminder_tooltip']         = 'Enviar email al cliente cuando atrasados ​​estado de la factura actualiza al atraso de trabajo Cron';
@@ -487,7 +482,7 @@ $lang['settings_general_company_main_domain']         = 'Dominio principal de la
 $lang['settings_general_use_knowledgebase']           = 'Usar la base de conocimiento';
 $lang['settings_general_use_knowledgebase_tooltip']   = 'Si permite esta Opciones la base de conocimientos se le aparecen también en el lado de los clientes';
 $lang['settings_general_tables_limit']                = 'Mesas de límites de paginación';
-$lang['settings_general_default_staff_role']          = 'El rolPor defecto del personal';
+$lang['settings_general_default_staff_role']          = 'El role por defecto del personal';
 $lang['settings_general_default_staff_role_tooltip']  = 'Al añadir un nuevo miembro del personal de este papel se seleccionará de forma predeterminada';
 
 $lang['settings_localization_date_format']      = 'Formato de fecha';
@@ -508,11 +503,11 @@ $lang['settings_tickets_allowed_file_extensions']  = 'Se admiten las extensiones
 $lang['settings_sales_general']                                    = 'General';
 $lang['settings_sales_general_note']                               = 'Configuración general';
 $lang['settings_sales_invoice_prefix']                             = 'Número de factura Prefijo';
-$lang['settings_sales_decimal_separator']                          = 'Separador decimal';
-$lang['settings_sales_thousand_separator']                         = 'Separador de miles';
+$lang['settings_sales_decimal_separator']                          = 'Separador Decimal';
+$lang['settings_sales_thousand_separator']                         = 'Separador de Miles';
 $lang['settings_sales_currency_placement']                         = 'Colocación moneda';
-$lang['settings_sales_currency_placement_before']                  = 'Antes Monto';
-$lang['settings_sales_currency_placement_after']                   = 'Después Monto';
+$lang['settings_sales_currency_placement_before']                  = 'Antes del Valor';
+$lang['settings_sales_currency_placement_after']                   = 'Después del Valor';
 $lang['settings_sales_require_client_logged_in_to_view_invoice']   = 'Requerir cliente que se haya identificado para ver la factura';
 $lang['settings_sales_next_invoice_number']                        = 'Siguiente número de factura';
 $lang['settings_sales_next_invoice_number_tooltip']                = 'Establecer este campo a 1 si desea empezar de inicio';
@@ -525,40 +520,40 @@ $lang['settings_sales_invoice_number_format_number_based']         = 'Basado nú
 $lang['settings_sales_company_info_note']    = 'Todos estos datos se mostrarán en las facturas / presupuestos / pagos y otros documentos PDF donde se requiere información de la empresa';
 $lang['settings_sales_company_name']         = 'Nombre de la Empresa';
 $lang['settings_sales_address']              = 'Dirección';
-$lang['settings_sales_city']                 = 'Sector';
-$lang['settings_sales_country_code']         = 'Código de país';
-$lang['settings_sales_postal_code']          = 'Código postal';
+$lang['settings_sales_city']                 = 'Localidad';
+$lang['settings_sales_country_code']         = 'País';
+$lang['settings_sales_postal_code']          = 'Código Postal';
 $lang['settings_sales_phonenumber']          = 'Teléfono';
 
 # Leads
-$lang['new_lead']       = 'Nuevo Lead';
-$lang['leads']          = 'Leads';
-$lang['lead']           = 'Lead';
-$lang['lead_lowercase'] = 'lead';
-$lang['leads_all']      = 'Todas';
+$lang['new_lead']       = 'Nuevo Contacto';
+$lang['leads']          = 'Contactos';
+$lang['lead']           = 'Contacto';
+$lang['lead_lowercase'] = 'contacto';
+$lang['leads_all']      = 'Todos';
 
 $lang['leads_canban_notes']  = 'Notas: %s';
 $lang['leads_canban_source'] = 'Fuente: %s';
 
-$lang['lead_new_source']            = 'Nueva fuente';
-$lang['lead_sources']               = 'Fuentes de Lead';
-$lang['lead_source']                = 'Fuente principal';
+$lang['lead_new_source']            = 'Nueva Fuente';
+$lang['lead_sources']               = 'Fuentes de Contacto';
+$lang['lead_source']                = 'Fuente Principal';
 $lang['lead_source_lowercase']      = 'fuente principal';
 $lang['leads_sources_not_found']    = 'No se encontraron fuentes de derivaciones';
 $lang['leads_sources_table_name']   = 'Nombre de la fuente';
 $lang['leads_source_add_edit_name'] = 'Nombre de la fuente';
 
-$lang['lead_new_status']         = 'Nuevo Estado del Lead';
-$lang['lead_statuss']            = 'Estado del Lead';
-$lang['lead_status']             = 'Estado del Lead';
-$lang['lead_status_lowercase']   = 'estado de Lead';
+$lang['lead_new_status']         = 'Nuevo Estado del Contacto';
+$lang['lead_statuss']            = 'Estado del Contacto';
+$lang['lead_status']             = 'Estado del Contacto';
+$lang['lead_status_lowercase']   = 'estado de contacto';
 $lang['leads_status_table_name'] = 'Nombre Estado';
 
 $lang['leads_status_add_edit_name']  = 'Nombre Estado';
 $lang['leads_status_add_edit_order'] = 'Orden';
 
 $lang['lead_statuses_not_found']      = 'No se encontraron las derivaciones estados';
-$lang['leads_search']                 = 'Buscar Leads';
+$lang['leads_search']                 = 'Buscar Contactos';
 
 $lang['leads_table_total'] = 'Ventas totales: %s';
 
@@ -567,22 +562,22 @@ $lang['leads_dt_email']        = 'Email';
 $lang['leads_dt_phonenumber']  = 'Teléfono';
 $lang['leads_dt_assigned']     = 'Asignado';
 $lang['leads_dt_status']       = 'Estado';
-$lang['leads_dt_last_contact'] = 'última Contacto';
+$lang['leads_dt_last_contact'] = 'Último Contacto';
 
 $lang['lead_add_edit_name']                 = 'Nombre';
 $lang['lead_add_edit_email']                = 'Dirección de correo';
 $lang['lead_add_edit_phonenumber']          = 'Teléfono';
 $lang['lead_add_edit_source']               = 'Fuente';
-$lang['lead_add_edit_status']               = 'Estado del Lead';
+$lang['lead_add_edit_status']               = 'Estado del Contacto';
 $lang['lead_add_edit_assigned']             = 'Asignado';
 $lang['lead_add_edit_datecontacted']        = 'Fecha contactado';
-$lang['lead_add_edit_contected_today']      = 'contactado Hoy';
+$lang['lead_add_edit_contacted_today']      = 'contactado Hoy';
 $lang['lead_add_edit_activity']             = 'Registro de actividades';
 $lang['lead_add_edit_notes']                = 'Notas';
 $lang['lead_add_edit_add_note']             = 'Añadir la nota';
-$lang['lead_not_contacted']                 = 'No me he puesto en contacto este Lead';
-$lang['lead_add_edit_contected_this_lead']  = 'Me puse en contacto con este Lead';
-$lang['lead_confirmation_canban_contacted'] = '¿Usted se ha puesto en contacto con este Lead?';
+$lang['lead_not_contacted']                 = 'No me he puesto en contacto este Contacto';
+$lang['lead_add_edit_contacted_this_lead']  = 'Me puse en contacto con este Contacto';
+$lang['lead_confirmation_canban_contacted'] = '¿Usted se ha puesto en contacto con este Contacto?';
 
 # Misc
 $lang['access_denied']              = 'Que da acceso denegado';
@@ -611,8 +606,8 @@ $lang['user_sent_overdue_reminder'] = '%s factura enviada recordatorio de retras
 # Weekdays
 $lang['wd_monday']    = 'Lunes';
 $lang['wd_tuesday']   = 'Martes';
-$lang['wd_thursday']  = 'Jueves';
 $lang['wd_wednesday'] = 'Miércoles';
+$lang['wd_thursday']  = 'Jueves';
 $lang['wd_friday']    = 'Viernes';
 $lang['wd_saturday']  = 'Sábado';
 $lang['wd_sunday']    = 'Domingo';
@@ -620,7 +615,7 @@ $lang['wd_sunday']    = 'Domingo';
 # Admin Left Sidebar
 $lang['als_dashboard'] = 'Tablero';
 $lang['als_clients']   = 'Clientes';
-$lang['als_leads']     = 'Leads';
+$lang['als_leads']     = 'Contactos';
 
 $lang['als_contracts'] = 'Contratos';
 
@@ -629,13 +624,13 @@ $lang['als_sales']       = 'Ventas';
 
 $lang['als_staff'] = 'Personal';
 $lang['als_tasks'] = 'Tareas';
-$lang['als_kb']    = 'Base de conocimiento';
+$lang['als_kb']    = 'Base de Conocimiento';
 
 $lang['als_surveys']               = 'Encuestas';
 $lang['als_media']                 = 'Medios de comunicación';
 $lang['als_reports']               = 'Informes';
 $lang['als_reports_sales_submenu'] = 'Ventas';
-$lang['als_reports_leads_submenu'] = 'Leads';
+$lang['als_reports_leads_submenu'] = 'Contactos';
 $lang['als_kb_articles_submenu']   = 'Artículos de KB';
 $lang['als_utilities']             = 'Utilidades';
 $lang['als_announcements_submenu'] = 'Anuncios';
@@ -647,10 +642,10 @@ $lang['als_activity_log_submenu']  = 'Registro de actividades';
 $lang['acs_tickets']                           = 'Tickets';
 $lang['acs_ticket_priority_submenu']           = 'prioridad de billetes';
 $lang['acs_ticket_statuses_submenu']           = 'Los estados de billetes';
-$lang['acs_ticket_predefined_replies_submenu'] = 'Respuestas Predifinidas';
+$lang['acs_ticket_predefined_replies_submenu'] = 'Respuestas Predefinidas';
 $lang['acs_ticket_services_submenu']           = 'Servicios';
-$lang['acs_departments']                       = 'departamentos';
-$lang['acs_leads']                             = 'Leads';
+$lang['acs_departments']                       = 'Departamentos';
+$lang['acs_leads']                             = 'Contactos';
 $lang['acs_leads_sources_submenu']             = 'Fuentes';
 $lang['acs_leads_statuses_submenu']            = 'Estados';
 $lang['acs_sales_taxes_submenu']               = 'Impuestos';
@@ -667,7 +662,7 @@ $lang['ticket']                                             = 'ticket';
 $lang['ticket_lowercase']                                   = 'ticket';
 $lang['support_tickets']                                    = 'Tickets de Soporte';
 $lang['support_ticket']                                     = 'Ticket de soporte';
-$lang['ticket_settings_to']                                 = 'A';
+$lang['ticket_settings_to']                                 = 'Para';
 $lang['ticket_settings_email']                              = 'Dirección de correo';
 $lang['ticket_settings_departments']                        = 'Departamento';
 $lang['ticket_settings_service']                            = 'Servicio';
@@ -677,24 +672,24 @@ $lang['ticket_settings_assign_to']                          = 'Asignar tickets (
 $lang['ticket_settings_assign_to_you']                      = 'Tú';
 $lang['ticket_settings_select_client']                      = 'Seleccione Cliente';
 $lang['ticket_add_body']                                    = 'Cuerpo de tickets';
-$lang['ticket_add_attachments']                             = 'Archivos adjuntos';
+$lang['ticket_add_attachments']                             = 'Archivos Adjuntos';
 $lang['ticket_no_reply_yet']                                = 'Sin embargo, no hay respuesta';
-$lang['new_ticket_added_succesfuly']                        = 'Ticket # %s añadido con éxito';
-$lang['replied_to_ticket_succesfuly']                       = 'Respondido al ticket # %s con éxito';
-$lang['ticket_settings_updated_successfuly']                = 'Ajustes del ticket actualizados con exito';
-$lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ajustes del ticket actualizados – reasignado al departamento de %s';
+$lang['new_ticket_added_successfully']                        = 'Ticket # %s añadido con éxito';
+$lang['replied_to_ticket_successfully']                       = 'Respondido al ticket # %s con éxito';
+$lang['ticket_settings_updated_successfully']                = 'Ajustes del ticket actualizados con éxito';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Ajustes del ticket actualizados – reasignado al departamento de %s';
 $lang['ticket_dt_subject']                                  = 'Tema';
 $lang['ticket_dt_department']                               = 'Departamento';
 $lang['ticket_dt_service']                                  = 'Servicio';
 $lang['ticket_dt_submitter']                                = 'Cliente';
 $lang['ticket_dt_status']                                   = 'Estado';
 $lang['ticket_dt_priority']                                 = 'Prioridad';
-$lang['ticket_dt_last_reply']                               = 'última respuesta';
+$lang['ticket_dt_last_reply']                               = 'Última Respuesta';
 
-$lang['ticket_single_add_reply']                  = 'Añadir respuesta';
+$lang['ticket_single_add_reply']                  = 'Añadir Respuesta';
 $lang['ticket_single_add_note']                   = 'Añadir la nota';
 $lang['ticket_single_other_user_tickets']         = 'otras billetes';
-$lang['ticket_single_settings']                   = 'ajustes';
+$lang['ticket_single_settings']                   = 'Ajustes';
 $lang['ticket_single_priority']                   = 'Prioridad: %s';
 $lang['ticket_single_last_reply']                 = 'Última respuesta: %s';
 $lang['ticket_single_change_status_top']          = 'Cambiar Estado';
@@ -704,12 +699,12 @@ $lang['ticket_single_change_status']              = 'Cambiar Estado';
 $lang['ticket_single_assign_to_me_on_update']     = 'Asignarme este ticket esta predefinida';
 $lang['ticket_single_insert_predefined_reply']    = 'Insertar respuesta predefinida';
 $lang['ticket_single_insert_knowledge_base_link'] = 'Inserte el enlace a la base de conocimiento';
-$lang['ticket_single_attachments']                = 'Archivos adjuntos';
-$lang['ticket_single_add_response']               = 'Añadir respuesta';
+$lang['ticket_single_attachments']                = 'Archivos Adjuntos';
+$lang['ticket_single_add_response']               = 'Añadir Respuesta';
 $lang['ticket_single_note_heading']               = 'Nota';
-$lang['ticket_single_add_note']                   = 'Añadir la nota';
+$lang['ticket_single_add_note']                   = 'Añadir Nota';
 $lang['ticket_settings_none_assigned']            = 'Ningúna';
-$lang['ticket_status_changed_successfuly']        = 'Estado del Ticket Cambiado';
+$lang['ticket_status_changed_successfully']        = 'Estado del Ticket Cambiado';
 $lang['ticket_status_changed_fail']               = 'Problema en el cambio de estado de tickets';
 
 $lang['ticket_staff_string']                    = 'Personal';
@@ -725,7 +720,7 @@ $lang['staff_members']                   = 'Los miembros del personal';
 $lang['staff_member']                    = 'Miembro del equipo';
 $lang['staff_member_lowercase']          = 'miembro del equipo';
 $lang['staff_profile_updated']           = 'Tu perfil ha sido actualizado';
-$lang['staff_old_password_incorect']     = 'Su antigua contraseña es incorrecta';
+$lang['staff_old_password_incorrect']     = 'Su antigua contraseña es incorrecta';
 $lang['staff_password_changed']          = 'Su contraseña ha sido cambiada';
 $lang['staff_problem_changing_password'] = 'Problema cambiar su contraseña';
 $lang['staff_profile_string']            = 'Perfil';
@@ -733,9 +728,9 @@ $lang['staff_profile_string']            = 'Perfil';
 $lang['staff_cant_remove_main_admin']          = 'No puede quitarse de administrador principal';
 $lang['staff_cant_remove_yourself_from_admin'] = 'Usted no puede darse la función de administrador';
 
-$lang['staff_dt_name']       = 'Nombre completo';
+$lang['staff_dt_name']       = 'Nombre Completo';
 $lang['staff_dt_email']      = 'Email';
-$lang['staff_dt_last_Login'] = 'Último acceso';
+$lang['staff_dt_last_Login'] = 'Último Acceso';
 $lang['staff_dt_active']     = 'Activo';
 
 $lang['staff_add_edit_firstname']             = 'Nombre';
@@ -745,15 +740,15 @@ $lang['staff_add_edit_phonenumber']           = 'Teléfono';
 $lang['staff_add_edit_facebook']              = 'Facebook';
 $lang['staff_add_edit_linkedin']              = 'LinkedIn';
 $lang['staff_add_edit_skype']                 = 'Skype';
-$lang['staff_add_edit_departments']           = 'departamentos miembro';
-$lang['staff_add_edit_role']                  = 'Papel';
+$lang['staff_add_edit_departments']           = 'Departamentos';
+$lang['staff_add_edit_role']                  = 'Cargo';
 $lang['staff_add_edit_permissions']           = 'Permisos';
 $lang['staff_add_edit_administrator']         = 'Administrador';
 $lang['staff_add_edit_password']              = 'Contraseña';
 $lang['staff_add_edit_password_note']         = 'Nota: Si rellena estos campos, la contraseña será cambiada en este miembro.';
 $lang['staff_add_edit_password_last_changed'] = 'Contraseña cambió por última vez';
 $lang['staff_add_edit_notes']                 = 'Notas';
-$lang['staff_add_edit_note_description']      = 'Descripción nota';
+$lang['staff_add_edit_note_description']      = 'Descripción';
 
 $lang['staff_notes_table_description_heading'] = 'Nota';
 $lang['staff_notes_table_addedfrom_heading']   = 'Desde añadido';
@@ -764,25 +759,25 @@ $lang['staff_profile_notifications'] = 'Notificaciones';
 $lang['staff_profile_departments']   = 'Departamentos';
 
 $lang['staff_edit_profile_image']                     = 'Imagen de perfil';
-$lang['staff_edit_profile_your_departments']          = 'Sus departamentos';
-$lang['staff_edit_profile_change_your_password']      = 'cambia tu contraseña';
-$lang['staff_edit_profile_change_old_password']       = 'Contraseña anterior';
+$lang['staff_edit_profile_your_departments']          = 'Sus Departamentos';
+$lang['staff_edit_profile_change_your_password']      = 'Cambia tu Contraseña';
+$lang['staff_edit_profile_change_old_password']       = 'Contraseña Anterior';
 $lang['staff_edit_profile_change_new_password']       = 'Nueva contraseña';
 $lang['staff_edit_profile_change_repet_new_password'] = 'Repita la nueva contraseña';
 
 # Surveys
-$lang['new_survey']                    = 'Nueva encuesta';
+$lang['new_survey']                    = 'Nueva Encuesta';
 $lang['surveys']                       = 'Encuestas';
 $lang['survey']                        = 'Encuesta';
 $lang['survey_lowercase']              = 'encuesta';
 $lang['survey_no_mail_lists_selected'] = 'No hay listas de correo seleccionados';
-$lang['survey_send_success_note']      = 'Todos los correos electrónicos de la encuesta ( %s) será envíados vía la Cron Job con intervalos de 5 minutos';
+$lang['survey_send_success_note']      = 'Todos los correos electrónicos de la encuesta ( %s) seran enviados vía la Cron Job con intervalos de 5 minutos';
 $lang['survey_result']                 = 'Resultado Encuesta: %s';
 $lang['question_string']               = 'Pregunta';
 $lang['question_field_string']         = 'Campo';
 
-$lang['survey_list_view_tooltip']         = 'Ver resultados';
-$lang['survey_list_view_results_tooltip'] = 'Ver resultados';
+$lang['survey_list_view_tooltip']         = 'Ver Resultados';
+$lang['survey_list_view_results_tooltip'] = 'Ver Resultados';
 
 $lang['survey_add_edit_subject']                   = 'Sujetos de la encuesta';
 $lang['survey_add_edit_email_description']         = 'Descripción encuesta (E-mail Descripción)';
@@ -793,7 +788,7 @@ $lang['survey_add_edit_short_description_view']    = 'Encuesta breve descripció
 $lang['survey_add_edit_from']                      = 'A partir de (desplegable en el email)';
 $lang['survey_add_edit_redirect_url']              = 'URL de redireccionamiento encuesta';
 $lang['survey_add_edit_red_url_note']              = 'Cuando la encuesta ha acabado donde redirigir al usuario? (dejar en blanco para este sitio url)';
-$lang['survey_add_edit_disabled']                  = 'Desabilitado';
+$lang['survey_add_edit_disabled']                  = 'Deshabilitado';
 $lang['survey_add_edit_only_for_logged_in']        = 'Sólo iniciar sesión para los participantes (personal, clientes)';
 $lang['send_survey_string']                        = 'Enviar Encuesta';
 $lang['survey_send_mail_list_clients']             = 'Clientes';
@@ -803,32 +798,32 @@ $lang['survey_send_mail_lists_note_logged_in']     = 'Nota: Si va a enviar la en
 $lang['survey_send_string']                        = 'Enviar';
 
 $lang['survey_send_to_total']  = 'Enviar a un total de %s mensajes de email';
-$lang['survey_send_till_now']  = 'Hasta ahora';
+$lang['survey_send_till_now']  = 'Hasta Ahora';
 $lang['survey_send_finished']  = 'Enviar encuesta terminó: %s';
 $lang['survey_added_to_queue'] = 'Se añade esta encuesta a la cola de Cron Job en %s';
 
 $lang['survey_questions_string']          = 'Preguntas de la encuesta';
-$lang['survey_insert_field']              = 'Insertar campo';
+$lang['survey_insert_field']              = 'Insertar Campo';
 $lang['survey_field_checkbox']            = 'Caja';
 $lang['survey_field_radio']               = 'Radio';
-$lang['survey_field_input']               = 'Campo de entrada';
-$lang['survey_field_textarea']            = 'Área de texto';
+$lang['survey_field_input']               = 'Campo de Cntrada';
+$lang['survey_field_textarea']            = 'Área de Texto';
 $lang['survey_question_required']         = 'Necesario';
 $lang['survey_question_only_for_preview'] = 'Sólo para la vista previa';
 $lang['survey_create_first']              = 'Es necesario crear la primera encuesta, entonces usted será capaz de insertar las preguntas.';
 
 
 $lang['survey_dt_name']               = 'Nombre';
-$lang['survey_dt_total_questions']    = 'Total de preguntas';
-$lang['survey_dt_total_participants'] = 'Total de participantes';
-$lang['survey_dt_date_created']       = 'Fecha de creacion';
+$lang['survey_dt_total_questions']    = 'Total de Preguntas';
+$lang['survey_dt_total_participants'] = 'Total de Participantes';
+$lang['survey_dt_date_created']       = 'Fecha de Creación';
 $lang['survey_dt_active']             = 'Activo';
 
 $lang['survey_text_questions_results'] = 'Resultado de las preguntas de la encuesta';
 $lang['survey_view_all_answers']       = 'Ver todas las respuestas';
 
 # Staff Tasks
-$lang['new_task']       = 'Nueva tarea';
+$lang['new_task']       = 'Nueva Tarea';
 $lang['tasks']          = 'Tareas';
 $lang['task']           = 'Tarea';
 $lang['task_lowercase'] = 'tarea';
@@ -842,18 +837,18 @@ $lang['task_no_assignees'] = 'No hay asignados para esta tarea';
 $lang['task_no_followers'] = 'Sin seguidores para esta tarea';
 
 $lang['task_list_all']            = 'Todas';
-$lang['task_list_not_assigned']   = 'No asignado';
+$lang['task_list_not_assigned']   = 'Por Asignado';
 $lang['task_list_duedate_passed'] = 'Debido fecha pasada';
 $lang['tasks_dt_name']            = 'Nombre';
 
 $lang['task_single_priority']               = 'Prioridad';
-$lang['task_single_start_date']             = 'Fecha de inicio';
-$lang['task_single_due_date']               = 'Fecha de vencimiento';
+$lang['task_single_start_date']             = 'Fecha de Inicio';
+$lang['task_single_due_date']               = 'Fecha de Vencimiento';
 $lang['task_single_finished']               = 'Terminado';
-$lang['task_single_mark_as_complete']       = 'Marcar como completa';
+$lang['task_single_mark_as_complete']       = 'Marcar como Completa';
 $lang['task_single_edit']                   = 'Editar';
 $lang['task_single_delete']                 = 'Borrar';
-$lang['task_single_assignees']              = 'Ejecutivo de Ventas';
+$lang['task_single_assignees']              = 'Comercial';
 $lang['task_single_assignees_select_title'] = 'Asignar tareas para';
 $lang['task_single_followers']              = 'Seguidores';
 $lang['task_single_followers_select_title'] = 'Añadir Seguidores';
@@ -866,12 +861,12 @@ $lang['task_priority_low']         = 'Bajo';
 $lang['task_priority_medium']      = 'Medio';
 $lang['task_priority_high']        = 'Alto';
 $lang['task_priority_urgent']      = 'Urgente';
-$lang['task_add_edit_start_date']  = 'Fecha de inicio';
-$lang['task_add_edit_due_date']    = 'Fecha de vencimiento';
+$lang['task_add_edit_start_date']  = 'Fecha de Inicio';
+$lang['task_add_edit_due_date']    = 'Fecha de Vencimiento';
 $lang['task_add_edit_description'] = 'Descripción de la tarea';
 
 # Taxes
-$lang['new_tax']       = 'Nuevo impuesto';
+$lang['new_tax']       = 'Nuevo Impuesto';
 $lang['taxes']         = 'Impuestos';
 $lang['tax']           = 'Impuesto';
 $lang['tax_lowercase'] = 'impuesto';
@@ -885,9 +880,9 @@ $lang['tax_add_title']     = 'Añadir nuevo impuesto';
 
 # Ticket Statuses
 $lang['new_ticket_status']       = 'Nuevo estado de tickets';
-$lang['ticket_statuses']         = 'Los estados de tickets';
+$lang['ticket_statuses']         = 'Estados de los tickets';
 $lang['ticket_status']           = 'Estado del ticket';
-$lang['ticket_status_lowercase'] = 'estado de los tickets';
+$lang['ticket_status_lowercase'] = 'estado del ticket';
 
 $lang['ticket_statuses_dt_name']      = 'Nombre Estado del Ticket';
 $lang['no_ticket_statuses_found']     = 'No se encontraron estados de los tickets';
@@ -919,11 +914,11 @@ $lang['utility_activity_log_dt_description']        = 'Descripción';
 $lang['utility_activity_log_dt_date']               = 'Fecha';
 $lang['utility_activity_log_dt_staff']              = 'Personal';
 $lang['utility_calendar_new_event_title']           = 'Agregar un nuevo evento';
-$lang['utility_calendar_new_event_start_date']      = 'Fecha de inicio';
-$lang['utility_calendar_new_event_end_date']        = 'Fecha final';
-$lang['utility_calendar_new_event_make_public']     = 'Hacer público';
-$lang['utility_calendar_event_added_successfuly']   = 'Nuevo evento añadido con éxito';
-$lang['utility_calendar_event_deleted_successfuly'] = 'Evento eliminado';
+$lang['utility_calendar_new_event_start_date']      = 'Fecha de Inicio';
+$lang['utility_calendar_new_event_end_date']        = 'Fecha Final';
+$lang['utility_calendar_new_event_make_public']     = 'Hacer Público';
+$lang['utility_calendar_event_added_successfully']   = 'Nuevo evento añadido con éxito';
+$lang['utility_calendar_event_deleted_successfully'] = 'Evento eliminado';
 $lang['utility_calendar_new_event_placeholder']     = 'Título del evento';
 
 
@@ -938,7 +933,7 @@ $lang['nav_customizer_tooltip']     = 'Personalización de la configuración';
 $lang['nav_notifications_tooltip']  = 'Ver notificaciones';
 
 ## Clients
-$lang['clients_required_field'] = 'Campo requerido';
+$lang['clients_required_field'] = 'Campo Obligatorio';
 
 # Footer
 $lang['clients_copyright'] = 'Derechos de autor de %s';
@@ -950,8 +945,8 @@ $lang['clients_announcement_added'] = 'Adicional:';
 # Contracts
 $lang['clients_contracts']               = 'Contratos';
 $lang['clients_contracts_dt_subject']    = 'Tema';
-$lang['clients_contracts_dt_start_date'] = 'Fecha de inicio';
-$lang['clients_contracts_dt_end_date']   = 'Fecha final';
+$lang['clients_contracts_dt_start_date'] = 'Fecha de Inicio';
+$lang['clients_contracts_dt_end_date']   = 'Fecha Final';
 
 # Home
 $lang['clients_quick_invoice_info']                = 'Rápida Información de Las facturas';
@@ -959,11 +954,11 @@ $lang['clients_home_currency_select_tooltip']      = 'Es necesario seleccionar l
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Descargar';
 
-$lang['clients_my_invoices']        = 'Mis facturas';
-$lang['clients_invoice_dt_number']  = 'Factura #';
+$lang['clients_my_invoices']        = 'Mis Facturas';
+$lang['clients_invoice_dt_number']  = 'Nº Factura';
 $lang['clients_invoice_dt_date']    = 'Fecha';
-$lang['clients_invoice_dt_duedate'] = 'Fecha de vencimiento';
-$lang['clients_invoice_dt_amount']  = 'Cantidad';
+$lang['clients_invoice_dt_duedate'] = 'Fecha de Vencimiento';
+$lang['clients_invoice_dt_amount']  = 'Valor';
 $lang['clients_invoice_dt_status']  = 'Estado';
 
 # Profile
@@ -974,10 +969,10 @@ $lang['clients_firstname'] = 'Nombre';
 $lang['clients_lastname']  = 'Apellido';
 $lang['clients_email']     = 'Dirección de correo';
 $lang['clients_company']   = 'Empresa';
-$lang['clients_vat']       = 'Número de valor agregado';
+$lang['clients_vat']       = 'NIF';
 $lang['clients_phone']     = 'Teléfono';
 $lang['clients_country']   = 'País';
-$lang['clients_city']      = 'Sector';
+$lang['clients_city']      = 'Localidad';
 $lang['clients_address']   = 'Dirección';
 $lang['clients_zip']       = 'Código Postal';
 $lang['clients_state']     = 'Provincia';
@@ -1016,7 +1011,7 @@ $lang['clients_ticket_attachments']                 = 'Archivos adjuntos';
 $lang['clients_ticket_posted']                      = 'Publicado: %s';
 $lang['clients_single_ticket_string']               = 'Ticket';
 $lang['clients_single_ticket_replied']              = 'Respondió: %s';
-$lang['clients_single_ticket_informations_heading'] = 'Información sobre los tickets';
+$lang['clients_single_ticket_information_heading'] = 'Información sobre los tickets';
 
 $lang['clients_tickets_dt_number']     = 'Ticket #';
 $lang['clients_tickets_dt_subject']    = 'Tema';
@@ -1027,7 +1022,7 @@ $lang['clients_tickets_dt_last_reply'] = 'última respuesta';
 
 
 $lang['clients_ticket_single_department']        = 'Departamento: %s';
-$lang['clients_ticket_single_submited']          = 'Inscrito: %s';
+$lang['clients_ticket_single_submitted']          = 'Inscrito: %s';
 $lang['clients_ticket_single_status']            = 'Estado:';
 $lang['clients_ticket_single_priority']          = 'Prioridad: %s';
 $lang['clients_ticket_single_add_reply_btn']     = 'Añadir respuesta';
@@ -1050,9 +1045,9 @@ $lang['clients_nav_login']     = 'Iniciar sesión';
 $lang['clients_nav_register']  = 'Registro';
 $lang['clients_nav_invoices']  = 'Facturas';
 $lang['clients_nav_contracts'] = 'Contratos';
-$lang['clients_nav_kb']        = 'Base de conocimiento';
+$lang['clients_nav_kb']        = 'Base de Conocimiento';
 $lang['clients_nav_profile']   = 'Perfil';
-$lang['clients_nav_logout']    = 'Cerrar sesión';
+$lang['clients_nav_logout']    = 'Cerrar Sesión';
 
 # Datatables
 $lang['clients_dt_paginate_first']    = 'Primero';
@@ -1076,29 +1071,29 @@ $lang['clients_dt_sort_descending']   = 'Activar para ordenar la columna descend
 # Admin
 #
 # Payments
-$lang['payment_receipt']                               = 'Recibo de pago';
+$lang['payment_receipt']                               = 'Recibo de Pago';
 $lang['payment_for_string']                            = 'Pago por';
-$lang['payment_date']                                  = 'Fecha de pago:';
-$lang['payment_view_mode']                             = 'Modo de pago:';
-$lang['payment_total_amount']                          = 'Cantidad total';
-$lang['payment_table_invoice_number']                  = 'Número de factura';
-$lang['payment_table_invoice_date']                    = 'Fecha de la factura';
-$lang['payment_table_invoice_amount_total']            = 'Importe de la factura';
-$lang['payment_table_payment_amount_total']            = 'Monto del pago';
+$lang['payment_date']                                  = 'Fecha de Pago:';
+$lang['payment_view_mode']                             = 'Modo de Pago:';
+$lang['payment_total_amount']                          = 'Valor Total';
+$lang['payment_table_invoice_number']                  = 'Número de la Factura';
+$lang['payment_table_invoice_date']                    = 'Fecha de la Factura';
+$lang['payment_table_invoice_amount_total']            = 'Total de la Factura';
+$lang['payment_table_payment_amount_total']            = 'Valor del pago';
 $lang['payments_table_transaction_id']                 = 'ID de transacción: %s';
-$lang['payment_getaway_token_not_found']               = 'Pasarella de pago no encontrada';
+$lang['payment_getaway_token_not_found']               = 'Sin Pasarella de Pago';
 $lang['online_payment_recorded_success']               = 'Pago registrado con éxito';
 $lang['online_payment_recorded_success_fail_database'] = 'El pago se realiza correctamente pero no se pudo insertar el pago en la base de datos, por favor, contacta al administrador';
 
 # Leads
-$lang['lead_convert_to_client']                   = 'Convertir a cliente';
+$lang['lead_convert_to_client']                   = 'Convertir en Cliente';
 $lang['lead_convert_to_email']                    = 'Email';
 $lang['lead_convert_to_client_firstname']         = 'Nombre';
 $lang['lead_convert_to_client_lastname']          = 'Apellido';
-$lang['lead_email_already_exists']                = 'El email Lead ya existe en los datos de los clientes';
-$lang['lead_to_client_base_converted_success']    = 'El Lead se ha convertido a cliente exitosamente';
-$lang['lead_have_client_profile']                 = 'Este Lead tiene un perfil de cliente.';
-$lang['lead_converted_edit_client_profile']       = 'Editar perfil';
+$lang['lead_email_already_exists']                = 'El email Contacto ya existe en los datos de los clientes';
+$lang['lead_to_client_base_converted_success']    = 'El Contacto se ha convertido a cliente exitosamente';
+$lang['lead_have_client_profile']                 = 'Este Contacto tiene un perfil de cliente.';
+$lang['lead_converted_edit_client_profile']       = 'Editar Perfil';
 
 # Invoices
 $lang['view_invoice_as_customer_tooltip']                                     = 'Ver factura como cliente';
@@ -1108,15 +1103,15 @@ $lang['invoice_add_edit_recurring_month']                                     = 
 $lang['invoice_add_edit_recurring_months']                                    = 'Cada %s meses';
 $lang['invoices_list_all']                                                    = 'Todas';
 $lang['invoices_list_not_have_payment']                                       = 'Facturas con ningún registro de pago';
-$lang['invoices_list_recuring']                                               = 'Las facturas recurrentes';
+$lang['invoices_list_recurring']                                               = 'Las facturas recurrentes';
 $lang['invoices_list_made_payment_by']                                        = 'Pago realizado por %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Crear la siguiente factura recurrente aunque la anterior no haya sido pagada';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = '¿Crear la siguiente factura recurrente aunque la anterior no haya sido pagada?';
 $lang['send_renewed_invoice_from_recurring_to_email']                         = 'Enviar automáticamente la factura de renovacion para el cliente';
-$lang['view_invoice_pdf_link_pay']                                            = 'Factura de pago';
+$lang['view_invoice_pdf_link_pay']                                            = 'Enlace para Pago de la Factura';
 
 # Payment modes
-$lang['payment_mode_add_edit_description']         = 'Cuentas bancarias / Descripción';
+$lang['payment_mode_add_edit_description']         = 'Cuentas Cancarias / Descripción';
 $lang['payment_mode_add_edit_description_tooltip'] = 'Se puede establecer aquí la información de cuentas bancarias. Se mostrará en HTML Factura';
 $lang['payment_modes_dt_description']              = 'Cuentas bancarias / Descripción';
 $lang['payment_modes_add_edit_announcement']       = 'Nota: Los modos de pago que figuran a continuación son los modos offline. Los modos de pago en línea se pueden configurar en Preferencias->pasarelas de pago';
@@ -1170,11 +1165,11 @@ $lang['payment_total']       = 'Total: %s';
 
 # Invoice
 $lang['invoice_html_online_payment']             = 'Pago en línea';
-$lang['invoice_html_online_payment_button_text'] = 'Pague ahora';
+$lang['invoice_html_online_payment_button_text'] = 'Pague Ahora';
 $lang['invoice_html_payment_modes_not_selected'] = 'Por favor, seleccione el modo de pago';
-$lang['invoice_html_amount_blank']               = 'La cantidad total no puedo estar en blanco o vacia';
-$lang['invoice_html_offline_payment']            = 'El pago en línea';
-$lang['invoice_html_amount']                     = 'Cantidad';
+$lang['invoice_html_amount_blank']               = 'El valor total no puede estar en blanco o vacio';
+$lang['invoice_html_offline_payment']            = 'Forma de Pago';
+$lang['invoice_html_amount']                     = 'Valor';
 
 
 # Version 1.0.2
@@ -1193,19 +1188,19 @@ $lang['is_active_export']             = 'Sí';
 # Invoice
 $lang['invoice_add_edit_advanced_options']               = 'Opciones avanzadas';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'Modos de pago permitidos para esta factura';
-$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Facturas recurrentes de esta factura';
+$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'Facturas recurrentes de esta factura';
 $lang['invoice_add_edit_no_payment_modes_found']         = 'No se encontraron modos de pago.';
 $lang['invoice_html_total_pay']                          = 'Total: %s';
 
 # Email templates
 $lang['email_templates_table_heading_name'] = 'Nombre de la plantilla';
 # General
-$lang['discount_type']                      = 'Tipo de descuento';
-$lang['discount_type_after_tax']            = 'Despues del impuesto';
-$lang['discount_type_before_tax']           = 'Antes de los impuestos';
-$lang['terms_and_conditions']               = 'Términos y condiciones';
+$lang['discount_type']                      = 'Tipo de Descuento';
+$lang['discount_type_after_tax']            = 'Después del Impuesto';
+$lang['discount_type_before_tax']           = 'Antes del Impuesto';
+$lang['terms_and_conditions']               = 'Términos y Condiciones';
 $lang['reference_no']                       = 'Referencia #';
-$lang['no_discount']                        = 'Sin descuento';
+$lang['no_discount']                        = 'Sin Descuento';
 $lang['view_stats_tooltip']                 = 'Ver Estadísticas Rápidas';
 # Clients
 $lang['zip_from_date']                      = 'De la fecha:';
@@ -1219,7 +1214,7 @@ $lang['client_zip_payment_modes']           = 'Pago realizado por';
 $lang['client_zip_no_data_found']           = 'No se han encontrado %s';
 
 # Payments
-$lang['payment_mode']         = 'Modo de pago';
+$lang['payment_mode']         = 'Forma de pago';
 $lang['payment_view_heading'] = 'Pago';
 
 # Settings
@@ -1249,7 +1244,7 @@ $lang['settings_sales_heading_company']                             = 'Empresa';
 $lang['settings_sales_cron_invoice_heading']                        = 'Factura';
 
 # Tasks
-$lang['tasks_dt_datestart'] = 'Fecha de inicio';
+$lang['tasks_dt_datestart'] = 'Fecha de Inicio';
 $lang['tasks_dt_priority']  = 'Prioridad';
 
 # Invoice General
@@ -1277,12 +1272,12 @@ $lang['November']  = 'Noviembre';
 $lang['December']  = 'Diciembre';
 
 # Time ago function translate
-$lang['time_ago_just_now']  = 'Justo ahora';
+$lang['time_ago_just_now']  = 'Ahora Mismo';
 $lang['time_ago_minute']    = 'Hace un minuto';
 $lang['time_ago_minutes']   = 'Hace %s minutos';
 $lang['time_ago_hour']      = 'Hace una hora';
-$lang['time_ago_hours']     = 'Hace %s hrs';
-$lang['time_ago_yesterday'] = 'ayer';
+$lang['time_ago_hours']     = 'Hace %s horas';
+$lang['time_ago_yesterday'] = 'Ayer';
 $lang['time_ago_days']      = 'Hace %s días';
 $lang['time_ago_week']      = 'Hace una semana';
 $lang['time_ago_weeks']     = 'Hace %s semanas';
@@ -1293,9 +1288,9 @@ $lang['time_ago_years']     = 'Hace %s años';
 
 
 # Estimates
-$lang['estimates']                          = 'Estimaciones';
-$lang['estimate']                           = 'Estimar';
-$lang['estimate_lowercase']                 = 'estimar';
+$lang['estimates']                          = 'Presupuestos';
+$lang['estimate']                           = 'Presupuesto';
+$lang['estimate_lowercase']                 = 'presupuesto';
 $lang['create_new_estimate']                = 'Crear Presupuesto';
 $lang['view_estimate']                      = 'Ver Presupuesto';
 $lang['estimate_sent_to_client_success']    = 'La Presupuesto ha sido enviada con éxito al cliente';
@@ -1304,18 +1299,18 @@ $lang['estimate_reminder_send_problem']     = 'Problema con la Presupuesto al en
 $lang['estimate_details']                   = 'Presupuesto Detalles';
 $lang['estimate_view']                      = 'Ver Presupuesto';
 $lang['estimate_select_customer']           = 'Cliente';
-$lang['estimate_add_edit_number']           = 'Número presupuesto';
-$lang['estimate_add_edit_date']             = 'Presupuesto Fecha';
-$lang['estimate_add_edit_expirydate']       = 'Fecha de caducidad';
+$lang['estimate_add_edit_number']           = 'Número Presupuesto';
+$lang['estimate_add_edit_date']             = 'Fecha del Presupuesto';
+$lang['estimate_add_edit_expirydate']       = 'Fecha de Caducidad';
 $lang['estimate_add_edit_currency']         = 'Moneda';
-$lang['estimate_add_edit_client_note']      = 'Nota cliente';
-$lang['estimate_add_edit_admin_note']       = 'admin Nota';
-$lang['estimate_add_edit_new_item']         = 'Nuevo artículo';
+$lang['estimate_add_edit_client_note']      = 'Nota Cliente';
+$lang['estimate_add_edit_admin_note']       = 'Nota del Admin';
+$lang['estimate_add_edit_new_item']         = 'Nuevo Artículo';
 $lang['estimate_add_edit_search_item']      = 'búsqueda Artículos';
 $lang['estimates_toggle_table_tooltip']     = 'Ver Tabla Completa';
-$lang['estimate_add_edit_advanced_options'] = 'Opciones avanzadas';
-$lang['estimate_vat']                       = 'Número de valor agregado';
-$lang['estimate_to']                        = 'A';
+$lang['estimate_add_edit_advanced_options'] = 'Opciones Avanzadas';
+$lang['estimate_vat']                       = 'NIF';
+$lang['estimate_to']                        = 'Para';
 $lang['estimates_list_all']                 = 'Todas';
 
 $lang['estimate_invoiced_date']                  = 'Presupuesto Facturas en %s';
@@ -1333,8 +1328,8 @@ $lang['estimate_send_to_client_preview_template'] = 'Vista previa de plantilla d
 $lang['estimate_dt_table_heading_number']     = 'Presupuesto #';
 $lang['estimate_dt_table_heading_date']       = 'Fecha';
 $lang['estimate_dt_table_heading_client']     = 'Cliente';
-$lang['estimate_dt_table_heading_expirydate'] = 'Fecha de caducidad';
-$lang['estimate_dt_table_heading_amount']     = 'Cantidad';
+$lang['estimate_dt_table_heading_expirydate'] = 'Fecha de Caducidad';
+$lang['estimate_dt_table_heading_amount']     = 'Valor';
 $lang['estimate_dt_table_heading_status']     = 'Estado';
 
 $lang['estimate_email_link_text']    = 'Ver Presupuesto';
@@ -1348,45 +1343,45 @@ $lang['client_payments_tab']  = 'Pagos';
 
 
 # Estimate General
-$lang['estimate_pdf_heading']            = 'ESTIMAR';
+$lang['estimate_pdf_heading']            = 'Presupuesto';
 $lang['estimate_table_item_heading']     = 'Artículo';
 $lang['estimate_table_quantity_heading'] = 'Cantidad';
-$lang['estimate_table_rate_heading']     = 'Tarifa';
+$lang['estimate_table_rate_heading']     = 'Precio';
 $lang['estimate_table_tax_heading']      = 'Impuesto';
-$lang['estimate_table_amount_heading']   = 'Cantidad';
-$lang['estimate_subtotal']               = 'Sub total';
+$lang['estimate_table_amount_heading']   = 'Valor';
+$lang['estimate_subtotal']               = 'Total Neto';
 $lang['estimate_adjustment']             = 'Ajuste';
 $lang['estimate_discount']               = 'Descuento';
 $lang['estimate_total']                  = 'Total';
-$lang['estimate_to']                     = 'A';
-$lang['estimate_data_date']              = 'Presupuesto Fecha';
-$lang['estimate_data_expiry_date']       = 'Fecha de caducidad';
+$lang['estimate_to']                     = 'Para';
+$lang['estimate_data_date']              = 'Fecha del Presupuesto';
+$lang['estimate_data_expiry_date']       = 'Fecha de Caducidad';
 $lang['estimate_note']                   = 'Nota:';
 $lang['estimate_status_draft']           = 'Borrador';
-$lang['estimate_status_sent']            = 'Expedido';
-$lang['estimate_status_declined']        = 'Declinada';
+$lang['estimate_status_sent']            = 'Enviado';
+$lang['estimate_status_declined']        = 'Rechazado';
 $lang['estimate_status_accepted']        = 'Aceptado';
 $lang['estimate_status_expired']         = 'Expirado';
 $lang['estimate_note']                   = 'Nota:';
 
 # Quick create
 $lang['qa_create_estimate'] = 'Crear Presupuesto';
-$lang['qa_create_lead']     = 'Crear Lead';
+$lang['qa_create_lead']     = 'Crear Contacto';
 
 
 ## Clients
-$lang['clients_estimate_dt_number']             = 'Presupuesto #';
+$lang['clients_estimate_dt_number']             = 'Presupuesto Nº';
 $lang['clients_estimate_dt_date']               = 'Fecha';
-$lang['clients_estimate_dt_duedate']            = 'Fecha de caducidad';
-$lang['clients_estimate_dt_amount']             = 'Cantidad';
+$lang['clients_estimate_dt_duedate']            = 'Fecha de Caducidad';
+$lang['clients_estimate_dt_amount']             = 'Valor';
 $lang['clients_estimate_dt_status']             = 'Estado';
 $lang['clients_nav_estimates']                  = 'Presupuestos';
 $lang['clients_decline_estimate']               = 'No Aceptar';
 $lang['clients_accept_estimate']                = 'Aceptar';
 $lang['clients_my_estimates']                   = 'Presupuestos';
-$lang['clients_estimate_invoiced_successfuly']  = 'Presupuesto Aceptado. Aquí está la factura de esta Presupuesto';
+$lang['clients_estimate_invoiced_successfully']  = 'Presupuesto Aceptado. Aquí está la factura de esta Presupuesto';
 $lang['clients_estimate_accepted_not_invoiced'] = 'Gracias por aceptar esta Presupuesto';
-$lang['clients_estimate_declined']              = 'Presupuesto declinada. Puede aceptar la Presupuesto en cualquier momento antes de la fecha de caducidad';
+$lang['clients_estimate_declined']              = 'Presupuesto Rechazado. Puede aceptar la Presupuesto en cualquier momento antes de la fecha de caducidad';
 $lang['clients_estimate_failed_action']         = 'No se pudo tomar una decisión sobre esta Presupuesto';
 $lang['client_add_edit_profile']                = 'Perfil';
 
@@ -1401,7 +1396,8 @@ $lang['custom_fields_lowercase']               = 'campos personalizados';
 $lang['new_custom_field']                      = 'Nuevo campo personalizado';
 $lang['custom_field_name']                     = 'Nombre del campo';
 $lang['custom_field_add_edit_type']            = 'Tipo';
-$lang['custom_field_add_edit_belongs_top']     = 'El campo pertenece a';
+$lang['custom_field_add_edit_belongs_top']     = 'El campo pertenece
+';
 $lang['custom_field_add_edit_options']         = 'Opciones';
 $lang['custom_field_add_edit_options_tooltip'] = 'Utilice únicamente para ciertos tipos. Rellene el campo las Opciones mediante la separación de coma. Ex. manzana, naranja, plátano';
 $lang['custom_field_add_edit_order']           = 'Orden';
@@ -1420,13 +1416,13 @@ $lang['ticket_reply_lowercase'] = 'respuesta de tickets';
 $lang['asc_custom_fields'] = 'Campos Personalizados';
 
 # Contracts
-$lang['contract_types']          = 'Tipos de contratos';
-$lang['contract_type']           = 'Tipo de contrato';
-$lang['new_contract_type']       = 'Nuevo Tipo de contrato';
+$lang['contract_types']          = 'Tipos de Contratos';
+$lang['contract_type']           = 'Tipo de Contrato';
+$lang['new_contract_type']       = 'Nuevo Tipo de Contrato';
 $lang['contract_type_lowercase'] = 'contrato';
 $lang['contract_type_name']      = 'Nombre';
 
-$lang['contract_types_list_name'] = 'tipo de contrato';
+$lang['contract_types_list_name'] = 'Tipo de Contrato';
 
 # Customizer Menu
 $lang['acs_contracts']      = 'Contratos';
@@ -1434,42 +1430,42 @@ $lang['acs_contract_types'] = 'Tipos de contratos';
 
 # Version 1.0.4
 # Invoice Items
-$lang['invoice_item_long_description']     = 'Descripción larga';
+$lang['invoice_item_long_description']     = 'Descripción Larga';
 # Customers
 $lang['client_delete_invoices_warning']    = 'Este cliente tiene facturas o presupuestos en su cuenta. Usted no puede eliminar este cliente. Cambie todas las facturas a otro cliente y a continuación, elimine.';
 $lang['clients_list_phone']                = 'Teléfono';
 $lang['client_expenses_tab']               = 'Gastos';
 $lang['customers_summary']                 = 'Resumen de los Clientes';
-$lang['customers_summary_active']          = 'Contactos Activo';
+$lang['customers_summary_active']          = 'Contactos Activos';
 $lang['customers_summary_inactive']        = 'Contactos Inactivos';
-$lang['customers_summary_logged_in_today'] = 'Conectados actualmente';
+$lang['customers_summary_logged_in_today'] = 'Conectados Actualmente';
 
 # Authentication
-$lang['admin_auth_forgot_password_email']             = 'Dirección de correo';
+$lang['admin_auth_forgot_password_email']             = 'Dirección de Correo';
 $lang['admin_auth_forgot_password_heading']           = 'Se te olvidó tu contraseña';
-$lang['admin_auth_login_heading']                     = 'Iniciar sesión';
-$lang['admin_auth_login_email']                       = 'Dirección de correo';
+$lang['admin_auth_login_heading']                     = 'Iniciar Sesión';
+$lang['admin_auth_login_email']                       = 'Dirección de Correo';
 $lang['admin_auth_login_password']                    = 'Contraseña';
 $lang['admin_auth_login_remember_me']                 = 'Recuérdame';
-$lang['admin_auth_login_button']                      = 'Iniciar sesión';
-$lang['admin_auth_login_fp']                          = '¿Se te olvidó tu contraseña?';
-$lang['admin_auth_reset_password_heading']            = 'Restablecer la contraseña';
+$lang['admin_auth_login_button']                      = 'Iniciar Sesión';
+$lang['admin_auth_login_fp']                          = '¿Se olvidó de la contraseña?';
+$lang['admin_auth_reset_password_heading']            = 'Restablecer la Contraseña';
 $lang['admin_auth_reset_password']                    = 'Contraseña';
-$lang['admin_auth_reset_password_repeat']             = 'Repite la contraseña';
+$lang['admin_auth_reset_password_repeat']             = 'Repite la Contraseña';
 $lang['admin_auth_invalid_email_or_password']         = 'email o contraseña no válidos';
-$lang['admin_auth_inactive_account']                  = 'Cuenta inactiva';
+$lang['admin_auth_inactive_account']                  = 'Cuenta Inactiva';
 # Calender
-$lang['calendar_estimate']                            = 'Estimar';
+$lang['calendar_estimate']                            = 'Presupuesto';
 $lang['calendar_invoice']                             = 'Factura';
 $lang['calendar_contract']                            = 'Contrato';
-$lang['calendar_customer_reminder']                     = 'Recordatorio del cliente';
+$lang['calendar_customer_reminder']                   = 'Recordatorio al Cliente';
 $lang['calendar_event']                               = 'Evento';
 $lang['calendar_task']                                = 'Tarea';
 # Leads
-$lang['lead_edit_delete_tooltip']                     = 'eliminar Lead';
-$lang['lead_attachments']                             = 'Archivos adjuntos';
+$lang['lead_edit_delete_tooltip']                     = 'Eliminar Contacto';
+$lang['lead_attachments']                             = 'Archivos Adjuntos';
 # Admin Customizer Sidebar
-$lang['acs_finance']                                  = 'Estimaciones';
+$lang['acs_finance']                                  = 'Presupuestos';
 # Settings
 $lang['settings_show_sale_agent_on_invoices']         = 'Mostrar el comercial en la factura';
 $lang['settings_show_sale_agent_on_estimates']        = 'Mostrar el comercial en Presupuesto';
@@ -1481,30 +1477,30 @@ $lang['settings_custom_pdf_logo_image_url_tooltip']   = 'Probablemente va a tene
 
 # General
 $lang['sale_agent_string']               = 'Comercial';
-$lang['amount_display_in_base_currency'] = 'Cantidad se muestra en su moneda base';
+$lang['amount_display_in_base_currency'] = 'Valor se muestra en su moneda base';
 
 # Leads
-$lang['leads_summary']                                         = 'Resumen de Leads';
+$lang['leads_summary']                                         = 'Resumen de Contactos';
 
 # Contracts
-$lang['contract_value']                 = 'Valor del contrato';
+$lang['contract_value']                 = 'Valor del Contrato';
 $lang['contract_trash']                 = 'Basura';
-$lang['contracts_view_trash']           = 'vista de los Basura';
+$lang['contracts_view_trash']           = 'Ver Basura';
 $lang['contracts_view_all']             = 'Todas';
 $lang['contracts_view_exclude_trashed'] = 'Excluir los contratos basura';
 $lang['contract_value_tooltip']         = 'Añadir valor del contrato. El valor se mostrará en su moneda base.';
 $lang['contract_trash_tooltip']         = 'Si agrega contrato como basura, no será mostrado en el lado del cliente, no será incluido en el tablero y otras estadísticas y también por defecto suele ser mostrado cuando se mostrará una lista de todos los contratos.';
 
-$lang['contract_renew_heading']               = 'Renovar contrato';
-$lang['contract_summary_heading']             = 'Resumen de contrato';
+$lang['contract_renew_heading']               = 'Renovar Contrato';
+$lang['contract_summary_heading']             = 'Resumen de Contrato';
 $lang['contract_summary_expired']             = 'Expirado';
 $lang['contract_summary_active']              = 'Activo';
 $lang['contract_summary_about_to_expire']     = 'A punto de caducar';
 $lang['contract_summary_recently_added']      = 'Recientemente añadido';
 $lang['contract_summary_trash']               = 'Basura';
-$lang['contract_summary_by_type']             = 'Contratos por tipo';
+$lang['contract_summary_by_type']             = 'Por Tipo de Contratos';
 $lang['contract_summary_by_type_value']       = 'Pedidos abiertos por valor de Tipo';
-$lang['contract_renewed_successfuly']         = 'Contrato renovado exitosamente';
+$lang['contract_renewed_successfully']         = 'Contrato renovado exitosamente';
 $lang['contract_renewed_fail']                = 'Problema al renovar el contrato. Contactar con el administrador';
 $lang['no_contract_renewals_found']           = 'Las renovaciones de los contratos de esta no se encuentra';
 $lang['no_contract_renewals_history_heading'] = 'Renovación de Contrato Historia';
@@ -1524,13 +1520,13 @@ $lang['contract_attachment']           = 'Adjunto archivo';
 $lang['contract_attachment_lowercase'] = 'adjunto archivo';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Objetivos de seguimiento';
+$lang['als_goals_tracking']     = 'Objetivos de Seguimiento';
 $lang['als_expenses']           = 'Gastos';
 $lang['als_reports_expenses']   = 'Gastos';
 $lang['als_expenses_vs_income'] = 'Gastos vs Ingresos';
 
 # Invoices
-$lang['invoice_attach_file']           = 'Adjuntar archivo';
+$lang['invoice_attach_file']           = 'Adjuntar Archivo';
 $lang['invoice_mark_as_sent']          = 'Marcar como Enviado';
 $lang['invoice_marked_as_sent']        = 'Factura marcado como enviado con éxito';
 $lang['invoice_marked_as_sent_failed'] = 'Error al marcar la factura en que fue enviado';
@@ -1544,10 +1540,10 @@ $lang['goals']                                         = 'Metas';
 $lang['goal']                                          = 'Meta';
 $lang['goals_tracking']                                = 'objetivos de seguimiento';
 $lang['new_goal']                                      = 'Nueva Meta';
-$lang['goal_lowercase']                                = 'Meta';
-$lang['goal_start_date']                               = 'Fecha de inicio';
-$lang['goal_end_date']                                 = 'Fecha final';
-$lang['goal_subject']                                  = 'Tema';
+$lang['goal_lowercase']                                = 'meta';
+$lang['goal_start_date']                               = 'Fecha Inicial';
+$lang['goal_end_date']                                 = 'Fecha Final';
+$lang['goal_subject']                                  = 'Asunto';
 $lang['goal_description']                              = 'Descripción';
 $lang['goal_type']                                     = 'Tipo de objetivo';
 $lang['goal_achievement']                              = 'Logro';
@@ -1561,21 +1557,21 @@ $lang['goal_income_shown_in_base_currency']            = 'Los ingresos totales s
 $lang['goal_notify_when_end_date_arrives']             = 'Los miembros del personal serán notificados cuando llega la fecha de finalización.';
 $lang['goal_staff_members_notified_about_achievement'] = 'Los miembros del personal son notificados acerca de este logro de la meta';
 $lang['goal_staff_members_notified_about_failure']     = 'Algunos miembros del personal son notificados sobre el fracaso';
-$lang['goal_notify_staff_manualy']                     = 'Notificar a los Miembros del Personal manualmente';
-$lang['goal_notify_staff_notified_manualy_success']    = 'Los miembros del personal son notificados acerca del resultado de la meta';
-$lang['goal_notify_staff_notified_manualy_fail']       = 'No se ha podido notificar a los miembros del personal acerca del resultado de la meta';
+$lang['goal_notify_staff_manually']                     = 'Notificar a los Miembros del Personal manualmente';
+$lang['goal_notify_staff_notified_manually_success']    = 'Los miembros del personal son notificados acerca del resultado de la meta';
+$lang['goal_notify_staff_notified_manually_fail']       = 'No se ha podido notificar a los miembros del personal acerca del resultado de la meta';
 
 $lang['goal_achieved'] = 'Conseguido';
-$lang['goal_failed']   = 'Ha fallado';
-$lang['goal_close']    = 'Muy cerca';
+$lang['goal_failed']   = 'Fallado';
+$lang['goal_close']    = 'Cerrado';
 
 $lang['goal_type_total_income']                                         = 'Total de ingresos logradas';
-$lang['goal_type_convert_leads']                                        = 'Convertir X Leads';
+$lang['goal_type_convert_leads']                                        = 'Convertir X Contactos';
 $lang['goal_type_increase_customers_without_leads_conversions']         = 'Aumentar el número de clientes';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Converion excluida del Lead';
+$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Converion excluida del Contacto';
 
 $lang['goal_type_increase_customers_with_leads_conversions']         = 'Aumentar el número de clientes';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'conversion de Lead permitida';
+$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'conversion de Contacto permitida';
 $lang['goal_type_make_contracts_by_type_calc_database']              = 'Hacer contratos por Tipo';
 $lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Se calcula a partir de la fecha añadido a la base de datos';
 $lang['goal_type_make_contracts_by_type_calc_date']                  = 'Hacer contratos por Tipo';
@@ -1584,7 +1580,7 @@ $lang['goal_type_total_estimates_converted']                         = 'X presup
 $lang['goal_type_total_estimates_converted_subtext']                 = 'Se tomará sólo presupuestos que se convertirán en facturas';
 $lang['goal_type_income_subtext']                                    = 'Los ingresos se calcularán en su moneda base (no convertido)';
 # Payments
-$lang['payment_transaction_id']                                      = 'ID de transacción';
+$lang['payment_transaction_id']                                      = 'ID de la Transacción';
 # Settings Menu
 $lang['acs_expenses']                                                = 'Gastos';
 $lang['acs_expense_categories']                                      = 'Categorías de Gastos';
@@ -1592,10 +1588,10 @@ $lang['acs_expense_categories']                                      = 'Categor�
 $lang['expense_category']                                            = 'Categoría del gasto';
 $lang['expense_category_lowercase']                                  = 'categoría de gastos';
 $lang['new_expense']                                                 = 'Registrar Gasto';
-$lang['expense_add_edit_name']                                       = 'nombre de la categoría';
+$lang['expense_add_edit_name']                                       = 'Nombre de la Categoría';
 $lang['expense_add_edit_description']                                = 'Descripción de categoría';
 $lang['expense_categories']                                          = 'Categorías de gastos';
-$lang['new_expense_category']                                        = 'Nueva categoría';
+$lang['new_expense_category']                                        = 'Nueva Categoría';
 $lang['dt_expense_description']                                      = 'Descripción';
 $lang['expense']                                                     = 'Gastos';
 $lang['expenses']                                                    = 'Gastos';
@@ -1605,42 +1601,42 @@ $lang['expense_add_edit_customer']                                   = 'Cliente'
 $lang['expense_add_edit_currency']                                   = 'Moneda';
 $lang['expense_add_edit_note']                                       = 'Nota';
 $lang['expense_add_edit_date']                                       = 'Fecha de gastos';
-$lang['expense_add_edit_amount']                                     = 'Cantidad';
+$lang['expense_add_edit_amount']                                     = 'Valor';
 $lang['expense_add_edit_billable']                                   = 'facturable';
 $lang['expense_add_edit_attach_receipt']                             = 'adjuntar recibo de pago';
 $lang['expense_add_edit_reference_no']                               = 'Referencia #';
 $lang['expense_receipt']                                             = 'Recibo de gastos';
 $lang['expense_receipt_lowercase']                                   = 'recibo de expensas';
 $lang['expense_dt_table_heading_category']                           = 'Categoría';
-$lang['expense_dt_table_heading_amount']                             = 'Cantidad';
+$lang['expense_dt_table_heading_amount']                             = 'Valor';
 $lang['expense_dt_table_heading_date']                               = 'Fecha';
 $lang['expense_dt_table_heading_reference_no']                       = 'Referencia #';
 $lang['expense_dt_table_heading_customer']                           = 'Cliente';
-$lang['expense_dt_table_heading_payment_mode']                       = 'Modo de pago';
+$lang['expense_dt_table_heading_payment_mode']                       = 'Modo de Pago';
 $lang['expense_converted_to_invoice']                                = 'Gasto convertido a factura';
 $lang['expense_converted_to_invoice_fail']                           = 'No se pudo convertir este gasto a factura comprobar el registro de errores.';
 $lang['expense_copy_success']                                        = 'El gasto se copió con éxito.';
 $lang['expense_copy_fail']                                           = 'No se pudo copiar gasto. Por favor, compruebe los campos necesarios y vuelva a intentarlo';
 $lang['expenses_list_all']                                           = 'Todas';
-$lang['expenses_list_billable']                                      = 'facturable';
-$lang['expenses_list_non_billable']                                  = 'No facturable';
+$lang['expenses_list_billable']                                      = 'Facturable';
+$lang['expenses_list_non_billable']                                  = 'No Facturable';
 $lang['expenses_list_invoiced']                                      = 'Facturado';
-$lang['expenses_list_unbilled']                                      = 'no facturados';
+$lang['expenses_list_unbilled']                                      = 'Por Facturar';
 $lang['expenses_list_recurring']                                     = 'Periódico';
 $lang['expense_invoice_delete_not_allowed']                          = 'Usted no puede eliminar este gasto. El gasto ya se ha facturado.';
 $lang['expense_convert_to_invoice']                                  = 'Convertir a la factura';
-$lang['expense_edit']                                                = 'Edición de gastos';
+$lang['expense_edit']                                                = 'Edición de Gastos';
 $lang['expense_delete']                                              = 'Borrar';
 $lang['expense_copy']                                                = 'Copia';
 $lang['expense_invoice_not_created']                                 = 'No se ha creado la factura';
-$lang['expense_billed']                                              = 'facturado';
-$lang['expense_not_billed']                                          = 'no facturados';
+$lang['expense_billed']                                              = 'Facturado';
+$lang['expense_not_billed']                                          = 'Por Facturar';
 $lang['expense_customer']                                            = 'Cliente';
 $lang['expense_note']                                                = 'Nota:';
 $lang['expense_date']                                                = 'Fecha:';
-$lang['expense_ref_noe']                                             = '# Ref:';
+$lang['expense_ref_noe']                                             = 'Nº Ref:';
 $lang['expense_tax']                                                 = 'Impuesto:';
-$lang['expense_amount']                                              = 'Cantidad:';
+$lang['expense_amount']                                              = 'Valor:';
 $lang['expense_recurring_indicator']                                 = 'Periódico';
 $lang['expense_already_invoiced']                                    = 'Este gasto ya se factura';
 $lang['expense_recurring_auto_create_invoice']                       = 'Creación automática de facturas';
@@ -1653,7 +1649,7 @@ $lang['expenses_report_for']                                         = 'Los gast
 # Custom fields
 $lang['custom_field_required']                                       = 'Necesario';
 $lang['custom_field_show_on_pdf']                                    = 'Mostrar en PDF';
-$lang['custom_field_leads']                                          = 'Leads';
+$lang['custom_field_leads']                                          = 'Contactos';
 $lang['custom_field_customers']                                      = 'Clientes';
 $lang['custom_field_staff']                                          = 'Personal';
 $lang['custom_field_contracts']                                      = 'Contratos';
@@ -1672,12 +1668,12 @@ $lang['business_news'] = 'Noticias de negocios en internet';
 $lang['nav_todo_items']               = 'Tareas';
 # Clients
 # Contracts
-$lang['clients_contracts_type']       = 'tipo de contrato';
+$lang['clients_contracts_type']       = 'Tipo de Contrato';
 
 # Version 1.0.5
 # General
-$lang['no_tax']                             = 'Sin impuestos';
-$lang['numbers_not_formated_while_editing'] = 'La tasa en el campo de entrada no está formateada, editar/añadir el artículo y debe seguir siendo no formateado. No intente dar formato manualmente aquí.';
+$lang['no_tax']                             = 'Sin Impuestos';
+$lang['numbers_not_formatted_while_editing'] = 'La tasa en el campo de entrada no está formateada, editar/añadir el artículo y debe seguir siendo no formateado. No intente dar formato manualmente aquí.';
 # Contracts='
 $lang['contracts_view_expired']             = 'Expirado';
 $lang['contracts_view_without_dateend']     = 'Los contratos sin fecha de finalización';
@@ -1685,18 +1681,18 @@ $lang['contracts_view_without_dateend']     = 'Los contratos sin fecha de finali
 # Email Templates
 $lang['email_template_contracts_fields_heading'] = 'Contratos';
 # Invoices General='
-$lang['invoice_estimate_general_options']        = 'Opciones generales';
+$lang['invoice_estimate_general_options']        = 'Opciones Generales';
 $lang['invoice_table_item_description']          = 'Descripción';
 $lang['invoice_recurring_indicator']             = 'Periódico';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'Presupuesto se convirtió a factura con éxito';
+$lang['estimate_convert_to_invoice_successfully'] = 'Presupuesto se convirtió a factura con éxito';
 $lang['estimate_table_item_description']         = 'Descripción';
 
 # Version 1.0.6
 # Invoices
 # Currencies
-$lang['cant_delete_base_currency'] = 'Usted no puede eliminar la moneda base. Es necesario asignar la nueva moneda de referencia u despues suprimir esta.';
+$lang['cant_delete_base_currency'] = 'Usted no puede eliminar la moneda base. Es necesario asignar la nueva moneda de referencia u Después suprimir esta.';
 $lang['invoice_copy']              = 'Copia de la factura';
 $lang['invoice_copy_success']      = 'Factura copiada con éxito';
 $lang['invoice_copy_fail']         = 'No se pudo copiar la factura';
@@ -1709,22 +1705,22 @@ $lang['show_shipping_on_estimate']         = 'Mostrar los detalles del envío en
 $lang['is_invoiced_estimate_delete_error'] = 'Esta Presupuesto se factura. Usted no puede eliminar la Presupuesto';
 
 # Customers & Invoices / Estimates
-$lang['ship_to']                  = 'Envie a';
-$lang['customer_profile_details'] = 'Detalles del cliente';
-$lang['billing_shipping']         = 'Envío de factura';
-$lang['billing_address']          = 'Dirección de cobro';
-$lang['shipping_address']         = 'Dirección de envío';
+$lang['ship_to']                  = 'Dirección de Envío';
+$lang['customer_profile_details'] = 'Detalles del Cliente';
+$lang['billing_shipping']         = 'Envío de Factura';
+$lang['billing_address']          = 'Dirección de Cobro';
+$lang['shipping_address']         = 'Dirección de Envío';
 
 $lang['billing_street']  = 'Calle';
-$lang['billing_city']    = 'Sector';
+$lang['billing_city']    = 'Localidad';
 $lang['billing_state']   = 'Provincia';
 $lang['billing_zip']     = 'Código postal';
 $lang['billing_country'] = 'País';
 
 $lang['shipping_street']                    = 'Calle';
-$lang['shipping_city']                      = 'Sector';
+$lang['shipping_city']                      = 'Localidad';
 $lang['shipping_state']                     = 'Provincia';
-$lang['shipping_zip']                       = 'Código postal';
+$lang['shipping_zip']                       = 'Código Postal';
 $lang['shipping_country']                   = 'País';
 $lang['get_shipping_from_customer_profile'] = 'Obtener detalles del envío desde el perfil de cliente';
 
@@ -1757,31 +1753,31 @@ $lang['department_calendar_id']           = 'ID de Google Calendar';
 $lang['kan_ban_string']                   = 'Kan Ban';
 $lang['localization_default_language']    = 'Idioma predeterminado';
 $lang['system_default_string']            = 'Sistema por defecto';
-$lang['advanced_options']                 = 'Opciones avanzadas';
+$lang['advanced_options']                 = 'Opciones Avanzadas';
 # Expenses
 $lang['expense_list_invoice']             = 'Facturado';
 $lang['expense_list_billed']              = 'Facturado';
-$lang['expense_list_unbilled']            = 'No facturada';
+$lang['expense_list_unbilled']            = 'No Facturado';
 # Leads
 $lang['lead_merge_custom_field']          = 'Combinar como campo personalizado';
 $lang['lead_merge_custom_field_existing'] = 'Combinar con el campo de base de datos existente';
 $lang['lead_dont_merge_custom_field']     = 'No fusionar';
-$lang['no_lead_notes_found']              = 'No hay notas de Lead encontradas';
+$lang['no_lead_notes_found']              = 'No hay notas de Contacto encontradas';
 $lang['leads_view_list']                  = 'Lista';
-$lang['lost_leads']                       = 'Leads perdidos';
-$lang['junk_leads']                       = 'Leads basura';
-$lang['lead_mark_as_lost']                = 'Marcar como perdido';
-$lang['lead_unmark_as_lost']              = 'no marcar El Lead como perdido';
-$lang['lead_marked_as_lost']              = 'El Lead marcado como perdido exitosamente';
-$lang['lead_unmarked_as_lost']            = 'El Lead no marcado como perdido exitosamente';
+$lang['lost_leads']                       = 'Contactos perdidos';
+$lang['junk_leads']                       = 'Contactos basura';
+$lang['lead_mark_as_lost']                = 'Marcar como Perdido';
+$lang['lead_unmark_as_lost']              = 'no marcar El Contacto como perdido';
+$lang['lead_marked_as_lost']              = 'El Contacto marcado como perdido exitosamente';
+$lang['lead_unmarked_as_lost']            = 'El Contacto no marcado como perdido exitosamente';
 $lang['leads_status_color']               = 'Color';
 
-$lang['lead_mark_as_junk']     = 'Marcar como basura';
-$lang['lead_unmark_as_junk']   = 'No marcar el Lead como basura';
-$lang['lead_marked_as_junk']   = 'Lead marcado como basura con éxito';
-$lang['lead_unmarked_as_junk'] = 'Lead desmarcado como basura con éxito';
+$lang['lead_mark_as_junk']     = 'Marcar como Basura';
+$lang['lead_unmark_as_junk']   = 'No marcar el Contacto como basura';
+$lang['lead_marked_as_junk']   = 'Contacto marcado como basura con éxito';
+$lang['lead_unmarked_as_junk'] = 'Contacto desmarcado como basura con éxito';
 
-$lang['lead_not_found']                                                      = 'Lead No Encontrado';
+$lang['lead_not_found']                                                      = 'Contacto No Encontrado';
 $lang['lead_lost']                                                           = 'Perdido';
 $lang['lead_junk']                                                           = 'Basura';
 $lang['leads_not_assigned']                                                  = 'No asignado';
@@ -1794,7 +1790,7 @@ $lang['task_view_make_public']                                               = '
 $lang['task_is_private']                                                     = 'Tarea privada';
 $lang['task_finished']                                                       = 'Terminado';
 $lang['task_single_related']                                                 = 'Relacionado';
-$lang['task_unmark_as_complete']                                             = 'Desmarcar como completa';
+$lang['task_unmark_as_complete']                                             = 'Desmarcar como Completa';
 $lang['task_unmarked_as_complete']                                           = 'Tarea sin marcar como completa';
 $lang['task_relation']                                                       = 'Relacionado';
 $lang['task_public']                                                         = 'Público';
@@ -1814,10 +1810,10 @@ $lang['settings_gcal_main_calendar_id_help']                                 = '
 
 $lang['show_on_calendar']                  = 'Mostrar en el Calendario';
 $lang['show_invoices_on_calendar']         = 'Facturas';
-$lang['show_estimates_on_calendar']        = 'presupuestos';
-$lang['show_contracts_on_calendar']        = 'contratos';
+$lang['show_estimates_on_calendar']        = 'Presupuestos';
+$lang['show_contracts_on_calendar']        = 'Contratos';
 $lang['show_tasks_on_calendar']            = 'Tareas';
-$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
+$lang['show_customer_reminders_on_calendar'] = 'Alertas a Clientes';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Copiar campos personalizados al perfil del cliente';
@@ -1825,7 +1821,7 @@ $lang['copy_custom_fields_convert_to_customer_help']                 = 'Si cualq
 $lang['lead_profile']                                                = 'Perfil';
 $lang['lead_is_client']                                              = 'Cliente';
 $lang['leads_kan_ban_notes_title']                                   = 'Notas';
-$lang['leads_email_integration_folder_no_encryption']                = 'sin cifrado';
+$lang['leads_email_integration_folder_no_encryption']                = 'Sin Cifrado';
 $lang['leads_email_integration']                                     = 'Integración de email';
 $lang['leads_email_active']                                          = 'Activo';
 $lang['leads_email_integration_imap']                                = 'servidor IMAP';
@@ -1838,10 +1834,10 @@ $lang['leads_email_encryption']                                      = 'Cifrado'
 $lang['leads_email_integration_updated']                             = 'Actualizado integración de email';
 $lang['leads_email_integration_default_status']                      = 'Estado predeterminado';
 $lang['leads_email_integration_folder']                              = 'Carpeta';
-$lang['leads_email_integration_notify_when_lead_imported']           = 'Notificar cuando el Lead importada';
+$lang['leads_email_integration_notify_when_lead_imported']           = 'Notificar cuando el Contacto importada';
 $lang['leads_email_integration_only_check_unseen_emails']            = 'marque sólo mensajes de email no abiertos';
 $lang['leads_email_integration_only_check_unseen_emails_help']       = 'El guión fijará automática del email para abrir después de cheque. Esto se utiliza para evitar que la comprobación de todos los mensajes de email y otra vez. No es recomendado para desactivar esta opción si usted tiene muchos mensajes de email y tiene una configuración de reenvío mucho a la configuración de email que para los Leads';
-$lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Notificará si el email Lead enviar varias veces';
+$lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Notificará si el email Contacto enviar varias veces';
 $lang['leads_email_integration_test_connection']                     = 'Prueba de conexión IMAP';
 $lang['lead_email_connection_ok']                                    = 'Conexión IMAP es buena';
 $lang['lead_email_connection_not_ok']                                = 'Conexión IMAP no es okey';
@@ -1855,7 +1851,7 @@ $lang['kb_group_color']                = 'Color';
 $lang['kb_group_order']                = 'Orden';
 # Utilities - BULK PDF Exporter
 $lang['bulk_pdf_exporter']             = 'Exportador en maza PDF';
-$lang['bulk_export_pdf_payments']      = 'pagos';
+$lang['bulk_export_pdf_payments']      = 'Pagos';
 $lang['bulk_export_pdf_estimates']     = 'Presupuestos';
 $lang['bulk_export_pdf_invoices']      = 'Facturas';
 $lang['bulk_pdf_export_button']        = 'Exportar';
@@ -1880,7 +1876,7 @@ $lang['auto_backup_enabled']             = 'Habilitado (Requiere Cron)';
 $lang['auto_backup']                     = 'Copia de seguridad automática';
 $lang['backup_delete']                   = 'Copia eliminado';
 $lang['create_backup']                   = 'Crear copia de seguridad';
-$lang['backup_success']                  = 'La copia de seguridad se realizo con exito';
+$lang['backup_success']                  = 'La copia de seguridad se realizo con éxito';
 $lang['utility_backup']                  = 'Copia de seguridad de base de datos';
 $lang['utility_create_new_backup_db']    = 'Crear copia de seguridad de base de datos';
 $lang['utility_backup_table_backupname'] = 'Copia de seguridad';
@@ -1927,7 +1923,7 @@ $lang['default_pass_clients_import'] = 'Contraseña por defecto para todos los c
 $lang['simulate_import']             = 'Simular importación';
 $lang['import_upload_failed']        = 'Subida fallida';
 $lang['import_total_imported']       = 'Total importado: %s';
-$lang['import_leads']                = 'Importación de Leads';
+$lang['import_leads']                = 'Importación de Contactos';
 $lang['import_customers']            = 'Importación de Clientes';
 $lang['choose_csv_file']             = 'Elija Archivo CSV';
 $lang['import']                      = 'Importar';
@@ -1935,13 +1931,13 @@ $lang['lead_import_status']          = 'Estado';
 $lang['lead_import_source']          = 'Fuente';
 
 # Bulk PDF Export
-$lang['bulk_export_pdf_proposals'] = 'propuestas';
+$lang['bulk_export_pdf_proposals'] = 'Propuestas';
 
 # Invoices
 $lang['delete_invoice'] = 'Borrar';
 
 # Calendar
-$lang['calendar_lead_reminder'] = 'Recordatorio de Lead';
+$lang['calendar_lead_reminder'] = 'Recordatorio de Contacto';
 
 $lang['items']      = 'Artículos';
 $lang['support']    = 'Soporte';
@@ -1949,7 +1945,7 @@ $lang['new_ticket'] = 'Nuevo Ticket';
 
 # Reminders
 $lang['client_edit_set_reminder_title'] = 'Añadir recordatorio al cliente';
-$lang['lead_set_reminder_title']        = 'Añadir recordatorio de Lead';
+$lang['lead_set_reminder_title']        = 'Añadir recordatorio de Contacto';
 $lang['set_reminder_tooltip']           = 'Esta opción le permite no olvidar nada acerca de sus clientes.';
 $lang['client_reminders_tab']           = 'Recordatorios';
 $lang['leads_reminders_tab']            = 'Recordatorios';
@@ -1971,7 +1967,7 @@ $lang['set_reminder']                                             = 'Ha configur
 $lang['set_reminder_date']                                        = 'Fecha de ser notificado';
 $lang['reminder_description']                                     = 'Descripción conjunto';
 $lang['reminder_notify_me_by_email']                              = 'Enviar también un email para este recordatorio';
-$lang['reminder_added_successfuly']                               = 'Recordatorio añadido con éxito. Se le notificará en el tiempo.';
+$lang['reminder_added_successfully']                               = 'Recordatorio añadido con éxito. Se le notificará en el tiempo.';
 $lang['reminder_description']                                     = 'Descripción';
 $lang['reminder_date']                                            = 'Fecha';
 $lang['reminder_staff']                                           = 'Recordar';
@@ -1983,7 +1979,7 @@ $lang['reminder_deleted']                                         = 'Recordatori
 $lang['reminder_failed_to_delete']                                = 'No se pudo eliminar el recordatorio';
 $lang['show_invoice_estimate_status_on_pdf']                      = 'Mostrar factura / estado de Presupuesto en PDF';
 $lang['email_piping_default_priority']                            = 'prioridad por defecto en el billete entubada';
-$lang['show_lead_reminders_on_calendar']                          = 'Recordatorios de Lead';
+$lang['show_lead_reminders_on_calendar']                          = 'Recordatorios de Contacto';
 $lang['tickets_piping']                                           = 'Cesion por email';
 $lang['email_piping_only_replies']                                = 'Sólo respuestas permitidas por email';
 $lang['email_piping_only_registered']                             = 'Sólo seciones de Usuarios Registrados';
@@ -1996,26 +1992,26 @@ $lang['estimate_status_changed_fail']    = 'No se pudo cambiar el estado de la P
 $lang['estimate_email_link_text']        = 'Ver Presupuesto';
 
 # Proposals
-$lang['proposal_to']                            = 'Nombre de empresa';
+$lang['proposal_to']                            = 'Nombre de la Empresa';
 $lang['proposal_date']                          = 'Fecha';
 $lang['proposal_address']                       = 'Dirección';
 $lang['proposal_phone']                         = 'Teléfono';
 $lang['proposal_email']                         = 'Email';
-$lang['proposal_date_created']                  = 'fecha de creacion';
-$lang['proposal_open_till']                     = 'abierto hasta';
-$lang['proposal_status_open']                   = 'Abiertas';
-$lang['proposal_status_accepted']               = 'Aceptadas';
-$lang['proposal_status_declined']               = 'Declinadas';
-$lang['proposal_status_sent']                   = 'Expedidas';
-$lang['proposal_expired']                       = 'Expirado';
+$lang['proposal_date_created']                  = 'Fecha de Creación';
+$lang['proposal_open_till']                     = 'Valida Hasta';
+$lang['proposal_status_open']                   = 'Abierta';
+$lang['proposal_status_accepted']               = 'Aceptada';
+$lang['proposal_status_declined']               = 'Rechazada';
+$lang['proposal_status_sent']                   = 'Enviada';
+$lang['proposal_expired']                       = 'Expirada';
 $lang['proposal_subject']                       = 'Tema';
 $lang['proposal_total']                         = 'Total';
 $lang['proposal_status']                        = 'Estado';
 $lang['proposals_list_all']                     = 'Todas';
-$lang['proposals_leads_related']                = 'conduce Relacionados';
-$lang['proposals_customers_related']            = 'Los clientes relacionados';
+$lang['proposals_leads_related']                = 'Contactos Relacionados';
+$lang['proposals_customers_related']            = 'Clientes Relacionados';
 $lang['proposal_related']                       = 'Relacionado';
-$lang['proposal_for_lead']                      = 'Lead';
+$lang['proposal_for_lead']                      = 'Contacto';
 $lang['proposal_for_customer']                  = 'Cliente';
 $lang['proposal']                               = 'Propuesta';
 $lang['proposal_lowercase']                     = 'propuesta';
@@ -2023,20 +2019,20 @@ $lang['proposals']                              = 'Propuestas';
 $lang['proposals_lowercase']                    = 'propuestas';
 $lang['new_proposal']                           = 'Nueva Propuesta';
 $lang['proposal_currency']                      = 'Moneda';
-$lang['proposal_allow_comments']                = 'Permitir comentarios';
+$lang['proposal_allow_comments']                = 'Permitir Comentarios';
 $lang['proposal_allow_comments_help']           = 'Si marca esta opción se permitirán comentarios cuando sus clientes ver la propuesta.';
 $lang['proposal_edit']                          = 'Editar';
 $lang['proposal_pdf']                           = 'PDF';
 $lang['proposal_send_to_email']                 = 'Envía por email';
 $lang['proposal_send_to_email_title']           = 'Enviar a email Propuesta';
-$lang['proposal_attach_pdf']                    = 'adjuntar PDF';
+$lang['proposal_attach_pdf']                    = 'Adjuntar PDF';
 $lang['proposal_preview_template']              = 'Vista previa de la plantilla';
 $lang['proposal_view']                          = 'Ver Propuesta';
 $lang['proposal_copy']                          = 'Copia';
 $lang['proposal_delete']                        = 'Borrar';
-$lang['proposal_to']                            = 'A';
-$lang['proposal_add_comment']                   = 'Agregar comentario';
-$lang['proposal_sent_to_email_success']         = 'Propuesta enviada al email con exito';
+$lang['proposal_to']                            = 'Para';
+$lang['proposal_add_comment']                   = 'Agregar Comentario';
+$lang['proposal_sent_to_email_success']         = 'Propuesta enviada por email con éxito';
 $lang['proposal_sent_to_email_fail']            = 'No se ha podido propuesta enviada al email';
 $lang['proposal_copy_fail']                     = 'No se pudo copiar propuesta';
 $lang['proposal_copy_success']                  = 'Propuesta copiada con éxito';
@@ -2045,21 +2041,21 @@ $lang['proposal_status_changed_fail']           = 'No se pudo cambiar el estado 
 $lang['proposal_assigned']                      = 'Asignado';
 $lang['proposal_comments']                      = 'Comentarios';
 $lang['proposal_convert']                       = 'Convertir';
-$lang['proposal_convert_estimate']              = 'Presupuesto';
-$lang['proposal_convert_invoice']               = 'Factura';
-$lang['proposal_convert_to_estimate']           = 'Convertir a presupuesto';
+$lang['proposal_convert_estimate']              = 'A Presupuesto';
+$lang['proposal_convert_invoice']               = 'A Factura';
+$lang['proposal_convert_to_estimate']           = 'Convertir a Presupuesto';
 $lang['proposal_convert_to_invoice']            = 'Convertir a Factura';
-$lang['proposal_convert_to_lead_disabled_help'] = 'Es necesario para convertir el Lead a cliente con el fin de crear %s';
+$lang['proposal_convert_to_lead_disabled_help'] = 'Es necesario para convertir el Contacto a cliente con el fin de crear %s';
 $lang['proposal_convert_not_related_help']      = 'La propuesta tiene que estar relacionada a el cliente con el fin de convertir a %s';
 $lang['proposal_converted_to_estimate_success'] = 'Propuesta convierte para estimar exitosamente';
-$lang['proposal_converted_to_invoice_success']  = 'Propuesta convertida a factura con exito';
+$lang['proposal_converted_to_invoice_success']  = 'Propuesta convertida a factura con éxito';
 $lang['proposal_converted_to_estimate_fail']    = 'No se pudo convertir propuesta a presupuesto';
 $lang['proposal_converted_to_invoice_fail']     = 'No se pudo convertir la propuesta a factura';
 
 # Proposals - view proposal template
 $lang['proposal_total_info']   = 'Total %s';
-$lang['proposal_accept_info']  = 'Aceptar';
-$lang['proposal_decline_info'] = 'Declinado';
+$lang['proposal_accept_info']  = 'Aceptado';
+$lang['proposal_decline_info'] = 'Rechazado';
 $lang['proposal_pdf_info']     = 'PDF';
 
 # Customers Portal
@@ -2074,11 +2070,11 @@ $lang['customer_forgot_password_submit']  = 'Enviar';
 $lang['customer_ticket_subject']          = 'Tema';
 
 # Email templates
-$lang['email_template_proposals_fields_heading'] = 'propuestas';
+$lang['email_template_proposals_fields_heading'] = 'Propuestas';
 
 # Tasks
-$lang['add_task_attachments']                 = 'Adjunto archivo';
-$lang['task_view_attachments']                = 'Archivos adjuntos';
+$lang['add_task_attachments']                 = 'Adjuntar Archivo';
+$lang['task_view_attachments']                = 'Archivos Adjuntos';
 $lang['task_view_description']                = 'Descripción';
 
 # Customer Groups
@@ -2086,7 +2082,7 @@ $lang['customer_group_add_heading']  = 'Añadir nuevo grupo de clientes';
 $lang['customer_group_edit_heading'] = 'Editar Grupo de Clientes';
 $lang['new_customer_group']          = 'Nuevo Grupo de Clientes';
 $lang['customer_group_name']         = 'Nombre';
-$lang['customer_groups']             = 'Tipo Cliente';
+$lang['customer_groups']             = 'Tipo de Cliente';
 $lang['customer_group']              = 'Grupo de clientes';
 $lang['customer_group_lowercase']    = 'grupo de clientes';
 
@@ -2112,9 +2108,9 @@ $lang['utilities_menu_save']                = 'Guardar Menú';
 
 # Knowledge Base
 $lang['view_articles_list']     = 'Ver Artículos';
-$lang['view_articles_list_all'] = 'Todos los artículos';
-$lang['als_add_article']        = 'Añadir artículo';
-$lang['als_all_articles']       = 'Todos los artículos';
+$lang['view_articles_list_all'] = 'Todos los Artículos';
+$lang['als_add_article']        = 'Añadir Artículo';
+$lang['als_all_articles']       = 'Todos los Artículos';
 $lang['als_kb_groups']          = 'Grupos';
 
 # Customizer Menu
@@ -2141,23 +2137,23 @@ $lang['spamfilter_type_phrase']       = 'Frase';
 # Tickets
 $lang['block_sender']               = 'Bloquear remitente';
 $lang['sender_blocked']             = 'remitentes bloqueados';
-$lang['sender_blocked_successfuly'] = 'Remitente bloqueado exitosamente';
+$lang['sender_blocked_successfully'] = 'Remitente bloqueado exitosamente';
 $lang['ticket_date_created']        = 'fecha de creacion';
 
 #KB
-$lang['edit_kb_group']             = 'Editar grupo';
+$lang['edit_kb_group']             = 'Editar Grupo';
 # Leads
-$lang['edit_source']               = 'Modificar origen';
-$lang['edit_status']               = 'Editar estado';
+$lang['edit_source']               = 'Modificar Origen';
+$lang['edit_status']               = 'Editar Estado';
 # Contacts
-$lang['contract_type_edit']        = 'Editar tipo de contrato';
+$lang['contract_type_edit']        = 'Editar Tipo de Contrato';
 # Reports
 $lang['report_by_customer_groups'] = 'Valor Total Por Grupos de clientes';
 #Utilities
 $lang['ticket_pipe_log']           = 'Tubo de tickets de registro';
-$lang['ticket_pipe_name']          = 'Desde nombre';
-$lang['ticket_pipe_email_to']      = 'A';
-$lang['ticket_pipe_email']         = 'Desde el email';
+$lang['ticket_pipe_name']          = 'De';
+$lang['ticket_pipe_email_to']      = 'Para';
+$lang['ticket_pipe_email']         = 'Del Email';
 $lang['ticket_pipe_subject']       = 'Tema';
 $lang['ticket_pipe_message']       = 'Mensaje';
 $lang['ticket_pipe_date']          = 'Fecha';
@@ -2185,11 +2181,11 @@ $lang['not_event_public'] = 'Evento público da comienzo hoy - %s ...';
 $lang['not_contract_expiry_reminder'] = 'Recordatorio de caducidad del contrato - %s ...';
 $lang['not_recurring_expense_cron_activity_heading'] = 'Gastos recurrente Actividad de trabajo Cron ';
 $lang['not_recurring_invoices_cron_activity_heading'] = 'Facturas recurrentes Actividad de tarea Cron';
-$lang['not_recurring_total_renewed'] = 'Actualizado total: %s';
+$lang['not_recurring_total_renewed'] = 'Actualizado Total: %s';
 $lang['not_recurring_expenses_action_taken_from'] = 'Accion tomada por gastos recurrente';
-$lang['not_invoice_created'] = 'Factura creada:';
-$lang['not_invoice_renewed'] = 'Factura renovada:';
-$lang['not_expense_renewed'] = 'Gastos renovados:';
+$lang['not_invoice_created'] = 'Factura Creada:';
+$lang['not_invoice_renewed'] = 'Factura Renovada:';
+$lang['not_expense_renewed'] = 'Gasto Renovado:';
 $lang['not_invoice_sent_to_customer'] = 'Factura enviada al cliente: %s';
 $lang['not_invoice_sent_yes'] = 'Si';
 $lang['not_invoice_sent_not'] = 'No';
@@ -2201,10 +2197,10 @@ $lang['not_lead_imported_attachment'] = 'Anexos importado de email';
 $lang['not_estimate_status_change'] = 'Anexos importado de email';
 $lang['not_estimate_status_updated'] = 'Estado presupuesto de actualización: desde: %s a %s';
 $lang['not_goal_message_success'] = 'Felicitaciones! Alcazamos el Nuevo objetivo.<br />Tipo de objetivo: %s
-<br />Objetivo alcanzado: %s
+<br />Objetivo Alcanzado: %s
 <br />Total Alcanzado: %s
-<br />Fecha inicio: %s
-<br />Fecha fin: %s';
+<br />Fecha Inicio: %s
+<br />Fecha Fin: %s';
 $lang['not_assigned_lead_to_you'] = 'ventaja asignada %s para ti';
 $lang['not_lead_activity_assigned_to'] = '%s asignada para %s';
 $lang['not_lead_activity_attachment_deleted'] = 'Borrar anexo';
@@ -2219,7 +2215,7 @@ $lang['not_lead_activity_added_attachment'] = 'Anexo agregado';
 $lang['not_lead_activity_converted_email'] = 'Ventaja de email cambiada. La primera ventaja de correo electronico fue: %s y añadido como cliente con el email %s';
 $lang['not_lead_activity_converted'] = '%s Convertir esta ventaja para el cliente';
 $lang['not_liked_your_post'] = '%s le gustó su %s ...';
-$lang['not_commented_your_post'] = '%s comentó tu publicacion %s ...';
+$lang['not_commented_your_post'] = '%s comentó tu publicación %s ...';
 $lang['not_liked_your_comment'] = '%s le gustó su comentario %s ...';
 $lang['not_proposal_assigned_to_you'] = 'Propuesta asignada por ti - %s ...';
 $lang['not_proposal_comment_from_client'] = 'Nuevo comentario sobre la propuesta del cliente%s ...';
@@ -2239,13 +2235,13 @@ $lang['not_ticket_reassigned_to_you'] = 'Boleto no asignado para ti- %s ...';
 $lang['not_estimate_customer_accepted'] = 'Felicidades! El cliente acepto la presupuesto con el número %s';
 $lang['not_estimate_customer_declined'] = 'El cliente rechazo la Presupuesto con el número  %s';
 $lang['estimate_activity_converted'] = 'convertido esta Presupuesto para facturar.<br /> %s';
-$lang['estimate_activity_created'] = 'Creado la presupuesto';
+$lang['estimate_activity_created'] = 'Creado el Presupuesto';
 $lang['invoice_estimate_activity_removed_item'] = 'Artículo quitado <b>%s</b>';
 $lang['estimate_activity_number_changed'] = 'Numero presupuesto cambiado  desde %s a %s';
 $lang['invoice_activity_number_changed'] = 'Numero de facture cambiado desde %s a %s';
 $lang['invoice_estimate_activity_updated_item_short_description'] = 'actualizar descripción corta del artículo desde %s a %s';
 $lang['invoice_estimate_activity_updated_item_long_description'] = 'actualizar descripción larga del artículo desde <b>%s</b> a <b>%s</b>';
-$lang['invoice_estimate_activity_updated_item_rate'] = 'actualizar tarifa del artículo desde %s a %s';
+$lang['invoice_estimate_activity_updated_item_rate'] = 'actualizar precio del artículo desde %s a %s';
 $lang['invoice_estimate_activity_updated_qty_item'] = 'actualizar calidad de artículos <b>%s</b> desde %s a %s';
 $lang['invoice_estimate_activity_added_item'] = 'nuevo artículo agregado <b>%s</b>';
 $lang['invoice_estimate_activity_sent_to_client'] = 'enviar Presupuesto al cliente';
@@ -2256,8 +2252,8 @@ $lang['estimate_activity_marked'] = 'Presupuesto marcada como %s';
 $lang['invoice_activity_status_updated'] = 'Actualizar estado de factura desde %s a %s';
 $lang['invoice_activity_created'] = 'Factura creada';
 $lang['invoice_activity_from_expense'] = 'convertido para facturar el costo';
-$lang['invoice_activity_recuring_created'] = '[Recurrente] Factura creada por CRON';
-$lang['invoice_activity_recuring_from_expense_created'] = '[Factura de costo] Factura creada por CRON';
+$lang['invoice_activity_recurring_created'] = '[Recurrente] Factura creada por CRON';
+$lang['invoice_activity_recurring_from_expense_created'] = '[Factura de costo] Factura creada por CRON';
 $lang['invoice_activity_sent_to_client_cron'] = 'Factura enviada al cliente por CRON';
 $lang['invoice_activity_sent_to_client'] = 'enviar facture al cliente';
 $lang['invoice_activity_marked_as_sent'] = 'factura marcada como enviada';
@@ -2274,13 +2270,13 @@ $lang['staff_profile_inactive_account'] = 'Esta cuenta de empleado es inactiva '
 
 # Estimates
 $lang['copy_estimate'] = 'Copia de Presupuesto';
-$lang['estimate_copied_successfuly'] = 'Presupuesto copiada con exito';
+$lang['estimate_copied_successfully'] = 'Presupuesto copiada con éxito';
 $lang['estimate_copied_fail'] = 'Falló la copia de Presupuesto';
 
 # Tasks
 $lang['tasks_view_assigned_to_user'] = 'Tareas asignadas para mi';
 $lang['tasks_view_follower_by_user'] = 'Tareas que estoy siguiendo';
-$lang['no_tasks_found'] = 'Tareas no encontradas';
+$lang['no_tasks_found'] = 'Sin Tareas';
 
 # Leads
 $lang['leads_dt_datecreated'] = 'Creado';
@@ -2292,23 +2288,23 @@ $lang['leads_sort_by_kanban_order'] = 'Orden de Kan Ban';
 $lang['proposal_items_name'] = 'Artículo';
 $lang['proposal_items_description'] = 'Descripción';
 $lang['proposal_items_qty'] = 'Cantidad';
-$lang['proposal_items_rate'] = 'Tarifa';
+$lang['proposal_items_rate'] = 'Precio';
 $lang['proposal_items_tax'] = 'Impuesto';
-$lang['proposal_items_amount'] = 'Cantidad';
+$lang['proposal_items_amount'] = 'Valor';
 
 # Authentication
-$lang['check_email_for_reseting_password'] = 'Por favor, comprueba tu email para obtener más instrucciones para restablecer la contraseña';
+$lang['check_email_for_resetting_password'] = 'Por favor, comprueba tu email para obtener más instrucciones para restablecer la contraseña';
 $lang['inactive_account'] = 'Cuenta Inactiva';
 $lang['error_setting_new_password_key'] = 'Error de configuración de la nueva contraseña';
 $lang['password_reset_message'] = 'Tu contraseña ha sido restablecida. Por favor inicie sesión ahora!';
 $lang['password_reset_message_fail'] = 'Error de restablecer tu contraseña. Intente de nuevo.';
 $lang['password_reset_key_expired'] = 'La contraseña ha expirado o usuario inválido';
-$lang['admin_auth_reset_pass_repeat'] = 'Repita la contraseña';
+$lang['admin_auth_reset_pass_repeat'] = 'Repita la Contraseña';
 $lang['auth_reset_pass_email_not_found'] = 'email no encontrado';
 $lang['auth_reset_password_submit'] = 'Restablecer contraseña';
 
 # Settings
-$lang['settings_amount_to_words'] = 'Cantidad de palabras';
+$lang['settings_amount_to_words'] = 'Cantidad de Palabras';
 $lang['settings_amount_to_words_desc'] = 'Salida de la cantidad total de palabras en la facture / presupuesto';
 $lang['settings_amount_to_words_enabled'] = 'Permitir';
 $lang['settings_total_to_words_lowercase'] = 'Numero de palabras en minúsculas';
@@ -2316,22 +2312,22 @@ $lang['settings_show_tax_per_item'] = 'Mostrar impuesto por artículo';
 
 # Reports
 $lang['report_sales_months_three_months'] = 'Los últimos 3 meses';
-$lang['report_invoice_number'] = 'Factura #';
+$lang['report_invoice_number'] = 'Nº Factura';
 $lang['report_invoice_customer'] = 'Cliente';
 $lang['report_invoice_date'] = 'Fecha';
-$lang['report_invoice_duedate'] = 'Fecha de vencimiento';
-$lang['report_invoice_amount'] = 'Cantidad';
-$lang['report_invoice_amount_with_tax'] = 'Cantidad con impuesto';
-$lang['report_invoice_amount_open'] = 'Cantidad abierta';
+$lang['report_invoice_duedate'] = 'Fecha de Vencimiento';
+$lang['report_invoice_amount'] = 'Valor';
+$lang['report_invoice_amount_with_tax'] = 'Valor con Impuesto';
+$lang['report_invoice_amount_open'] = 'Valor Abierto';
 $lang['report_invoice_status'] = 'Estado';
-$lang['report_invoice_total_amount_with_tax'] = 'Total de cantidad con impuesto';
-$lang['report_invoice_total_amount_without_tax'] = 'Total de cantidad sin impuesto';
+$lang['report_invoice_total_amount_with_tax'] = 'Total del Valor con Impuesto';
+$lang['report_invoice_total_amount_without_tax'] = 'Total del Valor sin Impuesto';
 $lang['report_invoice_total_taxes'] = 'Impuestos';
 
 #Version 1.0.9
 
 # Home stats
-$lang['home_stats_by_project_status'] = 'Estadística por estado del proyecto';
+$lang['home_stats_by_project_status'] = 'Estadística por Estados de los Proyectos';
 $lang['home_invoice_overview'] = 'Resumen de las Facturas';
 $lang['home_estimate_overview'] = 'Resumen de los Presupuestos';
 $lang['home_proposal_overview'] = 'Resumen de las Propuestas';
@@ -2353,64 +2349,64 @@ $lang['email_template_only_domain_email'] = 'Solo correo electronico de dominio'
 $lang['dismiss_announcement'] = 'Anuncio de despedida';
 $lang['dismiss_announcement'] = 'Anuncio de despedida';
 $lang['announcement_from'] = 'Desde:';
-$lang['announcement_date'] = 'Fecha de publicacion: %s';
+$lang['announcement_date'] = 'Fecha de publicación: %s';
 $lang['announcement_not_found'] = 'Anuncio no encontrado';
 $lang['announcements_recents'] = 'Anuncios recientes';
 
 # General
-$lang['zip_invoices'] = 'Facturas Zip';
-$lang['zip_estimates'] = 'Estimacion Zip';
-$lang['zip_payments'] = 'Pagos Zip';
+$lang['zip_invoices'] = 'Facturas en Zip';
+$lang['zip_estimates'] = 'Presupuestos en Zip';
+$lang['zip_payments'] = 'Pagos en Zip';
 $lang['setup_help'] = 'Ayuda';
 $lang['clients_list_company'] = 'Empresa';
 $lang['dt_button_export'] = 'Exportar';
 
-$lang['dt_entries'] = 'entradas';
-$lang['invoice_total_paid'] = 'Total pagado';
-$lang['invoice_amount_due'] = 'Monto a pagar';
+$lang['dt_entries'] = 'Entradas';
+$lang['invoice_total_paid'] = 'Total Pagado';
+$lang['invoice_amount_due'] = 'Valor a Pagar';
 $lang['report_invoice_discount'] = 'Descuentos';
 
 # Calendar
 $lang['calendar_project'] = 'Proyecto';
 
 # Leads
-$lang['leads_import_assignee'] = 'Ejecutivo de Ventas';
+$lang['leads_import_assignee'] = 'Comercial';
 $lang['customer_from_lead'] = 'Cliente desde %s';
-$lang['lead_kan_ban_attachments'] = 'Archivos adjuntos %s';
-$lang['leads_sort_by_lastcontact'] = 'Ultimo contacto';
+$lang['lead_kan_ban_attachments'] = 'Archivos Adjuntos %s';
+$lang['leads_sort_by_lastcontact'] = 'Último Contacto';
 
 # Tasks
 $lang['task_comment_added'] = 'Comentario añadido recientemente';
-$lang['task_duedate'] = 'Fecha de vencimiento';
+$lang['task_duedate'] = 'Fecha de Vencimiento';
 $lang['task_view_comments'] = 'Comentarios';
-$lang['task_comment_updated'] = 'Comentario actualizado';
+$lang['task_comment_updated'] = 'Comentario Actualizado';
 $lang['task_visible_to_client'] = 'Visible para el cliente';
-$lang['task_hourly_rate'] = 'Tarifa por hora';
+$lang['task_hourly_rate'] = 'Precio por Hora';
 $lang['hours'] = 'Horas';
 $lang['seconds'] = 'Segundos';
 $lang['minutes'] = 'Minutos';
-$lang['task_start_timer'] = 'Temporadizador de inicio';
-$lang['task_stop_timer'] = 'Detener temporadizador';
+$lang['task_start_timer'] = 'Iniciar Temporizador';
+$lang['task_stop_timer'] = 'Detener Temporizador';
 $lang['task_billable_help'] = 'Si marca la tarea facturable se mostrará la hora cuando se creo la factura de artículos';
 $lang['task_billable'] = 'Facturable';
 $lang['task_billable_yes'] = 'Facturable';
-$lang['task_billable_no'] = 'No facturable';
+$lang['task_billable_no'] = 'No Facturable';
 $lang['task_billed'] = 'Facturada';
 $lang['task_billed_yes'] = 'Facturada';
-$lang['task_billed_no'] = 'No facturada';
+$lang['task_billed_no'] = 'No Facturada';
 $lang['task_user_logged_time'] = 'Tiempo registrado:';
 $lang['task_total_logged_time'] = 'Total de tiempo registrado:';
 $lang['task_is_billed'] = 'Esta tarea es facturada en la facture numero %s';
-$lang['task_statistics'] = 'Estadisticas';
+$lang['task_statistics'] = 'Estadísticas';
 $lang['task_milestone'] = 'Hito';
 
 # Tickets
-$lang['ticket_message_updated_successfuly'] = 'Mensaje actualizado correctamente';
+$lang['ticket_message_updated_successfully'] = 'Mensaje actualizado correctamente';
 
 # Invoices
 $lang['invoice_task_item_project_tasks_not_included'] = 'Los proyectos de las tareas no están incluidos en esta lista.';
 $lang['show_quantity_as'] = 'Mostrar la cantidad como:';
-$lang['quantity_as_qty'] = 'Cant';
+$lang['quantity_as_qty'] = 'Unidad';
 $lang['quantity_as_hours'] = 'Horas';
 $lang['invoice_table_hours_heading'] = 'Horas';
 $lang['bill_tasks'] = 'Tareas Bill';
@@ -2438,20 +2434,20 @@ $lang['project_view_as_client'] = 'Ver el proyecto como cliente';
 $lang['project_mark_all_tasks_as_completed'] = 'Marcar todas last areas como completadas y detener todos los temporadizadores (No hay notificaciones enviadas a los miembros del proyecto)';
 $lang['project_not_started_status_tasks_timers_found'] = 'Tareas del temporadizador encontrada para este proyecto pero el proyecto no esta con el estado inicio. Recomendar cambiar el estado del proyecto en el progreso';
 $lang['project_status'] = 'Estados';
-$lang['project_status_1'] = 'Noiniciado';
-$lang['project_status_2'] = 'En progreso';
-$lang['project_status_3'] = 'En espera';
+$lang['project_status_1'] = 'No Iniciado';
+$lang['project_status_2'] = 'En Desarrollo';
+$lang['project_status_3'] = 'En Espera';
 $lang['project_status_4'] = 'Finalizado';
 
 $lang['project_file_uploaded_by_customer'] = 'Cliente';
-$lang['project_file_dateadded'] = 'Fecha de la subida';
-$lang['project_file_filename'] = 'Nombre del archivo';
-$lang['project_file__filetype'] = 'Tipo del archivo';
+$lang['project_file_dateadded'] = 'Fecha de la Subida';
+$lang['project_file_filename'] = 'Nombre del Archivo';
+$lang['project_file__filetype'] = 'Tipo del Archivo';
 $lang['project_file_visible_to_customer'] = 'Visible para el cliente';
 $lang['project_file_uploaded_by'] = 'Subido por';
-$lang['edit_project'] = 'Editar proyecto';
-$lang['copy_project'] = 'Copiar proyecto';
-$lang['delete_project'] = 'Borrar proyecto';
+$lang['edit_project'] = 'Editar Proyecto';
+$lang['copy_project'] = 'Copiar Proyecto';
+$lang['delete_project'] = 'Borrar Proyecto';
 $lang['project_task_assigned_to_user'] = 'Tareas asignadas para ti';
 $lang['seconds'] = 'Segundos';
 $lang['hours'] = 'Horas';
@@ -2460,54 +2456,54 @@ $lang['project']                 = 'Proyecto';
 $lang['project_lowercase']       = 'proyecto';
 $lang['projects']                = 'Proyectos';
 $lang['projects_lowercase']      = 'proyectos';
-$lang['project_settings']      = 'Ajustes del proyecto';
-$lang['project_invoiced_successfuly']             = 'Facturas del proyecto con exito';
-$lang['new_project']             = 'Nuevo proyecto';
+$lang['project_settings']      = 'Ajustes del Proyecto';
+$lang['project_invoiced_successfully']             = 'Facturas del proyecto con éxito';
+$lang['new_project']             = 'Nuevo Proyecto';
 $lang['project_files']            = 'Archivos';
 $lang['project_activity']            = 'Actividad';
-$lang['project_name']            = 'Nombre del proyecto';
-$lang['project_description']            = 'Descripcio del proyecto';
+$lang['project_name']            = 'Nombre del Proyecto';
+$lang['project_description']            = 'Descripción del Proyecto';
 $lang['project_customer']            = 'Cliente';
-$lang['project_start_date']            = 'Fecha de inicio';
-$lang['project_datecreated']            = 'Fecha de creación';
-$lang['project_deadline']            = 'Fecha tope';
-$lang['project_billing_type']            = 'Tipo de facturación';
+$lang['project_start_date']            = 'Fecha de Inicio';
+$lang['project_datecreated']            = 'Fecha de Creación';
+$lang['project_deadline']            = 'Fecha Tope';
+$lang['project_billing_type']            = 'Tipo de Facturación';
 $lang['project_billing_type_fixed_cost']            = 'Precio fijo';
-$lang['project_billing_type_project_hours']            = 'Horas del proyecto';
+$lang['project_billing_type_project_hours']            = 'Horas del Proyecto';
 $lang['project_billing_type_project_task_hours']            = 'Horas de las tareas';
-$lang['project_billing_type_project_task_hours_hourly_rate']            = 'Base de la tarifa del trabajo por hora';
-$lang['project_rate_per_hour']            = 'Tarifa por hora';
-$lang['project_total_cost']            = 'Costo total';
-$lang['project_members']            = 'Miembros del proyecto';
+$lang['project_billing_type_project_task_hours_hourly_rate']            = 'Base de la precio del trabajo por hora';
+$lang['project_rate_per_hour']            = 'Precio Hora';
+$lang['project_total_cost']            = 'Coste Total';
+$lang['project_members']            = 'Miembros del Proyecto';
 $lang['project_member_removed']     = 'Miembro del proyecto eliminado correctamente';
 $lang['project_overview']           = 'descripción del proyecto';
 $lang['project_gant']            = 'Vista Gantt';
 $lang['project_milestones']            = 'Hitos';
 $lang['project_milestone_order']            = 'Orden';
 $lang['project_milestone_duedate_passed']            = 'La fecha de vencimiento expirada';
-$lang['record_timesheet']            = 'Registro de horas';
-$lang['new_milestone']            = 'Nuevo hito';
-$lang['edit_milestone']            = 'Editar hito';
+$lang['record_timesheet']            = 'Registro de Horas';
+$lang['new_milestone']            = 'Nuevo Hito';
+$lang['edit_milestone']            = 'Editar Hito';
 $lang['milestone_name']            = 'Nombre';
-$lang['milestone_due_date']            = 'Fecha de vencimiento';
+$lang['milestone_due_date']            = 'Fecha de Vencimiento';
 $lang['project_milestone']            = 'Hito';
 $lang['project_notes']            = 'Notas';
-$lang['project_timesheets']            = 'Planillas';
-$lang['project_timesheet']            = 'Planilla';
-$lang['milestone_total_logged_time']            = 'Tiempo registrado';
-$lang['project_overview_total_logged_hours']            = 'Total de horas registradas';
-$lang['milestones_uncategorized']            = 'Sin categoría';
-$lang['milestone_no_tasks_found']            = 'Tarea no encontrada';
-$lang['project_copied_successfuly']            = 'Los datos del proyecto se han copiado correctamente';
+$lang['project_timesheets']            = 'Hoja de Tiempos';
+$lang['project_timesheet']            = 'Hoja de Tiempo';
+$lang['milestone_total_logged_time']            = 'Tiempo Registrado';
+$lang['project_overview_total_logged_hours']            = 'Registro Total de Horas';
+$lang['milestones_uncategorized']            = 'Sin Categoría';
+$lang['milestone_no_tasks_found']            = 'Sin Tarea';
+$lang['project_copied_successfully']            = 'Los datos del proyecto se han copiado correctamente';
 $lang['failed_to_copy_project']            = 'No se pudo copiar el proyecto';
 $lang['copy_project_task_include_check_list_items']            = 'Copiar puntos de la lista';
 $lang['copy_project_task_include_assignees']            = 'Copiar los mismos ejecutivos de ventas';
 $lang['copy_project_task_include_followers']            = 'Copiar los mismo seguidores';
 
-$lang['project_days_left']            = 'Dias dejados';
-$lang['project_open_tasks']            = 'Tareas abiertas';
-$lang['timesheet_stop_timer']            = 'Detener temporadizador';
-$lang['failed_to_add_project_timesheet_end_time_smaller']            = 'No se pudo agregar las planillas. La hora de finalizacion es menor que el tiempo de inicio';
+$lang['project_days_left']            = 'Dias Dejados';
+$lang['project_open_tasks']            = 'Tareas Abiertas';
+$lang['timesheet_stop_timer']            = 'Detener Temporadizador';
+$lang['failed_to_add_project_timesheet_end_time_smaller']            = 'No se pudo agregar las Hoja de Tiempos. La hora de finalizacion es menor que el tiempo de inicio';
 $lang['project_timesheet_user']            = 'Miembro';
 $lang['project_timesheet_start_time']            = 'Hora de inicio';
 $lang['project_timesheet_end_time']            = 'Hora de finalización';
@@ -2515,32 +2511,32 @@ $lang['project_timesheet_time_spend']            = 'Tiempo usado';
 $lang['project_timesheet_task']            = 'Tarea';
 $lang['project_invoices']                = 'Facturas';
 $lang['total_logged_hours_by_staff']            = 'Total de tiempo registrado';
-$lang['invoice_project']            = 'Factura del proyecto';
-$lang['invoice_project_info']            = 'Informacion de la facture del proyecto';
-$lang['invoice_project_data_single_line']            = 'Linea única';
+$lang['invoice_project']            = 'Factura del Proyecto';
+$lang['invoice_project_info']            = 'Información de la facture del proyecto';
+$lang['invoice_project_data_single_line']            = 'Línea Única';
 $lang['invoice_project_data_task_per_item']            = 'Tarea por artículo';
-$lang['invoice_project_data_timesheets_individualy']            = 'Todas las planillas individual';
+$lang['invoice_project_data_timesheets_individually']            = 'Todas las Hoja de Tiempos individual';
 $lang['invoice_project_item_name_data']            = 'Nombre del artículo';
 $lang['invoice_project_description_data']            = 'Descripción';
 $lang['invoice_project_projectname_taskname']            = 'Nombre del proyecto + Nombre de la tarea';
 $lang['invoice_project_all_tasks_total_logged_time']            = 'Todas las tareas + tiempo total registrado por tarea';
 $lang['invoice_project_project_name_data']            = 'Nombre del proyecto';
-$lang['invoice_project_timesheet_indivudualy_data']            = 'Hora de inicio de la planilla + hora de finalizacion + tiempo total registrado';
+$lang['invoice_project_timesheet_individually_data']            = 'Hora de inicio de la Hoja de Tiempo + hora de finalizacion + tiempo total registrado';
 $lang['invoice_project_total_logged_time_data']            = 'Tiempo total registrado';
 
-$lang['project_allow_client_to'] = 'Permitir al cliente %s';
+$lang['project_allow_client_to'] = 'Permitir al Cliente %s';
 $lang['project_setting_view_task_attachments'] = 'archivos adjuntos de tareas vistas';
 $lang['project_setting_view_task_checklist_items'] = 'Lista de tareas vistas del artículo';
-$lang['project_setting_upload_files'] = 'subir archivos';
+$lang['project_setting_upload_files'] = 'Subir Archivos';
 $lang['project_setting_view_task_comments'] = 'comentarios de las tareas vistas';
 $lang['project_setting_upload_on_tasks'] = 'subir archivos adjuntos a las tareas';
 $lang['project_setting_view_task_total_logged_time'] = 'Total del tiempo registrado en tareas vistas';
 $lang['project_setting_open_discussions'] = 'discusiones abiertas';
 $lang['project_setting_comment_on_tasks'] = 'comentarios sobre last areas del proyecto';
-$lang['project_setting_view_tasks'] = 'tareas vistas';
-$lang['project_setting_view_milestones'] = 'hitos vistos';
-$lang['project_setting_view_gantt'] = 'Gantt visto';
-$lang['project_setting_view_timesheets'] = 'Planillas vistas';
+$lang['project_setting_view_tasks'] = 'Tareas Vistas';
+$lang['project_setting_view_milestones'] = 'Hitos Vistos';
+$lang['project_setting_view_gantt'] = 'Gantt Visto';
+$lang['project_setting_view_timesheets'] = 'Hoja de Tiempos vistas';
 $lang['project_setting_view_activity_log'] = 'ver registro de actividad';
 $lang['project_setting_view_team_members'] = 'ver los miembros del equipo';
 
@@ -2549,22 +2545,22 @@ $lang['project_discussion_visible_to_customer_no']                 = 'No Visible
 
 $lang['project_discussion_posted_on']                 = 'Publicado en %s';
 $lang['project_discussion_posted_by']                 = 'Publicado por %s';
-$lang['project_discussion_failed_to_delete']                 = 'No se pudo eliminar la discusion';
+$lang['project_discussion_failed_to_delete']                 = 'No se pudo eliminar la discusión';
 $lang['project_discussion_deleted']                 = 'La discussion se ha eliminado correctamente';
 $lang['project_discussion_no_activity']                 = 'Ningúna actividad';
-$lang['project_discussion']                 = 'Discusion';
+$lang['project_discussion']                 = 'Discusión';
 $lang['project_discussions']                 = 'Discusiones';
-$lang['edit_discussion'] = 'Crear Discusion';
-$lang['new_project_discussion'] = 'Crear Discusion';
+$lang['edit_discussion'] = 'Crear Discusión';
+$lang['new_project_discussion'] = 'Crear Discusión';
 $lang['project_discussion_subject'] = 'Tema';
-$lang['project_discussion_description'] = 'descripción';
+$lang['project_discussion_description'] = 'Descripción';
 $lang['project_discussion_show_to_customer'] = 'Visible para el cliente';
 $lang['project_discussion_total_comments'] = 'Comentarios totales';
 $lang['project_discussion_last_activity'] = 'Ultima actividad';
-$lang['discussion_add_comment'] = 'Agregar comentario';
-$lang['discussion_newest'] = 'El mas reciente';
-$lang['discussion_oldest'] = 'El mas viejo';
-$lang['discussion_attachments'] = 'Archivos adjuntos';
+$lang['discussion_add_comment'] = 'Agregar Comentario';
+$lang['discussion_newest'] = 'El mas Reciente';
+$lang['discussion_oldest'] = 'El mas Antiguo';
+$lang['discussion_attachments'] = 'Archivos Adjuntos';
 $lang['discussion_send'] = 'Enviar';
 $lang['discussion_reply'] = 'Respuesta';
 $lang['discussion_edit'] = 'Editar';
@@ -2572,27 +2568,27 @@ $lang['discussion_edited'] = 'Modificar';
 $lang['discussion_you'] = 'Tu';
 $lang['discussion_save'] = 'Guardar';
 $lang['discussion_delete'] = 'Borrar';
-$lang['discussion_view_all_replies'] = 'Mostras todas las respuestas';
+$lang['discussion_view_all_replies'] = 'Enseñar todas las respuestas';
 $lang['discussion_hide_replies'] = 'Ocultar respuestas';
 $lang['discussion_no_comments'] = 'Ningún comentario';
 $lang['discussion_no_attachments'] = 'Ningún archivo adjunto';
 $lang['discussion_attachments_drop'] = 'Arrastrar y soltar para cargar el archivo';
 $lang['project_note'] = 'Nota';
-$lang['project_note_private'] = 'Notas privadas';
-$lang['project_save_note'] = 'Guardar nota';
+$lang['project_note_private'] = 'Notas Privadas';
+$lang['project_save_note'] = 'Guardar Nota';
 
 # Project Activity
-$lang['project_activity_created'] = 'Proyecto creado';
-$lang['project_activity_updated'] = 'Proyecto actualizado';
+$lang['project_activity_created'] = 'Proyecto Creado';
+$lang['project_activity_updated'] = 'Proyecto Actualizado';
 $lang['project_activity_removed_team_member'] = 'Miembro del equipo eliminado';
 $lang['project_activity_added_team_member'] = 'Nuevo miembro del equipo agregado';
 $lang['project_activity_marked_all_tasks_as_complete'] = 'Marcadas todas las tareas como completas';
 $lang['project_activity_recorded_timesheet'] = 'Factura registrada';
 $lang['project_activity_task_name'] = 'Tarea:';
-$lang['project_activity_deleted_discussion'] = 'Eliminar Discusion';
+$lang['project_activity_deleted_discussion'] = 'Eliminar Discusión';
 $lang['project_activity_created_discussion'] = 'Discusión creada';
 $lang['project_activity_updated_discussion'] = 'Discusión actualizada';
-$lang['project_activity_commented_on_discussion'] = 'Observación de la discusion';
+$lang['project_activity_commented_on_discussion'] = 'Observación de la discusión';
 $lang['project_activity_deleted_discussion_comment'] = 'Observación de la discussion eliminada';
 $lang['project_activity_deleted_milestone'] = 'Hitos eliminados';
 $lang['project_activity_updated_milestone'] = 'Actualización de hito';
@@ -2600,7 +2596,7 @@ $lang['project_activity_created_milestone'] = 'Nuevo hito creado';
 $lang['project_activity_invoiced_project'] = 'Proyecto facturado';
 $lang['project_activity_task_marked_complete'] = 'Tarea marcada como completa';
 $lang['project_activity_task_unmarked_complete'] = 'Tarea desmarcada como completa';
-$lang['project_activity_task_deleted'] = 'Tarea eliminada';
+$lang['project_activity_task_deleted'] = 'Tarea Eliminada';
 $lang['project_activity_new_task_comment'] = 'Tarea comentada en';
 $lang['project_activity_new_task_attachment'] = 'Archivos adjuntos cargados en la tarea';
 $lang['project_activity_new_task_assignee'] = 'Nuevo ejecutivo de tarea añadido';
@@ -2612,27 +2608,27 @@ $lang['project_activity_visible_to_customer'] = 'Visible para el cliente';
 $lang['project_activity_project_file_removed'] = 'Archivo del proyecto eliminado';
 
 # Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
-$lang['not_customer_uploaded_project_file'] = 'Nuevo archive cargado';
-$lang['not_customer_created_new_project_discussion'] = 'Nueva discusion creada del proyecto';
-$lang['not_customer_commented_on_project_discussion'] = 'Nuevo comentario en la discusion del proyecto';
+$lang['not_customer_uploaded_project_file'] = 'Nuevo Archivo Cargado';
+$lang['not_customer_created_new_project_discussion'] = 'Nueva discusión creada del proyecto';
+$lang['not_customer_commented_on_project_discussion'] = 'Nuevo comentario en la discusión del proyecto';
 
 # Customers area
-$lang['clients_my_estimates'] = 'Mis Presupuesto';
-$lang['client_no_reply'] = 'Sin respuesta';
+$lang['clients_my_estimates'] = 'Mis Presupuestos';
+$lang['client_no_reply'] = 'Sin Respuesta';
 $lang['clients_nav_projects'] = 'Proyectos';
 $lang['clients_my_projects'] = 'Mis Proyectos';
-$lang['client_profile_image'] = 'Imagen de perfil';
+$lang['client_profile_image'] = 'Imagen de Perfil';
 
 /////
-$lang['sales_report_cancelled_invoices_not_included'] = 'Facturas canceladas no están incluídas en el reporte';
+$lang['sales_report_cancelled_invoices_not_included'] = 'Facturas canceladas no están incluídas en el Informe';
 $lang['invoices_merge_cancel_merged_invoices'] = 'Marcar las facturas como canceladas en vez de eliminarla';
-$lang['invoice_marked_as_cancelled_successfuly'] = 'Facturas marcadas como canceladas exitosamente';
+$lang['invoice_marked_as_cancelled_successfully'] = 'Facturas marcadas como canceladas exitosamente';
 $lang['invoice_unmarked_as_cancelled'] = 'Facturas marcadas como no-canceladas exitosamente.';
 $lang['tasks_reminder_notification_before_help'] = 'Avisar a los empleados asignados sobre sus tareas a X días antes de su fecha límite. La notificación de correo es solo enviado al empleado asignado.';
 $lang['tasks_reminder_notification_before'] = 'Recordatorio de fecha tope de la Tarea (Días)';
 $lang['not_task_deadline_reminder'] = 'Recordatorio de fecha tope de Tareas';
 $lang['dt_length_menu_all'] = 'Todo';
-$lang['task_not_finished'] = 'No Completado';
+$lang['task_not_finished'] = 'No Terminada';
 $lang['task_billed_cant_start_timer'] = 'Tarea facturado. El temporizador no puede ser iniciado.';
 $lang['invoice_task_billable_timers_found'] = 'Temporizadores iniciadas encontrados';
 $lang['project_timesheet_not_updated'] = 'Hoja de horas no ha sido afectada';
@@ -2643,7 +2639,7 @@ $lang['invoice_project_all_billable_tasks_marked_as_finished'] = 'Todas las tare
 $lang['invoice_project_nothing_to_bill'] = 'No hay tareas para facturar. Siéntase libre de añadir lo que quieras en las posiciones de factura.';
 $lang['invoice_project_start_date_tasks_not_passed'] = 'Las tareas con fecha de inicio en el futuro no se pueden facturar';
 $lang['invoice_project_stop_all_timers'] = 'Detener todos los temporizadores';
-$lang['invoice_project_stop_billabe_timers_only'] = 'Detener los temporizadores facturables';
+$lang['invoice_project_stop_billable_timers_only'] = 'Detener los temporizadores facturables';
 $lang['project_tasks_total_timers_stopped'] = 'Total de temporizadores detenidos %s';
 $lang['project_invoice_timers_started'] = 'Temporizadores activos en tareas facturables, no permitirá crear una factura. Favor de detener el temporizador para crear la factura.';
 $lang['task_start_timer_only_assignee'] = 'Tienes que estar asignado a esta tarea para poder iniciar un Temporizador!';
@@ -2676,8 +2672,8 @@ $lang['admin_auth_forgot_password_button'] = 'Confirmar';
 $lang['task_assigned'] = 'Asignar a';
 $lang['switch_to_pipeline'] = 'Visualizar como pipeline';
 $lang['switch_to_list_view'] = 'Visualizar como lista';
-$lang['estimates_pipeline'] = 'Pipeline Estimaciones';
-$lang['estimates_pipeline_sort'] = 'Sortear por';
+$lang['estimates_pipeline'] = 'Pipeline Presupuestos';
+$lang['estimates_pipeline_sort'] = 'Ordenar por';
 $lang['estimates_sort_expiry_date'] = 'Fecha vencimiento';
 $lang['estimates_sort_pipeline'] = 'Orden del Pipeline';
 $lang['estimates_sort_datecreated'] = 'Fecha creación';
@@ -2689,7 +2685,7 @@ $lang['invoice_reminders'] = 'Recordatorio';
 $lang['estimate_notes'] = 'Notas';
 $lang['estimate_add_note'] = 'Agregar notas';
 $lang['dropdown_non_selected_tex'] = 'Nada seleccionado';
-$lang['auto_close_ticket_after'] = 'Automáticamente cerrar el ticket despues de (Horas)';
+$lang['auto_close_ticket_after'] = 'Automáticamente cerrar el ticket Después de (Horas)';
 $lang['event_description'] = 'Descripción';
 $lang['delete_event'] = 'Eliminar';
 $lang['not_new_ticket_created'] = 'Nuevo Ticket creado pata tu departamento - %s';
@@ -2703,11 +2699,11 @@ $lang['contact_lowercase'] = 'contacto';
 $lang['contact_primary'] = 'Contacto Principal';
 $lang['contact_position'] = 'Posición/Cargo';
 $lang['contact_active'] = 'Activo';
-$lang['client_company_info'] = 'Detalles de la Compañia';
+$lang['client_company_info'] = 'Detalles de la Empresa';
 $lang['proposal_save'] = 'Guardar Propuesta';
 $lang['calendar'] = 'Calendario';
 $lang['settings_pdf'] = 'PDF';
-$lang['settings_pdf_font'] = 'PDF Font';
+$lang['settings_pdf_font'] = 'Fuente PDF';
 $lang['settings_pdf_table_heading_color'] = 'Los productos encabezamiento de la tabla de colores';
 $lang['settings_pdf_table_heading_text_color'] = 'Los productos encabezamiento de la tabla de color de texto';
 $lang['settings_pdf_font_size'] = 'Tamaño de letra predeterminado';
@@ -2717,8 +2713,8 @@ $lang['company_primary_email'] = 'Email Principal';
 $lang['client_register_contact_info'] = 'Información del contacto principal';
 $lang['client_register_company_info'] = 'Datos de la compañía';
 $lang['contact_permissions_info'] = 'Asegúrese de establecer los permisos apropiados para este contacto';
-$lang['defaut_leads_kanban_sort'] = 'Default leads Kan Ban Sort';
-$lang['defaut_leads_kanban_sort_type'] = 'Sortear';
+$lang['default_leads_kanban_sort'] = 'Default leads Kan Ban Sort';
+$lang['default_leads_kanban_sort_type'] = 'Ordenar por';
 $lang['order_ascending'] = 'Ascendente';
 $lang['order_descending'] = 'Descendente';
 $lang['calendar_expand'] = 'expandir';
@@ -2734,8 +2730,8 @@ $lang['invoice_status_report_all'] = 'Todos';
 $lang['import_contact_field'] = 'Campo de Contacto';
 
 $lang['file_uploaded_success'] = 'No hay error, el archivo cargó exitosamente';
-$lang['file_exceds_max_filesize'] = 'El archivo subido excede la directiva upload_max_filesize';
-$lang['file_exceds_maxfile_size_in_form'] = 'El archivo subido excede la directiva MAX_FILE_SIZE que se especificó en el formulario HTML';
+$lang['file_exceeds_max_filesize'] = 'El archivo subido excede la directiva upload_max_filesize';
+$lang['file_exceeds_maxfile_size_in_form'] = 'El archivo subido excede la directiva MAX_FILE_SIZE que se especificó en el formulario HTML';
 $lang['file_uploaded_partially'] = 'El archivo subido se ha subido sólo parcialmente';
 $lang['file_not_uploaded'] = 'No se cargó ningún archivo';
 $lang['file_missing_temporary_folder'] = 'Falta una carpeta temporal';
@@ -2751,8 +2747,8 @@ $lang['survey_no_questions'] = 'Esta encuesta no contiene preguntas.';
 $lang['survey_submit'] = 'Enviar';
 $lang['contract_content'] = 'Contrato';
 $lang['contract_save'] = 'Guardar Contrato';
-$lang['contract_send_to_email'] = 'Enviar por email';
-$lang['contract_send_to_client_modal_heading'] = 'Enviar contrato por correo';
+$lang['contract_send_to_email'] = 'Enviar por Email';
+$lang['contract_send_to_client_modal_heading'] = 'Enviar Contrato por Correo';
 $lang['contract_send_to'] = 'Enviar a';
 $lang['contract_send_to_client_attach_pdf'] = 'Agregar PDF';
 $lang['contract_send_to_client_preview_template'] = 'Vista previa de plantilla de email';
@@ -2762,13 +2758,13 @@ $lang['contract_sent_to_client_fail'] = 'hubo un error al enviar el contrato';
 
 # Version 1.1.3
 $lang['client_invalid_username_or_password'] = 'usuario o contraseña invalido';
-$lang['client_old_password_incorect']     = 'Su antigua contraseña es incorrecta';
+$lang['client_old_password_incorrect']     = 'Su antigua contraseña es incorrecta';
 $lang['client_password_changed']          = 'Su contraseña ha sido cambiada';
 
 # Version 1.1.4
-$lang['total_leads_deleted'] = 'Total de leads eliminados: %s';
+$lang['total_leads_deleted'] = 'Total de Contactos eliminados: %s';
 $lang['total_clients_deleted'] = 'Total de clientes eliminados: %s';
-$lang['confirm_action_prompt'] = 'Estás seguro de querer realizar ésta accción?';
+$lang['confirm_action_prompt'] = 'Estás seguro de querer realizar ésta acción?';
 $lang['mass_delete'] = 'Eliminación Masiva';
 $lang['email_protocol'] = 'Protocolo de Email';
 $lang['add_edit_members'] = 'Agregar/Editar Miembro';
@@ -2781,16 +2777,16 @@ $lang['permission_view'] = 'Ver';
 $lang['permission_edit'] = 'Editar';
 $lang['permission_create'] = 'Crear';
 $lang['permission_delete'] = 'Eliminar';
-$lang['permission'] = 'Permisos';
+$lang['permission'] = 'Permiso';
 $lang['permissions'] = 'Permisos';
 $lang['proposals_pipeline'] = 'Pipeline Propuestas';
-$lang['proposals_pipeline_sort'] = 'Sortear por';
-$lang['proposals_sort_open_till'] = 'Abierto hasta';
+$lang['proposals_pipeline_sort'] = 'Ordenar por';
+$lang['proposals_sort_open_till'] = 'Valido Hasta';
 $lang['proposals_sort_pipeline'] = 'Orden del Pipeline';
 $lang['proposals_sort_datecreated'] = 'Fecha Creada';
 $lang['proposals_sort_proposal_date'] = 'Fecha Propuesta';
 $lang['is_not_staff_member'] = 'No miembro del personal';
-$lang['lead_created'] = 'Creado';
+$lang['lead_created'] = 'Contacto Creado';
 $lang['access_tickets_to_none_staff_members'] = 'Permitir acceso a los tickets a personas que no son parte del personal.';
 $lang['project_expenses'] = 'Gastos';
 $lang['expense_currency'] = 'Moneda';
@@ -2817,7 +2813,7 @@ $lang['pinned_project']= 'Proyecto Pinned';
 $lang['pin_project']= 'Pin Project';
 $lang['unpin_project']= 'Unpin Project';
 $lang['smtp_encryption']= 'Email Encryption';
-$lang['smtp_encryption_none']= 'None';
+$lang['smtp_encryption_none']= 'Nada';
 $lang['show_proposals_on_calendar']= 'Propuestas';
 $lang['invoice_project_see_billed_expenses']= 'Ver gastos que serán facturados en esta factura';
 $lang['project_overview_expenses'] = 'Total Gastos';
@@ -2832,9 +2828,9 @@ $lang['report_expenses_base_currency_select_explanation'] = 'Tienes que elegir u
 
 # Version 1.1.6
 $lang['project_activity_recorded_expense'] = 'Gasto Registrado';
-$lang['save_customer_and_add_contact'] = 'Guardar y crear contacto';
+$lang['save_customer_and_add_contact'] = 'Guardar y Crear Contacto';
 $lang['tickets_chart_weekly_opening_stats'] = 'Estadísticas Semanal';
-$lang['related_knowledgebase_articles'] = 'Articulos relacionados';
+$lang['related_knowledgebase_articles'] = 'Articulos Relacionados';
 $lang['detailed_overview'] = 'Detalles de Tareas';
 $lang['tasks_total_checklists_finished'] = 'Total de artículos marcados como lista de verificación completada';
 $lang['tasks_total_added_attachments'] = 'Total de archivos adjuntos agregados';
@@ -2842,20 +2838,20 @@ $lang['tasks_total_comments'] = 'Total de comentarios';
 $lang['task_finished_on_time'] = 'Terminado a tiempo?';
 $lang['task_finished_on_time_indicator'] = 'Si';
 $lang['task_not_finished_on_time_indicator'] = 'No';
-$lang['task_filter_fetch_month_by'] = 'Buscar mes por';
+$lang['task_filter_fetch_month_by'] = 'Buscar por Mes';
 $lang['filter'] = 'Filtrar';
-$lang['task_filter_detailed_all_months'] = 'Todos los meses';
+$lang['task_filter_detailed_all_months'] = 'Todos los Meses';
 $lang['kb_article_slug'] = 'Slug';
 
 # Version 1.1.7
 $lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields wont be replaced.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Detener todos los demás temporizadores para iniciar un nuevo temporizador.';
 $lang['notification_when_customer_pay_invoice'] = 'Recibir notificación cuando un cliente hace un pago. (built-in)';
-$lang['not_invoice_payment_recored'] = 'Nuevo Pago de Factura - %s';
+$lang['not_invoice_payment_recorded'] = 'Nuevo Pago de Factura - %s';
 $lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields wont be replaced.';
 $lang['theme_style'] = 'Estilo del Tema';
 $lang['change_role_permission_warning'] = 'Changing role permissions now wont affected current staff members permissions that are using this role.';
-$lang['task_copied_successfuly'] = 'Tarea copiada exitosamente';
+$lang['task_copied_successfully'] = 'Tarea copiada exitosamente';
 $lang['failed_to_copy_task'] = 'Error al copiar la tarea';
 $lang['not_project_file_uploaded'] = 'Nuevo archivo agregado al proyecto';
 $lang['settings_calendar_color'] = '%s Color';
@@ -2863,12 +2859,12 @@ $lang['settings_calendar_colors_heading'] = 'Estilo';
 $lang['reminder'] = 'Recordatorio';
 $lang['back_to_tasks_list'] = 'Volver atrás a lista de tareas';
 $lang['copy_task_confirm'] = 'Confirmar';
-$lang['changing_items_affect_warning'] = 'Cambiando la información del articulo no afectará a las facturas/estimaciones ya creadas.';
+$lang['changing_items_affect_warning'] = 'Cambiando la información del articulo no afectará a las facturas/sresupuestos ya creadas.';
 $lang['tax_is_used_in_expenses_warning'] = 'No puedes actualizar este el monto del impuesto porque existen transacciones con este valor.';
 $lang['note'] = 'Nota';
-$lang['leads_staff_report_converted'] = 'Total de Leads Convertidos';
-$lang['leads_staff_report_created'] = 'Total de Leads Creados';
-$lang['leads_staff_report_lost'] = 'Total de Leads Perdidos';
+$lang['leads_staff_report_converted'] = 'Total de Contactos Convertidos';
+$lang['leads_staff_report_created'] = 'Total de Contactos Creados';
+$lang['leads_staff_report_lost'] = 'Total de Contactos Perdidos';
 $lang['client_go_to_dashboard'] = 'Atrás a la portal';
 $lang['show_estimate_reminders_on_calendar'] = 'Recordatorio de Estimación';
 $lang['show_invoice_reminders_on_calendar'] = 'Recordatorio de Factura';
@@ -2876,17 +2872,17 @@ $lang['calendar_estimate_reminder'] = 'Recordatorio de Estimación';
 $lang['calendar_invoice_reminder'] = 'Recordatorio de Factura';
 $lang['show_proposal_reminders_on_calendar'] = 'Recordatorio de Propuesta';
 $lang['calendar_proposal_reminder'] = 'Recordatorio de Propuesta';
-$lang['proposal_due_after']= 'Propuesta vence despues de (días)';
+$lang['proposal_due_after']= 'Propuesta vence Después de (días)';
 $lang['project_progress']= 'Progreso';
 $lang['calculate_progress_through_tasks']= 'Calcular el progreso a través de tareas';
-$lang['allow_customer_to_change_ticket_status']= 'Permitir que los clientes cambién los estatus de los tickets utilizando su portal';
-$lang['switch_to_general_report']= 'Visualizar Reporte del Personal';
-$lang['switch_to_staff_report']= 'Visualizar Reporte General';
+$lang['allow_customer_to_change_ticket_status']= 'Permitir que los clientes cambién los estados de los tickets utilizando su portal';
+$lang['switch_to_general_report']= 'Visualizar Informe del Personal';
+$lang['switch_to_staff_report']= 'Visualizar Informe General';
 $lang['generate']= 'Generar';
-$lang['from_date']= 'Desde la fecha';
-$lang['to_date']= 'Hasta la fecha';
+$lang['from_date']= 'Desde la Fecha';
+$lang['to_date']= 'Hasta la Fecha';
 $lang['not_results_found']= 'No se encontraron resultados';
-$lang['lead_lock_after_convert_to_customer']= 'No Permitir editar los leads después de hacer sido convertido a cliente (no le aplica a los admins)';
+$lang['lead_lock_after_convert_to_customer']= 'No Permitir editar los Contactos después de hacer sido convertido a cliente (no le aplica a los admins)';
 $lang['default_pipeline_sort'] = 'Sorteo por defecto';
 $lang['not_goal_message_failed'] = 'No logramos alcanzar la meta!<br /> Tipo Meta: %s
 <br />Logro de los Objetivos: %s
@@ -2906,14 +2902,14 @@ $lang['not_commented_on_project_discussion'] = 'Nuevo comentario en una conversa
 $lang['all_staff_members'] = 'Todos los Empleados';
 $lang['help_project_permissions'] = 'VIEW allows staff member to see ALL projects. If you only want them to see projects they are assigned (added as members), do not give VIEW permissions.';
 $lang['help_tasks_permissions'] = 'VIEW allows staff member to see ALL tasks. If you only want them to see tasks they are assigned to or following, do not give VIEW permissions.';
-$lang['expense_recuring_days'] = 'Día(s)';
-$lang['expense_recuring_weeks'] = 'Semana(s)';
-$lang['expense_recuring_months'] = 'Mes(es)';
-$lang['expense_recuring_years'] = 'Año(s)';
+$lang['expense_recurring_days'] = 'Día(s)';
+$lang['expense_recurring_weeks'] = 'Semana(s)';
+$lang['expense_recurring_months'] = 'Mes(es)';
+$lang['expense_recurring_years'] = 'Año(s)';
 $lang['reset_to_default_color'] = 'Reset to default color';
 $lang['pdf_logo_width'] = 'Logo Width (PX)';
 $lang['drop_files_here_to_upload'] = 'Dejar caer archivo aqui para cargar';
-$lang['browser_not_support_drag_and_drop'] = 'Tu navegador no soporte la opcion de dejar caer archivo para cargar.';
+$lang['browser_not_support_drag_and_drop'] = 'Tu navegador no soporte la opción de dejar caer archivo para cargar.';
 $lang['remove_file'] = 'Eliminar Archivo';
 $lang['you_can_not_upload_any_more_files'] = 'Ya no puedes cargars archivos.';
 $lang['custom_field_only_admin'] = 'Restrict visibility for administrators only';
@@ -2922,11 +2918,11 @@ $lang['clear_activity_log'] = 'Limpiar el log';
 $lang['default_contact_permissions'] = 'Permisos de contacto por defecto';
 $lang['invoice_activity_marked_as_cancelled'] = 'marcar factura como cancelada';
 $lang['invoice_activity_unmarked_as_cancelled'] = 'Desmarcar factura como cancelada';
-$lang['wait_text'] = 'Por favor esperar...';
+$lang['wait_text'] = 'Por favor espere...';
 $lang['projects_summary'] = 'Resumen de Proyectos';
 $lang['dept_imap_host'] = 'IMAP Host';
 $lang['dept_encryption'] = 'Encryption';
-$lang['dept_email_password'] = 'Password';
+$lang['dept_email_password'] = 'Contraseña';
 $lang['dept_email_no_encryption'] = 'No Encryption';
 $lang['failed_to_decrypt_password'] = 'Failed to decrypt password';
 $lang['delete_mail_after_import'] = 'Delete mail after import?';
@@ -2936,7 +2932,7 @@ $lang['not_expiry_reminder_sent'] = 'Notificación de Recordatorio de Expiració
 $lang['send_expiry_reminder'] = 'Recordatorio de caducidad enviado';
 $lang['sent_expiry_reminder_success'] = 'Recordatorio de caducidad enviado con éxito';
 $lang['sent_expiry_reminder_fail'] = 'Error al enviar recordatorio de expiración';
-$lang['leads_default_status'] = 'Estatus por defecto';
+$lang['leads_default_status'] = 'estados por defecto';
 $lang['item_description_placeholder'] = 'Descripción';
 $lang['item_long_description_placeholder'] = 'Descripción Larga';
 $lang['item_quantity_placeholder'] = 'Cantidad';
@@ -2955,10 +2951,10 @@ $lang['customer_have_projects_by'] = ' %s';
 $lang['customer_have_proposals_by'] = ' %s';
 $lang['do_not_redirect_payment'] = 'No me envie al procesador de pagos';
 $lang['project_tickets'] = 'Tickets';
-$lang['invoice_report'] = 'Reporte de Facturas';
+$lang['invoice_report'] = 'Informe de Facturas';
 $lang['payment_modes_report'] = 'Métodos de Pagos (transacciones)';
-$lang['customer_admins'] = 'Ejecutivo de Ventas';
-$lang['assign_admin'] = 'Asignar Ejecutivo de Ventas';
+$lang['customer_admins'] = 'Comercial';
+$lang['assign_admin'] = 'Asignar Comercial';
 $lang['customer_admin_date_assigned'] = 'Fecha Asignada';
 $lang['customer_admin_login_as_client_message'] = 'Hola %s. Te hemos agregado como ejecutivo de cuentas a este cliente.';
 $lang['ticket_form_validation_file_size'] = 'Tamaño del archivo debe ser menor de %s';
@@ -2981,26 +2977,26 @@ $lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to righ
 $lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
 $lang['expenses_filter_by_categories'] = 'Por Categorías';
 $lang['task_copy'] = 'Copiar';
-$lang['estimate_status'] = 'Estatus';
-$lang['expenses_report_exclude_billable'] = 'Exlcluir gastos facturables';
+$lang['estimate_status'] = 'Estados';
+$lang['expenses_report_exclude_billable'] = 'Excluir Gastos Facturables';
 $lang['expenses_total'] = 'Total';
 $lang['estimate_activity_added_attachment'] = 'Added attachment';
 $lang['show_to_customer'] = 'Mostrar al cliente';
 $lang['hide_from_customer'] = 'Ocultar al cliente';
 $lang['expenses_report_total'] = 'Total';
-$lang['expenses_report'] = 'Reporte de Gastos';
+$lang['expenses_report'] = 'Informe de Gastos';
 $lang['expenses_report_tax'] = 'Impuesto';
 $lang['expenses_report_total_tax'] = 'Total Impuesto';
-$lang['expenses_detailed_report'] = 'Reporte detallado';
+$lang['expenses_detailed_report'] = 'Informe Detallado';
 $lang['expense_not_billable'] = 'No Facturable';
 $lang['notification_settings'] = 'Configuración de las notificaciones';
 $lang['staff_with_roles'] = 'Personal con roles';
-$lang['specific_staff_members'] = 'Personal especifico';
+$lang['specific_staff_members'] = 'Personal Específico';
 $lang['proposal_mark_as'] = 'Marcar como %s';
 $lang['kb_report_total_answers'] = 'Total';
 $lang['ticket_message_edit'] = 'Editar';
 $lang['invoice_files'] = 'Archivos de Facturas';
-$lang['estimate_files'] = 'Archivos de Estimaciones';
+$lang['estimate_files'] = 'Archivos de Presupuestos';
 $lang['proposal_files'] = 'Archivos de Propuestas';
 $lang['invoices_awaiting_payment'] = 'Facturas por cobrar';
 $lang['tasks_not_finished'] = 'Tareas sin completar';
@@ -3010,18 +3006,18 @@ $lang['paid_invoices'] = 'Facturas Pagadas';
 $lang['invoice_estimate_year'] = 'Año';
 $lang['no_results_text_search_dropdown'] = 'No se encontraron resultados';
 $lang['task_stats_logged_hours'] = 'Horas Registradas';
-$lang['leads_converted_to_client'] = 'Leads Convertidos';
+$lang['leads_converted_to_client'] = 'Contactos Convertidos';
 $lang['task_assigned_from'] = 'Esta tarea fue asignada a ti por parte de %s';
 $lang['auto_check_for_new_notifications'] = 'Auto check for new notifications (Seconds - Set 0 to disable)';
 $lang['recurring_ends_on'] = 'Termina en (Leave blank for never)';
 $lang['new_note'] = 'Crear Nota';
 $lang['my_tickets_assigned'] = 'Tickets asignados a mí';
-$lang['filter_by_assigned'] = 'Por Personal Asignardo';
-$lang['staff_stats_total_logged_time'] = 'Total de Tiempo registrada';
-$lang['staff_stats_last_month_total_logged_time'] = 'Tiempo Registrado Mes Anterior';
-$lang['staff_stats_this_month_total_logged_time'] = 'Tiempo Registrado Mes Actual';
-$lang['staff_stats_last_week_total_logged_time'] = 'Tiempo Registrado Semana Anterior';
-$lang['staff_stats_this_week_total_logged_time'] = 'Tiempo Registrado Semana Actual';
+$lang['filter_by_assigned'] = 'Por Personal Asignado';
+$lang['staff_stats_total_logged_time'] = 'Tiempo Total Registrado';
+$lang['staff_stats_last_month_total_logged_time'] = 'Tiempo Total Registrado Mes Anterior';
+$lang['staff_stats_this_month_total_logged_time'] = 'Tiempo Total Registrado Mes Actual';
+$lang['staff_stats_last_week_total_logged_time'] = 'Tiempo Total Registrado Semana Anterior';
+$lang['staff_stats_this_week_total_logged_time'] = 'Tiempo Total Registrado Semana Actual';
 // Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
 $lang['timesheet_user'] = $lang['project_timesheet_user'];
 $lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
@@ -3042,19 +3038,19 @@ $lang['payment_credit_card_number'] = 'Card Number';
 $lang['payment_credit_card_expiration_date'] = 'Expiration Date';
 $lang['payment_billing_email'] = 'Email';
 $lang['payment_billing_name'] = 'Billing Name';
-$lang['submit_payment'] = 'Submit Payment';
+$lang['submit_payment'] = 'Enviar Pago';
 $lang['2checkout_notice_payment'] = 'Credit card details are processed via secure token provided from 2Checkout';
 $lang['2checkout_usage_notice'] = 'SSL is required if you\'re using the 2Checkout payment API. It is required to safely call the tokenization and authorizations. The system will function without SSL, however, this will place you out of compliance, which risks deactivation of your API permissions.';
 $lang['custom_field_disallow_customer_to_edit'] = 'No permitir al cliente para editar este campo';
 $lang['project_due_notice'] = 'Este proyecto esta atrasado por %s días';
-$lang['not_lead_added_attachment'] = 'agregó un nuevo archivo al lead %s';
+$lang['not_lead_added_attachment'] = 'agregó un nuevo archivo al Contacto %s';
 $lang['lead_note_date_added'] = 'Nota agregada: %s';
 $lang['recurring_custom'] = 'Personalizado';
 // Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
-$lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
-$lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
-$lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
-$lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['invoice_recurring_months'] = $lang['expense_recurring_months'];
+$lang['invoice_recurring_years'] = $lang['expense_recurring_years'];
+$lang['invoice_recurring_days'] = $lang['expense_recurring_days'];
+$lang['invoice_recurring_weeks'] = $lang['expense_recurring_weeks'];
 
 # Version 1.2.4
 $lang['document_direction'] = 'Tipo Lectura';
@@ -3075,7 +3071,7 @@ $lang['project_milestones_overview'] = 'Resumen de los hitos';
 $lang['total_tasks_in_milestones'] = 'Total de tareas asignadas';
 $lang['total_task_members_assigned'] = 'Total miembros asignados';
 $lang['total_task_members_followers'] = 'Total seguidores';
-$lang['total_milestones'] = 'Total hitos';
+$lang['total_milestones'] = 'Total Hitos';
 $lang['total_project_worked_days'] = 'Total de días trabajados';
 $lang['finance_overview'] = 'Resumen Financiero';
 $lang['project_custom_fields'] = 'Campos Personalizados';
@@ -3096,16 +3092,16 @@ $lang['invoice_status_draft'] = 'Borrador';
 $lang['save_as_draft'] = 'Guardar como borrador';
 $lang['convert_and_save_as_draft'] = 'Convertir y guardar como borrador';
 $lang['convert'] = 'Convertir';
-$lang['exclude_invoices_draft_from_client_area'] = 'Excluir las facturas del portal del cliente si contiene estatus de borrador.';
-$lang['invoice_draft_status_info'] = 'Esta factura tiene un estatus de borrador, el estatus será cambiado automáticamente cuando envíes la factura al cliente o la marques como enviada.';
+$lang['exclude_invoices_draft_from_client_area'] = 'Excluir las facturas del portal del cliente si contiene estados de borrador.';
+$lang['invoice_draft_status_info'] = 'Esta factura tiene un estados de borrador, el estados será cambiado automáticamente cuando envíes la factura al cliente o la marques como enviada.';
 $lang['task_info'] = 'Información de Tarea';
 $lang['recurring_tasks'] = 'Recurrente';
 // Dont translate these, already translated
 $lang['task_repeat_every'] = $lang['expense_repeat_every'];
-$lang['task_recuring_months'] = $lang['expense_recuring_months'];
-$lang['task_recuring_years'] = $lang['expense_recuring_years'];
-$lang['task_recuring_days'] = $lang['expense_recuring_days'];
-$lang['task_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['task_recurring_months'] = $lang['expense_recurring_months'];
+$lang['task_recurring_years'] = $lang['expense_recurring_years'];
+$lang['task_recurring_days'] = $lang['expense_recurring_days'];
+$lang['task_recurring_weeks'] = $lang['expense_recurring_weeks'];
 $lang['todays_tasks'] = 'Tareas de hoy';
 $lang['payment_mode_invoices_only'] = 'Solo Facturas';
 $lang['payment_mode_expenses_only'] = 'Solo Gastos';
@@ -3117,11 +3113,11 @@ $lang['calendar_expense_reminder'] = 'Recordatorio de gastos';
 $lang['recurring_task'] = 'Tarea Recurrente';
 $lang['disable_email_from_being_sent'] = 'Desactivar que este email se envíe';
 $lang['not_sent_indicator'] =  'No Enviado';
-$lang['proposal_status_revised'] =  'Revisado';
+$lang['proposal_status_revised'] =  'En Estudio';
 $lang['customer_currency_change_notice'] =  'Si el cliente utilice otra moneda a continuación, asegúrese que la moneda base este correctamente seleccionada para este cliente. Cambio de la moneda no es posible después de las transacciones se registran.';
 $lang['click_to_add_content'] =  'Hacer clic aqui para agregar contenido';
-$lang['related_to_project'] =  'Este %s está relacionado a %s: %s';
-$lang['back_to_lead'] =  'Atrás a los leads';
+$lang['related_to_project'] =  'Esta %s está relacionada al %s: %s';
+$lang['back_to_lead'] =  'Atrás a los Contactos';
 $lang['add_task_timer_started_warning'] =  'Detener el temporizador de la tarea actual para poder agregar un temporizador manual nuevo.';
 $lang['sending_email_contact_permissions_warning'] =  'No se pudo elegir un contacto automático para el cliente. Por favor, asegúrese de que los contactos que tiene el cliente tengan permisos %s';
 
@@ -3135,7 +3131,7 @@ $lang['settings_paymentmethod_mollie_api_key'] =  'API Key';
 $lang['settings_paymentmethod_authorize_api_transaction_key'] =  'API Transaction ID';
 $lang['settings_paymentmethod_authorize_secret_key'] =  'Secret Key';
 $lang['leads_report_converted_notice'] =  'Only leads thats belongs in the default status Client will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
-$lang['payment_method'] = 'Payment Method';
+$lang['payment_method'] = 'Forma de Pago';
 $lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, Paypal, Bank.';
 
 # Version 1.2.7
@@ -3143,16 +3139,16 @@ $lang['dropbox_app_key'] = 'Dropbox APP Key';
 $lang['project_invoice_select_all_expenses'] = 'Elegir todos los gastos';
 $lang['role_update_staff_permissions'] = 'Actualizar todos los permisos del personal que están utilizando éste rol';
 $lang['customer_active'] = 'Activo';
-$lang['note_updated_successfuly'] = 'Nota actualizada exitosamente';
+$lang['note_updated_successfully'] = 'Nota actualizada exitosamente';
 $lang['update_note'] = 'Actualizar Nota';
 $lang['update_comment'] = 'Actualizar comentario';
-$lang['comment_updated_successfuly'] = 'Comentario actualizado exitosamente.';
+$lang['comment_updated_successfully'] = 'Comentario actualizado exitosamente.';
 $lang['staff_send_welcome_email'] = 'Enviar correo de bienvenida';
 $lang['proposal_warning_email_change'] = 'Email actualizado para %s. Este %s esta vinculado a presupuestos. Quieres actualizar todos los Emails vinculado a presupuestos de %s?';
 $lang['update_proposal_email_yes'] = 'Sí, actualiza todos los emails vinculados.';
 $lang['update_proposal_email_no'] = 'No, yo lo actualizaré manualmente.';
 $lang['proposals_emails_updated'] = 'Todos los emails vinculados a presupuestos de %s han sido actualizado a %s';
-$lang['custom_field_company'] = 'Compañia';
+$lang['custom_field_company'] = 'Empresa';
 $lang['actions'] = 'Acciones';
 $lang['project_mark_as'] = 'Marcar como %s';
 $lang['todo_edit_title'] = 'Editar lista de quehaceres';
@@ -3160,8 +3156,8 @@ $lang['additional_action_required'] = 'Acción adicional requerida!';
 $lang['project_mark_tasks_finished_confirm'] = 'Confirmar';
 $lang['project_marked_as_success'] = 'Proyecto marcado como %s exitosamente';
 $lang['project_marked_as_failed'] = 'Hubo un error al marcar el proyecto como %s';
-$lang['auto_assign_customer_admin_after_lead_convert'] = 'Auto asignar como administrador del cliente despues de convertir';
-$lang['auto_assign_customer_admin_after_lead_convert_help'] = 'Si esta opción se establece como SI el personal que convirtió el lead a cliente se auto asignado como administrador del cliente. NOTA: Esta opción sólo se aplicará al personal que no dispone del permiso para VER los clientes';
+$lang['auto_assign_customer_admin_after_lead_convert'] = 'Auto asignar como administrador del cliente Después de convertir';
+$lang['auto_assign_customer_admin_after_lead_convert_help'] = 'Si esta opción se establece como SI el personal que convirtió el Contacto a cliente se auto asignado como administrador del cliente. NOTA: Esta opción sólo se aplicará al personal que no dispone del permiso para VER los clientes';
 $lang['auto_close_tickets_disable'] = 'Indicar 0 para deshabilitar';
 $lang['task_checklist_item_completed_by'] = 'Completado por %s';
 $lang['staff_email_signature_help'] = 'Si está vacío, se utilizará por defecto la configuración de firma de correo electrónico';
@@ -3171,98 +3167,98 @@ $lang['project_send_created_email'] = 'Enviar correo de creación de proyecto';
 $lang['survey_send_to_lists'] = 'Encuesta enviar a la listas';
 $lang['survey_send_notice'] = 'Los correos serán enviados utilizado el CRON JOB por hora.';
 $lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
-$lang['custom_field_company_info'] = 'Edita los campos personalizados para la compañia en Setup->Settings->Company';
+$lang['custom_field_company_info'] = 'Edita los campos personalizados para la empresa en Setup->Settings->Company';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'Show invoice payments (transactions) on PDF';
-$lang['bulk_actions'] = 'Bulk Actions';
-$lang['additional_filters'] = 'Additional Filters';
-$lang['expenses_available_to_bill'] = 'Expenses available to bill';
+$lang['bulk_actions'] = 'Acciones Masivas';
+$lang['additional_filters'] = 'Filtros Adicionales';
+$lang['expenses_available_to_bill'] = 'Gastos disponibles para facturar';
 $lang['bulk_action_customers_groups_warning'] = 'If you dont select any group all groups assigned to the selected customers will be removed.';
 $lang['customer_attachments_show_in_customers_area'] = 'Show to customers area';
 $lang['customer_attachments_show_notice'] = 'Only files uploaded from customer profile have ability to show/hide in customers area.';
-$lang['customer_profile_files'] = 'Files';
+$lang['customer_profile_files'] = 'Archivos';
 $lang['no_files_found'] = 'No Files Found';
-$lang['survey_customers_all'] = 'All Customers';
+$lang['survey_customers_all'] = 'Todos los Clientes';
 $lang['custom_field_column'] = 'Grid (Bootstrap Column eq. 12) - Max is 12';
-$lang['task_status'] = 'Status';
-$lang['task_status_1'] = 'Not Started';
-$lang['task_status_2'] = 'Awaiting Feedback';
-$lang['task_status_3'] = 'Testing';
-$lang['task_status_4'] = 'In Progress';
-$lang['task_status_5'] = 'Complete';
-$lang['task_mark_as'] = 'Mark as %s';
+$lang['task_status'] = 'Estado';
+$lang['task_status_1'] = 'Por Iniciar';
+$lang['task_status_2'] = 'Espera de Respuesta';
+$lang['task_status_3'] = 'Testear';
+$lang['task_status_4'] = 'En Progreso';
+$lang['task_status_5'] = 'Completo';
+$lang['task_mark_as'] = 'Marcar como %s';
 $lang['task_marked_as_success'] = 'Task marked as %s successfully';
 $lang['task_drag_drop_notice'] = 'Drag & Drop is used only to easily change %s. The order wont be applied for this area.';
-$lang['search_tasks'] = 'Search Tasks';
+$lang['search_tasks'] = 'Buscar Tareas';
 $lang['tasks_kanban_limit'] = 'Limit tasks kan ban rows per status';
 $lang['show_on_invoice_on_pdf'] = 'Show %s on Invoice PDF';
 $lang['show_pay_link_to_invoice_pdf'] = 'Show Pay Invoice link to PDF (Not applied if invoice status is Cancelled)';
 $lang['no_leads_found'] = 'No Leads Found';
-$lang['created_today'] = 'Created Today';
+$lang['created_today'] = 'Creado Hoy';
 $lang['total_tasks_deleted'] = 'Total Tasks Deleted: %s';
 $lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
 $lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
 $lang['format_letter_portrait'] = 'Letter Portrait';
 $lang['format_letter_landscape'] = 'Letter Landscape';
-$lang['period_datepicker'] = 'Period';
+$lang['period_datepicker'] = 'Periodo';
 $lang['total_by_hourly_rate'] = 'Total By Hourly Rate';
 $lang['staff_hourly_rate'] = $lang['task_hourly_rate'];
 // &#37; is for % so the system can confuse for the original fields like %s
 $lang['remove_tax_name_from_item_table_help'] = 'eq. Item TAX 15&#37; will be shown as 15&#37; without the tax name (Not applied if multiple taxes with the same name and tax percent found for item)';
-$lang['back_to_project'] = 'Back to Project';
-$lang['view_kanban'] = 'View Kan Ban';
+$lang['back_to_project'] = 'Volver al Proyecto';
+$lang['view_kanban'] = 'Ver Kan Ban';
 $lang['invoice_is_overdue'] = 'This invoice is overdue by %s days';
 
 # Version 1.2.9
-$lang['time_decimal'] = 'Time (decimal)';
-$lang['time_h'] = 'Time (h)';
+$lang['time_decimal'] = 'Hora (decimal)';
+$lang['time_h'] = 'Hora (h)';
 $lang['proposal_number_prefix'] = 'Proposal Number Prefix';
 $lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
-$lang['this_week_payments'] = 'This Week Payments';
-$lang['last_week_payments'] = 'Last Week Payments';
+$lang['this_week_payments'] = 'Pagos de Esta Semana';
+$lang['last_week_payments'] = 'Pagos de la Última Semana';
 $lang['not_published_new_post'] = 'published new post';
-$lang['expense_name'] = 'Name';
+$lang['expense_name'] = 'Nombre';
 $lang['expense_name_help'] = 'For personal usage';
-$lang['adjustments'] = 'Adjustments';
+$lang['adjustments'] = 'Ajustes';
 $lang['tax_breakdown'] = 'Tax Breakdown';
-$lang['payments_received'] = 'Payments Received';
-$lang['not_lead_activity_created_proposal'] = 'Created new proposal - %s';
-$lang['lead_title'] = 'Position';
-$lang['lead_address'] = 'Address';
-$lang['lead_city'] = 'City';
-$lang['lead_state'] = 'State';
-$lang['lead_country'] = 'Country';
-$lang['lead_zip'] = 'Zip Code';
-$lang['lead_is_public_yes'] = 'Yes';
+$lang['payments_received'] = 'Pagos Recibidos';
+$lang['not_lead_activity_created_proposal'] = 'Creada Nueva Propuesta - %s';
+$lang['lead_title'] = 'Posición';
+$lang['lead_address'] = 'Dirección';
+$lang['lead_city'] = 'Localidad';
+$lang['lead_state'] = 'Provincia';
+$lang['lead_country'] = 'País';
+$lang['lead_zip'] = 'Código Postal';
+$lang['lead_is_public_yes'] = 'Sí';
 $lang['lead_is_public_no'] = 'No';
-$lang['lead_info'] = 'Lead Informations';
-$lang['lead_general_info'] = 'General Informations';
-$lang['lead_latest_activity'] = 'Latest Activity';
+$lang['lead_info'] = 'Informaciones del Contacto';
+$lang['lead_general_info'] = 'Informaciones Generales';
+$lang['lead_latest_activity'] = 'Última Actividad';
 $lang['item_description_new_lines_notice'] = 'New lines are not supported for item description. Use the item long description instead.';
-$lang['estimates_report'] = 'Estimates Report';
-$lang['confirm'] = 'Confirm';
+$lang['estimates_report'] = 'Informe de Presupuestos';
+$lang['confirm'] = 'Confirmar';
 $lang['delete_staff'] = 'Delete Staff Member';
 $lang['delete_staff_info'] = 'Some data for this staff member needs to be transfered to another user. Please select user where you want to transfer the data.';
-$lang['estimate_items'] = 'Estimate Items';
-$lang['no_proposals_found'] = 'No Proposals Found';
-$lang['no_estimates_found'] = 'No Estimates Found';
+$lang['estimate_items'] = 'Articulos del Presupuesto';
+$lang['no_proposals_found'] = 'Sin Propuestas';
+$lang['no_estimates_found'] = 'Sin Presupuestos';
 $lang['pipeline_limit_status'] = 'Pipeline limit per status';
-$lang['settings_update'] = 'System Update';
+$lang['settings_update'] = 'Actualización del Sistema';
 $lang['purchase_key'] = 'Purchase Key';
-$lang['update_now'] = 'Update Now';
+$lang['update_now'] = 'Actualizar Ahora';
 $lang['update_available'] = 'An update is available';
 $lang['latest_version'] = 'Latest Version';
 $lang['your_version'] = 'Your Version';
 $lang['using_latest_version'] = 'You are using the latest version';
 $lang['mark_as_active'] = 'Mark as active';
 $lang['customer_inactive_message'] = 'This is inactive customer profile and some features may be disabled';
-$lang['active_customers'] = 'Active Customers';
-$lang['inactive_active_customers'] = 'Inactive Customers';
+$lang['active_customers'] = 'Clientes Activos';
+$lang['inactive_active_customers'] = 'Clientes Desactivados';
 $lang['include_proposal_items_merge_field_help'] = 'Include proposal items with merge field anywhere in proposal content as %s';
-$lang['all_data_synced_successfuly'] = 'All data synced successfully';
-$lang['sync_now'] = 'Sync Now';
-$lang['sync_data'] = 'Sync Data';
+$lang['all_data_synced_successfully'] = 'All data synced successfully';
+$lang['sync_now'] = 'Sincronizar Ahora';
+$lang['sync_data'] = 'Sincronizar Datos';
 $lang['sync_proposals_up_to_date'] = 'All proposals are up to date, nothing to sync';
 $lang['proposal_sync_1_info'] = 'All proposal data is stored separately for each proposal after creation. Updating the %s info wont affect previous created proposals for this %s.';
 $lang['proposal_sync_2_info'] = 'If you recently updated your %s info you can sync all new data to associated proposals. Here is a list of fields you can sync.';
@@ -3274,10 +3270,10 @@ $lang['expense_include_additional_data_on_convert'] = 'Include additional detail
 $lang['calendar_events_limit'] = 'Calendar Events Limit (Month and Week View)';
 $lang['show_page_number_on_pdf'] = 'Show page number on PDF';
 $lang['customer_active_inactive_help'] = 'Wont be shown in dropdowns when creating new records';
-$lang['item_groups'] = 'Groups';
+$lang['item_groups'] = 'Grupos';
 $lang['item_group'] = 'Item Group';
-$lang['item_group_name'] = 'Group Name';
-$lang['new_item_group'] = 'New Group';
+$lang['item_group_name'] = 'Nombre del Grupo';
+$lang['new_item_group'] = 'Nuevo Grupo';
 $lang['show_setup_menu_item_only_on_hover'] = 'Show setup menu item only when hover with mouse on main sidebar area';
 $lang['internal_article'] = 'Internal Article';
 $lang['expenses_created_from_this_recurring_expense'] = 'Created expenses from this recurring expense';
@@ -3289,7 +3285,7 @@ $lang['expense_recurring_from'] = 'This expense is created from the following re
 $lang['child_invoices'] = 'Child Invoices';
 $lang['child_expenses'] = 'Child Expenses';
 $lang['no_announcements'] = 'No Announcements';
-$lang['unit'] = 'Unit';
+$lang['unit'] = 'Unidad';
 $lang['permission_view_own'] = 'View (Own)';
 $lang['permission_global'] = 'Global';
 $lang['permission_customers_based_on_admins'] = 'Based on customer admins';
@@ -3303,13 +3299,13 @@ $lang['paymentmethod_braintree_public_key'] = 'Public Key';
 $lang['company_requires_vat_number_field'] = 'Company requires the usage of the VAT Number field';
 $lang['no_company_view_profile'] = 'Person - View Profile';
 $lang['company_is_required'] = 'Company field is required?';
-$lang['estimate_invoiced'] = 'Invoiced';
+$lang['estimate_invoiced'] = 'Facturado';
 $lang['file_date_uploaded'] = 'Date Uploaded';
 $lang['allow_contact_to_delete_files'] = 'Allow contacts to delete own files uploaded from customers area';
-$lang['file'] = 'File';
+$lang['file'] = 'Archivo';
 $lang['customer_contact_person_only_one_allowed'] = 'Only 1 contact is allowed when the company field is not filled. The system will cast this customer as person';
-$lang['web_to_lead'] = 'Web to Lead';
-$lang['web_to_lead_form'] = 'Web to Lead Form';
+$lang['web_to_lead'] = 'Web to Contacto';
+$lang['web_to_lead_form'] = 'Web to Contacto Form';
 $lang['new_form'] = 'New Form';
 $lang['form_name'] = 'Form Name';
 $lang['cf_option_in_use'] = 'An option you removed is in use and cant be removed. The option is auto appended to the existing options.';
@@ -3318,7 +3314,7 @@ $lang['form_informations'] = 'Form Informations & Setup';
 $lang['form_builder_create_form_first'] = 'Create form first to be able to use the form builder.';
 $lang['notify_assigned_user'] = 'Responsible person';
 $lang['form_recaptcha'] = 'Use Google Recaptcha';
-$lang['form_lang_validation'] = 'Language';
+$lang['form_lang_validation'] = 'Lenguaje';
 $lang['form_lang_validation_help'] = 'For Validation Messages';
 $lang['form_btn_submit_text'] = 'Submit button text';
 $lang['form_success_submit_msg'] = 'Message to show after form is succcesfuly submitted';
@@ -3333,7 +3329,7 @@ $lang['expense_not_found'] = 'Expense not found';
 $lang['proposal_not_found'] = 'Proposal not found';
 $lang['new_task_assigned_non_user'] = 'New task is assigned to you - %s';
 $lang['no_child_found'] = 'No Child %s Found';
-$lang['company_vat_number'] = 'VAT Number';
+$lang['company_vat_number'] = 'NIF';
 $lang['not_lead_assigned_from_form'] = 'New lead is assigned to you';
 $lang['not_lead_activity_assigned_from_form'] = 'Lead assigned to %s';
 $lang['form_allow_duplicate'] = 'Allow duplicate %s to be inserted into database?';
@@ -3344,9 +3340,9 @@ $lang['create_the_duplicate_form_data_as_task_help'] = 'Used for further review 
 $lang['currently_selected'] = 'Currently Selected';
 $lang['search_ajax_empty'] = 'Select and begin typing';
 $lang['search_ajax_placeholder'] = 'Type to search...';
-$lang['search_ajax_searching'] = 'Searching...';
+$lang['search_ajax_searching'] = 'Buscando...';
 $lang['search_ajax_initialized'] = 'Start typing to search';
-$lang['lead_description'] = 'Description';
+$lang['lead_description'] = 'Descripción';
 $lang['lead_website'] = 'Website';
 $lang['invoice_activity_auto_converted_from_estimate'] = 'Invoice auto created from estimate with number %s';
 $lang['hour_of_day_perform_auto_operations'] = 'Hour of day to perform automatic operations';
@@ -3357,16 +3353,16 @@ $lang['use_minified_files'] = 'Use minified files version for css and js (only s
 # Version 1.5.0
 $lang['logo_favicon_changed_notice'] = 'Logo or Favicon change detected. If you still see the original CRM logo try to clear your browser cache';
 $lang['kb_search_articles'] = 'Search Knowledge Base Articles';
-$lang['kb_search'] = 'Search';
+$lang['kb_search'] = 'Buscar';
 $lang['have_a_question'] = 'Have a question?';
 $lang['card_expiration_year'] = 'Expiration Year';
 $lang['card_expiration_month'] = 'Expiration Month';
 $lang['client_website'] = 'Website';
 $lang['search_project_members'] = 'Search Project Members...';
-$lang['cf_translate_input_link_title'] = 'Title';
+$lang['cf_translate_input_link_title'] = 'Título';
 $lang['cf_translate_input_link_url'] = 'URL';
 $lang['cf_translate_input_link_tip'] = 'Click here to add link';
-$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['task_edit_delete_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
 $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
@@ -3383,11 +3379,11 @@ $lang['estimate_due_after'] = 'Estimate Due After (days)';
 
 # Version 1.6.0
 $lang['my_timesheets'] = 'My Timesheets';
-$lang['today'] = 'Today';
+$lang['today'] = 'Hoy';
 $lang['open_in_dropbox'] = 'Open In Dropbox';
-$lang['show_primary_contact'] = 'Show primary contact full name on %s';
+$lang['show_primary_contact'] = 'Mostrar el nombre completo del contacto principal en %s';
 $lang['view_members_timesheets'] = 'View all timesheets';
-$lang['priority'] = 'Priority';
+$lang['priority'] = 'Prioridad';
 $lang['fetch_from_google'] = 'Fetch from google';
 $lang['customer_fetch_lat_lng_usage'] = 'Fill address, city and country before fetching to get best result.';
 $lang['g_search_address_not_found'] = 'The address couldn\'t be found, please try again';
@@ -3401,19 +3397,19 @@ $lang['tags'] = 'Tags';
 $lang['tag'] = 'Tag';
 $lang['customer_map_notice'] = 'Add longitude and latitude in the customer profile to show the map here';
 $lang['default_view'] = 'Default View';
-$lang['day'] = 'Day';
-$lang['agenda'] = 'Agenda';
+$lang['day'] = 'Días';
+$lang['agenda'] = 'Calendário';
 $lang['timesheet_tags'] = 'Timesheet Tags';
-$lang['show_more'] = 'Show more';
-$lang['show_less'] = 'Show less';
+$lang['show_more'] = 'Ver Más';
+$lang['show_less'] = 'Ver Menos';
 $lang['project_completed_date'] = 'Completed Date';
-$lang['language'] = 'Language';
-$lang['this_week'] = 'This Week';
-$lang['last_week'] = 'Last Week';
-$lang['this_month'] = 'This Month';
-$lang['last_month'] = 'Last Month';
+$lang['language'] = 'Lenguaje';
+$lang['this_week'] = 'Esta Semana';
+$lang['last_week'] = 'Última Semana';
+$lang['this_month'] = 'Este Mes';
+$lang['last_month'] = 'Último Mes';
 $lang['no_description_project'] = 'No description for this project';
-$lang['sales_string'] = 'Sales';
-$lang['no_project_members'] = 'No members for this project';
+$lang['sales_string'] = 'Ventas';
+$lang['no_project_members'] = 'No existen Miembros en este Proyecto';
 $lang['search_by_tags'] = 'Use # + tagname to search by tags';
-$lang['project_status_5'] = 'Cancelled';
+$lang['project_status_5'] = 'Cancelado';

@@ -3,7 +3,7 @@
 $lang["num_word_1"] = "Uno";
 $lang["num_word_2"] = "Dos";
 $lang["num_word_3"] = "Tres";
-$lang["num_word_4"] = "Las cuatro";
+$lang["num_word_4"] = "Cuatro";
 $lang["num_word_5"] = "Cinco";
 $lang["num_word_6"] = "Seis";
 $lang["num_word_7"] = "Siete";
@@ -16,7 +16,7 @@ $lang["num_word_13"] = "Trece";
 $lang["num_word_14"] = "Catorce";
 $lang["num_word_15"] = "Quince";
 $lang["num_word_16"] = "Dieciséis";
-$lang["num_word_17"] = "De diecisiete";
+$lang["num_word_17"] = "Diecisiete";
 $lang["num_word_18"] = "Dieciocho";
 $lang["num_word_19"] = "Diecinueve";
 $lang["num_word_20"] = "Veinte";
@@ -110,11 +110,11 @@ $lang["num_word_800"] = "Ochocientos";
 $lang["num_word_900"] = "Novecientos";
 $lang["num_word_thousand"] = "Mil";
 $lang["num_word_million"] = "Millón";
-$lang["num_word_billion"] = "mil millones";
-$lang["num_word_trillion"] = "billones";
+$lang["num_word_billion"] = "Mil Millones";
+$lang["num_word_trillion"] = "Billones";
 $lang["num_word_zillion"] = "Infinitos";
-$lang["num_word_cents"] = "centavos";
-$lang["number_word_and"] ="And";
+$lang["num_word_cents"] = "Centimos";
+$lang["number_word_and"] ="y";
 
 // Show in invoices and estimates
 $lang["num_word"] ="Con Palabras";

@@ -6,8 +6,8 @@ $lang['id']                   = 'شناسه';
 $lang['name']                 = 'نام';
 $lang['options']              = 'گزينه ها';
 $lang['submit']               = 'ذخيره';
-$lang['added_successfuly']    = '%s با موفقيت اضافه شد ';
-$lang['updated_successfuly']  = '%s با موفقيت به روزرساني شد';
+$lang['added_successfully']    = '%s با موفقيت اضافه شد ';
+$lang['updated_successfully']  = '%s با موفقيت به روزرساني شد';
 $lang['edit']                 = 'ويرايش %s';
 $lang['add_new']              = 'اضافه کردن مورد جديد%s';
 $lang['deleted']              = '%s حذف شده';
@@ -169,7 +169,7 @@ $lang['template_subject']                                   = 'موضوع';
 $lang['template_fromname']                                  = 'از نام';
 $lang['template_fromemail']                                 = 'به پست الکترونيکي ';
 $lang['send_as_plain_text']                                 = 'ارسال به عنوان متن ساده';
-$lang['email_template_disabed']                             = 'غير فعال';
+$lang['email_template_disabled']                             = 'غير فعال';
 $lang['email_template_email_message']                       = 'پيام ايميل';
 $lang['available_merge_fields']                             = 'فيلدهاي ادغام موجود';
 # Home
@@ -355,7 +355,7 @@ $lang['btn_add_email_to_list']                = 'اضافه کردن ايميل 
 $lang['mail_lists_dt_list_name']              = 'نام فهرست ';
 $lang['mail_lists_dt_datecreated']            = 'تاريخ ايجاد';
 $lang['mail_lists_dt_creator']                = 'ايجاد کننده';
-$lang['email_added_to_mail_list_successfuly'] = 'ايميل به ليست اضافه شده ';
+$lang['email_added_to_mail_list_successfully'] = 'ايميل به ليست اضافه شده ';
 $lang['email_is_duplicate_mail_list']         = 'ايميل در حال حاضر در اين ليست وجود دارد';
 
 # Media
@@ -379,9 +379,9 @@ $lang['new_predefined_reply']              = 'پاسخ از پيش تعريف ش
 $lang['predefined_replies']                = 'پاسخ هاي از پيش تعريف شده';
 $lang['predefined_reply']                  = 'پاسخ از پيش تعريف شده';
 $lang['predefined_reply_lowercase']        = 'پاسخ از پيش تعريف شده';
-$lang['predifined_replies_dt_name']        = 'نام پاسخ از پيش تعريف شده';
-$lang['predifined_reply_add_edit_name']    = 'نام پاسخ از پيش تعريف شده';
-$lang['predifined_reply_add_edit_content'] = 'محتواي پاسخ';
+$lang['predefined_replies_dt_name']        = 'نام پاسخ از پيش تعريف شده';
+$lang['predefined_reply_add_edit_name']    = 'نام پاسخ از پيش تعريف شده';
+$lang['predefined_reply_add_edit_content'] = 'محتواي پاسخ';
 
 # Ticket Priorities
 $lang['new_ticket_priority']           = 'اولويت جديد';
@@ -573,12 +573,12 @@ $lang['lead_add_edit_source']               = 'منبع';
 $lang['lead_add_edit_status']               = 'وضعيت راهنما';
 $lang['lead_add_edit_assigned']             = 'اختصاص داده شده';
 $lang['lead_add_edit_datecontacted']        = 'تاريخ تماس';
-$lang['lead_add_edit_contected_today']      = 'تماس امروز';
+$lang['lead_add_edit_contacted_today']      = 'تماس امروز';
 $lang['lead_add_edit_activity']             = 'گزارش فعاليت';
 $lang['lead_add_edit_notes']                = 'يادداشت ها';
 $lang['lead_add_edit_add_note']             = 'اضافه کردن يادداشت';
 $lang['lead_not_contacted']                 = 'هيچ تماسي با اين راهنما نداشته ام';
-$lang['lead_add_edit_contected_this_lead']  = 'با اين راهنما در تماس بوده ام';
+$lang['lead_add_edit_contacted_this_lead']  = 'با اين راهنما در تماس بوده ام';
 $lang['lead_confirmation_canban_contacted'] = 'آيا با اين راهنما در تماس بوده ايد؟';
 
 # Misc
@@ -676,10 +676,10 @@ $lang['ticket_settings_select_client']                      = 'انتخاب مش
 $lang['ticket_add_body']                                    = 'بدنه بليط';
 $lang['ticket_add_attachments']                             = 'پيوست ها';
 $lang['ticket_no_reply_yet']                                = 'تاکنون هيچ پاسخي داده نشده است';
-$lang['new_ticket_added_succesfuly']                        = ' بليط #%s با موفقيت اضافه شد ';
-$lang['replied_to_ticket_succesfuly']                       = 'با موفقيت پاسخ داده شد#%s به بليط ';
-$lang['ticket_settings_updated_successfuly']                = 'تنظيمات بليط با موفقيت به روز شد';
-$lang['ticket_settings_updated_successfuly_and_reassigned'] = 'تنظيمات بليط با موفقيت به روز رساني شد و به شعبه %s تخصيص داده شد. ';
+$lang['new_ticket_added_successfully']                        = ' بليط #%s با موفقيت اضافه شد ';
+$lang['replied_to_ticket_successfully']                       = 'با موفقيت پاسخ داده شد#%s به بليط ';
+$lang['ticket_settings_updated_successfully']                = 'تنظيمات بليط با موفقيت به روز شد';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'تنظيمات بليط با موفقيت به روز رساني شد و به شعبه %s تخصيص داده شد. ';
 $lang['ticket_dt_subject']                                  = 'موضوع';
 $lang['ticket_dt_department']                               = 'شعبه';
 $lang['ticket_dt_service']                                  = 'خدمات';
@@ -706,7 +706,7 @@ $lang['ticket_single_add_response']               = 'اضافه کردن منا�
 $lang['ticket_single_note_heading']               = 'يادداشت';
 $lang['ticket_single_add_note']                   = 'اضافه کردن يادداشت';
 $lang['ticket_settings_none_assigned']            = 'هيچ کدام';
-$lang['ticket_status_changed_successfuly']        = 'وضعيت بليط تغيير يافت';
+$lang['ticket_status_changed_successfully']        = 'وضعيت بليط تغيير يافت';
 $lang['ticket_status_changed_fail']               = 'مشکل در تغيير وضعيت بليط';
 
 $lang['ticket_staff_string']                    = 'کارمند';
@@ -722,7 +722,7 @@ $lang['staff_members']                   = 'کارکنان عضو';
 $lang['staff_member']                    = 'کارمند عضو';
 $lang['staff_member_lowercase']          = 'کارمند عضو';
 $lang['staff_profile_updated']           = 'پروفايل شما به روز رساني شد';
-$lang['staff_old_password_incorect']     = 'رمز عبور قديمي شما نادرست است';
+$lang['staff_old_password_incorrect']     = 'رمز عبور قديمي شما نادرست است';
 $lang['staff_password_changed']          = 'رمز عبور شما تغيير يافته است';
 $lang['staff_problem_changing_password'] = 'مشکل در تغيير رمز عبور';
 $lang['staff_profile_string']            = 'پروفايل';
@@ -919,8 +919,8 @@ $lang['utility_calendar_new_event_title']           = 'اضافه کردن رو�
 $lang['utility_calendar_new_event_start_date']      = 'تاريخ شروع';
 $lang['utility_calendar_new_event_end_date']        = 'تاريخ اتمام';
 $lang['utility_calendar_new_event_make_public']     = 'عمومي سازي';
-$lang['utility_calendar_event_added_successfuly']   = 'رويداد جديد با موفقيت اضافه شد';
-$lang['utility_calendar_event_deleted_successfuly'] = 'رويداد حذف شد';
+$lang['utility_calendar_event_added_successfully']   = 'رويداد جديد با موفقيت اضافه شد';
+$lang['utility_calendar_event_deleted_successfully'] = 'رويداد حذف شد';
 $lang['utility_calendar_new_event_placeholder']     = 'عنوان رويداد';
 
 
@@ -1013,7 +1013,7 @@ $lang['clients_ticket_attachments']                 = 'پيوست ها';
 $lang['clients_ticket_posted']                      = 'پست شد: %s';
 $lang['clients_single_ticket_string']               = 'بليط';
 $lang['clients_single_ticket_replied']              = 'پاسخ داده شد: %s';
-$lang['clients_single_ticket_informations_heading'] = ' اطلاعات بليط';
+$lang['clients_single_ticket_information_heading'] = ' اطلاعات بليط';
 
 $lang['clients_tickets_dt_number']     = 'بليط #';
 $lang['clients_tickets_dt_subject']    = 'موضوع';
@@ -1023,7 +1023,7 @@ $lang['clients_tickets_dt_status']     = 'وضعيت';
 $lang['clients_tickets_dt_last_reply'] = ' آخرين پاسخ';
 
 $lang['clients_ticket_single_department']        = 'شعبه: %s';
-$lang['clients_ticket_single_submited']          = 'ارسال شده: %s';
+$lang['clients_ticket_single_submitted']          = 'ارسال شده: %s';
 $lang['clients_ticket_single_status']            = 'وضعيت:';
 $lang['clients_ticket_single_priority']          = 'اولويت: %s';
 $lang['clients_ticket_single_add_reply_btn']     = ' اضافه کردن پاسخ';
@@ -1104,7 +1104,7 @@ $lang['invoice_add_edit_recurring_month']                                     = 
 $lang['invoice_add_edit_recurring_months']                                    = 'ماه %s هر';
 $lang['invoices_list_all']                                                    = 'همه';
 $lang['invoices_list_not_have_payment']                                       = 'فاکتورهاي بدون هيچ رکورد پرداخت';
-$lang['invoices_list_recuring']                                               = 'محدوده زماني فاکتورها';
+$lang['invoices_list_recurring']                                               = 'محدوده زماني فاکتورها';
 $lang['invoices_list_made_payment_by']                                        = 'انجام پرداخت توسط %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'ايجاد فاکتور جديد از محدوده زماني فاکتوها در صورتي که وضعيت انها پرداخت شده باشد ';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'اگر اين فيلد بله انتخاب شده باشد و فاکتورهاي در محدوده زماني در حالت پرداخت نباشند، فاکتور جديد ايجاد نميشود';
@@ -1189,7 +1189,7 @@ $lang['is_active_export']            = 'بله';
 # Invoice
 $lang['invoice_add_edit_advanced_options']               = 'گزينه هاي پيشرفته';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'روش هاي پرداخت مجاز براي اين فاکتور';
-$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'محدوده زماني فاکتورها از اين فاکتور';
+$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'محدوده زماني فاکتورها از اين فاکتور';
 $lang['invoice_add_edit_no_payment_modes_found']         = 'هيچ روش پرداختي يافت نشد';
 $lang['invoice_html_total_pay']                          = 'مجموع: %s';
 
@@ -1381,7 +1381,7 @@ $lang['clients_nav_estimates']                  = 'تخمين ها';
 $lang['clients_decline_estimate']               = 'رد کردن';
 $lang['clients_accept_estimate']                = 'پذيرفتن';
 $lang['clients_my_estimates']                   = 'تخمين ها';
-$lang['clients_estimate_invoiced_successfuly']  = 'براي پذيرش تخمين از شما سپاسگزاريم. لطفا فاکتور ايجاد شده براي تخمين را بررسي نماييد.';
+$lang['clients_estimate_invoiced_successfully']  = 'براي پذيرش تخمين از شما سپاسگزاريم. لطفا فاکتور ايجاد شده براي تخمين را بررسي نماييد.';
 $lang['clients_estimate_accepted_not_invoiced'] = 'براي پذيرش اين تخمين از شما سپاسگزاريم';
 $lang['clients_estimate_declined']              = 'تخمين رد شد. شما هر زبان که بخواهيد پيش از تاريخ انقضا ميتوانيد آن را بپذيريد';
 $lang['clients_estimate_failed_action']         = 'اقدام در اين تخمين ناموفق بود';
@@ -1497,7 +1497,7 @@ $lang['contract_summary_recently_added']      = 'اخيرا اضافه شده';
 $lang['contract_summary_trash']               = 'زوائد';
 $lang['contract_summary_by_type']             = 'قراردادها براساس نوع';
 $lang['contract_summary_by_type_value']       = 'قراردادها براساس ارزش';
-$lang['contract_renewed_successfuly']         = 'نوسازي قرارداد با موفقيت انجام شد.';
+$lang['contract_renewed_successfully']         = 'نوسازي قرارداد با موفقيت انجام شد.';
 $lang['contract_renewed_fail']                = 'مشکل در نوسازي قرارداد. با مدير تماس بگيريد';
 $lang['no_contract_renewals_found']           = 'هيچ نوسازي براي اين قرارداد يافت نشد';
 $lang['no_contract_renewals_history_heading'] = 'تاريخ نوسازي قرارداد';
@@ -1554,9 +1554,9 @@ $lang['goal_income_shown_in_base_currency']            = 'مجموع درآمد 
 $lang['goal_notify_when_end_date_arrives']             = 'کارکنان عضو وقتي که زمان پايان فرابرسد مطلع ميشوند ';
 $lang['goal_staff_members_notified_about_achievement'] = 'کارکنان عضو درباره دستاورد اين هدف مطلع هستند.';
 $lang['goal_staff_members_notified_about_failure']     = 'کارکنان عضو درباره شکست اين هدف مطلع هستند.';
-$lang['goal_notify_staff_manualy']                     = 'کارکنان عضو را به صورت دستي مطلع کنيد';
-$lang['goal_notify_staff_notified_manualy_success']    = 'به کارکنان عضو درباره نتايج اين هدف هشدار داده ميشود.';
-$lang['goal_notify_staff_notified_manualy_fail']       = 'شکست در هشدار به کارکنان عضو درباره نتايج اين هدف';
+$lang['goal_notify_staff_manually']                     = 'کارکنان عضو را به صورت دستي مطلع کنيد';
+$lang['goal_notify_staff_notified_manually_success']    = 'به کارکنان عضو درباره نتايج اين هدف هشدار داده ميشود.';
+$lang['goal_notify_staff_notified_manually_fail']       = 'شکست در هشدار به کارکنان عضو درباره نتايج اين هدف';
 
 $lang['goal_achieved'] = 'دست يافته';
 $lang['goal_failed']   = 'شکست';
@@ -1581,7 +1581,7 @@ $lang['payment_transaction_id']                                      = 'شناس
 # Settings Menu
 $lang['acs_expenses']                                                = 'هزينه ها';
 $lang['acs_expense_categories']                                      = 'دسته بندي هزينه ها';
-# Expeneses
+# Expenses
 $lang['expense_category']                                            = 'دسته بندي هزينه ها';
 $lang['expense_category_lowercase']                                  = 'دسته بندي هزينه ها';
 $lang['new_expense']                                                 = 'ثبت هزينه ها';
@@ -1669,7 +1669,7 @@ $lang['clients_contracts_type']             = 'نوع قرارداد';
 # Version 1.0.5
 # General
 $lang['no_tax']                             = 'بدون ماليات';
-$lang['numbers_not_formated_while_editing'] = 'نرخ موجود در فيلد ورودي بدون در زمان اضافه و ويرايش موارد بدون فرمت باقي مي ماند. به صورت دستي آن را تغيير ندهيد.';
+$lang['numbers_not_formatted_while_editing'] = 'نرخ موجود در فيلد ورودي بدون در زمان اضافه و ويرايش موارد بدون فرمت باقي مي ماند. به صورت دستي آن را تغيير ندهيد.';
 # Contracts
 $lang['contracts_view_expired']             = 'منقضي شده';
 $lang['contracts_view_without_dateend']     = 'قراردادهاي بدون تاريخ پايان';
@@ -1682,7 +1682,7 @@ $lang['invoice_table_item_description']          = 'توضيحات';
 $lang['invoice_recurring_indicator']             = 'محدوده زماني';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'تخمين با موفقيت به فاکتور تبديل شد.';
+$lang['estimate_convert_to_invoice_successfully'] = 'تخمين با موفقيت به فاکتور تبديل شد.';
 $lang['estimate_table_item_description']         = 'توضيحات';
 
 # Version 1.0.6
@@ -1962,7 +1962,7 @@ $lang['set_reminder']                                             = 'تنظيم 
 $lang['set_reminder_date']                                        = 'تاريخ براي هشدار';
 $lang['reminder_description']                                     = 'تنظيم توضيحات';
 $lang['reminder_notify_me_by_email']                              = 'همچنين براي اين يادآور ايميلي هم ارسال کنيد';
-$lang['reminder_added_successfuly']                               = 'يادآور با موفقيت اضافه شد و در زمان مقرر مطلع خواهيد شد';
+$lang['reminder_added_successfully']                               = 'يادآور با موفقيت اضافه شد و در زمان مقرر مطلع خواهيد شد';
 $lang['reminder_description']                                     = 'توضيحات';
 $lang['reminder_date']                                            = 'تاريخ';
 $lang['reminder_staff']                                           = 'يادآوري';
@@ -2133,7 +2133,7 @@ $lang['spamfilter_type_phrase']       = 'عبارت';
 # Tickets
 $lang['block_sender']               = 'منع کردن فرستنده';
 $lang['sender_blocked']             = 'فرستنده منع شد';
-$lang['sender_blocked_successfuly'] = 'فرستنده با موفقيت منع شد';
+$lang['sender_blocked_successfully'] = 'فرستنده با موفقيت منع شد';
 $lang['ticket_date_created']        = 'تاريخ ايجاد';
 
 #KB
@@ -2248,8 +2248,8 @@ $lang['estimate_activity_marked']                                 = 'علامت 
 $lang['invoice_activity_status_updated']                          = 'به روزرساني شد %s به %sوضعيت فاکتور از ';
 $lang['invoice_activity_created']                                 = 'ايجاد فاکتور';
 $lang['invoice_activity_from_expense']                            = 'از هزينه به فاکتور تبديل شده';
-$lang['invoice_activity_recuring_created']                        = '[محدوده زماني] فاکتور ايجاد شده با CRON';
-$lang['invoice_activity_recuring_from_expense_created']           = '[فاکتوري از هزينه] فاکتور ايجاد شده با CRON';
+$lang['invoice_activity_recurring_created']                        = '[محدوده زماني] فاکتور ايجاد شده با CRON';
+$lang['invoice_activity_recurring_from_expense_created']           = '[فاکتوري از هزينه] فاکتور ايجاد شده با CRON';
 $lang['invoice_activity_sent_to_client_cron']                     = 'فاکتور توسط CRON به مشتري ارسال شده';
 $lang['invoice_activity_sent_to_client']                          = 'فاکتور به مشتري ارسال شد';
 $lang['invoice_activity_marked_as_sent']                          = 'فاکتور به عنوان ارسال شده علامت زده شد';
@@ -2266,7 +2266,7 @@ $lang['staff_profile_inactive_account'] = 'اين حساب کارمند عضو �
 
 # Estimates
 $lang['copy_estimate']               = 'کپي تخمين';
-$lang['estimate_copied_successfuly'] = 'تخمين با موفقيت کپي شد';
+$lang['estimate_copied_successfully'] = 'تخمين با موفقيت کپي شد';
 $lang['estimate_copied_fail']        = 'کپي تخمين ها با مشکل مواجه شد.';
 
 # Tasks
@@ -2289,7 +2289,7 @@ $lang['proposal_items_tax']         = 'ماليات';
 $lang['proposal_items_amount']      = 'مقدار';
 
 # Authentication
-$lang['check_email_for_reseting_password'] = 'ايميلتان را براي دستورات بعدي چک کنيد.';
+$lang['check_email_for_resetting_password'] = 'ايميلتان را براي دستورات بعدي چک کنيد.';
 $lang['inactive_account']                  = 'حساب غيرفعال';
 $lang['error_setting_new_password_key']    = 'خطا در تنظيم رمزعبور جديد';
 $lang['password_reset_message']            = 'رمزعبور شما مجددا تنظيم شد. لطفا دوباره وارد شويد';
@@ -2398,7 +2398,7 @@ $lang['task_statistics']        = 'آمار';
 $lang['task_milestone']         = 'نقطه عطف';
 
 # Tickets
-$lang['ticket_message_updated_successfuly'] = 'پيام با موفقيت به روزرساني شد';
+$lang['ticket_message_updated_successfully'] = 'پيام با موفقيت به روزرساني شد';
 
 # Invoices
 $lang['invoice_task_item_project_tasks_not_included'] = 'وظايف پروژه ها در اين ليست نيستند.';
@@ -2454,7 +2454,7 @@ $lang['project_lowercase']                                   = 'پروژه';
 $lang['projects']                                            = 'پروژه ها';
 $lang['projects_lowercase']                                  = 'پروژه ها';
 $lang['project_settings']                                    = 'تنظيمات پروژه';
-$lang['project_invoiced_successfuly']                        = 'پروژه با موفقيت فاکتور شد';
+$lang['project_invoiced_successfully']                        = 'پروژه با موفقيت فاکتور شد';
 $lang['new_project']                                         = 'پروژه جديد';
 $lang['project_files']                                       = 'فايل ها';
 $lang['project_activity']                                    = 'فعاليت';
@@ -2491,7 +2491,7 @@ $lang['milestone_total_logged_time']                         = 'زمان وار�
 $lang['project_overview_total_logged_hours']                 = 'مجموع ساعات واردشده';
 $lang['milestones_uncategorized']                            = 'بدون طبقه بندي';
 $lang['milestone_no_tasks_found']                            = 'هيچ وظيفه اي يافت نشد';
-$lang['project_copied_successfuly']                          = 'داده هاي پروژه با موفقيت کپي شدند.';
+$lang['project_copied_successfully']                          = 'داده هاي پروژه با موفقيت کپي شدند.';
 $lang['failed_to_copy_project']                              = 'کپي پروژه با مشکل مواجه شد';
 $lang['copy_project_task_include_check_list_items']          = 'کپي موارد چک ليست';
 $lang['copy_project_task_include_assignees']                 = 'کپي ماموران مشابه';
@@ -2512,13 +2512,13 @@ $lang['invoice_project']                                  = 'پروژه فاکت
 $lang['invoice_project_info']                             = 'اطلاعات فاکتور پروژه';
 $lang['invoice_project_data_single_line']                 = 'تک خطي';
 $lang['invoice_project_data_task_per_item']               = 'وظايف در هر مورد';
-$lang['invoice_project_data_timesheets_individualy']      = 'همه برگه هاي ثبت ساعات کاري به صورت جداگانه';
+$lang['invoice_project_data_timesheets_individually']      = 'همه برگه هاي ثبت ساعات کاري به صورت جداگانه';
 $lang['invoice_project_item_name_data']                   = 'نام مورد';
 $lang['invoice_project_description_data']                 = 'توضيحات';
 $lang['invoice_project_projectname_taskname']             = 'نام پروژه + نام وظيفه';
 $lang['invoice_project_all_tasks_total_logged_time']      = 'همه وظايف + مجموع زمان واردشده براي هر وظيفه';
 $lang['invoice_project_project_name_data']                = 'نام پروژه';
-$lang['invoice_project_timesheet_indivudualy_data']       = 'زمان شروع برگه ثبت ساعات کاري + زمان پايان + مجموع زمان واردشده';
+$lang['invoice_project_timesheet_individually_data']       = 'زمان شروع برگه ثبت ساعات کاري + زمان پايان + مجموع زمان واردشده';
 $lang['invoice_project_total_logged_time_data']           = 'مجموع زمان واردشده';
 
 $lang['project_allow_client_to']                     = 'اجازه به مشتريان براي %s';
@@ -2604,7 +2604,7 @@ $lang['project_activity_status_updated']               = 'وضعيت پروژه 
 $lang['project_activity_visible_to_customer']          = 'قابل مشاهده به مشتري';
 $lang['project_activity_project_file_removed']         = 'فايل پروژه حذف شده';
 
-# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
+# Notifications - DEPRECATED - THESE notifications are DEPRECATED and will be removed in further released don't translate them
 $lang['not_customer_uploaded_project_file']           = 'فايل جديد بارگذاري شده';
 $lang['not_customer_created_new_project_discussion']  = 'بحث پروژه جديد ايجاد شده';
 $lang['not_customer_commented_on_project_discussion'] = 'نظر جديد در بحث پروژه';
@@ -2619,7 +2619,7 @@ $lang['client_profile_image'] = 'تصوير پروفايل';
 /////
 $lang['sales_report_cancelled_invoices_not_included'] = 'فاکتورهاي لغو شده از گزارش صادر ميشوند. ';
 $lang['invoices_merge_cancel_merged_invoices']        = 'فاکتورهاي ادغام شده را به جاي حذف به عنوان لغو شده علامت بزنيد';
-$lang['invoice_marked_as_cancelled_successfuly']      = 'علامت زدن فاکتور به عنوان لغو شده با موفقيت انجام شد';
+$lang['invoice_marked_as_cancelled_successfully']      = 'علامت زدن فاکتور به عنوان لغو شده با موفقيت انجام شد';
 $lang['invoice_unmarked_as_cancelled']                = 'برداشتن علامت لغو با موفقيت انجام شد';
 
 $lang['tasks_reminder_notification_before']                    = 'يادآور پايان زمان وظيقه قبل از (روز)';
@@ -2636,7 +2636,7 @@ $lang['invoice_project_all_billable_tasks_marked_as_finished'] = 'همه وظا�
 $lang['invoice_project_nothing_to_bill']                       = 'هيچ وظيفه اي براي صورت حساب شدن وجود ندارد. هرچيزي را  ميخواهيد به موارد فاکتور اضافه کنيد.';
 $lang['invoice_project_start_date_tasks_not_passed']           = 'وظايفي که در آينده آغاز ميشوند نميتوانند صورت حساب شوند.';
 $lang['invoice_project_stop_all_timers']                       = 'همه تايمرها را متوقف کنيد';
-$lang['invoice_project_stop_billabe_timers_only']              = 'فقط تايمرهاي قابل پرداخت را متوقف نماييد';
+$lang['invoice_project_stop_billable_timers_only']              = 'فقط تايمرهاي قابل پرداخت را متوقف نماييد';
 $lang['project_tasks_total_timers_stopped']                    = 'همه تايمرهاي %s را متوقف نماييد';
 $lang['project_invoice_timers_started']                        = 'تايمرهاي وظيفه روي وظايف در حال اجرا يافت شدند. فاکتور نميتواند ايجاد شود. ابتدا تايمرها را متوقف کنيد. ';
 $lang['task_start_timer_only_assignee']                        = 'براي شروع تايمر بايد به اين وظيفه تخصيص داده شده باشيد';
@@ -2710,8 +2710,8 @@ $lang['company_primary_email']                   = 'آدرس اصلي';
 $lang['client_register_contact_info']            = 'اطلاعات مخاطب اصلي';
 $lang['client_register_company_info']            = 'اطلاعات شرکت';
 $lang['contact_permissions_info']                = 'مطمئن شويد که اجازه هاي مناسب را براي اين مخاطب تنظيم نماييد';
-$lang['defaut_leads_kanban_sort']                = 'مرتب سازي پيش فرض راهنماهاي kan ban';
-$lang['defaut_leads_kanban_sort_type']           = 'مرتب سازي';
+$lang['default_leads_kanban_sort']                = 'مرتب سازي پيش فرض راهنماهاي kan ban';
+$lang['default_leads_kanban_sort_type']           = 'مرتب سازي';
 $lang['order_ascending']                         = 'صعودي';
 $lang['order_descending']                        = 'نزولي';
 $lang['calendar_expand']                         = 'توسعه دادن';
@@ -2728,8 +2728,8 @@ $lang['import_contact_field']                    = 'فيلد مخاطب';
 
 
 $lang['file_uploaded_success']            = 'خطايي وجود ندارد. فايل با موفقيت بارگذاري شد';
-$lang['file_exceds_max_filesize']         = 'فايل بارگذاري شده از حداکثر اندازه فايلي که در php.ini مشخص شده تجاوز کرده است.';
-$lang['file_exceds_maxfile_size_in_form'] = 'فايل بارگذاري شده از حداکثر اندازه فايلي که در فرم اچ تي ام ال مشخص شده تجاوز کرده است.';
+$lang['file_exceeds_max_filesize']         = 'فايل بارگذاري شده از حداکثر اندازه فايلي که در php.ini مشخص شده تجاوز کرده است.';
+$lang['file_exceeds_maxfile_size_in_form'] = 'فايل بارگذاري شده از حداکثر اندازه فايلي که در فرم اچ تي ام ال مشخص شده تجاوز کرده است.';
 $lang['file_uploaded_partially']          = 'فقط بخشي از فايل شما آپلود شد';
 $lang['file_not_uploaded']                = 'فايلي بارگذاري نشد';
 $lang['file_missing_temporary_folder']    = 'پيدا نکردن پوشه موقتي';
@@ -2756,7 +2756,7 @@ $lang['contract_sent_to_client_fail']             = 'ارسال قرارداد �
 
 # Version 1.1.3
 $lang['client_invalid_username_or_password'] = 'نام کاربري يا رمزعبور نامعتبر';
-$lang['client_old_password_incorect']        = 'رمزعبور قبلي شما نادرست است';
+$lang['client_old_password_incorrect']        = 'رمزعبور قبلي شما نادرست است';
 $lang['client_password_changed']             = 'رمزعبور شما تغيير کرده است';
 
 # Version 1.1.4
@@ -2845,11 +2845,11 @@ $lang['kb_article_slug']                     = 'حرکت آرام';
 $lang['email_template_ticket_warning']          = 'اگر بليط در صف ايميل وارد شده باشد و مخاطب در crm موجود نباشد، فيلد جايگزين نميشود';
 $lang['auto_stop_tasks_timers_on_new_timer']    = 'وقتي يک تايمر شروع به کار ميکند تمام تايمر هاي ديگر را متوقف کن.';
 $lang['notification_when_customer_pay_invoice'] = 'وقتي مشتري فاکتور را ميپردازد هشدار دريافت کن.';
-$lang['not_invoice_payment_recored']            = 'پرداخت فاکتور جديد - %s';
+$lang['not_invoice_payment_recorded']            = 'پرداخت فاکتور جديد - %s';
 $lang['email_template_contact_warning']         = 'اگر مخاطب در زمان انجام کار وارد نشده باشد، ادغام فيلدها توسط مخاطب جايگزين نميشود.';
 $lang['theme_style']                            = 'تم سبک طراحي';
 $lang['change_role_permission_warning']         = 'تغيير اجازه نقش ها روي کارکنان عضوي که در اين نقش ها از اين اجازه ها استفاده ميکنند اثر ندارد.';
-$lang['task_copied_successfuly']                = 'وظيفه با موفقيت کپي شد.';
+$lang['task_copied_successfully']                = 'وظيفه با موفقيت کپي شد.';
 $lang['failed_to_copy_task']                    = 'کپي وظيفه با مشکل مواجه شد';
 $lang['not_project_file_uploaded']              = 'فايل پروژه جديد اضافه شد';
 $lang['settings_calendar_color']                = '%s رنگ';
@@ -2901,10 +2901,10 @@ $lang['not_commented_on_project_discussion']    = 'نظر جديد در بحث �
 $lang['all_staff_members']                      = 'تمام کارکنان عضو';
 $lang['help_project_permissions']               = 'نمايش به کارکنان اجازه ميدهد تا تمام پروژه ها را ببينند. اگر مي خواهيد آن ها فقط پروژه هايي را ببينند که به آن ها تخصيص داده شده اين اجازه را به آن ها ندهيد';
 $lang['help_tasks_permissions']                 = 'نمايش به همه کارکنان اجازه ميدهد تا تمام وظايف را ببينند. اگر ميخواهيد فقط وظايف مرتبط را ببينند اجازه نمايش ندهيد.';
-$lang['expense_recuring_days']                  = 'روز';
-$lang['expense_recuring_weeks']                 = 'هفته';
-$lang['expense_recuring_months']                = 'ماه';
-$lang['expense_recuring_years']                 = 'سال';
+$lang['expense_recurring_days']                  = 'روز';
+$lang['expense_recurring_weeks']                 = 'هفته';
+$lang['expense_recurring_months']                = 'ماه';
+$lang['expense_recurring_years']                 = 'سال';
 $lang['reset_to_default_color']                 = 'برگشت به رنگ پيش فرض';
 $lang['pdf_logo_width']                         = 'عرض لوگو(پيکسل)';
 $lang['drop_files_here_to_upload']              = 'فايل ها را براي بارگذاري اينجا رها کنيد';
@@ -3017,7 +3017,7 @@ $lang['staff_stats_last_month_total_logged_time'] = 'زمان واردشده م�
 $lang['staff_stats_this_month_total_logged_time'] = 'زمان واردشده اين ماه';
 $lang['staff_stats_last_week_total_logged_time']  = 'زمان واردشده هفته پيش';
 $lang['staff_stats_this_week_total_logged_time']  = 'زمان واردشده اين هفته';
-// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+// Dont change this because are translated before for the projects timesheets and now are only used for readibility.
 $lang['timesheet_user']                           = $lang['project_timesheet_user'];
 $lang['timesheet_start_time']                     = $lang['project_timesheet_start_time'];
 $lang['timesheet_end_time']                       = $lang['project_timesheet_end_time'];
@@ -3046,11 +3046,11 @@ $lang['project_due_notice']                         = 'روز ميگذرد%s ا�
 $lang['not_lead_added_attachment']                  = 'اضافه شد %s پيوست جديد به راهنماي';
 $lang['lead_note_date_added']                       = 'يادداشت اضافه شد: %s';
 $lang['recurring_custom']                           = 'سفارشي';
-// Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
-$lang['invoice_recuring_months']                    = $lang['expense_recuring_months'];
-$lang['invoice_recuring_years']                     = $lang['expense_recuring_years'];
-$lang['invoice_recuring_days']                      = $lang['expense_recuring_days'];
-$lang['invoice_recuring_weeks']                     = $lang['expense_recuring_weeks'];
+// don't translate these, only added for better readibility already translated for the expenses custom recurring feature.
+$lang['invoice_recurring_months']                    = $lang['expense_recurring_months'];
+$lang['invoice_recurring_years']                     = $lang['expense_recurring_years'];
+$lang['invoice_recurring_days']                      = $lang['expense_recurring_days'];
+$lang['invoice_recurring_weeks']                     = $lang['expense_recurring_weeks'];
 
 # Version 1.2.4
 $lang['document_direction']                                 = 'جهت';
@@ -3096,12 +3096,12 @@ $lang['exclude_invoices_draft_from_client_area']            = 'صدور فاکت
 $lang['invoice_draft_status_info']                          = 'اين فاکتور با وضعيت پيش نويس است وقتي فاکتور را به مشتري ديگري ارسال ميکنيد وضعيت به طور خودکار به ارسال شده تغيير ميکند.;';
 $lang['task_info']                                          = 'اطلاعات وظيفه';
 $lang['recurring_tasks']                                    = 'محدوده زماني';
-// Dont translate these, already translated
+// don't translate these, already translated
 $lang['task_repeat_every']                                  = $lang['expense_repeat_every'];
-$lang['task_recuring_months']                               = $lang['expense_recuring_months'];
-$lang['task_recuring_years']                                = $lang['expense_recuring_years'];
-$lang['task_recuring_days']                                 = $lang['expense_recuring_days'];
-$lang['task_recuring_weeks']                                = $lang['expense_recuring_weeks'];
+$lang['task_recurring_months']                               = $lang['expense_recurring_months'];
+$lang['task_recurring_years']                                = $lang['expense_recurring_years'];
+$lang['task_recurring_days']                                 = $lang['expense_recurring_days'];
+$lang['task_recurring_weeks']                                = $lang['expense_recurring_weeks'];
 $lang['todays_tasks']                                       = 'وظايف امروز';
 $lang['payment_mode_invoices_only']                         = 'فقط فاکتورها';
 $lang['payment_mode_expenses_only']                         = 'فقط هزينه ها';
@@ -3139,10 +3139,10 @@ $lang['dropbox_app_key']                                    = 'کليد برنا
 $lang['project_invoice_select_all_expenses']                = 'انتخاب همه هزينه ها';
 $lang['role_update_staff_permissions']                      = 'به روز رساني اجازه همه ';
 $lang['customer_active']                                    = 'فعال';
-$lang['note_updated_successfuly']                           = 'ياداشت با موفقيت به روز رساني شد.';
+$lang['note_updated_successfully']                           = 'ياداشت با موفقيت به روز رساني شد.';
 $lang['update_note']                                        = 'به روز رساني يادداشت';
 $lang['update_comment']                                     = 'به روز رساني نظ.';
-$lang['comment_updated_successfuly']                        = 'نظر با موفقيت به روز رساني شد.';
+$lang['comment_updated_successfully']                        = 'نظر با موفقيت به روز رساني شد.';
 $lang['staff_send_welcome_email']                           = 'ايميل خوش آمد را ارسال کنيد';
 $lang['proposal_warning_email_change']                      = 'ايميل براي %s تعويض شد. اين%sبه اين پيشنهادات متصل است. آيا ميخواهيد تمام ايميلهاي پيشنهادات متصل به%sرا عوض کنيد؟';
 $lang['update_proposal_email_yes']                          = 'بله تمام ايميلهاي مرتبط را به روزرساني کنيد';
@@ -3258,7 +3258,7 @@ $lang['customer_inactive_message']               = 'اين پروفايل کار
 $lang['active_customers']                        = 'مشتريان فعال';
 $lang['inactive_active_customers']               = 'مشتريان غيرفعال';
 $lang['include_proposal_items_merge_field_help'] = 'شامل موارد پيشنهاد با فيلد ادغامي در هرجاي محتواي پيشنهاد است. %s';
-$lang['all_data_synced_successfuly']             = 'همه داده ها با موفقيت همزمان سازي شدند';
+$lang['all_data_synced_successfully']             = 'همه داده ها با موفقيت همزمان سازي شدند';
 $lang['sync_now']                                = 'الان همزمان سازي کنيد';
 $lang['sync_data']                               = 'داده ها را همزمان سازي کنيد';
 $lang['sync_proposals_up_to_date']               = 'همه پيشنهادات به روز هستند. چيزي براي همزمان سازي وجود ندارد';
@@ -3312,19 +3312,19 @@ $lang['new_form']                                           = 'New Form';
 $lang['form_name']                                          = 'Form Name';
 $lang['cf_option_in_use']                                   = 'An option you removed is in use and cant be removed. The option is auto appended to the existing options.';
 $lang['form_builder']                                       = 'Form Builder';
-$lang['form_informations']                                  = 'Form Informations & Setup';
+$lang['form_informations']                                  = 'Form Information & Setup';
 $lang['form_builder_create_form_first']                     = 'Create form first to be able to use the form builder.';
 $lang['notify_assigned_user']                               = 'Responsible person';
 $lang['form_recaptcha']                                     = 'Use Google Recaptcha';
 $lang['form_lang_validation']                               = 'Language';
 $lang['form_lang_validation_help']                          = 'For Validation Messages';
 $lang['form_btn_submit_text']                               = 'Submit button text';
-$lang['form_success_submit_msg']                            = 'Message to show after form is succcesfuly submitted';
+$lang['form_success_submit_msg']                            = 'Message to show after form is successfully submitted';
 $lang['total_submissions']                                  = 'Total Submissions';
 $lang['form_integration_code']                              = 'Integration Code';
 $lang['not_lead_imported_from_form']                        = 'New Lead Imported from Web to Lead Form - %s';
 $lang['not_lead_activity_log_attachment']                   = 'Attachment Imported from form - %s';
-$lang['form_integration_code_help']                         = 'Copy & Paste the code anywhere in your site to show the form, additionaly you can adjust the width and height px to fit for your website.';
+$lang['form_integration_code_help']                         = 'Copy & Paste the code anywhere in your site to show the form, additionally you can adjust the width and height px to fit for your website.';
 $lang['invoice_not_found']                                  = 'Invoice not found';
 $lang['estimate_not_found']                                 = 'Estimate not found';
 $lang['expense_not_found']                                  = 'Expense not found';
@@ -3364,7 +3364,7 @@ $lang['search_project_members'] = 'Search Project Members...';
 $lang['cf_translate_input_link_title'] = 'Title';
 $lang['cf_translate_input_link_url'] = 'URL';
 $lang['cf_translate_input_link_tip'] = 'Click here to add link';
-$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['task_edit_delete_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
 $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';

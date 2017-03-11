@@ -6,8 +6,8 @@ $lang['id']                   = 'ID';
 $lang['name']                 = 'Adı';
 $lang['options']              = 'Seçenekler';
 $lang['submit']               = 'Kaydet';
-$lang['added_successfuly']    = '%s başarıyla eklendi.';
-$lang['updated_successfuly']  = '%s başarıyla güncellendi';
+$lang['added_successfully']    = '%s başarıyla eklendi.';
+$lang['updated_successfully']  = '%s başarıyla güncellendi';
 $lang['edit']                 = 'Düzenle %s';
 $lang['add_new']              = 'Yeni ekle %s';
 $lang['deleted']              = '%s silindi';
@@ -184,7 +184,7 @@ $lang['template_subject']                                   = 'Konu';
 $lang['template_fromname']                                  = 'Kimden / Adı';
 $lang['template_fromemail']                                 = 'Kimden / Email';
 $lang['send_as_plain_text']                                 = 'Düzyazı olarak gönder';
-$lang['email_template_disabed']                             = 'Pasif';
+$lang['email_template_disabled']                             = 'Pasif';
 $lang['email_template_email_message']                       = 'Email mesajı';
 $lang['available_merge_fields']                             = 'Kullanılabilen Özel Alanlar';
 # Home
@@ -388,7 +388,7 @@ $lang['btn_add_email_to_list']                = 'Bu Adrese Email Ekle';
 $lang['mail_lists_dt_list_name']              = 'Liste Adı';
 $lang['mail_lists_dt_datecreated']            = 'Oluşturma Tarihi';
 $lang['mail_lists_dt_creator']                = 'Oluşturan';
-$lang['email_added_to_mail_list_successfuly'] = 'Email listeye eklendi';
+$lang['email_added_to_mail_list_successfully'] = 'Email listeye eklendi';
 $lang['email_is_duplicate_mail_list']         = 'Email bu listede var.';
 
 # Media
@@ -410,9 +410,9 @@ $lang['new_predefined_reply']              = 'Yeni Öntanımlı Yanıt';
 $lang['predefined_replies']                = 'Öntanımlı Yanıt';
 $lang['predefined_reply']                  = 'Öntanımlı Yanıt';
 $lang['predefined_reply_lowercase']        = 'öntanımlı yanıt';
-$lang['predifined_replies_dt_name']        = 'Öntanımlı Yanıt Adı';
-$lang['predifined_reply_add_edit_name']    = 'Öntanımlı Yanıt';
-$lang['predifined_reply_add_edit_content'] = 'İçeriği Yanıtla';
+$lang['predefined_replies_dt_name']        = 'Öntanımlı Yanıt Adı';
+$lang['predefined_reply_add_edit_name']    = 'Öntanımlı Yanıt';
+$lang['predefined_reply_add_edit_content'] = 'İçeriği Yanıtla';
 
 # Ticket Priorities
 $lang['new_ticket_priority']           = 'Yeni Öncelik';
@@ -608,12 +608,12 @@ $lang['lead_add_edit_source']               = 'Kaynağı';
 $lang['lead_add_edit_status']               = 'Fırsatın Durumu';
 $lang['lead_add_edit_assigned']             = 'Atanan Kişi';
 $lang['lead_add_edit_datecontacted']        = 'İletişim Tarihi';
-$lang['lead_add_edit_contected_today']      = 'Bugün İletişim  Kuruldu';
+$lang['lead_add_edit_contacted_today']      = 'Bugün İletişim  Kuruldu';
 $lang['lead_add_edit_activity']             = 'Aktivite Kayıtları';
 $lang['lead_add_edit_notes']                = 'Notlar';
 $lang['lead_add_edit_add_note']             = 'Not Ekle';
 $lang['lead_not_contacted']                 = 'Bu fırsatla iletişim kurmadım.';
-$lang['lead_add_edit_contected_this_lead']  = 'Bu Fırsat ile İletişim halindeyim';
+$lang['lead_add_edit_contacted_this_lead']  = 'Bu Fırsat ile İletişim halindeyim';
 $lang['lead_confirmation_canban_contacted'] = 'Bu Fırsat ile İletişim Halinde misin?';
 
 # Misc
@@ -721,10 +721,10 @@ $lang['ticket_settings_select_client']                      = 'Müşteri Seç';
 $lang['ticket_add_body']                                    = 'Talebin Açıklaması';
 $lang['ticket_add_attachments']                             = 'Dosyalar';
 $lang['ticket_no_reply_yet']                                = 'Henüz Yanıtlanmadı';
-$lang['new_ticket_added_succesfuly']                        = 'Talep #%s başarıyla oluşturuldu';
-$lang['replied_to_ticket_succesfuly']                       = 'Talep #% cevaplandı';
-$lang['ticket_settings_updated_successfuly']                = 'Talep ayarları başarıyla güncellendi';
-$lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Talep ayarları güncellendi - %s Departmanına atandı';
+$lang['new_ticket_added_successfully']                        = 'Talep #%s başarıyla oluşturuldu';
+$lang['replied_to_ticket_successfully']                       = 'Talep #% cevaplandı';
+$lang['ticket_settings_updated_successfully']                = 'Talep ayarları başarıyla güncellendi';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Talep ayarları güncellendi - %s Departmanına atandı';
 $lang['ticket_dt_subject']                                  = 'Konu';
 $lang['ticket_dt_department']                               = 'Bölüm';
 $lang['ticket_dt_service']                                  = 'Hizmet';
@@ -751,7 +751,7 @@ $lang['ticket_single_add_response']               = 'Cevap Ekle';
 $lang['ticket_single_note_heading']               = 'Not';
 $lang['ticket_single_add_note']                   = 'Not Ekle';
 $lang['ticket_settings_none_assigned']            = 'Hiçbiri';
-$lang['ticket_status_changed_successfuly']        = 'Talep Durumu Değişti';
+$lang['ticket_status_changed_successfully']        = 'Talep Durumu Değişti';
 $lang['ticket_status_changed_fail']               = 'Talep Durumu Değiştirilirken Hata Oluştu';
 
 $lang['ticket_staff_string']                    = 'Ekip Üyesi';
@@ -767,7 +767,7 @@ $lang['staff_members']                   = 'Personel';
 $lang['staff_member']                    = 'Personel';
 $lang['staff_member_lowercase']          = 'personel';
 $lang['staff_profile_updated']           = 'Profiliniz Güncellendi';
-$lang['staff_old_password_incorect']     = 'Eski Parolanız Hatalı';
+$lang['staff_old_password_incorrect']     = 'Eski Parolanız Hatalı';
 $lang['staff_password_changed']          = 'Parolanız değişti';
 $lang['staff_problem_changing_password'] = 'Parolanız değiştirilirken hata oluştu';
 $lang['staff_profile_string']            = 'Profil';
@@ -966,8 +966,8 @@ $lang['utility_calendar_new_event_title']           = 'Yeni Etkinlik Ekle';
 $lang['utility_calendar_new_event_start_date']      = 'Başlangıç Tarihi';
 $lang['utility_calendar_new_event_end_date']        = 'Bitiş Tarihi';
 $lang['utility_calendar_new_event_make_public']     = 'Halka Açık Yap';
-$lang['utility_calendar_event_added_successfuly']   = 'Yeni Etkinlik Eklendi';
-$lang['utility_calendar_event_deleted_successfuly'] = 'Etkinlik Silindi';
+$lang['utility_calendar_event_added_successfully']   = 'Yeni Etkinlik Eklendi';
+$lang['utility_calendar_event_deleted_successfully'] = 'Etkinlik Silindi';
 $lang['utility_calendar_new_event_placeholder']     = 'Etkinlik Başlığı';
 
 
@@ -1060,7 +1060,7 @@ $lang['clients_ticket_attachments']                 = 'Dosya Ekleri';
 $lang['clients_ticket_posted']                      = 'Yayınlandı: %s';
 $lang['clients_single_ticket_string']               = 'Talep';
 $lang['clients_single_ticket_replied']              = 'Yanıtlandı: %s';
-$lang['clients_single_ticket_informations_heading'] = 'Talep Bilgileri';
+$lang['clients_single_ticket_information_heading'] = 'Talep Bilgileri';
 
 $lang['clients_tickets_dt_number']     = 'Talep No';
 $lang['clients_tickets_dt_subject']    = 'Konu';
@@ -1070,7 +1070,7 @@ $lang['clients_tickets_dt_status']     = 'Durum';
 $lang['clients_tickets_dt_last_reply'] = 'Son Cevaplama';
 
 $lang['clients_ticket_single_department']        = 'Bölüm: %s';
-$lang['clients_ticket_single_submited']          = 'Gönderildi: %s';
+$lang['clients_ticket_single_submitted']          = 'Gönderildi: %s';
 $lang['clients_ticket_single_status']            = 'Durum:';
 $lang['clients_ticket_single_priority']          = 'Öncelik: %s';
 $lang['clients_ticket_single_add_reply_btn']     = 'Yanıt Ekle';
@@ -1153,7 +1153,7 @@ $lang['invoice_add_edit_recurring_months']                                    = 
 
 $lang['invoices_list_all']                                                    = 'Hepsi';
 $lang['invoices_list_not_have_payment']                                       = 'Ödeme Kaydı Olmayan Faturalar';
-$lang['invoices_list_recuring']                                               = 'Yinelenen Faturalar';
+$lang['invoices_list_recurring']                                               = 'Yinelenen Faturalar';
 $lang['invoices_list_made_payment_by']                                        = 'Ödeme Yöntemi: %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Create new invoice from main recurring invoice only if is with status Paid';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Create new invoice from the main recurring invoice only if the main invoice is with status paid? If this field is set to No and the recurring invoice is not with status paid the new invoice wont be created';
@@ -1239,7 +1239,7 @@ $lang['is_active_export']             = 'Evet';
 # Invoice
 $lang['invoice_add_edit_advanced_options']               = 'Gelişmiş Seçenekler';
 $lang['invoice_add_edit_allowed_payment_modes']          = 'Bu Faturada Kullanılabilen Ödeme Yöntemleri';
-$lang['invoice_add_edit_recuring_invoices_from_invoice'] = 'Recurring invoices from this invoice';
+$lang['invoice_add_edit_recurring_invoices_from_invoice'] = 'Recurring invoices from this invoice';
 $lang['invoice_add_edit_no_payment_modes_found']         = 'Ödeme türü bulunamadı.';
 $lang['invoice_html_total_pay']                          = 'Toplam: %s';
 
@@ -1431,7 +1431,7 @@ $lang['clients_nav_estimates']                  = 'Proformalar';
 $lang['clients_decline_estimate']               = 'Reddet';
 $lang['clients_accept_estimate']                = 'Kabul Et';
 $lang['clients_my_estimates']                   = 'Proformalar';
-$lang['clients_estimate_invoiced_successfuly']  = 'Proforma kabul edildi. Bu proforma dan oluşturulan fatura burada.';
+$lang['clients_estimate_invoiced_successfully']  = 'Proforma kabul edildi. Bu proforma dan oluşturulan fatura burada.';
 $lang['clients_estimate_accepted_not_invoiced'] = 'Proformayı kabul ettiğiniz için teşekkür ederiz.';
 $lang['clients_estimate_declined']              = 'Proforma reddedildi. Son tarihe kadar istediğiniz zaman kabul edebilirsiniz.';
 $lang['clients_estimate_failed_action']         = 'Bu proforma için aksiyon alınırken hata oluştu';
@@ -1556,7 +1556,7 @@ $lang['contract_summary_recently_added']      = 'Son Zamanlarda Eklendi';
 $lang['contract_summary_trash']               = 'Çöp';
 $lang['contract_summary_by_type']             = 'Türe Göre Sözleşmeler';
 $lang['contract_summary_by_type_value']       = 'Türe Göre Sözleşme Değerleri';
-$lang['contract_renewed_successfuly']         = 'Sözleşme başarıyla yenilendi';
+$lang['contract_renewed_successfully']         = 'Sözleşme başarıyla yenilendi';
 $lang['contract_renewed_fail']                = 'Sözleşme yenilenirken problem oluştu. Yönetici ile iletişime geçin.';
 $lang['no_contract_renewals_found']           = 'Bu sözleşme için yenileme bulunamadı.';
 $lang['no_contract_renewals_history_heading'] = 'Sözleşme Yenileme Geçmişi';
@@ -1617,9 +1617,9 @@ $lang['goal_income_shown_in_base_currency']            = 'Toplam Gelir anapara b
 $lang['goal_notify_when_end_date_arrives']             = 'Bitiş Tarihi yaklaştığında personeli uyar (CRON Gerekli).';
 $lang['goal_staff_members_notified_about_achievement'] = 'Personel hedefe ulaşırsa personeli uyar';
 $lang['goal_staff_members_notified_about_failure']     = 'Personel hata ile ilgili olarak uyarıldı';
-$lang['goal_notify_staff_manualy']                     = 'Personeli Manuel olarak uyar';
-$lang['goal_notify_staff_notified_manualy_success']    = 'Personele hedef sonuçları bildirildi';
-$lang['goal_notify_staff_notified_manualy_fail']       = 'Personele Hedef Sonuçları Bildirilemedi.';
+$lang['goal_notify_staff_manually']                     = 'Personeli Manuel olarak uyar';
+$lang['goal_notify_staff_notified_manually_success']    = 'Personele hedef sonuçları bildirildi';
+$lang['goal_notify_staff_notified_manually_fail']       = 'Personele Hedef Sonuçları Bildirilemedi.';
 
 $lang['goal_achieved'] = 'Ulaşıldı';
 $lang['goal_failed']   = 'Başarısız olundu';
@@ -1646,7 +1646,7 @@ $lang['payment_transaction_id']                                      = 'Transact
 
 $lang['acs_expenses']                                                = 'Harcamalar';
 $lang['acs_expense_categories']                                      = 'Harcama Kategorileri';
-# Expeneses
+# Expenses
 
 
 $lang['expense_category']                                            = 'Harcama Kategorisi';
@@ -1768,7 +1768,7 @@ $lang['clients_contracts_type']       = 'Sözleşme Türü';
 
 
 $lang['no_tax']                             = 'Vergi Yok';
-$lang['numbers_not_formated_while_editing'] = 'The rate in the input field is not formated while edit/add item and should remain not formated dont try to format it manually in here.';
+$lang['numbers_not_formatted_while_editing'] = 'The rate in the input field is not formatted while edit/add item and should remain not formatted dont try to format it manually in here.';
 # Contracts
 $lang['contracts_view_expired']             = 'Süresi Dolan';
 $lang['contracts_view_without_dateend']     = 'Bitiş Tarihi Olmayan Sözleşmeler';
@@ -1781,7 +1781,7 @@ $lang['invoice_table_item_description']          = 'Açıklama';
 $lang['invoice_recurring_indicator']             = 'Tekrarlayan';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfuly'] = 'Proforma Başarıyla Faturaya dönüştürüldü';
+$lang['estimate_convert_to_invoice_successfully'] = 'Proforma Başarıyla Faturaya dönüştürüldü';
 $lang['estimate_table_item_description']         = 'Açıklama';
 
 # Version 1.0.6
@@ -2086,7 +2086,7 @@ $lang['set_reminder']                                             = 'Hatırlatı
 $lang['set_reminder_date']                                        = 'Hatırlatma Tarihi';
 $lang['reminder_description']                                     = 'Açıklama belirle';
 $lang['reminder_notify_me_by_email']                              = 'Email Gönderimi';
-$lang['reminder_added_successfuly']                               = 'Hatırlatıcı başarıyla eklendi. Zamanında bilgilendirileceksiniz.';
+$lang['reminder_added_successfully']                               = 'Hatırlatıcı başarıyla eklendi. Zamanında bilgilendirileceksiniz.';
 $lang['reminder_description']                                     = 'Açıklama';
 $lang['reminder_date']                                            = 'Tarih';
 
@@ -2260,7 +2260,7 @@ $lang['spamfilter_type_phrase']       = 'Cümle';
 # Tickets
 $lang['block_sender']               = 'Göndericiyi Engelle';
 $lang['sender_blocked']             = 'Engellenen Gönderici';
-$lang['sender_blocked_successfuly'] = 'Gönderici Engelleme Başarılı';
+$lang['sender_blocked_successfully'] = 'Gönderici Engelleme Başarılı';
 $lang['ticket_date_created']        = 'Oluşturma Tarihi';
 
 #KB
@@ -2380,8 +2380,8 @@ $lang['estimate_activity_marked'] = 'marked estimate as %s';
 $lang['invoice_activity_status_updated'] = 'Invoice status updated from %s to %s';
 $lang['invoice_activity_created'] = 'Fatura Oluşturdu';
 $lang['invoice_activity_from_expense'] = 'Harcamayı Faturaya Çevirdi';
-$lang['invoice_activity_recuring_created'] = '[Recurring] Invoice created by CRON';
-$lang['invoice_activity_recuring_from_expense_created'] = '[Invoice From Expense] Invoice created by CRON';
+$lang['invoice_activity_recurring_created'] = '[Recurring] Invoice created by CRON';
+$lang['invoice_activity_recurring_from_expense_created'] = '[Invoice From Expense] Invoice created by CRON';
 $lang['invoice_activity_sent_to_client_cron'] = 'Invoice sent to customer by CRON';
 $lang['invoice_activity_sent_to_client'] = 'sent invoice to customer';
 $lang['invoice_activity_marked_as_sent'] = 'marked invoice as sent';
@@ -2398,7 +2398,7 @@ $lang['staff_profile_inactive_account'] = 'Bu personel hesabı pasif';
 
 # Estimates
 $lang['copy_estimate'] = 'Proformayı Kopyala';
-$lang['estimate_copied_successfuly'] = 'Proforma başarılı bir şekilde kopyalandı';
+$lang['estimate_copied_successfully'] = 'Proforma başarılı bir şekilde kopyalandı';
 $lang['estimate_copied_fail'] = 'Proforma kopyalanamadı.';
 
 # Tasks
@@ -2421,7 +2421,7 @@ $lang['proposal_items_tax'] = 'Vergi';
 $lang['proposal_items_amount'] = 'Miktar';
 
 # Authentication
-$lang['check_email_for_reseting_password'] = 'Şifrenizi sıfırlamak için e-postanızı kontrol edin';
+$lang['check_email_for_resetting_password'] = 'Şifrenizi sıfırlamak için e-postanızı kontrol edin';
 $lang['inactive_account'] = 'Pasif Hesap';
 $lang['error_setting_new_password_key'] = 'Yeni şifre belirlenirken hata oluştu.';
 $lang['password_reset_message'] = 'Şifreniz sıfırlandı. Lütfen giriş yapın!';
@@ -2530,7 +2530,7 @@ $lang['task_statistics'] = 'İstatistikler';
 $lang['task_milestone'] = 'Faz';
 
 # Tickets
-$lang['ticket_message_updated_successfuly'] = 'Mesaj Güncellendi';
+$lang['ticket_message_updated_successfully'] = 'Mesaj Güncellendi';
 
 # Invoices
 $lang['invoice_task_item_project_tasks_not_included'] = 'Proje Görevleri bu listede bulunamaz.';
@@ -2586,7 +2586,7 @@ $lang['project_lowercase']       = 'proje';
 $lang['projects']                = 'Projeler';
 $lang['projects_lowercase']      = 'projeler';
 $lang['project_settings']      = 'Proje Ayarları';
-$lang['project_invoiced_successfuly']             = 'Proje Başarıyla Faturalandı';
+$lang['project_invoiced_successfully']             = 'Proje Başarıyla Faturalandı';
 $lang['new_project']             = 'Yeni Proje';
 $lang['project_files']            = 'Dosyalar';
 $lang['project_activity']            = 'Aktivite';
@@ -2623,7 +2623,7 @@ $lang['milestone_total_logged_time']            = 'Girilen Süre';
 $lang['project_overview_total_logged_hours']            = 'Girilen Süreler Toplamı';
 $lang['milestones_uncategorized']            = 'Kategorilenmemiş';
 $lang['milestone_no_tasks_found']            = 'Görev Bulunamadı';
-$lang['project_copied_successfuly']            = 'Proje Verileri başarıyla kopyalandı';
+$lang['project_copied_successfully']            = 'Proje Verileri başarıyla kopyalandı';
 $lang['failed_to_copy_project']            = 'Proje kopyalanırken hata oluştu';
 $lang['copy_project_task_include_check_list_items']            = 'Yapılacak İşler Listesini Kopyala';
 $lang['copy_project_task_include_assignees']            = 'Aynı Atananları Kopyala';
@@ -2644,13 +2644,13 @@ $lang['invoice_project']            = 'Projeyi Faturala';
 $lang['invoice_project_info']            = 'Proje Faturalama Bilgileri';
 $lang['invoice_project_data_single_line']            = 'Tek Satır';
 $lang['invoice_project_data_task_per_item']            = 'Her görev başına';
-$lang['invoice_project_data_timesheets_individualy']            = 'Tüm Zaman Çizelgeleri';
+$lang['invoice_project_data_timesheets_individually']            = 'Tüm Zaman Çizelgeleri';
 $lang['invoice_project_item_name_data']            = 'Nesne Adı';
 $lang['invoice_project_description_data']            = 'Açıklama';
 $lang['invoice_project_projectname_taskname']            = 'Proje Adı + Görev Adı';
 $lang['invoice_project_all_tasks_total_logged_time']            = 'Tüm Görevler + Görev başına girilen tüm süreler';
 $lang['invoice_project_project_name_data']            = 'Proje Adı';
-$lang['invoice_project_timesheet_indivudualy_data']            = 'Zaman Çizelgesi Başlangıç Zamanı + Bitiş Zamanı + Toplam Girilen Süre';
+$lang['invoice_project_timesheet_individually_data']            = 'Zaman Çizelgesi Başlangıç Zamanı + Bitiş Zamanı + Toplam Girilen Süre';
 $lang['invoice_project_total_logged_time_data']            = 'Toplam Girilen Süre';
 
 $lang['project_allow_client_to'] = '%s için müşteriye izin ver';
@@ -2736,7 +2736,7 @@ $lang['project_activity_status_updated'] = 'Proje durumu güncellendi';
 $lang['project_activity_visible_to_customer'] = 'Müşteriye görünür';
 $lang['project_activity_project_file_removed'] = 'Proje dosyası silindi';
 
-# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
+# Notifications - DEPRECATED - THESE notifications are DEPRECATED and will be removed in further released don't translate them
 $lang['not_customer_uploaded_project_file'] = 'Yeni dosya yüklendi';
 $lang['not_customer_created_new_project_discussion'] = 'Yeni proje formu oluşturuldu';
 $lang['not_customer_commented_on_project_discussion'] = 'Proje Forumlarında yeni yorum var';
@@ -2751,7 +2751,7 @@ $lang['client_profile_image'] = 'Profil Resmi';
 /////
 $lang['sales_report_cancelled_invoices_not_included'] = 'İptal edilen faturalar rapordan hariç tutulmuştur.';
 $lang['invoices_merge_cancel_merged_invoices'] = 'Birleştirilen faturaları silmek yerine iptal olarak işaretle';
-$lang['invoice_marked_as_cancelled_successfuly'] = 'Fatura başarıyla iptal edildi';
+$lang['invoice_marked_as_cancelled_successfully'] = 'Fatura başarıyla iptal edildi';
 $lang['invoice_unmarked_as_cancelled'] = 'Fatura İptal Edildi olarak işaretlenmedi';
 
 $lang['tasks_reminder_notification_before'] = 'Görev Son Tarih Hatırlatıcı ( X Gün Önce)';
@@ -2768,7 +2768,7 @@ $lang['invoice_project_all_billable_tasks_marked_as_finished'] = 'Faturalanan t�
 $lang['invoice_project_nothing_to_bill'] = 'Faturalanacak görev yok. Fatura kalemlerine istediğiniz her şeyi eklemekten çekinmeyin.';
 $lang['invoice_project_start_date_tasks_not_passed'] = 'Başlangıç Tarihi gelecek olan görevler faturalandırılamaz';
 $lang['invoice_project_stop_all_timers'] = 'Tüm Zamanlayıcıları Durdur';
-$lang['invoice_project_stop_billabe_timers_only'] = 'Faturalanabilir zamanlayıcıları durdur';
+$lang['invoice_project_stop_billable_timers_only'] = 'Faturalanabilir zamanlayıcıları durdur';
 $lang['project_tasks_total_timers_stopped'] = 'Toplam %s zamanlayıcı durdu';
 $lang['project_invoice_timers_started'] = 'Faturalanabilir görevler üzerinde çalışan görev sayaçları bulundu, fatura oluşturulamıyor. Fatura oluşturmak için lütfen görev zamanlayıcılarını durdurun.';
 $lang['task_start_timer_only_assignee'] = 'Zamanlayıcıyı başlatabilmek için bu göreve atanmalısınız!';
@@ -2842,8 +2842,8 @@ $lang['company_primary_email'] = 'Birincil Email Adresi';
 $lang['client_register_contact_info'] = 'Birincil İletişim Bilgileri';
 $lang['client_register_company_info'] = 'Firma Bilgileri';
 $lang['contact_permissions_info'] = 'Bu kişi için doğru izinleri verdiğinizden emin olun';
-$lang['defaut_leads_kanban_sort'] = 'Varsayılan Fırsat Kan Ban sıralaması';
-$lang['defaut_leads_kanban_sort_type'] = 'Sırala';
+$lang['default_leads_kanban_sort'] = 'Varsayılan Fırsat Kan Ban sıralaması';
+$lang['default_leads_kanban_sort_type'] = 'Sırala';
 $lang['order_ascending'] = 'Artan';
 $lang['order_descending'] = 'Azalan';
 $lang['calendar_expand'] = 'Genişlet';
@@ -2860,8 +2860,8 @@ $lang['import_contact_field'] = 'Contact Alanı';
 
 
 $lang['file_uploaded_success'] = 'Dosya başarılı bir şekilde yüklendi.';
-$lang['file_exceds_max_filesize'] = 'Yüklenen dosya, PHP.ini dosyasındaki UPLOAD_MAX_FILESIZE yönergesini aşıyor.';
-$lang['file_exceds_maxfile_size_in_form'] = 'Yüklenen dosya, HTML formunda belirtilen MAX_FILE_SIZE yönergesini aşıyor.';
+$lang['file_exceeds_max_filesize'] = 'Yüklenen dosya, PHP.ini dosyasındaki UPLOAD_MAX_FILESIZE yönergesini aşıyor.';
+$lang['file_exceeds_maxfile_size_in_form'] = 'Yüklenen dosya, HTML formunda belirtilen MAX_FILE_SIZE yönergesini aşıyor.';
 $lang['file_uploaded_partially'] = 'Yüklenen dosya kısmen yüklenebildi.';
 $lang['file_not_uploaded'] = 'Hiçbir dosya yüklenmedi';
 $lang['file_missing_temporary_folder'] = 'Geçici klasör kayıp';
@@ -2888,7 +2888,7 @@ $lang['contract_sent_to_client_fail'] = 'Sözleşme gönderimi başarısız oldu
 
 # Version 1.1.3
 $lang['client_invalid_username_or_password'] = 'Hatalı kullanıcı adı veya şifre';
-$lang['client_old_password_incorect']     = 'Eski şifreniz yanlış';
+$lang['client_old_password_incorrect']     = 'Eski şifreniz yanlış';
 $lang['client_password_changed']          = 'Şifreniz değiştirildi';
 
 # Version 1.1.4
@@ -2977,11 +2977,11 @@ $lang['kb_article_slug'] = 'Etiket';
 $lang['email_template_ticket_warning'] = 'Talepler E-mail ile alınıyorsa ve CRMde ilgili kişi yoksa alanlar değiştirilmeyecektir.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Yeni zamanlayıcı başlatılırken diğer tüm zamanlayıcıları durdurun.';
 $lang['notification_when_customer_pay_invoice'] = 'Müşteri faturayı ödediğinde bildirim al (Dahili)';
-$lang['not_invoice_payment_recored'] = 'Yeni fatura ödemesi - %s';
+$lang['not_invoice_payment_recorded'] = 'Yeni fatura ödemesi - %s';
 $lang['email_template_contact_warning'] = 'İşlem yaparken iletişim kurulmazsa, kişi birleştirme alanları değiştirilmeyecektir.';
 $lang['theme_style'] = 'Tema Stili';
 $lang['change_role_permission_warning'] = 'Rol izinlerini değiştirme, bu rolü kullanan geçerli personel üyelerinin izinlerini etkilemeyecektir.';
-$lang['task_copied_successfuly'] = 'Görev başarıyla kopyalandı';
+$lang['task_copied_successfully'] = 'Görev başarıyla kopyalandı';
 $lang['failed_to_copy_task'] = 'Görev kopyalama işlemi başarısız oldu';
 $lang['not_project_file_uploaded'] = 'Yeni proje dosyası eklendi';
 $lang['settings_calendar_color'] = '%s Renk';
@@ -3037,10 +3037,10 @@ $lang['not_commented_on_project_discussion'] = 'Proje Forumunda yeni yorum yapı
 $lang['all_staff_members'] = 'Tüm Personel';
 $lang['help_project_permissions'] = 'Görüntüle İzni: Personelin TÜM projeleri görmesine izin verir. Yalnızca kendisine atanmış projeleri (üye olarak eklenmiş) görmesini isterseniz, GÖRÜNTÜLE izni vermeyin.';
 $lang['help_tasks_permissions'] = 'Görüntüle İzni: Personelin TÜM görevleri görmesine izin verir. Yalnızca kendisine atanmış yada takipçi olarak eklenmiş görevleri görmesini isterseniz, GÖRÜNTÜLE izni vermeyin.';
-$lang['expense_recuring_days'] = 'Gün';
-$lang['expense_recuring_weeks'] = 'Hafta';
-$lang['expense_recuring_months'] = 'Ay';
-$lang['expense_recuring_years'] = 'Yıl';
+$lang['expense_recurring_days'] = 'Gün';
+$lang['expense_recurring_weeks'] = 'Hafta';
+$lang['expense_recurring_months'] = 'Ay';
+$lang['expense_recurring_years'] = 'Yıl';
 $lang['reset_to_default_color'] = 'Varsayılan renge sıfırla';
 $lang['pdf_logo_width'] = 'Logo Genişliği (PX)';
 $lang['drop_files_here_to_upload'] = 'Yüklemek için dosyaları bu alana sürükleyin';
@@ -3157,7 +3157,7 @@ $lang['staff_stats_last_month_total_logged_time'] = 'Geçen Ay Girilen Süre';
 $lang['staff_stats_this_month_total_logged_time'] = 'Bu Ay Girilen Süre';
 $lang['staff_stats_last_week_total_logged_time'] = 'Geçen Hafta Girilen Süre';
 $lang['staff_stats_this_week_total_logged_time'] = 'Bu Hafta Girilen Süre';
-// Dont change this becuse are translated before for the projects timesheets and now are only used for readibility.
+// Dont change this because are translated before for the projects timesheets and now are only used for readibility.
 $lang['timesheet_user'] = $lang['project_timesheet_user'];
 $lang['timesheet_start_time'] = $lang['project_timesheet_start_time'];
 $lang['timesheet_end_time'] = $lang['project_timesheet_end_time'];
@@ -3188,11 +3188,11 @@ $lang['project_due_notice'] = 'Bu proje %s gün gecikti';
 $lang['not_lead_added_attachment'] = '%s fırsatına yeni dosya eklendi';
 $lang['lead_note_date_added'] = 'Not Eklendi: %s';
 $lang['recurring_custom'] = 'Özel';
-// Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
-$lang['invoice_recuring_months'] = $lang['expense_recuring_months'];
-$lang['invoice_recuring_years'] = $lang['expense_recuring_years'];
-$lang['invoice_recuring_days'] = $lang['expense_recuring_days'];
-$lang['invoice_recuring_weeks'] = $lang['expense_recuring_weeks'];
+// don't translate these, only added for better readibility already translated for the expenses custom recurring feature.
+$lang['invoice_recurring_months'] = $lang['expense_recurring_months'];
+$lang['invoice_recurring_years'] = $lang['expense_recurring_years'];
+$lang['invoice_recurring_days'] = $lang['expense_recurring_days'];
+$lang['invoice_recurring_weeks'] = $lang['expense_recurring_weeks'];
 
 # Version 1.2.4
 $lang['document_direction'] = 'Direction';
@@ -3238,12 +3238,12 @@ $lang['exclude_invoices_draft_from_client_area'] = 'Müşteri alanında Taslak s
 $lang['invoice_draft_status_info'] = 'Bu fatura taslak durumunda, fatura müşteriye gönderildiğinde yada gönderildi olarak işaretlendiğinde durumu otomatik olarak değişecek.';
 $lang['task_info'] = 'Görev Bilgisi';
 $lang['recurring_tasks'] = 'Tekrar Eden';
-// Dont translate these, already translated
+// don't translate these, already translated
 $lang['task_repeat_every'] = $lang['expense_repeat_every'];
-$lang['task_recuring_months'] = $lang['expense_recuring_months'];
-$lang['task_recuring_years'] = $lang['expense_recuring_years'];
-$lang['task_recuring_days'] = $lang['expense_recuring_days'];
-$lang['task_recuring_weeks'] = $lang['expense_recuring_weeks'];
+$lang['task_recurring_months'] = $lang['expense_recurring_months'];
+$lang['task_recurring_years'] = $lang['expense_recurring_years'];
+$lang['task_recurring_days'] = $lang['expense_recurring_days'];
+$lang['task_recurring_weeks'] = $lang['expense_recurring_weeks'];
 $lang['todays_tasks'] = 'Bugün\'ün Görevleri';
 $lang['payment_mode_invoices_only'] = 'Sadece Faturalar';
 $lang['payment_mode_expenses_only'] = 'Sadece Harcamalar';
@@ -3280,10 +3280,10 @@ $lang['dropbox_app_key'] = 'Dropbox APP Anahtarı';
 $lang['project_invoice_select_all_expenses'] = 'Tüm Harcamaları Seç';
 $lang['role_update_staff_permissions'] = 'Bu rolü kullanan tüm personel üyelerinin izinlerini güncelleyin.';
 $lang['customer_active'] = 'Aktif';
-$lang['note_updated_successfuly'] = 'Not başarıyla güncellendi';
+$lang['note_updated_successfully'] = 'Not başarıyla güncellendi';
 $lang['update_note'] = 'Notu güncelle';
 $lang['update_comment'] = 'Yorumu güncelle';
-$lang['comment_updated_successfuly'] = 'Yorum güncellendi.';
+$lang['comment_updated_successfully'] = 'Yorum güncellendi.';
 $lang['staff_send_welcome_email'] = 'Hoşgeldiniz e-maili gönder';
 $lang['proposal_warning_email_change'] = '%s için e-mail değişti. Bu %s teklifin bağlantısı. %s ile bağlantılı tüm teklif e-mail lerini güncellemek istiyor musunuz?';
 $lang['update_proposal_email_yes'] = 'Evet, bağlı tüm e-mailleri güncelleştir.';
@@ -3355,7 +3355,7 @@ $lang['invoice_is_overdue'] = 'Bu fatura %s gün gecikti.';
 $lang['time_decimal'] = 'Süre (Ondalık)';
 $lang['time_h'] = 'Süre (S)';
 $lang['proposal_number_prefix'] = 'Teklif Numarası Öneki';
-$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formated: 005 or 025</small>';
+$lang['settings_number_padding_prefix'] = 'Number padding zero\'s for prefix formats <br /> <small>eq. If this value is 3 the number will be formatted: 005 or 025</small>';
 $lang['this_week_payments'] = 'Bu Haftanın Ödemeleri';
 $lang['last_week_payments'] = 'Geçen Haftanın Ödemeleri';
 $lang['not_published_new_post'] = 'Yeni mesaj yayınladı';
@@ -3397,7 +3397,7 @@ $lang['customer_inactive_message'] = 'Etkin olmayan müşteri profili. Bazı öz
 $lang['active_customers'] = 'Aktif Müşteriler';
 $lang['inactive_active_customers'] = 'Pasif Müşteriler';
 $lang['include_proposal_items_merge_field_help'] = 'Birleştirme alanına sahip teklif öğelerini öneri içeriğinin herhangi bir yerindeki %s dahilinde ekleyin.';
-$lang['all_data_synced_successfuly'] = 'Tüm veriler başarıyla senkronize edildi';
+$lang['all_data_synced_successfully'] = 'Tüm veriler başarıyla senkronize edildi';
 $lang['sync_now'] = 'Şimdi Senkronize Et';
 $lang['sync_data'] = 'Veriyi Senkronize Et';
 $lang['sync_proposals_up_to_date'] = 'Tüm teklifler güncel, senkronize edilecek bir şey yok.';
@@ -3503,7 +3503,7 @@ $lang['search_project_members'] = 'Search Project Members...';
 $lang['cf_translate_input_link_title'] = 'Title';
 $lang['cf_translate_input_link_url'] = 'URL';
 $lang['cf_translate_input_link_tip'] = 'Click here to add link';
-$lang['task_edit_delte_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
+$lang['task_edit_delete_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
 $lang['total_tickets_deleted'] = 'Total tickets deleted: %s';
