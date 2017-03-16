@@ -67,7 +67,7 @@ $lang['clients']                               = 'Clientes';
 $lang['client']                                = 'Cliente';
 $lang['new_client']                            = 'Nuevo Cliente';
 $lang['client_lowercase']                      = 'cliente';
-$lang['client_delete_tooltip']                 = 'Se eliminarán todos los datos de los clientes. Los contratos, billetes, billetes. NOTA: Si las facturas encontraron al cliente suele ser borrado. Es necesario asignar esta facturas a otro cliente para mantener el número de factura';
+$lang['client_delete_tooltip']                 = 'Se eliminarán todos los datos de los clientes. Los contratos, tickets. NOTA: Si las facturas encontraron al cliente suele ser borrado. Es necesario asignar esta facturas a otro cliente para mantener el número de factura';
 $lang['customer_delete_invoices_warning']      = 'Este cliente tiene facturas en la cuenta. Usted no puede eliminar este cliente. Cambiar todas las facturas a otro cliente y a continuación, elimine.';
 $lang['client_firstname']                      = 'Nombre';
 $lang['client_lastname']                       = 'Apellido';
@@ -226,7 +226,7 @@ $lang['invoice_item_add_edit_tax']         = 'Impuesto';
 $lang['invoice_item_add_edit_tax_select']  = 'Seleccione Impuesto';
 
 $lang['invoice_item_edit_heading'] = 'Editar Elemento';
-$lang['invoice_item_add_heading']  = 'nuevo Elemento';
+$lang['invoice_item_add_heading']  = 'Nuevo Elemento';
 
 # Invoices
 
@@ -385,12 +385,12 @@ $lang['predefined_reply_add_edit_content'] = 'Responder contenido';
 
 # Ticket Priorities
 $lang['new_ticket_priority']           = 'Nueva Prioridad';
-$lang['ticket_priorities']             = 'Prioridades de billetes';
-$lang['ticket_priority']               = 'prioridad de billetes';
-$lang['ticket_priority_lowercase']     = 'prioridad de billetes';
-$lang['no_ticket_priorities_found']    = 'No se han encontrado Prioridades de billetes';
-$lang['ticket_priority_dt_name']       = 'Prioridad Nombre de billetes';
-$lang['ticket_priority_add_edit_name'] = 'prioridad Nombre';
+$lang['ticket_priorities']             = 'Prioridades de tickets';
+$lang['ticket_priority']               = 'Prioridad de tickets';
+$lang['ticket_priority_lowercase']     = 'prioridad de tickets';
+$lang['no_ticket_priorities_found']    = 'No se han encontrado Prioridades de tickets';
+$lang['ticket_priority_dt_name']       = 'Prioridad Nombre de tickets';
+$lang['ticket_priority_add_edit_name'] = 'Nombre del tipo de prioridad';
 
 # Reports
 $lang['kb_reports']                         = 'Informes de artículos de';
@@ -463,7 +463,7 @@ $lang['settings_clients_allow_registration']                 = 'Permitir que los
 $lang['settings_clients_allow_kb_view_without_registration'] = 'Permitir que la base de conocimientos sea visto sin conexión';
 
 $lang['settings_cron_send_overdue_reminder']                 = 'Enviará recordatorio para la factura vencida';
-$lang['settings_cron_send_overdue_reminder_tooltip']         = 'Enviar email al cliente cuando atrasados ​​estado de la factura actualiza al atraso de trabajo Cron';
+$lang['settings_cron_send_overdue_reminder_tooltip']         = 'Enviar email al cliente cuando atrasados ??estado de la factura actualiza al atraso de trabajo Cron';
 $lang['automatically_send_invoice_overdue_reminder_after']   = 'Enviar automáticamente después de recordatorio (días)';
 $lang['automatically_resend_invoice_overdue_reminder_after'] = 'Automáticamente volver a enviar recordatorio después de (días)';
 
@@ -673,7 +673,7 @@ $lang['ticket_settings_assign_to_you']                      = 'Tú';
 $lang['ticket_settings_select_client']                      = 'Seleccione Cliente';
 $lang['ticket_add_body']                                    = 'Cuerpo de tickets';
 $lang['ticket_add_attachments']                             = 'Archivos Adjuntos';
-$lang['ticket_no_reply_yet']                                = 'Sin embargo, no hay respuesta';
+$lang['ticket_no_reply_yet']                                = 'Sin respuesta, todavía';
 $lang['new_ticket_added_successfully']                        = 'Ticket # %s añadido con éxito';
 $lang['replied_to_ticket_successfully']                       = 'Respondido al ticket # %s con éxito';
 $lang['ticket_settings_updated_successfully']                = 'Ajustes del ticket actualizados con éxito';
@@ -688,7 +688,7 @@ $lang['ticket_dt_last_reply']                               = 'Última Respuesta
 
 $lang['ticket_single_add_reply']                  = 'Añadir Respuesta';
 $lang['ticket_single_add_note']                   = 'Añadir la nota';
-$lang['ticket_single_other_user_tickets']         = 'otras billetes';
+$lang['ticket_single_other_user_tickets']         = 'Otros tickets';
 $lang['ticket_single_settings']                   = 'Ajustes';
 $lang['ticket_single_priority']                   = 'Prioridad: %s';
 $lang['ticket_single_last_reply']                 = 'Última respuesta: %s';
@@ -696,7 +696,7 @@ $lang['ticket_single_change_status_top']          = 'Cambiar Estado';
 $lang['ticket_single_ticket_note_by']             = 'Venta de tickets nota de %s';
 $lang['ticket_single_note_added']                 = 'Nota añadida: %s';
 $lang['ticket_single_change_status']              = 'Cambiar Estado';
-$lang['ticket_single_assign_to_me_on_update']     = 'Asignarme este ticket esta predefinida';
+$lang['ticket_single_assign_to_me_on_update']     = 'Asignarme este ticket a mi directamente si algo pasa';
 $lang['ticket_single_insert_predefined_reply']    = 'Insertar respuesta predefinida';
 $lang['ticket_single_insert_knowledge_base_link'] = 'Inserte el enlace a la base de conocimiento';
 $lang['ticket_single_attachments']                = 'Archivos Adjuntos';
@@ -1511,7 +1511,7 @@ $lang['contract_renewal_delete_fail']         = 'No se pudo eliminar la renovaci
 $lang['contract_renewal_new_value'] = 'Nuevo valor del contrato: %s';
 $lang['contract_renewal_old_value'] = 'Antiguo Contrato Valor: %s';
 
-$lang['contract_renewal_new_start_date'] = 'Nueva Fecha de Inicio:% ​​s';
+$lang['contract_renewal_new_start_date'] = 'Nueva Fecha de Inicio:% ??s';
 $lang['contract_renewal_old_start_date'] = 'Fecha de inicio del contrato de edad fue: %s';
 
 $lang['contract_renewal_new_end_date'] = 'Nueva Fecha de finalización: %s';
@@ -2150,7 +2150,7 @@ $lang['contract_type_edit']        = 'Editar Tipo de Contrato';
 # Reports
 $lang['report_by_customer_groups'] = 'Valor Total Por Grupos de clientes';
 #Utilities
-$lang['ticket_pipe_log']           = 'Tubo de tickets de registro';
+$lang['ticket_pipe_log']           = 'Registro de tickets';
 $lang['ticket_pipe_name']          = 'De';
 $lang['ticket_pipe_email_to']      = 'Para';
 $lang['ticket_pipe_email']         = 'Del Email';
@@ -2476,7 +2476,7 @@ $lang['project_rate_per_hour']            = 'Precio Hora';
 $lang['project_total_cost']            = 'Coste Total';
 $lang['project_members']            = 'Miembros del Proyecto';
 $lang['project_member_removed']     = 'Miembro del proyecto eliminado correctamente';
-$lang['project_overview']           = 'descripción del proyecto';
+$lang['project_overview']           = 'Descripción del proyecto';
 $lang['project_gant']            = 'Vista Gantt';
 $lang['project_milestones']            = 'Hitos';
 $lang['project_milestone_order']            = 'Orden';
@@ -2500,7 +2500,7 @@ $lang['copy_project_task_include_check_list_items']            = 'Copiar puntos 
 $lang['copy_project_task_include_assignees']            = 'Copiar los mismos ejecutivos de ventas';
 $lang['copy_project_task_include_followers']            = 'Copiar los mismo seguidores';
 
-$lang['project_days_left']            = 'Dias Dejados';
+$lang['project_days_left']            = 'Dias restantes';
 $lang['project_open_tasks']            = 'Tareas Abiertas';
 $lang['timesheet_stop_timer']            = 'Detener Temporadizador';
 $lang['failed_to_add_project_timesheet_end_time_smaller']            = 'No se pudo agregar las Hoja de Tiempos. La hora de finalizacion es menor que el tiempo de inicio';
@@ -3277,7 +3277,7 @@ $lang['new_item_group'] = 'Nuevo Grupo';
 $lang['show_setup_menu_item_only_on_hover'] = 'Show setup menu item only when hover with mouse on main sidebar area';
 $lang['internal_article'] = 'Internal Article';
 $lang['expenses_created_from_this_recurring_expense'] = 'Created expenses from this recurring expense';
-$lang['convert_to_task'] = 'Convert To Task';
+$lang['convert_to_task'] = 'CONVERTIR A TAREA';
 $lang['next_invoice_date'] = 'Next Invoice Date: %s';
 $lang['next_expense_date'] = 'Next Expense Date: %s';
 $lang['invoice_recurring_from'] = 'This invoice is created from recurring invoice with number: %s';
@@ -3352,16 +3352,16 @@ $lang['use_minified_files'] = 'Use minified files version for css and js (only s
 
 # Version 1.5.0
 $lang['logo_favicon_changed_notice'] = 'Logo or Favicon change detected. If you still see the original CRM logo try to clear your browser cache';
-$lang['kb_search_articles'] = 'Search Knowledge Base Articles';
+$lang['kb_search_articles'] = 'Buscar en la Base de Conocimiento';
 $lang['kb_search'] = 'Buscar';
-$lang['have_a_question'] = 'Have a question?';
-$lang['card_expiration_year'] = 'Expiration Year';
-$lang['card_expiration_month'] = 'Expiration Month';
+$lang['have_a_question'] = '¿Qué necesitas saber?';
+$lang['card_expiration_year'] = 'Año de expiración';
+$lang['card_expiration_month'] = 'Mes de expiración';
 $lang['client_website'] = 'Website';
 $lang['search_project_members'] = 'Search Project Members...';
 $lang['cf_translate_input_link_title'] = 'Título';
 $lang['cf_translate_input_link_url'] = 'URL';
-$lang['cf_translate_input_link_tip'] = 'Click here to add link';
+$lang['cf_translate_input_link_tip'] = 'Click aquí para agregar link';
 $lang['task_edit_delete_timesheet_notice'] = 'Timesheet task is %s, you cant %s the timesheet.';
 $lang['department_username'] = 'IMAP Username';
 $lang['department_username_help'] = 'Only fill this field if your IMAP server use username to login instead email address. Note that you will still need to add email address.';
@@ -3382,12 +3382,12 @@ $lang['my_timesheets'] = 'My Timesheets';
 $lang['today'] = 'Hoy';
 $lang['open_in_dropbox'] = 'Open In Dropbox';
 $lang['show_primary_contact'] = 'Mostrar el nombre completo del contacto principal en %s';
-$lang['view_members_timesheets'] = 'View all timesheets';
+$lang['view_members_timesheets'] = 'Ver todas las hojas de tiempo';
 $lang['priority'] = 'Prioridad';
 $lang['fetch_from_google'] = 'Fetch from google';
 $lang['customer_fetch_lat_lng_usage'] = 'Fill address, city and country before fetching to get best result.';
 $lang['g_search_address_not_found'] = 'The address couldn\'t be found, please try again';
-$lang['proposals_report'] = 'Proposals Report';
+$lang['proposals_report'] = 'Reporte de Propuestas';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
 $lang['staff_members_open_tickets_to_all_contacts'] = 'Allow staff members to open tickets to all contacts?';
 $lang['charts_based_report'] = 'Charts Based Report';
