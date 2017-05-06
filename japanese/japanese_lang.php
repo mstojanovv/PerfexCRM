@@ -765,7 +765,7 @@ $lang['staff_edit_profile_your_departments']          = '部';
 $lang['staff_edit_profile_change_your_password']      = 'パスワードを変更して下さい';
 $lang['staff_edit_profile_change_old_password']       = '古いパスワード';
 $lang['staff_edit_profile_change_new_password']       = '新しいパスワード';
-$lang['staff_edit_profile_change_repet_new_password'] = '新しいパスワードを繰り返して下さい';
+$lang['staff_edit_profile_change_repeat_new_password'] = '新しいパスワードを繰り返して下さい';
 
 # Surveys
 $lang['new_survey']                    = '新しい調査';
@@ -1472,7 +1472,7 @@ $lang['settings_show_sale_agent_on_invoices']         = '請求書に販売代�
 $lang['settings_show_sale_agent_on_estimates']        = '見積りに販売代理人を表示する';
 $lang['settings_predefined_predefined_term']          = '定義済み契約条件';
 $lang['settings_predefined_clientnote']               = '定義済みクライアント注記';
-$lang['settings_custom_pdf_logo_image_url']           = 'PDF会社ロゴURLをカスタマイズする (JPG - 210x60px)';
+$lang['settings_custom_pdf_logo_image_url']           = 'PDF会社ロゴURLをカスタマイズする';
 $lang['settings_custom_pdf_logo_image_url_tooltip']   = 'Probably you will have problems with PNG images with transparency that are handled in different way depending on the php-imagick or php-gd version used. Try to update php-imagick and disable php-gd
 . If you leave this field blank the uploaded logo will be used.';
 
@@ -1981,7 +1981,6 @@ $lang['show_lead_reminders_on_calendar']                          = 'リード�
 $lang['tickets_piping']                                           = 'メールパイピング';
 $lang['email_piping_only_replies']                                = 'メールのみの返答を許可する';
 $lang['email_piping_only_registered']                             = '登録されたユーザーのみパイプする';
-$lang['email_piping_enabled']                                     = '使用可能な';
 
 # Estimates
 $lang['view_estimate_as_client']         = '顧客として見積りを表示する';
@@ -2352,7 +2351,7 @@ $lang['dismiss_announcement'] = '告知を却下する';
 $lang['announcement_from'] = '～から:';
 $lang['announcement_date'] = 'ポストされた日付: %s';
 $lang['announcement_not_found'] = '告知は見つかりません';
-$lang['announcements_recents'] = '最新の告知';
+$lang['announcements_recent'] = '最新の告知';
 
 # General
 $lang['zip_invoices'] = '請求書をZIPする';
@@ -3050,7 +3049,7 @@ $lang['project_due_notice'] = 'このプロジェクトは %s 日から期限経
 $lang['not_lead_added_attachment'] = 'リード %s に新しいアタッチメントを追加しました';
 $lang['lead_note_date_added'] = '注釈は追加されました: %s';
 $lang['recurring_custom'] = 'カスタム';
-// Dont translate these, only added for better readibility already translated for the expenses custom recurring feature.
+// Dont translate these, only added for better readability already translated for the expenses custom recurring feature.
 $lang['invoice_recurring_months'] = $lang['expense_recurring_months'];
 $lang['invoice_recurring_years'] = $lang['expense_recurring_years'];
 $lang['invoice_recurring_days'] = $lang['expense_recurring_days'];
@@ -3314,7 +3313,7 @@ $lang['new_form'] = '新しいフォーム';
 $lang['form_name'] = 'フォーム名';
 $lang['cf_option_in_use'] = 'あなたが動かしたオプションは使用されているか又は動かせません。このオプションは存在するオプションに自動的に添付されました。';
 $lang['form_builder'] = 'フォームビルダー';
-$lang['form_informations'] = 'フォーム情報とセットアップ';
+$lang['form_information'] = 'フォーム情報とセットアップ';
 $lang['form_builder_create_form_first'] = 'フォームビルダーを使えるようにするために、フォームを始めに作成して下さい。';
 $lang['notify_assigned_user'] = '責任者';
 $lang['form_recaptcha'] = 'Google Recaptcha を使用する';
@@ -3417,3 +3416,55 @@ $lang['sales_string'] = '販売';
 $lang['no_project_members'] = 'このプロジェクトにはメンバーがいません';
 $lang['search_by_tags'] = 'タグより検索する場合は＃とタグ名を使用する';
 $lang['project_status_5'] = 'キャンセルしました';
+
+# Version 1.7.0
+$lang['not_activity_new_reminder_created'] = 'set a new reminder for %s with date %s';
+$lang['not_activity_new_task_created'] = 'Created new task - %s';
+$lang['recurring_invoice_draft_notice'] = 'This invoice is with status draft, you need to mark this invoice as sent. Recurring invoices with status draft won\'t be recreated by cron job.';
+$lang['recurring_recreate_hour_notice'] = '%s will be recreated on specific hour of the day based from the setting located at Setup->Settings-Cron Job';
+$lang['invoice_project_include_timesheets_notes'] = 'Include each timesheet note in item description';
+$lang['events'] = 'Events';
+$lang['clear'] = 'Clear';
+$lang['auto_mark_as_public'] = 'Auto mark as public';
+$lang['time_format'] = 'Time Format';
+$lang['time_format_24'] = '24 hours';
+$lang['time_format_12'] = '12 hours';
+$lang['delete_activity_log_older_then'] = 'Delete system activity log older then X months';
+$lang['mark_as_read'] = 'Mark as Read';
+$lang['mark_all_as_read'] = 'Mark all as read';
+$lang['tax_1'] = 'Tax 1';
+$lang['tax_2'] = 'Tax 2';
+$lang['total_with_tax'] = 'Total with tax';
+$lang['new_task_auto_assign_current_member'] = 'Auto assign task creator when new task is created';
+$lang['new_task_auto_assign_current_member_help'] = 'Not applied if task is linked to project and the creator is not project member';
+$lang['copy_project_tasks_status'] = 'Tasks Status';
+$lang['tasks_summary'] = 'Tasks Summary';
+$lang['show_gantt_by'] = 'Show Gantt View by';
+$lang['vault'] = 'Vault';
+$lang['new_vault_entry'] = 'New Vault Entry';
+$lang['server_address'] = 'Server Address';
+$lang['port'] = 'Port';
+$lang['vault_username'] = 'Username';
+$lang['vault_password'] = 'Password';
+$lang['vault_description'] = 'Short Description';
+$lang['vault_entry'] = 'Vault Entry';
+$lang['no_port_provided'] = 'Not provided';
+$lang['view_password'] = 'View Password';
+$lang['security_reasons_re_enter_password'] = 'For security reasons please enter your password below';
+$lang['password_change_fill_notice'] = 'Only fill password field if you want to change the password';
+$lang['vault_password_user_not_correct'] = 'Your password is not correct, please try again';
+$lang['no_vault_entries'] = 'Vault entries not found for this customer.';
+$lang['vault_entry_created_from'] = 'This vault entry is created by %s';
+$lang['vault_entry_last_update'] = 'Last updated by %s';
+$lang['vault_entry_visible_to_all'] = 'Visible to all staff member who have access to this customer';
+$lang['vault_entry_visible_creator'] = 'Visible only to me (administrator are not excluded)';
+$lang['vault_entry_visible_administrators'] = 'Visible only to administrators';
+$lang['my_reminders'] = 'My Reminders';
+$lang['reminder_related'] = 'Related to';
+$lang['event_notification'] = 'Notification';
+$lang['days'] = 'Days';
+$lang['reminder_notification_placeholder'] = 'Eq. 30 minutes before';
+$lang['event_color'] = 'Event Color';
+$lang['group_by_task'] = 'Group by Task';
+$lang['save'] = 'Save';
+$lang['disable_languages'] = 'Disable Languages';
