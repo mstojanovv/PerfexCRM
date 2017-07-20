@@ -3192,6 +3192,12 @@ $lang['save']                                                                 = 
 $lang['disable_languages']                                                    = 'Sprachen deaktivieren';
 
 # Version 1.8.0
+$lang['not_customer_viewed_invoice'] = 'An invoice with number %s has been viewed';
+$lang['not_customer_viewed_estimate'] = 'An estimate with number %s has been viewed';
+$lang['not_customer_viewed_proposal'] = 'An proposal with number %s has been viewed';
+$lang['display_inline'] = 'Display Inline';
+$lang['email_header'] = 'Predefined Header';
+$lang['email_footer'] = 'Predefined Footer';
 $lang['exclude_proposal_from_client_area_with_draft_status']                  = 'Vorschläge mit Entwurfsstatus aus dem Kundenbereich ausschließen';
 $lang['pusher_app_key']                                                       = 'APP Schlüssel';
 $lang['pusher_app_secret']                                                    = 'APP Secret';
@@ -3250,3 +3256,4 @@ $lang['task_created_by']                                                      = 
 $lang['validation_extension_not_allowed']                                     = 'Dateiendung nicht erlaubt';
 $lang['allow_staff_view_proposals_assigned']                                  = 'Mitarbeitern erlauben Vorschläge zu sehen, in denen diese zugeordnet sind';
 $lang['task_users_working_on_tasks_multiple']                                 = 'Momentan arbeitet %s an dieser Aufgabe';
+$lang['task_users_working_on_tasks_single'] = 'Currently %s is working on this task';

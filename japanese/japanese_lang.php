@@ -38,7 +38,7 @@ $lang['invoice_subtotal']                      = '小計';
 $lang['invoice_adjustment']                    = '調整';
 $lang['invoice_total']                         = '合計金額';
 $lang['invoice_vat']                           = 'VAT数';
-$lang['invoice_bill_to']                       = '支払先';
+$lang['invoice_bill_to']                       = '請求先';
 $lang['invoice_data_date']                     = '請求先住所:';
 $lang['invoice_data_duedate']                  = '期日:';
 $lang['invoice_received_payments']             = '取引';
@@ -1702,7 +1702,7 @@ $lang['show_shipping_on_estimate']         = '見積りに発送の詳細を表�
 $lang['is_invoiced_estimate_delete_error'] = 'この見積りは請求済みである。見積りを削除できます。';
 
 # Customers & Invoices / Estimates
-$lang['ship_to']                  = '配送先:';
+$lang['ship_to']                  = '配送先';
 $lang['customer_profile_details'] = '顧客詳細';
 $lang['billing_shipping']         = '請求書と発送';
 $lang['billing_address']          = '請求書送付先住所';
