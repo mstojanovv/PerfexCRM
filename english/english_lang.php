@@ -694,7 +694,6 @@ $lang['ticket_single_other_user_tickets']         = 'Other Tickets';
 $lang['ticket_single_settings']                   = 'Settings';
 $lang['ticket_single_priority']                   = 'Priority: %s';
 $lang['ticket_single_last_reply']                 = 'Last Reply: %s';
-$lang['ticket_single_change_status_top']          = 'Change Status';
 $lang['ticket_single_ticket_note_by']             = 'Ticket note by %s';
 $lang['ticket_single_note_added']                 = 'Note added: %s';
 $lang['ticket_single_change_status']              = 'Change Status';
@@ -1159,7 +1158,6 @@ $lang['clients_account_created_but_not_logged_in'] = 'Your account has been crea
 $lang['clients_tickets_heading']                   = 'Support Tickets';
 
 # Payments
-// Uses on stripe page
 $lang['payment_for_invoice'] = 'Payment for Invoice';
 $lang['payment_total']       = 'Total: %s';
 
@@ -2458,7 +2456,7 @@ $lang['new_project']             = 'New Project';
 $lang['project_files']            = 'Files';
 $lang['project_activity']            = 'Activity';
 $lang['project_name']            = 'Project Name';
-$lang['project_description']            = 'Project Description';
+$lang['project_description']            = 'Description';
 $lang['project_customer']            = 'Customer';
 $lang['project_start_date']            = 'Start Date';
 $lang['project_datecreated']            = 'Date Created';
@@ -2470,7 +2468,7 @@ $lang['project_billing_type_project_task_hours']            = 'Task Hours';
 $lang['project_billing_type_project_task_hours_hourly_rate']            = 'Based on task hourly rate';
 $lang['project_rate_per_hour']            = 'Rate Per Hour';
 $lang['project_total_cost']            = 'Total Rate';
-$lang['project_members']            = 'Project Members';
+$lang['project_members']            = 'Members';
 $lang['project_member_removed']     = 'Project member removed successfully';
 $lang['project_overview']           = 'Project Overview';
 $lang['project_gant']            = 'Gantt View';
@@ -3166,7 +3164,6 @@ $lang['project_send_created_email'] = 'Send project created email';
 $lang['survey_send_to_lists'] = 'Survey send lists';
 $lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
 $lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user won\'t be able to open the data and perform the actions.';
-$lang['custom_field_company_info'] = 'Edit custom fields for company in Setup->Settings->Company';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'Show invoice payments (transactions) on PDF';
@@ -3566,3 +3563,32 @@ $lang['open_ticket'] = 'Open Ticket';
 $lang['task_add_description'] = 'Add Description';
 $lang['project_setting_create_tasks'] = 'create tasks';
 $lang['project_setting_edit_tasks'] = 'edit tasks (only tasks created from contact)';
+
+# Version 1.9.2
+$lang['items_report'] = 'Items Report';
+$lang['reports_item'] = 'Item';
+$lang['quantity_sold'] = 'Quantity Sold';
+$lang['total_amount'] = 'Total Amount';
+$lang['avg_price'] = 'Average Price';
+$lang['item_report_paid_invoices_notice'] = 'Items report is generated only from paid invoices before discounts and taxes.';
+$lang['overview'] = 'Overview';
+$lang['timer_started_change_status_in_progress'] = 'Change task status to In Progress on timer started (applicable only if task status is Not Started)';
+$lang['company_info_format'] = 'Company Inforomation Format (PDF and HTML)';
+$lang['customer_info_format'] = 'Customer Information Format (PDF and HTML)';
+$lang['custom_field_info_format_embed_info'] = 'Custom fields for %s can be easily embedded into PDF and HTML documents by adding the merge fields into the page format at the following page: %s';
+$lang['transfer_lead_notes_to_customer'] = 'Transfer lead notes to customer profile';
+$lang['authorized_signature_text'] = 'Authorized Signature';
+$lang['show_pdf_signature_invoice'] = 'Show PDF Signature on Invoice';
+$lang['show_pdf_signature_estimate'] = 'Show PDF Signature on Estimate';
+$lang['signature'] = 'Signature';
+$lang['signature_image'] = 'Signature Image';
+$lang['insert_checklist_templates'] = 'Insert Checklist Templates';
+$lang['save_as_template'] = 'Save as Template';
+$lang['scroll_responsive_tables_help'] = 'Tables with large amount of data will have horizontal scroll instead rows wrapper in + icon.';
+$lang['scroll_responsive_tables'] = 'Activate Scroll Responsive Tables';
+$lang['invoice_item_add_edit_rate_currency'] = 'Rate - %s';
+$lang['total_files_deleted'] = 'Total files deleted: %s';
+$lang['invalid_transaction'] = 'Invalid Transaction. Please try again.';
+$lang['payment_gateway_payu_money_key'] = 'PayU Money Key';
+$lang['payment_gateway_payu_money_salt'] = 'PayU Money Salt';
+$lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Description';
