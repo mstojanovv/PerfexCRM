@@ -3281,7 +3281,7 @@ $lang['signature'] = 'Signature';
 $lang['signature_image'] = 'Signature Image';
 $lang['insert_checklist_templates'] = 'Insert Checklist Templates';
 $lang['save_as_template'] = 'Save as Template';
-$lang['scroll_responsive_tables_help'] = 'Tables with large amount of data will have horizontal scroll instead rows wrapper in + icon.';
+$lang['scroll_responsive_tables_help'] = 'Tables with large amount of data will have horizontal scroll instead rows wrapped in + icon.';
 $lang['scroll_responsive_tables'] = 'Activate Scroll Responsive Tables';
 $lang['invoice_item_add_edit_rate_currency'] = 'Rate - %s';
 $lang['total_files_deleted'] = 'Total files deleted: %s';
@@ -3289,3 +3289,7 @@ $lang['invalid_transaction'] = 'Invalid Transaction. Please try again.';
 $lang['payment_gateway_payu_money_key'] = 'PayU Money Key';
 $lang['payment_gateway_payu_money_salt'] = 'PayU Money Salt';
 $lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Description';
+
+# Version 1.9.3
+$lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
+$lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
