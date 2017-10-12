@@ -37,7 +37,6 @@ $lang['invoice_table_amount_heading']          = '总额';
 $lang['invoice_subtotal']                      = '小计';
 $lang['invoice_adjustment']                    = '调整';
 $lang['invoice_total']                         = '总数';
-$lang['invoice_vat']                           = '增值税税号';
 $lang['invoice_bill_to']                       = '付款方';
 $lang['invoice_data_date']                     = '发票日期:';
 $lang['invoice_data_duedate']                  = '截止日期:';
@@ -68,7 +67,6 @@ $lang['client']                                = '客户';
 $lang['new_client']                            = '新客户';
 $lang['client_lowercase']                      = '客户';
 $lang['client_delete_tooltip']                 = '所有客户合同,工单,票据将被删除. 注: 如果想要找到被删除的客户发票. 你可以将这个发票的发票号码让另一个客户保存';
-$lang['customer_delete_invoices_warning']      = '你不能删除有发票帐户的客户. 将所有的发票换到另一个客户，然后删除.';
 $lang['client_firstname']                      = '姓';
 $lang['client_lastname']                       = '名';
 $lang['client_email']                          = '电子邮件';
@@ -86,18 +84,8 @@ $lang['client_invoices_tab']                   = '发票';
 $lang['contracts_invoices_tab']               = '合同';
 $lang['contracts_tickets_tab']                 = '票';
 $lang['contracts_notes_tab']                   = '备注';
-$lang['client_invoice_number_table_heading']   = '发票 #';
-$lang['client_invoice_date_table_heading']     = '日期';
-$lang['client_invoice_due_date_table_heading'] = '截止日期';
-$lang['client_string_table_heading']           = '客户';
-$lang['client_amount_table_heading']           = '数量';
-$lang['client_status_table_heading']           = '状态';
 $lang['note_description']                      = '注意说明';
 
-$lang['client_string_contracts_table_heading']      = '客户';
-$lang['client_start_date_contracts_table_heading'] = '开始日期';
-$lang['client_end_date_contracts_table_heading']    = '结束日期';
-$lang['client_description_contracts_table_heading'] = '描述';
 $lang['client_do_not_send_welcome_email']           = '请勿发送欢迎邮件';
 
 $lang['clients_notes_table_description_heading'] = '描述';
@@ -179,7 +167,6 @@ $lang['home_latest_todos']                                  = '新的待办事�
 $lang['home_no_latest_todos']                               = '暂不需要做的事项';
 $lang['home_latest_finished_todos']                         = '最新完成的任务\'s';
 $lang['home_no_finished_todos_found']                       = '发现没有完成所有的';
-$lang['home_todo_heading']                                  = '做项目';
 $lang['home_tickets_awaiting_reply_by_department']          = '各部门等待批复的工单';
 $lang['home_tickets_awaiting_reply_by_status']              = '等待状态回复的工单';
 $lang['home_this_week_events']                              = '本周的事情';
@@ -218,13 +205,8 @@ $lang['invoice_item_lowercase']                             = '发票项目';
 
 $lang['invoice_items_list_description'] = '描述';
 $lang['invoice_items_list_rate']        = '金额';
-$lang['invoice_items_list_tax']         = '税额';
-
 $lang['invoice_item_add_edit_description'] = '描述';
 $lang['invoice_item_add_edit_rate']        = '金额';
-$lang['invoice_item_add_edit_tax']         = '税额';
-$lang['invoice_item_add_edit_tax_select']  = '选择税种';
-
 $lang['invoice_item_edit_heading'] = '编辑项目';
 $lang['invoice_item_add_heading']  = '添加新项';
 
@@ -253,7 +235,6 @@ $lang['invoice_add_edit_currency']    = '货币';
 $lang['invoice_add_edit_client_note'] = '客户报告';
 $lang['invoice_add_edit_admin_note']  = '请注意';
 
-$lang['invoice_add_edit_search_item']  = '搜索项目';
 $lang['invoices_toggle_table_tooltip'] = '查看完整表格';
 
 $lang['edit_invoice_tooltip']                   = '编辑发票';
@@ -282,7 +263,6 @@ $lang['record_payment_leave_note']               = '留个便条';
 $lang['invoice_payments_received']               = '收到的款项';
 $lang['invoice_record_payment_note_placeholder'] = '请注意';
 $lang['no_payments_found']                       = '未发现该发票的付款';
-$lang['invoice_email_link_text']               = '查看发票';
 
 # Payments
 $lang['payments']                             = '付款';
@@ -299,8 +279,6 @@ $lang['payment_not_exists']                   = '付款不存在';
 $lang['payment_edit_for_invoice']     = '付款发票';
 $lang['payment_edit_amount_received'] = '已收金额';
 $lang['payment_edit_date']            = '付款日期';
-$lang['payment_edit_lave_note']       = '留下的字条';
-
 
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = '项目';
@@ -312,7 +290,6 @@ $lang['kb_article_new_article']      = '新条款';
 $lang['kb_article_disabled']         = '禁用';
 $lang['kb_article_description']      = '条款描述';
 
-$lang['kb_table']                      = '目录';
 $lang['kb_no_articles_found']          = '没有knowledgbase找到的物品';
 $lang['kb_dt_article_name']            = '条款名称';
 $lang['kb_dt_group_name']              = '分类';
@@ -343,7 +320,6 @@ $lang['mail_list_total_invalid']              = '无效的电子邮件地址: %s
 $lang['cant_edit_mail_list']                  = '你不能编辑这个列表，这个列表是自动填充的';
 $lang['mail_list_add_edit_name']              = '邮件列表名称';
 $lang['mail_list_add_edit_customfield']       = '添加自定义字段';
-$lang['mail_lists_viewing_emails']            = '查看邮件列表';
 $lang['mail_lists_view_email_email_heading']  = '电子邮件';
 $lang['mail_lists_view_email_date_heading']   = '添加日期';
 $lang['add_new_email_to']                     = '添加新的电子邮件 %s';
@@ -396,7 +372,6 @@ $lang['ticket_priority_add_edit_name'] = '优先级名称';
 $lang['kb_reports']                         = '知识库文章报告';
 $lang['sales_reports']                      = '销售报告';
 $lang['reports_choose_kb_group']            = '选择组';
-$lang['reports_sales_select_report_type']   = '选择报告类型';
 $lang['report_kb_yes']                      = '是';
 $lang['report_kb_no']                       = '不是';
 $lang['report_kb_no_votes']                 = '没有投票';
@@ -410,16 +385,10 @@ $lang['report_sales_type_customer']                    = '客户报告';
 $lang['report_sales_base_currency_select_explanation'] = '您需要选择货币，因为你必须使用不同货币的发票';
 $lang['report_sales_from_date']                        = '从';
 $lang['report_sales_to_date']                          = '至';
-
-
 $lang['report_sales_months_all_time']      = '全部时间';
 $lang['report_sales_months_six_months']    = '过去的6个月';
 $lang['report_sales_months_twelve_months'] = '过去的12个月';
-$lang['report_sales_months_custom']        = '关税';
 $lang['reports_sales_generated_report']    = '生成的报告';
-
-
-
 $lang['reports_sales_dt_customers_client']                = '客户';
 $lang['reports_sales_dt_customers_total_invoices']        = '所有发票';
 $lang['reports_sales_dt_items_customers_amount']          = '金额';
@@ -490,7 +459,6 @@ $lang['settings_localization_default_timezone'] = '默认时区';
 $lang['settings_localization_default_language'] = '默认语言';
 
 $lang['settings_newsfeed_max_file_upload_post']    = '最大文件上传';
-$lang['settings_newsfeed_max_file_size']           = '最大文件大小（兆字节）';
 
 $lang['settings_reminders_contracts']         = '合同到期提醒';
 $lang['settings_reminders_contracts_tooltip'] = '过期提醒通知天数';
@@ -544,7 +512,6 @@ $lang['leads_sources_table_name']   = '来源名称';
 $lang['leads_source_add_edit_name'] = '来源名称';
 
 $lang['lead_new_status']         = '新机会状态';
-$lang['lead_statuss']            = '机会地位';
 $lang['lead_status']             = '机会地位';
 $lang['lead_status_lowercase']   = '机会地位';
 $lang['leads_status_table_name'] = '状态名称';
@@ -577,7 +544,6 @@ $lang['lead_add_edit_notes']                = '备注';
 $lang['lead_add_edit_add_note']             = '添加备注';
 $lang['lead_not_contacted']                 = '没有联系过';
 $lang['lead_add_edit_contacted_this_lead']  = '已联系';
-$lang['lead_confirmation_canban_contacted'] = '有没有联系过？';
 
 # Misc
 $lang['access_denied']              = '访问拒绝';
@@ -616,12 +582,8 @@ $lang['wd_sunday']    = '星期日';
 $lang['als_dashboard'] = '主面板';
 $lang['als_clients']   = '客户';
 $lang['als_leads']     = '销售机会';
-
 $lang['als_contracts'] = '合同';
-
-$lang['als_all_tickets'] = '所有的工单';
 $lang['als_sales']       = '销售';
-
 $lang['als_staff'] = '工作人员';
 $lang['als_tasks'] = '任务';
 $lang['als_kb']    = '知识库';
@@ -634,12 +596,10 @@ $lang['als_reports_leads_submenu'] = '机会';
 $lang['als_kb_articles_submenu']   = '知识库文章';
 $lang['als_utilities']             = '工具';
 $lang['als_announcements_submenu'] = '通告';
-$lang['als_mail_lists_submenu']    = '邮件列表';
 $lang['als_calendar_submenu']      = '日历';
 $lang['als_activity_log_submenu']  = '活动日志';
 
 # Admin Customizer Sidebar
-$lang['acs_tickets']                           = '工单';
 $lang['acs_ticket_priority_submenu']           = '工单优先';
 $lang['acs_ticket_statuses_submenu']           = '工单的状态';
 $lang['acs_ticket_predefined_replies_submenu'] = '预设回复';
@@ -669,8 +629,6 @@ $lang['ticket_settings_service']                            = '服务';
 $lang['ticket_settings_priority']                           = '优先级';
 $lang['ticket_settings_subject']                            = '项目';
 $lang['ticket_settings_assign_to']                          = '分配工单（默认为分配给当前用户）';
-$lang['ticket_settings_assign_to_you']                      = '你';
-$lang['ticket_settings_select_client']                      = '选择客户';
 $lang['ticket_add_body']                                    = '工单内容';
 $lang['ticket_add_attachments']                             = '附件';
 $lang['ticket_no_reply_yet']                                = '还没有回复';
@@ -709,8 +667,6 @@ $lang['ticket_status_changed_fail']               = '更改状态发生错误';
 $lang['ticket_staff_string']                    = '员工';
 $lang['ticket_client_string']                   = '客户';
 $lang['ticket_posted']                          = '发送人：%';
-$lang['ticket_insert_predefined_reply_heading'] = '插入预设置的回复';
-$lang['ticket_kb_link_heading']                 = '插入知识库链接';
 $lang['ticket_access_by_department_denied']     = '你没有权访问此工单，该工单属于其他部门';
 
 # Staff
@@ -851,7 +807,6 @@ $lang['task_single_assignees']              = '受让人';
 $lang['task_single_assignees_select_title'] = '分配任务';
 $lang['task_single_followers']              = '追随者';
 $lang['task_single_followers_select_title'] = '添加的追随者';
-$lang['task_single_insert_media_link']      = '插入文件链接';
 $lang['task_single_add_new_comment']        = '添加评论';
 
 $lang['task_add_edit_subject']     = '主题';
@@ -903,9 +858,6 @@ $lang['no_unfinished_todos_found'] = '没有待办事项';
 $lang['unfinished_todos_title']    = '未完成的待办事项';
 $lang['finished_todos_title']      = '最新完成的待办事项';
 
-# Authentication
-$lang['password_changed_email_subject']             = '您的密码已更改';
-$lang['password_reset_email_subject']               = '重置 %s 的密码';
 # Utilities
 $lang['utility_activity_log']                       = '活动日志';
 $lang['utility_activity_log_filter_by_date']        = '按日期筛选';
@@ -928,20 +880,10 @@ $lang['nav_edit_profile']           = '编辑个人资料';
 $lang['nav_logout']                 = '注销';
 $lang['nav_no_notifications']       = '没有新通知';
 $lang['nav_view_all_notifications'] = '查看所有通知';
-$lang['nav_customizer_tooltip']     = '自定义设置';
 $lang['nav_notifications_tooltip']  = '查看通知';
-
-## Clients
-#
-
-$lang['clients_required_field'] = '必填';
 
 # Footer
 $lang['clients_copyright'] = '%s 版权所有';
-
-# Announcements
-$lang['clients_announcement_from']  = '来自: ';
-$lang['clients_announcement_added'] = '添加人: ';
 
 # Contracts
 $lang['clients_contracts']               = '合同';
@@ -1006,10 +948,8 @@ $lang['clients_ticket_open_departments']            = '部门';
 $lang['clients_tickets_heading']                    = '工单';
 $lang['clients_ticket_open_service']                = '服务';
 $lang['clients_ticket_open_priority']               = '优先级';
-$lang['clients_latest_tickets']                     = '最新工单';
 $lang['clients_ticket_open_body']                   = '工单内容';
 $lang['clients_ticket_attachments']                 = '附件';
-$lang['clients_ticket_posted']                      = '发布人：%s';
 $lang['clients_single_ticket_string']               = '工单';
 $lang['clients_single_ticket_replied']              = '回复人: %s';
 $lang['clients_single_ticket_information_heading'] = '票务信息';
@@ -1048,25 +988,6 @@ $lang['clients_nav_contracts'] = '合同';
 $lang['clients_nav_kb']        = '知识库';
 $lang['clients_nav_profile']   = '配置文件';
 $lang['clients_nav_logout']    = '注销';
-
-# Datatables
-$lang['clients_dt_paginate_first']    = '第一';
-$lang['clients_dt_paginate_last']     = '去年';
-$lang['clients_dt_paginate_next']     = '下一个';
-$lang['clients_dt_paginate_previous'] = '以前的';
-$lang['clients_dt_empty_table']       = '没有发现{ 0 }';
-$lang['clients_dt_search']            = '搜索:';
-$lang['clients_dt_zero_records']      = '未找到匹配记录';
-$lang['clients_dt_loading_records']   = '加载…';
-$lang['clients_dt_length_menu']       = '显示_menu_';
-$lang['clients_dt_info_filtered']     = '（过滤_max_总{ 0 }）';
-$lang['clients_dt_info_empty']        = '显示0至0的0 { 0 }';
-$lang['clients_dt_info']              = '显示_START_到_TOTAL_的_END_{0}';
-$lang['clients_dt_empty_table']       = '没有发现{ 0 }';
-$lang['clients_dt_sort_ascending']    = '激活排序列';
-$lang['clients_dt_sort_descending']   = '激活列降序进行排序';
-
-
 # Version 1.0.1
 # Admin
 #
@@ -1107,7 +1028,6 @@ $lang['invoices_list_recurring']                                               =
 $lang['invoices_list_made_payment_by']                                        = '付款的 %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = '创建一个从主要周期性发票的新发票仅是付费状态';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = '创建仅在主发票与支付的地位主要重复发票新发票？如果该字段设置为否，反复出现的发票不符合身份支付新的发票不会被创建';
-$lang['send_renewed_invoice_from_recurring_to_email']                         = '自动向客户发送新的发票';
 $lang['view_invoice_pdf_link_pay']                                            = '支付发票';
 
 # Payment modes
@@ -1136,16 +1056,6 @@ $lang['settings_paymentmethod_paypal_signature'] = 'API签名';
 $lang['settings_paymentmethod_stripe_api_secret_key']      = '条纹的API密钥';
 $lang['settings_paymentmethod_stripe_api_publishable_key'] = '条发布的关键';
 $lang['settings_limit_top_search_bar_results']             = '限制高级搜索栏的结果';
-
-# Quick Actions
-$lang['qa_create_invoice']  = '创建发票';
-$lang['qa_create_task']     = '创建任务';
-$lang['qa_create_client']   = '创建客户';
-$lang['qa_create_contract'] = '创建合同';
-$lang['qa_create_kba']      = '创建知识库文章';
-$lang['qa_create_survey']   = '创建调查';
-$lang['qa_create_ticket']   = '新建工单';
-$lang['qa_create_staff']    = '创建工作人员';
 
 ## Clients
 $lang['client_phonenumber'] = '电话';
@@ -1231,7 +1141,6 @@ $lang['settings_sales_estimate_number_format']                      = '报价的
 $lang['settings_sales_estimate_number_format_year_based']           = '去年的基础';
 $lang['settings_sales_estimate_number_format_number_based']         = '基于数字(000001)';
 $lang['settings_delete_only_on_last_estimate']                      = '删除报价只允许在最后一张发票';
-$lang['settings_cron_invoice_heading']                              = '发票';
 $lang['settings_send_test_email_heading']                           = '发送测试电子邮件';
 $lang['settings_send_test_email_subheading']                        = '发送测试电子邮件确认您的SMTP设置正确设置.';
 $lang['settings_send_test_email_string']                            = '电子邮件地址';
@@ -1240,12 +1149,10 @@ $lang['settings_smtp_settings_subheading']                          = '设置的
 $lang['settings_sales_heading_general']                             = '基础设置';
 $lang['settings_sales_heading_invoice']                             = '发票';
 $lang['settings_sales_heading_estimates']                           = '报价';
-$lang['settings_sales_heading_company']                             = '公司信息';
 $lang['settings_sales_cron_invoice_heading']                        = '';
 
 # Tasks
 $lang['tasks_dt_datestart'] = '开始日期';
-$lang['tasks_dt_priority']  = '优先';
 
 # Invoice General
 $lang['invoice_discount'] = '优惠';
@@ -1253,7 +1160,6 @@ $lang['invoice_discount'] = '优惠';
 # Settings
 $lang['settings_rtl_support_admin']                                   = '管理界面边侧栏靠右';
 $lang['settings_rtl_support_client']                                  = '客户界面边侧栏靠右';
-$lang['acs_language_editor']                                          = '语言编辑器';
 $lang['settings_estimate_auto_convert_to_invoice_on_client_accept']   = '报价客户同意之后自动转换发票';
 $lang['settings_exclude_estimate_from_client_area_with_draft_status'] = '排除客户区的状态报价';
 
@@ -1295,8 +1201,6 @@ $lang['create_new_estimate']                = '创造新的报价';
 $lang['view_estimate']                      = '视图报价';
 $lang['estimate_sent_to_client_success']    = '报价发送成功的客户';
 $lang['estimate_sent_to_client_fail']       = '在发送报价时的问题';
-$lang['estimate_reminder_send_problem']     = '发送报价逾期提醒的问题';
-$lang['estimate_details']                   = 'Estimate Details';
 $lang['estimate_view']                      = '报价细节';
 $lang['estimate_select_customer']           = '客户';
 $lang['estimate_add_edit_number']           = '报价数';
@@ -1305,11 +1209,8 @@ $lang['estimate_add_edit_expirydate']       = '到期日';
 $lang['estimate_add_edit_currency']         = '货币';
 $lang['estimate_add_edit_client_note']      = '客户报告';
 $lang['estimate_add_edit_admin_note']       = '请注意';
-$lang['estimate_add_edit_new_item']         = '新的项目';
-$lang['estimate_add_edit_search_item']      = '搜索项目';
 $lang['estimates_toggle_table_tooltip']     = '查看完整表格';
 $lang['estimate_add_edit_advanced_options'] = '高级选项';
-$lang['estimate_vat']                       = 'VAT 数';
 $lang['estimate_to']                        = 'To';
 $lang['estimates_list_all']                 = 'All';
 
@@ -1331,16 +1232,10 @@ $lang['estimate_dt_table_heading_expirydate'] = '客户';
 $lang['estimate_dt_table_heading_amount']     = '金额';
 $lang['estimate_dt_table_heading_status']     = '现状';
 
-$lang['estimate_email_link_text']    = '查看报价';
 $lang['estimate_convert_to_invoice'] = '转化为发票';
-# Home
-$lang['home_unfinished_tasks']       = '未完成的任务';
 
 # Clients
-$lang['client_estimates_tab'] = '报价';
 $lang['client_payments_tab']  = '付款';
-
-
 # Estimate General
 $lang['estimate_pdf_heading']            = '报价';
 $lang['estimate_table_item_heading']     = '项目';
@@ -1362,11 +1257,6 @@ $lang['estimate_status_declined']        = '拒绝';
 $lang['estimate_status_accepted']        = '接受';
 $lang['estimate_status_expired']         = '过期';
 $lang['estimate_note']                   = '备注:';
-
-# Quick create
-$lang['qa_create_estimate'] = '创建报价';
-$lang['qa_create_lead']     = '销售机会';
-
 
 ## Clients
 $lang['clients_estimate_dt_number']             = '报价 #';
@@ -1390,7 +1280,6 @@ $lang['client_add_edit_profile']                = '简介';
 $lang['custom_field']                          = '自定义字段';
 $lang['custom_field_lowercase']                = '自定义字段';
 $lang['custom_fields']                         = '自定义字段';
-$lang['custom_fields_lowercase']               = '自定义字段';
 $lang['new_custom_field']                      = '新的自定义字段';
 $lang['custom_field_name']                     = '字段名称';
 $lang['custom_field_add_edit_type']            = '型';
@@ -1407,7 +1296,6 @@ $lang['custom_field_add_edit_disabled'] = '没有资格';
 
 # Ticket replies
 $lang['ticket_reply']           = '票的回复';
-$lang['ticket_reply_lowercase'] = '票的回复';
 
 # Admin Customizer Sidebar
 $lang['asc_custom_fields'] = '自定义字段';
@@ -1487,7 +1375,6 @@ $lang['contracts_view_all']             = '所有';
 $lang['contracts_view_exclude_trashed'] = '排除的合同';
 $lang['contract_value_tooltip']         = '添加合同. The value will be shown in your base currency.';
 $lang['contract_trash_tooltip']         = '当你将所有的合同都列出来时,如果你把合同加在垃圾桶里，不会显示在客户，不会被包含在图表中，其他的数据也不会被显示.';
-
 $lang['contract_renew_heading']               = '续订合同';
 $lang['contract_summary_heading']             = '合同概况';
 $lang['contract_summary_expired']             = '过期';
@@ -1504,17 +1391,13 @@ $lang['no_contract_renewals_history_heading'] = '合同更新历史';
 $lang['contract_renewed_by']                  = '%s 新的合同';
 $lang['contract_renewal_deleted']             = '成功删除更新';
 $lang['contract_renewal_delete_fail']         = '删除合同更新失败。联系管理员';
-
 $lang['contract_renewal_new_value'] = '新合同价格: %s';
 $lang['contract_renewal_old_value'] = '老合同价格: %s';
-
 $lang['contract_renewal_new_start_date'] = '新的开始日期: %s';
 $lang['contract_renewal_old_start_date'] = '老合同开始日期是: %s';
-
 $lang['contract_renewal_new_end_date'] = '新的结束日期: %s';
 $lang['contract_renewal_old_end_date'] = '老合同结束日期: %s';
 $lang['contract_attachment']           = '附件';
-$lang['contract_attachment_lowercase'] = '附件';
 
 # Admin Aside Menu
 $lang['als_goals_tracking']     = '目标踪迹';
@@ -1527,10 +1410,6 @@ $lang['invoice_attach_file']           = '附件';
 $lang['invoice_mark_as_sent']          = '标记为发送';
 $lang['invoice_marked_as_sent']        = '发票上注明为已发送成功';
 $lang['invoice_marked_as_sent_failed'] = '未能按发票发送';
-
-# Quick Actions
-$lang['qa_new_goal']    = '设置新的目标';
-$lang['qa_new_expense'] = '费用详情';
 
 # Goals Tracking
 $lang['goals']                                         = '目标';
@@ -1579,7 +1458,6 @@ $lang['goal_type_income_subtext']                                    = '收入�
 # Payments
 $lang['payment_transaction_id']                                      = '事务ID';
 # Settings Menu
-$lang['acs_expenses']                                                = '花费';
 $lang['acs_expense_categories']                                      = '费用类别';
 # Expenses
 $lang['expense_category']                                            = '费用类别';
@@ -1593,9 +1471,7 @@ $lang['dt_expense_description']                                      = '描述';
 $lang['expense']                                                     = '花费';
 $lang['expenses']                                                    = '花费';
 $lang['expense_lowercase']                                           = '花费';
-$lang['expense_add_edit_tax']                                        = '税额';
 $lang['expense_add_edit_customer']                                   = '客户';
-$lang['expense_add_edit_currency']                                   = '货币';
 $lang['expense_add_edit_note']                                       = '备注';
 $lang['expense_add_edit_date']                                       = '费用日期';
 $lang['expense_add_edit_amount']                                     = '总额';
@@ -1632,14 +1508,12 @@ $lang['expense_customer']                                            = '客户';
 $lang['expense_note']                                                = '注：';
 $lang['expense_date']                                                = '日期：';
 $lang['expense_ref_noe']                                             = '参考号:';
-$lang['expense_tax']                                                 = '税：';
 $lang['expense_amount']                                              = '金额：';
 $lang['expense_recurring_indicator']                                 = '反复出现的';
 $lang['expense_already_invoiced']                                    = '此费用已开具发票';
 $lang['expense_recurring_auto_create_invoice']                       = '自动创建发票';
 $lang['expense_recurring_send_custom_on_renew']                      = '费用重复发送发票到客户邮件';
 $lang['expense_recurring_autocreate_invoice_tooltip']                = '如果该选项被选中，客户将自动创建，费用将被更新';
-$lang['report_expenses_full']                                        = '完整的报告';
 $lang['expenses_yearly_by_categories']                               = '按类别分类费用';
 $lang['total_expenses_for']                                          = '总费用'; // year
 $lang['expenses_report_for']                                         = '费用'; // year
@@ -1722,9 +1596,7 @@ $lang['shipping_country']                   = '国家';
 $lang['get_shipping_from_customer_profile'] = '从客户资料中获取运输信息';
 
 # Customer
-$lang['customer_file_from']                                    = '显示 %';
 $lang['customer_default_currency']                             = '默认的货币';
-$lang['customer_no_attachments_found']                         = '没有找到附件';
 $lang['customer_update_address_info_on_invoices']              = '更新所有的发票/报价的运费/帐单信息';
 $lang['customer_update_address_info_on_invoices_help']         = '如果您检查此字段的运费和帐单信息将被更新到所有的发票和报价。注：带有状态的发票不会受到影响';
 $lang['setup_google_api_key_customer_map']                     = '设置谷歌应用程序接口以查看客户地图';
@@ -1743,11 +1615,9 @@ $lang['customer_latitude']                                     = '纬度（谷�
 $lang['admin_auth_set_password']          = '密码';
 $lang['admin_auth_set_password_repeat']   = '重复密码';
 $lang['admin_auth_set_password_heading']  = '设置密码';
-$lang['password_set_email_subject']       = '设置新密码';
 # General
 $lang['apply']                            = '应用';
 $lang['department_calendar_id']           = '谷歌日历ID';
-$lang['kan_ban_string']                   = '看板';
 $lang['localization_default_language']    = '默认语言';
 $lang['system_default_string']            = '系统默认';
 $lang['advanced_options']                 = '高级选项';
@@ -1759,8 +1629,6 @@ $lang['expense_list_unbilled']            = '未开票';
 $lang['lead_merge_custom_field']          = '合并作为自定义字段';
 $lang['lead_merge_custom_field_existing'] = '合并现有的数据库字段';
 $lang['lead_dont_merge_custom_field']     = '不合并';
-$lang['no_lead_notes_found']              = '没有发现线索';
-$lang['leads_view_list']                  = '列表';
 $lang['lost_leads']                       = '失去了线索';
 $lang['junk_leads']                       = '垃圾线索';
 $lang['lead_mark_as_lost']                = '标记为丢失';
@@ -1816,7 +1684,6 @@ $lang['copy_custom_fields_convert_to_customer']                      = '复制�
 $lang['copy_custom_fields_convert_to_customer_help']                 = '如果不存在下列自定义域中，客户将被自动创建，否则只能被复制从引线配置文件';
 $lang['lead_profile']                                                = '简介';
 $lang['lead_is_client']                                              = '客户';
-$lang['leads_kan_ban_notes_title']                                   = '备注';
 $lang['leads_email_integration_folder_no_encryption']                = '没有加密';
 $lang['leads_email_integration']                                     = '电子邮件集成';
 $lang['leads_email_active']                                          = '有效';
@@ -1858,20 +1725,13 @@ $lang['bulk_export_status']            = '状态';
 $lang['bulk_export_zip_payment_modes'] = '支付由';
 $lang['bulk_export_include_tag']       = '包括标签';
 $lang['bulk_export_include_tag_help']  = '原始或复制。标签将在PDF输出。标书只使用1标签';
-# Predefined replies
-$lang['no_predefined_replies_found']   = '没有预先确定的答复';
-## Clients area
-$lang['clients_contract_attachments']  = '附件';
-# Backup
-$lang['backup_type_full']              = '全部备份';
-$lang['backup_type_db']                = '数据库备份';
 
+# Backup
 $lang['auto_backup_options_updated']     = '自动备份选项更新';
 $lang['auto_backup_every']               = '每隔几天创建一个备份';
 $lang['auto_backup_enabled']             = '启用(需要Cron)';
 $lang['auto_backup']                     = '自动备份';
 $lang['backup_delete']                   = '备份删除';
-$lang['create_backup']                   = '创建备份';
 $lang['backup_success']                  = '备份是成功的';
 $lang['utility_backup']                  = '数据库备份';
 $lang['utility_create_new_backup_db']    = '创建数据库备份';
@@ -1888,7 +1748,6 @@ $lang['clients_nav_support']   = '支持';
 $lang['more']                  = '更多';
 $lang['add_item']              = '添加物品';
 $lang['goto_admin_area']       = '去管理区域';
-$lang['click_here_to_edit']    = '点击这里编辑';
 $lang['delete']                = '删除';
 $lang['welcome_top']           = '欢迎';
 
@@ -1931,16 +1790,12 @@ $lang['bulk_export_pdf_proposals'] = '标书';
 
 # Invoices
 $lang['delete_invoice'] = '删除';
-
-# Calendar
-$lang['calendar_lead_reminder'] = '机会提醒';
-
 $lang['items']      = '项目';
 $lang['support']    = '支持';
 $lang['new_ticket'] = '新的票';
 
 # Reminders
-$lang['client_edit_set_reminder_title'] = '添加用户提醒';
+$lang['calendar_lead_reminder'] = '机会提醒';
 $lang['lead_set_reminder_title']        = '添加机会的提醒';
 $lang['set_reminder_tooltip']           = '这个选择让你永远不会忘记你的客户.';
 $lang['client_reminders_tab']           = '提醒';
@@ -1985,7 +1840,6 @@ $lang['view_estimate_as_client']         = '视图报价';
 $lang['estimate_mark_as']                = '标记为 %s';
 $lang['estimate_status_changed_success'] = '报价状态改变';
 $lang['estimate_status_changed_fail']    = '未能更改报价状态';
-$lang['estimate_email_link_text']        = '视图的报价';
 
 # Proposals
 $lang['proposal_to']                            = '公司 / 名称';
@@ -2097,7 +1951,6 @@ $lang['utilities_menu_translate_name_help'] = '你也可以在这里添加翻译
 $lang['utilities_menu_icon']                = '图标';
 $lang['active_menu_items']                  = '活动菜单项';
 $lang['inactive_menu_items']                = '菜单项无效';
-$lang['utilities_menu_permission']          = '许可';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = '名称';
 $lang['utilities_menu_save']                = '保存菜单';
@@ -2105,7 +1958,6 @@ $lang['utilities_menu_save']                = '保存菜单';
 # Knowledge Base
 $lang['view_articles_list']     = '查看文章';
 $lang['view_articles_list_all'] = '所有的文章';
-$lang['als_add_article']        = '添加文章';
 $lang['als_all_articles']       = '所有的文章';
 $lang['als_kb_groups']          = '组';
 
@@ -2280,14 +2132,6 @@ $lang['leads_sort_by'] = '排序';
 $lang['leads_sort_by_datecreated'] = '创建日期';
 $lang['leads_sort_by_kanban_order'] = '订单';
 
-# Proposals
-$lang['proposal_items_name'] = '项目';
-$lang['proposal_items_description'] = '描述';
-$lang['proposal_items_qty'] = '数量';
-$lang['proposal_items_rate'] = '金额';
-$lang['proposal_items_tax'] = '税额';
-$lang['proposal_items_amount'] = '金额';
-
 # Authentication
 $lang['check_email_for_resetting_password'] = '检查您的电子邮件，为进一步指示重置您的密码';
 $lang['inactive_account'] = '无效帐户';
@@ -2295,7 +2139,6 @@ $lang['error_setting_new_password_key'] = '设置新密码时出错';
 $lang['password_reset_message'] = '您的密码已重置。现在请登录!';
 $lang['password_reset_message_fail'] = '您的密码重置错误。再试一次.';
 $lang['password_reset_key_expired'] = '密码密钥过期或无效的用户';
-$lang['admin_auth_reset_pass_repeat'] = '密码重复';
 $lang['auth_reset_pass_email_not_found'] = '未发现电子邮件';
 $lang['auth_reset_password_submit'] = '重置密码';
 
@@ -2316,9 +2159,6 @@ $lang['report_invoice_amount'] = '金额';
 $lang['report_invoice_amount_with_tax'] = '金额与税收';
 $lang['report_invoice_amount_open'] = 'amount open';
 $lang['report_invoice_status'] = '状态';
-$lang['report_invoice_total_amount_with_tax'] = '无税总金额';
-$lang['report_invoice_total_amount_without_tax'] = '总额不含税';
-$lang['report_invoice_total_taxes'] = '税额';
 
 #Version 1.0.9
 
@@ -2360,7 +2200,6 @@ $lang['dt_button_export'] = '输出';
 $lang['dt_entries'] = '记录';
 $lang['invoice_total_paid'] = '支付总额';
 $lang['invoice_amount_due'] = '到期金额';
-$lang['report_invoice_discount'] = '数目';
 
 # Calendar
 $lang['calendar_project'] = '项目';
@@ -2383,7 +2222,6 @@ $lang['seconds'] = '秒';
 $lang['minutes'] = '分钟';
 $lang['task_start_timer'] = '开始时间';
 $lang['task_stop_timer'] = '结束时间';
-$lang['task_billable_help'] = '帮助计费的';
 $lang['task_billable'] = '账单';
 $lang['task_billable_yes'] = '账单';
 $lang['task_billable_no'] = '未收费';
@@ -2435,7 +2273,6 @@ $lang['project_status_2'] = '进行中';
 $lang['project_status_3'] = '推迟';
 $lang['project_status_4'] = '完成了的';
 
-$lang['project_file_uploaded_by_customer'] = '客户';
 $lang['project_file_dateadded'] = '上传日期';
 $lang['project_file_filename'] = '文件名';
 $lang['project_file__filetype'] = '文件类型';
@@ -2603,11 +2440,6 @@ $lang['project_activity_status_updated'] = '更新项目状态';
 $lang['project_activity_visible_to_customer'] = '对客户可见';
 $lang['project_activity_project_file_removed'] = '删除项目文件';
 
-# Notifications - DEPRECATED - THESE notifications are DEPRECATED and will be removed in further released don't translate them
-$lang['not_customer_uploaded_project_file'] = '新的文件已上传';
-$lang['not_customer_created_new_project_discussion'] = '新讨论已添加';
-$lang['not_customer_commented_on_project_discussion'] = '有新评论';
-
 # Customers area
 $lang['clients_my_estimates'] = '报价';
 $lang['client_no_reply'] = '无答复';
@@ -2645,7 +2477,6 @@ $lang['estimates_total_tax'] = '总税额';
 $lang['report_invoice_total_tax'] = '总税额';
 $lang['home_tickets'] = '工单';
 $lang['home_project_activity'] = '最新的项目活动记录';
-$lang['home_project_activity_not_found'] = '没有发现项目活动记录';
 $lang['view_tracking'] = '查看项目追踪';
 $lang['view_date'] = '日期';
 $lang['view_ip'] = 'IP 地址';
@@ -2836,7 +2667,6 @@ $lang['tasks_total_comments'] = 'Total comments';
 $lang['task_finished_on_time'] = 'Finished on time?';
 $lang['task_finished_on_time_indicator'] = 'Yes';
 $lang['task_not_finished_on_time_indicator'] = 'No';
-$lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
 $lang['kb_article_slug'] = 'Slug';
@@ -2865,12 +2695,12 @@ $lang['leads_staff_report_converted'] = 'Total converted leads';
 $lang['leads_staff_report_created'] = 'Total created leads';
 $lang['leads_staff_report_lost'] = 'Total lost leads';
 $lang['client_go_to_dashboard'] = 'Back to portal';
-$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
-$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
 $lang['calendar_estimate_reminder'] = 'Estimate Reminder';
 $lang['calendar_invoice_reminder'] = 'Invoice Reminder';
-$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
 $lang['calendar_proposal_reminder'] = 'Proposal Reminder';
+$lang['show_estimate_reminders_on_calendar'] = 'Estimate Reminders';
+$lang['show_invoice_reminders_on_calendar'] = 'Invoice Reminders';
+$lang['show_proposal_reminders_on_calendar'] = 'Proposal Reminders';
 $lang['proposal_due_after']= 'Proposal Due After (days)';
 $lang['project_progress']= 'Progress';
 $lang['calculate_progress_through_tasks']= 'Calculate progress through tasks';
@@ -2974,7 +2804,6 @@ $lang['billable_expenses_by_categories'] = 'Billable expenses by categories';
 $lang['format_letter_size'] = 'A4 Landscape';
 $lang['pdf_formats'] = 'Document formats';
 $lang['swap_pdf_info'] = 'Swap Company/Customer Details (company details to right side, customer details to left side)';
-$lang['invoice_estimate_pdf_text_color'] = 'Invoice/Estimate text color';
 $lang['expenses_filter_by_categories'] = 'By Categories';
 $lang['task_copy'] = 'Copy';
 $lang['estimate_status'] = 'Status';
@@ -2985,7 +2814,6 @@ $lang['show_to_customer'] = 'Show to customer';
 $lang['hide_from_customer'] = 'Hide from customer';
 $lang['expenses_report_total'] = 'Total';
 $lang['expenses_report'] = 'Expenses report';
-$lang['expenses_report_tax'] = 'Tax';
 $lang['expenses_report_total_tax'] = 'Total Tax';
 $lang['expenses_detailed_report'] = 'Detailed Report';
 $lang['expense_not_billable'] = 'Not Billable';
@@ -3004,7 +2832,6 @@ $lang['outstanding_invoices'] = 'Outstanding Invoices';
 $lang['past_due_invoices'] = 'Past Due Invoices';
 $lang['paid_invoices'] = 'Paid Invoices';
 $lang['invoice_estimate_year'] = 'Year';
-$lang['no_results_text_search_dropdown'] = 'No Results Matched';
 $lang['task_stats_logged_hours'] = 'Logged Hours';
 $lang['leads_converted_to_client'] = 'Converted Leads';
 $lang['task_assigned_from'] = 'This task is assigned to you by %s';
@@ -3037,7 +2864,6 @@ $lang['paymentmethod_two_checkout_publishable_key'] = 'Publishable Key';
 $lang['payment_credit_card_number'] = 'Card Number';
 $lang['payment_credit_card_expiration_date'] = 'Expiration Date';
 $lang['payment_billing_email'] = 'Email';
-$lang['payment_billing_name'] = 'Billing Name';
 $lang['submit_payment'] = 'Submit Payment';
 $lang['2checkout_notice_payment'] = 'Credit card details are processed via secure token provided from 2Checkout';
 $lang['2checkout_usage_notice'] = 'SSL is required if you\'re using the 2Checkout payment API. It is required to safely call the tokenization and authorizations. The system will function without SSL, however, this will place you out of compliance, which risks deactivation of your API permissions.';
@@ -3077,11 +2903,9 @@ $lang['finance_overview'] = 'Finance Overview';
 $lang['project_custom_fields'] = 'Custom fields';
 $lang['total_tickets_related_to_project'] = 'Total tickets linked to project';
 $lang['projects_total_invoices_created'] = 'Total invoices created';
-$lang['total_invoiced_amount'] = 'Total invoices created';
 $lang['do_not_send_invoice_payment_email_template_contact'] = 'Dont send invoice payment recorded email to customer contacts';
 $lang['no_preview_available_for_file'] = 'No preview available for this file.';
 $lang['project_activity_deleted_file_discussion_comment'] = 'File discussion comment deleted';
-$lang['file_not_found'] = 'File not found';
 $lang['email_template_discussion_info'] = 'This template is used for both project discussion comments emails. (files discussions and regular discussions)';
 $lang['format_a4_portrait_size'] = 'Portrait';
 $lang['only_show_contact_tickets'] = 'In customers area only show tickets related to the logged in contact (Primary contact not applied)';
@@ -3161,12 +2985,10 @@ $lang['auto_assign_customer_admin_after_lead_convert_help'] = 'If this option is
 $lang['auto_close_tickets_disable'] = 'Set 0 to disable';
 $lang['task_checklist_item_completed_by'] = 'Completed by %s';
 $lang['staff_email_signature_help'] = 'If empty default email signature from settings will be used';
-$lang['customer_sales'] = 'Sales';
 $lang['default_task_priority'] = 'Default Priority';
 $lang['project_send_created_email'] = 'Send project created email';
 $lang['survey_send_to_lists'] = 'Survey send lists';
 $lang['survey_send_notice'] = 'Emails will be send via CRON JOB per hour.';
-$lang['view_permission_auto_checked'] = 'VIEW permission auto checked. You need to select VIEW permission if you want to use the EDIT, CREATE and DELETE properly. EDIT, CREATE, DELETE cant be used without VIEW because VIEW is global permission and the user wont be able to open the data and perform the actions.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'Show invoice payments (transactions) on PDF';
@@ -3188,7 +3010,6 @@ $lang['task_status_4'] = 'In Progress';
 $lang['task_status_5'] = 'Complete';
 $lang['task_mark_as'] = 'Mark as %s';
 $lang['task_marked_as_success'] = 'Task marked as %s successfully';
-$lang['task_drag_drop_notice'] = 'Drag & Drop is used only to easily change %s. The order wont be applied for this area.';
 $lang['search_tasks'] = 'Search Tasks';
 $lang['tasks_kanban_limit'] = 'Limit tasks kan ban rows per status';
 $lang['show_on_invoice_on_pdf'] = 'Show %s on Invoice PDF';
@@ -3220,7 +3041,6 @@ $lang['not_published_new_post'] = 'published new post';
 $lang['expense_name'] = 'Name';
 $lang['expense_name_help'] = 'For personal usage';
 $lang['adjustments'] = 'Adjustments';
-$lang['tax_breakdown'] = 'Tax Breakdown';
 $lang['payments_received'] = 'Payments Received';
 $lang['not_lead_activity_created_proposal'] = 'Created new proposal - %s';
 $lang['lead_title'] = 'Position';
@@ -3435,7 +3255,6 @@ $lang['new_task_auto_assign_current_member'] = 'Auto assign task creator when ne
 $lang['new_task_auto_assign_current_member_help'] = 'Not applied if task is linked to project and the creator is not project member';
 $lang['copy_project_tasks_status'] = 'Tasks Status';
 $lang['tasks_summary'] = 'Tasks Summary';
-$lang['show_gantt_by'] = 'Show Gantt View by';
 $lang['vault'] = 'Vault';
 $lang['new_vault_entry'] = 'New Vault Entry';
 $lang['server_address'] = 'Server Address';
@@ -3599,3 +3418,28 @@ $lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Descript
 # Version 1.9.3
 $lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
 $lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+
+# Version 1.9.4
+$lang['default_task_status'] = 'Default status when new task is created';
+$lang['custom_field_pdf_html_help'] = 'Make sure you check ' . $lang['custom_field_show_on_client_portal'] . ' field if you want the custom fields to be visible to customers area and when customer download PDF or receive PDF via email.';
+$lang['auto'] = 'Auto';
+$lang['email_queue'] = 'Email Queue';
+$lang['email_queue_enabled'] = 'Enable Email Queue';
+$lang['email_queue_skip_attachments'] = 'Do not add emails with attachments in the queue.';
+$lang['disable'] = 'Disable';
+$lang['enable'] = 'Enable';
+$lang['auto_dismiss_desktop_notifications_after'] = 'Auto Dismiss Desktop Notifications After X Seconds (0 to disable)';
+$lang['proposal_info_format'] = 'Proposal Info Format (PDF and HTML)';
+$lang['hide_tasks_on_main_tasks_table'] = 'Hide project tasks on main tasks table (admin area)';
+$lang['ticket_replies_order'] = 'Ticket Replies Order';
+$lang['ticket_replies_order_notice'] = 'The initial ticket message will be always shown as first.';
+$lang['invoice_cancelled_email_disabled'] = 'Invoice is cancelled. Unmark as cancelled to enable email to client';
+$lang['email_notifications'] = 'Email Notifications';
+$lang['invoice_activity_record_payment_email_to_customer'] = 'Payment recorded, email sent to: %s';
+$lang['exclude_inactive'] = 'Exclude Inactive';
+$lang['disable_all'] = 'Disable All';
+$lang['enable_all'] = 'Enable All';
+$lang['reccuring_invoice_option_gen_and_send'] = 'Generate and Autosend the renewed invoice to the customer';
+$lang['reccuring_invoice_option_gen_unpaid'] = 'Generate a Unpaid Invoice';
+$lang['reccuring_invoice_option_gen_draft'] = 'Generate a Draft Invoice';
+$lang['event_created_by'] = 'This event is created by %s';

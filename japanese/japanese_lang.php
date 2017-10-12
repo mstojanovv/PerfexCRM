@@ -37,7 +37,6 @@ $lang['invoice_table_amount_heading']          = '総量';
 $lang['invoice_subtotal']                      = '小計';
 $lang['invoice_adjustment']                    = '調整';
 $lang['invoice_total']                         = '合計金額';
-$lang['invoice_vat']                           = 'VAT数';
 $lang['invoice_bill_to']                       = '請求先';
 $lang['invoice_data_date']                     = '請求先住所:';
 $lang['invoice_data_duedate']                  = '期日:';
@@ -68,7 +67,6 @@ $lang['client']                                = '顧客';
 $lang['new_client']                            = '新しい顧客';
 $lang['client_lowercase']                      = '顧客';
 $lang['client_delete_tooltip']                 = '全ての顧客情報は消去されます。契約、チケット、注意。 NB:インボイスが検索された際には、顧客は削除されません。このインボイス番号を確保するためには、こちらのインボイスを他の顧客にあてがう必要があります。';
-$lang['customer_delete_invoices_warning']      = 'こちらの顧客はアカウントにインボイスがあります。こちらの顧客を削除する事は出来ません。将来的に全てのインボイスを他の顧客に変更し、削除して下さい。';
 $lang['client_firstname']                      = '名';
 $lang['client_lastname']                       = '姓';
 $lang['client_email']                          = 'メール';
@@ -86,20 +84,8 @@ $lang['client_invoices_tab']                   = '請求書';
 $lang['contracts_invoices_tab']                = '契約';
 $lang['contracts_tickets_tab']                 = 'チケット';
 $lang['contracts_notes_tab']                   = '注釈';
-$lang['client_invoice_number_table_heading']   = '請求書 #';
-$lang['client_invoice_date_table_heading']     = '日付';
-$lang['client_invoice_due_date_table_heading'] = '期日';
-$lang['client_string_table_heading']           = '顧客';
-$lang['client_amount_table_heading']           = '総量';
-$lang['client_status_table_heading']           = 'ステータス';
 $lang['note_description']                      = '記述注意';
-
-$lang['client_string_contracts_table_heading']      = '顧客';
-$lang['client_start_date_contracts_table_heading']  = '開始日';
-$lang['client_end_date_contracts_table_heading']    = '終了日';
-$lang['client_description_contracts_table_heading'] = '記述';
 $lang['client_do_not_send_welcome_email']           = 'ウエルカムメールを送らないこと';
-
 $lang['clients_notes_table_description_heading'] = '記述';
 $lang['clients_notes_table_addedfrom_heading']   = 'ここから追加';
 $lang['clients_notes_table_dateadded_heading']   = '日付追加';
@@ -178,7 +164,6 @@ $lang['home_latest_todos']                                  = '最終やるべ�
 $lang['home_no_latest_todos']                               = 'やるべき事は見つかりません';
 $lang['home_latest_finished_todos']                         = '最新のやり終えた\’sすべき事';
 $lang['home_no_finished_todos_found']                       = 'やり終えた事は見つかりません';
-$lang['home_todo_heading']                                  = 'すべき項目';
 $lang['home_tickets_awaiting_reply_by_department']          = 'チケット待ちを部場が返事をする';
 $lang['home_tickets_awaiting_reply_by_status']              = 'チケット待ちをステータスにより返事をする';
 $lang['home_this_week_events']                              = '今週のイベント';
@@ -217,19 +202,11 @@ $lang['invoice_item_lowercase']                             = '請求書のア�
 
 $lang['invoice_items_list_description'] = '種類';
 $lang['invoice_items_list_rate']        = '価格';
-$lang['invoice_items_list_tax']         = '税金';
-
 $lang['invoice_item_add_edit_description'] = '種類';
 $lang['invoice_item_add_edit_rate']        = '価格';
-$lang['invoice_item_add_edit_tax']         = '税金';
-$lang['invoice_item_add_edit_tax_select']  = '税金を選択する';
-
 $lang['invoice_item_edit_heading'] = 'アイテムを編集する';
 $lang['invoice_item_add_heading']  = '新しいアイテムを追加する';
-
 # Invoices
-
-
 $lang['invoices']                       = '請求書';
 $lang['invoice']                        = '請求書';
 $lang['invoice_lowercase']              = '請求書';
@@ -253,7 +230,6 @@ $lang['invoice_add_edit_currency']    = '通貨';
 $lang['invoice_add_edit_client_note'] = 'クライアント注釈';
 $lang['invoice_add_edit_admin_note']  = '管理上の注釈';
 
-$lang['invoice_add_edit_search_item']  = 'アイテムを捜索する';
 $lang['invoices_toggle_table_tooltip'] = 'Toggle Table';
 
 $lang['edit_invoice_tooltip']                   = '請求書の編集';
@@ -282,7 +258,6 @@ $lang['record_payment_leave_note']               = '注釈を残す';
 $lang['invoice_payments_received']               = '支払を受取りました';
 $lang['invoice_record_payment_note_placeholder'] = '管理上の注釈';
 $lang['no_payments_found']                       = 'こちらの請求書の支払いは見つかりません';
-$lang['invoice_email_link_text']                 = '請求書を見る';
 
 # Payments
 $lang['payments']                             = '支払い';
@@ -299,8 +274,6 @@ $lang['payment_not_exists']                   = 'この支払いは存在しな�
 $lang['payment_edit_for_invoice']     = '請求書への支払い';
 $lang['payment_edit_amount_received'] = '量を受取りました';
 $lang['payment_edit_date']            = '支払日';
-$lang['payment_edit_lave_note']       = '注釈を残す';
-
 
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = '題目';
@@ -312,7 +285,6 @@ $lang['kb_article_new_article']      = '新しい記事';
 $lang['kb_article_disabled']         = '機能停止';
 $lang['kb_article_description']      = '記事説明';
 
-$lang['kb_table']                      = 'リスト';
 $lang['kb_no_articles_found']          = '知識ベース記事は見つかりません';
 $lang['kb_dt_article_name']            = '記事名';
 $lang['kb_dt_group_name']              = '団体';
@@ -343,7 +315,6 @@ $lang['mail_list_total_invalid']              = '無効なメールアドレス:
 $lang['cant_edit_mail_list']                  = 'このリストは自動的に変化するため、リストの編集はできません';
 $lang['mail_list_add_edit_name']              = 'メールリスト名';
 $lang['mail_list_add_edit_customfield']       = '税関のフィールド追加';
-$lang['mail_lists_viewing_emails']            = 'リストからのメールを表示する';
 $lang['mail_lists_view_email_email_heading']  = 'メール';
 $lang['mail_lists_view_email_date_heading']   = '日付追加';
 $lang['add_new_email_to']                     = '%s に新しいメールの追加';
@@ -396,7 +367,6 @@ $lang['ticket_priority_add_edit_name'] = ' 優先事項名';
 $lang['kb_reports']                         = '知識基点項目の報告';
 $lang['sales_reports']                      = '販売報告';
 $lang['reports_choose_kb_group']            = '団体を選択する';
-$lang['reports_sales_select_report_type']   = '報告基準を選択する';
 $lang['report_kb_yes']                      = 'はい';
 $lang['report_kb_no']                       = 'いいえ';
 $lang['report_kb_no_votes']                 = '投票は済んでおりません';
@@ -410,16 +380,10 @@ $lang['report_sales_type_customer']                    = '顧客報告';
 $lang['report_sales_base_currency_select_explanation'] = '請求書の通貨が異なるため、通貨を選択する必要があります';
 $lang['report_sales_from_date']                        = '日付から';
 $lang['report_sales_to_date']                          = '日付まで';
-
-
 $lang['report_sales_months_all_time']      = '常に';
 $lang['report_sales_months_six_months']    = '過去6ヶ月';
 $lang['report_sales_months_twelve_months'] = '過去12ヶ月';
-$lang['report_sales_months_custom']        = '税関';
 $lang['reports_sales_generated_report']    = '報告が発生する';
-
-
-
 $lang['reports_sales_dt_customers_client']                = '顧客';
 $lang['reports_sales_dt_customers_total_invoices']        = '総請求書';
 $lang['reports_sales_dt_items_customers_amount']          = '価格';
@@ -488,10 +452,7 @@ $lang['settings_general_default_staff_role_tooltip']  = '新しいスタッフ�
 $lang['settings_localization_date_format']      = '日付フォーマット';
 $lang['settings_localization_default_timezone'] = 'デフォルトタイムゾーン';
 $lang['settings_localization_default_language'] = 'デフォルト言語';
-
-
 $lang['settings_newsfeed_max_file_upload_post']    = '掲載する最大アップロードファイル数';
-$lang['settings_newsfeed_max_file_size']           = '最大ファイルサイズ (MB)';
 
 $lang['settings_reminders_contracts']         = '契約満期延滞通知';
 $lang['settings_reminders_contracts_tooltip'] = '数日以内の満期延滞警告';
@@ -546,7 +507,6 @@ $lang['leads_sources_table_name']   = '発信元名';
 $lang['leads_source_add_edit_name'] = '発信元名';
 
 $lang['lead_new_status']         = '新しいリードステータス';
-$lang['lead_statuss']            = 'リードステータス';
 $lang['lead_status']             = 'リードステータス';
 $lang['lead_status_lowercase']   = 'リードステータス';
 $lang['leads_status_table_name'] = 'ステータス名';
@@ -579,7 +539,6 @@ $lang['lead_add_edit_notes']                = '注釈';
 $lang['lead_add_edit_add_note']             = '注釈追加';
 $lang['lead_not_contacted']                 = 'このリードにはまだ連絡を取っておりません';
 $lang['lead_add_edit_contacted_this_lead']  = 'このリードには連絡を取りました';
-$lang['lead_confirmation_canban_contacted'] = 'このリードに連絡を取り合いましたか?';
 
 # Misc
 $lang['access_denied']              = 'アクセス拒否';
@@ -618,16 +577,11 @@ $lang['wd_sunday']    = '日曜日';
 $lang['als_dashboard'] = 'ダッシュボード';
 $lang['als_clients']   = '顧客';
 $lang['als_leads']     = 'リード';
-
 $lang['als_contracts'] = 'コントラクト';
-
-$lang['als_all_tickets'] = '全てのチケット';
 $lang['als_sales']       = 'セールス';
-
 $lang['als_staff'] = 'スタッフ';
 $lang['als_tasks'] = 'タスク';
 $lang['als_kb']    = '知識ベース';
-
 $lang['als_surveys']               = '調査';
 $lang['als_media']                 = 'メディア';
 $lang['als_reports']               = 'レポート';
@@ -636,12 +590,10 @@ $lang['als_reports_leads_submenu'] = 'リード';
 $lang['als_kb_articles_submenu']   = '知識ベース記事';
 $lang['als_utilities']             = 'ユーティリティー';
 $lang['als_announcements_submenu'] = '発表';
-$lang['als_mail_lists_submenu']    = 'メールリスト';
 $lang['als_calendar_submenu']      = 'カレンダー';
 $lang['als_activity_log_submenu']  = '活動記録';
 
 # Admin Customizer Sidebar
-$lang['acs_tickets']                           = 'チケット';
 $lang['acs_ticket_priority_submenu']           = 'チケット優先';
 $lang['acs_ticket_statuses_submenu']           = 'チケットステータス';
 $lang['acs_ticket_predefined_replies_submenu'] = '定義済み返答';
@@ -671,8 +623,6 @@ $lang['ticket_settings_service']                            = 'サービス';
 $lang['ticket_settings_priority']                           = '優先';
 $lang['ticket_settings_subject']                            = '題目';
 $lang['ticket_settings_assign_to']                          = 'チケットを割り当てる（デフォルトは現在のユーザーである）';
-$lang['ticket_settings_assign_to_you']                      = 'あなた';
-$lang['ticket_settings_select_client']                      = 'クライアントを選択する';
 $lang['ticket_add_body']                                    = 'チケット本体';
 $lang['ticket_add_attachments']                             = '添付書類';
 $lang['ticket_no_reply_yet']                                = '返信未受領';
@@ -711,8 +661,6 @@ $lang['ticket_status_changed_fail']               = 'チケットステータス
 $lang['ticket_staff_string']                    = 'スタッフ';
 $lang['ticket_client_string']                   = '顧客';
 $lang['ticket_posted']                          = '掲示される: %s';
-$lang['ticket_insert_predefined_reply_heading'] = '定義済返答を掲載する';
-$lang['ticket_kb_link_heading']                 = '知識ベースリンクを差し込む';
 $lang['ticket_access_by_department_denied']     = 'このチケットを利用する権利がありません。このチケットはあなたが割り当てられていない部に属します。';
 
 # Staff
@@ -853,7 +801,6 @@ $lang['task_single_assignees']              = '指名者';
 $lang['task_single_assignees_select_title'] = 'タスクを割り当てる';
 $lang['task_single_followers']              = 'フォロワー';
 $lang['task_single_followers_select_title'] = 'フォロワーを追加する';
-$lang['task_single_insert_media_link']      = 'メディアリンクを加える';
 $lang['task_single_add_new_comment']        = 'コメントを追加する';
 
 $lang['task_add_edit_subject']     = '題目';
@@ -905,9 +852,6 @@ $lang['no_unfinished_todos_found'] = 'すべき事は見つかりません';
 $lang['unfinished_todos_title']    = 'すべき事未完了';
 $lang['finished_todos_title']      = '最新のやり終えた事';
 
-# Authentication
-$lang['password_changed_email_subject']             = 'あなたのパスワードは変更されました';
-$lang['password_reset_email_subject']               = '%s にパスワードをリセットして下さい';
 # Utilities
 $lang['utility_activity_log']                       = '活動記録';
 $lang['utility_activity_log_filter_by_date']        = '日付でフィルタリング';
@@ -930,18 +874,10 @@ $lang['nav_edit_profile']           = 'プロファイル編集';
 $lang['nav_logout']                 = 'ログアウト';
 $lang['nav_no_notifications']       = '通知はありません';
 $lang['nav_view_all_notifications'] = '全ての通知を見る';
-$lang['nav_customizer_tooltip']     = 'カスタマイズセッティング';
 $lang['nav_notifications_tooltip']  = '通知を見る';
-
-## Clients
-$lang['clients_required_field'] = 'このフィールドは必須である';
 
 # Footer
 $lang['clients_copyright'] = 'コピーライト %s';
-
-# Announcements
-$lang['clients_announcement_from']  = '～から: ';
-$lang['clients_announcement_added'] = '～に追加する: ';
 
 # Contracts
 $lang['clients_contracts']               = '契約';
@@ -1006,10 +942,8 @@ $lang['clients_ticket_open_departments']            = '部';
 $lang['clients_tickets_heading']                    = 'サポートチケット';
 $lang['clients_ticket_open_service']                = 'サービス';
 $lang['clients_ticket_open_priority']               = '優先';
-$lang['clients_latest_tickets']                     = '最新のチケット';
 $lang['clients_ticket_open_body']                   = 'チケット本体';
 $lang['clients_ticket_attachments']                 = '添付書類';
-$lang['clients_ticket_posted']                      = 'ポスト済み: %s';
 $lang['clients_single_ticket_string']               = 'チケット';
 $lang['clients_single_ticket_replied']              = '返信済: %s';
 $lang['clients_single_ticket_information_heading'] = 'チケット情報';
@@ -1048,24 +982,6 @@ $lang['clients_nav_contracts'] = '契約';
 $lang['clients_nav_kb']        = '知識ベース';
 $lang['clients_nav_profile']   = 'プロファイル';
 $lang['clients_nav_logout']    = 'ログアウト';
-
-# Datatables
-$lang['clients_dt_paginate_first']    = '初め';
-$lang['clients_dt_paginate_last']     = '最後';
-$lang['clients_dt_paginate_next']     = '次';
-$lang['clients_dt_paginate_previous'] = '前';
-$lang['clients_dt_empty_table']       = '{0} 見つかりませんでした';
-$lang['clients_dt_search']            = '検索する:';
-$lang['clients_dt_zero_records']      = '適合する記録は見つかりませんでした';
-$lang['clients_dt_loading_records']   = 'ローディング中...';
-$lang['clients_dt_length_menu']       = '_MENU_ を見せる ';
-$lang['clients_dt_info_filtered']     = '(filtered from _MAX_ total {0})';
-$lang['clients_dt_info_empty']        = '0の0から0を表示する {0}';
-$lang['clients_dt_info']              = 'Showing _START_ to _END_ of _TOTAL_ {0}';
-$lang['clients_dt_empty_table']       = '{0} 見つかりません';
-$lang['clients_dt_sort_ascending']    = '短い列を上昇させる';
-$lang['clients_dt_sort_descending']   = ' 短い列を下降させる';
-
 
 # Version 1.0.1
 # Admin
@@ -1107,7 +1023,6 @@ $lang['invoices_list_recurring']                                               =
 $lang['invoices_list_made_payment_by']                                        = '%s より支払作成';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = '請求書がステータスにより支払われている場合のみ、反復請求書より新しい請求書を作成しますか?';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'もしこの分野がはいにセットされており、反復請求書がステータスより支払われていない場合、新しい請求書は作成されません。';
-$lang['send_renewed_invoice_from_recurring_to_email']                         = '新たな請求書を顧客に自動送信する';
 $lang['view_invoice_pdf_link_pay']                                            = '請求書を支払う';
 
 # Payment modes
@@ -1136,16 +1051,6 @@ $lang['settings_paymentmethod_paypal_signature'] = 'API 署名';
 $lang['settings_paymentmethod_stripe_api_secret_key']      = 'Stripe API 秘密キー';
 $lang['settings_paymentmethod_stripe_api_publishable_key'] = 'Stripe パブリッシュキー';
 $lang['settings_limit_top_search_bar_results']             = '～の結果にトップサーチバーを限定する';
-
-# Quick Actions
-$lang['qa_create_invoice']  = '請求書を作成する';
-$lang['qa_create_task']     = 'タスクを作成する';
-$lang['qa_create_client']   = '顧客を作成する';
-$lang['qa_create_contract'] = '契約を作成する';
-$lang['qa_create_kba']      = '知識ベース項目を作成する';
-$lang['qa_create_survey']   = '調査を作成する';
-$lang['qa_create_ticket']   = 'チケットを開く';
-$lang['qa_create_staff']    = 'スタッフメンバーを作成する';
 
 ## Clients
 $lang['client_phonenumber'] = '電話';
@@ -1233,7 +1138,6 @@ $lang['settings_sales_estimate_number_format']                      = '見積数
 $lang['settings_sales_estimate_number_format_year_based']           = '年基準';
 $lang['settings_sales_estimate_number_format_number_based']         = '数基準 (000001)';
 $lang['settings_delete_only_on_last_estimate']                      = '最後の請求書のみ見積りの削除を許可する';
-$lang['settings_cron_invoice_heading']                              = '請求書';
 $lang['settings_send_test_email_heading']                           = 'テストメールを送る';
 $lang['settings_send_test_email_subheading']                        = 'SMPTセッティングが正しくセットされているかを確認するためにテストメールを送る';
 $lang['settings_send_test_email_string']                            = 'メールアドレス';
@@ -1243,12 +1147,10 @@ $lang['settings_smtp_settings_subheading']                          = 'メイン
 $lang['settings_sales_heading_general']                             = '概要';
 $lang['settings_sales_heading_invoice']                             = '請求書';
 $lang['settings_sales_heading_estimates']                           = '見積書';
-$lang['settings_sales_heading_company']                             = '会社';
 $lang['settings_sales_cron_invoice_heading']                        = '請求書';
 
 # Tasks
 $lang['tasks_dt_datestart'] = '開始日';
-$lang['tasks_dt_priority']  = '優先';
 
 # Invoice General
 $lang['invoice_discount'] = 'ディスカウント';
@@ -1256,7 +1158,6 @@ $lang['invoice_discount'] = 'ディスカウント';
 # Settings
 $lang['settings_rtl_support_admin']                                   = 'RTL 管理エリア（右から左）';
 $lang['settings_rtl_support_client']                                  = 'RTL 顧客エリア（右から左）';
-$lang['acs_language_editor']                                          = '言語編集者';
 $lang['settings_estimate_auto_convert_to_invoice_on_client_accept']   = 'クライアントが受諾した場合、請求書に自動的に見積りを変更する';
 $lang['settings_exclude_estimate_from_client_area_with_draft_status'] = '顧客エリアから見積りとドラフトステータスを排除する';
 
@@ -1298,8 +1199,6 @@ $lang['create_new_estimate']                = '新しい見積書を作成する
 $lang['view_estimate']                      = '見積りを見る';
 $lang['estimate_sent_to_client_success']    = 'クライアントに見積りが正しく送られた';
 $lang['estimate_sent_to_client_fail']       = '見積りを送信中に問題が発生';
-$lang['estimate_reminder_send_problem']     = '見積りの期限超過リマインダーを送信中に問題発生';
-$lang['estimate_details']                   = '見積り詳細';
 $lang['estimate_view']                      = '見積りを見る';
 $lang['estimate_select_customer']           = '顧客';
 $lang['estimate_add_edit_number']           = '見積り数';
@@ -1308,11 +1207,8 @@ $lang['estimate_add_edit_expirydate']       = '有効期限';
 $lang['estimate_add_edit_currency']         = '通貨';
 $lang['estimate_add_edit_client_note']      = 'クライアント注釈';
 $lang['estimate_add_edit_admin_note']       = 'アドミン注釈';
-$lang['estimate_add_edit_new_item']         = '新しいアイテム';
-$lang['estimate_add_edit_search_item']      = 'アイテムを検索する';
 $lang['estimates_toggle_table_tooltip']     = 'トグルテーブル';
 $lang['estimate_add_edit_advanced_options'] = 'アドバンスオプション';
-$lang['estimate_vat']                       = 'VAT 数';
 $lang['estimate_to']                        = '請求先住所:';
 $lang['estimates_list_all']                 = '全て';
 
@@ -1334,15 +1230,10 @@ $lang['estimate_dt_table_heading_expirydate'] = '有効期限';
 $lang['estimate_dt_table_heading_amount']     = '価格';
 $lang['estimate_dt_table_heading_status']     = 'ステータス';
 
-$lang['estimate_email_link_text']    = '見積書を見る';
 $lang['estimate_convert_to_invoice'] = '請求書を変更する';
-# Home
-$lang['home_unfinished_tasks']       = '未完了タスク';
 
 # Clients
-$lang['client_estimates_tab'] = '見積書';
 $lang['client_payments_tab']  = '支払';
-
 
 # Estimate General
 $lang['estimate_pdf_heading']            = '見積書';
@@ -1366,11 +1257,6 @@ $lang['estimate_status_accepted']        = '容認された';
 $lang['estimate_status_expired']         = '期限切れ';
 $lang['estimate_note']                   = '注釈:';
 
-# Quick create
-$lang['qa_create_estimate'] = '見積りを作成する';
-$lang['qa_create_lead']     = 'リードを作成する';
-
-
 ## Clients
 $lang['clients_estimate_dt_number']             = '見積書 #';
 $lang['clients_estimate_dt_date']               = '日付';
@@ -1391,7 +1277,6 @@ $lang['client_add_edit_profile']                = 'プロファイル';
 $lang['custom_field']                          = 'カスタムフィールド';
 $lang['custom_field_lowercase']                = 'カスタムフィールド';
 $lang['custom_fields']                         = 'カスタムフィールド';
-$lang['custom_fields_lowercase']               = 'カスタムフィールド';
 $lang['new_custom_field']                      = ' 新しいカスタムフィールド';
 $lang['custom_field_name']                     = 'フィールド名';
 $lang['custom_field_add_edit_type']            = 'タイプ';
@@ -1408,7 +1293,6 @@ $lang['custom_field_add_edit_disabled'] = '無効';
 
 # Ticket replies
 $lang['ticket_reply']           = 'チケット応答';
-$lang['ticket_reply_lowercase'] = 'チケット応答';
 
 # Admin Customizer Sidebar
 $lang['asc_custom_fields'] = 'カスタムフィールド';
@@ -1504,17 +1388,13 @@ $lang['no_contract_renewals_history_heading'] = '契約更新の歴史';
 $lang['contract_renewed_by']                  = 'この契約を更新した %s';
 $lang['contract_renewal_deleted']             = '更新成功を削除する';
 $lang['contract_renewal_delete_fail']         = '契約更新の削除失敗。管理者に連絡。';
-
 $lang['contract_renewal_new_value'] = '新しい契約価値: %s';
 $lang['contract_renewal_old_value'] = '古い契約価値: %s';
-
 $lang['contract_renewal_new_start_date'] = '新しい開始日: %s';
 $lang['contract_renewal_old_start_date'] = '古い契約開始日は: %s';
-
 $lang['contract_renewal_new_end_date'] = '新しい終了日: %s';
 $lang['contract_renewal_old_end_date'] = '古い契約の終了日: %s';
 $lang['contract_attachment']           = 'アタッチメント';
-$lang['contract_attachment_lowercase'] = 'アタッチメント';
 
 # Admin Aside Menu
 $lang['als_goals_tracking']     = 'ゴールトラッキング';
@@ -1527,10 +1407,6 @@ $lang['invoice_attach_file']           = 'ファイルをアタッチする';
 $lang['invoice_mark_as_sent']          = '送信済みとマークする';
 $lang['invoice_marked_as_sent']        = '請求書は無事に送られたとマークしてある';
 $lang['invoice_marked_as_sent_failed'] = '請求書が送信済みとマーク失敗';
-
-# Quick Actions
-$lang['qa_new_goal']    = '新しい目標をセットアップする';
-$lang['qa_new_expense'] = '費用を記録する';
 
 # Goals Tracking
 $lang['goals']                                         = 'ゴール';
@@ -1579,7 +1455,6 @@ $lang['goal_type_income_subtext']                                    = '所得�
 # Payments
 $lang['payment_transaction_id']                                      = '取引 ID';
 # Settings Menu
-$lang['acs_expenses']                                                = '経費';
 $lang['acs_expense_categories']                                      = '経費カテゴリー';
 # Expeneses
 $lang['expense_category']                                            = '経費カテゴリー';
@@ -1593,9 +1468,7 @@ $lang['dt_expense_description']                                      = '説明';
 $lang['expense']                                                     = '経費';
 $lang['expenses']                                                    = '経費';
 $lang['expense_lowercase']                                           = '経費';
-$lang['expense_add_edit_tax']                                        = '税';
 $lang['expense_add_edit_customer']                                   = '顧客';
-$lang['expense_add_edit_currency']                                   = '通貨';
 $lang['expense_add_edit_note']                                       = '注釈';
 $lang['expense_add_edit_date']                                       = '経費日';
 $lang['expense_add_edit_amount']                                     = '価格';
@@ -1632,14 +1505,12 @@ $lang['expense_customer']                                            = '顧客';
 $lang['expense_note']                                                = '注釈:';
 $lang['expense_date']                                                = '日付:';
 $lang['expense_ref_noe']                                             = 'Ref #:';
-$lang['expense_tax']                                                 = '税:';
 $lang['expense_amount']                                              = '総額:';
 $lang['expense_recurring_indicator']                                 = '反復';
 $lang['expense_already_invoiced']                                    = 'この経費は既に請求済み';
 $lang['expense_recurring_auto_create_invoice']                       = '請求書自動作成';
 $lang['expense_recurring_send_custom_on_renew']                      = '請求が繰り返された場合、この請求書を顧客メールに送る';
 $lang['expense_recurring_autocreate_invoice_tooltip']                = 'このオプションが顧客への請求書を確認した場合、請求が新しく変更された場合に自動作成される。';
-$lang['report_expenses_full']                                        = '全記録';
 $lang['expenses_yearly_by_categories']                               = 'カテゴリー毎の年間経費';
 $lang['total_expenses_for']                                          = '～の総経費'; // year
 $lang['expenses_report_for']                                         = '～の経費'; // year
@@ -1721,9 +1592,7 @@ $lang['shipping_country']                   = '国';
 $lang['get_shipping_from_customer_profile'] = '送付先の詳細を顧客プロファイルから得る';
 
 # Customer
-$lang['customer_file_from']                                    = '%s から表示する';
 $lang['customer_default_currency']                             = 'デフォルト通貨';
-$lang['customer_no_attachments_found']                         = '添付は見つかりませんでした';
 $lang['customer_update_address_info_on_invoices']              = '全ての以前の請求書/見積書から発送/請求をアップデートする';
 $lang['customer_update_address_info_on_invoices_help']         = 'このフィールドの発送と請求書確認した際、情報は全ての請求書と見積書にアップデートされる. Note: Invoices with status paid wont be affected.';
 $lang['setup_google_api_key_customer_map']                     = '顧客の地図を一覧するためにGoogle APIキーをセットアップして下さい';
@@ -1742,11 +1611,9 @@ $lang['customer_latitude']                                     = '緯度 (Google
 $lang['admin_auth_set_password']          = 'パスワード';
 $lang['admin_auth_set_password_repeat']   = 'パスワードを繰り返す';
 $lang['admin_auth_set_password_heading']  = 'パスワードをセットする';
-$lang['password_set_email_subject']       = '%s に新しいパスワードをセットする';
 # General
 $lang['apply']                            = '適用する';
 $lang['department_calendar_id']           = 'Google ルカレンダー ID';
-$lang['kan_ban_string']                   = 'Kan Ban';
 $lang['localization_default_language']    = 'デフォルト言語';
 $lang['system_default_string']            = 'システムデフォルト';
 $lang['advanced_options']                 = '高度なオプション';
@@ -1758,8 +1625,6 @@ $lang['expense_list_unbilled']            = '請求されていない';
 $lang['lead_merge_custom_field']          = '顧客フィールドとして結合する';
 $lang['lead_merge_custom_field_existing'] = 'データーベースとして結合する';
 $lang['lead_dont_merge_custom_field']     = '結合させないで下さい';
-$lang['no_lead_notes_found']              = 'リードノートは見つかりません';
-$lang['leads_view_list']                  = 'リスト';
 $lang['lost_leads']                       = 'リードを失う';
 $lang['junk_leads']                       = 'ジャンクリード';
 $lang['lead_mark_as_lost']                = '無くなったとものとしてマークする';
@@ -1816,7 +1681,6 @@ $lang['copy_custom_fields_convert_to_customer']                      = '顧客�
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'もし顧客フィールドに顧客が存在しない場合、同じ名前が自動的に作成され又は価値のみがリードプロファイルに複写されます';
 $lang['lead_profile']                                                = 'プロファイル';
 $lang['lead_is_client']                                              = '顧客';
-$lang['leads_kan_ban_notes_title']                                   = '注釈';
 $lang['leads_email_integration_folder_no_encryption']                = '暗号化なし';
 $lang['leads_email_integration']                                     = 'メール統合';
 $lang['leads_email_active']                                          = 'アクティブ';
@@ -1859,19 +1723,11 @@ $lang['bulk_export_zip_payment_modes'] = '～により支払われた';
 $lang['bulk_export_include_tag']       = 'タグ付き';
 $lang['bulk_export_include_tag_help']  = 'eq. オリジナル又は複写。　タグはPDFにアウトプットされます。１つのタグのみを使用する事をお勧めします。';
 # Predefined replies
-$lang['no_predefined_replies_found']   = '事前に定義された返答は見つかっていません';
-## Clients area
-$lang['clients_contract_attachments']  = 'アタッチメント';
-# Backup
-$lang['backup_type_full']              = '全バックアップ';
-$lang['backup_type_db']                = 'データーベースバックアップ';
-
 $lang['auto_backup_options_updated']     = '自動バックアップオプションはアップデートされました';
 $lang['auto_backup_every']               = '毎 X 日にバックアップを作成する';
 $lang['auto_backup_enabled']             = '有効にする (Cron が必須)';
 $lang['auto_backup']                     = '自動バックアップ';
 $lang['backup_delete']                   = 'バックアップ削除';
-$lang['create_backup']                   = 'バックアップを作成する';
 $lang['backup_success']                  = 'バックアップの作成成功';
 $lang['utility_backup']                  = 'データーベースバックアップ';
 $lang['utility_create_new_backup_db']    = 'データーベースのバックアップを作成する';
@@ -1888,7 +1744,6 @@ $lang['clients_nav_support']   = 'サポート';
 $lang['more']                  = 'もっと多くの';
 $lang['add_item']              = 'アイテムを追加する';
 $lang['goto_admin_area']       = '管理エリアへ行く';
-$lang['click_here_to_edit']    = '編者する為にここをクリックする';
 $lang['delete']                = '%s を削除する';
 $lang['welcome_top']           = '%s をウェルカム';
 
@@ -1931,16 +1786,12 @@ $lang['bulk_export_pdf_proposals'] = '提案書';
 
 # Invoices
 $lang['delete_invoice'] = '削除する';
-
-# Calendar
-$lang['calendar_lead_reminder'] = 'リマインダーをリードする';
-
 $lang['items']      = 'アイテム';
 $lang['support']    = 'サポート';
 $lang['new_ticket'] = '新しいチケット';
 
 # Reminders
-$lang['client_edit_set_reminder_title'] = '顧客リマインダーを追加する';
+$lang['calendar_lead_reminder'] = 'リマインダーをリードする';
 $lang['lead_set_reminder_title']        = 'リードリマインダーをを追加する';
 $lang['set_reminder_tooltip']           = 'このオプションは貴方の顧客について忘れる事がありません';
 $lang['client_reminders_tab']           = 'リマインダー';
@@ -1985,7 +1836,6 @@ $lang['view_estimate_as_client']         = '顧客として見積りを表示す
 $lang['estimate_mark_as']                = '%s とマークする';
 $lang['estimate_status_changed_success'] = '見積りステータス変更';
 $lang['estimate_status_changed_fail']    = '見積りステータスの変更失敗';
-$lang['estimate_email_link_text']        = '見積りを表示する';
 
 # Proposals
 $lang['proposal_to']                            = '会社 / 名';
@@ -2098,7 +1948,6 @@ $lang['utilities_menu_translate_name_help'] = '翻訳ストリングスをここ
 $lang['utilities_menu_icon']                = 'アイコン';
 $lang['active_menu_items']                  = 'メニューアイテムをアクティブする';
 $lang['inactive_menu_items']                = 'メニューアイテムを非アクティブする';
-$lang['utilities_menu_permission']          = '許可';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = '名前';
 $lang['utilities_menu_save']                = 'メニューを保存する';
@@ -2106,7 +1955,6 @@ $lang['utilities_menu_save']                = 'メニューを保存する';
 # Knowledge Base
 $lang['view_articles_list']     = '記事を表示する';
 $lang['view_articles_list_all'] = '全ての記事';
-$lang['als_add_article']        = '記事を追加する';
 $lang['als_all_articles']       = '記事';
 $lang['als_kb_groups']          = 'グループ';
 
@@ -2281,14 +2129,6 @@ $lang['leads_sort_by'] = '並べ替える';
 $lang['leads_sort_by_datecreated'] = '日付作成';
 $lang['leads_sort_by_kanban_order'] = 'Kan Ban 順序';
 
-# Proposals
-$lang['proposal_items_name'] = 'アイテム';
-$lang['proposal_items_description'] = '記述';
-$lang['proposal_items_qty'] = '数量';
-$lang['proposal_items_rate'] = '単価';
-$lang['proposal_items_tax'] = '税';
-$lang['proposal_items_amount'] = '価格';
-
 # Authentication
 $lang['check_email_for_resetting_password'] = 'パスワードをリセットするさらなる指示のメールを確認して下さい';
 $lang['inactive_account'] = '無効なアカウント';
@@ -2296,7 +2136,6 @@ $lang['error_setting_new_password_key'] = '新しいパスワードの設定に�
 $lang['password_reset_message'] = 'あなたのパスワードはリセットされました。今ログインして下さい!';
 $lang['password_reset_message_fail'] = '新しいパスワードの設定に失敗しました。もう一度やり直して下さい。';
 $lang['password_reset_key_expired'] = 'パスワードキーは期限切れ又は無効なユーザーです';
-$lang['admin_auth_reset_pass_repeat'] = 'パスワードを繰り返えす';
 $lang['auth_reset_pass_email_not_found'] = 'メールは見つかりません';
 $lang['auth_reset_password_submit'] = 'パスワードをリセットする';
 
@@ -2317,12 +2156,8 @@ $lang['report_invoice_amount'] = '価格';
 $lang['report_invoice_amount_with_tax'] = '税を加えた額';
 $lang['report_invoice_amount_open'] = '量公開する';
 $lang['report_invoice_status'] = 'ステータス';
-$lang['report_invoice_total_amount_with_tax'] = '税を加えた総額';
-$lang['report_invoice_total_amount_without_tax'] = ' 税抜きの総額';
-$lang['report_invoice_total_taxes'] = '税';
 
 #Version 1.0.9
-
 # Home stats
 $lang['home_stats_by_project_status'] = 'プロジェクトステータスの統計';
 $lang['home_invoice_overview'] = '請求書を概観する';
@@ -2362,7 +2197,6 @@ $lang['dt_button_export'] = 'エクスポート';
 $lang['dt_entries'] = 'エントリー';
 $lang['invoice_total_paid'] = '支払総額';
 $lang['invoice_amount_due'] = '未払額';
-$lang['report_invoice_discount'] = 'ディスカウント';
 
 # Calendar
 $lang['calendar_project'] = 'プロジェクト';
@@ -2385,7 +2219,6 @@ $lang['seconds'] = '秒';
 $lang['minutes'] = '分';
 $lang['task_start_timer'] = 'タイマーを始める';
 $lang['task_stop_timer'] = 'タイマーを止める';
-$lang['task_billable_help'] = '支払請求可能なタスクを確認した場合、アイテムとして請求書作成時に表示される';
 $lang['task_billable'] = '支払請求可能な';
 $lang['task_billable_yes'] = '支払請求可能な';
 $lang['task_billable_no'] = '支払請求可能ではない';
@@ -2437,7 +2270,6 @@ $lang['project_status_2'] = '進行中';
 $lang['project_status_3'] = 'ホールド中';
 $lang['project_status_4'] = '終了しました';
 
-$lang['project_file_uploaded_by_customer'] = '顧客';
 $lang['project_file_dateadded'] = '日付はアップロードされました';
 $lang['project_file_filename'] = 'ファイル名';
 $lang['project_file__filetype'] = 'ファイルタイプ';
@@ -2605,11 +2437,6 @@ $lang['project_activity_status_updated'] = 'プロジェクトステータスを
 $lang['project_activity_visible_to_customer'] = '顧客に見える';
 $lang['project_activity_project_file_removed'] = 'プロジェクトファイルを取り外す';
 
-# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
-$lang['not_customer_uploaded_project_file'] = '新しいファイルをアップロードしました';
-$lang['not_customer_created_new_project_discussion'] = '新しいプロジェクトのディスカッションを作成しました';
-$lang['not_customer_commented_on_project_discussion'] = 'プロジェクトディスカッションの新しいコメント';
-
 # Customers area
 $lang['clients_my_estimates'] = '見積書';
 $lang['client_no_reply'] = '返信なし';
@@ -2647,7 +2474,6 @@ $lang['estimates_total_tax'] = '合計税';
 $lang['report_invoice_total_tax'] = '合計税';
 $lang['home_tickets'] = 'チケット';
 $lang['home_project_activity'] = '最新のプロジェクトアクティビティー';
-$lang['home_project_activity_not_found'] = 'プロジェクトアクティビティーは見つかっていません';
 $lang['view_tracking'] = 'トラッキングを表示する';
 $lang['view_date'] = '日付';
 $lang['view_ip'] = 'IP アドレス';
@@ -2837,7 +2663,6 @@ $lang['tasks_total_comments'] = '全体のコメント';
 $lang['task_finished_on_time'] = '時間内に終わりましたか?';
 $lang['task_finished_on_time_indicator'] = 'はい';
 $lang['task_not_finished_on_time_indicator'] = 'いいえ';
-$lang['task_filter_fetch_month_by'] = '～から拡大した月';
 $lang['filter'] = 'フィルター';
 $lang['task_filter_detailed_all_months'] = '全ての月';
 $lang['kb_article_slug'] = 'スラッグ';
@@ -2865,12 +2690,12 @@ $lang['leads_staff_report_converted'] = '転換した全てのリード';
 $lang['leads_staff_report_created'] = '作成した全てのリード';
 $lang['leads_staff_report_lost'] = '失った全てのリード';
 $lang['client_go_to_dashboard'] = 'ポータルへ戻る';
-$lang['show_estimate_reminders_on_calendar'] = '見積りのリマインダー';
-$lang['show_invoice_reminders_on_calendar'] = '請求書のリマインダー';
 $lang['calendar_estimate_reminder'] = '見積りのリマインダー';
 $lang['calendar_invoice_reminder'] = '請求書のリマインダー';
-$lang['show_proposal_reminders_on_calendar'] = '企画案のリマインダー';
 $lang['calendar_proposal_reminder'] = '企画案のリマインダー';
+$lang['show_estimate_reminders_on_calendar'] = '見積りのリマインダー';
+$lang['show_invoice_reminders_on_calendar'] = '請求書のリマインダー';
+$lang['show_proposal_reminders_on_calendar'] = '企画案のリマインダー';
 $lang['proposal_due_after']= '企画案の締切後 （日）';
 $lang['project_progress']= '進捗';
 $lang['calculate_progress_through_tasks']= 'タスクから成長を計算する';
@@ -2974,7 +2799,6 @@ $lang['billable_expenses_by_categories'] = 'カテゴリーによる請求可能
 $lang['format_letter_size'] = 'A4 ランドスケープ';
 $lang['pdf_formats'] = 'ドキュメントフォーマット';
 $lang['swap_pdf_info'] = '会社/顧客の詳細をスワップする（会社情報を右側に、顧客情報を左側に）';
-$lang['invoice_estimate_pdf_text_color'] = '請求書/見積書のテキスト色';
 $lang['expenses_filter_by_categories'] = 'カテゴリーにより';
 $lang['task_copy'] = '複写する';
 $lang['estimate_status'] = 'ステータス';
@@ -2985,7 +2809,6 @@ $lang['show_to_customer'] = '顧客を見せる';
 $lang['hide_from_customer'] = '顧客からは非表示にする';
 $lang['expenses_report_total'] = '合計金額';
 $lang['expenses_report'] = '経費レポート';
-$lang['expenses_report_tax'] = '税';
 $lang['expenses_report_total_tax'] = '合計税';
 $lang['expenses_detailed_report'] = 'レポートの詳細';
 $lang['expense_not_billable'] = '請求不可';
@@ -3004,7 +2827,6 @@ $lang['outstanding_invoices'] = '未払い負債の請求書';
 $lang['past_due_invoices'] = '期限経過請求書';
 $lang['paid_invoices'] = '支払済み請求書';
 $lang['invoice_estimate_year'] = '年';
-$lang['no_results_text_search_dropdown'] = '結果は合致しません';
 $lang['task_stats_logged_hours'] = 'ログしていた時間';
 $lang['leads_converted_to_client'] = 'リードに転換した';
 $lang['task_assigned_from'] = '%s によりあなたにこのタスクがアサインされました';
@@ -3038,7 +2860,6 @@ $lang['paymentmethod_two_checkout_publishable_key'] = 'Publishable キー';
 $lang['payment_credit_card_number'] = 'カード数';
 $lang['payment_credit_card_expiration_date'] = '有効期限';
 $lang['payment_billing_email'] = 'メール';
-$lang['payment_billing_name'] = '請求書名';
 $lang['submit_payment'] = '支払を提出する';
 $lang['2checkout_notice_payment'] = 'クレジットカードの情報は2checkoutから提供された保護されたtokenにより必要な処理が行われた';
 $lang['2checkout_usage_notice'] = 'SSLはあなたが2Checkout支払 APIを使用しているか要求しています。トークン化と承認を安全に招集する事が要求されます。システムはSSLなしでも機能しますが、あなたをコンプライアンスから外しその際にはあなたのAPI許可を解除するリスクがあります。';
@@ -3078,11 +2899,9 @@ $lang['finance_overview'] = '財政を概観する';
 $lang['project_custom_fields'] = '顧客フィールド';
 $lang['total_tickets_related_to_project'] = '全チケットをプロジェクトにリンクしました';
 $lang['projects_total_invoices_created'] = '全請求は作成されました';
-$lang['total_invoiced_amount'] = '全請求は作成されました';
 $lang['do_not_send_invoice_payment_email_template_contact'] = '顧客コンタクトに請求書支払記録メールをおくらないで下さい';
 $lang['no_preview_available_for_file'] = 'このファイルにプレビューはありません';
 $lang['project_activity_deleted_file_discussion_comment'] = 'ファイルのディスカッションコメントは削除されました';
-$lang['file_not_found'] = 'ファイルは見つかりません';
 $lang['email_template_discussion_info'] = 'このテンプレートはディスカッションコメントメール両方に使用されました。（ファイルのディスカッションと通常ディスカッション）';
 $lang['format_a4_portrait_size'] = 'ポートレイト';
 $lang['only_show_contact_tickets'] = '顧客プロファイルはログインコンタクトに基づくチケットのみを表示しています（以前のコンタクトは適応していません）';
@@ -3162,12 +2981,10 @@ $lang['auto_assign_customer_admin_after_lead_convert_help'] = 'このオプシ�
 $lang['auto_close_tickets_disable'] = '無効にするために 0 にセットします';
 $lang['task_checklist_item_completed_by'] = '%s により完了しました';
 $lang['staff_email_signature_help'] = 'このフィールドが空である場合、セッティングメニューでセットアップされたデフォルトメールシグネチャーは使用されます';
-$lang['customer_sales'] = 'セールス';
 $lang['default_task_priority'] = 'デフォルト優先';
 $lang['project_send_created_email'] = 'プロジェクト作成メールを送る';
 $lang['survey_send_to_lists'] = '調査を送るリスト';
 $lang['survey_send_notice'] = '毎時 CRON JOB としてメールは送られる';
-$lang['view_permission_auto_checked'] = 'VIEW許可は自動で確認されます。EDIT, CREATEと DELETEを適正に使用したい場合はVIEW許可を選択する必要があります。　VIEWはグローバル許可でありユーザーはデーターを開ける事ができずアクションを実行できないため、EDIT, CREATE, DELETEはVIEWなしでは使用できません。';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'PDFに請求書支払（転換）を表示する';
@@ -3189,7 +3006,6 @@ $lang['task_status_4'] = '進行中';
 $lang['task_status_5'] = '完了した';
 $lang['task_mark_as'] = '%s とマークする';
 $lang['task_marked_as_success'] = '%s とタスクをマークしました';
-$lang['task_drag_drop_notice'] = 'ドラッグとドロップは%sと簡単に変更可能の時に使用する。オーダーはこのエリアでは応じられません';
 $lang['search_tasks'] = 'タスクをサーチする';
 $lang['tasks_kanban_limit'] = 'タスクkan ban列ステータスごとを限定する';
 $lang['show_on_invoice_on_pdf'] = '請求書のPDFに %s を表示する';
@@ -3221,7 +3037,6 @@ $lang['not_published_new_post'] = '新しいポストが公開された';
 $lang['expense_name'] = '名前';
 $lang['expense_name_help'] = '個人利用用';
 $lang['adjustments'] = '調整';
-$lang['tax_breakdown'] = '税の明細';
 $lang['payments_received'] = '支払を受け取る';
 $lang['not_lead_activity_created_proposal'] = '新しい企画案を作成しました - %s';
 $lang['lead_title'] = 'ポジション';
@@ -3436,7 +3251,6 @@ $lang['new_task_auto_assign_current_member'] = 'Auto assign task creator when ne
 $lang['new_task_auto_assign_current_member_help'] = 'Not applied if task is linked to project and the creator is not project member';
 $lang['copy_project_tasks_status'] = 'Tasks Status';
 $lang['tasks_summary'] = 'Tasks Summary';
-$lang['show_gantt_by'] = 'Show Gantt View by';
 $lang['vault'] = 'Vault';
 $lang['new_vault_entry'] = 'New Vault Entry';
 $lang['server_address'] = 'Server Address';
@@ -3600,3 +3414,28 @@ $lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Descript
 # Version 1.9.3
 $lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
 $lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+
+# Version 1.9.4
+$lang['default_task_status'] = 'Default status when new task is created';
+$lang['custom_field_pdf_html_help'] = 'Make sure you check ' . $lang['custom_field_show_on_client_portal'] . ' field if you want the custom fields to be visible to customers area and when customer download PDF or receive PDF via email.';
+$lang['auto'] = 'Auto';
+$lang['email_queue'] = 'Email Queue';
+$lang['email_queue_enabled'] = 'Enable Email Queue';
+$lang['email_queue_skip_attachments'] = 'Do not add emails with attachments in the queue.';
+$lang['disable'] = 'Disable';
+$lang['enable'] = 'Enable';
+$lang['auto_dismiss_desktop_notifications_after'] = 'Auto Dismiss Desktop Notifications After X Seconds (0 to disable)';
+$lang['proposal_info_format'] = 'Proposal Info Format (PDF and HTML)';
+$lang['hide_tasks_on_main_tasks_table'] = 'Hide project tasks on main tasks table (admin area)';
+$lang['ticket_replies_order'] = 'Ticket Replies Order';
+$lang['ticket_replies_order_notice'] = 'The initial ticket message will be always shown as first.';
+$lang['invoice_cancelled_email_disabled'] = 'Invoice is cancelled. Unmark as cancelled to enable email to client';
+$lang['email_notifications'] = 'Email Notifications';
+$lang['invoice_activity_record_payment_email_to_customer'] = 'Payment recorded, email sent to: %s';
+$lang['exclude_inactive'] = 'Exclude Inactive';
+$lang['disable_all'] = 'Disable All';
+$lang['enable_all'] = 'Enable All';
+$lang['reccuring_invoice_option_gen_and_send'] = 'Generate and Autosend the renewed invoice to the customer';
+$lang['reccuring_invoice_option_gen_unpaid'] = 'Generate a Unpaid Invoice';
+$lang['reccuring_invoice_option_gen_draft'] = 'Generate a Draft Invoice';
+$lang['event_created_by'] = 'This event is created by %s';

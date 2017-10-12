@@ -26,9 +26,7 @@ $lang['invoice_status_paid']                = 'Ödendi';
 $lang['invoice_status_unpaid']              = 'Ödenmedi';
 $lang['invoice_status_overdue']             = 'Zamanı Geçti';
 $lang['invoice_status_not_paid_completely'] = 'Kısmen Ödendi';
-
 $lang['invoice_pdf_heading'] = 'FATURA';
-
 $lang['invoice_table_item_heading']            = 'Ürün';
 $lang['invoice_table_quantity_heading']        = 'Adet';
 $lang['invoice_table_rate_heading']            = 'Fiyat';
@@ -37,9 +35,6 @@ $lang['invoice_table_amount_heading']          = 'Miktar';
 $lang['invoice_subtotal']                      = 'Alt Toplam';
 $lang['invoice_adjustment']                    = 'Fiyat Ayarlama (+-)';
 $lang['invoice_total']                         = 'Toplam';
-
-
-$lang['invoice_vat']                           = 'Vergi Numarası';
 $lang['invoice_bill_to']                       = 'SAYIN:';
 $lang['invoice_data_date']                     = 'Fatura Tarihi:';
 $lang['invoice_data_duedate']                  = 'Bitiş Tarihi:';
@@ -50,7 +45,6 @@ $lang['invoice_payments_table_number_heading'] = 'Ödeme #';
 $lang['invoice_payments_table_mode_heading']   = 'Ödeme Türü';
 $lang['invoice_payments_table_date_heading']   = 'Tarih';
 $lang['invoice_payments_table_amount_heading'] = 'Miktar';
-
 
 # Announcements
 $lang['announcement']                 = 'Duyuru';
@@ -65,20 +59,11 @@ $lang['announcement_show_to_clients'] = 'Müşteriye Göster';
 $lang['announcement_show_my_name']    = 'İsmimi Göster';
 
 # Clients
-
-
-
-
 $lang['clients']                               = 'Müşteriler';
 $lang['client']                                = 'Müşteri';
 $lang['new_client']                            = 'Yeni Müşteri';
 $lang['client_lowercase']                      = 'müşteri';
-
-
-
-
 $lang['client_delete_tooltip']                 = 'Tüm müşteri verileri silinecek! Sözleşmeler, talepler ve notlar. NOT: Eğer müşteriyle ilişkili fatura varsa silinemez. Faturayı başka bir müşteriyle ilişkilendirip, Fatura Numarasının korunmasını sağlayın.';
-$lang['customer_delete_invoices_warning']      = 'Bu müşteri ile ilişkili fatura var! Bu müşteriyi silemezsiniz! Tüm faturaları başka bir müşteriyle ilişkilendirin ve tekrar silmeyi deneyin.';
 $lang['client_firstname']                      = 'Adı';
 $lang['client_lastname']                       = 'Soyadı';
 $lang['client_email']                          = 'Email';
@@ -96,28 +81,13 @@ $lang['client_invoices_tab']                   = 'Faturalar';
 $lang['contracts_invoices_tab']                = 'Sözleşmeler';
 $lang['contracts_tickets_tab']                 = 'Talepler';
 $lang['contracts_notes_tab']                   = 'Notlar';
-$lang['client_invoice_number_table_heading']   = 'Fatura No';
-$lang['client_invoice_date_table_heading']     = 'Tarih';
-$lang['client_invoice_due_date_table_heading'] = 'Son Ödeme Tarihi';
-$lang['client_string_table_heading']           = 'Müşteri';
-$lang['client_amount_table_heading']           = 'Miktar';
-$lang['client_status_table_heading']           = 'Durum';
 $lang['note_description']                      = 'Not Açıklaması';
-
-$lang['client_string_contracts_table_heading']      = 'Müşteri';
-$lang['client_start_date_contracts_table_heading']  = 'Başlangıç Tarihi';
-$lang['client_end_date_contracts_table_heading']    = 'Bitiş Tarihi';
-$lang['client_description_contracts_table_heading'] = 'Açıklama';
 $lang['client_do_not_send_welcome_email']           = 'Hoşgeldiniz emaili gönderme';
-
 $lang['clients_notes_table_description_heading'] = 'Açıklama';
 $lang['clients_notes_table_addedfrom_heading']   = 'Ekleyen';
 $lang['clients_notes_table_dateadded_heading']   = 'Eklenme Tarihi';
-
 $lang['clients_list_full_name']   = 'Adı Soyadı';
-
 $lang['clients_list_last_login']  = 'Son Girişi';
-
 
 # Contracts
 $lang['contracts']                = 'Sözleşmeler';
@@ -131,7 +101,6 @@ $lang['contract_description']     = 'Açıklama';
 $lang['contract_subject_tooltip'] = 'Konu Müşteri tarafından görüntülenebilir';
 $lang['contract_client_string']   = 'Müşteri';
 $lang['contract_attach']          = 'Belge Ekle';
-
 $lang['contract_list_client']     = 'Müşteri';
 $lang['contract_list_subject']    = 'Konu';
 $lang['contract_list_start_date'] = 'Başlangıç Tarihi';
@@ -145,24 +114,18 @@ $lang['currency_lowercase']   = 'para birimi';
 $lang['base_currency_set']    = 'Varsayılan Para Biriminiz.';
 $lang['make_base_currency']   = 'Varsayılan Para Birimi Yap';
 $lang['base_currency_string'] = 'Varsayılan Para Birimi';
-
 $lang['currency_list_name']   = 'Adı';
 $lang['currency_list_symbol'] = 'Sembolü';
-
-
 $lang['currency_add_edit_description'] = 'Para Birimi Adı';
 $lang['currency_add_edit_rate']        = 'Sembolü';
-
 $lang['currency_edit_heading'] = 'Para Birimini Düzenle';
 $lang['currency_add_heading']  = 'Yeni Para Birimi Ekle';
-
 
 # Department
 $lang['departments']          = 'Departmanlar';
 $lang['department']           = 'Departman';
 $lang['new_department']       = 'Yeni Departman';
 $lang['department_lowercase'] = 'departman';
-
 $lang['department_name']             = 'Departman Adı';
 $lang['department_email']            = 'Departman Email Adresi';
 $lang['department_hide_from_client'] = 'Müşteriden Gizlensin mi?';
@@ -176,9 +139,6 @@ $lang['email_templates_lowercase']              = 'email şablonları';
 $lang['email_template_ticket_fields_heading']   = 'Talepler';
 $lang['email_template_invoices_fields_heading'] = 'Faturalar';
 $lang['email_template_clients_fields_heading']  = 'Müşteriler';
-
-
-
 $lang['template_name']                                      = 'Şablon Adı';
 $lang['template_subject']                                   = 'Konu';
 $lang['template_fromname']                                  = 'Kimden / Adı';
@@ -190,12 +150,9 @@ $lang['available_merge_fields']                             = 'Kullanılabilen �
 # Home
 $lang['dashboard_string']                                   = 'Kontrol Paneli';
 $lang['home_latest_todos']                                  = 'Yapılacaklar Listesi';
-
-
 $lang['home_no_latest_todos']                               = 'Yapılacaklar Listesi Boş. Çalışmıyorsun galiba =)';
 $lang['home_latest_finished_todos']                         = 'Bitmiş İşler Listesi';
 $lang['home_no_finished_todos_found']                       = 'Bitmiş İşler Listesi Boş. Aferin ;)';
-$lang['home_todo_heading']                                  = 'Yapılacak İşler';
 $lang['home_tickets_awaiting_reply_by_department']          = 'Departman Bazında Yanıt Bekleyen Talepler';
 $lang['home_tickets_awaiting_reply_by_status']              = 'Talep Durumlarına Göre Dağılım';
 $lang['home_this_week_events']                              = 'Bu haftanın etkinlikleri';
@@ -206,10 +163,6 @@ $lang['home_weekly_payment_records']                        = 'Haftalık Ödeme 
 $lang['home_weekend_ticket_opening_statistics']             = 'Haftalık Talep Açılma İstatistikleri';
 # Newsfeed
 $lang['whats_on_your_mind']                                 = 'Belge ya da fikir paylaşın..';
-
-
-
-
 $lang['new_post']                                           = 'Yayınla';
 $lang['newsfeed_upload_tooltip']                            = 'İpucu:Dosyaları yüklemek için Sürükle ve Bırak';
 $lang['newsfeed_all_departments']                           = 'Tüm Bölümlere';
@@ -235,35 +188,25 @@ $lang['invoice_items']                                      = 'Ürünler / Hizme
 $lang['invoice_item']                                       = 'Ürün / Hizmet';
 $lang['new_invoice_item']                                   = 'Yeni Ürün / Hizmet';
 $lang['invoice_item_lowercase']                             = 'ürün / hizmet';
-
 $lang['invoice_items_list_description'] = 'Açıklama';
 $lang['invoice_items_list_rate']        = 'Birim Fiyatı';
-$lang['invoice_items_list_tax']         = 'Vergi';
-
 $lang['invoice_item_add_edit_description'] = 'Açıklama';
 $lang['invoice_item_add_edit_rate']        = 'Birim Fiyatı';
-$lang['invoice_item_add_edit_tax']         = 'Vergi';
-$lang['invoice_item_add_edit_tax_select']  = 'Vergi Seçin';
-
 $lang['invoice_item_edit_heading'] = 'Ürün / Hizmet Düzenle';
 $lang['invoice_item_add_heading']  = 'Yeni Ürün / Hizmet Ekle';
 
 # Invoices
-
-
 $lang['invoices']                       = 'Faturalar';
 $lang['invoice']                        = 'Fatura';
 $lang['invoice_lowercase']              = 'fatura';
 $lang['create_new_invoice']             = 'Yeni Fatura Oluştur';
 $lang['view_invoice']                   = 'Fatura Görüntüle';
-
 $lang['invoice_payment_recorded']       = 'Fatura Ödemesi Kaydedildi';
 $lang['invoice_payment_record_failed']  = 'Fatura Ödemesi Kaydedilemedi. Hata Oluştu';
 $lang['invoice_sent_to_client_success'] = 'Fatura başarılı bir şekilde Müşteriye gönderildi';
 $lang['invoice_sent_to_client_fail']    = 'Fatura gönderilirken hata oluştu.';
 $lang['invoice_reminder_send_problem']  = 'fatura zaman aşımı hatırlatıcı gönderilirken hata oluştu';
 $lang['invoice_overdue_reminder_sent']  = 'Fatura Geçmiş Hatırlatıcı Başarıyla Gönderildi';
-
 $lang['invoice_details']              = 'Fatura Detayları';
 $lang['invoice_view']                 = 'Fatura Görüntüle';
 $lang['invoice_select_customer']      = 'Müşteri';
@@ -273,14 +216,7 @@ $lang['invoice_add_edit_duedate']     = 'Son Ödeme Tarihi';
 $lang['invoice_add_edit_currency']    = 'Para Birimi';
 $lang['invoice_add_edit_client_note'] = 'Müşteri notu';
 $lang['invoice_add_edit_admin_note']  = 'Yönetici Notu';
-
-$lang['invoice_add_edit_search_item']  = 'Ürün / Hizmet Ara';
 $lang['invoices_toggle_table_tooltip'] = 'Tabloyu Genişlet';
-
-
-
-
-
 $lang['edit_invoice_tooltip']                   = 'Faturayı Düzenle';
 $lang['delete_invoice_tooltip']                 = 'Faturayı Sil. Not: Bu fatura ile ilişkili tüm ödemeler silinecek.';
 $lang['invoice_sent_to_email_tooltip']          = 'Email Gönder';
@@ -288,34 +224,24 @@ $lang['invoice_already_send_to_client_tooltip'] = 'Bu fatura gönderildi. %s';
 $lang['send_overdue_notice_tooltip']            = 'Gecikmiş Ödeme Bildirimi Gönder';
 $lang['invoice_view_activity_tooltip']          = 'Aktivite Logları';
 $lang['invoice_record_payment']                 = 'Ödeme Ekle';
-
 $lang['invoice_send_to_client_modal_heading']    = 'Müşteriye Fatura Gönder';
 $lang['invoice_send_to_client_attach_pdf']       = 'Faturayı PDF olarak ekle';
 $lang['invoice_send_to_client_preview_template'] = 'Email Şablonunu Önizle';
-
 $lang['invoice_dt_table_heading_number']  = 'Fatura No';
 $lang['invoice_dt_table_heading_date']    = 'Tarih';
 $lang['invoice_dt_table_heading_client']  = 'Müşteri';
 $lang['invoice_dt_table_heading_duedate'] = 'Son Ödeme Tarihi';
 $lang['invoice_dt_table_heading_amount']  = 'Miktar';
 $lang['invoice_dt_table_heading_status']  = 'Durum';
-
 $lang['record_payment_for_invoice']              = 'Ödeme kaydı';
 $lang['record_payment_amount_received']          = 'Ödeme Miktarı Alındı';
 $lang['record_payment_date']                     = 'Ödeme Tarihi';
 $lang['record_payment_leave_note']               = 'Not Bırak';
 $lang['invoice_payments_received']               = 'Ödeme alındı';
 $lang['invoice_record_payment_note_placeholder'] = 'Yönetici Notu';
-
-
 $lang['no_payments_found']                       = 'Bu Fatura için Ödeme Bulunamadı';
-$lang['invoice_email_link_text']                 = 'Faturayı Görüntüle';
 
 # Payments
-
-
-
-
 $lang['payments']                             = 'Ödemeler';
 $lang['payment']                              = 'Ödeme';
 $lang['payment_lowercase']                    = 'ödeme';
@@ -326,11 +252,9 @@ $lang['payments_table_date_heading']          = 'Tarih';
 $lang['payments_table_amount_heading']        = 'Miktar';
 $lang['payments_table_client_heading']        = 'Müşteri';
 $lang['payment_not_exists']                   = 'Ödeme oluşturulamadı';
-
 $lang['payment_edit_for_invoice']     = 'Fatura için Ödeme';
 $lang['payment_edit_amount_received'] = 'Miktar Alındı';
 $lang['payment_edit_date']            = 'Ödeme Tarihi';
-$lang['payment_edit_lave_note']       = 'Not Bırak';
 
 
 # Knowledge Base
@@ -342,8 +266,6 @@ $lang['kb_article_lowercase']        = 'makale';
 $lang['kb_article_new_article']      = 'Yeni Makale';
 $lang['kb_article_disabled']         = 'Devre Dışı';
 $lang['kb_article_description']      = 'Makale Açıklaması';
-
-$lang['kb_table']                      = 'Liste';
 $lang['kb_no_articles_found']          = 'Bilgi Merkezinde Makale Bulunamadı';
 $lang['kb_dt_article_name']            = 'Makale Adı';
 $lang['kb_dt_group_name']              = 'Grup';
@@ -374,7 +296,6 @@ $lang['mail_list_total_invalid']              = 'Hatalı Email Adresi: %s';
 $lang['cant_edit_mail_list']                  = 'Bu listeyi düzenleyemezsiniz! Bu liste otomatik olarak oluşturuluyor.';
 $lang['mail_list_add_edit_name']              = 'Mail Listesi Adı';
 $lang['mail_list_add_edit_customfield']       = 'Özel Alan Ekle';
-$lang['mail_lists_viewing_emails']            = 'Listedeki Email Adresleri Görüntüleniyor';
 $lang['mail_lists_view_email_email_heading']  = 'Email';
 $lang['mail_lists_view_email_date_heading']   = 'Tarih Eklendi';
 $lang['add_new_email_to']                     = '%s Listesine Yeni Email Ekle';
@@ -424,12 +345,9 @@ $lang['ticket_priority_dt_name']       = 'Talep Önceliği Adı';
 $lang['ticket_priority_add_edit_name'] = 'Öncelik Adı';
 
 # Reports
-
-
 $lang['kb_reports']                         = 'Bilgi Merkezi Makale Raporları';
 $lang['sales_reports']                      = 'Satış Raporları';
 $lang['reports_choose_kb_group']            = 'Grup Seçin';
-$lang['reports_sales_select_report_type']   = 'Rapor Türünü Seçin';
 $lang['report_kb_yes']                      = 'Evet';
 $lang['report_kb_no']                       = 'Hayır';
 $lang['report_kb_no_votes']                 = 'Henüz oylama yok';
@@ -438,21 +356,14 @@ $lang['report_leads_sources_conversions']   = 'Kaynak Dönüşümleri';
 $lang['report_leads_monthly_conversions']   = 'Aylık';
 $lang['sales_report_heading']               = 'Satış Raporu';
 $lang['report_sales_type_income']           = 'Toplam Gelir';
-
 $lang['report_sales_type_customer']                    = 'Müşteri Raporu';
 $lang['report_sales_base_currency_select_explanation'] = 'Para Birimi Seçmelisiniz! Yabancı Para Birimli Faturalarınız var!';
 $lang['report_sales_from_date']                        = 'Bu Tarihten';
 $lang['report_sales_to_date']                          = 'Bu Tarihe';
-
-
 $lang['report_sales_months_all_time']      = 'Tüm Zamanlar';
 $lang['report_sales_months_six_months']    = 'Son 6 ay';
 $lang['report_sales_months_twelve_months'] = 'Son 12 ay';
-$lang['report_sales_months_custom']        = 'Özel';
 $lang['reports_sales_generated_report']    = 'Oluşturulan Rapor';
-
-
-
 $lang['reports_sales_dt_customers_client']                = 'Müşteri';
 $lang['reports_sales_dt_customers_total_invoices']        = 'Tüm Faturalar';
 $lang['reports_sales_dt_items_customers_amount']          = 'Miktar';
@@ -488,28 +399,21 @@ $lang['settings_group_email']         = 'Email';
 $lang['settings_group_clients']       = 'Müşteriler';
 $lang['settings_group_newsfeed']      = 'Haber Gönderimleri';
 $lang['settings_group_cronjob']       = 'Cron Job';
-
-
-
-
 $lang['settings_yes']                                        = 'Evet';
 $lang['settings_no']                                         = 'Hayır';
 $lang['settings_clients_default_theme']                      = 'Varsayılan Müşteri Şablonu';
 $lang['settings_clients_allow_registration']                 = 'Müşterilerin Kayıt Olmasına İzin Ver';
 $lang['settings_clients_allow_kb_view_without_registration'] = 'Kayıt olmadan Bilgi Merkezinin görüntülenmesine izin ver';
-
 $lang['settings_cron_send_overdue_reminder']                 = 'Zamanı Geçen Faturalar için hatırlatma gönder';
 $lang['settings_cron_send_overdue_reminder_tooltip']         = 'Cron Job ile Fatura durumu gecikmiş olanları müşteriye email gönder';
 $lang['automatically_send_invoice_overdue_reminder_after']   = 'Otomatik Hatırlatıcı Gönder (Gün)';
 $lang['automatically_resend_invoice_overdue_reminder_after'] = 'Otomatik Tekrar Hatırlatıcı Gönder (Gün)';
-
 $lang['settings_email_host']      = 'SMTP Sunucu';
 $lang['settings_email_port']      = 'SMTP Portu';
 $lang['settings_email']           = 'SMTP Email';
 $lang['settings_email_password']  = 'SMTP Parolası';
 $lang['settings_email_charset']   = 'Email Karakter Seti';
 $lang['settings_email_signature'] = 'Email İmzası';
-
 $lang['settings_general_company_logo']                = 'Firma Logosu';
 $lang['settings_general_company_logo_tooltip']        = 'Önerilen Ölçüler: 150 x 34px';
 $lang['settings_general_company_remove_logo_tooltip'] = 'Firma Logosunu Kaldır';
@@ -520,23 +424,16 @@ $lang['settings_general_use_knowledgebase_tooltip']   = 'Eğer bu seçeneği se�
 $lang['settings_general_tables_limit']                = 'Tablo Sayfalama Limiti';
 $lang['settings_general_default_staff_role']          = 'Varsayılan Personel Rolü';
 $lang['settings_general_default_staff_role_tooltip']  = 'Yeni Personel eklediğinizde bu rol varsayılan olarak seçilecektir.';
-
 $lang['settings_localization_date_format']      = 'Tarih Formatı';
 $lang['settings_localization_default_timezone'] = 'Varsayılan Zaman Bölgesi';
 $lang['settings_localization_default_language'] = 'Varsayılan Dil';
-
-
 $lang['settings_newsfeed_max_file_upload_post']    = 'Bu yazıya Eklenecek Maksimum Dosya';
-$lang['settings_newsfeed_max_file_size']           = 'Maksimum Dosya Boyutu (MB)';
-
 $lang['settings_reminders_contracts']         = 'Sözleşme Bitimi Hatırlatıcısı';
 $lang['settings_reminders_contracts_tooltip'] = 'Gün içinde sona erme hatırlatma bildirimi';
-
 $lang['settings_tickets_use_services']             = 'Hizmetleri Kullan';
 $lang['settings_tickets_max_attachments']          = 'En Fazla Talep Eki';
 $lang['settings_tickets_allow_departments_access'] = 'Personelin Departmanına Atılan Taleplere Erişmesine İzin Ver ';
 $lang['settings_tickets_allowed_file_extensions']  = 'İzin Verilen Dosya Ek Uzantıları';
-
 $lang['settings_sales_general']                                    = 'Genel';
 $lang['settings_sales_general_note']                               = 'Genel Ayarlar';
 $lang['settings_sales_invoice_prefix']                             = 'Fatura Numarası Öneki';
@@ -553,7 +450,6 @@ $lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Son fatura
 $lang['settings_sales_invoice_number_format']                      = 'Fatura Numarası Formatı';
 $lang['settings_sales_invoice_number_format_year_based']           = 'Yıl Tabanlı';
 $lang['settings_sales_invoice_number_format_number_based']         = 'Numara Tabanlı (000001)';
-
 $lang['settings_sales_company_info_note']    = 'Bu bilgi Fatura ya da Proforma Ödemelerinde görüntülenecektir. Firma Bilgileri olması gereklidir.';
 $lang['settings_sales_company_name']         = 'Firma Adı';
 $lang['settings_sales_address']              = 'Adres';
@@ -568,10 +464,8 @@ $lang['leads']          = 'Fırsatlar';
 $lang['lead']           = 'Fırsat';
 $lang['lead_lowercase'] = 'fırsat';
 $lang['leads_all']      = 'Herşey';
-
 $lang['leads_canban_notes']  = 'Notlar: %s';
 $lang['leads_canban_source'] = 'Kaynak: %s';
-
 $lang['lead_new_source']            = 'Yeni Kaynak';
 $lang['lead_sources']               = 'Fırsatın Kaynağı';
 $lang['lead_source']                = 'Fırsatın Kaynağı';
@@ -579,28 +473,21 @@ $lang['lead_source_lowercase']      = 'fırsatın kaynağı';
 $lang['leads_sources_not_found']    = 'Fırsatın Kaynağı bulunamadı';
 $lang['leads_sources_table_name']   = 'Kaynak Adı';
 $lang['leads_source_add_edit_name'] = 'Kaynak Adı';
-
 $lang['lead_new_status']         = 'Yeni Fırsat Durumu';
-$lang['lead_statuss']            = 'Fırsat Durumu';
 $lang['lead_status']             = 'Fırsat Durumu';
 $lang['lead_status_lowercase']   = 'fırsat durumu';
 $lang['leads_status_table_name'] = 'Durum Adı';
-
 $lang['leads_status_add_edit_name']  = 'Durum Adı';
 $lang['leads_status_add_edit_order'] = 'Sıra';
-
 $lang['lead_statuses_not_found']      = 'Fırsatın durumu bulunamadı';
 $lang['leads_search']                 = 'Fırsatları Ara';
-
 $lang['leads_table_total'] = 'Tüm Fırsatlar: %s';
-
 $lang['leads_dt_name']         = 'Adı';
 $lang['leads_dt_email']        = 'Email Adresi';
 $lang['leads_dt_phonenumber']  = 'Telefonu';
 $lang['leads_dt_assigned']     = 'Atanan';
 $lang['leads_dt_status']       = 'Durum';
 $lang['leads_dt_last_contact'] = 'Son İletişim';
-
 $lang['lead_add_edit_name']                 = 'Adı';
 $lang['lead_add_edit_email']                = 'Email Adresi';
 $lang['lead_add_edit_phonenumber']          = 'Telefonu';
@@ -614,12 +501,9 @@ $lang['lead_add_edit_notes']                = 'Notlar';
 $lang['lead_add_edit_add_note']             = 'Not Ekle';
 $lang['lead_not_contacted']                 = 'Bu fırsatla iletişim kurmadım.';
 $lang['lead_add_edit_contacted_this_lead']  = 'Bu Fırsat ile İletişim halindeyim';
-$lang['lead_confirmation_canban_contacted'] = 'Bu Fırsat ile İletişim Halinde misin?';
 
 # Misc
 $lang['access_denied']              = 'Erişim Engellendi';
-
-
 $lang['prev']                       = 'Önceki';
 $lang['next']                       = 'Sonraki';
 
@@ -639,6 +523,7 @@ $lang['dt_info']                    = 'Gösteriliyor _START_ to _END_ of _TOTAL_
 $lang['dt_empty_table']             = 'Kayıt bulunamadı';
 $lang['dt_sort_ascending']          = 'artan sıralamayı etkinleştir';
 $lang['dt_sort_descending']         = 'azalan sıralamayı etkinleştir';
+
 # Invoice Activity Log
 $lang['user_sent_overdue_reminder'] = '%s gecikmiş fatura hatırlatıcı gönder';
 
@@ -655,16 +540,11 @@ $lang['wd_sunday']    = 'Pazar';
 $lang['als_dashboard'] = 'Kontrol Paneli';
 $lang['als_clients']   = 'Müşteriler';
 $lang['als_leads']     = 'Fırsatlar';
-
 $lang['als_contracts'] = 'Sözleşmeler';
-
-$lang['als_all_tickets'] = 'Tüm Talepler';
 $lang['als_sales']       = 'Satışlar';
-
 $lang['als_staff'] = 'Personel';
 $lang['als_tasks'] = 'Görevler';
 $lang['als_kb']    = 'Bilgi Merkezi';
-
 $lang['als_surveys']               = 'Anketler';
 $lang['als_media']                 = 'Medya';
 $lang['als_reports']               = 'Raporlar';
@@ -673,12 +553,10 @@ $lang['als_reports_leads_submenu'] = 'Fırsatlar';
 $lang['als_kb_articles_submenu']   = 'Bilgi Merkezi';
 $lang['als_utilities']             = 'Uygulamalar';
 $lang['als_announcements_submenu'] = 'Duyurular';
-$lang['als_mail_lists_submenu']    = 'Mail Listeleri';
 $lang['als_calendar_submenu']      = 'Takvim';
 $lang['als_activity_log_submenu']  = 'Aktivite Logları';
 
 # Admin Customizer Sidebar
-$lang['acs_tickets']                           = 'Talepler';
 $lang['acs_ticket_priority_submenu']           = 'Talep Önceliği';
 $lang['acs_ticket_statuses_submenu']           = 'Talep Durumları';
 $lang['acs_ticket_predefined_replies_submenu'] = 'Öntanımlı Yanıtlar';
@@ -695,12 +573,6 @@ $lang['acs_roles']                             = 'Roller';
 $lang['acs_settings']                          = 'Ayarlar';
 
 # Tickets
-
-
-
-
-
-
 $lang['new_ticket']                                         = 'Yeni Talep Oluştur';
 $lang['tickets']                                            = 'Talepler';
 $lang['ticket']                                             = 'Talep';
@@ -714,10 +586,6 @@ $lang['ticket_settings_service']                            = 'Hizmet';
 $lang['ticket_settings_priority']                           = 'Öncelik';
 $lang['ticket_settings_subject']                            = 'Konu';
 $lang['ticket_settings_assign_to']                          = 'Talebi Ata (Varsayılan mevcut kullanıcıya)';
-$lang['ticket_settings_assign_to_you']                      = 'Siz';
-$lang['ticket_settings_select_client']                      = 'Müşteri Seç';
-
-
 $lang['ticket_add_body']                                    = 'Talebin Açıklaması';
 $lang['ticket_add_attachments']                             = 'Dosyalar';
 $lang['ticket_no_reply_yet']                                = 'Henüz Yanıtlanmadı';
@@ -732,7 +600,6 @@ $lang['ticket_dt_submitter']                                = 'Müşteri';
 $lang['ticket_dt_status']                                   = 'Durum';
 $lang['ticket_dt_priority']                                 = 'Öncelik';
 $lang['ticket_dt_last_reply']                               = 'Son Yanıtlama';
-
 $lang['ticket_single_add_reply']                  = 'Yanıt Ekle';
 $lang['ticket_single_add_note']                   = 'Not Ekle';
 $lang['ticket_single_other_user_tickets']         = 'Diğer Talepler';
@@ -752,12 +619,9 @@ $lang['ticket_single_add_note']                   = 'Not Ekle';
 $lang['ticket_settings_none_assigned']            = 'Hiçbiri';
 $lang['ticket_status_changed_successfully']        = 'Talep Durumu Değişti';
 $lang['ticket_status_changed_fail']               = 'Talep Durumu Değiştirilirken Hata Oluştu';
-
 $lang['ticket_staff_string']                    = 'Ekip Üyesi';
 $lang['ticket_client_string']                   = 'Müşteri';
 $lang['ticket_posted']                          = 'Yanıtlandı: %s';
-$lang['ticket_insert_predefined_reply_heading'] = 'Ön Tanımlı Yanıt Ekle';
-$lang['ticket_kb_link_heading']                 = 'Bilgi Merkezi Makale Linki Ekle';
 $lang['ticket_access_by_department_denied']     = 'Bu talebe erişme yetkiniz yok. Bu talep atanmadığınız bir departmana ait.';
 
 # Staff
@@ -770,15 +634,12 @@ $lang['staff_old_password_incorrect']     = 'Eski Parolanız Hatalı';
 $lang['staff_password_changed']          = 'Parolanız değişti';
 $lang['staff_problem_changing_password'] = 'Parolanız değiştirilirken hata oluştu';
 $lang['staff_profile_string']            = 'Profil';
-
 $lang['staff_cant_remove_main_admin']          = 'Yöneticiyi kaldıramazsın.';
 $lang['staff_cant_remove_yourself_from_admin'] = 'Kendinden Yönetici rolünü kaldıramazsın';
-
 $lang['staff_dt_name']       = 'Adı Soyadı';
 $lang['staff_dt_email']      = 'Email Adresi';
 $lang['staff_dt_last_Login'] = 'Son Giriş';
 $lang['staff_dt_active']     = 'Aktif';
-
 $lang['staff_add_edit_firstname']             = 'Adı';
 $lang['staff_add_edit_lastname']              = 'Soyadı';
 $lang['staff_add_edit_email']                 = 'Email Adresi';
@@ -795,15 +656,12 @@ $lang['staff_add_edit_password_note']         = 'Not: Bu alanı doldurursanız, 
 $lang['staff_add_edit_password_last_changed'] = 'Parola değiştirildi';
 $lang['staff_add_edit_notes']                 = 'Notlar';
 $lang['staff_add_edit_note_description']      = 'Not Açıklaması';
-
 $lang['staff_notes_table_description_heading'] = 'Not';
 $lang['staff_notes_table_addedfrom_heading']   = 'Ekleyen';
 $lang['staff_notes_table_dateadded_heading']   = 'Eklenme';
-
 $lang['staff_admin_profile']         = 'Yönetici Profili';
 $lang['staff_profile_notifications'] = 'Bildirimler';
 $lang['staff_profile_departments']   = 'Departmanlar';
-
 $lang['staff_edit_profile_image']                     = 'Profil Fotoğrafı';
 $lang['staff_edit_profile_your_departments']          = 'Bağlı Olduğu Departmanlar';
 $lang['staff_edit_profile_change_your_password']      = 'Parolanı Değiştir';
@@ -821,10 +679,8 @@ $lang['survey_send_success_note']      = 'Tüm Anket Emailleri (%s) CRON ile gö
 $lang['survey_result']                 = 'Anket Sonuçları: %s';
 $lang['question_string']               = 'Soru';
 $lang['question_field_string']         = 'Alan';
-
 $lang['survey_list_view_tooltip']         = 'Anket Görüntüle';
 $lang['survey_list_view_results_tooltip'] = 'Sonuç Görüntüle';
-
 $lang['survey_add_edit_subject']                   = 'Anket konusu';
 $lang['survey_add_edit_email_description']         = 'Anket açıklaması (Email Açıklama)';
 $lang['survey_include_survey_link']                = 'Açıklamada anket linki yeralsın.';
@@ -842,12 +698,10 @@ $lang['survey_send_mail_list_staff']               = 'Personel';
 $lang['survey_send_mail_lists_string']             = 'Mail Listeleri';
 $lang['survey_send_mail_lists_note_logged_in']     = 'Not: Sadece giriş yapmış katılımcılara anket göndermek isterseniz bu seçeneği işaretlemeyin.';
 $lang['survey_send_string']                        = 'Gönder';
-
 $lang['survey_send_to_total']  = 'Toplam %s e-mail gönderilecek';
 $lang['survey_send_till_now']  = 'Şimdiye kadar';
 $lang['survey_send_finished']  = 'Anket gönderimi tamamlandı: %s';
 $lang['survey_added_to_queue'] = 'Bu Anket Kuyruğa eklendi %s';
-
 $lang['survey_questions_string']          = 'Sorular';
 $lang['survey_insert_field']              = 'Alan Ekle';
 $lang['survey_field_checkbox']            = 'Onay Kutusu';
@@ -857,14 +711,11 @@ $lang['survey_field_textarea']            = 'Yazı Alanı';
 $lang['survey_question_required']         = 'Gerekli';
 $lang['survey_question_only_for_preview'] = 'Sadece görünüm için';
 $lang['survey_create_first']              = 'Soru ekleyebilmek için önce Anket oluşturmalısınız.';
-
-
 $lang['survey_dt_name']               = 'Adı';
 $lang['survey_dt_total_questions']    = 'Tüm Sorular';
 $lang['survey_dt_total_participants'] = 'Tüm Katılımcılar';
 $lang['survey_dt_date_created']       = 'Oluşturma Tarihi';
 $lang['survey_dt_active']             = 'Aktif';
-
 $lang['survey_text_questions_results'] = 'Soru Sonuçları';
 $lang['survey_view_all_answers']       = 'Tüm cevapları görüntüle';
 
@@ -874,19 +725,15 @@ $lang['tasks']          = 'Görevler';
 $lang['task']           = 'Görev';
 $lang['task_lowercase'] = 'görev';
 $lang['comment_string'] = 'Yorum';
-
 $lang['task_marked_as_complete'] = 'Görev tamamlandı olarak işaretlendi';
 $lang['task_follower_removed']   = 'Görev takipçisi silindi';
 $lang['task_assignee_removed']   = 'Görev ataması silindi';
-
 $lang['task_no_assignees'] = 'Bu görev için atama yapılmadı';
 $lang['task_no_followers'] = 'Bu görevi takip eden kimse yok';
-
 $lang['task_list_all']            = 'Tümü';
 $lang['task_list_not_assigned']   = 'Atanmamış';
 $lang['task_list_duedate_passed'] = 'Bitiş Tarihi Geçmiş';
 $lang['tasks_dt_name']            = 'Adı';
-
 $lang['task_single_priority']               = 'Öncelik';
 $lang['task_single_start_date']             = 'Başlangıç Tarihi';
 $lang['task_single_due_date']               = 'Bitiş Tarihi';
@@ -898,9 +745,7 @@ $lang['task_single_assignees']              = 'Atanan Üyeler';
 $lang['task_single_assignees_select_title'] = 'İşi Ata';
 $lang['task_single_followers']              = 'Takip Edenler';
 $lang['task_single_followers_select_title'] = 'Takipçi Ekle';
-$lang['task_single_insert_media_link']      = 'Medya Linki Ekle';
 $lang['task_single_add_new_comment']        = 'Yorum Ekle';
-
 $lang['task_add_edit_subject']     = 'Konu';
 $lang['task_add_edit_priority']    = 'Öncelik';
 $lang['task_priority_low']         = 'Düşük';
@@ -918,7 +763,6 @@ $lang['tax']           = 'Vergi';
 $lang['tax_lowercase'] = 'vergi';
 $lang['tax_dt_name']   = 'Vergi Adı';
 $lang['tax_dt_rate']   = 'Oran (Yüzde)';
-
 $lang['tax_add_edit_name'] = 'Vergi Adı';
 $lang['tax_add_edit_rate'] = 'Vergi Oranı (Yüzde)';
 $lang['tax_edit_title']    = 'Vergi Düzenle';
@@ -929,7 +773,6 @@ $lang['new_ticket_status']       = 'Yeni Talep Durumu';
 $lang['ticket_statuses']         = 'Talep Durumları';
 $lang['ticket_status']           = 'Talep Durumu';
 $lang['ticket_status_lowercase'] = 'talep durumu';
-
 $lang['ticket_statuses_dt_name']      = 'Talep Durum Adı';
 $lang['no_ticket_statuses_found']     = 'Talep durumu bulunamadı';
 $lang['ticket_statuses_table_total']  = 'Toplam %s';
@@ -940,8 +783,6 @@ $lang['ticket_status_add_edit_order'] = 'Durum Sırası';
 # Todos
 $lang['new_todo']                  = 'Yeni İş';
 $lang['my_todos']                  = 'Yapılacak İşlerim';
-
-
 $lang['todo']                      = 'Yapılacak İş';
 $lang['todo_lowercase']            = 'yapılacak iş';
 $lang['todo_status_changed']       = 'Yapılacak iş durumu değişti';
@@ -952,9 +793,6 @@ $lang['no_unfinished_todos_found'] = 'Yapılacak İş Bulunamadı';
 $lang['unfinished_todos_title']    = 'Tamamlanmayan İşler';
 $lang['finished_todos_title']      = 'Tamamlanan İşler';
 
-# Authentication
-$lang['password_changed_email_subject']             = 'Parolanız Değiştirildi.';
-$lang['password_reset_email_subject']               = 'Parolanızı Sıfırlayın %s';
 # Utilities
 $lang['utility_activity_log']                       = 'Aktivite Logu';
 $lang['utility_activity_log_filter_by_date']        = 'Tarihe Göre Filtrele';
@@ -977,18 +815,10 @@ $lang['nav_edit_profile']           = 'Profili Düzenle';
 $lang['nav_logout']                 = 'Çıkış';
 $lang['nav_no_notifications']       = 'Bildirim Bulunamadı';
 $lang['nav_view_all_notifications'] = 'Tüm Bildirimleri Görüntüle';
-$lang['nav_customizer_tooltip']     = 'Ayarları Özelleştir';
 $lang['nav_notifications_tooltip']  = 'Bildirimleri Görüntüle';
-
-## Clients
-$lang['clients_required_field'] = 'Bu alan gerekli';
 
 # Footer
 $lang['clients_copyright'] = 'Tüm Hakları Saklıdır. %s';
-
-# Announcements
-$lang['clients_announcement_from']  = 'Kimden: ';
-$lang['clients_announcement_added'] = 'Eklendi: ';
 
 # Contracts
 $lang['clients_contracts']               = 'Sözleşmeler';
@@ -1002,7 +832,6 @@ $lang['clients_home_currency_select_tooltip']      = 'Para Birimi seçmelisiniz.
 
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'İndir';
-
 $lang['clients_my_invoices']        = 'Faturalarım';
 $lang['clients_invoice_dt_number']  = 'Fatura No';
 $lang['clients_invoice_dt_date']    = 'Tarih';
@@ -1025,12 +854,11 @@ $lang['clients_city']      = 'Şehir';
 $lang['clients_address']   = 'Adres';
 $lang['clients_zip']       = 'Posta Kodu';
 $lang['clients_state']     = 'İlçe';
-# Used for edit profile and register END
 
+# Used for edit profile and register END
 $lang['clients_register_password']        = 'Parola';
 $lang['clients_register_password_repeat'] = 'Parolayı Tekrarlayın';
 $lang['clients_edit_profile_update_btn']  = 'Güncelle';
-
 $lang['clients_edit_profile_change_password_heading'] = 'Parola Değiştir';
 $lang['clients_edit_profile_old_password']            = 'Eski Parola';
 $lang['clients_edit_profile_new_password']            = 'Yeni Parola';
@@ -1053,21 +881,17 @@ $lang['clients_ticket_open_departments']            = 'Bölüm';
 $lang['clients_tickets_heading']                    = 'Talepler';
 $lang['clients_ticket_open_service']                = 'Hizmet';
 $lang['clients_ticket_open_priority']               = 'Öncelik';
-$lang['clients_latest_tickets']                     = 'Son Talepler';
 $lang['clients_ticket_open_body']                   = 'Talep İçeriği';
 $lang['clients_ticket_attachments']                 = 'Dosya Ekleri';
-$lang['clients_ticket_posted']                      = 'Yayınlandı: %s';
 $lang['clients_single_ticket_string']               = 'Talep';
 $lang['clients_single_ticket_replied']              = 'Yanıtlandı: %s';
 $lang['clients_single_ticket_information_heading'] = 'Talep Bilgileri';
-
 $lang['clients_tickets_dt_number']     = 'Talep No';
 $lang['clients_tickets_dt_subject']    = 'Konu';
 $lang['clients_tickets_dt_department'] = 'Bölüm';
 $lang['clients_tickets_dt_service']    = 'Hizmet';
 $lang['clients_tickets_dt_status']     = 'Durum';
 $lang['clients_tickets_dt_last_reply'] = 'Son Cevaplama';
-
 $lang['clients_ticket_single_department']        = 'Bölüm: %s';
 $lang['clients_ticket_single_submitted']          = 'Gönderildi: %s';
 $lang['clients_ticket_single_status']            = 'Durum:';
@@ -1095,24 +919,6 @@ $lang['clients_nav_contracts'] = 'Sözleşmeler';
 $lang['clients_nav_kb']        = 'Bilgi Merkezi';
 $lang['clients_nav_profile']   = 'Profil';
 $lang['clients_nav_logout']    = 'Çıkış';
-
-# Datatables
-$lang['clients_dt_paginate_first']    = 'İlk';
-$lang['clients_dt_paginate_last']     = 'Son';
-$lang['clients_dt_paginate_next']     = 'Sonraki';
-$lang['clients_dt_paginate_previous'] = 'Önceki';
-$lang['clients_dt_empty_table']       = 'Kayıt Bulunamadı';
-$lang['clients_dt_search']            = 'Ara:';
-$lang['clients_dt_zero_records']      = 'Eşleşen sonuç bulunamadı';
-$lang['clients_dt_loading_records']   = 'Yükleniyor...';
-$lang['clients_dt_length_menu']       = 'Göster _MENU_ ';
-$lang['clients_dt_info_filtered']     = '(filtered from _MAX_ total {0})';
-$lang['clients_dt_info_empty']        = 'Showing 0 to 0 of 0 {0}';
-$lang['clients_dt_info']              = 'Showing _START_ to _END_ of _TOTAL_ {0}';
-$lang['clients_dt_empty_table']       = 'Kayıt Bulunamadı';
-$lang['clients_dt_sort_ascending']    = 'artan sıralamayı etkinleştir';
-$lang['clients_dt_sort_descending']   = 'azalan sıralamayı etkinleştir';
-
 
 # Version 1.0.1
 # Admin
@@ -1148,15 +954,12 @@ $lang['invoice_add_edit_recurring']                                           = 
 $lang['invoice_add_edit_recurring_no']                                        = 'Hayır';
 $lang['invoice_add_edit_recurring_month']                                     = 'Her %s Ay';
 $lang['invoice_add_edit_recurring_months']                                    = 'Her %s Ay';
-
-
 $lang['invoices_list_all']                                                    = 'Hepsi';
 $lang['invoices_list_not_have_payment']                                       = 'Ödeme Kaydı Olmayan Faturalar';
 $lang['invoices_list_recurring']                                               = 'Yinelenen Faturalar';
 $lang['invoices_list_made_payment_by']                                        = 'Ödeme Yöntemi: %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Ana yinelenen faturadan yalnızca, Ücretli durumdaysa yeni fatura oluşturun';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Ana yinelenen faturadan yalnızca ana faturanın durumu ödendiğinde yeni fatura oluşturun? Bu alan Hayır olarak ayarlanmışsa ve tekrar eden fatura statüsü ödendi değilse, yeni fatura oluşturulmayacaktır';
-$lang['send_renewed_invoice_from_recurring_to_email']                         = 'Yenilenen faturayı müşteriye otomatik gönder';
 $lang['view_invoice_pdf_link_pay']                                            = 'Faturayı Öde';
 
 # Payment modes
@@ -1170,7 +973,6 @@ $lang['payment_modes_dt_active']                   = 'Aktif';
 # Contracts
 $lang['contract_not_found'] = 'Sözleşme Bulunamadı. Silinmiş olabilir. Aktivite Kayıtlarını İnceleyin';
 
-
 # Settings
 $lang['setting_bar_heading']                 = 'Kurulum';
 $lang['settings_group_online_payment_modes'] = 'Ödeme Geçitleri';
@@ -1178,24 +980,12 @@ $lang['settings_paymentmethod_mode_label']   = 'Etiket';
 $lang['settings_paymentmethod_active']       = 'Aktif';
 $lang['settings_paymentmethod_currencies']   = 'Para Birimleri Virgülle Ayrılmış';
 $lang['settings_paymentmethod_testing_mode'] = 'Test Modu Aktif';
-
 $lang['settings_paymentmethod_paypal_username']  = 'Paypal API Kullanıcı Adı';
 $lang['settings_paymentmethod_paypal_password']  = 'Paypal API Şifresi';
 $lang['settings_paymentmethod_paypal_signature'] = 'API İmzası';
-
 $lang['settings_paymentmethod_stripe_api_secret_key']      = 'Stripe API Gizli Anahtarı';
 $lang['settings_paymentmethod_stripe_api_publishable_key'] = 'Stripe Yayın Anahtarı';
 $lang['settings_limit_top_search_bar_results']             = 'En Çok Arananlar Bar Sonuçlarını Limitle';
-
-# Quick Actions
-$lang['qa_create_invoice']  = 'Fatura Oluştur';
-$lang['qa_create_task']     = 'Görev Oluştur';
-$lang['qa_create_client']   = 'Müşteri Oluştur';
-$lang['qa_create_contract'] = 'Sözleşme Oluştur';
-$lang['qa_create_kba']      = 'Bilgi Merkezi Makalesi Oluştur';
-$lang['qa_create_survey']   = 'Anket Oluştur';
-$lang['qa_create_ticket']   = 'Talep Aç';
-$lang['qa_create_staff']    = 'Personel Oluştur';
 
 ## Clients
 $lang['client_phonenumber'] = 'Telefon';
@@ -1220,7 +1010,6 @@ $lang['invoice_html_payment_modes_not_selected'] = 'Lütfen Ödeme Türünü Se�
 $lang['invoice_html_amount_blank']               = 'Toplam Ödeme Boş ya Sıfır Olamaz';
 $lang['invoice_html_offline_payment']            = 'Offline Ödeme';
 $lang['invoice_html_amount']                     = 'Miktar';
-
 
 # Version 1.0.2
 # Admin
@@ -1281,22 +1070,18 @@ $lang['settings_sales_estimate_number_format']                      = 'Proforma 
 $lang['settings_sales_estimate_number_format_year_based']           = 'Yıl Tabanlı';
 $lang['settings_sales_estimate_number_format_number_based']         = 'Numara Tabanlı (000001)';
 $lang['settings_delete_only_on_last_estimate']                      = 'Sadece son faturadan itibaren silmeyi etkinleştir.';
-$lang['settings_cron_invoice_heading']                              = 'Fatura';
 $lang['settings_send_test_email_heading']                           = 'Test Emaili Gönder';
 $lang['settings_send_test_email_subheading']                        = 'SMTP Ayarlarının doğru yapılandırıldığından emin olmak için Test E-maili gönderin.';
 $lang['settings_send_test_email_string']                            = 'Email Adresi';
 $lang['settings_smtp_settings_heading']                             = 'SMTP Ayarları';
 $lang['settings_smtp_settings_subheading']                          = 'Email Ayarla';
-
 $lang['settings_sales_heading_general']                             = 'Genel';
 $lang['settings_sales_heading_invoice']                             = 'Fatura';
 $lang['settings_sales_heading_estimates']                           = 'Proformalar';
-$lang['settings_sales_heading_company']                             = 'Firma';
 $lang['settings_sales_cron_invoice_heading']                        = 'Fatura';
 
 # Tasks
 $lang['tasks_dt_datestart'] = 'Başlama Tarihi';
-$lang['tasks_dt_priority']  = 'Öncelik';
 
 # Invoice General
 $lang['invoice_discount'] = 'İndirim';
@@ -1304,7 +1089,6 @@ $lang['invoice_discount'] = 'İndirim';
 # Settings
 $lang['settings_rtl_support_admin']                                   = 'RTL Yönetici Alanı (Sağdan Sola)';
 $lang['settings_rtl_support_client']                                  = 'RTL Müşteri Alanı (Sağdan Sola)';
-$lang['acs_language_editor']                                          = 'Dil Editörü';
 $lang['settings_estimate_auto_convert_to_invoice_on_client_accept']   = 'Müşteri Proformayı onayladıktan sonra otomatik olarak Faturaya çevir.';
 $lang['settings_exclude_estimate_from_client_area_with_draft_status'] = 'Taslak durumdaki Proformaları Müşteri Alanında hariç tut.';
 
@@ -1337,7 +1121,6 @@ $lang['time_ago_months']    = '%s ay önce';
 $lang['time_ago_year']      = 'Bir yıl önce';
 $lang['time_ago_years']     = '%s yıl önce';
 
-
 # Estimates
 $lang['estimates']                          = 'Proformalar';
 $lang['estimate']                           = 'Proforma';
@@ -1346,8 +1129,6 @@ $lang['create_new_estimate']                = 'Yeni Proforma Oluştur';
 $lang['view_estimate']                      = 'Proforma Görüntüle';
 $lang['estimate_sent_to_client_success']    = 'Proforma müşteriye başarıyla gönderildi.';
 $lang['estimate_sent_to_client_fail']       = 'Proforma gönderilerken hata oluştu';
-$lang['estimate_reminder_send_problem']     = 'Proforma Zaman Aşımı hatırlatma gönderilirken hata oluştu';
-$lang['estimate_details']                   = 'Proforma Detayları';
 $lang['estimate_view']                      = 'Proforma Görüntüle';
 $lang['estimate_select_customer']           = 'Müşteri';
 $lang['estimate_add_edit_number']           = 'Proforma Numarası';
@@ -1356,41 +1137,29 @@ $lang['estimate_add_edit_expirydate']       = 'Geçerlilik Tarihi';
 $lang['estimate_add_edit_currency']         = 'Para Birimi';
 $lang['estimate_add_edit_client_note']      = 'Müşteri Notu';
 $lang['estimate_add_edit_admin_note']       = 'Yönetici Notu';
-$lang['estimate_add_edit_new_item']         = 'Yeni Ürün';
-$lang['estimate_add_edit_search_item']      = 'Ürünleri Ara';
 $lang['estimates_toggle_table_tooltip']     = 'Toggle Tablo';
 $lang['estimate_add_edit_advanced_options'] = 'Gelişmiş Seçenekler';
-$lang['estimate_vat']                       = 'Vergi Numarası';
 $lang['estimate_to']                        = 'Kime';
 $lang['estimates_list_all']                 = 'Tümü';
-
 $lang['estimate_invoiced_date']                  = 'Proforma %s tarihinde Faturalandı';
 $lang['edit_estimate_tooltip']                   = 'Proforma Düzenle';
 $lang['delete_estimate_tooltip']                 = 'Proforma Sil';
 $lang['estimate_sent_to_email_tooltip']          = 'Email Gönder';
 $lang['estimate_already_send_to_client_tooltip'] = 'Proforma %s müşterisine zaten gönderildi.';
 $lang['estimate_view_activity_tooltip']          = 'Aktivite Logları';
-
 $lang['estimate_send_to_client_modal_heading']    = 'Müşteriye Proforma Gönder';
 $lang['estimate_send_to_client_attach_pdf']       = 'Proforma PDF dosyasını ekle';
 $lang['estimate_send_to_client_preview_template'] = 'E-mail Şablonunu Görüntüle';
-
 $lang['estimate_dt_table_heading_number']     = 'Proforma #';
 $lang['estimate_dt_table_heading_date']       = 'Tarih';
 $lang['estimate_dt_table_heading_client']     = 'Müşteri';
 $lang['estimate_dt_table_heading_expirydate'] = 'Geçerlilik Tarihi';
 $lang['estimate_dt_table_heading_amount']     = 'Miktar';
 $lang['estimate_dt_table_heading_status']     = 'Durum';
-
-$lang['estimate_email_link_text']    = 'Proforma Görüntüle';
 $lang['estimate_convert_to_invoice'] = 'Faturaya Çevir';
-# Home
-$lang['home_unfinished_tasks']       = 'Tamamlanmayan Görevler';
 
 # Clients
-$lang['client_estimates_tab'] = 'Proformalar';
 $lang['client_payments_tab']  = 'Ödemeler';
-
 
 # Estimate General
 $lang['estimate_pdf_heading']            = 'PROFORMA';
@@ -1414,11 +1183,6 @@ $lang['estimate_status_accepted']        = 'Kabul Edildi';
 $lang['estimate_status_expired']         = 'Süresi Geçti';
 $lang['estimate_note']                   = 'Not:';
 
-# Quick create
-$lang['qa_create_estimate'] = 'Proforma Oluştur';
-$lang['qa_create_lead']     = 'Fırsat Oluştur';
-
-
 ## Clients
 $lang['clients_estimate_dt_number']             = 'Proforma #';
 $lang['clients_estimate_dt_date']               = 'Tarih';
@@ -1435,21 +1199,10 @@ $lang['clients_estimate_declined']              = 'Proforma reddedildi. Son tari
 $lang['clients_estimate_failed_action']         = 'Bu proforma için aksiyon alınırken hata oluştu';
 $lang['client_add_edit_profile']                = 'Profil';
 
-
-
-
-
-
-
-
-
-
-
 # Custom Fields
 $lang['custom_field']                          = 'Özel Alan';
 $lang['custom_field_lowercase']                = 'özel alan';
 $lang['custom_fields']                         = 'Özel Alanlar';
-$lang['custom_fields_lowercase']               = 'özel alanlar';
 $lang['new_custom_field']                      = 'Yeni Özel Alan';
 $lang['custom_field_name']                     = 'Alan Adı';
 $lang['custom_field_add_edit_type']            = 'Tip';
@@ -1457,7 +1210,6 @@ $lang['custom_field_add_edit_belongs_top']     = 'Alan İlişkisi';
 $lang['custom_field_add_edit_options']         = 'Seçenekler';
 $lang['custom_field_add_edit_options_tooltip'] = 'Yalnızca Seçim Tipleri için kullanın. Virgül kullanarak ayırın. (Örneğin: elma,portakal,muz)';
 $lang['custom_field_add_edit_order']           = 'Sıralama';
-
 $lang['custom_field_dt_field_to']       = 'İlişki';
 $lang['custom_field_dt_field_name']     = 'Adı';
 $lang['custom_field_dt_field_type']     = 'Tip';
@@ -1466,7 +1218,6 @@ $lang['custom_field_add_edit_disabled'] = 'Devre Dışı';
 
 # Ticket replies
 $lang['ticket_reply']           = 'Talep Yanıtla';
-$lang['ticket_reply_lowercase'] = 'talep yanıtla';
 
 # Admin Customizer Sidebar
 $lang['asc_custom_fields'] = 'Özel Alanlar';
@@ -1477,7 +1228,6 @@ $lang['contract_type']           = 'Sözleşme Türü';
 $lang['new_contract_type']       = 'Yeni Sözleşme Türü';
 $lang['contract_type_lowercase'] = 'sözleşme';
 $lang['contract_type_name']      = 'Adı';
-
 $lang['contract_types_list_name'] = 'Sözleşme Türü';
 
 # Customizer Menu
@@ -1560,17 +1310,13 @@ $lang['no_contract_renewals_history_heading'] = 'Sözleşme Yenileme Geçmişi';
 $lang['contract_renewed_by']                  = 'Bu sözleşme %s tarafından yenilendi';
 $lang['contract_renewal_deleted']             = 'Yenileme başarıyla silindi';
 $lang['contract_renewal_delete_fail']         = 'Sözleşme silinirken problem oluştu. Yönetici ile iletişime geçin.';
-
 $lang['contract_renewal_new_value'] = 'Yeni Sözleşme Değeri: %s';
 $lang['contract_renewal_old_value'] = 'Eski Sözleşme Değeri: %s';
-
 $lang['contract_renewal_new_start_date'] = 'Yeni Başlangıç Tarihi: %s';
 $lang['contract_renewal_old_start_date'] = 'Eski Sözleşme Başlangıç Tarihi: %s';
-
 $lang['contract_renewal_new_end_date'] = 'Yeni Bitiş Tarihi: %s';
 $lang['contract_renewal_old_end_date'] = 'Eski Sözleşme Bitiş Tarihi: %s';
 $lang['contract_attachment']           = 'Ek';
-$lang['contract_attachment_lowercase'] = 'ek';
 
 # Admin Aside Menu
 $lang['als_goals_tracking']     = 'Hedef Takip';
@@ -1584,15 +1330,7 @@ $lang['invoice_mark_as_sent']          = 'Gönderildi Olarak İşaretle';
 $lang['invoice_marked_as_sent']        = 'Gönderildi Olarak İşaretlendi';
 $lang['invoice_marked_as_sent_failed'] = 'HATA: Gönderildi Olarak İşaretle';
 
-# Quick Actions
-$lang['qa_new_goal']    = 'Yeni Hedef Ayarla';
-$lang['qa_new_expense'] = 'Harcama Gir';
-
 # Goals Tracking
-
-
-
-
 $lang['goals']                                         = 'Hedefler';
 $lang['goal']                                          = 'Hedef';
 $lang['goals_tracking']                                = 'Hedef İzleme';
@@ -1617,16 +1355,13 @@ $lang['goal_staff_members_notified_about_failure']     = 'Personel hata ile ilgi
 $lang['goal_notify_staff_manually']                     = 'Personeli Manuel olarak uyar';
 $lang['goal_notify_staff_notified_manually_success']    = 'Personele hedef sonuçları bildirildi';
 $lang['goal_notify_staff_notified_manually_fail']       = 'Personele Hedef Sonuçları Bildirilemedi.';
-
 $lang['goal_achieved'] = 'Ulaşıldı';
 $lang['goal_failed']   = 'Başarısız olundu';
 $lang['goal_close']    = 'Çok Yaklaştın';
-
 $lang['goal_type_total_income']                                         = 'Toplam Gelire Ulaşma';
 $lang['goal_type_convert_leads']                                        = 'X Fırsat Dönüştür';
 $lang['goal_type_increase_customers_without_leads_conversions']         = 'Müşteri Sayısını Arttır';
 $lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Olası Satış Dönüşümü Dışlandı';
-
 $lang['goal_type_increase_customers_with_leads_conversions']         = 'Müşteri Sayısını Arttır';
 $lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'Olası Satış Dönüşümleri Dahil Edildi';
 $lang['goal_type_make_contracts_by_type_calc_database']              = 'Tipe Göre Sözleşme Yapılması';
@@ -1636,46 +1371,32 @@ $lang['goal_type_make_contracts_by_type_calc_date_subtext']          = 'Sözleş
 $lang['goal_type_total_estimates_converted']                         = 'X Tahmin Dönüşümleri ';
 $lang['goal_type_total_estimates_converted_subtext']                 = 'Yalnızca faturalara dönüştürülecek olan tahminler alınır';
 $lang['goal_type_income_subtext']                                    = 'Gelir, baz döviz cinsinden hesaplanır (dönüştürülmez)';
+
 # Payments
 $lang['payment_transaction_id']                                      = 'İşlem ID';
 # Settings Menu
 
-
-$lang['acs_expenses']                                                = 'Harcamalar';
 $lang['acs_expense_categories']                                      = 'Harcama Kategorileri';
 # Expenses
 
-
 $lang['expense_category']                                            = 'Harcama Kategorisi';
 $lang['expense_category_lowercase']                                  = 'harcama kategorisi';
-
-
 $lang['new_expense']                                                 = 'Harcama Gir';
 $lang['expense_add_edit_name']                                       = 'Kategori Adı';
 $lang['expense_add_edit_description']                                = 'Kategori Açıklaması';
-
-
 $lang['expense_categories']                                          = 'Harcama Kategorileri';
 $lang['new_expense_category']                                        = 'Yeni Kategori';
 $lang['dt_expense_description']                                      = 'Açıklama';
-
-
-
-
 $lang['expense']                                                     = 'Harcama';
 $lang['expenses']                                                    = 'Harcamalar';
 $lang['expense_lowercase']                                           = 'harcama';
-$lang['expense_add_edit_tax']                                        = 'Vergi';
 $lang['expense_add_edit_customer']                                   = 'Müşteri';
-$lang['expense_add_edit_currency']                                   = 'Para Birimi';
 $lang['expense_add_edit_note']                                       = 'Not';
 $lang['expense_add_edit_date']                                       = 'Harcama Tarihi';
 $lang['expense_add_edit_amount']                                     = 'Miktar';
 $lang['expense_add_edit_billable']                                   = 'Faturalanabilir';
 $lang['expense_add_edit_attach_receipt']                             = 'Fiş / Fatura Görseli Ekle';
 $lang['expense_add_edit_reference_no']                               = 'Referans #';
-
-
 $lang['expense_receipt']                                             = 'Harcama Fiş / Fatura';
 $lang['expense_receipt_lowercase']                                   = 'harcama fiş / fatura';
 $lang['expense_dt_table_heading_category']                           = 'Kategori';
@@ -1684,14 +1405,6 @@ $lang['expense_dt_table_heading_date']                               = 'Tarih';
 $lang['expense_dt_table_heading_reference_no']                       = 'Referans #';
 $lang['expense_dt_table_heading_customer']                           = 'Müşteri';
 $lang['expense_dt_table_heading_payment_mode']                       = 'Ödeme Türü';
-
-
-
-
-
-
-
-
 $lang['expense_converted_to_invoice']                                = 'Harcama başarılı bir şekilde faturaya dönüştürüldü';
 $lang['expense_converted_to_invoice_fail']                           = 'Harcama faturaya dönüştürülürken hata oluştu. Logları inceleyin ya da tekrar deneyin.';
 $lang['expense_copy_success']                                        = 'Harcama kopyalandı';
@@ -1704,39 +1417,26 @@ $lang['expenses_list_unbilled']                                      = 'Faturala
 $lang['expenses_list_recurring']                                     = 'Yinelenen';
 $lang['expense_invoice_delete_not_allowed']                          = 'Bu harcamayı silemezsiniz! Bu harcama faturalandı.';
 $lang['expense_convert_to_invoice']                                  = 'Faturaya Dönüştür';
-
-
 $lang['expense_edit']                                                = 'Harcamayı Düzenle';
 $lang['expense_delete']                                              = 'Sil';
-
-
 $lang['expense_copy']                                                = 'Kopyala';
 $lang['expense_invoice_not_created']                                 = 'Fatura Oluşturulmadı';
-
-
 $lang['expense_billed']                                              = 'Faturalandı';
 $lang['expense_not_billed']                                          = 'Fatura Ödenmedi';
 $lang['expense_customer']                                            = 'Müşteri';
-
-
-
-
 $lang['expense_note']                                                = 'Not:';
 $lang['expense_date']                                                = 'Tarih:';
 $lang['expense_ref_noe']                                             = 'Ref #:';
-
-
-$lang['expense_tax']                                                 = 'Vergi:';
 $lang['expense_amount']                                              = 'Miktar:';
 $lang['expense_recurring_indicator']                                 = 'Yinelenen';
 $lang['expense_already_invoiced']                                    = 'Bu harcama faturalandı.';
 $lang['expense_recurring_auto_create_invoice']                       = 'Otomatik Fatura Oluştur';
 $lang['expense_recurring_send_custom_on_renew']                      = 'Masrafın tekrarlanması durumunda faturayı müşteri e-postasına gönderin';
 $lang['expense_recurring_autocreate_invoice_tooltip']                = 'Bu seçenek işaretlendiyse, masraf yenilenirse müşterinin faturası otomatik olarak oluşturulur.';
-$lang['report_expenses_full']                                        = 'Tam Rapor';
 $lang['expenses_yearly_by_categories']                               = 'Kategorilere Göre Yıllık Harcamalar';
 $lang['total_expenses_for']                                          = 'Toplam Harcamalar:'; // year
 $lang['expenses_report_for']                                         = 'Harcamalar:'; // year
+
 # Custom fields
 $lang['custom_field_required']                                       = 'Gerekli';
 $lang['custom_field_show_on_pdf']                                    = 'PDF Göster';
@@ -1748,9 +1448,9 @@ $lang['custom_field_tasks']                                          = 'Görevle
 $lang['custom_field_expenses']                                       = 'Harcamalar';
 $lang['custom_field_invoice']                                        = 'Fatura';
 $lang['custom_field_estimate']                                       = 'Proforma';
+
 # Tickets
 $lang['ticket_single_private_staff_notes']                           = 'Özel Personel Notu';
-
 
 # Business News
 $lang['business_news'] = 'İş Dünyasından Haberler';
@@ -1762,7 +1462,6 @@ $lang['nav_todo_items']               = 'Yapılacak İşler';
 $lang['clients_contracts_type']       = 'Sözleşme Türü';
 # Version 1.0.5
 # General
-
 
 $lang['no_tax']                             = 'Vergi Yok';
 $lang['numbers_not_formatted_while_editing'] = 'Giriş alanındaki oran, düzenleme / ekleme öğesi sırasında biçimlendirilmemiş ve burada biçimlendirilmeye çalışılmak üzere biçimlendirilmemiş olarak kalmalıdır.';
@@ -1789,7 +1488,6 @@ $lang['invoice_copy']              = 'Faturayı Kopyala';
 $lang['invoice_copy_success']      = 'Fatura Kopyalandı';
 $lang['invoice_copy_fail']         = 'Fatura Kopyalamada Hata';
 $lang['invoice_due_after_help']    = 'Hesaplamayı önlemek için sıfır ayarlayın';
-
 $lang['show_shipping_on_invoice'] = 'Kargolama detaylarını faturada göster';
 
 # Estimates
@@ -1802,13 +1500,11 @@ $lang['customer_profile_details'] = 'Müşteri Bilgileri';
 $lang['billing_shipping']         = 'Faturalama & Kargolama';
 $lang['billing_address']          = 'Fatura Adresi';
 $lang['shipping_address']         = 'Kargo Adresi';
-
 $lang['billing_street']  = 'Adres';
 $lang['billing_city']    = 'Şehir';
 $lang['billing_state']   = 'İlçe';
 $lang['billing_zip']     = 'Posta Kodu';
 $lang['billing_country'] = 'Ülke';
-
 $lang['shipping_street']                    = 'Adres';
 $lang['shipping_city']                      = 'Şehir';
 $lang['shipping_state']                     = 'İlçe';
@@ -1817,14 +1513,8 @@ $lang['shipping_country']                   = 'Ülke';
 $lang['get_shipping_from_customer_profile'] = 'Kargolama bilgilerini Müşteri Profilinden al';
 
 # Customer
-$lang['customer_file_from']                                    = 'Showing from %s';
 $lang['customer_default_currency']                             = 'Varsayılan Para Birimi';
-$lang['customer_no_attachments_found']                         = 'Ek Bulunamadı';
 $lang['customer_update_address_info_on_invoices']              = 'Önceki Proforma ve Faturalardaki Kargo/Fatura Bilgilerini Güncelle';
-
-
-
-
 $lang['customer_update_address_info_on_invoices_help']         = 'Eğer işaretlerseniz Tüm Fatura ve Proformalardaki bilgiler güncellenecektir. Not: Ödenmiş Faturalar etkilenmez.';
 $lang['setup_google_api_key_customer_map']                     = 'Müşteri Haritasının Görüntülenebilmesi için Google api key kurulumu zorunludur.';
 $lang['customer_attachments_file']                             = 'Dosya';
@@ -1842,11 +1532,9 @@ $lang['customer_latitude']                                     = 'Enlem (Google 
 $lang['admin_auth_set_password']          = 'Parola';
 $lang['admin_auth_set_password_repeat']   = 'Parolayı Tekrarlayın';
 $lang['admin_auth_set_password_heading']  = 'Parola Ayarla';
-$lang['password_set_email_subject']       = 'Yeni Parolayı ayarlayın %s';
 # General
 $lang['apply']                            = 'Uygula';
 $lang['department_calendar_id']           = 'Google Takvim ID';
-$lang['kan_ban_string']                   = 'Kan Ban';
 $lang['localization_default_language']    = 'Varsayılan Dil';
 $lang['system_default_string']            = 'Sistem Varsayılanı';
 $lang['advanced_options']                 = 'Gelişmiş Seçenekler';
@@ -1858,8 +1546,6 @@ $lang['expense_list_unbilled']            = 'Faturalanmadı';
 $lang['lead_merge_custom_field']          = 'Özel alan olarak birleştir';
 $lang['lead_merge_custom_field_existing'] = 'Veritabanı alanıyla birleştirme';
 $lang['lead_dont_merge_custom_field']     = 'Birleştirme';
-$lang['no_lead_notes_found']              = 'Fırsat Notu Bulunamadı';
-$lang['leads_view_list']                  = 'Liste';
 $lang['lost_leads']                       = 'Kayıp Fırsatlar';
 $lang['junk_leads']                       = 'Spam Fırsatlar';
 $lang['lead_mark_as_lost']                = 'Kayıp olarak işaretle';
@@ -1867,28 +1553,16 @@ $lang['lead_unmark_as_lost']              = 'Fırsatı Kayıp olarak işaretleme
 $lang['lead_marked_as_lost']              = 'Fırsat başarıyla Kayıp olarak işaretlendi';
 $lang['lead_unmarked_as_lost']            = 'Fırsat Kayıp olarak işaretlenmedi';
 $lang['leads_status_color']               = 'Renk';
-
 $lang['lead_mark_as_junk']     = 'Spam olarak işaretle';
 $lang['lead_unmark_as_junk']   = 'Fırsatı Spam olarak İşaretleme';
 $lang['lead_marked_as_junk']   = 'Fırsat başarıyla Spam olarak işaretlendi';
 $lang['lead_unmarked_as_junk'] = 'Fırsat Spam olarak işaretlenmedi';
-
-
-
-
-
-
-
-
-
 $lang['lead_not_found']                                                      = 'Fırsat Bulunamadı';
 $lang['lead_lost']                                                           = 'Kayıp';
 $lang['lead_junk']                                                           = 'SPAM';
 $lang['leads_not_assigned']                                                  = 'Atanmadı';
 # Contacts
 $lang['contract_not_visible_to_client']                                      = 'Müşteriden Gizle';
-
-
 $lang['contract_edit_overview']                                              = 'Sözleşme Görünümü';
 $lang['contract_attachments']                                                = 'Ekler';
 # Tasks
@@ -1899,8 +1573,6 @@ $lang['task_single_related']                                                 = '
 $lang['task_unmark_as_complete']                                             = 'Tamamlandı olarak işaretleme';
 $lang['task_unmarked_as_complete']                                           = 'Görev Tamamlandı olarak işaretlenmedi';
 $lang['task_relation']                                                       = 'İlişkili';
-
-
 $lang['task_public']                                                         = 'Genel';
 $lang['task_public_help']                                                    = 'Bu görevi herkese açık olarak ayarlarsanız, tüm personel üyeleri için görünür olacaktır. Aksi takdirde, yalnızca atanan, takipçileri, yaratıcısı veya yöneticileri olan üyeler görebilir';
 # Settings
@@ -1908,8 +1580,6 @@ $lang['settings_general_favicon']                                            = '
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Müşteri dilinde yönetici alanından müşteri PDF belgelerini çıkartın';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Bu seçenekler evet ve ex olarak ayarlanırsa. Sistem varsayılan dili ingilizce ve istemci kurulum dili fransızca pdf belgeleri istemci dilde çıktılacak';
 $lang['settings_cron_surveys']                                               = 'Anketler';
-
-
 $lang['settings_default_tax']                                                = 'Varsayılan Vergi';
 $lang['setup_calendar_by_departments']                                       = 'Departmanlara Özel Takvim Ayarla';
 $lang['settings_calendar']                                                   = 'Takvim';
@@ -1917,7 +1587,6 @@ $lang['settings_sales_invoice_due_after']                                    = '
 $lang['settings_google_api']                                                 = 'Google API Anahtarı';
 $lang['settings_gcal_main_calendar_id']                                      = 'Google Takvim IDsi';
 $lang['settings_gcal_main_calendar_id_help']                                 = 'Bu ana şirket takvimi. Bu takvimin tüm etkinlikleri gösterilecek. Departmanlara dayalı bir takvim belirtmek isterseniz, Google Takvim Kimliği bölümüne ekleyebilirsiniz..';
-
 $lang['show_on_calendar']                  = 'Takvimde Göster';
 $lang['show_invoices_on_calendar']         = 'Faturalar';
 $lang['show_estimates_on_calendar']        = 'Proformalar';
@@ -1928,13 +1597,8 @@ $lang['show_customer_reminders_on_calendar'] = 'Müşteri Hatırlatıcı';
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Özel alanları müşteri profiline kopyala';
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'Müşteri için aşağıdaki özel alanlardan herhangi biri mevcut değilse, aynı adla otomatik olarak oluşturulur, aksi halde yalnızca başlangıç profilden değer kopyalanır..';
-
-
-
-
 $lang['lead_profile']                                                = 'Profil';
 $lang['lead_is_client']                                              = 'Müşteri';
-$lang['leads_kan_ban_notes_title']                                   = 'Notlar';
 $lang['leads_email_integration_folder_no_encryption']                = 'Şifreleme Yok';
 $lang['leads_email_integration']                                     = 'Email Entegrasyonu';
 $lang['leads_email_active']                                          = 'Aktif';
@@ -1976,20 +1640,12 @@ $lang['bulk_export_status']            = 'Durum';
 $lang['bulk_export_zip_payment_modes'] = 'Tarafından yapılan ödemeler';
 $lang['bulk_export_include_tag']       = 'Etiketi Dahil Et';
 $lang['bulk_export_include_tag_help']  = 'Ör. Orijinal veya Kopya. Etiket PDF de çıkacaktır. Sadece 1 etiketi kullanmanız önerilir';
-# Predefined replies
-$lang['no_predefined_replies_found']   = 'Ön Tanımlı Yanıt bulunamadı';
-## Clients area
-$lang['clients_contract_attachments']  = 'Ekler';
 # Backup
-$lang['backup_type_full']              = 'Tam Yedekleme';
-$lang['backup_type_db']                = 'Veritabanı Yedekleme';
-
 $lang['auto_backup_options_updated']     = 'Otomatik Yedekleme seçenekleri güncellendi';
 $lang['auto_backup_every']               = 'Her X günde yedekleme oluştur';
 $lang['auto_backup_enabled']             = 'Aktif (Cron Gerekli)';
 $lang['auto_backup']                     = 'Otomatik Yedekleme';
 $lang['backup_delete']                   = 'Yedek Silindi';
-$lang['create_backup']                   = 'Yedekleme Oluştur';
 $lang['backup_success']                  = 'Yedekleme Başarılı';
 $lang['utility_backup']                  = 'Veritabanı Yedekleme';
 $lang['utility_create_new_backup_db']    = 'Veritabanı Yedekleme Oluştur';
@@ -2006,7 +1662,6 @@ $lang['clients_nav_support']   = 'Destek';
 $lang['more']                  = 'Daha';
 $lang['add_item']              = 'Ürün Ekle';
 $lang['goto_admin_area']       = 'Yönetim Paneline Git';
-$lang['click_here_to_edit']    = 'Düzenlemek İçin Tıklayın';
 $lang['delete']                = 'Sil %s';
 $lang['welcome_top']           = 'Hoşgeldiniz %s';
 
@@ -2017,7 +1672,6 @@ $lang['customer_permission_estimate'] = 'Estimate';
 $lang['customer_permission_proposal'] = 'Teklifler';
 $lang['customer_permission_contract'] = 'Sözleşmeler';
 $lang['customer_permission_support']  = 'Destek';
-
 
 #Tasks
 $lang['task_related_to'] = 'İlişki';
@@ -2049,16 +1703,12 @@ $lang['bulk_export_pdf_proposals'] = 'Teklifler';
 
 # Invoices
 $lang['delete_invoice'] = 'Sil';
-
-# Calendar
-$lang['calendar_lead_reminder'] = 'Fırsat Hatırlatıcı';
-
 $lang['items']      = 'Ürünler';
 $lang['support']    = 'Destek';
 $lang['new_ticket'] = 'Yeni Talep';
 
 # Reminders
-$lang['client_edit_set_reminder_title'] = 'Müşteri Hatırlatıcı Ekle';
+$lang['calendar_lead_reminder'] = 'Fırsat Hatırlatıcı';
 $lang['lead_set_reminder_title']        = 'Fırsat Hatırlatıcı Ekle';
 $lang['set_reminder_tooltip']           = 'Bu seçenek müşterileriniz hakkında hiçbir şeyi unutmaz.';
 $lang['client_reminders_tab']           = 'Hatırlatıcı';
@@ -2077,8 +1727,6 @@ $lang['edit_expense_category']                                    = 'Harcama Kat
 # Settings
 $lang['customer_default_country']                                 = 'Varsayılan Ülke';
 $lang['settings_sales_require_client_logged_in_to_view_estimate'] = 'Tahmini görüntülemek için müşterinin oturum açmasını zorunlu kılın';
-
-
 $lang['set_reminder']                                             = 'Hatırlatıcı Kur';
 $lang['set_reminder_date']                                        = 'Hatırlatma Tarihi';
 $lang['reminder_description']                                     = 'Açıklama belirle';
@@ -2086,13 +1734,10 @@ $lang['reminder_notify_me_by_email']                              = 'Email Gönd
 $lang['reminder_added_successfully']                               = 'Hatırlatıcı başarıyla eklendi. Zamanında bilgilendirileceksiniz.';
 $lang['reminder_description']                                     = 'Açıklama';
 $lang['reminder_date']                                            = 'Tarih';
-
-
 $lang['reminder_staff']                                           = 'Hatırlatılacak Kişi';
 $lang['reminder_is_notified']                                     = 'Bildirim Gösterildi mi?';
 $lang['reminder_is_notified_boolean_no']                          = 'Hayır';
 $lang['reminder_is_notified_boolean_yes']                         = 'Evet';
-
 $lang['reminder_set_to']                                          = 'Hatırlatılacak Kişi';
 $lang['reminder_deleted']                                         = 'Hatırlatıcı silindi.';
 $lang['reminder_failed_to_delete']                                = 'Hatırlatıcı silinirken hata oluştu';
@@ -2108,7 +1753,6 @@ $lang['view_estimate_as_client']         = 'Proformayı Müşteri olarak görün
 $lang['estimate_mark_as']                = '%s olarak işaretle';
 $lang['estimate_status_changed_success'] = 'Proforma durumu değişti';
 $lang['estimate_status_changed_fail']    = 'Proforma durumu değiştirilirken hata oluştu';
-$lang['estimate_email_link_text']        = 'Tahmini görüntüle';
 
 # Proposals
 $lang['proposal_to']                            = 'Firma / Kişi';
@@ -2140,7 +1784,6 @@ $lang['new_proposal']                           = 'Yeni Teklif';
 $lang['proposal_currency']                      = 'Para Birimi';
 $lang['proposal_allow_comments']                = 'Yorumlara İzin Ver';
 $lang['proposal_allow_comments_help']           = 'Bu seçenekleri işaretlerseniz, müşterileriniz teklifi görüntülediğinde yorumlara izin verilir.';
-
 $lang['proposal_edit']                          = 'Düzenle';
 $lang['proposal_pdf']                           = 'PDF';
 $lang['proposal_send_to_email']                 = 'Email Gönder ';
@@ -2205,7 +1848,6 @@ $lang['customer_group_name']         = 'Adı';
 $lang['customer_groups']             = 'Gruplar';
 $lang['customer_group']              = 'Müşteri Grubu';
 $lang['customer_group_lowercase']    = 'müşteri grubu';
-
 $lang['customer_have_invoices_by']       = '% S durumuna göre fatura içeriyor';
 $lang['customer_have_estimates_by']      = '% S durumuna göre tahminleri içerir';
 $lang['customer_have_contracts_by_type'] = '% S türüne göre sözleşme yapma';
@@ -2221,7 +1863,6 @@ $lang['utilities_menu_translate_name_help'] = 'Buraya ayrıca dizeleri çevirebi
 $lang['utilities_menu_icon']                = 'Icon';
 $lang['active_menu_items']                  = 'Aktif Menu Nesneleri';
 $lang['inactive_menu_items']                = 'Pasif Menu Nesneleri';
-$lang['utilities_menu_permission']          = 'İzin';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = 'Adı';
 $lang['utilities_menu_save']                = 'Menüyü Kaydet';
@@ -2229,7 +1870,6 @@ $lang['utilities_menu_save']                = 'Menüyü Kaydet';
 # Knowledge Base
 $lang['view_articles_list']     = 'Makaleleri Görüntüle';
 $lang['view_articles_list_all'] = 'Tüm Makaleler';
-$lang['als_add_article']        = 'Tüm Makaleler';
 $lang['als_all_articles']       = 'Tüm Makaleler';
 $lang['als_kb_groups']          = 'Gruplar';
 
@@ -2280,11 +1920,6 @@ $lang['ticket_pipe_date']          = 'Tarih';
 $lang['ticket_pipe_status']        = 'Durum';
 
 # Home
-
-
-
-
-
 $lang['home_latest_activity']       = 'Son Aktivite';
 $lang['home_my_tasks']              = 'Görevlerim';
 $lang['home_latest_activity']       = 'Son Aktiviteler';
@@ -2292,8 +1927,7 @@ $lang['home_my_todo_items']         = 'Yapılacak İşlerim';
 $lang['home_widget_view_all']       = 'Hepsini Görüntüle';
 $lang['home_stats_full_report']     = 'Tam Rapor';
 
-# Validation - Customer Portal
-
+# Validation
 $lang['form_validation_required']    = '{field} alanı gerekli.';
 $lang['form_validation_valid_email'] = '{field} geçerli mail adresi olmalı.';
 $lang['form_validation_matches']     = '{field} Alanı {param} alanıyla eşleşmiyor.';
@@ -2409,14 +2043,6 @@ $lang['leads_sort_by'] = 'Sırala';
 $lang['leads_sort_by_datecreated'] = 'Oluşturma Tarihi';
 $lang['leads_sort_by_kanban_order'] = 'Kan Ban Sıralama';
 
-# Proposals
-$lang['proposal_items_name'] = 'Ürün';
-$lang['proposal_items_description'] = 'Açıklama';
-$lang['proposal_items_qty'] = 'Adet';
-$lang['proposal_items_rate'] = 'Ücret';
-$lang['proposal_items_tax'] = 'Vergi';
-$lang['proposal_items_amount'] = 'Miktar';
-
 # Authentication
 $lang['check_email_for_resetting_password'] = 'Şifrenizi sıfırlamak için e-postanızı kontrol edin';
 $lang['inactive_account'] = 'Pasif Hesap';
@@ -2424,7 +2050,6 @@ $lang['error_setting_new_password_key'] = 'Yeni şifre belirlenirken hata oluşt
 $lang['password_reset_message'] = 'Şifreniz sıfırlandı. Lütfen giriş yapın!';
 $lang['password_reset_message_fail'] = 'Şifrenizi sıfırlarken hata oluştu. Lütfen tekrar deneyin.';
 $lang['password_reset_key_expired'] = 'Parola süresi doldu ve ya yanlış kullanıcı';
-$lang['admin_auth_reset_pass_repeat'] = 'Parola Tekrar';
 $lang['auth_reset_pass_email_not_found'] = 'Email bulunamadı';
 $lang['auth_reset_password_submit'] = 'Parolayı Sıfırla';
 
@@ -2445,9 +2070,6 @@ $lang['report_invoice_amount'] = 'Miktar';
 $lang['report_invoice_amount_with_tax'] = 'Vergi Ekli Miktar';
 $lang['report_invoice_amount_open'] = 'Miktar Açık';
 $lang['report_invoice_status'] = 'Durum';
-$lang['report_invoice_total_amount_with_tax'] = 'Vergili Toplam Miktar';
-$lang['report_invoice_total_amount_without_tax'] = 'Vergisiz Toplam Miktar';
-$lang['report_invoice_total_taxes'] = 'Vergiler';
 
 #Version 1.0.9
 
@@ -2457,7 +2079,6 @@ $lang['home_invoice_overview'] = 'Faturaların Durumu';
 $lang['home_estimate_overview'] = 'Proformaların Durumu';
 $lang['home_proposal_overview'] = 'Tekliflerin Durumu';
 $lang['home_lead_overview'] = 'Fırsatların Durumu';
-
 $lang['home_my_projects'] = 'Projelerim';
 $lang['home_announcements'] = 'Duyurular';
 
@@ -2486,11 +2107,9 @@ $lang['zip_payments'] = 'Ödemeleri Arşivle';
 $lang['setup_help'] = 'Yardım';
 $lang['clients_list_company'] = 'Firma';
 $lang['dt_button_export'] = 'Dışa Aktar';
-
 $lang['dt_entries'] = 'girdi';
 $lang['invoice_total_paid'] = 'Toplam Ödeme';
 $lang['invoice_amount_due'] = 'Alacak Miktarı';
-$lang['report_invoice_discount'] = 'İndirimler';
 
 # Calendar
 $lang['calendar_project'] = 'Proje';
@@ -2513,7 +2132,6 @@ $lang['seconds'] = 'Saniye';
 $lang['minutes'] = 'Dakika';
 $lang['task_start_timer'] = 'Süre Başlat';
 $lang['task_stop_timer'] = 'Süre Durdur';
-$lang['task_billable_help'] = 'Eğer Faturalanabilir işaretlerseniz, Fatura oluştururken görevi görebilirsiniz.';
 $lang['task_billable'] = 'Faturalanabilir';
 $lang['task_billable_yes'] = 'Faturalanabilir';
 $lang['task_billable_no'] = 'Faturalanmaz';
@@ -2564,8 +2182,6 @@ $lang['project_status_1'] = 'Başlamadı';
 $lang['project_status_2'] = 'Devam Ediyor';
 $lang['project_status_3'] = 'Beklemede';
 $lang['project_status_4'] = 'Tamamlandı';
-
-$lang['project_file_uploaded_by_customer'] = 'Müşteri';
 $lang['project_file_dateadded'] = 'Yükleme Tarihi';
 $lang['project_file_filename'] = 'Dosya Adı';
 $lang['project_file__filetype'] = 'Dosya Türü';
@@ -2625,7 +2241,6 @@ $lang['failed_to_copy_project']            = 'Proje kopyalanırken hata oluştu'
 $lang['copy_project_task_include_check_list_items']            = 'Yapılacak İşler Listesini Kopyala';
 $lang['copy_project_task_include_assignees']            = 'Aynı Atananları Kopyala';
 $lang['copy_project_task_include_followers']            = 'Aynı Takipçileri Kopyala';
-
 $lang['project_days_left']            = 'Kalan Gün';
 $lang['project_open_tasks']            = 'Açık Görevler';
 $lang['timesheet_stop_timer']            = 'Süre Durdur';
@@ -2665,10 +2280,8 @@ $lang['project_setting_view_gantt'] = 'Gantt Görüntüleme ';
 $lang['project_setting_view_timesheets'] = 'Zaman Çizelgelerini Görüntüleme';
 $lang['project_setting_view_activity_log'] = 'Aktivite Loglarını Görüntüleme';
 $lang['project_setting_view_team_members'] = 'Takım Üyelerini Görüntüleme';
-
 $lang['project_discussion_visible_to_customer_yes']                 = 'Görünür';
 $lang['project_discussion_visible_to_customer_no']                 = 'Görünmez';
-
 $lang['project_discussion_posted_on']                 = 'Yayınlanma Tarihi: %s';
 $lang['project_discussion_posted_by']                 = 'Yayınlayan: %s';
 $lang['project_discussion_failed_to_delete']                 = 'Forum silerken hata oluştu';
@@ -2733,24 +2346,16 @@ $lang['project_activity_status_updated'] = 'Proje durumu güncellendi';
 $lang['project_activity_visible_to_customer'] = 'Müşteriye görünür';
 $lang['project_activity_project_file_removed'] = 'Proje dosyası silindi';
 
-# Notifications - DEPRECATED - THESE notifications are DEPRECATED and will be removed in further released don't translate them
-$lang['not_customer_uploaded_project_file'] = 'Yeni dosya yüklendi';
-$lang['not_customer_created_new_project_discussion'] = 'Yeni proje formu oluşturuldu';
-$lang['not_customer_commented_on_project_discussion'] = 'Proje Forumlarında yeni yorum var';
-
 # Customers area
 $lang['clients_my_estimates'] = 'Proforma Faturalarım';
 $lang['client_no_reply'] = 'Yanıt Yok';
 $lang['clients_nav_projects'] = 'Projeler';
 $lang['clients_my_projects'] = 'Projelerim';
 $lang['client_profile_image'] = 'Profil Resmi';
-
-/////
 $lang['sales_report_cancelled_invoices_not_included'] = 'İptal edilen faturalar rapordan hariç tutulmuştur.';
 $lang['invoices_merge_cancel_merged_invoices'] = 'Birleştirilen faturaları silmek yerine iptal olarak işaretle';
 $lang['invoice_marked_as_cancelled_successfully'] = 'Fatura başarıyla iptal edildi';
 $lang['invoice_unmarked_as_cancelled'] = 'Fatura İptal Edildi olarak işaretlenmedi';
-
 $lang['tasks_reminder_notification_before'] = 'Görev Son Tarih Hatırlatıcı ( X Gün Önce)';
 $lang['not_task_deadline_reminder'] = 'Görev Son Tarih Hatırlatıcı';
 $lang['dt_length_menu_all'] = 'Tümü';
@@ -2775,7 +2380,6 @@ $lang['estimates_total_tax'] = 'Toplam Vergi';
 $lang['report_invoice_total_tax'] = 'Toplam Vergi';
 $lang['home_tickets'] = 'Talepler';
 $lang['home_project_activity'] = 'En Son Proje Aktiviteleri';
-$lang['home_project_activity_not_found'] = 'Proje Aktivitesi bulunamadı';
 $lang['view_tracking'] = 'Görüntüleme Durumu';
 $lang['view_date'] = 'Tarih';
 $lang['view_ip'] = 'IP Adresi';
@@ -2854,8 +2458,6 @@ $lang['leads_merge_as_contact_field'] = 'Contact alanıyla birleştir';
 $lang['lead_convert_to_client_phone'] = 'Telefon';
 $lang['invoice_status_report_all'] = 'Tümü';
 $lang['import_contact_field'] = 'Contact Alanı';
-
-
 $lang['file_uploaded_success'] = 'Dosya başarılı bir şekilde yüklendi.';
 $lang['file_exceeds_max_filesize'] = 'Yüklenen dosya, PHP.ini dosyasındaki UPLOAD_MAX_FILESIZE yönergesini aşıyor.';
 $lang['file_exceeds_maxfile_size_in_form'] = 'Yüklenen dosya, HTML formunda belirtilen MAX_FILE_SIZE yönergesini aşıyor.';
@@ -2965,7 +2567,6 @@ $lang['tasks_total_comments'] = 'Toplam yorumlar';
 $lang['task_finished_on_time'] = 'Zamanında tamamlandı?';
 $lang['task_finished_on_time_indicator'] = 'Evet';
 $lang['task_not_finished_on_time_indicator'] = 'Hayır';
-$lang['task_filter_fetch_month_by'] = 'Ayı Getir';
 $lang['filter'] = 'Filtrele';
 $lang['task_filter_detailed_all_months'] = 'Tüm Aylar';
 $lang['kb_article_slug'] = 'Etiket';
@@ -2993,12 +2594,12 @@ $lang['leads_staff_report_converted'] = 'Dönüştürülen Toplam Fırsat';
 $lang['leads_staff_report_created'] = 'Oluşturulan Toplam Fırsat';
 $lang['leads_staff_report_lost'] = 'Kaybedilen Toplam Fırsat';
 $lang['client_go_to_dashboard'] = 'Portala Geri Dön';
-$lang['show_estimate_reminders_on_calendar'] = 'Proforma Hatırlatıcı';
-$lang['show_invoice_reminders_on_calendar'] = 'Fatura Hatırlatıcı';
 $lang['calendar_estimate_reminder'] = 'Proforma Hatırlatıcı';
 $lang['calendar_invoice_reminder'] = 'Fatura Hatırlatıcı';
-$lang['show_proposal_reminders_on_calendar'] = 'Teklif Hatırlatıcı';
 $lang['calendar_proposal_reminder'] = 'Teklif Hatırlatıcı';
+$lang['show_estimate_reminders_on_calendar'] = 'Proforma Hatırlatıcı';
+$lang['show_invoice_reminders_on_calendar'] = 'Fatura Hatırlatıcı';
+$lang['show_proposal_reminders_on_calendar'] = 'Teklif Hatırlatıcı';
 $lang['proposal_due_after']= 'Teklif Süresi (Gün)';
 $lang['project_progress']= 'İlerleme';
 $lang['calculate_progress_through_tasks']= 'İlerleme durumunu görevlere göre hesapla';
@@ -3014,10 +2615,8 @@ $lang['default_pipeline_sort'] = 'Varsayılan Pipeline sıralaması';
 $lang['not_goal_message_failed'] = 'Hedefi Başaramadık!<br /> Hedep Tipi: %s
 <br />Hedef Başarı: %s
 <br />Toplam Başarı: %s
-
 <br />Başlangıç Tarihi: %s
 <br />Bitiş Tarihi: %s';
-
 $lang['toggle_full_view'] = 'Tam Ekrana Geçiş';
 $lang['not_estimate_invoice_deleted'] = 'Oluşturulan fatura silindi';
 $lang['not_task_new_comment'] = '%s görevine yorum yapıldı';
@@ -3026,8 +2625,6 @@ $lang['not_task_new_comment'] = '%s görevine yorum yapıldı';
 $lang['invoice_number_exists'] = 'Bu fatura numarası, devam eden yıl için mevcut.';
 $lang['estimate_number_exists'] = 'Bu Proforma numarası, devam eden yıl için mevcut.';
 $lang['email_exists'] = 'Bu E-mail zaten var';
-
-
 $lang['not_uploaded_project_file'] = 'Yeni dosya yüklendi';
 $lang['not_created_new_project_discussion'] = 'Projede yeni forum konusu oluşturuldu';
 $lang['not_commented_on_project_discussion'] = 'Proje Forumunda yeni yorum yapıldı';
@@ -3082,7 +2679,6 @@ $lang['ticket_priority_db_3'] = 'Yüksek';
 $lang['customer_have_projects_by'] = '%s durumuna göre projeler';
 $lang['customer_have_proposals_by'] = '%s durumuna göre teklifler';
 $lang['do_not_redirect_payment'] = 'Beni ödeme işlemcisine yönlendirmeyin';
-
 $lang['project_tickets'] = 'Talepler';
 $lang['invoice_report'] = 'Fatura Raporu';
 $lang['payment_modes_report'] = 'Ödeme Türleri (İşlemler)';
@@ -3098,7 +2694,6 @@ $lang['customers_sort_all'] = 'Tümü';
 $lang['use_recaptcha_customers_area'] = 'Müşteri Panelinde Recaptcha kullanımı (Giriş/Kayıt)';
 $lang['project_marked_as_finished'] = 'Proje tamamlandı';
 $lang['project_status_updated'] = 'Proje durumu güncellendi';
-
 $lang['remove_decimals_on_zero'] = 'Sayılardan ve ya Para Birimlerinin Ondalık kısımlarındaki sıfırları kaldır. (2.00 - 2 olur, 2.25 - 2.25 olarak kalır)';
 $lang['remove_tax_name_from_item_table'] = 'Vergi adını tablodan kaldır (Faturalar/Proformalar)';
 
@@ -3107,12 +2702,9 @@ $lang['not_billable_expenses_by_categories'] = 'Kategorilerine Göre Faturalanam
 $lang['billable_expenses_by_categories'] = 'Kategorilerine Göre Faturalanabilir Harcamalar';
 $lang['format_letter_size'] = 'Mektup';
 $lang['pdf_formats'] = 'Belge formatları';
-
 $lang['swap_pdf_info'] = 'Firma/Müşteri Bilgilerini Yer Değiştir (Firma bilgileri sağ tarafta, Müşteri bilgileri sol tarafta)';
-$lang['invoice_estimate_pdf_text_color'] = 'Fatura/Proforma Yazı Rengi';
 $lang['expenses_filter_by_categories'] = 'Kategorilere Göre';
 $lang['task_copy'] = 'Kopyala';
-
 $lang['estimate_status'] = 'Durum';
 $lang['expenses_report_exclude_billable'] = 'Faturalanabilir Harcamaları Hariç Tut';
 $lang['expenses_total'] = 'Toplam';
@@ -3121,7 +2713,6 @@ $lang['show_to_customer'] = 'Müşteriye Göster';
 $lang['hide_from_customer'] = 'Müşteriden Gizle';
 $lang['expenses_report_total'] = 'Toplam';
 $lang['expenses_report'] = 'Harcama Raporu';
-$lang['expenses_report_tax'] = 'Vergi';
 $lang['expenses_report_total_tax'] = 'Toplam Vergi';
 $lang['expenses_detailed_report'] = 'Detaylı Rapor';
 $lang['expense_not_billable'] = 'Faturalanamaz';
@@ -3140,7 +2731,6 @@ $lang['outstanding_invoices'] = 'Ödenmemiş Faturalar';
 $lang['past_due_invoices'] = 'Süresi Geçmiş Faturalar';
 $lang['paid_invoices'] = 'Ödenmiş Faturalar';
 $lang['invoice_estimate_year'] = 'Yıl';
-$lang['no_results_text_search_dropdown'] = 'Sonuç bulunamadı';
 $lang['task_stats_logged_hours'] = 'Girilen Süreler';
 $lang['leads_converted_to_client'] = 'Çevrilen Fırsatlar';
 $lang['task_assigned_from'] = 'Bu görev size %s tarafından atandı';
@@ -3174,10 +2764,7 @@ $lang['paymentmethod_two_checkout_publishable_key'] = 'Paylaşılabilir Anahtar'
 $lang['payment_credit_card_number'] = 'Kard Numarası';
 $lang['payment_credit_card_expiration_date'] = 'Son Kullanma Tarihi';
 $lang['payment_billing_email'] = 'Email';
-$lang['payment_billing_name'] = 'Fatura Adı';
 $lang['submit_payment'] = 'Ödeme Gönder';
-
-
 $lang['2checkout_notice_payment'] = 'Kredi Kartı bilgileri 2CheckoutCredit ile güvenli bağlantı kullanılarak işlenecektir ';
 $lang['2checkout_usage_notice'] = 'Eğer 2Checkout Ödeme API si kullanacaksanız SSL gerekli. It is required to safely call the tokenization and authorizations. The system will function without SSL, however, this will place you out of compliance, which risks deactivation of your API permissions.';
 $lang['custom_field_disallow_customer_to_edit'] = 'Bu alanın müşteri tarafından düzenlenmesine izin verme';
@@ -3216,11 +2803,9 @@ $lang['finance_overview'] = 'Finanal Görünüm';
 $lang['project_custom_fields'] = 'Özel Alanlar';
 $lang['total_tickets_related_to_project'] = 'Projeye İlişkin Talepler';
 $lang['projects_total_invoices_created'] = 'Oluşturulan Faturalar';
-$lang['total_invoiced_amount'] = 'Oluşturulan Faturalar';
 $lang['do_not_send_invoice_payment_email_template_contact'] = 'Fatura Ödeme Kaydını müşteri kontağına e-mail ile gönderme!';
 $lang['no_preview_available_for_file'] = 'Bu dosya için önizleme yok.';
 $lang['project_activity_deleted_file_discussion_comment'] = 'Dosya Forum yorumu silindi';
-$lang['file_not_found'] = 'Dosya bulunamadı';
 $lang['email_template_discussion_info'] = 'Bu şablon, her iki proje forumu e-maili için de kullanılır. (Dosya Forumları ve Genel Forumlar)';
 $lang['format_a4_portrait_size'] = 'Dikey';
 $lang['only_show_contact_tickets'] = 'Müşteri profilinde yalnızca giriş yapan kontağa ait olan talepleri göster. (Birincil kişiye uygulanmaz)';
@@ -3259,6 +2844,7 @@ $lang['related_to_project'] =  'This %s is related to %s: %s';
 $lang['back_to_lead'] =  'Fırsata Geri Dön';
 $lang['add_task_timer_started_warning'] =  'Manuel Zamanlayıcı ekleyebilmek için bu görev için başlatılan zamanlayıcıyı durdurun.';
 $lang['sending_email_contact_permissions_warning'] =  'Müşteri Kişileri otomatik olarak seçilemedi. Lütfen müşterinin %s izinli kişileri bulunduğundan emin olun. ';
+
 # Version 1.2.6
 $lang['currently_supported_currencies'] = 'Desteklenen Para Birimleri.';
 $lang['authorize_notice'] = 'Authorize.Net AIM ödeme API sini kullanıyorsanız, SSL gereklidir. Authorize.net hesap başına yalnızca 1 para birimi desteklemektedir. Para birimleri alanına, Authorize.net hesabınızla ilişkili yalnızca 1 para birimini eklediğinizden emin olun.';
@@ -3299,12 +2885,10 @@ $lang['auto_assign_customer_admin_after_lead_convert_help'] = 'Bu seçenek EVET 
 $lang['auto_close_tickets_disable'] = 'Devre dışı bırakmak için 0 yazın.';
 $lang['task_checklist_item_completed_by'] = 'Tamamlayan: %s';
 $lang['staff_email_signature_help'] = 'Boş varsayılan e-posta imza ayarları kullanılacak olursa';
-$lang['customer_sales'] = 'Satış';
 $lang['default_task_priority'] = 'Varsayılan Öncelik';
 $lang['project_send_created_email'] = 'Proje oluşturuldu e-maili gönder';
 $lang['survey_send_to_lists'] = 'Anket Gönderim listeleri';
 $lang['survey_send_notice'] = 'E-mail ler her saat başı CRON JOB üzerinden gönderilecektir.';
-$lang['view_permission_auto_checked'] = 'GÖRÜNTÜLEME izni otomatik kontrol edildi. DÜZENLEME, OLUŞTURMA ve SİLME işlevlerini doğru kullanmak istiyorsanız GÖRÜNTÜLEME iznini seçmeniz gerekir. DÜZENLE, OLUŞTUR, SİL, GÖRÜNTÜLE genel izin olduğundan kullanıcı kullanamaz ve veriyi açamaz ve eylemleri gerçekleştiremez.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'PDFde fatura ödemelerini (işlemleri) göster';
@@ -3326,7 +2910,6 @@ $lang['task_status_4'] = 'Devam Ediyor';
 $lang['task_status_5'] = 'Tamamlandı';
 $lang['task_mark_as'] = '%s olarak işaretle';
 $lang['task_marked_as_success'] = 'Görev %s olarak işaretlendi';
-$lang['task_drag_drop_notice'] = 'Sürükle-Bırak, yalnızca% s yı kolaylıkla değiştirmek için kullanılır. Sipariş bu alana uygulanmayacak.';
 $lang['search_tasks'] = 'Görevleri Ara';
 $lang['tasks_kanban_limit'] = 'Görev Durumlarına göre kanban satır limiti';
 $lang['show_on_invoice_on_pdf'] = 'Fatura PDFinde %s göster';
@@ -3358,7 +2941,6 @@ $lang['not_published_new_post'] = 'Yeni mesaj yayınladı';
 $lang['expense_name'] = 'Adı';
 $lang['expense_name_help'] = 'Kişisel kullanım için';
 $lang['adjustments'] = 'Fiyat Ayarlama (+-)';
-$lang['tax_breakdown'] = 'Vergi Hatası';
 $lang['payments_received'] = 'Ödemeler alındı';
 $lang['not_lead_activity_created_proposal'] = 'Yeni Teklif oluşturuldu - %s';
 $lang['lead_title'] = 'Pozisyon';
@@ -3573,7 +3155,6 @@ $lang['new_task_auto_assign_current_member'] = 'Yeni görev oluşturulduğunda g
 $lang['new_task_auto_assign_current_member_help'] = 'Görev proje ile bağlantılıysa ve içerik oluşturucu proje üyesi değilse uygulanmaz';
 $lang['copy_project_tasks_status'] = 'Görevlerin Durumu';
 $lang['tasks_summary'] = 'Görevlerin Özeti';
-$lang['show_gantt_by'] = 'Gantt tarafından görüntüle';
 $lang['vault'] = 'Kasa';
 $lang['new_vault_entry'] = 'Yeni kasa girişi';
 $lang['server_address'] = 'Server Adres';
@@ -3653,7 +3234,6 @@ $lang['ticket_form_priority'] = 'Öncelik';
 $lang['ticket_form_service'] = 'Hizmet';
 $lang['ticket_form_submit'] = 'Gönder';
 $lang['ticket_form_attachments'] = 'Ekler';
-
 $lang['success_submit_msg'] = 'Bizimle iletişime geçtiğiniz için teşekkürler. Kısa süre içinde size geri döneceğiz.';
 $lang['vault_entry_share_on_projects'] = 'Projelerdeki bu kasa girişini proje üyeleri ile paylaşın';
 $lang['project_shared_vault_entry_login_details'] = 'Müşteri Site Oturum Açma Bilgilerini Görüntüle';
@@ -3737,3 +3317,28 @@ $lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Descript
 # Version 1.9.3
 $lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
 $lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+
+# Version 1.9.4
+$lang['default_task_status'] = 'Default status when new task is created';
+$lang['custom_field_pdf_html_help'] = 'Make sure you check ' . $lang['custom_field_show_on_client_portal'] . ' field if you want the custom fields to be visible to customers area and when customer download PDF or receive PDF via email.';
+$lang['auto'] = 'Auto';
+$lang['email_queue'] = 'Email Queue';
+$lang['email_queue_enabled'] = 'Enable Email Queue';
+$lang['email_queue_skip_attachments'] = 'Do not add emails with attachments in the queue.';
+$lang['disable'] = 'Disable';
+$lang['enable'] = 'Enable';
+$lang['auto_dismiss_desktop_notifications_after'] = 'Auto Dismiss Desktop Notifications After X Seconds (0 to disable)';
+$lang['proposal_info_format'] = 'Proposal Info Format (PDF and HTML)';
+$lang['hide_tasks_on_main_tasks_table'] = 'Hide project tasks on main tasks table (admin area)';
+$lang['ticket_replies_order'] = 'Ticket Replies Order';
+$lang['ticket_replies_order_notice'] = 'The initial ticket message will be always shown as first.';
+$lang['invoice_cancelled_email_disabled'] = 'Invoice is cancelled. Unmark as cancelled to enable email to client';
+$lang['email_notifications'] = 'Email Notifications';
+$lang['invoice_activity_record_payment_email_to_customer'] = 'Payment recorded, email sent to: %s';
+$lang['exclude_inactive'] = 'Exclude Inactive';
+$lang['disable_all'] = 'Disable All';
+$lang['enable_all'] = 'Enable All';
+$lang['reccuring_invoice_option_gen_and_send'] = 'Generate and Autosend the renewed invoice to the customer';
+$lang['reccuring_invoice_option_gen_unpaid'] = 'Generate a Unpaid Invoice';
+$lang['reccuring_invoice_option_gen_draft'] = 'Generate a Draft Invoice';
+$lang['event_created_by'] = 'This event is created by %s';

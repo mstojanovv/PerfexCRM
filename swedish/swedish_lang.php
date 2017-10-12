@@ -37,7 +37,6 @@ $lang['invoice_table_amount_heading']          = 'Summa';
 $lang['invoice_subtotal']                      = 'Total summa';
 $lang['invoice_adjustment']                    = 'Justeringar';
 $lang['invoice_total']                         = 'Total';
-$lang['invoice_vat']                           = 'Momsregistreringsnummer';
 $lang['invoice_bill_to']                       = 'Faktura till';
 $lang['invoice_data_date']                     = 'Fakturadatum:';
 $lang['invoice_data_duedate']                  = 'Betal datum:';
@@ -68,7 +67,6 @@ $lang['client']                                = 'Kund';
 $lang['new_client']                            = 'Ny kund';
 $lang['client_lowercase']                      = 'kund';
 $lang['client_delete_tooltip']                 = 'Alla kunddata kommer att raderas. Kontrakt, biljetter, anteckningar. OBS: Om fakturor hittas på kund, kommer dessa inte att raderas. Du måste tilldela dessa fakturor till en annan kund för att hålla fakturanumret';
-$lang['customer_delete_invoices_warning']      = 'Denna kund har fakturor på kontot. Du kan inte ta bort den här kunden. Ändra alla fakturor till en annan kund i en framtida betaldat. då går det att tabort.';
 $lang['client_firstname']                      = 'Förnamn';
 $lang['client_lastname']                       = 'Efternamn';
 $lang['client_email']                          = 'Email';
@@ -86,18 +84,7 @@ $lang['client_invoices_tab']                   = 'Fakturor';
 $lang['contracts_invoices_tab']                = 'Kontrakt';
 $lang['contracts_tickets_tab']                 = 'Kontrakt/Support';
 $lang['contracts_notes_tab']                   = 'Noteringar';
-$lang['client_invoice_number_table_heading']   = 'IFaktura #';
-$lang['client_invoice_date_table_heading']     = 'Datum';
-$lang['client_invoice_due_date_table_heading'] = 'Förfallodag';
-$lang['client_string_table_heading']           = 'Kund';
-$lang['client_amount_table_heading']           = 'Summa';
-$lang['client_status_table_heading']           = 'Status';
 $lang['note_description']                      = 'Anmärkning beskrivning';
-
-$lang['client_string_contracts_table_heading']      = 'Kund';
-$lang['client_start_date_contracts_table_heading']  = 'Start Datum';
-$lang['client_end_date_contracts_table_heading']    = 'Slut Datum';
-$lang['client_description_contracts_table_heading'] = 'Beskrivning';
 $lang['client_do_not_send_welcome_email']           = 'Skicka inte ett välkomst mail.';
 
 $lang['clients_notes_table_description_heading'] = 'Beskrivning';
@@ -181,7 +168,6 @@ $lang['home_latest_todos']                                  = 'Senaste todo\'s';
 $lang['home_no_latest_todos']                               = 'Inga todos funna';
 $lang['home_latest_finished_todos']                         = 'Senast klara todo\'s';
 $lang['home_no_finished_todos_found']                       = 'Inga klara todos fans';
-$lang['home_todo_heading']                                  = 'Todo punkt';
 $lang['home_tickets_awaiting_reply_by_department']          = 'Support ärende väntar på svar från avdelning';
 $lang['home_tickets_awaiting_reply_by_status']              = 'Support ärende Status, väntande svar';
 $lang['home_this_week_events']                              = 'Denna veckas händelse';
@@ -220,19 +206,12 @@ $lang['invoice_item_lowercase']                             = 'faktura produkt';
 
 $lang['invoice_items_list_description'] = 'Beskrivning (artikelnummer)';
 $lang['invoice_items_list_rate']        = 'Pris';
-$lang['invoice_items_list_tax']         = 'Moms';
-
 $lang['invoice_item_add_edit_description'] = 'Beskrivning (artikelnummer)';
 $lang['invoice_item_add_edit_rate']        = 'Pris';
-$lang['invoice_item_add_edit_tax']         = 'Moms';
-$lang['invoice_item_add_edit_tax_select']  = 'Välj moms';
-
 $lang['invoice_item_edit_heading'] = 'Redigera produkt';
 $lang['invoice_item_add_heading']  = 'Lägg till Ny produkt / tjänst';
 
 # Invoices
-
-
 $lang['invoices']                       = 'Fakturor';
 $lang['invoice']                        = 'Faktura';
 $lang['invoice_lowercase']              = 'faktura';
@@ -256,7 +235,6 @@ $lang['invoice_add_edit_currency']    = 'Valuta';
 $lang['invoice_add_edit_client_note'] = 'Kundnoteringar';
 $lang['invoice_add_edit_admin_note']  = 'Admins notering';
 
-$lang['invoice_add_edit_search_item']  = 'Sök objekt';
 $lang['invoices_toggle_table_tooltip'] = 'Minska fältet';
 
 $lang['edit_invoice_tooltip']                   = 'Redigera fakturan';
@@ -285,7 +263,6 @@ $lang['record_payment_leave_note']               = 'Leave a note';
 $lang['invoice_payments_received']               = 'Betalningar Received';
 $lang['invoice_record_payment_note_placeholder'] = 'Admin Note';
 $lang['no_payments_found']                       = 'No Betalningar found for this invoice';
-$lang['invoice_email_link_text']                 = 'View Invoice';
 
 # Payments
 $lang['payments']                             = 'Betalningar';
@@ -298,12 +275,9 @@ $lang['payments_table_date_heading']          = 'Datum';
 $lang['payments_table_amount_heading']        = 'Summa';
 $lang['payments_table_client_heading']        = 'Kund';
 $lang['payment_not_exists']                   = 'Betalningen existerar inte';
-
 $lang['payment_edit_for_invoice']     = 'Betalning av faktura';
 $lang['payment_edit_amount_received'] = 'Summa mottagen';
 $lang['payment_edit_date']            = 'Betaldatum';
-$lang['payment_edit_lave_note']       = 'Lämna en notering';
-
 
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = 'Ämne';
@@ -314,8 +288,6 @@ $lang['kb_article_lowercase']        = 'artikel';
 $lang['kb_article_new_article']      = 'Nyy artikel';
 $lang['kb_article_disabled']         = 'Avaktiverad';
 $lang['kb_article_description']      = 'Artikelbeskrivning';
-
-$lang['kb_table']                      = 'Lista';
 $lang['kb_no_articles_found']          = 'Ingen kunskapsartikel funnen';
 $lang['kb_dt_article_name']            = 'Artikel namn';
 $lang['kb_dt_group_name']              = 'Grupp';
@@ -346,7 +318,6 @@ $lang['mail_list_total_invalid']              = 'Invalid email address: %s';
 $lang['cant_edit_mail_list']                  = 'You cant edit this list, this list is populated automatically';
 $lang['mail_list_add_edit_name']              = 'Mail List Name';
 $lang['mail_list_add_edit_customfield']       = 'Add custom field';
-$lang['mail_lists_viewing_emails']            = 'Viewing Emails Från List';
 $lang['mail_lists_view_email_email_heading']  = 'Email';
 $lang['mail_lists_view_email_date_heading']   = 'Date Added';
 $lang['add_new_email_to']                     = 'Add New Email to %s';
@@ -399,7 +370,6 @@ $lang['ticket_priority_add_edit_name'] = 'Prioritering Name';
 $lang['kb_reports']                         = 'Knowledge base Artiklar reports';
 $lang['sales_reports']                      = 'Sales Reports';
 $lang['reports_choose_kb_group']            = 'Choose Group';
-$lang['reports_sales_select_report_type']   = 'Select Report Type';
 $lang['report_kb_yes']                      = 'Yes';
 $lang['report_kb_no']                       = 'No';
 $lang['report_kb_no_votes']                 = 'No votes yet';
@@ -408,21 +378,14 @@ $lang['report_leads_sources_conversions']   = 'Sources Conversion';
 $lang['report_leads_monthly_conversions']   = 'Monthly';
 $lang['sales_report_heading']               = 'Sales Report';
 $lang['report_sales_type_income']           = 'Total Income';
-
 $lang['report_sales_type_customer']                    = 'Customer Report';
 $lang['report_sales_base_currency_select_explanation'] = 'You need to select currency because you have invoices with different currency';
 $lang['report_sales_from_date']                        = 'Från Date';
 $lang['report_sales_to_date']                          = 'To Date';
-
-
 $lang['report_sales_months_all_time']      = 'All Time';
 $lang['report_sales_months_six_months']    = 'Last 6 months';
 $lang['report_sales_months_twelve_months'] = 'Last 12 months';
-$lang['report_sales_months_custom']        = 'Custom';
 $lang['reports_sales_generated_report']    = 'Generated Report';
-
-
-
 $lang['reports_sales_dt_customers_client']                = 'Customer';
 $lang['reports_sales_dt_customers_total_invoices']        = 'Total Invoices';
 $lang['reports_sales_dt_items_customers_amount']          = 'Amount';
@@ -487,23 +450,16 @@ $lang['settings_general_use_knowledgebase_tooltip']   = 'If you allow this optio
 $lang['settings_general_tables_limit']                = 'Tables Pagination Limit';
 $lang['settings_general_default_staff_role']          = 'Default Staff Role';
 $lang['settings_general_default_staff_role_tooltip']  = 'When you add new staff member this role will be selected by default';
-
 $lang['settings_localization_date_format']      = 'Date Format';
 $lang['settings_localization_default_timezone'] = 'Default Timezone';
 $lang['settings_localization_default_language'] = 'Default Language';
-
-
 $lang['settings_newsfeed_max_file_upload_post']    = 'Maximum files upload on post';
-$lang['settings_newsfeed_max_file_size']           = 'Maximum files size (MB)';
-
 $lang['settings_reminders_contracts']         = 'Contract expiration reminder';
 $lang['settings_reminders_contracts_tooltip'] = 'Expiration reminder notification in days';
-
 $lang['settings_tickets_use_services']             = 'Use Services';
 $lang['settings_tickets_max_attachments']          = 'Maximum ticket attachments';
 $lang['settings_tickets_allow_departments_access'] = 'Allow staff to access only ticket that belongs to staff departments';
 $lang['settings_tickets_allowed_file_extensions']  = 'Allowed attachments file extensions';
-
 $lang['settings_sales_general']                                    = 'General';
 $lang['settings_sales_general_note']                               = 'General settings';
 $lang['settings_sales_invoice_prefix']                             = 'Invoice Number Prefix';
@@ -549,7 +505,6 @@ $lang['leads_sources_table_name']   = 'Källans namn';
 $lang['leads_source_add_edit_name'] = 'Källans namn';
 
 $lang['lead_new_status']         = 'Ny status kundämnen';
-$lang['lead_statuss']            = 'Status kundämnen';
 $lang['lead_status']             = 'Status kundämnen';
 $lang['lead_status_lowercase']   = 'status kundämnen';
 $lang['leads_status_table_name'] = 'Status Namn';
@@ -582,7 +537,6 @@ $lang['lead_add_edit_notes']                = 'Notering';
 $lang['lead_add_edit_add_note']             = 'Lägg till notering';
 $lang['lead_not_contacted']                 = 'Jag har inte kontaktat detta kundämne';
 $lang['lead_add_edit_contacted_this_lead']  = 'Jag har vart i kontakt med detta kundämne';
-$lang['lead_confirmation_canban_contacted'] = 'Har du varit i kontakt med detta kundämne?';
 
 # Misc
 $lang['access_denied']              = 'Sorry! Ingen tilllåtelse här';
@@ -621,16 +575,11 @@ $lang['wd_sunday']    = 'Söndag';
 $lang['als_dashboard'] = 'Infopanel';
 $lang['als_clients']   = 'Kunder';
 $lang['als_leads']     = 'kundämnen';
-
 $lang['als_contracts'] = 'Kontrakt';
-
-$lang['als_all_tickets'] = 'Alla Ärenden';
 $lang['als_sales']       = 'Försäljning';
-
 $lang['als_staff'] = 'Personal';
 $lang['als_tasks'] = 'Uppgifter';
 $lang['als_kb']    = 'Kunskaps DB';
-
 $lang['als_surveys']               = 'Enkät';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapporter';
@@ -639,12 +588,10 @@ $lang['als_reports_leads_submenu'] = 'kundämnen';
 $lang['als_kb_articles_submenu']   = 'DB Artiklar';
 $lang['als_utilities']             = 'Verktyg';
 $lang['als_announcements_submenu'] = 'Meddelande';
-$lang['als_mail_lists_submenu']    = 'Epostlistor';
 $lang['als_calendar_submenu']      = 'Kalendar';
 $lang['als_activity_log_submenu']  = 'Aktivitets logg';
 
 # Admin Customizer Sidebar
-$lang['acs_tickets']                           = 'Ärende';
 $lang['acs_ticket_priority_submenu']           = 'Prioriterade ärende';
 $lang['acs_ticket_statuses_submenu']           = 'ÄrendeStatus';
 $lang['acs_ticket_predefined_replies_submenu'] = 'Fördefinierade svar';
@@ -674,8 +621,6 @@ $lang['ticket_settings_service']                            = 'Service';
 $lang['ticket_settings_priority']                           = 'Prioritering';
 $lang['ticket_settings_subject']                            = 'Ämne';
 $lang['ticket_settings_assign_to']                          = 'Tilldela ärende (standard är denna användare)';
-$lang['ticket_settings_assign_to_you']                      = 'Du';
-$lang['ticket_settings_select_client']                      = 'Välj kund';
 $lang['ticket_add_body']                                    = 'ÄrendeText';
 $lang['ticket_add_attachments']                             = 'Bilagor';
 $lang['ticket_no_reply_yet']                                = 'Inget svar ännu';
@@ -714,8 +659,6 @@ $lang['ticket_status_changed_fail']               = 'Problem ändra ärende stat
 $lang['ticket_staff_string']                    = 'Personal';
 $lang['ticket_client_string']                   = 'Kund';
 $lang['ticket_posted']                          = 'Postad: %e';
-$lang['ticket_insert_predefined_reply_heading'] = 'Lägg till fördefinierat svar';
-$lang['ticket_kb_link_heading']                 = 'Lägg till en länk från kunskaps DB';
 $lang['ticket_access_by_department_denied']     = 'Du har tillgång till detta ärende. Ärendet tillhör en avdelning som du inte tilldelats.';
 
 # Staff
@@ -856,7 +799,6 @@ $lang['task_single_assignees']              = 'Tilldelade';
 $lang['task_single_assignees_select_title'] = 'Tilldela uppgiften till';
 $lang['task_single_followers']              = 'Följare';
 $lang['task_single_followers_select_title'] = 'Lägg till följare';
-$lang['task_single_insert_media_link']      = 'Lägg till media länk';
 $lang['task_single_add_new_comment']        = 'Lägg till kommentar';
 
 $lang['task_add_edit_subject']     = 'Ämne';
@@ -908,9 +850,6 @@ $lang['no_unfinished_todos_found'] = 'Ingen todos hittades';
 $lang['unfinished_todos_title']    = 'Oklara todo\'s';
 $lang['finished_todos_title']      = 'Senaste klara todo\'s';
 
-# Authentication
-$lang['password_changed_email_subject']             = 'Ditt lösenord har ändrats';
-$lang['password_reset_email_subject']               = 'Återställ ditt lösenord på %s';
 # Utilities
 $lang['utility_activity_log']                       = 'Aktivitets logg';
 $lang['utility_activity_log_filter_by_date']        = 'Filter by date';
@@ -933,18 +872,10 @@ $lang['nav_edit_profile']           = 'Hantera profil';
 $lang['nav_logout']                 = 'Logga ur';
 $lang['nav_no_notifications']       = 'Inga notifieringar funna';
 $lang['nav_view_all_notifications'] = 'Visa alla notifieringar';
-$lang['nav_customizer_tooltip']     = 'Skräddarsy dina in';
 $lang['nav_notifications_tooltip']  = 'Visa notifieringar';
-
-## Clients
-$lang['clients_required_field'] = 'Obligatoriskt fält';
 
 # Footer
 $lang['clients_copyright'] = 'Copyright %s';
-
-# Meddelande
-$lang['clients_announcement_from']  = 'Från: ';
-$lang['clients_announcement_added'] = 'Till lagt: ';
 
 # Contracts
 $lang['clients_contracts']               = 'Kontrakt';
@@ -1009,10 +940,8 @@ $lang['clients_ticket_open_departments']            = 'Avdelning';
 $lang['clients_tickets_heading']                    = 'Support Ärenden';
 $lang['clients_ticket_open_service']                = 'Service';
 $lang['clients_ticket_open_priority']               = 'Prioritering';
-$lang['clients_latest_tickets']                     = 'Senaste Ärende';
 $lang['clients_ticket_open_body']                   = 'Ärende kropp';
 $lang['clients_ticket_attachments']                 = 'Bilagor';
-$lang['clients_ticket_posted']                      = 'Postat: %s';
 $lang['clients_single_ticket_string']               = 'Ärende';
 $lang['clients_single_ticket_replied']              = 'Svarat: %s';
 $lang['clients_single_ticket_information_heading'] = 'Ärende Informations';
@@ -1051,24 +980,6 @@ $lang['clients_nav_contracts'] = 'Kontrakt';
 $lang['clients_nav_kb']        = 'Kunskapsdatabas';
 $lang['clients_nav_profile']   = 'Profil';
 $lang['clients_nav_logout']    = 'Logga ut';
-
-# Datatables
-$lang['clients_dt_paginate_first']    = 'Första';
-$lang['clients_dt_paginate_last']     = 'Sista';
-$lang['clients_dt_paginate_next']     = 'NÄsta';
-$lang['clients_dt_paginate_previous'] = 'Tidigare';
-$lang['clients_dt_empty_table']       = 'Inga {0} funna';
-$lang['clients_dt_search']            = 'Sök:';
-$lang['clients_dt_zero_records']      = 'Ingen matchande data funnen';
-$lang['clients_dt_loading_records']   = 'Laddar...';
-$lang['clients_dt_length_menu']       = 'Visa _MENU_ ';
-$lang['clients_dt_info_filtered']     = '(filtrera Från _MAX_ total {0})';
-$lang['clients_dt_info_empty']        = 'Visar 0 till 0 av 0 {0}';
-$lang['clients_dt_info']              = 'Visar _START_ till _END_ av _TOTAL_ {0}';
-$lang['clients_dt_empty_table']       = 'Inga {0} funna';
-$lang['clients_dt_sort_ascending']    = 'aktivera för att sortera stigande';
-$lang['clients_dt_sort_descending']   = 'aktivera för att sortera fallande';
-
 
 # Version 1.0.1
 # Admin
@@ -1110,7 +1021,6 @@ $lang['invoices_list_recurring']                                               =
 $lang['invoices_list_made_payment_by']                                        = 'Betalning gjord via %s';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices']         = 'Skapa ny faktura Från (huvudåterkommande) faktura endast om och med status Betald';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Om det här fältet är satt till JA och de återkommande fakturor inte har status BETALT, kommer den nya fakturan inte skapas.';
-$lang['send_renewed_invoice_from_recurring_to_email']                         = 'Auto skicka den förnyade faktura till kunden';
 $lang['view_invoice_pdf_link_pay']                                            = 'Pay Invoice';
 
 # Payment modes
@@ -1139,16 +1049,6 @@ $lang['settings_paymentmethod_paypal_signature'] = 'API Signatur';
 $lang['settings_paymentmethod_stripe_api_secret_key']      = 'Stripe API Secret Key';
 $lang['settings_paymentmethod_stripe_api_publishable_key'] = 'Stripe Publishable Key';
 $lang['settings_limit_top_search_bar_results']             = 'Limit Top Search Bar Results to';
-
-# Quick Actions
-$lang['qa_create_invoice']  = 'Create Invoice';
-$lang['qa_create_task']     = 'Create Task';
-$lang['qa_create_client']   = 'Create Customer';
-$lang['qa_create_contract'] = 'Create Contract';
-$lang['qa_create_kba']      = 'Skapa en artickel i kunskapsdatabasen';
-$lang['qa_create_survey']   = 'Create Survey';
-$lang['qa_create_ticket']   = 'Open Ärende';
-$lang['qa_create_staff']    = 'Create Staff Member';
 
 ## Clients
 $lang['client_phonenumber'] = 'Telefon';
@@ -1234,7 +1134,6 @@ $lang['settings_sales_estimate_number_format']                      = 'Format p�
 $lang['settings_sales_estimate_number_format_year_based']           = 'Års basis';
 $lang['settings_sales_estimate_number_format_number_based']         = 'Nummer basis (000001)';
 $lang['settings_delete_only_on_last_estimate']                      = 'Radera offert tillåts endast på sista fakturan';
-$lang['settings_cron_invoice_heading']                              = 'Faktura';
 $lang['settings_send_test_email_heading']                           = 'Skicka ett test mail';
 $lang['settings_send_test_email_subheading']                        = 'Skicka testmeddelande för att kontrollera att dina SMTP-inställningar är korrekt inställd.';
 $lang['settings_send_test_email_string']                            = 'Mailadress';
@@ -1244,12 +1143,10 @@ $lang['settings_smtp_settings_subheading']                          = 'Ställ in
 $lang['settings_sales_heading_general']                             = 'Allmän';
 $lang['settings_sales_heading_invoice']                             = 'Faktura';
 $lang['settings_sales_heading_estimates']                           = 'Offert';
-$lang['settings_sales_heading_company']                             = 'Företag';
 $lang['settings_sales_cron_invoice_heading']                        = 'Faktura';
 
 # Tasks
 $lang['tasks_dt_datestart'] = 'Startdatum';
-$lang['tasks_dt_priority']  = 'Prioriterat';
 
 # Invoice General
 $lang['invoice_discount'] = 'Rabatt';
@@ -1257,7 +1154,6 @@ $lang['invoice_discount'] = 'Rabatt';
 # Settings
 $lang['settings_rtl_support_admin']                                   = 'RTL Admin Area (höger till vänster)';
 $lang['settings_rtl_support_client']                                  = 'RTL Kund Area (höger till vänster)';
-$lang['acs_language_editor']                                          = 'Språkhanteraren';
 $lang['settings_estimate_auto_convert_to_invoice_on_client_accept']   = 'Auto konvertera offerten till faktura efter att klient accepterat';
 $lang['settings_exclude_estimate_from_client_area_with_draft_status'] = 'Uteslut offerter med.. Utkaststatus Från kunds sida';
 
@@ -1299,8 +1195,6 @@ $lang['create_new_estimate']                = 'Skapa en offert';
 $lang['view_estimate']                      = 'Visa på offert';
 $lang['estimate_sent_to_client_success']    = 'Offert är skickad till Kunden';
 $lang['estimate_sent_to_client_fail']       = 'Problem att skicka offert till kunden';
-$lang['estimate_reminder_send_problem']     = 'Problem att skicka förfallen offert';
-$lang['estimate_details']                   = 'Offert detaljer';
 $lang['estimate_view']                      = 'Se detaljer';
 $lang['estimate_select_customer']           = 'Kunder';
 $lang['estimate_add_edit_number']           = 'Beräknat antal';
@@ -1309,11 +1203,8 @@ $lang['estimate_add_edit_expirydate']       = 'Sista dag';
 $lang['estimate_add_edit_currency']         = 'Valuta';
 $lang['estimate_add_edit_client_note']      = 'Kundnotering';
 $lang['estimate_add_edit_admin_note']       = 'Admin notering';
-$lang['estimate_add_edit_new_item']         = 'Ny produkt';
-$lang['estimate_add_edit_search_item']      = 'Sök produkt';
 $lang['estimates_toggle_table_tooltip']     = 'Dra ihop vyn';
 $lang['estimate_add_edit_advanced_options'] = 'Avancerade val';
-$lang['estimate_vat']                       = 'Momsregestreringsnummer';
 $lang['estimate_to']                        = 'Till';
 $lang['estimates_list_all']                 = 'Alla';
 
@@ -1335,15 +1226,10 @@ $lang['estimate_dt_table_heading_expirydate'] = 'Löper ut';
 $lang['estimate_dt_table_heading_amount']     = 'Summa';
 $lang['estimate_dt_table_heading_status']     = 'Status';
 
-$lang['estimate_email_link_text']    = 'Se offert';
 $lang['estimate_convert_to_invoice'] = 'Konvertera till faktura';
-# Home
-$lang['home_unfinished_tasks']       = 'Icka klara uppgifter';
 
 # Clients
-$lang['client_estimates_tab'] = 'Offerter';
 $lang['client_payments_tab']  = 'Betalningar';
-
 
 # Estimate General
 $lang['estimate_pdf_heading']            = 'OFFERT';
@@ -1367,11 +1253,6 @@ $lang['estimate_status_accepted']        = 'Accepterad';
 $lang['estimate_status_expired']         = 'Utgången';
 $lang['estimate_note']                   = 'Notering:';
 
-# Quick create
-$lang['qa_create_estimate'] = 'Skapa Offert';
-$lang['qa_create_lead']     = 'Skapa Lead';
-
-
 ## Clients
 $lang['clients_estimate_dt_number']             = 'Offert #';
 $lang['clients_estimate_dt_date']               = 'Datum';
@@ -1392,7 +1273,6 @@ $lang['client_add_edit_profile']                = 'Profil';
 $lang['custom_field']                          = 'Anpassat fält';
 $lang['custom_field_lowercase']                = 'anpassat fält';
 $lang['custom_fields']                         = 'Anpassade fält';
-$lang['custom_fields_lowercase']               = 'anpassatde fält';
 $lang['new_custom_field']                      = 'Nytt Anpassat fält';
 $lang['custom_field_name']                     = 'Fält namn';
 $lang['custom_field_add_edit_type']            = 'Typ av fält';
@@ -1409,7 +1289,6 @@ $lang['custom_field_add_edit_disabled'] = 'Inaktiv';
 
 # Ticket replies
 $lang['ticket_reply']           = 'Svar Support ärende';
-$lang['ticket_reply_lowercase'] = 'svar support ärende';
 
 # Admin Customizer Sidebar
 $lang['asc_custom_fields'] = 'Anpassat fält';
@@ -1514,7 +1393,6 @@ $lang['contract_renewal_old_start_date'] = 'Gammalt avtals startdatum: %s';
 $lang['contract_renewal_new_end_date'] = 'Nytt avtals slutdatum: %s';
 $lang['contract_renewal_old_end_date'] = 'Gammalt avtals sluttadum: %s';
 $lang['contract_attachment']           = 'Bilagor';
-$lang['contract_attachment_lowercase'] = 'bilagor';
 
 # Admin Aside Menu
 $lang['als_goals_tracking']     = 'Målspårning';
@@ -1527,10 +1405,6 @@ $lang['invoice_attach_file']           = 'Lägg till fil';
 $lang['invoice_mark_as_sent']          = 'Markera som skickat';
 $lang['invoice_marked_as_sent']        = 'Faktura markerad som skickad';
 $lang['invoice_marked_as_sent_failed'] = 'Misslyckades markera faktura som skickad';
-
-# Quick Actions
-$lang['qa_new_goal']    = 'Sätt nya mål';
-$lang['qa_new_expense'] = 'Lägg till kostnad';
 
 # Goals Tracking
 $lang['goals']                                         = 'Målen';
@@ -1579,7 +1453,6 @@ $lang['goal_type_income_subtext']                                    = 'Inkomste
 # Payments
 $lang['payment_transaction_id']                                      = 'Transaktions ID';
 # Settings Menu
-$lang['acs_expenses']                                                = 'Kostnader';
 $lang['acs_expense_categories']                                      = 'Kostnadskategori';
 # Expeneses
 $lang['expense_category']                                            = 'Kostnadskategori';
@@ -1593,9 +1466,7 @@ $lang['dt_expense_description']                                      = 'Beskrivn
 $lang['expense']                                                     = 'Kostnad';
 $lang['expenses']                                                    = 'Kostnader';
 $lang['expense_lowercase']                                           = 'kostnad';
-$lang['expense_add_edit_tax']                                        = 'moms';
 $lang['expense_add_edit_customer']                                   = 'Kund';
-$lang['expense_add_edit_currency']                                   = 'Valuta';
 $lang['expense_add_edit_note']                                       = 'Notering';
 $lang['expense_add_edit_date']                                       = 'Kostnads datum';
 $lang['expense_add_edit_amount']                                     = 'Summa';
@@ -1632,14 +1503,12 @@ $lang['expense_customer']                                            = 'Kund';
 $lang['expense_note']                                                = 'Notering:';
 $lang['expense_date']                                                = 'Datum:';
 $lang['expense_ref_noe']                                             = 'Ref #:';
-$lang['expense_tax']                                                 = 'Moms:';
 $lang['expense_amount']                                              = 'Summa:';
 $lang['expense_recurring_indicator']                                 = 'Återkommande';
 $lang['expense_already_invoiced']                                    = 'Denna kostnad är redan faktureras';
 $lang['expense_recurring_auto_create_invoice']                       = 'Skapa faktura automatiskt';
 $lang['expense_recurring_send_custom_on_renew']                      = 'Skicka fakturan till kundens e-post när kostnad upprepas';
 $lang['expense_recurring_autocreate_invoice_tooltip']                = 'Om det här alternativet är markerat. kommer fakturan för kunden att automatiskt skapas när kostnaden förnyas.';
-$lang['report_expenses_full']                                        = 'Full rapport';
 $lang['expenses_yearly_by_categories']                               = 'Kostnader. Årligen efter kategori';
 $lang['total_expenses_for']                                          = 'Totala Kostnader för'; // År
 $lang['expenses_report_for']                                         = 'Kostnader för'; // År
@@ -1721,9 +1590,7 @@ $lang['shipping_country']                   = 'Land';
 $lang['get_shipping_from_customer_profile'] = 'Hämta fraktdetaljer från kundens profil';
 
 # Customer
-$lang['customer_file_from']                                    = 'Visar Från %s';
 $lang['customer_default_currency']                             = 'Standard valuta (SEK)';
-$lang['customer_no_attachments_found']                         = 'Ingen bifogad fil funnen';
 $lang['customer_update_address_info_on_invoices']              = 'Uppdatera frakt / fakturerings info på alla tidigare fakturor och offerter';
 $lang['customer_update_address_info_on_invoices_help']         = 'Om du markerar det här fältet kommer leverans- och fakturerings information att uppdateras till alla fakturor och offerter. Obs: Fakturor med status betald kommer inte att påverkas.';
 $lang['setup_google_api_key_customer_map']                     = 'Ställ in google api key För att kunna se kartan för kunderna';
@@ -1742,11 +1609,9 @@ $lang['customer_latitude']                                     = 'Latitude (Goog
 $lang['admin_auth_set_password']          = 'Lösenord';
 $lang['admin_auth_set_password_repeat']   = 'Repetera lösenord';
 $lang['admin_auth_set_password_heading']  = 'Ställ in lösenord';
-$lang['password_set_email_subject']       = 'Sätt nytt lösenord på %s';
 # General
 $lang['apply']                            = 'Tillämpa';
 $lang['department_calendar_id']           = 'Google Calendar ID';
-$lang['kan_ban_string']                   = 'Kan Ban';
 $lang['localization_default_language']    = 'Standard språk';
 $lang['system_default_string']            = 'System Standard';
 $lang['advanced_options']                 = 'Avancerade alternativ';
@@ -1758,8 +1623,6 @@ $lang['expense_list_unbilled']            = 'Ej Fakturerad';
 $lang['lead_merge_custom_field']          = 'Slå ihop som anpassat fält';
 $lang['lead_merge_custom_field_existing'] = 'Slå ihop med databasfält';
 $lang['lead_dont_merge_custom_field']     = 'Slå ej ihop';
-$lang['no_lead_notes_found']              = 'Ingen kundämne notering funnen';
-$lang['leads_view_list']                  = 'Lista';
 $lang['lost_leads']                       = 'Förlorade kundämnen';
 $lang['junk_leads']                       = 'Skräp Ämne';
 $lang['lead_mark_as_lost']                = 'Markera som missad';
@@ -1817,7 +1680,6 @@ $lang['copy_custom_fields_convert_to_customer']                      = 'Kopiera 
 $lang['copy_custom_fields_convert_to_customer_help']                 = 'Om någon av följande anpassade fält inte existerar för kunden, kommer det att automatiskt skapas med samma namn annars kommer bara värdet att kopieras Från ledningens profil.';
 $lang['lead_profile']                                                = 'Profile';
 $lang['lead_is_client']                                              = 'Kund';
-$lang['leads_kan_ban_notes_title']                                   = 'Notering';
 $lang['leads_email_integration_folder_no_encryption']                = 'Ingen kryptering';
 $lang['leads_email_integration']                                     = 'Integrerad epost';
 $lang['leads_email_active']                                          = 'Aktive';
@@ -1859,20 +1721,12 @@ $lang['bulk_export_status']            = 'Status';
 $lang['bulk_export_zip_payment_modes'] = 'Made payments by';
 $lang['bulk_export_include_tag']       = 'inkluderar Tag';
 $lang['bulk_export_include_tag_help']  = 'eq. Original eller kopia. Taggen kommer att matas ut i PDF-filen. Rekommenderas att använda endast en tagg';
-# Predefined replies
-$lang['no_predefined_replies_found']   = 'Inga fördefinierade svar hittades';
 ## Clients area
-$lang['clients_contract_attachments']  = 'Bilagor';
-# Backup
-$lang['backup_type_full']              = 'Hel Backup';
-$lang['backup_type_db']                = 'Databas Backup';
-
 $lang['auto_backup_options_updated']     = 'Auto backup alternativ uppdateras';
 $lang['auto_backup_every']               = 'Skapa en backup varje X dag';
 $lang['auto_backup_enabled']             = 'Aktiv (Kräver Cron)';
 $lang['auto_backup']                     = 'Auto backup';
 $lang['backup_delete']                   = 'Backup Raderad';
-$lang['create_backup']                   = 'Skapa Backup';
 $lang['backup_success']                  = 'Backup är gjord';
 $lang['utility_backup']                  = 'Databas Backup';
 $lang['utility_create_new_backup_db']    = 'Skapa Databas Backup';
@@ -1889,7 +1743,6 @@ $lang['clients_nav_support']   = 'Support';
 $lang['more']                  = 'Mer';
 $lang['add_item']              = 'Lägg till Produkt';
 $lang['goto_admin_area']       = 'Gå till administrering';
-$lang['click_here_to_edit']    = 'Klicka här för att ändra';
 $lang['delete']                = 'Radera %s';
 $lang['welcome_top']           = 'Välkommen %s';
 
@@ -1932,16 +1785,12 @@ $lang['bulk_export_pdf_proposals'] = 'Förslag';
 
 # Invoices
 $lang['delete_invoice'] = 'Radera';
-
-# Calendar
-$lang['calendar_lead_reminder'] = 'Kundämnes Påminnelse';
-
 $lang['items']      = 'Produkter';
 $lang['support']    = 'Support';
 $lang['new_ticket'] = 'Nytt Ärende';
 
 # Reminders
-$lang['client_edit_set_reminder_title'] = 'Skapa en kundpåminnelse';
+$lang['calendar_lead_reminder'] = 'Kundämnes Påminnelse';
 $lang['lead_set_reminder_title']        = 'Skapa en på minnelse för kundämne';
 $lang['set_reminder_tooltip']           = 'Det här alternativet låter dig aldrig glömma något om dina kunder.';
 $lang['client_reminders_tab']           = 'Påminnelse';
@@ -1986,7 +1835,6 @@ $lang['view_estimate_as_client']         = 'Visa offert som kunden ser den';
 $lang['estimate_mark_as']                = 'Markera som %s';
 $lang['estimate_status_changed_success'] = 'Offertstatus ändrad';
 $lang['estimate_status_changed_fail']    = 'Failed to change estimate status';
-$lang['estimate_email_link_text']        = 'Visa offert';
 
 # Proposals
 $lang['proposal_to']                            = 'Företag / Namn';
@@ -2099,7 +1947,6 @@ $lang['utilities_menu_translate_name_help'] = 'Du kan lägg till här, och ocks�
 $lang['utilities_menu_icon']                = 'Ikon';
 $lang['active_menu_items']                  = 'Aktiva menyposter';
 $lang['inactive_menu_items']                = 'Inaktiva menyposter';
-$lang['utilities_menu_permission']          = 'Rättigheter';
 $lang['utilities_menu_url']                 = 'URL';
 $lang['utilities_menu_name']                = 'Namn';
 $lang['utilities_menu_save']                = 'Spara menyn';
@@ -2107,7 +1954,6 @@ $lang['utilities_menu_save']                = 'Spara menyn';
 # Knowledge Base
 $lang['view_articles_list']     = 'Visa artikel';
 $lang['view_articles_list_all'] = 'Alla artiklar';
-$lang['als_add_article']        = 'Lägg till artikel';
 $lang['als_all_articles']       = 'Artiklar';
 $lang['als_kb_groups']          = 'Grupper';
 
@@ -2282,14 +2128,6 @@ $lang['leads_sort_by'] = 'Sortera som';
 $lang['leads_sort_by_datecreated'] = 'Datum skapat';
 $lang['leads_sort_by_kanban_order'] = 'KanBan Sortera';
 
-# Proposals
-$lang['proposal_items_name'] = 'Produkt';
-$lang['proposal_items_description'] = 'Beskrivning';
-$lang['proposal_items_qty'] = 'Antal';
-$lang['proposal_items_rate'] = 'Taxa';
-$lang['proposal_items_tax'] = 'Moms';
-$lang['proposal_items_amount'] = 'Summa';
-
 # Authentication
 $lang['check_email_for_resetting_password'] = 'Kontrollera din e-post för ytterligare instruktioner att återställa ditt lösenord';
 $lang['inactive_account'] = 'Inaktivt konto';
@@ -2297,7 +2135,6 @@ $lang['error_setting_new_password_key'] = 'Fel! när nytt lösenord skulle skapa
 $lang['password_reset_message'] = 'Ditt lösenord har blivit återställt. Vänligen logga in nu!';
 $lang['password_reset_message_fail'] = 'Fel när du återställde lösenordet. Försök igen.';
 $lang['password_reset_key_expired'] = 'Lösenords Nyckeln har gått ut eller så är det en ogiltig användare';
-$lang['admin_auth_reset_pass_repeat'] = 'Repetera lösenord';
 $lang['auth_reset_pass_email_not_found'] = 'Hittade inte eposten';
 $lang['auth_reset_password_submit'] = 'Återställ lösenord';
 
@@ -2318,10 +2155,6 @@ $lang['report_invoice_amount'] = 'Summa';
 $lang['report_invoice_amount_with_tax'] = 'Summa med moms';
 $lang['report_invoice_amount_open'] = 'Amount open';
 $lang['report_invoice_status'] = 'Status';
-$lang['report_invoice_total_amount_with_tax'] = 'Totalsumma med moms';
-$lang['report_invoice_total_amount_without_tax'] = 'Totalsumma utan moms';
-$lang['report_invoice_total_taxes'] = 'Moms';
-
 #Version 1.0.9
 
 # Home stats
@@ -2359,11 +2192,9 @@ $lang['zip_payments'] = 'Zip Betalnings';
 $lang['setup_help'] = '--';
 $lang['clients_list_company'] = 'Företag';
 $lang['dt_button_export'] = 'Exportera';
-
 $lang['dt_entries'] = 'poster';
 $lang['invoice_total_paid'] = 'Totalt betalt';
 $lang['invoice_amount_due'] = 'Belopp att betala';
-$lang['report_invoice_discount'] = 'Rabatter';
 
 # Calendar
 $lang['calendar_project'] = 'Projekt';
@@ -2386,7 +2217,6 @@ $lang['seconds'] = 'Sekunder';
 $lang['minutes'] = 'Minuter';
 $lang['task_start_timer'] = 'Starta Timer';
 $lang['task_stop_timer'] = 'Stoppa Timer';
-$lang['task_billable_help'] = 'Om du markerar debiterbar uppgift kommer den att visas när du skapar fakturan som en artikel / objekt';
 $lang['task_billable'] = 'Debiterbar';
 $lang['task_billable_yes'] = 'Debiterbar';
 $lang['task_billable_no'] = 'Ej Debiterbar';
@@ -2437,8 +2267,6 @@ $lang['project_status_1'] = 'Ej startat';
 $lang['project_status_2'] = 'Pågående';
 $lang['project_status_3'] = 'Pausad';
 $lang['project_status_4'] = 'Klart';
-
-$lang['project_file_uploaded_by_customer'] = 'Kunder';
 $lang['project_file_dateadded'] = 'Uppladdat den';
 $lang['project_file_filename'] = 'Filnamn';
 $lang['project_file__filetype'] = 'Filtyp';
@@ -2606,11 +2434,6 @@ $lang['project_activity_status_updated'] = 'Uppdatera projektstatus';
 $lang['project_activity_visible_to_customer'] = 'Synlig för kunden';
 $lang['project_activity_project_file_removed'] = 'Ta bort projekt fil';
 
-# Notifications - DEPRECED - THESE notifications are depreced and will be removed in further released dont translate them
-$lang['not_customer_uploaded_project_file'] = 'Ny fil har laddats upp';
-$lang['not_customer_created_new_project_discussion'] = 'Ny projektdiskussion skapad';
-$lang['not_customer_commented_on_project_discussion'] = 'Ny kommentar i projektdiskussionen';
-
 # Customers area
 $lang['clients_my_estimates'] = 'Mina offerter';
 $lang['client_no_reply'] = 'Inget svar';
@@ -2648,7 +2471,6 @@ $lang['estimates_total_tax'] = 'Total moms';
 $lang['report_invoice_total_tax'] = 'Total moms';
 $lang['home_tickets'] = 'Flik';
 $lang['home_project_activity'] = 'Senaste projekt aktivitet';
-$lang['home_project_activity_not_found'] = 'Ingen projekt aktivitet hittades';
 $lang['view_tracking'] = 'Vy Spårning';
 $lang['view_date'] = 'Datum';
 $lang['view_ip'] = 'IP Adress';
@@ -2838,7 +2660,6 @@ $lang['tasks_total_comments'] = 'Kommentarer Totalt';
 $lang['task_finished_on_time'] = 'Avslutade i tid?';
 $lang['task_finished_on_time_indicator'] = 'Ja';
 $lang['task_not_finished_on_time_indicator'] = 'Nej';
-$lang['task_filter_fetch_month_by'] = 'Hämta månad Från';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'Alla månader';
 $lang['kb_article_slug'] = 'Logiskt';
@@ -2866,12 +2687,12 @@ $lang['leads_staff_report_converted'] = 'Totalt Konverterade kundämnen';
 $lang['leads_staff_report_created'] = 'Totalt skapade kundämnen';
 $lang['leads_staff_report_lost'] = 'Totalt förlorade kundämnen';
 $lang['client_go_to_dashboard'] = 'Åter till portalen';
-$lang['show_estimate_reminders_on_calendar'] = 'Offertpåminnelser';
-$lang['show_invoice_reminders_on_calendar'] = 'Fakturapåminnelser';
 $lang['calendar_estimate_reminder'] = 'Offertpåminnelse';
 $lang['calendar_invoice_reminder'] = 'Fakturapåminnelse';
-$lang['show_proposal_reminders_on_calendar'] = 'Påminnelse förslag';
 $lang['calendar_proposal_reminder'] = 'Påminnelse förslag';
+$lang['show_estimate_reminders_on_calendar'] = 'Offertpåminnelser';
+$lang['show_invoice_reminders_on_calendar'] = 'Fakturapåminnelser';
+$lang['show_proposal_reminders_on_calendar'] = 'Påminnelse förslag';
 $lang['proposal_due_after']= 'Proposal Due After (days)';
 $lang['project_progress']= 'Framsteg';
 $lang['calculate_progress_through_tasks']= 'Beräkna framsteg genom uppgifter';
@@ -2975,7 +2796,6 @@ $lang['billable_expenses_by_categories'] = 'Debiterbara kostnader per kategori';
 $lang['format_letter_size'] = 'A4 Landskap';
 $lang['pdf_formats'] = 'Dokument format';
 $lang['swap_pdf_info'] = 'Skifta Företag / Kunduppgifter (företagsinformation till höger, kunduppgifter till vänster)';
-$lang['invoice_estimate_pdf_text_color'] = 'Faktura / Offert textfärg';
 $lang['expenses_filter_by_categories'] = 'Per kategori';
 $lang['task_copy'] = 'Kopiera';
 $lang['estimate_status'] = 'Status';
@@ -2986,7 +2806,6 @@ $lang['show_to_customer'] = 'Visa för kunden';
 $lang['hide_from_customer'] = 'Göm för kunden';
 $lang['expenses_report_total'] = 'Total';
 $lang['expenses_report'] = 'Kostnads rapport';
-$lang['expenses_report_tax'] = 'Moms';
 $lang['expenses_report_total_tax'] = 'Total moms';
 $lang['expenses_detailed_report'] = 'Detalierad rapport';
 $lang['expense_not_billable'] = 'Ej fakturerbart';
@@ -3005,7 +2824,6 @@ $lang['outstanding_invoices'] = 'Obetalda fakturor';
 $lang['past_due_invoices'] = 'Förfallna fakturor';
 $lang['paid_invoices'] = 'Betalda fakturor';
 $lang['invoice_estimate_year'] = 'År';
-$lang['no_results_text_search_dropdown'] = 'Inga resultat Matchade';
 $lang['task_stats_logged_hours'] = 'Loggade timmar';
 $lang['leads_converted_to_client'] = 'Konverterade kundämnen';
 $lang['task_assigned_from'] = 'Denna uppgift är tilldelad dig av %s';
@@ -3039,7 +2857,6 @@ $lang['paymentmethod_two_checkout_publishable_key'] = 'publik nyckel';
 $lang['payment_credit_card_number'] = 'Kortnummer';
 $lang['payment_credit_card_expiration_date'] = 'Utångsdatum';
 $lang['payment_billing_email'] = 'Epost';
-$lang['payment_billing_name'] = 'Fakturanamn';
 $lang['submit_payment'] = 'Skicka Betalning';
 $lang['2checkout_notice_payment'] = 'Kreditkortsuppgifter  behandlas säkert med token tillhandahållen Från 2Checkout';
 $lang['2checkout_usage_notice'] = 'SSL krävs om du använder 2Checkout betalnings API. Det krävs för att säkert kontakta tokenization och auktorisationen. Systemet kommer att fungera utan SSL, men detta kommer att placera dig ur plan, där det riskerar att avaktivering av API-behörigheter.överensstämmelse';
@@ -3079,11 +2896,9 @@ $lang['finance_overview'] = 'Finans översikt';
 $lang['project_custom_fields'] = 'Anpassade fält';
 $lang['total_tickets_related_to_project'] = 'Totalt ärenden kopplade till projekt';
 $lang['projects_total_invoices_created'] = 'Totala fakturor som skapas';
-$lang['total_invoiced_amount'] = 'Totala fakturor som skapas';
 $lang['do_not_send_invoice_payment_email_template_contact'] = 'Skicka inte fakturabetalning är registreras via e-post till kundkontakter ';
 $lang['no_preview_available_for_file'] = 'Ingen förhandsgranskning för den här filen.';
 $lang['project_activity_deleted_file_discussion_comment'] = 'Diskussionskommentar för filen borttagen';
-$lang['file_not_found'] = 'Fil hittades ej';
 $lang['email_template_discussion_info'] = 'Denna mall används för både projektdiskussions kommentarer e-post. (filer diskussioner och regelbundna diskussioner)';
 $lang['format_a4_portrait_size'] = 'Portrait';
 $lang['only_show_contact_tickets'] = 'I kundprofil  visa bara Ärenden i samband med den inloggade kontakten (primär kontakt tillämpas inte)';
@@ -3163,12 +2978,10 @@ $lang['auto_assign_customer_admin_after_lead_convert_help'] = 'Om det här alter
 $lang['auto_close_tickets_disable'] = 'Sätt 0 för att avaktivera';
 $lang['task_checklist_item_completed_by'] = 'Avslutat av %s';
 $lang['staff_email_signature_help'] = 'Om tom standard e-signatur, Kommer Inställningarna Från att användas';
-$lang['customer_sales'] = 'Försäljning';
 $lang['default_task_priority'] = 'Normal prioritering';
 $lang['project_send_created_email'] = 'Skicka e-post att projekt har skapats';
 $lang['survey_send_to_lists'] = 'Undersökning - skicka lista';
 $lang['survey_send_notice'] = 'Eposten kommer skickas via CRON JOB per timme.';
-$lang['view_permission_auto_checked'] = 'VISA-rättigheter auto markeras. Du måste välja VISA rättighet om du vill använda REDIGERA, skapa och radera ordentligt. REDIGERA, skapa, radera kan inte användas utan VISA rättigheter eftersom VISA är ett globalt tillstånd och användaren kommer inte att kunna öppna data och utföra de åtgärderna.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf'] = 'Visa fakturabetalningar (transaktioner) på PDF';
@@ -3190,7 +3003,6 @@ $lang['task_status_4'] = 'Pågående';
 $lang['task_status_5'] = 'Klar';
 $lang['task_mark_as'] = 'markera som %s';
 $lang['task_marked_as_success'] = 'Uppgifter markerade med  %s är genomförda';
-$lang['task_drag_drop_notice'] = 'Dra och släpp används endast för att enkelt ändra %s. Ordningen kommer inte ändras för denna plats.';
 $lang['search_tasks'] = 'Sök uppgift';
 $lang['tasks_kanban_limit'] = 'Begränsa uppgifter i KanBan raderna per status';
 $lang['show_on_invoice_on_pdf'] = 'Visa %s på PDF fakturan';
@@ -3224,7 +3036,6 @@ $lang['not_published_new_post'] = 'Publicerat nytt inlägg';
 $lang['expense_name'] = 'Namn';
 $lang['expense_name_help'] = 'För personligt bruk';
 $lang['adjustments'] = 'Justeringar';
-$lang['tax_breakdown'] = 'Skattefördelning';
 $lang['payments_received'] = 'Betalning mottagen';
 $lang['not_lead_activity_created_proposal'] = 'Skapa nytt förslag - %s';
 $lang['lead_title'] = 'Position';
@@ -3439,7 +3250,6 @@ $lang['new_task_auto_assign_current_member'] = 'Auto assign task creator when ne
 $lang['new_task_auto_assign_current_member_help'] = 'Not applied if task is linked to project and the creator is not project member';
 $lang['copy_project_tasks_status'] = 'Tasks Status';
 $lang['tasks_summary'] = 'Tasks Summary';
-$lang['show_gantt_by'] = 'Show Gantt View by';
 $lang['vault'] = 'Vault';
 $lang['new_vault_entry'] = 'New Vault Entry';
 $lang['server_address'] = 'Server Address';
@@ -3603,3 +3413,28 @@ $lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Descript
 # Version 1.9.3
 $lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
 $lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+
+# Version 1.9.4
+$lang['default_task_status'] = 'Default status when new task is created';
+$lang['custom_field_pdf_html_help'] = 'Make sure you check ' . $lang['custom_field_show_on_client_portal'] . ' field if you want the custom fields to be visible to customers area and when customer download PDF or receive PDF via email.';
+$lang['auto'] = 'Auto';
+$lang['email_queue'] = 'Email Queue';
+$lang['email_queue_enabled'] = 'Enable Email Queue';
+$lang['email_queue_skip_attachments'] = 'Do not add emails with attachments in the queue.';
+$lang['disable'] = 'Disable';
+$lang['enable'] = 'Enable';
+$lang['auto_dismiss_desktop_notifications_after'] = 'Auto Dismiss Desktop Notifications After X Seconds (0 to disable)';
+$lang['proposal_info_format'] = 'Proposal Info Format (PDF and HTML)';
+$lang['hide_tasks_on_main_tasks_table'] = 'Hide project tasks on main tasks table (admin area)';
+$lang['ticket_replies_order'] = 'Ticket Replies Order';
+$lang['ticket_replies_order_notice'] = 'The initial ticket message will be always shown as first.';
+$lang['invoice_cancelled_email_disabled'] = 'Invoice is cancelled. Unmark as cancelled to enable email to client';
+$lang['email_notifications'] = 'Email Notifications';
+$lang['invoice_activity_record_payment_email_to_customer'] = 'Payment recorded, email sent to: %s';
+$lang['exclude_inactive'] = 'Exclude Inactive';
+$lang['disable_all'] = 'Disable All';
+$lang['enable_all'] = 'Enable All';
+$lang['reccuring_invoice_option_gen_and_send'] = 'Generate and Autosend the renewed invoice to the customer';
+$lang['reccuring_invoice_option_gen_unpaid'] = 'Generate a Unpaid Invoice';
+$lang['reccuring_invoice_option_gen_draft'] = 'Generate a Draft Invoice';
+$lang['event_created_by'] = 'This event is created by %s';
