@@ -488,7 +488,6 @@ $lang['dt_paginate_first']          = 'В начало';
 $lang['dt_paginate_last']           = 'В конец';
 $lang['dt_paginate_next']           = 'Далее';
 $lang['dt_paginate_previous']       = 'Назад';
-$lang['dt_empty_table']             = 'Ничего не нашли';
 $lang['dt_search']                  = 'Поиск:';
 $lang['dt_zero_records']            = 'Нет подходящих записей';
 $lang['dt_loading_records']         = 'Загружаем...';

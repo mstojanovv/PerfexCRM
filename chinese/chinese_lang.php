@@ -555,7 +555,6 @@ $lang['dt_paginate_first']          = '第一';
 $lang['dt_paginate_last']           = '最后';
 $lang['dt_paginate_next']           = '下一个';
 $lang['dt_paginate_previous']       = '以前';
-$lang['dt_empty_table']             = '没有找到{0}';
 $lang['dt_search']                  = '搜索:';
 $lang['dt_zero_records']            = '未找到匹配记录';
 $lang['dt_loading_records']         = '加载…';

@@ -554,7 +554,6 @@ $lang['dt_paginate_first']          = 'Primero';
 $lang['dt_paginate_last']           = 'Último';
 $lang['dt_paginate_next']           = 'Siguiente';
 $lang['dt_paginate_previous']       = 'Anterior';
-$lang['dt_empty_table']             = 'No {0} encontrado';
 $lang['dt_search']                  = 'Buscar:';
 $lang['dt_zero_records']            = 'No se encontraron coincidencias';
 $lang['dt_loading_records']         = 'Cargando...';

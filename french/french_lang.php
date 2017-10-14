@@ -514,7 +514,6 @@ $lang['dt_paginate_first']          = 'Première';
 $lang['dt_paginate_last']           = 'Dernière';
 $lang['dt_paginate_next']           = 'Suivante';
 $lang['dt_paginate_previous']       = 'Précédente';
-$lang['dt_empty_table']             = 'Aucun {0} trouvé';
 $lang['dt_search']                  = 'Rechercher :';
 $lang['dt_zero_records']            = 'Aucun enregistrement correspondant trouvé';
 $lang['dt_loading_records']         = 'Chargement...';

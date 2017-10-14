@@ -575,7 +575,6 @@ $lang['dt_paginate_first']          = 'Eerste';
 $lang['dt_paginate_last']           = 'Laatste';
 $lang['dt_paginate_next']           = 'Volgende';
 $lang['dt_paginate_previous']       = 'Vorige';
-$lang['dt_empty_table']             = 'Geen {0} Gevonden';
 $lang['dt_search']                  = 'Zoeken:';
 $lang['dt_zero_records']            = 'Geen overeenkomende resultaten gevonden';
 $lang['dt_loading_records']         = 'Laden...';

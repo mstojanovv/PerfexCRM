@@ -517,7 +517,6 @@ $lang['dt_paginate_first']          = 'Birinci';
 $lang['dt_paginate_last']           = 'Son';
 $lang['dt_paginate_next']           = 'Sonraki';
 $lang['dt_paginate_previous']       = 'Önceki';
-$lang['dt_empty_table']             = 'Kayıt bulunamadı';
 $lang['dt_search']                  = 'Ara:';
 $lang['dt_zero_records']            = 'Kayıt bulunamadı';
 $lang['dt_loading_records']         = 'Yükleniyor...';

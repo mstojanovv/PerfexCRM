@@ -488,7 +488,6 @@ $lang['dt_paginate_first']          = 'Đầu';
 $lang['dt_paginate_last']           = 'Cuối';
 $lang['dt_paginate_next']           = 'Đi tới';
 $lang['dt_paginate_previous']       = 'Lùi lại';
-$lang['dt_empty_table']             = 'Không tìm thấy {0}';
 $lang['dt_search']                  = 'Tìm kiếm...';
 $lang['dt_zero_records']            = 'Không tìm thấy báo cáo trùng khớp nào';
 $lang['dt_loading_records']         = 'Đang tải...';

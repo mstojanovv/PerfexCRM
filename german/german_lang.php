@@ -487,7 +487,6 @@ $lang['dt_paginate_first']                                                    = 
 $lang['dt_paginate_last']                                                     = 'Letzte';
 $lang['dt_paginate_next']                                                     = 'vor';
 $lang['dt_paginate_previous']                                                 = 'zurück';
-$lang['dt_empty_table']                                                       = 'Kein {0} gefunden';
 $lang['dt_search']                                                            = 'Suchen';
 $lang['dt_zero_records']                                                      = 'Keine passenden Einträge gefunden';
 $lang['dt_loading_records']                                                   = 'Lade...';

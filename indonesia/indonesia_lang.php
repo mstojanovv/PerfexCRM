@@ -563,7 +563,6 @@ $lang['dt_paginate_first']          = 'Pertama';
 $lang['dt_paginate_last']           = 'Terakhir';
 $lang['dt_paginate_next']           = 'Berikutnya';
 $lang['dt_paginate_previous']       = 'Sebelumnya';
-$lang['dt_empty_table']             = 'Tidak ada {0} ditemukan';
 $lang['dt_search']                  = 'Pencarian:';
 $lang['dt_zero_records']            = 'Tidak ada catatan yang cocok ditemukan';
 $lang['dt_loading_records']         = 'Pemuatan...';

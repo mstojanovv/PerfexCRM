@@ -515,7 +515,6 @@ $lang['dt_paginate_first']          = 'اولين';
 $lang['dt_paginate_last']           = 'آخرين';
 $lang['dt_paginate_next']           = 'بعدي';
 $lang['dt_paginate_previous']       = 'قبلي';
-$lang['dt_empty_table']             = 'يافت نشد{0}';
 $lang['dt_search']                  = 'جستجو:';
 $lang['dt_zero_records']            = 'هيچ رکورد منطبقي يافت نشد';
 $lang['dt_loading_records']         = 'بارگذاري...';

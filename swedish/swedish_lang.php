@@ -548,7 +548,6 @@ $lang['dt_paginate_first']          = 'Första';
 $lang['dt_paginate_last']           = 'Sista';
 $lang['dt_paginate_next']           = 'Nästa';
 $lang['dt_paginate_previous']       = 'Tidigare';
-$lang['dt_empty_table']             = 'Inga {0} funna';
 $lang['dt_search']                  = 'Sök:';
 $lang['dt_zero_records']            = 'Inga matchande journaler';
 $lang['dt_loading_records']         = 'Laddililaddar lite...';

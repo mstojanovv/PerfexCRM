@@ -511,7 +511,6 @@ $lang['dt_paginate_first']          = 'First';
 $lang['dt_paginate_last']           = 'Last';
 $lang['dt_paginate_next']           = 'Next';
 $lang['dt_paginate_previous']       = 'Previous';
-$lang['dt_empty_table']             = 'No {0} found';
 $lang['dt_search']                  = 'Search...';
 $lang['dt_zero_records']            = 'No matching records found';
 $lang['dt_loading_records']         = 'Loading...';

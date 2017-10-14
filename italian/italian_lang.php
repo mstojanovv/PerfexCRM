@@ -551,7 +551,6 @@ $lang['dt_paginate_first']          = 'Primo';
 $lang['dt_paginate_last']           = 'Ultimo';
 $lang['dt_paginate_next']           = 'Successivo';
 $lang['dt_paginate_previous']       = 'Precedente';
-$lang['dt_empty_table']             = 'Nessun {0} trovato';
 $lang['dt_search']                  = 'Cerca:';
 $lang['dt_zero_records']            = 'Nessuna corrispondenza trovata';
 $lang['dt_loading_records']         = 'Caricamento...';

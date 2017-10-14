@@ -550,7 +550,6 @@ $lang['dt_paginate_first']          = '初め';
 $lang['dt_paginate_last']           = '終わり';
 $lang['dt_paginate_next']           = '次';
 $lang['dt_paginate_previous']       = '前';
-$lang['dt_empty_table']             = '見つかりません{0}';
 $lang['dt_search']                  = '検索する:';
 $lang['dt_zero_records']            = '適合記録は検索されませんでした';
 $lang['dt_loading_records']         = 'ローディング...';
