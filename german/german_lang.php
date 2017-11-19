@@ -3040,9 +3040,9 @@ $lang['save']                                                                 = 
 $lang['disable_languages']                                                    = 'Sprachen deaktivieren';
 
 # Version 1.8.0
-$lang['not_customer_viewed_invoice']                                          = 'Die Rechnung mit der Nummer% s wurde eingesehen';
-$lang['not_customer_viewed_estimate']                                         = 'Das Angebot mit der Nummer% s wurde eingesehen';
-$lang['not_customer_viewed_proposal']                                         = 'Der Vorschlag mit der Nummer% s wurde eingesehen';
+$lang['not_customer_viewed_invoice']                                          = 'Die Rechnung %s wurde eingesehen';
+$lang['not_customer_viewed_estimate']                                         = 'Das Angebot %s wurde eingesehen';
+$lang['not_customer_viewed_proposal']                                         = 'Der Vorschlag %s wurde eingesehen';
 $lang['display_inline']                                                       = 'Inline anzeigen';
 $lang['email_header']                                                         = 'Vordefinierter Header';
 $lang['email_footer']                                                         = 'Vordefinierter Footer';
