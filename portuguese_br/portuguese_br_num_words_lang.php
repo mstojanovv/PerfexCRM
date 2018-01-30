@@ -125,6 +125,7 @@ $currencies = array(
 );
 
 $currencies = do_action('before_number_format_render_languge_currencies',$currencies);
+
 foreach($currencies as $key =>$val){
     $lang['num_word_'.strtoupper($key)] = $val;
 }

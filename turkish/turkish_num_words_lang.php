@@ -122,9 +122,11 @@ $lang["num_word"] ="Yazıyla";
 $currencies = array(
     'USD'=>'Dolar',
     'EUR'=>'Euro',
+    'TRY'=>'Lira',
 );
 
 $currencies = do_action('before_number_format_render_languge_currencies',$currencies);
+
 foreach($currencies as $key =>$val){
     $lang['num_word_'.strtoupper($key)] = $val;
 }

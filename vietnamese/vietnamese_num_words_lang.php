@@ -114,13 +114,18 @@ $lang["num_word_trillion"] ="Nghìn tỷ";
 $lang["num_word_zillion"] ="Trăm nghìn tỷ";
 $lang["num_word_cents"] ="Cent";
 $lang["number_word_and"] ="và";
+
 // Show in invoices and estimates
 $lang["num_word"] ="Bằng chữ";
+
 $currencies = array(
     'USD'=>'Đô-la',
     'EUR'=>'Ơ-rô',
+    'VND'=>'Đồng',
 );
+
 $currencies = do_action('before_number_format_render_languge_currencies',$currencies);
+
 foreach($currencies as $key =>$val){
     $lang['num_word_'.strtoupper($key)] = $val;
 }

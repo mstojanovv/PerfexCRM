@@ -513,33 +513,33 @@ $lang['settings_sales_postal_code']          = 'Postcode';
 $lang['settings_sales_phonenumber']          = 'Telefoon';
 
 # Leads
-$lang['new_lead']       = 'Nieuwe Tip';
-$lang['leads']          = 'Tips';
-$lang['lead']           = 'Tip';
-$lang['lead_lowercase'] = 'tip';
+$lang['new_lead']       = 'Nieuwe Lead';
+$lang['leads']          = 'Leads';
+$lang['lead']           = 'Lead';
+$lang['lead_lowercase'] = 'lead';
 $lang['leads_all']      = 'Alles';
 
 $lang['leads_canban_notes']  = 'Notities: %s';
 $lang['leads_canban_source'] = 'Bronnen: %s';
 
-$lang['lead_new_source']            = 'Nieuwe Tip';
-$lang['lead_sources']               = 'Tip Bronnen';
-$lang['lead_source']                = 'Tip Bron';
-$lang['lead_source_lowercase']      = 'tip bron';
-$lang['leads_sources_not_found']    = 'Geen Tip bronnen gevonden';
+$lang['lead_new_source']            = 'Nieuwe Bron';
+$lang['lead_sources']               = 'Lead Bronnen';
+$lang['lead_source']                = 'Lead Bron';
+$lang['lead_source_lowercase']      = 'lead bron';
+$lang['leads_sources_not_found']    = 'Geen Lead bronnen gevonden';
 $lang['leads_sources_table_name']   = 'Bron Naam';
 $lang['leads_source_add_edit_name'] = 'Bron Naam';
 
-$lang['lead_new_status']         = 'Nieuwe Tip Status';
-$lang['lead_status']             = 'Tip Status';
-$lang['lead_status_lowercase']   = 'Tip status';
+$lang['lead_new_status']         = 'Nieuwe Lead Status';
+$lang['lead_status']             = 'Lead Status';
+$lang['lead_status_lowercase']   = 'Lead status';
 $lang['leads_status_table_name'] = 'Status Naam';
 
 $lang['leads_status_add_edit_name']  = 'Status Naam';
 $lang['leads_status_add_edit_order'] = 'Volgorde';
 
-$lang['lead_statuses_not_found']      = 'Geen Tip Statussen Gevonden';
-$lang['leads_search']                 = 'Doorzoek Tips';
+$lang['lead_statuses_not_found']      = 'Geen Lead Statussen Gevonden';
+$lang['leads_search']                 = 'Doorzoek Leads';
 
 $lang['leads_table_total'] = 'Totale Aanwijzingen: %s';
 
@@ -554,15 +554,15 @@ $lang['lead_add_edit_name']                 = 'Naam';
 $lang['lead_add_edit_email']                = 'Email Adres';
 $lang['lead_add_edit_phonenumber']          = 'Telefoon';
 $lang['lead_add_edit_source']               = 'Bron';
-$lang['lead_add_edit_status']               = 'Tip Status';
+$lang['lead_add_edit_status']               = 'Lead Status';
 $lang['lead_add_edit_assigned']             = 'Toegewezen';
 $lang['lead_add_edit_datecontacted']        = 'Datum Gecontacteerd';
 $lang['lead_add_edit_contacted_today']      = 'Vandaag gecontacteerd';
 $lang['lead_add_edit_activity']             = 'Activiteiten Log';
 $lang['lead_add_edit_notes']                = 'Notities';
 $lang['lead_add_edit_add_note']             = 'Notitie Toevoegen';
-$lang['lead_not_contacted']                 = 'Ik heb nog geen contact gelegd met deze tip';
-$lang['lead_add_edit_contacted_this_lead']  = 'Ik heb contact gelegd met deze tip';
+$lang['lead_not_contacted']                 = 'Ik heb nog geen contact gelegd met deze lead';
+$lang['lead_add_edit_contacted_this_lead']  = 'Ik heb contact gelegd met deze lead';
 
 # Misc
 $lang['access_denied']              = 'Toegang Afgewezen';
@@ -599,7 +599,7 @@ $lang['wd_sunday']    = 'Zondag';
 # Admin Left Sidebar
 $lang['als_dashboard'] = 'Overzicht';
 $lang['als_clients']   = 'Klanten';
-$lang['als_leads']     = 'Tips';
+$lang['als_leads']     = 'Leads';
 $lang['als_contracts'] = 'Contracten';
 $lang['als_sales']       = 'Afzet';
 $lang['als_staff'] = 'Staff';
@@ -610,7 +610,7 @@ $lang['als_surveys']               = 'Enquêtes';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapporten';
 $lang['als_reports_sales_submenu'] = 'Afzet';
-$lang['als_reports_leads_submenu'] = 'Tips';
+$lang['als_reports_leads_submenu'] = 'Leads';
 $lang['als_kb_articles_submenu']   = 'IC Artikelen';
 $lang['als_utilities']             = 'Openbare Voorzieningen';
 $lang['als_announcements_submenu'] = 'Aankondigingen';
@@ -623,8 +623,8 @@ $lang['acs_ticket_statuses_submenu']           = 'Ticket Statussen';
 $lang['acs_ticket_predefined_replies_submenu'] = 'Voorgedefineerde Antwoorden';
 $lang['acs_ticket_services_submenu']           = 'Services';
 $lang['acs_departments']                       = 'Afdelingen';
-$lang['acs_leads']                             = 'Tips';
-$lang['acs_leads_sources_submenu']             = 'Tips';
+$lang['acs_leads']                             = 'Leads';
+$lang['acs_leads_sources_submenu']             = 'Leads';
 $lang['acs_leads_statuses_submenu']            = 'Statussen';
 $lang['acs_sales_taxes_submenu']               = 'Belasting';
 $lang['acs_sales_currencies_submenu']          = 'Munteenheid';
@@ -748,10 +748,8 @@ $lang['survey_send_success_note']      = 'Alle Enquête emails(%s) zullen verzon
 $lang['survey_result']                 = 'Resultaat voor enquête: %s';
 $lang['question_string']               = 'Vraag';
 $lang['question_field_string']         = 'Veld';
-
 $lang['survey_list_view_tooltip']         = 'Bekijk enquête';
 $lang['survey_list_view_results_tooltip'] = 'Bekijk Resultaten';
-
 $lang['survey_add_edit_subject']                   = 'Enquête Onderwerp';
 $lang['survey_add_edit_email_description']         = 'Enquête Beschrijving (Email Beschrijving)';
 $lang['survey_include_survey_link']                = 'Enquête link toevoegen aan beschrijving';
@@ -1032,9 +1030,9 @@ $lang['lead_convert_to_client']                   = 'Omzetten naar klant';
 $lang['lead_convert_to_email']                    = 'Email';
 $lang['lead_convert_to_client_firstname']         = 'Voornaam';
 $lang['lead_convert_to_client_lastname']          = 'Achternaam';
-$lang['lead_email_already_exists']                = 'Tip email bestaat al in klanten database';
-$lang['lead_to_client_base_converted_success']    = 'Tip succesvol omgezet naar klant';
-$lang['lead_have_client_profile']                 = 'Deze tip heeft een klanten profiel.';
+$lang['lead_email_already_exists']                = 'Lead email bestaat al in klanten database';
+$lang['lead_to_client_base_converted_success']    = 'Lead succesvol omgezet naar klant';
+$lang['lead_have_client_profile']                 = 'Deze lead heeft een klanten profiel.';
 $lang['lead_converted_edit_client_profile']       = 'Wijzig Profiel';
 
 # Invoices
@@ -1366,7 +1364,7 @@ $lang['calendar_customer_reminder']                     = 'Klant Herinnering';
 $lang['calendar_event']                               = 'Evenement';
 $lang['calendar_task']                                = 'Taken';
 # Leads
-$lang['lead_edit_delete_tooltip']                     = 'Verwijder Tip';
+$lang['lead_edit_delete_tooltip']                     = 'Verwijder Lead';
 $lang['lead_attachments']                             = 'Documenten';
 # Admin Customizer Sidebar
 $lang['acs_finance']                                  = 'Financiën';
@@ -1382,7 +1380,7 @@ $lang['settings_custom_pdf_logo_image_url_tooltip']   = 'U zult waarschijnlijk p
 $lang['sale_agent_string']               = 'Verkoper';
 $lang['amount_display_in_base_currency'] = 'Bedrag is weergegeven in uw standaar munteenheid - Gebruik dit rapport alleen als u 1 munteenheid gebruikt voor betalingen en kosten.';
 # Leads
-$lang['leads_summary']                                         = 'Tips Opsomming';
+$lang['leads_summary']                                         = 'Leads Opsomming';
 
 # Contracts
 $lang['contract_value']                 = 'Contract Waarde';
@@ -1462,12 +1460,12 @@ $lang['goal_failed']   = 'Gefaald';
 $lang['goal_close']    = 'Heel Dichtbij';
 
 $lang['goal_type_total_income']                                         = 'Behaal Totaal Inkomen';
-$lang['goal_type_convert_leads']                                        = 'Zet X Tips om in klanten';
+$lang['goal_type_convert_leads']                                        = 'Zet X Leads om in klanten';
 $lang['goal_type_increase_customers_without_leads_conversions']         = 'Klanten Nummer Verhogen';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Tips omzetting is geexcludeerd';
+$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Leads omzetting is geexcludeerd';
 
 $lang['goal_type_increase_customers_with_leads_conversions']         = 'Klanten Nummer Verhogen';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'Tips omzetting is geincludeerd';
+$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'Leads omzetting is geincludeerd';
 $lang['goal_type_make_contracts_by_type_calc_database']              = 'Maak contracten bij typen';
 $lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Is berekend van de datum toegevoegd aan de database';
 $lang['goal_type_make_contracts_by_type_calc_date']                  = 'Maak Contracten Bij Typen';
@@ -1540,7 +1538,7 @@ $lang['expenses_report_for']                                         = 'Kosten V
 # Custom fields
 $lang['custom_field_required']                                       = 'Verplicht';
 $lang['custom_field_show_on_pdf']                                    = 'Laat zien op PDF';
-$lang['custom_field_leads']                                          = 'Tips';
+$lang['custom_field_leads']                                          = 'Leads';
 $lang['custom_field_customers']                                      = 'Klanten';
 $lang['custom_field_staff']                                          = 'Staff';
 $lang['custom_field_contracts']                                      = 'Contracten';
@@ -1648,20 +1646,20 @@ $lang['expense_list_unbilled']            = 'Ongefactureerd';
 $lang['lead_merge_custom_field']          = 'Samen voegen als aangepast veld';
 $lang['lead_merge_custom_field_existing'] = 'Samen voegen met database veld';
 $lang['lead_dont_merge_custom_field']     = 'Niet samen voegen';
-$lang['lost_leads']                       = 'Verloren tips';
-$lang['junk_leads']                       = 'Junk tips';
+$lang['lost_leads']                       = 'Verloren leads';
+$lang['junk_leads']                       = 'Junk leads';
 $lang['lead_mark_as_lost']                = 'Markeer als verloren';
-$lang['lead_unmark_as_lost']              = 'Onmarkeer tip als verloren';
-$lang['lead_marked_as_lost']              = 'Tip succesvol gemarkeerd als verloren';
-$lang['lead_unmarked_as_lost']            = 'Tip succesvol ongemarkeerd als verloren';
+$lang['lead_unmark_as_lost']              = 'Onmarkeer lead als verloren';
+$lang['lead_marked_as_lost']              = 'Lead succesvol gemarkeerd als verloren';
+$lang['lead_unmarked_as_lost']            = 'Lead succesvol ongemarkeerd als verloren';
 $lang['leads_status_color']               = 'Kleur';
 
 $lang['lead_mark_as_junk']     = 'Markeer als junk';
-$lang['lead_unmark_as_junk']   = 'Onmarkeer tip als junk';
-$lang['lead_marked_as_junk']   = 'Tip succesvol gemarkeerd als junk';
-$lang['lead_unmarked_as_junk'] = 'Tip succesvol ongemarkeerd als junk';
+$lang['lead_unmark_as_junk']   = 'Onmarkeer lead als junk';
+$lang['lead_marked_as_junk']   = 'Lead succesvol gemarkeerd als junk';
+$lang['lead_unmarked_as_junk'] = 'Lead succesvol ongemarkeerd als junk';
 
-$lang['lead_not_found']                                                      = 'Tip niet gevonden';
+$lang['lead_not_found']                                                      = 'Lead niet gevonden';
 $lang['lead_lost']                                                           = 'Verloren';
 $lang['lead_junk']                                                           = 'Junk';
 $lang['leads_not_assigned']                                                  = 'Niet toegewezen';
@@ -1700,7 +1698,7 @@ $lang['show_tasks_on_calendar']            = 'Taken';
 $lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Kopieer aangepaste velden naar klant profiel';
-$lang['copy_custom_fields_convert_to_customer_help']                 = 'Als een van de volgende aangepaste velden niet bestaat voor klanten, dan zal deze automatisch gemaakt worden met dezelfde naam, anders zal alleen de waarde gekopieerd worden van de tip profiel.';
+$lang['copy_custom_fields_convert_to_customer_help']                 = 'Als een van de volgende aangepaste velden niet bestaat voor klanten, dan zal deze automatisch gemaakt worden met dezelfde naam, anders zal alleen de waarde gekopieerd worden van de lead profiel.';
 $lang['lead_profile']                                                = 'Profiel';
 $lang['lead_is_client']                                              = 'Klant';
 $lang['leads_email_integration_folder_no_encryption']                = 'Geen Encryptie';
@@ -1711,15 +1709,15 @@ $lang['leads_email_integration_email']                               = 'Email ad
 $lang['leads_email_integration_password']                            = 'Wachtwoord';
 $lang['leads_email_integration_default_source']                      = 'Standaard Bron';
 $lang['leads_email_integration_check_every']                         = 'Check Elke (minuten)';
-$lang['leads_email_integration_default_assigned']                    = 'Verantwoordelijk voor nieuwe tips.';
+$lang['leads_email_integration_default_assigned']                    = 'Verantwoordelijk voor nieuwe leads.';
 $lang['leads_email_encryption']                                      = 'Encryptie';
 $lang['leads_email_integration_updated']                             = 'Email Integratie Geupdate';
 $lang['leads_email_integration_default_status']                      = 'Standaard Status';
 $lang['leads_email_integration_folder']                              = 'Folder';
-$lang['leads_email_integration_notify_when_lead_imported']           = 'Op de hoogte stellen wanneer tip import';
+$lang['leads_email_integration_notify_when_lead_imported']           = 'Op de hoogte stellen wanneer lead import';
 $lang['leads_email_integration_only_check_unseen_emails']            = 'Alleen ongeopende emails checken';
 $lang['leads_email_integration_only_check_unseen_emails_help']       = 'Het script zal automatisch de emails als geopend zetten na het checken. Dit zorgt ervoor dat u niet alles opnieuw hoeft te openen. Het wordt niet aangeraden om deze optie uit te zetten als u veel emails heeft.';
-$lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Stel mij op de hoogte als tip meerdere malen contact probeert te krijgen';
+$lang['leads_email_integration_notify_when_lead_contact_more_times'] = 'Stel mij op de hoogte als lead meerdere malen contact probeert te krijgen';
 $lang['leads_email_integration_test_connection']                     = 'Test IMAP Connectie';
 $lang['lead_email_connection_ok']                                    = 'IMAP Connectie is goed';
 $lang['lead_email_connection_not_ok']                                = 'IMAP Connectie is niet goed';
@@ -1796,7 +1794,7 @@ $lang['default_pass_clients_import'] = 'Standaard wachtwoord voor alle contacten
 $lang['simulate_import']             = 'Simuleer Import';
 $lang['import_upload_failed']        = 'Upload Mislukt';
 $lang['import_total_imported']       = 'Totaal Geimporteerd: %s';
-$lang['import_leads']                = 'Import Tips';
+$lang['import_leads']                = 'Import Leads';
 $lang['import_customers']            = 'Import Klanten';
 $lang['choose_csv_file']             = 'Kies CSV Document';
 $lang['import']                      = 'Import';
@@ -1813,8 +1811,8 @@ $lang['support']    = 'Support';
 $lang['new_ticket'] = 'Nieuwe Ticket';
 
 # Reminders
-$lang['calendar_lead_reminder'] = 'Tip Herinnering';
-$lang['lead_set_reminder_title']        = 'Tip herinnering toevoegen';
+$lang['calendar_lead_reminder'] = 'Lead Herinnering';
+$lang['lead_set_reminder_title']        = 'Lead herinnering toevoegen';
 $lang['set_reminder_tooltip']           = 'Deze optie maakt het mogelijk om nooit meer iets te vergeten over uw klant'.
 $lang['client_reminders_tab']           = 'Herinneringen';
 $lang['leads_reminders_tab']            = 'Herinneringen';
@@ -1848,7 +1846,7 @@ $lang['reminder_deleted']                                         = 'Herinnering
 $lang['reminder_failed_to_delete']                                = 'Herinnering verwijderen mislukt';
 $lang['show_invoice_estimate_status_on_pdf']                      = 'Laat factuur/schatting status zien op PDF';
 $lang['email_piping_default_priority']                            = 'Standaard prioriteit op gepijpde ticket';
-$lang['show_lead_reminders_on_calendar']                          = 'Tip Herinneringen';
+$lang['show_lead_reminders_on_calendar']                          = 'Lead Herinneringen';
 $lang['tickets_piping']                                           = 'Email Pijpen';
 $lang['email_piping_only_replies']                                = 'Alleen antwoorden toestaan via email';
 $lang['email_piping_only_registered']                             = 'Pijp alleen op geregistreerde gebruiker';
@@ -1876,10 +1874,10 @@ $lang['proposal_subject']                       = 'Onderwerp';
 $lang['proposal_total']                         = 'Totaal';
 $lang['proposal_status']                        = 'Status';
 $lang['proposals_list_all']                     = 'Alles';
-$lang['proposals_leads_related']                = 'Tips Gerelateerd';
+$lang['proposals_leads_related']                = 'Leads Gerelateerd';
 $lang['proposals_customers_related']            = 'Klanten Gerelateerd';
 $lang['proposal_related']                       = 'Gerelateerd';
-$lang['proposal_for_lead']                      = 'Tip';
+$lang['proposal_for_lead']                      = 'Lead';
 $lang['proposal_for_customer']                  = 'Klant';
 $lang['proposal']                               = 'Voorstel';
 $lang['proposal_lowercase']                     = 'voorstel';
@@ -1914,7 +1912,7 @@ $lang['proposal_convert_estimate']              = 'Schatting';
 $lang['proposal_convert_invoice']               = 'Factuur';
 $lang['proposal_convert_to_estimate']           = 'Omzetten naar schatting';
 $lang['proposal_convert_to_invoice']            = 'Omzetten naar factuur';
-$lang['proposal_convert_to_lead_disabled_help'] = 'U moet de tip omzetten in een klant om %s ';
+$lang['proposal_convert_to_lead_disabled_help'] = 'U moet de lead omzetten in een klant om %s ';
 $lang['proposal_convert_not_related_help']      = 'Het voorstel moet gerelateerd zijn aan de klant om %s';
 $lang['proposal_converted_to_estimate_success'] = 'Voorstel succesvol omgezet naar schatting';
 $lang['proposal_converted_to_invoice_success']  = 'Voorstel succesvol omgezet naar Factuur';
@@ -2058,8 +2056,8 @@ $lang['not_invoice_sent_yes'] = 'Ja';
 $lang['not_invoice_sent_not'] = 'Nee';
 $lang['not_action_taken_from_recurring_invoice'] = 'Actie genomen van herhalende factuur:';
 $lang['not_new_reminder_for'] = 'Nieuwe herinnering voor %s';
-$lang['not_received_one_or_more_messages_lead'] = 'Nog een email ontvangen van tip';
-$lang['not_received_lead_imported_email_integration'] = 'Tip geimporteerd van email integratie';
+$lang['not_received_one_or_more_messages_lead'] = 'Nog een email ontvangen van lead';
+$lang['not_received_lead_imported_email_integration'] = 'Lead geimporteerd van email integratie';
 $lang['not_lead_imported_attachment'] = 'Document van email geimporteerd';
 $lang['not_estimate_status_change'] = 'Document van email geimporteerd';
 $lang['not_estimate_status_updated'] = 'Schatting Status Geupdate: Van: %s naar %s';
@@ -2068,26 +2066,26 @@ $lang['not_goal_message_success'] = 'Gefeliciteerd! We hebben een nieuw doel ber
 <br />Totaal Prestatie: %s
 <br />Start Datum: %s
 <br />Eind Datum: %s';
-$lang['not_assigned_lead_to_you'] = 'Heeft tip %s aan u toegewezen';
+$lang['not_assigned_lead_to_you'] = 'Heeft lead %s aan u toegewezen';
 $lang['not_lead_activity_assigned_to'] = '%s toegewezen aan %s';
 $lang['not_lead_activity_attachment_deleted'] = 'Verwijder Document';
-$lang['not_lead_activity_status_updated'] = '%s heeft tip status geupdate van: %s naar: %s';
-$lang['not_lead_activity_contacted'] = '%s heeft contact gezocht met zijn tip op %s';
-$lang['not_lead_activity_created'] = '%s heeft een tip gemaakt';
+$lang['not_lead_activity_status_updated'] = '%s heeft lead status geupdate van: %s naar: %s';
+$lang['not_lead_activity_contacted'] = '%s heeft contact gezocht met zijn lead op %s';
+$lang['not_lead_activity_created'] = '%s heeft een lead gemaakt';
 $lang['not_lead_activity_marked_lost'] = 'Gemarkeerd als verloren';
 $lang['not_lead_activity_unmarked_lost'] = 'Ongemarkeerd als verloren';
 $lang['not_lead_activity_marked_junk'] = 'Gemarkeerd als junk';
 $lang['not_lead_activity_unmarked_junk'] = 'Ongemarkeerd als junk';
 $lang['not_lead_activity_added_attachment'] = 'Document Toegevoegd';
-$lang['not_lead_activity_converted_email'] = 'Tip email is veranderd. Eerste tip email was: %s en is toegevoegd als klant met %s';
-$lang['not_lead_activity_converted'] = '%s heeft deze tip omgezet naar klant';
+$lang['not_lead_activity_converted_email'] = 'Lead email is veranderd. Eerste lead email was: %s en is toegevoegd als klant met %s';
+$lang['not_lead_activity_converted'] = '%s heeft deze lead omgezet naar klant';
 $lang['not_liked_your_post'] = '%s vond uw bericht leuk%s ...';
 $lang['not_commented_your_post'] = '%s heeft gereageerd op uw bericht%s ...';
 $lang['not_liked_your_comment'] = '%s vond uw comment leuk %s ...';
 $lang['not_proposal_assigned_to_you'] = 'Voorstel toegewezen aan u - %s ...';
 $lang['not_proposal_comment_from_client'] = 'Nieuwe comment van klant op voorstel %s ...';
-$lang['not_proposal_proposal_accepted'] = 'Voorstel Geaccepteerd';
-$lang['not_proposal_proposal_declined'] = 'Voorstel Afgewezen';
+$lang['not_proposal_proposal_accepted'] = 'Voorstel Geaccepteerd - %s';
+$lang['not_proposal_proposal_declined'] = 'Voorstel Afgewezen - %s';
 $lang['not_task_added_you_as_follower'] = 'heeft u toegevoegd als volger op de taak %s ...';
 $lang['not_task_added_someone_as_follower'] = 'heeft %s toegevoegd als volger op de taak %s ...';
 $lang['not_task_added_himself_as_follower'] = 'heeft zichzelf toegevoegd als volger op de taak %s ...';
@@ -2185,12 +2183,12 @@ $lang['home_stats_by_project_status'] = 'Statistieken op project status';
 $lang['home_invoice_overview'] = 'Factuur overzicht';
 $lang['home_estimate_overview'] = 'Schatting overzicht';
 $lang['home_proposal_overview'] = 'Voorstel overzicht';
-$lang['home_lead_overview'] = 'Tip overzicht';
+$lang['home_lead_overview'] = 'Lead overzicht';
 $lang['home_my_projects'] = 'Mijn Projecten';
 $lang['home_announcements'] = 'Aankondigingen';
 
 # Settings
-$lang['settings_leads_kanban_limit'] = 'Limiteer tips Kan Ban rijen per status';
+$lang['settings_leads_kanban_limit'] = 'Limiteer Leads Kan Ban rijen per status';
 $lang['settings_group_misc'] = 'Misc';
 $lang['show_projects_on_calendar'] = 'Projecten';
 $lang['settings_media_max_file_size_upload'] = 'Maximale document grootte tijdens uploaden media(MB)';
@@ -2199,7 +2197,6 @@ $lang['settings_client_staff_add_edit_delete_task_comments_first_hour'] = 'Klant
 $lang['email_template_only_domain_email'] = 'Alleen Domein Email';
 
 # Announcements
-$lang['dismiss_announcement'] = 'Aankondiging wegsturen';
 $lang['dismiss_announcement'] = 'Aankondiging wegsturen';
 $lang['announcement_from'] = 'Van:';
 $lang['announcement_date'] = 'Datum Geschreven: %s';
@@ -2558,7 +2555,7 @@ $lang['company_primary_email'] = 'Primaire email';
 $lang['client_register_contact_info'] = 'Primaire Contact Informatie';
 $lang['client_register_company_info'] = 'Bedrijf Informatie';
 $lang['contact_permissions_info'] = 'Zorg dat u de gepaste toestemmingen instelt voor dit contact.';
-$lang['default_leads_kanban_sort'] = 'Standaard tip Kan Ban Sort';
+$lang['default_leads_kanban_sort'] = 'Standaard lead Kan Ban Sort';
 $lang['default_leads_kanban_sort_type'] = 'Soort';
 $lang['order_ascending'] = 'Stijgend';
 $lang['order_descending'] = 'Afdalen';
@@ -2607,7 +2604,7 @@ $lang['client_old_password_incorrect']     = 'Uw oude wachtwoord is onjuist';
 $lang['client_password_changed']          = 'Uw wachtwoord is gewijzigd';
 
 # Version 1.1.4
-$lang['total_leads_deleted'] = 'Totaal verwijderde tips: %s';
+$lang['total_leads_deleted'] = 'Totaal verwijderde leads: %s';
 $lang['total_clients_deleted'] = 'Totaal verwijderde klanten: %s';
 $lang['confirm_action_prompt'] = 'Weet u zeker dat u deze actie wilt uitvoeren?';
 $lang['mass_delete'] = 'Massa Verwijderen';
@@ -2850,7 +2847,6 @@ $lang['invoice_estimate_year'] = 'Jaar';
 $lang['task_stats_logged_hours'] = 'Geregistreerde Uren';
 $lang['leads_converted_to_client'] = 'Geconverteerde Leads';
 $lang['task_assigned_from'] = 'deze taak is aan u toegewezen door %s';
-$lang['auto_check_for_new_notifications'] = 'Automatische controle voor nieuwe kennisgevingen (Seconden - Stel in als 0 om uit te schakelen)';
 $lang['recurring_ends_on'] = 'Eindigt Op (Laat leeg wanneer nooit)';
 $lang['new_note'] = 'Nieuwe Notitie';
 $lang['my_tickets_assigned'] = 'Tickets aan mij toegewezen';
@@ -3579,9 +3575,9 @@ $lang['not_task_status_changed'] = '%s - task status changed to %s';
 $lang['not_project_activity_task_status_changed'] = 'Task Status Changed';
 $lang['reset'] = 'Reset';
 $lang['save_message_as_predefined_reply'] = 'Save Message as Predefined Reply';
-$lang['inline_create_option'] = 'Allow none admin staff members to create %s in %s create/edit area?';
+$lang['inline_create_option'] = 'Allow non-admin staff members to create %s in %s create/edit area?';
 $lang['inline_create'] = 'Inline Create';
-$lang['inline_create_option_predefined_replies'] = 'Allow none admin staff members to save predefined replies from ticket message';
+$lang['inline_create_option_predefined_replies'] = 'Allow non-admin staff members to save predefined replies from ticket message';
 $lang['reminders_view_none_admin'] = 'Showing your reminders and reminders created by you.';
 $lang['show_tabs_and_options'] = 'Show Tabs & Options';
 $lang['no_milestones_found'] = 'This project has no milestones';
@@ -3589,3 +3585,23 @@ $lang['lead_is_contact_create_task'] = 'Create task if email sender is already c
 $lang['existing_customer'] = 'Existing Customer';
 $lang['use_company_name_instead'] = 'Use company name instead';
 $lang['customer_delete_transactions_warning'] = 'This customer has transactions, %s, you must delete the transactions or move to another customer in order to perform this action.';
+
+# Version 1.9.8
+$lang['sending_email_contact_permissions_warning'] =  'Failed to auto select customer contacts. Make sure that the customer has active contacts and associated contacts with email notifications for %s enabled.';
+$lang['help_leads_create_permission'] = 'All staff can create leads, except members marked as not staff members';
+$lang['help_leads_edit_permission'] = 'Everyone who has access to specific lead can edit most of the lead information';
+$lang['triggers'] = 'Triggers';
+$lang['notice_only_one_active_sms_gateway'] = 'Only 1 active SMS gateway is allowed';
+$lang['sms_trigger_disable_tip'] = 'Leave contents blank to disable specific trigger.';
+$lang['tables'] = 'Tables';
+$lang['only_project_tasks'] = 'Only project related tasks';
+$lang['download_all'] = 'Download All';
+$lang['settings_sales_credit_note_number_format'] = 'Credit Note Number Format';
+$lang['sms_reminder_sent_to'] = 'SMS reminder sent to %s';
+$lang['ideal_customer_statement_descriptor'] = 'Statement Descriptor (shown in customer bank statement)';
+$lang['payment_received_awaiting_confirmation'] = 'Your payment was received and is awaiting confirmation.';
+$lang['discount_fixed_amount'] = 'Fixed Amount';
+$lang['timesheet_duration_instead'] = 'Enter time duration instead';
+$lang['timesheet_date_instead'] = 'Set start and end time instead';
+$lang['allow_non_admin_members_to_import_leads'] = 'Allow non-admin staff members to import leads';
+$lang['project_hide_tasks_settings_info'] = 'Tasks are excluded from the main tasks table for this project, you can view the project tasks only in this area.';
