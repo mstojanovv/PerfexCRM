@@ -3493,3 +3493,10 @@ $lang['timesheet_duration_instead'] = 'Enter time duration instead';
 $lang['timesheet_date_instead'] = 'Set start and end time instead';
 $lang['allow_non_admin_members_to_import_leads'] = 'Allow non-admin staff members to import leads';
 $lang['project_hide_tasks_settings_info'] = 'Tasks are excluded from the main tasks table for this project, you can view the project tasks only in this area.';
+
+# Version 1.9.9
+$lang['ticket_create_no_contact'] = 'Ticket without contact';
+$lang['ticket_create_to_contact'] = 'Ticket to contact';
+$lang['showing_billable_tasks_from_project'] = 'Showing billable tasks from project';
+$lang['no_billable_tasks_found'] = 'Billable tasks not found';
+$lang['help_leads_permission_view'] = 'If this permission is not checked, a staff member will be only able to view leads to where is assigned, leads created by the staff member and leads that are marked as public';
