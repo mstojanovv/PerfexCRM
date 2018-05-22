@@ -3347,8 +3347,9 @@ $lang['allow_non_admin_members_to_import_leads']                              = 
 $lang['project_hide_tasks_settings_info']                                     = 'Aufgaben werden aus der Tabelle der Hauptaufgaben für dieses Projekt ausgeschlossen. Nur in diesem Bereich können die Projektaufgaben eingesehen werden.';
 
 # Version 1.9.9
-$lang['ticket_create_no_contact'] = 'Ticket without contact';
-$lang['ticket_create_to_contact'] = 'Ticket to contact';
-$lang['showing_billable_tasks_from_project'] = 'Showing billable tasks from project';
-$lang['no_billable_tasks_found'] = 'Billable tasks not found';
-$lang['help_leads_permission_view'] = 'If this permission is not checked, a staff member will be only able to view leads to where is assigned, leads created by the staff member and leads that are marked as public';
+$lang['ticket_create_no_contact']                                             = 'Ticket ohne Kontakt';
+$lang['ticket_create_to_contact']                                             = 'Ticket zum Kontakt';
+$lang['showing_billable_tasks_from_project']                                  = 'Anzeige abrechenbarer Aufgaben aus dem Projekt';
+$lang['no_billable_tasks_found']                                              = 'Abrechenbare Aufgaben nicht gefunden';
+$lang['help_leads_permission_view']                                           = 'Wenn diese Berechtigung nicht aktiviert ist, kann ein Mitarbeiter nur die Leads einsehen, denen er zugeordnet ist, die von ihm erstellt wurden und die als öffentlich gekennzeichnet sind.';
+
