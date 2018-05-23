@@ -1,6 +1,6 @@
 # <a href="http://perfexcrm.com">PerfexCRM</a>
 Perfex CRM - Language files
-Version 1.9.9
+Version 2.0.0
 
 <p>
     Perfex CRM is complete Customer Relationship Management software that is a great fit for almost any company, freelancer or many other uses. With its clean and modern design, Perfex CRM can help you look more professional to your customers and help improve business performance at the same time.
