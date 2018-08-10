@@ -3706,3 +3706,16 @@ $lang['test_sms_message'] = 'Pesan Percobaan';
 $lang['send_test_sms'] = 'Kirim SMS Percobaan';
 $lang['gdpr_short'] = 'GDPR';
 $lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Izinkan staf non-admin menghapus lampiran pada Tiket';
+
+# Version 2.1.0
+$lang['contract_number']                                = 'Contract Number';
+$lang['project_changing_status_recurring_tasks_notice'] = 'You are changing the status to {0}, all recurring tasks will be cancelled';
+$lang['not_contract_signed']                            = 'Contract with subject %s has been signed by the customer';
+$lang['the_number_sign']                                = '#';
+$lang['not_new_ticket_reply']                           = 'Customer replied to ticket - %s';
+$lang['receive_notification_on_new_ticket_replies']     = 'Receive notification when customer reply to a ticket';
+$lang['receive_notification_on_new_ticket_reply_help']  = 'All staff members which belong to the ticket department will receive notification when customer reply to a ticket';
+$lang['payment_gateway_enable_paypal']                  = 'Enable PayPal Payments';
+$lang['project_member']                                 = 'Project Member';
+$lang['contract_notes']                                 = 'Notes';
+$lang['contract_add_note']                              = 'Add Note';
