@@ -3663,14 +3663,14 @@ $lang['gdpr_short'] = 'GDPR';
 $lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Povolit ne-adminům odstranit přílohy tiketů';
 
 # Version 2.1.0
-$lang['contract_number']                                = 'Contract Number';
-$lang['project_changing_status_recurring_tasks_notice'] = 'You are changing the status to {0}, all recurring tasks will be cancelled';
-$lang['not_contract_signed']                            = 'Contract with subject %s has been signed by the customer';
+$lang['contract_number']                                = 'Číslo smlouvy';
+$lang['project_changing_status_recurring_tasks_notice'] = 'Právě měníte stav na {0}, všechny opakované úkoly budou zrušeny';
+$lang['not_contract_signed']                            = 'Smlouva s předmětem %s byla podepsána klientem';
 $lang['the_number_sign']                                = '#';
-$lang['not_new_ticket_reply']                           = 'Customer replied to ticket - %s';
-$lang['receive_notification_on_new_ticket_replies']     = 'Receive notification when customer reply to a ticket';
-$lang['receive_notification_on_new_ticket_reply_help']  = 'All staff members which belong to the ticket department will receive notification when customer reply to a ticket';
-$lang['payment_gateway_enable_paypal']                  = 'Enable PayPal Payments';
-$lang['project_member']                                 = 'Project Member';
-$lang['contract_notes']                                 = 'Notes';
-$lang['contract_add_note']                              = 'Add Note';
+$lang['not_new_ticket_reply']                           = 'Klient odpověděl na tiket - %s';
+$lang['receive_notification_on_new_ticket_replies']     = 'Dostat upozornění v případě, že klient odpoví na tiket';
+$lang['receive_notification_on_new_ticket_reply_help']  = 'Všichni zaměstnanci, kteří patří do tohoto oddělení dostanou upozornění v případě, že klient odpoví na tiket.';
+$lang['payment_gateway_enable_paypal']                  = 'Povolit PayPal platby';
+$lang['project_member']                                 = 'Člen projektu';
+$lang['contract_notes']                                 = 'Poznámky';
+$lang['contract_add_note']                              = 'Přidat poznámku';
