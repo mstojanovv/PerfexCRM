@@ -3505,14 +3505,14 @@ $lang['gdpr_short']                                                           = 
 $lang['allow_non_admin_staff_to_delete_ticket_attachments']                   = 'Erlaube Mitarbeiter ohne Adminrechte Ticket-Anhänge zu löschen.';
 
 # Version 2.1.0
-$lang['contract_number']                                                      = 'Contract Number';
-$lang['project_changing_status_recurring_tasks_notice']                       = 'You are changing the status to {0}, all recurring tasks will be cancelled';
-$lang['not_contract_signed']                                                  = 'Contract with subject %s has been signed by the customer';
+$lang['contract_number']                                                      = 'Vertragsnummer';
+$lang['project_changing_status_recurring_tasks_notice']                       = 'Wenn der Status auf {0} geändert wird, werden alle wiederkehrenden Aufgaben abgebrochen.';
+$lang['not_contract_signed']                                                  = 'Vertrag mit Betreff %s wurde vom Kunden unterschrieben';
 $lang['the_number_sign']                                                      = '#';
-$lang['not_new_ticket_reply']                                                 = 'Customer replied to ticket - %s';
-$lang['receive_notification_on_new_ticket_replies']                           = 'Receive notification when customer reply to a ticket';
-$lang['receive_notification_on_new_ticket_reply_help']                        = 'All staff members which belong to the ticket department will receive notification when customer reply to a ticket';
-$lang['payment_gateway_enable_paypal']                                        = 'Enable PayPal Payments';
-$lang['project_member']                                                       = 'Project Member';
-$lang['contract_notes']                                                       = 'Notes';
-$lang['contract_add_note']                                                    = 'Add Note';
+$lang['not_new_ticket_reply']                                                 = 'Kunde hat auf ein Ticket geantwortet - %s';
+$lang['receive_notification_on_new_ticket_replies']                           = 'Benachrichtigung erhalten, wenn der Kunde auf ein Ticket antwortet';
+$lang['receive_notification_on_new_ticket_reply_help']                        = 'Alle Mitarbeiter der Ticketabteilung erhalten eine Benachrichtigung, wenn der Kunde auf ein Ticket antwortet.';
+$lang['payment_gateway_enable_paypal']                                        = 'PayPal-Zahlungen aktivieren';
+$lang['project_member']                                                       = 'Projektmitglied';
+$lang['contract_notes']                                                       = 'Notizen';
+$lang['contract_add_note']                                                    = 'Notiz hinzufügen';
