@@ -3516,3 +3516,10 @@ $lang['payment_gateway_enable_paypal']                                        = 
 $lang['project_member']                                                       = 'Projektmitglied';
 $lang['contract_notes']                                                       = 'Notizen';
 $lang['contract_add_note']                                                    = 'Notiz hinzufügen';
+
+# Version 2.1.1
+$lang['frequency']         = 'Frequency';
+$lang['frequency_every']   = 'Every %s';
+$lang['last_invoice_date'] = 'Last Invoice Date';
+$lang['next_invoice_date'] = 'Next Invoice Date';
+$lang['enter_new_card']    = 'Enter New Card';
