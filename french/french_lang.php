@@ -1674,7 +1674,7 @@ $lang['clients_nav_support']   = 'Support';
 $lang['more']            = 'Options';
 $lang['add_item']        = 'Ajouter un article';
 $lang['goto_admin_area'] = 'Retour au tableau de bord';
-$lang['delete']          = 'Supprimmer %s';
+$lang['delete']          = 'Supprimer %s';
 $lang['welcome_top']     = 'Bonjour %s';
 
 # Clients
@@ -3680,21 +3680,59 @@ $lang['gdpr_short'] = 'GDPR';
 $lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Autoriser les collaborateurs hors administrateurs à supprimer les pièces jointes des tickets';
 
 # Version 2.1.0
-$lang['contract_number']                                = 'Contract Number';
-$lang['project_changing_status_recurring_tasks_notice'] = 'You are changing the status to {0}, all recurring tasks will be cancelled';
-$lang['not_contract_signed']                            = 'Contract with subject %s has been signed by the customer';
+$lang['contract_number']                                = 'Numéro du contrat';
+$lang['project_changing_status_recurring_tasks_notice'] = 'Vous avez modifié le statut en {0}, toutes les tâches récurrentes seront supprimées';
+$lang['not_contract_signed']                            = 'Le contrat avec comme sujet  %s a été signé par le client';
 $lang['the_number_sign']                                = '#';
-$lang['not_new_ticket_reply']                           = 'Customer replied to ticket - %s';
-$lang['receive_notification_on_new_ticket_replies']     = 'Receive notification when customer reply to a ticket';
-$lang['receive_notification_on_new_ticket_reply_help']  = 'All staff members which belong to the ticket department will receive notification when customer reply to a ticket';
-$lang['payment_gateway_enable_paypal']                  = 'Enable PayPal Payments';
-$lang['project_member']                                 = 'Project Member';
+$lang['not_new_ticket_reply']                           = 'Le client a répondu au ticket - %s';
+$lang['receive_notification_on_new_ticket_replies']     = 'Recevoir une notification lorsque le client répond au ticket';
+$lang['receive_notification_on_new_ticket_reply_help']  = 'Tous les membres du staff en rapport avec le département du ticket recevront une notification à chaque réponse du ticket';
+$lang['payment_gateway_enable_paypal']                  = 'Autoriser les paiements PayPal';
+$lang['project_member']                                 = 'Membre du projet';
 $lang['contract_notes']                                 = 'Notes';
-$lang['contract_add_note']                              = 'Add Note';
+$lang['contract_add_note']                              = 'Ajouter une note';
 
 # Version 2.1.1
-$lang['frequency']         = 'Frequency';
-$lang['frequency_every']   = 'Every %s';
-$lang['last_invoice_date'] = 'Last Invoice Date';
-$lang['next_invoice_date'] = 'Next Invoice Date';
-$lang['enter_new_card']    = 'Enter New Card';
+$lang['frequency']         = 'Fréquence';
+$lang['frequency_every']   = 'Tous les %s';
+$lang['last_invoice_date'] = 'Dernière date de facture';
+$lang['next_invoice_date_list'] = 'Prochaine date de facture';
+$lang['enter_new_card']    = 'Entrer nouvelle carte';
+
+# Version 2.2.0
+$lang['save_and_record_payment']                                     = 'Save & Record Payment';
+$lang['choose_from_google_drive']                                    = 'Choose from Google Drive';
+$lang['open_in_google']                                              = 'Open In Google';
+$lang['google_picker']                                               = 'Google Picker';
+$lang['enable_google_picker']                                        = 'Enable Google Picker';
+$lang['google_api_client_id']                                        = 'Google API Client ID';
+$lang['subtract_tax_total_from_amount']                              = 'Subtract TAX total (%s) from amount';
+$lang['expense_subtract_info_text']                                  = 'Use this option to subtract the total tax amount from the expense amount, useful when you entered the expense amount with tax included (tax inclusive).';
+$lang['company_exists_info']                                         = 'It looks that a customer with name %s already exists, if you still want to create the customer you can ignore this message.';
+$lang['import_items']                                                = 'Import Items';
+$lang['total_items_deleted']                                         = 'Total items deleted: %s';
+$lang['billable_amount']                                             = 'Billable Amount';
+$lang['last_child_invoice_date']                                     = 'Last Child Invoice Date';
+$lang['good_morning']                                                = 'Good Morning';
+$lang['good_afternoon']                                              = 'Good Afternoon';
+$lang['good_evening']                                                = 'Good Evening';
+$lang['description_in_invoice_item']                                 = 'Include description in invoice item';
+$lang['description_in_invoice_item_help']                            = 'Useful if you want to include additional information on the subscription invoice, e.q. what this subscription includes.';
+$lang['ticket_reminders']                                            = 'Reminders';
+$lang['ticket_set_reminder_title']                                   = 'Set Ticket Reminder';
+$lang['calendar_ticket_reminder']                                    = 'Ticket Reminders';
+$lang['email_verification_required']                                 = 'Email Verification Required';
+$lang['email_verification_required_message']                         = 'In order to access all the available features in the portal, first you must verify your email.';
+$lang['email_verification_required_message_mail']                    = 'We have sent you an email with verification instructions, if you haven\'t received the email please check the spam folder or click <a href="%s">here</a> to resend the verification mail.';
+$lang['email_already_verified']                                      = 'Your email is already verified';
+$lang['invalid_verification_key']                                    = 'Invalid verification key';
+$lang['verification_key_expired']                                    = 'Verification Key Expired';
+$lang['email_successfully_verified']                                 = 'Your email has been successfully verified.';
+$lang['email_successfully_verified_but_required_admin_confirmation'] = 'Your email has been successfully verified, you will be able to login once administrator confirm your account manually.';
+$lang['email_verification_mail_sent_successully']                    = 'We sent you an email with verification instructions';
+$lang['create_reminder']                                             = 'Create Reminder';
+$lang['no_reminders_for_this_task']                                  = 'No reminders for this task';
+$lang['reminder_for']                                                = 'Reminder for %s on %s';
+$lang['no_description_provided']                                     = 'No description provided';
+$lang['pay_with_card']                                               = 'Pay With Card';
+$lang['not_customer_uploaded_file']                                  = 'New File(s) Uploaded in Profile';
