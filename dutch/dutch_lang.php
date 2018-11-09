@@ -325,7 +325,7 @@ $lang['media_files'] = 'Documenten';
 $lang['new_payment_mode']           = 'Nieuwe betalingsmethode';
 $lang['payment_modes']              = 'Betalingsmethodes';
 $lang['payment_mode']               = 'Betalingsmethode';
-$lang['payment_mode_lowercase']     = 'betalingsmethode';
+$lang['payment_mode_lowercase']     = 'Betalingsmethode';
 $lang['payment_modes_dt_name']      = 'Betalingsmethode';
 $lang['payment_mode_add_edit_name'] = 'Naam betalingsmethode';
 $lang['payment_mode_edit_heading']  = 'Wijzig betalingsmethode';
@@ -1153,14 +1153,14 @@ $lang['estimate_add_edit_advanced_options'] = 'Geavanceerde opties';
 $lang['estimate_to']                        = 'Naar';
 $lang['estimates_list_all']                 = 'Alles';
 
-$lang['estimate_invoiced_date']                   = 'Schatting gefactureerd op %s';
-$lang['edit_estimate_tooltip']                    = 'Schatting Aanpassen';
-$lang['delete_estimate_tooltip']                  = 'Schatting Verwijderen';
+$lang['estimate_invoiced_date']                   = 'Offerte gefactureerd op %s';
+$lang['edit_estimate_tooltip']                    = 'Offerte Aanpassen';
+$lang['delete_estimate_tooltip']                  = 'Offerte Verwijderen';
 $lang['estimate_sent_to_email_tooltip']           = 'Versturen naar email';
-$lang['estimate_already_send_to_client_tooltip']  = 'Deze schatting is al verstuurd naar de klant %s';
+$lang['estimate_already_send_to_client_tooltip']  = 'Deze Offerte is al verstuurd naar de klant %s';
 $lang['estimate_view_activity_tooltip']           = 'Activiteiten Log';
-$lang['estimate_send_to_client_modal_heading']    = 'Stuur deze schatting naar de klant';
-$lang['estimate_send_to_client_attach_pdf']       = 'Schatting PDF bijvoegen';
+$lang['estimate_send_to_client_modal_heading']    = 'Stuur deze Offerte naar de klant';
+$lang['estimate_send_to_client_attach_pdf']       = 'Offerte PDF bijvoegen';
 $lang['estimate_send_to_client_preview_template'] = 'Email Sjabloon inzien';
 $lang['estimate_dt_table_heading_number']         = 'Offerte #';
 $lang['estimate_dt_table_heading_date']           = 'Datum';
@@ -1186,7 +1186,7 @@ $lang['estimate_adjustment']             = 'Wijziging';
 $lang['estimate_discount']               = 'Korting';
 $lang['estimate_total']                  = 'Totaal';
 $lang['estimate_to']                     = 'Geadresseerd aan';
-$lang['estimate_data_date']              = 'Schatting datum';
+$lang['estimate_data_date']              = 'Offerte datum';
 $lang['estimate_data_expiry_date']       = 'Verloop datum';
 $lang['estimate_note']                   = 'Notitie:';
 $lang['estimate_status_draft']           = 'Concept';
@@ -1197,19 +1197,19 @@ $lang['estimate_status_expired']         = 'Verlopen';
 $lang['estimate_note']                   = 'Notitie:';
 
 ## Clients
-$lang['clients_estimate_dt_number']             = 'Schatting #';
+$lang['clients_estimate_dt_number']             = 'Offerte #';
 $lang['clients_estimate_dt_date']               = 'Datum';
 $lang['clients_estimate_dt_duedate']            = 'Verval datum ';
 $lang['clients_estimate_dt_amount']             = 'Bedrag';
 $lang['clients_estimate_dt_status']             = 'Status';
-$lang['clients_nav_estimates']                  = 'Schattingen';
+$lang['clients_nav_estimates']                  = 'Offertes';
 $lang['clients_decline_estimate']               = 'Afwijzen';
 $lang['clients_accept_estimate']                = 'Accepteren';
-$lang['clients_my_estimates']                   = 'Schattingen';
-$lang['clients_estimate_invoiced_successfully'] = 'Schatting geaccepteerd. Hier is de factuur van de schatting.';
-$lang['clients_estimate_accepted_not_invoiced'] = 'Bedankt voor het accepteren van de schatting';
-$lang['clients_estimate_declined']              = 'Schatting afgewezen. U kunt de schatting op elk moment voor de verval datum accepteren.';
-$lang['clients_estimate_failed_action']         = 'Niet gelukt om actie te ondernemen op deze schatting.';
+$lang['clients_my_estimates']                   = 'Offertes';
+$lang['clients_estimate_invoiced_successfully'] = 'Offerte geaccepteerd. Hier is de factuur van de offerte.';
+$lang['clients_estimate_accepted_not_invoiced'] = 'Bedankt voor het accepteren van de offerte';
+$lang['clients_estimate_declined']              = 'Offerte afgewezen. U kunt de offerte op elk moment voor de verval datum accepteren.';
+$lang['clients_estimate_failed_action']         = 'Niet gelukt om actie te ondernemen op deze offerte.';
 $lang['client_add_edit_profile']                = 'Profiel';
 
 # Version 1.0.3
@@ -1277,7 +1277,7 @@ $lang['admin_auth_reset_password_repeat']     = 'Wachtwoord Herhalen';
 $lang['admin_auth_invalid_email_or_password'] = 'Ongeldig Email of Wachtwoord';
 $lang['admin_auth_inactive_account']          = 'Onactief Account';
 # Calender
-$lang['calendar_estimate']          = 'Schatting';
+$lang['calendar_estimate']          = 'Offerte';
 $lang['calendar_invoice']           = 'Factuur';
 $lang['calendar_contract']          = 'Contract';
 $lang['calendar_customer_reminder'] = 'Klant Herinnering';
@@ -1289,8 +1289,8 @@ $lang['lead_attachments']         = 'Documenten';
 # Admin Customizer Sidebar
 $lang['acs_finance'] = 'Financiën';
 # Settings
-$lang['settings_show_sale_agent_on_invoices']       = 'Laat Verkoper Zien op Factuur';
-$lang['settings_show_sale_agent_on_estimates']      = 'Laat Verkoper Zien op Schattingen';
+$lang['settings_show_sale_agent_on_invoices']       = 'Laat verkoper zien op factuur';
+$lang['settings_show_sale_agent_on_estimates']      = 'Laat verkoper zien op offertes';
 $lang['settings_predefined_predefined_term']        = 'Voorgedefineerde Algemene Voorwaarden';
 $lang['settings_predefined_clientnote']             = 'Voorgedefineerde Klanten Notitie';
 $lang['settings_custom_pdf_logo_image_url']         = 'Aangepaste PDF Bedrijf Logo URL';
@@ -1390,8 +1390,8 @@ $lang['goal_type_make_contracts_by_type_calc_database']              = 'Maak con
 $lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Is berekend van de datum toegevoegd aan de database';
 $lang['goal_type_make_contracts_by_type_calc_date']                  = 'Maak Contracten Bij Typen';
 $lang['goal_type_make_contracts_by_type_calc_date_subtext']          = 'Is berekend van het contract start datum';
-$lang['goal_type_total_estimates_converted']                         = 'X Schattingen omgezet';
-$lang['goal_type_total_estimates_converted_subtext']                 = 'Zal alleen schattingen nemen die omgezet zijn naar facturen';
+$lang['goal_type_total_estimates_converted']                         = 'X offertes omgezet';
+$lang['goal_type_total_estimates_converted_subtext']                 = 'Zal alleen offertes nemen die omgezet zijn naar facturen';
 $lang['goal_type_income_subtext']                                    = 'Inkomen zal berekend worden in uw standaard munteenheid (niet omgezet)';
 # Payments
 $lang['payment_transaction_id'] = 'Transactie ID';
@@ -1400,7 +1400,7 @@ $lang['acs_expense_categories'] = 'Inkoop categorieën';
 # Expenses
 $lang['expense_category']                             = 'Kosten Categorie';
 $lang['expense_category_lowercase']                   = 'kosten category';
-$lang['new_expense']                                  = 'Kosten Opslaan';
+$lang['new_expense']                                  = 'Nieuwe uitgave';
 $lang['expense_add_edit_name']                        = 'Categorie Naam';
 $lang['expense_add_edit_description']                 = 'Categorie Omschrijving';
 $lang['expense_categories']                           = 'Kosten Categorieën';
@@ -1465,7 +1465,7 @@ $lang['custom_field_contracts']   = 'Contracten';
 $lang['custom_field_tasks']       = 'Taken';
 $lang['custom_field_expenses']    = 'Kosten';
 $lang['custom_field_invoice']     = 'Factuur';
-$lang['custom_field_estimate']    = 'Schatting';
+$lang['custom_field_estimate']    = 'Offerte';
 # Tickets
 $lang['ticket_single_private_staff_notes'] = 'Prive Staff Notities';
 
@@ -1494,7 +1494,7 @@ $lang['invoice_table_item_description']   = 'Beschrijving';
 $lang['invoice_recurring_indicator']      = 'Herhalend';
 
 # Estimates
-$lang['estimate_convert_to_invoice_successfully'] = 'Schatting succesvol omgezet naar factuur';
+$lang['estimate_convert_to_invoice_successfully'] = 'Offerte succesvol omgezet naar factuur';
 $lang['estimate_table_item_description']          = 'Beschrijving';
 
 # Version 1.0.6
@@ -1509,8 +1509,8 @@ $lang['invoice_due_after_help']    = 'Zet deze op 0 als je geen automatische ber
 $lang['show_shipping_on_invoice'] = 'Laat transport informatie zien in factuur';
 
 # Estimates
-$lang['show_shipping_on_estimate']         = 'Laat transport informatie zien in schatting.';
-$lang['is_invoiced_estimate_delete_error'] = 'Deze schatting is gefactureerd. U kunt gefactureerde schattingen niet verwijderen.';
+$lang['show_shipping_on_estimate']         = 'Laat transport informatie zien in Offerte.';
+$lang['is_invoiced_estimate_delete_error'] = 'Deze Offerte is gefactureerd. U kunt gefactureerde offertes niet verwijderen.';
 
 # Customers & Invoices / Estimates
 $lang['ship_to']                  = 'Verzenden Naar';
@@ -1534,8 +1534,8 @@ $lang['get_shipping_from_customer_profile'] = 'Transport details van klant profi
 
 # Customer
 $lang['customer_default_currency']                             = 'Standaard Munteenheid';
-$lang['customer_update_address_info_on_invoices']              = 'Update de verzend/rekening info op alle vorige facturen/schattingen';
-$lang['customer_update_address_info_on_invoices_help']         = 'Als u dit veld aanzet dan zal rekening/verzend info geupdate worden op alle facturen en schattingen. Notitie: Facture met de status betaald zullen hetzelfde blijven.';
+$lang['customer_update_address_info_on_invoices']              = 'Update de verzend/rekening info op alle vorige facturen/offertes';
+$lang['customer_update_address_info_on_invoices_help']         = 'Als u dit veld aanzet dan zal rekening/verzend info geupdate worden op alle facturen en offertes. Notitie: Facture met de status betaald zullen hetzelfde blijven.';
 $lang['setup_google_api_key_customer_map']                     = 'Vul een google api key in om de klanten map te kunnen bekijken';
 $lang['customer_attachments_file']                             = 'Document';
 $lang['client_send_set_password_email']                        = 'Verstuur wachtwoord aanpassen email';
@@ -1612,7 +1612,7 @@ $lang['settings_gcal_main_calendar_id_help']                                 = '
 
 $lang['show_on_calendar']                    = 'Zichbaar op kalender';
 $lang['show_invoices_on_calendar']           = 'Facturen';
-$lang['show_estimates_on_calendar']          = 'Schattingen';
+$lang['show_estimates_on_calendar']          = 'offertes';
 $lang['show_contracts_on_calendar']          = 'Contracten';
 $lang['show_tasks_on_calendar']              = 'Taken';
 $lang['show_customer_reminders_on_calendar'] = 'Herinneringen voor klanten';
@@ -1678,7 +1678,7 @@ $lang['utility_db_backup_note']          = 'Let op: vanwege de beperkte uitvoeri
 
 # Version 1.0.7
 ## Customers - portal
-$lang['clients_nav_proposals'] = 'Offertes';
+$lang['clients_nav_proposals'] = 'Voorstellen';
 $lang['clients_nav_support']   = 'Support';
 # General
 $lang['more']            = 'Meer';
@@ -1690,7 +1690,7 @@ $lang['welcome_top']     = 'Hé, %s';
 # Customers
 $lang['customer_permissions']         = 'Toestemmingen';
 $lang['customer_permission_invoice']  = 'Facturen';
-$lang['customer_permission_estimate'] = 'Schatting';
+$lang['customer_permission_estimate'] = 'Offerte';
 $lang['customer_permission_proposal'] = 'Voorstellen';
 $lang['customer_permission_contract'] = 'Contracten';
 $lang['customer_permission_support']  = 'Support';
@@ -1749,7 +1749,7 @@ $lang['edit_department']      = 'Wijzig Afdeling';
 $lang['edit_expense_category'] = 'Wijzig Kosten Categorie';
 # Settings
 $lang['customer_default_country']                                 = 'Standaar Land';
-$lang['settings_sales_require_client_logged_in_to_view_estimate'] = 'Klant moet ingelogd zijn om schatting te bekijken';
+$lang['settings_sales_require_client_logged_in_to_view_estimate'] = 'Klant moet ingelogd zijn om Offerte te bekijken';
 $lang['set_reminder']                                             = 'Herinnering opzetten';
 $lang['set_reminder_date']                                        = 'Datum om herinnerd te worden';
 $lang['reminder_description']                                     = 'Beschrijving opzetten';
@@ -1764,18 +1764,18 @@ $lang['reminder_is_notified_boolean_yes']                         = 'Ja';
 $lang['reminder_set_to']                                          = 'Zet herinnering op';
 $lang['reminder_deleted']                                         = 'Herinnering succesvol verwijderd';
 $lang['reminder_failed_to_delete']                                = 'Herinnering verwijderen mislukt';
-$lang['show_invoice_estimate_status_on_pdf']                      = 'Laat factuur/schatting status zien op PDF';
+$lang['show_invoice_estimate_status_on_pdf']                      = 'Laat factuur/ffferte status zien op PDF';
 $lang['email_piping_default_priority']                            = 'Standaard prioriteit op gepijpde ticket';
 $lang['show_lead_reminders_on_calendar']                          = 'Lead Herinneringen';
-$lang['tickets_piping']                                           = 'Email Pijpen';
+$lang['tickets_piping']                                           = 'Email pipes';
 $lang['email_piping_only_replies']                                = 'Alleen antwoorden toestaan via email';
-$lang['email_piping_only_registered']                             = 'Pijp alleen op geregistreerde gebruiker';
+$lang['email_piping_only_registered']                             = 'Pipe alleen op geregistreerde gebruiker';
 
 # Estimates
-$lang['view_estimate_as_client']         = 'Bekijk schatting als klant';
+$lang['view_estimate_as_client']         = 'Bekijk ffferte als klant';
 $lang['estimate_mark_as']                = 'Markeer als %s';
-$lang['estimate_status_changed_success'] = 'Schatting status veranderd';
-$lang['estimate_status_changed_fail']    = 'Schatting status veranderen mislukt';
+$lang['estimate_status_changed_success'] = 'Offerte status veranderd';
+$lang['estimate_status_changed_fail']    = 'Offerte status veranderen mislukt';
 
 # Proposals
 $lang['proposal_to']                  = 'Bedrijf / Naam';
@@ -1828,15 +1828,15 @@ $lang['proposal_status_changed_fail']           = 'Voorstel status veranderen mi
 $lang['proposal_assigned']                      = 'Toegewezen';
 $lang['proposal_comments']                      = 'Comments';
 $lang['proposal_convert']                       = 'Omzetten';
-$lang['proposal_convert_estimate']              = 'Schatting';
+$lang['proposal_convert_estimate']              = 'Offerte';
 $lang['proposal_convert_invoice']               = 'Factuur';
-$lang['proposal_convert_to_estimate']           = 'Omzetten naar schatting';
+$lang['proposal_convert_to_estimate']           = 'Omzetten naar offerte';
 $lang['proposal_convert_to_invoice']            = 'Omzetten naar factuur';
 $lang['proposal_convert_to_lead_disabled_help'] = 'U moet de lead omzetten in een klant om %s ';
 $lang['proposal_convert_not_related_help']      = 'Het voorstel moet gerelateerd zijn aan de klant om %s';
-$lang['proposal_converted_to_estimate_success'] = 'Voorstel succesvol omgezet naar schatting';
+$lang['proposal_converted_to_estimate_success'] = 'Voorstel succesvol omgezet naar offerte';
 $lang['proposal_converted_to_invoice_success']  = 'Voorstel succesvol omgezet naar Factuur';
-$lang['proposal_converted_to_estimate_fail']    = 'Voorstel naar schatting omzetten mislukt';
+$lang['proposal_converted_to_estimate_fail']    = 'Voorstel naar offerte omzetten mislukt';
 $lang['proposal_converted_to_invoice_fail']     = 'Voorstel naar factuur omzetten mislukt';
 
 # Proposals - view proposal template
@@ -1874,7 +1874,7 @@ $lang['customer_group']              = 'Klanten Groep';
 $lang['customer_group_lowercase']    = 'klanten groep';
 
 $lang['customer_have_invoices_by']       = 'Bevat facturen op status %s';
-$lang['customer_have_estimates_by']      = 'Bevat schattingen op status %s';
+$lang['customer_have_estimates_by']      = 'Bevat offertes op status %s';
 $lang['customer_have_contracts_by_type'] = 'Heeft contracten op type %s';
 
 # Custom fields
@@ -1980,7 +1980,7 @@ $lang['not_received_one_or_more_messages_lead']       = 'Nog een email ontvangen
 $lang['not_received_lead_imported_email_integration'] = 'Lead geimporteerd van email integratie';
 $lang['not_lead_imported_attachment']                 = 'Document van email geimporteerd';
 $lang['not_estimate_status_change']                   = 'Document van email geimporteerd';
-$lang['not_estimate_status_updated']                  = 'Schatting Status Geupdate: Van: %s naar %s';
+$lang['not_estimate_status_updated']                  = 'Offerte Status Geupdate: Van: %s naar %s';
 $lang['not_goal_message_success']                     = 'Gefeliciteerd! We hebben een nieuw doel bereikt.<br />Doel type: %s
 <br />Doel Prestatie: %s
 <br />Totaal Prestatie: %s
@@ -2017,24 +2017,24 @@ $lang['not_task_marked_as_complete']                              = 'taak gemark
 $lang['not_task_unmarked_as_complete']                            = 'taak ongemarkeerd als klaar %s';
 $lang['not_ticket_assigned_to_you']                               = 'Ticket toegewezen aan u - %s ...';
 $lang['not_ticket_reassigned_to_you']                             = 'Ticket opnieuw toegewezen aan u - %s ...';
-$lang['not_estimate_customer_accepted']                           = 'Gefeliciteerd! Klant heeft schatting geaccepteerd met nummer %s';
-$lang['not_estimate_customer_declined']                           = 'Klant heeft schatting afgewezen met nummer %s';
-$lang['estimate_activity_converted']                              = 'heeft deze schatting omgezet naar een factuur.<br /> %s';
-$lang['estimate_activity_created']                                = 'Heeft de schatting gemaakt';
-$lang['invoice_estimate_activity_removed_item']                   = 'item verwijderd<b>%s</b>';
-$lang['estimate_activity_number_changed']                         = 'Schatting nummer veranderd van: %s naar %s';
+$lang['not_estimate_customer_accepted']                           = 'Gefeliciteerd! Klant heeft offerte geaccepteerd met nummer %s';
+$lang['not_estimate_customer_declined']                           = 'Klant heeft offerte afgewezen met nummer %s';
+$lang['estimate_activity_converted']                              = 'heeft deze offerte omgezet naar een factuur.<br /> %s';
+$lang['estimate_activity_created']                                = 'Heeft de offerte gemaakt';
+$lang['invoice_estimate_activity_removed_item']                   = 'Item verwijderd<b>%s</b>';
+$lang['estimate_activity_number_changed']                         = 'Offerte nummer veranderd van: %s naar %s';
 $lang['invoice_activity_number_changed']                          = 'Factuur nummer veranderd van %s naar %s';
 $lang['invoice_estimate_activity_updated_item_short_description'] = 'Heeft korte beschrijven geupdate van %s naar %s';
 $lang['invoice_estimate_activity_updated_item_long_description']  = 'heeft lange beschrijving geupdate van <b>%s</b> naar <b>%s</b>';
 $lang['invoice_estimate_activity_updated_item_rate']              = 'heeft item tarief geupdate van %s naar %s';
 $lang['invoice_estimate_activity_updated_qty_item']               = 'hoeveelheid op item geupdate<b>%s</b> van %s naar %s';
 $lang['invoice_estimate_activity_added_item']                     = 'nieuw item toegevoegd <b>%s</b>';
-$lang['invoice_estimate_activity_sent_to_client']                 = 'schatting verstuurd naar klant';
-$lang['estimate_activity_client_accepted_and_converted']          = 'Klant heeft deze schatting geaccpteerd. Schatting word omgezet naar factuur met nummer %s';
-$lang['estimate_activity_client_accepted']                        = 'Klant heeft deze schatting geaccepteerd';
-$lang['estimate_activity_client_declined']                        = 'Klant heeft deze schatting afgewezen';
-$lang['estimate_activity_marked']                                 = 'schatting gemarkeerd als %s';
-$lang['invoice_activity_status_updated']                          = 'factuur status geupdate van %s naar %s';
+$lang['invoice_estimate_activity_sent_to_client']                 = 'Offerte verstuurd naar klant';
+$lang['estimate_activity_client_accepted_and_converted']          = 'Klant heeft deze offerte geaccpteerd. Offerte word omgezet naar factuur met nummer %s';
+$lang['estimate_activity_client_accepted']                        = 'Klant heeft deze offerte geaccepteerd';
+$lang['estimate_activity_client_declined']                        = 'Klant heeft deze offerte afgewezen';
+$lang['estimate_activity_marked']                                 = 'Offerte gemarkeerd als %s';
+$lang['invoice_activity_status_updated']                          = 'Factuur status geupdate van %s naar %s';
 $lang['invoice_activity_created']                                 = 'heeft de factuur gemaakt';
 $lang['invoice_activity_from_expense']                            = 'omgezet naar factuur van kosten';
 $lang['invoice_activity_recurring_created']                       = '[Recurring] Factuur gemaakt door CRON';
@@ -2042,8 +2042,8 @@ $lang['invoice_activity_recurring_from_expense_created']          = '[Invoice Fr
 $lang['invoice_activity_sent_to_client_cron']                     = 'Factuur verzonden naar klant door CRON';
 $lang['invoice_activity_sent_to_client']                          = 'heeft factuur verzonden naar klant';
 $lang['invoice_activity_marked_as_sent']                          = 'heeft factuur gemarkeerd als verzonden';
-$lang['invoice_activity_payment_deleted']                         = 'heeft betaling voor de factuur verwijderd. Betaling #%s, totaal bedrag%s';
-$lang['invoice_activity_payment_made_by_client']                  = 'Klant heeft betaling voor de factuur gemaakt van totaal<b>%s</b> - %s';
+$lang['invoice_activity_payment_deleted']                         = 'heeft betaling voor de factuur verwijderd. Betaling #%s, totaal bedrag %s';
+$lang['invoice_activity_payment_made_by_client']                  = 'Klant heeft betaling voor de factuur gemaakt van totaal <b>%s</b> - %s';
 $lang['invoice_activity_payment_made_by_staff']                   = 'Opgeslagen betaling van totaal <b>%s</b> - %s';
 $lang['invoice_activity_added_attachment']                        = 'Document Toegevoegd';
 
@@ -2054,9 +2054,9 @@ $lang['top_search_placeholder'] = 'Zoeken';
 $lang['staff_profile_inactive_account'] = 'Deze medewerker is inactief.';
 
 # Estimates
-$lang['copy_estimate']                = 'Kopie Schatting';
-$lang['estimate_copied_successfully'] = 'Schatting Succesvol Gekopieerd';
-$lang['estimate_copied_fail']         = 'Schatting Kopieren Mislukt';
+$lang['copy_estimate']                = 'Kopie offerte';
+$lang['estimate_copied_successfully'] = 'Offerte Succesvol Gekopieerd';
+$lang['estimate_copied_fail']         = 'Offerte Kopieren Mislukt';
 
 # Tasks
 $lang['tasks_view_assigned_to_user'] = 'Taken toegewezen aan mij';
@@ -2101,7 +2101,7 @@ $lang['report_invoice_status']            = 'Status';
 # Home stats
 $lang['home_stats_by_project_status'] = 'Statistieken op project status';
 $lang['home_invoice_overview']        = 'Factuur overzicht';
-$lang['home_estimate_overview']       = 'Schatting overzicht';
+$lang['home_estimate_overview']       = 'Offerte overzicht';
 $lang['home_proposal_overview']       = 'Voorstel overzicht';
 $lang['home_lead_overview']           = 'Lead overzicht';
 $lang['home_my_projects']             = 'Mijn Projecten';
@@ -2125,7 +2125,7 @@ $lang['announcements_recent']   = 'Recente Aankondigingen';
 
 # General
 $lang['zip_invoices']         = 'Zip facturen';
-$lang['zip_estimates']        = 'Zip schattingen';
+$lang['zip_estimates']        = 'Zip offertes';
 $lang['zip_payments']         = 'Zip betalingen';
 $lang['setup_help']           = 'Help';
 $lang['clients_list_company'] = 'Bedrijf';
@@ -2375,7 +2375,7 @@ $lang['project_activity_visible_to_customer']          = 'Zichtbaar voor klant';
 $lang['project_activity_project_file_removed']         = 'Project document verwijderd';
 
 # Customers area
-$lang['clients_my_estimates'] = 'Mijn Schattingen';
+$lang['clients_my_estimates'] = 'Mijn offertes';
 $lang['client_no_reply']      = 'Geen Antwoord';
 $lang['clients_nav_projects'] = 'Projecten';
 $lang['clients_my_projects']  = 'Mijn Projecten';
@@ -2384,8 +2384,8 @@ $lang['client_profile_image'] = 'Profiel Foto';
 
 /////
 $lang['sales_report_cancelled_invoices_not_included'] = 'Geannuleerde facturen worden niet meegenomen in de rapporten.';
-$lang['invoices_merge_cancel_merged_invoices']        = 'Markeer samengevoegde facturen als geanuleerd in plaats van verwijderd';
-$lang['invoice_marked_as_cancelled_successfully']     = 'Factuur succesvol gemarkeerd als geanuleerd';
+$lang['invoices_merge_cancel_merged_invoices']        = 'Markeer samengevoegde facturen als geannuleerd in plaats van verwijderd';
+$lang['invoice_marked_as_cancelled_successfully']     = 'Factuur succesvol gemarkeerd als geannuleerd';
 $lang['invoice_unmarked_as_cancelled']                = 'Factuur succesvol ongemarkeerd als geannuleerd';
 
 $lang['tasks_reminder_notification_before']                    = 'Taak deadline herinnering voor (dagen)';
@@ -2439,8 +2439,8 @@ $lang['estimates_pipeline_sort']                 = 'Sorteer Op';
 $lang['estimates_sort_expiry_date']              = 'Verloop datum';
 $lang['estimates_sort_pipeline']                 = 'Pijplijn Opdracht';
 $lang['estimates_sort_datecreated']              = 'Datum van Aanmaak';
-$lang['estimates_sort_estimate_date']            = 'Schatting Datum';
-$lang['estimate_set_reminder_title']             = 'Stel schatting herinnering in';
+$lang['estimates_sort_estimate_date']            = 'Offerte Datum';
+$lang['estimate_set_reminder_title']             = 'Stel offerte herinnering in';
 $lang['invoice_set_reminder_title']              = 'Stel factuur herinnering in';
 $lang['estimate_reminders']                      = 'Herinneringen';
 $lang['invoice_reminders']                       = 'Herinneringen';
@@ -2955,10 +2955,10 @@ $lang['period_datepicker']                           = 'Periode';
 $lang['total_by_hourly_rate']                        = 'Totaal per uurtarief';
 $lang['staff_hourly_rate']                           = $lang['task_hourly_rate'];
 // &#37; is for % so the system can confuse for the original fields like %s
-$lang['remove_tax_name_from_item_table_help'] = 'eq. Item TAX 15&#37; wordt weergegeven als 15&#37; zonder de belastingnaam (Wordt niet toegepast als meerdere belastingen met dezelfde naam en belastingpercentage voor artikel worden gevonden)';
-$lang['back_to_project']                      = 'Terug naar project';
-$lang['view_kanban']                          = 'Kan Ban bekijken';
-$lang['invoice_is_overdue']                   = 'Deze factuur is %s dagen te laat';
+$lang['remove_tax_name_from_item_table_help'] 		 = 'eq. Item TAX 15&#37; wordt weergegeven als 15&#37; zonder de belastingnaam (Wordt niet toegepast als meerdere belastingen met dezelfde naam en belastingpercentage voor artikel worden gevonden)';
+$lang['back_to_project']                      		 = 'Terug naar project';
+$lang['view_kanban']                          		 = 'Kan Ban bekijken';
+$lang['invoice_is_overdue']                   		 = 'Deze factuur is %s dagen te laat';
 
 # Version 1.2.9
 $lang['time_decimal']                            = 'Tijd (decimaal)';
@@ -2991,7 +2991,7 @@ $lang['delete_staff']                            = 'Personeelslid verwijderen';
 $lang['delete_staff_info']                       = 'Sommige gegevens voor dit personeelslid moeten worden overgedragen aan een andere gebruiker. Selecteer de gebruiker waar u de gegevens wilt overbrengen.';
 $lang['estimate_items']                          = 'Raming van items';
 $lang['no_proposals_found']                      = 'Geen voorstellen gevonden';
-$lang['no_estimates_found']                      = 'Geen schattingen gevonden';
+$lang['no_estimates_found']                      = 'Geen offertes gevonden';
 $lang['pipeline_limit_status']                   = 'Pijplijnlimiet per status';
 $lang['settings_update']                         = 'Systeemupdate';
 $lang['purchase_key']                            = 'Licentie key';
@@ -3031,8 +3031,8 @@ $lang['next_invoice_date']                                  = 'Volgende factuurd
 $lang['next_expense_date']                                  = 'Volgende uitgavendatum: %s';
 $lang['invoice_recurring_from']                             = 'Deze factuur is gemaakt op basis van een terugkerende factuur met nummer: %s';
 $lang['expense_recurring_from']                             = 'Deze kosten worden gemaakt op basis van de volgende terugkerende kosten: %s';
-$lang['child_invoices']                                     = 'Kinderfacturen';
-$lang['child_expenses']                                     = 'Kinderuitgaven';
+$lang['child_invoices']                                     = 'Sub facturen';
+$lang['child_expenses']                                     = 'Sub uitgaven';
 $lang['no_announcements']                                   = 'Geen aankondigingen';
 $lang['unit']                                               = 'Eenheid';
 $lang['permission_view_own']                                = 'Bekijk (eigen)';
@@ -3073,11 +3073,11 @@ $lang['not_lead_imported_from_form']                        = 'Nieuw lead geïmp
 $lang['not_lead_activity_log_attachment']                   = 'Bijlage geïmporteerd uit formulier - %s';
 $lang['form_integration_code_help']                         = 'Kopieer en plak de code op elke willekeurige plek op uw site om het formulier weer te geven, daarnaast kunt u de breedte en de hoogte px aanpassen aan uw website.';
 $lang['invoice_not_found']                                  = 'Factuur niet gevonden';
-$lang['estimate_not_found']                                 = 'Schatting niet gevonden';
+$lang['estimate_not_found']                                 = 'Offerte niet gevonden';
 $lang['expense_not_found']                                  = 'Kosten niet gevonden';
 $lang['proposal_not_found']                                 = 'Voorstel niet gevonden';
 $lang['new_task_assigned_non_user']                         = 'Nieuwe taak is aan jou toegewezen - %s';
-$lang['no_child_found']                                     = 'Geen kind %s gevonden';
+$lang['no_child_found']                                     = 'Geen sub %s gevonden';
 $lang['company_vat_number']                                 = 'Btw nummer';
 $lang['not_lead_assigned_from_form']                        = 'Nieuwe lead is aan jou toegewezen';
 $lang['not_lead_activity_assigned_from_form']               = 'Lead toegewezen aan %s';
@@ -3093,7 +3093,7 @@ $lang['search_ajax_searching']                              = 'Zoeken...';
 $lang['search_ajax_initialized']                            = 'Begin met typen om te zoeken';
 $lang['lead_description']                                   = 'Omschrijving';
 $lang['lead_website']                                       = 'Website';
-$lang['invoice_activity_auto_converted_from_estimate']      = 'Factuur automatisch gemaakt op basis van schatting met nummer %s';
+$lang['invoice_activity_auto_converted_from_estimate']      = 'Factuur automatisch gemaakt op basis van offerte met nummer %s';
 $lang['hour_of_day_perform_auto_operations']                = 'Uur van de dag om automatische bewerkingen uit te voeren';
 $lang['hour_of_day_perform_auto_operations_format']         = '24-uurs formaat eq. 9 voor 9uur of 15 voor 3uur.';
 $lang['inv_hour_of_day_perform_auto_operations_help']       = 'Gebruikt voor terugkerende facturen, achterstallige facturen enz.';
@@ -3216,7 +3216,7 @@ $lang['disable_languages']                        = 'Schakel talen uit';
 
 # Version 1.8.0
 $lang['not_customer_viewed_invoice']                         = 'Een factuur met het nummer %s is bekeken';
-$lang['not_customer_viewed_estimate']                        = 'Een schatting met het nummer %s is bekeken';
+$lang['not_customer_viewed_estimate']                        = 'Een offerte met het nummer %s is bekeken';
 $lang['not_customer_viewed_proposal']                        = 'Een voorstel met het nummer %s is bekeken';
 $lang['display_inline']                                      = 'Inline weergeven';
 $lang['email_header']                                        = 'Aangepaste HTML-header';
@@ -3331,7 +3331,7 @@ $lang['custom_field_info_format_embed_info']     = 'Aangepaste velden voor %s ku
 $lang['transfer_lead_notes_to_customer']         = 'Overdracht lead notes naar klantprofiel';
 $lang['authorized_signature_text']               = 'Geautoriseerde handtekening';
 $lang['show_pdf_signature_invoice']              = 'PDF-handtekening weergeven op factuur';
-$lang['show_pdf_signature_estimate']             = 'PDF-handtekening weergeven op schatting';
+$lang['show_pdf_signature_estimate']             = 'PDF-handtekening weergeven op offerte';
 $lang['signature']                               = 'Handtekening';
 $lang['signature_image']                         = 'Handtekening afbeelding';
 $lang['insert_checklist_templates']              = 'Voeg controlelijstjablonen in';
@@ -3481,7 +3481,7 @@ $lang['s_chart']                                  = '%s tabel';
 $lang['quick_stats']                              = 'Snelle statistieken';
 $lang['user_widget']                              = 'Gebruikers Widget';
 $lang['widgets_visibility_help_text']             = 'Widgets die alleen worden weergegeven als ze over voldoende gegevens beschikken, hebben geen opties om te worden verborgen of weergegeven.';
-$lang['show_project_on_estimate']                 = 'Toon projectnaam op schatting';
+$lang['show_project_on_estimate']                 = 'Toon projectnaam op offerte';
 $lang['show_project_on_invoice']                  = 'Toon projectnaam op factuur';
 $lang['show_project_on_credit_note']              = 'Toon projectnaam op creditnota';
 $lang['visible_tabs']                             = 'Zichtbare tabbladen';
@@ -3647,7 +3647,7 @@ $lang['consent_last_updated']                                   = 'Laatst bijgew
 $lang['showing_search_result']                                  = 'Zoekresultaten weergeven voor: %s';
 $lang['per_page']                                               = 'Per pagina';
 $lang['allow_staff_view_invoices_assigned']                     = 'Sta personeel toe om facturen te bekijken waar ze aan zijn toegewezen';
-$lang['allow_staff_view_estimates_assigned']                    = 'Sta medewerkers toe schattingen te bekijken waar ze zijn toegewezen aan';
+$lang['allow_staff_view_estimates_assigned']                    = 'Sta medewerkers toe offertes te bekijken waar ze zijn toegewezen aan';
 $lang['gdpr_right_to_be_informed']                              = 'Recht op informatie';
 $lang['gdpr_right_of_access']                                   = 'Recht van toegang';
 $lang['gdpr_right_to_data_portability']                         = 'Recht op gegevensoverdracht';
@@ -3712,12 +3712,12 @@ $lang['google_picker']                                               = 'Google P
 $lang['enable_google_picker']                                        = 'Google Picker inschakelen';
 $lang['google_api_client_id']                                        = 'Google API Client ID';
 $lang['subtract_tax_total_from_amount']                              = 'TAX-totaal (%s) aftrekken van hoeveelheid ';
-$lang['expense_subtract_info_text']                                  = 'Gebruik deze optie om het totale belastingbedrag af te trekken van het uitgiftebedrag. Dit is handig wanneer u het uitgavenbedrag hebt ingevoerd inclusief belasting (inclusief belasting).';
+$lang['expense_subtract_info_text']                                  = 'Gebruik deze optie om het totale belastingbedrag af te trekken van het uitgiftebedrag. Dit is handig wanneer u het uitgavenbedrag hebt ingevoerd inclusief belasting.';
 $lang['company_exists_info']                                         = 'Het lijkt erop dat een klant met de naam %s al bestaat. Als u de klant nog steeds wilt maken, kunt u dit bericht negeren.';
 $lang['import_items']                                                = 'Items importeren';
-$lang['total_items_deleted']                                         = 'Totaal aantal items verwijderd:%s';
+$lang['total_items_deleted']                                         = 'Totaal aantal items verwijderd: %s';
 $lang['billable_amount']                                             = 'Factureerbare hoeveelheid';
-$lang['last_child_invoice_date']                                     = 'Last Child Factuurdatum';
+$lang['last_child_invoice_date']                                     = 'Laatste sub factuurdatum';
 $lang['good_morning']                                                = 'Goedemorgen';
 $lang['good_afternoon']                                              = 'Goedenmiddag';
 $lang['good_evening']                                                = 'Goedenavond';
