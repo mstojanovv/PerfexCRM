@@ -3351,7 +3351,7 @@ $lang['ticket_add_response_and_back_to_list'] = 'Keer terug naar de ticketlijst 
 
 # Version 1.9.4
 $lang['default_task_status']                               = 'Standaardstatus wanneer een nieuwe taak wordt gemaakt';
-$lang['custom_field_pdf_html_help']                        = 'Zorg ervoor dat u het '. $ lang ['custom_field_show_on_client_portal']. ' veld aanvinkt als u wilt dat de aangepaste velden zichtbaar zijn voor klanten en wanneer klanten PDF downloaden of PDF ontvangen via e-mail.';
+$lang['custom_field_pdf_html_help']                        = 'Zorg ervoor dat u het '. $lang['custom_field_show_on_client_portal']. ' veld aanvinkt als u wilt dat de aangepaste velden zichtbaar zijn voor klanten en wanneer klanten PDF downloaden of PDF ontvangen via e-mail.';
 $lang['auto']                                              = 'Auto';
 $lang['email_queue']                                       = 'Email wachtrij';
 $lang['email_queue_enabled']                               = 'Schakel email wachtrij in';
@@ -3448,7 +3448,7 @@ $lang['credit_note_no_invoices_available']                       = 'Er zijn geen
 $lang['show_total_paid_on_invoice']                              = 'Toon totale betaalde factuur';
 $lang['show_credits_applied_on_invoice']                         = 'Toon credits toegepast op factuur';
 $lang['show_amount_due_on_invoice']                              = 'Toon verschuldigde bedrag op factuur';
-$lang['customer_profile_update_credit_notes']                    = 'Werk de verzend- / factuurinformatie bij over alle eerdere creditnota's (gesloten creditnota's worden niet beïnvloed)';
+$lang['customer_profile_update_credit_notes']                    = 'Werk de verzend- / factuurinformatie bij over alle eerdere creditnota\'s (gesloten creditnota\'s worden niet beïnvloed)';
 $lang['zip_credit_notes']                                        = 'Creditnota\'s met Zip';
 $lang['statement_credit_note_details']                           = 'Credit Note %s';
 $lang['statement_credits_applied_details']                       = 'Credits Toegepast op Credit Note %s - %s voor betaling van %s';
