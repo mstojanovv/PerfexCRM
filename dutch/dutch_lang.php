@@ -908,7 +908,7 @@ $lang['clients_ticket_single_add_reply_heading']   = 'Antwoord toevoegen aan dez
 # Login
 $lang['clients_login_heading_no_register'] = 'Inloggen';
 $lang['clients_login_heading_register']    = 'Inloggen of registreren';
-$lang['clients_login_email']               = 'Email';
+$lang['clients_login_email']               = 'Email adres';
 $lang['clients_login_password']            = 'Wachtwoord';
 $lang['clients_login_remember']            = 'Onthoud mij';
 $lang['clients_login_login_string']        = 'Inloggen';
@@ -1236,20 +1236,20 @@ $lang['custom_field_add_edit_disabled'] = 'Uitgeschakeld';
 $lang['ticket_reply'] = 'Ticket Antwoord';
 
 # Admin Customizer Sidebar
-$lang['asc_custom_fields'] = 'Aangepaste Velden';
+$lang['asc_custom_fields'] = 'Aangepaste velden';
 
 # Contracts
-$lang['contract_types']          = 'Contracten Types';
+$lang['contract_types']          = 'Contracten types';
 $lang['contract_type']           = 'Contract type';
-$lang['new_contract_type']       = 'Nieuw Contract Type';
+$lang['new_contract_type']       = 'Nieuw contract type';
 $lang['contract_type_lowercase'] = 'contract';
 $lang['contract_type_name']      = 'Naam';
 
-$lang['contract_types_list_name'] = 'Contract Type';
+$lang['contract_types_list_name'] = 'Contract type';
 
 # Customizer Menu
 $lang['acs_contracts']      = 'Contracten';
-$lang['acs_contract_types'] = 'Contract Types';
+$lang['acs_contract_types'] = 'Contract types';
 
 # Version 1.0.4
 # Invoice Items
@@ -1257,30 +1257,30 @@ $lang['invoice_item_long_description'] = 'Dienst omschrijving';
 # Customers
 $lang['clients_list_phone']                = 'Telefoon';
 $lang['client_expenses_tab']               = 'Inkoop';
-$lang['customers_summary']                 = 'Klanten Opsomming';
+$lang['customers_summary']                 = 'Klanten opsomming';
 $lang['customers_summary_active']          = 'Actieve contacten';
-$lang['customers_summary_inactive']        = 'Onactieve Contacten';
-$lang['customers_summary_logged_in_today'] = 'Contacten Vandaag Ingelogd';
+$lang['customers_summary_inactive']        = 'Onactieve contacten';
+$lang['customers_summary_logged_in_today'] = 'Contacten vandaag ingelogd';
 
 # Authentication
-$lang['admin_auth_forgot_password_email']     = 'Email Adres';
-$lang['admin_auth_forgot_password_heading']   = 'Wachtwoord Vergeten';
+$lang['admin_auth_forgot_password_email']     = 'Email adres';
+$lang['admin_auth_forgot_password_heading']   = 'Wachtwoord vergeten';
 $lang['admin_auth_login_heading']             = 'Login';
-$lang['admin_auth_login_email']               = 'Email Adres';
+$lang['admin_auth_login_email']               = 'Email adres';
 $lang['admin_auth_login_password']            = 'Wachtwoord';
-$lang['admin_auth_login_remember_me']         = 'Onthoud Mij';
+$lang['admin_auth_login_remember_me']         = 'Onthoud mij';
 $lang['admin_auth_login_button']              = 'Login';
-$lang['admin_auth_login_fp']                  = 'Wachtwoord Vergeten?';
-$lang['admin_auth_reset_password_heading']    = 'Wachtwoord Resetten';
+$lang['admin_auth_login_fp']                  = 'Wachtwoord vergeten?';
+$lang['admin_auth_reset_password_heading']    = 'Wachtwoord resetten';
 $lang['admin_auth_reset_password']            = 'Wachtwoord';
-$lang['admin_auth_reset_password_repeat']     = 'Wachtwoord Herhalen';
-$lang['admin_auth_invalid_email_or_password'] = 'Ongeldig Email of Wachtwoord';
-$lang['admin_auth_inactive_account']          = 'Onactief Account';
+$lang['admin_auth_reset_password_repeat']     = 'Wachtwoord herhalen';
+$lang['admin_auth_invalid_email_or_password'] = 'Ongeldig email of Wachtwoord';
+$lang['admin_auth_inactive_account']          = 'Onactief account';
 # Calender
 $lang['calendar_estimate']          = 'Offerte';
 $lang['calendar_invoice']           = 'Factuur';
 $lang['calendar_contract']          = 'Contract';
-$lang['calendar_customer_reminder'] = 'Klant Herinnering';
+$lang['calendar_customer_reminder'] = 'Klant herinnering';
 $lang['calendar_event']             = 'Evenement';
 $lang['calendar_task']              = 'Taken';
 # Leads
@@ -1550,7 +1550,7 @@ $lang['customer_latitude']                                     = 'Latitude (Goog
 
 # Authentication
 $lang['admin_auth_set_password']         = 'Wachtwoord';
-$lang['admin_auth_set_password_repeat']  = 'Herhaal Wachtwoord';
+$lang['admin_auth_set_password_repeat']  = 'Herhaal wachtwoord';
 $lang['admin_auth_set_password_heading'] = 'Wachtwoord aanpassen';
 # General
 $lang['apply']                         = 'Aanmelden';
@@ -1848,10 +1848,10 @@ $lang['proposal_pdf_info']     = 'PDF';
 # Customers Portal
 $lang['customer_reset_action']            = 'Reset';
 $lang['customer_reset_password_heading']  = 'Reset uw wachtwoord';
-$lang['customer_forgot_password_heading'] = 'Wachtwoord Vergeten';
-$lang['customer_forgot_password']         = 'Wachtwoord Vergeten?';
+$lang['customer_forgot_password_heading'] = 'Wachtwoord vergeten';
+$lang['customer_forgot_password']         = 'Wachtwoord vergeten?';
 $lang['customer_reset_password']          = 'Wachtwoord';
-$lang['customer_reset_password_repeat']   = 'Herhaal Wachtwoord';
+$lang['customer_reset_password_repeat']   = 'Herhaal wachtwoord';
 $lang['customer_forgot_password_email']   = 'Email adres';
 $lang['customer_forgot_password_submit']  = 'Verstuur';
 $lang['customer_ticket_subject']          = 'Onderwerp';
