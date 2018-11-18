@@ -3561,3 +3561,9 @@ $lang['reminder_for']                                                         = 
 $lang['no_description_provided']                                              = 'Keine Beschreibung vorhanden';
 $lang['pay_with_card']                                                        = 'Mit Kreditkarte bezahlen';
 $lang['not_customer_uploaded_file']                                           = 'Neue Datei(en) im Profil hochgeladen';
+
+# Version 2.2.1
+$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
+$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
+$lang['learn_more'] = 'Learn More';
+$lang['sales_item'] = 'Item';

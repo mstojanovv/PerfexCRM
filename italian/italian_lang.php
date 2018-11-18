@@ -3805,3 +3805,9 @@ $lang['reminder_for']                                                = 'Promemor
 $lang['no_description_provided']                                     = 'Manca la descrizione';
 $lang['pay_with_card']                                               = 'Paga con carta di credito';
 $lang['not_customer_uploaded_file']                                  = 'Nuovo File(s) caricati nel profilo';
+
+# Version 2.2.1
+$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
+$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
+$lang['learn_more'] = 'Learn More';
+$lang['sales_item'] = 'Item';

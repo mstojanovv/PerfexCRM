@@ -3736,3 +3736,9 @@ $lang['reminder_for']                                                = 'Rappel p
 $lang['no_description_provided']                                     = 'Aucune description fournie';
 $lang['pay_with_card']                                               = 'Payer avec une carte';
 $lang['not_customer_uploaded_file']                                  = 'Nouveau fichier uploadé via l\'espace client';
+
+# Version 2.2.1
+$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
+$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
+$lang['learn_more'] = 'Learn More';
+$lang['sales_item'] = 'Item';
