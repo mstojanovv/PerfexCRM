@@ -3563,7 +3563,7 @@ $lang['pay_with_card']                                               = 'Platba k
 $lang['not_customer_uploaded_file']                                  = 'Nový súbor bol nahratý v profile';
 
 # Version 2.2.1
-$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['customer_files_info_message'] = 'Súbory z projektov a úloh prepojených so zákazníkom sa v tejto tabuľke nezobrazujú.';
+$lang['ticket_import_reply_only'] = 'Pokúste sa importovať iba skutočnú odpoveď na tiket (bez citovanej / presmerovanej správy).';
+$lang['learn_more'] = 'Zistiť viac';
+$lang['sales_item'] = 'Položka';
