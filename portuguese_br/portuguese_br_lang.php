@@ -2180,7 +2180,7 @@ $lang['invoice_amount_due'] = 'Quantia devida';
 $lang['calendar_project'] = 'Projeto';
 
 # Leads
-$lang['leads_import_assignee']     = 'Cessionário';
+$lang['leads_import_assignee']     = 'Responsável';
 $lang['customer_from_lead']        = 'Cliente de %s';
 $lang['lead_kan_ban_attachments']  = 'Anexos %s';
 $lang['leads_sort_by_lastcontact'] = 'Último contato';
