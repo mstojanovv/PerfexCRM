@@ -266,40 +266,10 @@ $lang['kb_group_add_edit_note']        = 'Poznámka: Ak zakážete skupinu, vše
 $lang['group_table_name_heading']      = 'Názov';
 $lang['group_table_isactive_heading']  = 'Aktívne';
 $lang['kb_no_groups_found']            = 'Nenašli sa žiadne skupiny centra znalostí';
-# Mail Lists
-$lang['mail_lists']                            = 'Zoznamy emailov';
-$lang['mail_list']                             = 'Zoznam emailov';
-$lang['new_mail_list']                         = 'Nový zoznam emailov';
-$lang['mail_list_lowercase']                   = 'zoznam emailov';
-$lang['custom_field_deleted_success']          = 'Vlastné pole odstránené';
-$lang['custom_field_deleted_fail']             = 'Chyba odstraňovania vlastného poľa';
-$lang['email_removed_from_list']               = 'Email bol odstránený zo zoznamu';
-$lang['email_remove_fail']                     = 'Email bol odstránený zo zoznamu';
-$lang['staff_mail_lists']                      = 'Zoznam emailov zamestnancov';
-$lang['clients_mail_lists']                    = 'Zoznam emailov klientov';
-$lang['mail_list_total_imported']              = 'Celkom importovaných emailov: %s';
-$lang['mail_list_total_duplicate']             = 'Celkom duplikovaných emailov: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Neúspešne vložených emailov: %s';
-$lang['mail_list_total_invalid']               = 'Neplatných emailových adries: %s';
-$lang['cant_edit_mail_list']                   = 'Tento zoznam je vytvorený automaticky a nedá sa upraviť';
-$lang['mail_list_add_edit_name']               = 'Názov zoznamu emailov';
-$lang['mail_list_add_edit_customfield']        = 'Pridať vlastné pole';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Dátum pridania';
-$lang['add_new_email_to']                      = 'Pridať nový email do %s';
-$lang['import_emails_to']                      = 'Importovať emaily do %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Súbor importu';
-$lang['mail_list_available_custom_fields']     = 'Dostupné vlastné pole';
-$lang['submit_import_emails']                  = 'Importovať emaily';
-$lang['btn_import_emails']                     = 'Importovať emaily (Excel)';
-$lang['btn_add_email_to_list']                 = 'Pridať email do tohto zoznamu';
-$lang['mail_lists_dt_list_name']               = 'Názov zoznamu';
-$lang['mail_lists_dt_datecreated']             = 'Dátum vytvorenia';
-$lang['mail_lists_dt_creator']                 = 'Vytvoril';
-$lang['email_added_to_mail_list_successfully'] = 'Email bol pridaný do zoznamu';
-$lang['email_is_duplicate_mail_list']          = 'Email v tomto zozname už existuje';
+
+# Media
 $lang['media_files'] = 'Súbory';
+
 # Payment modes
 $lang['new_payment_mode']           = 'Nová platobná metóda';
 $lang['payment_modes']              = 'Platobné metódy';
@@ -516,7 +486,6 @@ $lang['als_sales']                 = 'Predaje';
 $lang['als_staff']                 = 'Zamestnanci';
 $lang['als_tasks']                 = 'Úlohy';
 $lang['als_kb']                    = 'Centrum znalostí';
-$lang['als_surveys']               = 'Prieskumy';
 $lang['als_media']                 = 'Média';
 $lang['als_reports']               = 'Prehľady';
 $lang['als_reports_sales_submenu'] = 'Predaje';
@@ -636,55 +605,7 @@ $lang['staff_edit_profile_change_your_password']       = 'Zmeňte si heslo';
 $lang['staff_edit_profile_change_old_password']        = 'Staré heslo';
 $lang['staff_edit_profile_change_new_password']        = 'Nové heslo';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Zopakovať nové heslo';
-# Surveys
-$lang['new_survey']                                = 'Nový prieskum';
-$lang['surveys']                                   = 'Prieskumy';
-$lang['survey']                                    = 'Prieskum';
-$lang['survey_lowercase']                          = 'prieskum';
-$lang['survey_no_mail_lists_selected']             = 'Nebol zvolený zoznam emailov';
-$lang['survey_send_success_note']                  = 'Všetky emaily prieskumu(%s) budú odoslané pomocou CRONu';
-$lang['survey_result']                             = 'Výsledky prieskumu: %s';
-$lang['question_string']                           = 'Otázka';
-$lang['question_field_string']                     = 'Pole';
-$lang['survey_list_view_tooltip']                  = 'Zobraziť prieskum';
-$lang['survey_list_view_results_tooltip']          = 'Zobraziť výsledky';
-$lang['survey_add_edit_subject']                   = 'Predmet prieskumu';
-$lang['survey_add_edit_email_description']         = 'Popis prieskumu (Popis emailu)';
-$lang['survey_include_survey_link']                = 'Pripojiť odkaz na prieskum v popise';
-$lang['survey_available_mail_lists_custom_fields'] = 'Dostupné vlastné pole zo zoznamu emailov';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Vlastné polia môžu byť použité pre editor emailu.';
-$lang['survey_add_edit_short_description_view']    = 'Krátky popis prieskumu (Zobraziť popis)';
-$lang['survey_add_edit_from']                      = 'Od (zobrazené v emaily)';
-$lang['survey_add_edit_redirect_url']              = 'URL presmerovanie prieskumu';
-$lang['survey_add_edit_red_url_note']              = 'Kam bude užívateľ presmerovaný po dokončení prieskumu (ponechajte prázdne pre presmerovanie na túto stránku)';
-$lang['survey_add_edit_disabled']                  = 'Zakázané';
-$lang['survey_add_edit_only_for_logged_in']        = 'Iba pre prihlásených (zamestnanci, zákazníci)';
-$lang['send_survey_string']                        = 'Poslať prieskum';
-$lang['survey_send_mail_list_clients']             = 'Zákazníci';
-$lang['survey_send_mail_list_staff']               = 'Zamestnanci';
-$lang['survey_send_mail_lists_string']             = 'Zoznam emailov';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Poznámka: Ak odosielate prieskum cez zoznamy emailov, odškrtnite Len pre prihlásených používateľov.';
-$lang['survey_send_string']                        = 'Odoslať';
-$lang['survey_send_to_total']                      = 'Odoslať na celkom %s emailov';
-$lang['survey_send_till_now']                      = 'Doteraz';
-$lang['survey_send_finished']                      = 'Odoslanie prieskumu dokončené: %s';
-$lang['survey_added_to_queue']                     = 'Tento prieskum je pridaný do fronty Cronu %s';
-$lang['survey_questions_string']                   = 'Otázka';
-$lang['survey_insert_field']                       = 'Vložiť pole';
-$lang['survey_field_checkbox']                     = 'Zaškrtávacie pole';
-$lang['survey_field_radio']                        = 'Radio';
-$lang['survey_field_input']                        = 'Pole zadávania';
-$lang['survey_field_textarea']                     = 'Textová oblasť';
-$lang['survey_question_required']                  = 'Povinné';
-$lang['survey_question_only_for_preview']          = 'Len pre náhľad';
-$lang['survey_create_first']                       = 'Najskôr musíte vytvoriť prieskum, potom budete môcť vložiť otázky.';
-$lang['survey_dt_name']                            = 'Meno';
-$lang['survey_dt_total_questions']                 = 'Celkom otázok';
-$lang['survey_dt_total_participants']              = 'Celkom účastníkov';
-$lang['survey_dt_date_created']                    = 'Dátum vytvorenia';
-$lang['survey_dt_active']                          = 'Aktívne';
-$lang['survey_text_questions_results']             = 'Výsledky textových otázok';
-$lang['survey_view_all_answers']                   = 'Prezrieť všetky odpovede';
+
 # Staff Tasks
 $lang['new_task']                           = 'Nová úloha';
 $lang['tasks']                              = 'Úlohy';
@@ -992,8 +913,6 @@ $lang['payment_mode']         = 'Platobná metóda';
 $lang['payment_view_heading'] = 'Platba';
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Umožniť zákazníkovi upraviť sumu k úhrade (pre online platby)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Koľko emailov odosielať za hodinu';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Táto možnosť sa využíva pri odosielaní prieskumov. Cron odošle X emailov za hodinu. Niektoré hostingy majú limit pre odosielanie emailov.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Odstránenie faktúry povolené len u poslednej faktúry';
 $lang['settings_sales_estimate_prefix']                             = 'Prefix čísla odhadov';
 $lang['settings_sales_next_estimate_number']                        = 'Nasledujúce číslo odhadov';
@@ -1237,7 +1156,6 @@ $lang['contract_renewal_new_end_date']        = 'Nový dátum expirácie: %s';
 $lang['contract_renewal_old_end_date']        = 'Starý dátum expirácie bol: %s';
 $lang['contract_attachment']                  = 'Príloha';
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Sledovanie cieľov';
 $lang['als_expenses']           = 'Výdavky';
 $lang['als_reports_expenses']   = 'Výdavky';
 $lang['als_expenses_vs_income'] = 'Príjmy vs. výdavky';
@@ -1246,47 +1164,7 @@ $lang['invoice_attach_file']           = 'Pripojiť súbor';
 $lang['invoice_mark_as_sent']          = 'Označiť ako odoslané';
 $lang['invoice_marked_as_sent']        = 'Faktúra bola označená ako odoslaná';
 $lang['invoice_marked_as_sent_failed'] = 'Nepodarilo sa označiť faktúru ako odoslanú';
-# Goals Tracking
-$lang['goals']                                                          = 'Ciele';
-$lang['goal']                                                           = 'Cieľ';
-$lang['goals_tracking']                                                 = 'Sledovanie cieľov';
-$lang['new_goal']                                                       = 'Nový cieľ';
-$lang['goal_lowercase']                                                 = 'cieľ';
-$lang['goal_start_date']                                                = 'Začiatok';
-$lang['goal_end_date']                                                  = 'Koniec';
-$lang['goal_subject']                                                   = 'Predmet';
-$lang['goal_description']                                               = 'Popis';
-$lang['goal_type']                                                      = 'Typ cieľa';
-$lang['goal_achievement']                                               = 'Úspech';
-$lang['goal_contract_type']                                             = 'Typ zmluvy';
-$lang['goal_notify_when_fail']                                          = 'Upozorniť zamestnanca, pokiaľ sa nepodarilo dosiahnúť cieľ';
-$lang['goal_notify_when_achieve']                                       = 'Upozorniť zamestnanca, akonáhle sa dosiahne cieľ';
-$lang['goal_progress']                                                  = 'Priebeh';
-$lang['goal_total']                                                     = 'Celkom: %s';
-$lang['goal_result_heading']                                            = 'Priebeh cieľa';
-$lang['goal_income_shown_in_base_currency']                             = 'Celkový príjem je zobrazený v predvolenej mene';
-$lang['goal_notify_when_end_date_arrives']                              = 'Zamestnanci budú upozornení pri dosiahnutí dátumu konca (Vyžaduje CRON).';
-$lang['goal_staff_members_notified_about_achievement']                  = 'Zamestnanci budú upozornení pri dosiahnutí cieľa';
-$lang['goal_staff_members_notified_about_failure']                      = 'Zamestnanci budú upozornení pri nesplnení cieľa';
-$lang['goal_notify_staff_manually']                                     = 'Upozorniť zamestnanca manuálne';
-$lang['goal_notify_staff_notified_manually_success']                    = 'Zamestnanci budú upozornení na výsledky cieľa';
-$lang['goal_notify_staff_notified_manually_fail']                       = 'Nepodarilo sa upozorniť zamestnanca na výsledky cieľa';
-$lang['goal_achieved']                                                  = 'Cieľ bol dosiahnutý';
-$lang['goal_failed']                                                    = 'Cieľ nebol dosiahnutý';
-$lang['goal_close']                                                     = 'Takmer dosiahnutý';
-$lang['goal_type_total_income']                                         = 'Celkový dosiahnutý príjem';
-$lang['goal_type_convert_leads']                                        = 'Konverzie x Akvizície';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Zvýšiť počet zákazníkov';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Konverzia akvizícií nie je zahrnutá';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'Zvýšiť počet zákazníkov';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'Konverzia akvizícií je zahrnutá';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'Vytvoriť zmluvy podľa typu';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'Kalkulované podľa dátumu pridania do databázy';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'Vytvoriť zmluvy podľa typu';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'Kalkulované podľa dátumu začiatku zmluvy';
-$lang['goal_type_total_estimates_converted']                            = 'X Konverzie odhadov ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'Zahrnuté budú iba odhady, ktoré boli zmenené na faktúry';
-$lang['goal_type_income_subtext']                                       = 'Príjem bude vypočítaný v predvolenej mene (neprevedené)';
+
 # Payments
 $lang['payment_transaction_id'] = 'ID Transakcie';
 # Settings Menu
@@ -1483,7 +1361,6 @@ $lang['task_public_help']          = 'Ak nastavíte úlohu ako verejnú, bude vi
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Vytvárať PDF dokumenty z administrácie v jazyku klienta';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Ak je táto možnosť nastavená budú dokumenty vytvárané v jazyku klienta, nie v predvolenom jazyku administrácie';
-$lang['settings_cron_surveys']                                               = 'Prieskumy';
 $lang['settings_default_tax']                                                = 'Predvolená daň';
 $lang['setup_calendar_by_departments']                                       = 'Nastaviť kalendár podľa oddelenia';
 $lang['settings_calendar']                                                   = 'Kalendár';
@@ -1542,19 +1419,6 @@ $lang['bulk_export_status']            = 'Stav';
 $lang['bulk_export_zip_payment_modes'] = 'Platby';
 $lang['bulk_export_include_tag']       = 'Zahrnúť štítok';
 $lang['bulk_export_include_tag_help']  = 'napr. Originál alebo Kopiu. Štítok bude zobrazený v PDF. Doporučujeme použiť len jeden';
-## Clients area
-$lang['auto_backup_options_updated']     = 'Nastavenie automatických záloh bolo aktualizované';
-$lang['auto_backup_every']               = 'Vytvoriť zálohu každých X dní';
-$lang['auto_backup_enabled']             = 'Povolené (vyžaduje Cron)';
-$lang['auto_backup']                     = 'Automatická záloha';
-$lang['backup_delete']                   = 'Záloha bola odstránená';
-$lang['backup_success']                  = 'Záloha bola úspešne vytvorená';
-$lang['utility_backup']                  = 'Záloha databázy';
-$lang['utility_create_new_backup_db']    = 'Vytvoriť zálohu databázy';
-$lang['utility_backup_table_backupname'] = 'Záloha';
-$lang['utility_backup_table_backupsize'] = 'Veľkosť zálohy';
-$lang['utility_backup_table_backupdate'] = 'Dátum';
-$lang['utility_db_backup_note']          = 'Pozn.: Vzhľadom k limitom PHP nemusí byť zálohovanie príliš veľkej databázy možné. Ak je databáza príliš veľká, budete musieť vykonať zálohu priamo z SQL servera pomocou príkazového riadku alebo požiadať svojho administrátora.';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1744,24 +1608,13 @@ $lang['custom_field_show_on_table']              = 'Zobraziť v tabuľke';
 $lang['custom_field_show_on_client_portal']      = 'Zobraziť v klientskej sekcii';
 $lang['custom_field_show_on_client_portal_help'] = 'Ak je zaškrtnuté bude zobrazené aj v tabuľke';
 $lang['custom_field_visibility']                 = 'Viditeľnosť';
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Tu môžete tiež pridať reťazce prekladu. Ak má zamestanec / systém iný jazyk ako predvolený, bude zobrazený v jeho jazyku. V opačnom prípade bude natavený reťazec, ktorý zadáte tu.';
-$lang['utilities_menu_icon']                = 'Ikona';
-$lang['active_menu_items']                  = 'Aktívne položky menu';
-$lang['inactive_menu_items']                = 'Neaktívne položky menu';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Názov';
-$lang['utilities_menu_save']                = 'Uložiť menu';
+
 # Knowledge Base
 $lang['view_articles_list']     = 'Zobraziť články';
 $lang['view_articles_list_all'] = 'Všetky články';
 $lang['als_all_articles']       = 'Články';
 $lang['als_kb_groups']          = 'Skupiny';
-# Customizer Menu
-$lang['menu_builder']            = 'Nastavenia menu';
-$lang['main_menu']               = 'Hlavné menu';
-$lang['setup_menu']              = 'Možnosti menu';
-$lang['utilities_menu_url_help'] = '%s je automaticky pripojená k adrese URL';
+
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Filtre spamu';
 $lang['spam_filter']                  = 'Filter spamu';
@@ -1834,11 +1687,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Akvizícia importovaná
 $lang['not_lead_imported_attachment']                 = 'Importovaná príloha z emailu';
 $lang['not_estimate_status_change']                   = 'Importovaná príloha z emailu';
 $lang['not_estimate_status_updated']                  = 'Stav odhadu aktualizovaný: Z: <b>%s</b> na <b>%s</b>';
-$lang['not_goal_message_success']                     = 'Gratulujeme! Dosiahli sme nový cieľ.<br /> Typ cieľa: %s
-<br />Dosiahnutie cieľa: %s
-<br />Celkový výsledok: %s
-<br />Dátum začiatku: %s
-<br />Dátum ukončenia: %s';
+
 $lang['not_assigned_lead_to_you']                                 = 'bola vám priradená akvizícia %s ';
 $lang['not_lead_activity_assigned_to']                            = '%s priradený %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Zmazať prílohu';
@@ -2327,8 +2176,6 @@ $lang['expense_repeat_every']                    = 'Opakovať každé';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Prepnúť na kan ban';
-$lang['survey_no_questions']                      = 'Tento prieskum nemá zatiaľ žiadne otázky.';
-$lang['survey_submit']                            = 'Odoslať';
 $lang['contract_content']                         = 'Zmluva';
 $lang['contract_save']                            = 'Uložiť zmluvu';
 $lang['contract_send_to_email']                   = 'Odoslať na email';
@@ -2432,7 +2279,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Zastaviť všetky bežiace st
 $lang['notification_when_customer_pay_invoice'] = 'Dostať upozornenie, keď klient zaplatí faktúru (vstavané)';
 $lang['not_invoice_payment_recorded']           = 'Nová úhrada faktúry - %s';
 $lang['email_template_contact_warning']         = 'Ak nie je kontakt prihlásený pri vykonávaní tejto akcie, polia pre zlúčenie nebudú nahradené..';
-$lang['theme_style']                            = 'Štýl šablóny';
 $lang['change_role_permission_warning']         = 'Zmena práv tejto role neovplyvní zamestnancov, ktorí sú k tejto úlohe priradení.';
 $lang['task_copied_successfully']               = 'Úloha bola úspešne skopírovaná';
 $lang['failed_to_copy_task']                    = 'Nepodarilo sa skopírovať úlohu';
@@ -2467,11 +2313,6 @@ $lang['to_date']                                = 'Dátum do';
 $lang['not_results_found']                      = 'Žiadne výsledky';
 $lang['lead_lock_after_convert_to_customer']    = 'Zakázať úpravy akvizíc potom, čo boli zmenené na zákazníkov (neplatí pre administrátorov)';
 $lang['default_pipeline_sort']                  = 'Predvolené zoradenie stavov';
-$lang['not_goal_message_failed']                = 'Nepodarilo sa dosiahnúť cieľ!<br /> Typ cieľa: %s
-<br />Dosiahnutie cieľa: %s
-<br />Celkom dosiahnutí: %s
-<br />Dátum začiatku: %s
-<br />Dátum konca: %s';
 $lang['toggle_full_view']             = 'Zapnúť plné zobrazenie';
 $lang['not_estimate_invoice_deleted'] = 'odstránil vytvorenú faktúru';
 $lang['not_task_new_comment']         = 'komentoval úlohu %s';
@@ -2740,8 +2581,6 @@ $lang['task_checklist_item_completed_by']                   = 'Dokončil %s';
 $lang['staff_email_signature_help']                         = 'Ak je pole prázdne, bude použité predvolené nastavenie podpisu emailu';
 $lang['default_task_priority']                              = 'Predvolená priorita';
 $lang['project_send_created_email']                         = 'Odoslať email o vytvorení projektu';
-$lang['survey_send_to_lists']                               = 'Zoznamy pre odoslanie prieskumu';
-$lang['survey_send_notice']                                 = 'Emaily budú odoslané pomocou CRONu.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Zobraziť platby faktúry (transakcie) na PDF';
@@ -2753,7 +2592,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Zobraziť v klientskej s
 $lang['customer_attachments_show_notice']            = 'Iba súbory nahraté zo zákazníckeho profilu majú možnosť zobrazenie / skrytie v zákazníckej sekcii.';
 $lang['customer_profile_files']                      = 'Súbory';
 $lang['no_files_found']                              = 'Žiadne súbory';
-$lang['survey_customers_all']                        = 'Všetci klienti';
 $lang['custom_field_column']                         = 'Mriežka (Bootstrap stĺpce napr. 12) - Max. je 12';
 $lang['task_status']                                 = 'Stav';
 $lang['task_status_1']                               = 'Zadané';
@@ -2962,7 +2800,6 @@ $lang['proposals_report']                                = 'Report ponuky';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Ak zamestnanec nemá právo na zobrazenie klientov, bude môcť vytvárať tikety len z administrácie pre klientov, ku kterým je priradený ako správca.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Povoliť zamestnancom vytvárať tikety pre všetky kontakty?';
 $lang['charts_based_report']                             = 'Prehľady založené na grafoch';
-$lang['delete_backups_older_then']                       = 'Automaticky odstrániť zálohu staršiu ako X dní (nastavte 0 pre vypnutie)';
 $lang['responsible_admin']                               = 'Zodpovedný správca';
 $lang['tags']                                            = 'Štítky';
 $lang['tag']                                             = 'Štítok';
@@ -3563,7 +3400,33 @@ $lang['pay_with_card']                                               = 'Platba k
 $lang['not_customer_uploaded_file']                                  = 'Nový súbor bol nahratý v profile';
 
 # Version 2.2.1
+
 $lang['customer_files_info_message'] = 'Súbory z projektov a úloh prepojených so zákazníkom sa v tejto tabuľke nezobrazujú.';
 $lang['ticket_import_reply_only'] = 'Pokúste sa importovať iba skutočnú odpoveď na tiket (bez citovanej / presmerovanej správy).';
 $lang['learn_more'] = 'Zistiť viac';
 $lang['sales_item'] = 'Položka';
+
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';

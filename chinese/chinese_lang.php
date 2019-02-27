@@ -302,40 +302,6 @@ $lang['group_table_name_heading']      = '名称';
 $lang['group_table_isactive_heading']  = '激活';
 $lang['kb_no_groups_found']            = '没有找到的知识基础组';
 
-# Mail Lists
-$lang['mail_lists']                            = '邮件列表';
-$lang['mail_list']                             = '邮件列表';
-$lang['new_mail_list']                         = '新邮件列表';
-$lang['mail_list_lowercase']                   = '邮件列表';
-$lang['custom_field_deleted_success']          = '删除自定义字段';
-$lang['custom_field_deleted_fail']             = '删除自定义字段的问题';
-$lang['email_removed_from_list']               = '从邮件列表中删除';
-$lang['email_remove_fail']                     = '邮件删除失败';
-$lang['staff_mail_lists']                      = '员工的邮件列表';
-$lang['clients_mail_lists']                    = '客户邮件列表';
-$lang['mail_list_total_imported']              = '全部邮件输入: %s';
-$lang['mail_list_total_duplicate']             = '全部重复的电子邮件: %s';
-$lang['mail_list_total_failed_to_insert']      = '邮件未能添加: %s';
-$lang['mail_list_total_invalid']               = '无效的电子邮件地址: %s';
-$lang['cant_edit_mail_list']                   = '你不能编辑这个列表，这个列表是自动填充的';
-$lang['mail_list_add_edit_name']               = '邮件列表名称';
-$lang['mail_list_add_edit_customfield']        = '添加自定义字段';
-$lang['mail_lists_view_email_email_heading']   = '电子邮件';
-$lang['mail_lists_view_email_date_heading']    = '添加日期';
-$lang['add_new_email_to']                      = '添加新的电子邮件 %s';
-$lang['import_emails_to']                      = '导入邮件 %s';
-$lang['mail_list_new_email_edit_add_label']    = '电子邮件';
-$lang['mail_list_import_file']                 = '导入文件';
-$lang['mail_list_available_custom_fields']     = '可自定义字段';
-$lang['submit_import_emails']                  = '导入邮件';
-$lang['btn_import_emails']                     = '导入邮件 (Excel)';
-$lang['btn_add_email_to_list']                 = '添加到该列表的电子邮件';
-$lang['mail_lists_dt_list_name']               = '列表名称';
-$lang['mail_lists_dt_datecreated']             = '创建日期';
-$lang['mail_lists_dt_creator']                 = '写信人';
-$lang['email_added_to_mail_list_successfully'] = '邮件已添加到列表';
-$lang['email_is_duplicate_mail_list']          = '电子邮件已存在于此列表中';
-
 # Media
 $lang['media_files'] = '文件夹';
 
@@ -587,7 +553,6 @@ $lang['als_staff']     = '工作人员';
 $lang['als_tasks']     = '任务';
 $lang['als_kb']        = '知识库';
 
-$lang['als_surveys']               = '调查';
 $lang['als_media']                 = '文件';
 $lang['als_reports']               = '报告';
 $lang['als_reports_sales_submenu'] = '销售';
@@ -718,63 +683,6 @@ $lang['staff_edit_profile_change_your_password']       = '更改您的密码';
 $lang['staff_edit_profile_change_old_password']        = '旧密码';
 $lang['staff_edit_profile_change_new_password']        = '新密码';
 $lang['staff_edit_profile_change_repeat_new_password'] = '重复新密码';
-
-# Surveys
-$lang['new_survey']                    = '新的调查';
-$lang['surveys']                       = '调查';
-$lang['survey']                        = '调查';
-$lang['survey_lowercase']              = '调查';
-$lang['survey_no_mail_lists_selected'] = '没有选择邮件列表';
-$lang['survey_send_success_note']      = '所有调查的电子邮件(% s)将通过CRON作业发送间隔5分钟';
-$lang['survey_result']                 = '调查结果：%s';
-$lang['question_string']               = '问题';
-$lang['question_field_string']         = '菲尔德';
-
-$lang['survey_list_view_tooltip']         = '看法的调查';
-$lang['survey_list_view_results_tooltip'] = '查看结果';
-
-$lang['survey_add_edit_subject']                   = '调查项目';
-$lang['survey_add_edit_email_description']         = '调查描述（电子邮件描述)';
-$lang['survey_include_survey_link']                = '包括调查链接在描述';
-$lang['survey_available_mail_lists_custom_fields'] = '从电子邮件列表可用自定义字段';
-$lang['survey_mail_lists_custom_fields_tooltip']   = '自定义字段可用于电子邮件编辑器。提示：点击电子邮件编辑器，然后从下拉菜单中选择要附加自动.';
-$lang['survey_add_edit_short_description_view']    = '调查简短描述（视图描述）';
-$lang['survey_add_edit_from']                      = '（不同规格的电子邮件）';
-$lang['survey_add_edit_redirect_url']              = '调查重定向网址';
-$lang['survey_add_edit_red_url_note']              = '当用户完成调查，被重定向（空白留给这个网站url）';
-$lang['survey_add_edit_disabled']                  = '禁用';
-$lang['survey_add_edit_only_for_logged_in']        = '只记录参与者（员工，客户）';
-$lang['send_survey_string']                        = '发送调查问卷';
-$lang['survey_send_mail_list_clients']             = '客户';
-$lang['survey_send_mail_list_staff']               = '工作人员';
-$lang['survey_send_mail_lists_string']             = '邮件列表';
-$lang['survey_send_mail_lists_note_logged_in']     = '注意：如果你发送调查邮件列表只有登录参与者需要检查';
-$lang['survey_send_string']                        = '发送';
-
-$lang['survey_send_to_total']  = '发送到总&的电子邮件';
-$lang['survey_send_till_now']  = '到现在为止';
-$lang['survey_send_finished']  = '调查发送完成：%s';
-$lang['survey_added_to_queue'] = '这项调查是添加到cron %s 的队列';
-
-$lang['survey_questions_string']          = '问题';
-$lang['survey_insert_field']              = '插入字段';
-$lang['survey_field_checkbox']            = '复选框';
-$lang['survey_field_radio']               = '无线电';
-$lang['survey_field_input']               = '输入栏';
-$lang['survey_field_textarea']            = '文本区域';
-$lang['survey_question_required']         = '要求';
-$lang['survey_question_only_for_preview'] = '仅供预览';
-$lang['survey_create_first']              = '首先您需要创建调查然后你将能插入问题';
-
-
-$lang['survey_dt_name']               = '名称';
-$lang['survey_dt_total_questions']    = '总的问题';
-$lang['survey_dt_total_participants'] = '总的参与者';
-$lang['survey_dt_date_created']       = '创建日期';
-$lang['survey_dt_active']             = '有效';
-
-$lang['survey_text_questions_results'] = '文本问题结果';
-$lang['survey_view_all_answers']       = '查看所有的答案';
 
 # Staff Tasks
 $lang['new_task']       = '新的任务';
@@ -1128,8 +1036,6 @@ $lang['payment_view_heading'] = '付款';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = '允许客户修改支付金额(用于在线支付)';
-$lang['settings_survey_send_emails_per_cron_run']                   = '每小时发送多少电子邮件 (调查)';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = '此选项用于发送调查时使用. 调查cron每5分钟运行一次。所以你可以设置每5分钟发送多少电子邮件';
 $lang['settings_delete_only_on_last_invoice']                       = '只允许删除最后一张发票';
 $lang['settings_sales_estimate_prefix']                             = '报价数的前缀';
 $lang['settings_sales_next_estimate_number']                        = '下一个报价数';
@@ -1398,7 +1304,6 @@ $lang['contract_renewal_old_end_date']        = '老合同结束日期: %s';
 $lang['contract_attachment']                  = '附件';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = '目标踪迹';
 $lang['als_expenses']           = '费用';
 $lang['als_reports_expenses']   = '费用';
 $lang['als_expenses_vs_income'] = '支出与收入';
@@ -1409,50 +1314,6 @@ $lang['invoice_mark_as_sent']          = '标记为发送';
 $lang['invoice_marked_as_sent']        = '发票上注明为已发送成功';
 $lang['invoice_marked_as_sent_failed'] = '未能按发票发送';
 
-# Goals Tracking
-$lang['goals']                                         = '目标';
-$lang['goal']                                          = '目标';
-$lang['goals_tracking']                                = '目标跟踪';
-$lang['new_goal']                                      = '新目标';
-$lang['goal_lowercase']                                = '目标';
-$lang['goal_start_date']                               = '开始日期';
-$lang['goal_end_date']                                 = '结束日期';
-$lang['goal_subject']                                  = '项目';
-$lang['goal_description']                              = '描述';
-$lang['goal_type']                                     = '目标类型';
-$lang['goal_achievement']                              = '成就';
-$lang['goal_contract_type']                            = '合同类型';
-$lang['goal_notify_when_fail']                         = '当目标未能实现时通知工作人员';
-$lang['goal_notify_when_achieve']                      = '在目标实现时通知工作人员';
-$lang['goal_progress']                                 = '进展';
-$lang['goal_total']                                    = '总数：%';
-$lang['goal_result_heading']                           = '目标的进展';
-$lang['goal_income_shown_in_base_currency']            = '收入总额以基础货币显示';
-$lang['goal_notify_when_end_date_arrives']             = '工作人员将在结束日期到达时通知';
-$lang['goal_staff_members_notified_about_achievement'] = '员工通报这一目标的成就';
-$lang['goal_staff_members_notified_about_failure']     = '通知员工有关故障';
-$lang['goal_notify_staff_manually']                    = '通知职工手动';
-$lang['goal_notify_staff_notified_manually_success']   = '该工作人员通报关于这一目标的结果';
-$lang['goal_notify_staff_notified_manually_fail']      = '未能通知工作人员关于这个目标的结果';
-
-$lang['goal_achieved'] = '实现';
-$lang['goal_failed']   = '失败';
-$lang['goal_close']    = '很接近';
-
-$lang['goal_type_total_income']                                         = '实现总收入';
-$lang['goal_type_convert_leads']                                        = '将x转换信息';
-$lang['goal_type_increase_customers_without_leads_conversions']         = '增加客户的数量';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = '导致转换被排除';
-
-$lang['goal_type_increase_customers_with_leads_conversions']         = '增加客户的数量';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = '信息转换包括';
-$lang['goal_type_make_contracts_by_type_calc_database']              = '按类型签订合同';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']      = '从添加到数据库之日起计算';
-$lang['goal_type_make_contracts_by_type_calc_date']                  = '按类型签订合同';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']          = '从合同开始日期计算';
-$lang['goal_type_total_estimates_converted']                         = 'X报价转换';
-$lang['goal_type_total_estimates_converted_subtext']                 = '将只报价谁将被转换为发票';
-$lang['goal_type_income_subtext']                                    = '收入将计算在您的基础货币（未转换）';
 # Payments
 $lang['payment_transaction_id'] = '事务ID';
 # Settings Menu
@@ -1662,7 +1523,6 @@ $lang['task_public_help']          = '如果设置此任务，任务将成为所
 $lang['settings_general_favicon']                                            = '网站图标';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = '从管理区的客户语言输出端PDF文档';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = '如果该选项设置为是和前。系统将默认语言是英语和客户机，已经安装语言法语PDF文档将在客户语言输出';
-$lang['settings_cron_surveys']                                               = '调查';
 $lang['settings_default_tax']                                                = '预设税';
 $lang['setup_calendar_by_departments']                                       = '各部门设置日历';
 $lang['settings_calendar']                                                   = '日历';
@@ -1723,20 +1583,6 @@ $lang['bulk_export_status']            = '状态';
 $lang['bulk_export_zip_payment_modes'] = '支付由';
 $lang['bulk_export_include_tag']       = '包括标签';
 $lang['bulk_export_include_tag_help']  = '原始或复制。标签将在PDF输出。标书只使用1标签';
-
-# Backup
-$lang['auto_backup_options_updated']     = '自动备份选项更新';
-$lang['auto_backup_every']               = '每隔几天创建一个备份';
-$lang['auto_backup_enabled']             = '启用(需要Cron)';
-$lang['auto_backup']                     = '自动备份';
-$lang['backup_delete']                   = '备份删除';
-$lang['backup_success']                  = '备份是成功的';
-$lang['utility_backup']                  = '数据库备份';
-$lang['utility_create_new_backup_db']    = '创建数据库备份';
-$lang['utility_backup_table_backupname'] = '备份';
-$lang['utility_backup_table_backupsize'] = '备份大小';
-$lang['utility_backup_table_backupdate'] = '日期';
-$lang['utility_db_backup_note']          = '注意:由于有限的执行时间和内存可用的PHP,备份非常大的数据库是不可能的。如果您的数据库非常大,您可能需要备份通过命令行直接从您的SQL服务器,或有你的服务器管理员帮你，如果你没有根特权。';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1944,26 +1790,11 @@ $lang['custom_field_show_on_client_portal']      = '客户门户网站';
 $lang['custom_field_show_on_client_portal_help'] = '如果检查该字段，将显示在表中';
 $lang['custom_field_visibility']                 = '能见度';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = '你也可以在这里添加翻译字符串。如果员工/系统语言其他那么默认菜单项的名称将在员工输出语言。否则如果字符串翻译文件中不存在将您输入的字符串.';
-$lang['utilities_menu_icon']                = '图标';
-$lang['active_menu_items']                  = '活动菜单项';
-$lang['inactive_menu_items']                = '菜单项无效';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = '名称';
-$lang['utilities_menu_save']                = '保存菜单';
-
 # Knowledge Base
 $lang['view_articles_list']     = '查看文章';
 $lang['view_articles_list_all'] = '所有的文章';
 $lang['als_all_articles']       = '所有的文章';
 $lang['als_kb_groups']          = '组';
-
-# Customizer Menu
-$lang['menu_builder']            = '菜单设置';
-$lang['main_menu']               = '主菜单';
-$lang['setup_menu']              = '设置菜单';
-$lang['utilities_menu_url_help'] = '％s是自动追加到url';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = '垃圾邮件过滤器';
@@ -2042,11 +1873,7 @@ $lang['not_received_lead_imported_email_integration'] = '主要导入电子邮�
 $lang['not_lead_imported_attachment']                 = '从电子邮件附件导入';
 $lang['not_estimate_status_change']                   = '从电子邮件附件导入';
 $lang['not_estimate_status_updated']                  = '报价状态更新:从 %s 到 %s';
-$lang['not_goal_message_success']                     = '恭喜！我们实现了新的目标. <br /> 目标类型: %s
-<br />Goal Achievement: %s
-<br />Total Achievement: %s
-<br />Start Date: %s
-<br />End Date: %s';
+
 $lang['not_assigned_lead_to_you']                                 = '分配给你的领导 %s';
 $lang['not_lead_activity_assigned_to']                            = '%s 被分配给 %s';
 $lang['not_lead_activity_attachment_deleted']                     = '删除附件';
@@ -2567,8 +2394,6 @@ $lang['expense_repeat_every']              = 'Repeat every';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Switch to kan ban';
-$lang['survey_no_questions']                      = 'This survey does not have questions added yet.';
-$lang['survey_submit']                            = 'Submit';
 $lang['contract_content']                         = 'Contract';
 $lang['contract_save']                            = 'Save Contract';
 $lang['contract_send_to_email']                   = 'Send to email';
@@ -2675,7 +2500,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Stop all other started timers
 $lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
 $lang['not_invoice_payment_recorded']           = 'New invoice payment - %s';
 $lang['email_template_contact_warning']         = 'If contact is not logged while making action the contact merge fields wont be replaced.';
-$lang['theme_style']                            = 'Theme Style';
 $lang['change_role_permission_warning']         = 'Changing role permissions now wont affected current staff members permissions that are using this role.';
 $lang['task_copied_successfully']               = 'Task copied successfully';
 $lang['failed_to_copy_task']                    = 'Failed to copy task';
@@ -2710,11 +2534,6 @@ $lang['to_date']                                = 'To date';
 $lang['not_results_found']                      = 'No results found';
 $lang['lead_lock_after_convert_to_customer']    = 'Dont allow editing the lead after converting to customer (admins not applied)';
 $lang['default_pipeline_sort']                  = 'Default pipeline sort';
-$lang['not_goal_message_failed']                = 'We failed to achieve goal!<br /> Goal Type: %s
-<br />Goal Achievement: %s
-<br />Total Achievement: %s
-<br />Start Date: %s
-<br />End Date: %s';
 $lang['toggle_full_view']             = 'Toggle full view';
 $lang['not_estimate_invoice_deleted'] = 'deleted the created invoice';
 $lang['not_task_new_comment']         = 'commented on task %s';
@@ -2982,8 +2801,6 @@ $lang['task_checklist_item_completed_by']                   = 'Completed by %s';
 $lang['staff_email_signature_help']                         = 'If empty default email signature from settings will be used';
 $lang['default_task_priority']                              = 'Default Priority';
 $lang['project_send_created_email']                         = 'Send project created email';
-$lang['survey_send_to_lists']                               = 'Survey send lists';
-$lang['survey_send_notice']                                 = 'Emails will be send via CRON JOB per hour.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Show invoice payments (transactions) on PDF';
@@ -2995,7 +2812,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Show to customers area';
 $lang['customer_attachments_show_notice']            = 'Only files uploaded from customer profile have ability to show/hide in customers area.';
 $lang['customer_profile_files']                      = 'Files';
 $lang['no_files_found']                              = 'No Files Found';
-$lang['survey_customers_all']                        = 'All Customers';
 $lang['custom_field_column']                         = 'Grid (Bootstrap Column eq. 12) - Max is 12';
 $lang['task_status']                                 = 'Status';
 $lang['task_status_1']                               = 'Not Started';
@@ -3205,7 +3021,6 @@ $lang['proposals_report']                                = 'Proposals Report';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Allow staff members to open tickets to all contacts?';
 $lang['charts_based_report']                             = 'Charts Based Report';
-$lang['delete_backups_older_then']                       = 'Auto delete backups older then X days (set 0 to disable)';
 $lang['responsible_admin']                               = 'Responsible admin';
 $lang['tags']                                            = 'Tags';
 $lang['tag']                                             = 'Tag';
@@ -3812,4 +3627,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+

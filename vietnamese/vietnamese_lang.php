@@ -266,39 +266,7 @@ $lang['kb_group_add_edit_note']        = 'Lưu ý: Tất cả bài viết trong 
 $lang['group_table_name_heading']      = 'Tên gọi';
 $lang['group_table_isactive_heading']  = 'Kích hoạt';
 $lang['kb_no_groups_found']            = 'Không tìm thấy phân nhóm nào';
-# Mail Lists
-$lang['mail_lists']                            = 'Danh sách thư';
-$lang['mail_list']                             = 'Danh sách thư';
-$lang['new_mail_list']                         = 'Danh sách thư mới';
-$lang['mail_list_lowercase']                   = 'danh sách thư';
-$lang['custom_field_deleted_success']          = 'Đã xóa trường tự tạo';
-$lang['custom_field_deleted_fail']             = 'Xảy ra trục trặc khi đang xóa trường tự tạo';
-$lang['email_removed_from_list']               = 'Email đã được xóa khỏi danh sách';
-$lang['email_remove_fail']                     = 'Email chưa được xóa thành công';
-$lang['staff_mail_lists']                      = 'Danh sách thư của nhân viên';
-$lang['clients_mail_lists']                    = 'Danh sách thư của khách hàng';
-$lang['mail_list_total_imported']              = 'Tổng số email nhập vào: %s';
-$lang['mail_list_total_duplicate']             = 'Tổng số thư được sao chép: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Tổng số email chèn vào không thành công: %s';
-$lang['mail_list_total_invalid']               = 'Địa chỉ email không tồn tại: %s';
-$lang['cant_edit_mail_list']                   = 'Bạn không có quyền chỉnh sửa danh sách này, danh sách được cố định tự động';
-$lang['mail_list_add_edit_name']               = 'Tên danh sách thư';
-$lang['mail_list_add_edit_customfield']        = 'Thêm mục mới';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Ngày thêm vào';
-$lang['add_new_email_to']                      = 'Thêm email mới vào %s';
-$lang['import_emails_to']                      = 'Nhập email vào %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Thêm tập tin';
-$lang['mail_list_available_custom_fields']     = 'Các mục đã tạo';
-$lang['submit_import_emails']                  = 'Nhập email';
-$lang['btn_import_emails']                     = 'Nhập email (Excel)';
-$lang['btn_add_email_to_list']                 = 'Thêm email vào danh sách này';
-$lang['mail_lists_dt_list_name']               = 'Tên danh sách';
-$lang['mail_lists_dt_datecreated']             = 'Ngày tạo';
-$lang['mail_lists_dt_creator']                 = 'Người tạo';
-$lang['email_added_to_mail_list_successfully'] = 'Email đã được thêm';
-$lang['email_is_duplicate_mail_list']          = 'Email đã có trong danh sách';
+
 # Media
 $lang['media_files'] = 'Tập tin';
 # Payment modes
@@ -517,7 +485,6 @@ $lang['als_sales']                 = 'Doanh số';
 $lang['als_staff']                 = 'Nhân viên';
 $lang['als_tasks']                 = 'Công việc';
 $lang['als_kb']                    = 'Kiến thức';
-$lang['als_surveys']               = 'Thăm dò';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Báo cáo';
 $lang['als_reports_sales_submenu'] = 'Doanh số';
@@ -637,55 +604,7 @@ $lang['staff_edit_profile_change_your_password']       = 'Thay đổi mật kh�
 $lang['staff_edit_profile_change_old_password']        = 'Mật khẩu cũ';
 $lang['staff_edit_profile_change_new_password']        = 'Mật khẩu mới';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Nhập lại mật khẩu mới';
-# Surveys
-$lang['new_survey']                                = 'Thăm dò mới';
-$lang['surveys']                                   = 'Các cuộc thăm dò';
-$lang['survey']                                    = 'Thăm dò';
-$lang['survey_lowercase']                          = 'thăm dò';
-$lang['survey_no_mail_lists_selected']             = 'Không có danh sách thư nào được chọn';
-$lang['survey_send_success_note']                  = 'Tất cả email thăm dò (%s) sẽ được gửi qua CRON';
-$lang['survey_result']                             = 'Kết quả của cuộc thăm dò: %s';
-$lang['question_string']                           = 'Câu hỏi';
-$lang['question_field_string']                     = 'Mục';
-$lang['survey_list_view_tooltip']                  = 'Xem cuộc thăm dò';
-$lang['survey_list_view_results_tooltip']          = 'Xem kết quả';
-$lang['survey_add_edit_subject']                   = 'Tiêu đề cuộc thăm dò';
-$lang['survey_add_edit_email_description']         = 'Mô tả thăm dò (mô tả email)';
-$lang['survey_include_survey_link']                = 'Đính kèm liên kết cuộc thăm dò trong phần mô tả';
-$lang['survey_available_mail_lists_custom_fields'] = 'Các mục đã tạo trong danh sách email';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Các mục đã tạo có thể dùng cho chỉnh sửa email.';
-$lang['survey_add_edit_short_description_view']    = 'Mô tả ngắn (mô tả xem trước)';
-$lang['survey_add_edit_from']                      = 'Từ (hiển thị trong email)';
-$lang['survey_add_edit_redirect_url']              = 'Liên kết dẫn đến cuộc thăm dò';
-$lang['survey_add_edit_red_url_note']              = 'Khi người dùng hoàn thành cuộc thăm dò sẽ được dẫn đến đâu (để trống nếu là liên kết trang này)';
-$lang['survey_add_edit_disabled']                  = 'Khóa';
-$lang['survey_add_edit_only_for_logged_in']        = 'Chỉ dành cho tài khoản đã đăng nhập (nhân viên, khách hàng)';
-$lang['send_survey_string']                        = 'Gửi thăm dò';
-$lang['survey_send_mail_list_clients']             = 'Khách hàng';
-$lang['survey_send_mail_list_staff']               = 'Nhân viên';
-$lang['survey_send_mail_lists_string']             = 'Danh sách thư';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Lưu ý: Nếu bạn gửi thăm dò cho danh sách thư thì phải bỏ tick Chỉ dành cho tài khoản đã đăng nhập';
-$lang['survey_send_string']                        = 'Gửi';
-$lang['survey_send_to_total']                      = 'Gửi đến tất cả %s email';
-$lang['survey_send_till_now']                      = 'Đến thời điểm hiện tại';
-$lang['survey_send_finished']                      = 'Đã hoàn tất gửi thăm dò: %s';
-$lang['survey_added_to_queue']                     = 'Cuộc thăm dò này được thêm vào hàng chờ Cron trên %s';
-$lang['survey_questions_string']                   = 'Câu hỏi';
-$lang['survey_insert_field']                       = 'Thêm mục';
-$lang['survey_field_checkbox']                     = 'Ô đánh dấu';
-$lang['survey_field_radio']                        = 'Radio';
-$lang['survey_field_input']                        = 'Mục nhập';
-$lang['survey_field_textarea']                     = 'Khung nhập chữ';
-$lang['survey_question_required']                  = 'Bắt buộc';
-$lang['survey_question_only_for_preview']          = 'Chỉ để duyệt trước';
-$lang['survey_create_first']                       = 'Bạn phải tạo cuộc thăm dò rồi mới đặt câu hỏi.';
-$lang['survey_dt_name']                            = 'Tên';
-$lang['survey_dt_total_questions']                 = 'Tổng số câu hỏi';
-$lang['survey_dt_total_participants']              = 'Tổng số người tham gia';
-$lang['survey_dt_date_created']                    = 'Ngày tạo';
-$lang['survey_dt_active']                          = 'Có hiệu lực';
-$lang['survey_text_questions_results']             = 'Kết quả câu hỏi dạng chữ';
-$lang['survey_view_all_answers']                   = 'Xem các câu trả lời';
+
 # Staff Tasks
 $lang['new_task']                           = 'Phân công mới';
 $lang['tasks']                              = 'Phân công';
@@ -993,8 +912,6 @@ $lang['payment_mode']         = 'Phương thức thanh toán';
 $lang['payment_view_heading'] = 'Thanh toán';
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Cho phép khách hàng tùy chỉnh số tiền trả (áp dụng cho thanh toán trực tuyến)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Bao nhiêu email cần gửi đi mỗi giờ';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Chức năng này được dùng khi gửi phiếu thăm dò. Cron sẽ gửi X email mỗi tiếng đồng hồ. Một vài nhà cung cấp hosting có giới hạn cho việc này.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Chỉ áp dụng chức năng xóa cho hóa đơn trước';
 $lang['settings_sales_estimate_prefix']                             = 'Số báo giá';
 $lang['settings_sales_next_estimate_number']                        = 'Số báo giá tiếp theo';
@@ -1235,7 +1152,6 @@ $lang['contract_renewal_new_end_date']        = 'Ngày kết thúc mới: %s';
 $lang['contract_renewal_old_end_date']        = 'Ngày kết thúc hợp đồng cũ là: %s';
 $lang['contract_attachment']                  = 'Tập tin đính kèm';
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Theo dõi tiến độ';
 $lang['als_expenses']           = 'Chi phí';
 $lang['als_reports_expenses']   = 'Chi phí';
 $lang['als_expenses_vs_income'] = 'Chi phí và thu nhập';
@@ -1244,47 +1160,7 @@ $lang['invoice_attach_file']           = 'Đính kèm tập tin';
 $lang['invoice_mark_as_sent']          = 'Đánh dấu là đã gửi';
 $lang['invoice_marked_as_sent']        = 'Đánh dấu hóa đơn là đã gửi thành công';
 $lang['invoice_marked_as_sent_failed'] = 'Đánh dấu hóa đơn là đã gửi không thành công';
-# Goals Tracking
-$lang['goals']                                                          = 'Các mục tiêu';
-$lang['goal']                                                           = 'Mục tiêu';
-$lang['goals_tracking']                                                 = 'Theo dõi tiến độ';
-$lang['new_goal']                                                       = 'Mục tiêu mới';
-$lang['goal_lowercase']                                                 = 'mục tiêu';
-$lang['goal_start_date']                                                = 'Ngày bắt đầu';
-$lang['goal_end_date']                                                  = 'Ngày kết thúc';
-$lang['goal_subject']                                                   = 'Chủ đề';
-$lang['goal_description']                                               = 'Mô tả';
-$lang['goal_type']                                                      = 'Dạng mục tiêu';
-$lang['goal_achievement']                                               = 'Thành tựu';
-$lang['goal_contract_type']                                             = 'Loại hợp đồng';
-$lang['goal_notify_when_fail']                                          = 'Thông báo đến nhân viên khi không hoàn thành được mục tiêu';
-$lang['goal_notify_when_achieve']                                       = 'Thông báo đến nhân viên khi hoàn thành được mục tiêu';
-$lang['goal_progress']                                                  = 'Tiến trình';
-$lang['goal_total']                                                     = 'Tổng cộng: %s';
-$lang['goal_result_heading']                                            = 'Tiến độ mục tiêu';
-$lang['goal_income_shown_in_base_currency']                             = 'Tổng thu nhập được hiển thị theo đơn vị tiền gốc bạn chọn';
-$lang['goal_notify_when_end_date_arrives']                              = 'Nhân viên sẽ được thông báo khi ngày kết thúc đến (yêu cầu CRON).';
-$lang['goal_staff_members_notified_about_achievement']                  = 'Nhân viên được nhận thông báo về thành tựu này';
-$lang['goal_staff_members_notified_about_failure']                      = 'Nhân viên được thông báo về thất bại này';
-$lang['goal_notify_staff_manually']                                     = 'Thông báo đến nhân viên theo cách thủ công';
-$lang['goal_notify_staff_notified_manually_success']                    = 'Nhân viên được nhận thông báo về kết quả mục tiêu này';
-$lang['goal_notify_staff_notified_manually_fail']                       = 'Gửi thông báo đến nhân viên không thành công';
-$lang['goal_achieved']                                                  = 'Đã đạt được';
-$lang['goal_failed']                                                    = 'Thất bại';
-$lang['goal_close']                                                     = 'Rất gần';
-$lang['goal_type_total_income']                                         = 'Đạt được tổng thu nhập';
-$lang['goal_type_convert_leads']                                        = 'Chuyển X Khách tìm năng';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Gia tăng lượng khách';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Không cần liên hệ mục tiêu';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'Gia tăng số lượng khách';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'Có liên hệ mục tiêu';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'Tạo hợp đồng theo loại';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'Được tính từ ngày thêm vào hệ thống';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'Tạo hợp đồng theo loại';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'Được tính từ ngày bắt đầu hợp đồng';
-$lang['goal_type_total_estimates_converted']                            = 'X lần chuyển đổi báo giá ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'Chỉ tính những bản báo giá được chuyển sang hóa đơn';
-$lang['goal_type_income_subtext']                                       = 'Thu nhập sẽ được tính theo đơn vị tiền gốc bạn đã chọn (không chuyển đổi)';
+
 # Payments
 $lang['payment_transaction_id'] = 'ID giao dịch';
 # Settings Menu
@@ -1478,7 +1354,6 @@ $lang['task_public_help']          = 'Nếu bạn đặt công khai thì phân c
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Xuất văn bản PDF khách hàng từ khu vực admin sang ngôn ngữ khách hàng';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Nếu chọn Có cho chức năng này và ví dụ ngôn ngữ mặc định của hệ thống là tiếng Anh còn khách hàng đặt tiếng Pháp, thì văn bản PDF sẽ được xuất theo ngôn ngữ khách hàng đã chọn';
-$lang['settings_cron_surveys']                                               = 'Các cuộc thăm dò';
 $lang['settings_default_tax']                                                = 'Thuế mặc định';
 $lang['setup_calendar_by_departments']                                       = 'Thiết lập lịch theo phòng ban';
 $lang['settings_calendar']                                                   = 'Lịch';
@@ -1537,19 +1412,7 @@ $lang['bulk_export_status']            = 'Trạng thái';
 $lang['bulk_export_zip_payment_modes'] = 'Thanh toán được thực hiện bởi';
 $lang['bulk_export_include_tag']       = 'Thẻ được gắn kèm';
 $lang['bulk_export_include_tag_help']  = 'Ví dụ: Nguyên bản hay Sao chép. Thẻ sẽ được xuất kèm trong tập tin PDF. Khuyến khích chỉ sử dụng 1 thẻ';
-# Backup
-$lang['auto_backup_options_updated']     = 'Chức năng sao dự phòng tự động đã được cập nhật';
-$lang['auto_backup_every']               = 'Tạo bản dự phòng sau mỗi X ngày';
-$lang['auto_backup_enabled']             = 'Kích hoạt (yêu cầu CRON)';
-$lang['auto_backup']                     = 'Tự động dự phòng';
-$lang['backup_delete']                   = 'Đã xóa bản dự phòng';
-$lang['backup_success']                  = 'Đã tạo bản dự phòng thành công';
-$lang['utility_backup']                  = 'Cơ sở dữ liệu dự phòng';
-$lang['utility_create_new_backup_db']    = 'Tạo cơ sở dữ liệu dự phòng';
-$lang['utility_backup_table_backupname'] = 'Bản dự phòng';
-$lang['utility_backup_table_backupsize'] = 'Dung lượng';
-$lang['utility_backup_table_backupdate'] = 'Ngày';
-$lang['utility_db_backup_note']          = 'Lưu ý: giới hạn của tốc độ xử lý và bộ nhớ PHP không cho phép sao lưu dữ liệu có dung lượng quá lớn. Nếu dữ liệu của bạn quá lớn, bạn sẽ cần sao lưu trực tiếp từ máy chủ SQL thông qua dòng lệnh, hoặc nhờ đến người quản trị nếu bạn không có thẩm quyền.';
+
 # Version 1.0.7
 ## Customers - portal
 $lang['clients_nav_proposals'] = 'Đề xuất kế hoạch';
@@ -1737,24 +1600,13 @@ $lang['custom_field_show_on_table']              = 'Hiển thị trên danh sác
 $lang['custom_field_show_on_client_portal']      = 'Hiển thị trên trang khách hàng';
 $lang['custom_field_show_on_client_portal_help'] = 'Nếu tick chọn mục này thì sẽ hiển thị trong danh sách';
 $lang['custom_field_visibility']                 = 'Mức độ hiển thị';
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Bạn có thể thêm chuỗi dịch thuật tại đây. Để nếu nhân viên/hệ thống đặt ngôn ngữ khác với mặc định thì các mục trong menu sẽ được xuất dưới ngôn ngữ của nhân viên. Nếu chuỗi không tồn tại trong tập tin dịch thuật thì hệ thống sẽ lấy chuỗi bạn đã nhập tại đây.';
-$lang['utilities_menu_icon']                = 'Icon';
-$lang['active_menu_items']                  = 'Các mục khả dụng trong menu';
-$lang['inactive_menu_items']                = 'Các mục không khả dụng trong menu';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Tên';
-$lang['utilities_menu_save']                = 'Lưu lại menu';
+
 # Knowledge Base
 $lang['view_articles_list']     = 'Xem bài viết';
 $lang['view_articles_list_all'] = 'Tất cả bài viết';
 $lang['als_all_articles']       = 'Các bài viết';
 $lang['als_kb_groups']          = 'Nhóm';
-# Customizer Menu
-$lang['menu_builder']            = 'Thiết lập menu';
-$lang['main_menu']               = 'Menu chính';
-$lang['setup_menu']              = 'Thiết lập menu';
-$lang['utilities_menu_url_help'] = '%s được gắn kèm tự động vào url';
+
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Lọc yêu cầu rác';
 $lang['spam_filter']                  = 'Lọc yêu cầu rác';
@@ -1826,11 +1678,6 @@ $lang['not_received_lead_imported_email_integration'] = 'Mục tiêu đã nhập
 $lang['not_lead_imported_attachment']                 = 'Tập tin đính kèm đã nhập trong email';
 $lang['not_estimate_status_change']                   = 'Tập tin đính kèm đã nhập trong email';
 $lang['not_estimate_status_updated']                  = 'Trạng thái báo giá đã cập nhật: từ %s sang %s';
-$lang['not_goal_message_success']                     = 'Chúc mừng! Chúng ta đã đạt được mục tiêu mới.<br /> Loại mục tiêu: %s
-<br />Thành tựu: %s
-<br />Số thành tựu tổng cộng: %s
-<br />Ngày bắt đầu: %s
-<br />Ngày kết thúc: %s';
 $lang['not_assigned_lead_to_you']                                 = 'đã chỉ định Khách tìm năng %s cho bạn';
 $lang['not_lead_activity_assigned_to']                            = '%s được chỉ định cho %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Tập tin đính kèm đã xóa';
@@ -2316,8 +2163,6 @@ $lang['view_pdf']                                = 'Xem tập tin PDF';
 $lang['expense_repeat_every']                    = 'Lặp lại mỗi';
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Đổi sang Kan Ban';
-$lang['survey_no_questions']                      = 'Cuộc thăm dò này chưa có câu hỏi nào.';
-$lang['survey_submit']                            = 'Gửi đi';
 $lang['contract_content']                         = 'Hợp đồng';
 $lang['contract_save']                            = 'Lưu hợp đồng';
 $lang['contract_send_to_email']                   = 'Gửi đến email';
@@ -2417,7 +2262,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Dừng tất cả những m�
 $lang['notification_when_customer_pay_invoice'] = 'Nhận thông báo khi khách hàng thanh toán hóa đơn (cài đặt sẵn)';
 $lang['not_invoice_payment_recorded']           = 'Thanh toán hóa đơn mới - %s';
 $lang['email_template_contact_warning']         = 'Nếu liên hệ không đăng nhập khi thực hiện tác vụ, các mục được gộp của liên hệ sẽ không bị thay thế.';
-$lang['theme_style']                            = 'Kiểu giao diện';
 $lang['change_role_permission_warning']         = 'Thay đổi quyền hạn vị trí không ảnh hưởng đến quyền hạn thành viên hiện tại của vị trí này.';
 $lang['task_copied_successfully']               = 'Sao chép phân công thành công';
 $lang['failed_to_copy_task']                    = 'Sao chép phân công không thành công';
@@ -2452,11 +2296,6 @@ $lang['to_date']                                = 'Đến ngày';
 $lang['not_results_found']                      = 'Không tìm thấy kết quả nào';
 $lang['lead_lock_after_convert_to_customer']    = 'Không cho phép sửa mục tiêu khi đã chuyển đổi sang khách hàng (không áp dụng cho người quản lý)';
 $lang['default_pipeline_sort']                  = 'Sắp xếp cột mặc định';
-$lang['not_goal_message_failed']                = 'Chúng ta đã không đạt được mục tiêu!<br /> Loại mục tiêu: %s
-<br />Thành tựu: %s
-<br />Tổng số thành tựu: %s
-<br />Ngày bắt đầu: %s
-<br />Ngày kết thúc: %s';
 $lang['toggle_full_view']             = 'Bật xem đầy đủ';
 $lang['not_estimate_invoice_deleted'] = 'đã xóa hóa đơn';
 $lang['not_task_new_comment']         = 'đã bình luận trên phân công %s';
@@ -2718,8 +2557,6 @@ $lang['task_checklist_item_completed_by']                   = 'Đã hoàn thành
 $lang['staff_email_signature_help']                         = 'Nếu để trống thì sẽ sử dụng chữ ký email mặc định trong tùy chỉnh';
 $lang['default_task_priority']                              = 'Mức độ ưu tiên mặc định';
 $lang['project_send_created_email']                         = 'Gửi email dự án đã thực hiện';
-$lang['survey_send_to_lists']                               = 'Danh sách gửi thăm dò';
-$lang['survey_send_notice']                                 = 'Email sẽ được gửi theo giờ thông qua CRON JOB.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Hiển thị thanh toán (giao dịch) của hóa đơn trên PDF';
@@ -2731,7 +2568,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Hiển thị với khu v
 $lang['customer_attachments_show_notice']            = 'Chỉ những tập tin được tải lên từ tiểu sử khách hàng mới có khả năng hiện/ẩn trong khu vực khách hàng.';
 $lang['customer_profile_files']                      = 'Các tập tin';
 $lang['no_files_found']                              = 'Không tìm thấy tập tin nào';
-$lang['survey_customers_all']                        = 'Tất cả khách hàng';
 $lang['custom_field_column']                         = 'Grid (ví dụ Bootstrap Column là 12) - Tối đa là 12';
 $lang['task_status']                                 = 'Trạng thái';
 $lang['task_status_1']                               = 'Chưa bắt đầu';
@@ -2935,7 +2771,6 @@ $lang['proposals_report']                                = 'Báo cáo đề xu�
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Nếu nhân viên không có thẩm quyền theo dõi khách hàng thì họ chỉ có thể tạo yêu cầu từ khu vực quản trị đến các liên hệ khách hàng mà họ được chỉ định làm quản trị khách hàng.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Cho phép nhân viên mở yêu cầu đến tất cả liên hệ??';
 $lang['charts_based_report']                             = 'Báo cáo theo biểu đồ';
-$lang['delete_backups_older_then']                       = 'Tự động xóa dữ liệu dự phòng cũ hơn X ngày (đặt 0 để vô hiệu hóa)';
 $lang['responsible_admin']                               = 'Quản trị viên chịu trách nhiệm';
 $lang['tags']                                            = 'Các thẻ';
 $lang['tag']                                             = 'Thẻ';
@@ -3539,4 +3374,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+

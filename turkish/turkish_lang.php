@@ -277,40 +277,6 @@ $lang['group_table_name_heading']      = 'Adı';
 $lang['group_table_isactive_heading']  = 'Aktif';
 $lang['kb_no_groups_found']            = 'Bilgi Merkezi Grubu Bulunamadı';
 
-# Mail Lists
-$lang['mail_lists']                            = 'Mail Listeleri';
-$lang['mail_list']                             = 'Mail Listesi';
-$lang['new_mail_list']                         = 'Yeni Mail Listesi';
-$lang['mail_list_lowercase']                   = 'mail listesi';
-$lang['custom_field_deleted_success']          = 'Özel alan silindi';
-$lang['custom_field_deleted_fail']             = 'Özel Alan silinirken hata.';
-$lang['email_removed_from_list']               = 'Email Listeden silindi';
-$lang['email_remove_fail']                     = 'Email Listeden silindi';
-$lang['staff_mail_lists']                      = 'Personel Mail Listesi';
-$lang['clients_mail_lists']                    = 'Müşteri Mail Listesi';
-$lang['mail_list_total_imported']              = 'İçeri Aktarılan Email: %s';
-$lang['mail_list_total_duplicate']             = 'Yinelenen Email Sayısı: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Eklenmeyen Emailler : %s';
-$lang['mail_list_total_invalid']               = 'Hatalı Email Adresi: %s';
-$lang['cant_edit_mail_list']                   = 'Bu listeyi düzenleyemezsiniz! Bu liste otomatik olarak oluşturuluyor.';
-$lang['mail_list_add_edit_name']               = 'Mail Listesi Adı';
-$lang['mail_list_add_edit_customfield']        = 'Özel Alan Ekle';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Tarih Eklendi';
-$lang['add_new_email_to']                      = '%s Listesine Yeni Email Ekle';
-$lang['import_emails_to']                      = '%s Listesine Email Aktar';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Dosya İçe Aktar';
-$lang['mail_list_available_custom_fields']     = 'Kullanılabilir Özel Alanlar';
-$lang['submit_import_emails']                  = 'Emailleri İçe Aktar';
-$lang['btn_import_emails']                     = 'Emailleri İçe Aktar (Excel)';
-$lang['btn_add_email_to_list']                 = 'Bu Adrese Email Ekle';
-$lang['mail_lists_dt_list_name']               = 'Liste Adı';
-$lang['mail_lists_dt_datecreated']             = 'Oluşturma Tarihi';
-$lang['mail_lists_dt_creator']                 = 'Oluşturan';
-$lang['email_added_to_mail_list_successfully'] = 'Email listeye eklendi';
-$lang['email_is_duplicate_mail_list']          = 'Email bu listede var.';
-
 # Media
 $lang['media_files'] = 'Dosyalar';
 
@@ -543,7 +509,6 @@ $lang['als_sales']                 = 'Satışlar';
 $lang['als_staff']                 = 'Personel';
 $lang['als_tasks']                 = 'Görevler';
 $lang['als_kb']                    = 'Bilgi Merkezi';
-$lang['als_surveys']               = 'Anketler';
 $lang['als_media']                 = 'Medya';
 $lang['als_reports']               = 'Raporlar';
 $lang['als_reports_sales_submenu'] = 'Satışlar';
@@ -666,56 +631,6 @@ $lang['staff_edit_profile_change_your_password']       = 'Parolanı Değiştir';
 $lang['staff_edit_profile_change_old_password']        = 'Eski Parola';
 $lang['staff_edit_profile_change_new_password']        = 'Yeni Parola';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Yeni Parolayı Tekrar Girin';
-
-# Surveys
-$lang['new_survey']                                = 'Yeni Anket';
-$lang['surveys']                                   = 'Anketler';
-$lang['survey']                                    = 'Anket';
-$lang['survey_lowercase']                          = 'anket';
-$lang['survey_no_mail_lists_selected']             = 'Mail Listesi Seçilmedi';
-$lang['survey_send_success_note']                  = 'Tüm Anket Emailleri (%s) CRON ile gönderildi.';
-$lang['survey_result']                             = 'Anket Sonuçları: %s';
-$lang['question_string']                           = 'Soru';
-$lang['question_field_string']                     = 'Alan';
-$lang['survey_list_view_tooltip']                  = 'Anket Görüntüle';
-$lang['survey_list_view_results_tooltip']          = 'Sonuç Görüntüle';
-$lang['survey_add_edit_subject']                   = 'Anket konusu';
-$lang['survey_add_edit_email_description']         = 'Anket açıklaması (Email Açıklama)';
-$lang['survey_include_survey_link']                = 'Açıklamada anket linki yeralsın.';
-$lang['survey_available_mail_lists_custom_fields'] = 'Email Listelerinde özel alanlar kullanılabilir';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Özel alanlar email editörde kullanılabilir.';
-$lang['survey_add_edit_short_description_view']    = 'Anket kısa açıklaması (Açıklamayı Göster)';
-$lang['survey_add_edit_from']                      = 'Kimden (Maillerde gösterilen)';
-$lang['survey_add_edit_redirect_url']              = 'Anket Yönlendirme Linki';
-$lang['survey_add_edit_red_url_note']              = 'Kullanıcı anketi tamamladığında hangi adrese yönlendirilecek? (Bu site için boş bırakın.)';
-$lang['survey_add_edit_disabled']                  = 'Devre Dışı';
-$lang['survey_add_edit_only_for_logged_in']        = 'Sadece giriş yapmış katılımcılar için (personel,müşteriler)';
-$lang['send_survey_string']                        = 'Anket Gönder';
-$lang['survey_send_mail_list_clients']             = 'Müşteriler';
-$lang['survey_send_mail_list_staff']               = 'Personel';
-$lang['survey_send_mail_lists_string']             = 'Mail Listeleri';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Not: Sadece giriş yapmış katılımcılara anket göndermek isterseniz bu seçeneği işaretlemeyin.';
-$lang['survey_send_string']                        = 'Gönder';
-$lang['survey_send_to_total']                      = 'Toplam %s e-mail gönderilecek';
-$lang['survey_send_till_now']                      = 'Şimdiye kadar';
-$lang['survey_send_finished']                      = 'Anket gönderimi tamamlandı: %s';
-$lang['survey_added_to_queue']                     = 'Bu Anket Kuyruğa eklendi %s';
-$lang['survey_questions_string']                   = 'Sorular';
-$lang['survey_insert_field']                       = 'Alan Ekle';
-$lang['survey_field_checkbox']                     = 'Onay Kutusu';
-$lang['survey_field_radio']                        = 'Radyo Buton';
-$lang['survey_field_input']                        = 'Giriş Alanı';
-$lang['survey_field_textarea']                     = 'Yazı Alanı';
-$lang['survey_question_required']                  = 'Gerekli';
-$lang['survey_question_only_for_preview']          = 'Sadece görünüm için';
-$lang['survey_create_first']                       = 'Soru ekleyebilmek için önce Anket oluşturmalısınız.';
-$lang['survey_dt_name']                            = 'Adı';
-$lang['survey_dt_total_questions']                 = 'Tüm Sorular';
-$lang['survey_dt_total_participants']              = 'Tüm Katılımcılar';
-$lang['survey_dt_date_created']                    = 'Oluşturma Tarihi';
-$lang['survey_dt_active']                          = 'Aktif';
-$lang['survey_text_questions_results']             = 'Soru Sonuçları';
-$lang['survey_view_all_answers']                   = 'Tüm cevapları görüntüle';
 
 # Staff Tasks
 $lang['new_task']                           = 'Yeni Görev';
@@ -1056,8 +971,6 @@ $lang['payment_view_heading'] = 'Ödeme';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Müşterinin ödeme tutarını değiştirmesine izin ver (Online Ödemeler için)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Bir saatte gönderilecek email sayısı';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Bu seçenek Anket gönderilirken kullanılır. Anket saatte X adet olarak gönderilecektir. Bazı Hosting firmalarının bir saatte gönderim limitleri olabilir.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Sadece son faturadan itibaren silmeyi etkinleştir.';
 $lang['settings_sales_estimate_prefix']                             = 'Proforma Sayı Öneki';
 $lang['settings_sales_next_estimate_number']                        = 'Sonraki Proforma Sayısı';
@@ -1316,7 +1229,6 @@ $lang['contract_renewal_old_end_date']        = 'Eski Sözleşme Bitiş Tarihi: 
 $lang['contract_attachment']                  = 'Ek';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Hedef Takip';
 $lang['als_expenses']           = 'Harcamalar';
 $lang['als_reports_expenses']   = 'Harcamalar';
 $lang['als_expenses_vs_income'] = 'Harcamalar vs Gelirler';
@@ -1327,47 +1239,6 @@ $lang['invoice_mark_as_sent']          = 'Gönderildi Olarak İşaretle';
 $lang['invoice_marked_as_sent']        = 'Gönderildi Olarak İşaretlendi';
 $lang['invoice_marked_as_sent_failed'] = 'HATA: Gönderildi Olarak İşaretle';
 
-# Goals Tracking
-$lang['goals']                                                          = 'Hedefler';
-$lang['goal']                                                           = 'Hedef';
-$lang['goals_tracking']                                                 = 'Hedef İzleme';
-$lang['new_goal']                                                       = 'Yeni Hedef';
-$lang['goal_lowercase']                                                 = 'hedef';
-$lang['goal_start_date']                                                = 'Başlangıç Tarihi';
-$lang['goal_end_date']                                                  = 'Bitiş Tarihi';
-$lang['goal_subject']                                                   = 'Konu';
-$lang['goal_description']                                               = 'Açıklama';
-$lang['goal_type']                                                      = 'Hedef Tipi';
-$lang['goal_achievement']                                               = 'Başarı';
-$lang['goal_contract_type']                                             = 'Sözleşme Tipi';
-$lang['goal_notify_when_fail']                                          = 'Personel hedefe ulaşamazsa uyar';
-$lang['goal_notify_when_achieve']                                       = 'Personel hedefe ulaşırsa uyar';
-$lang['goal_progress']                                                  = 'İlerleme';
-$lang['goal_total']                                                     = 'Toplam: %s';
-$lang['goal_result_heading']                                            = 'Hedef İlerleme';
-$lang['goal_income_shown_in_base_currency']                             = 'Toplam Gelir anapara biriminizde görüntülecek.';
-$lang['goal_notify_when_end_date_arrives']                              = 'Bitiş Tarihi yaklaştığında personeli uyar (CRON Gerekli).';
-$lang['goal_staff_members_notified_about_achievement']                  = 'Personel hedefe ulaşırsa personeli uyar';
-$lang['goal_staff_members_notified_about_failure']                      = 'Personel hata ile ilgili olarak uyarıldı';
-$lang['goal_notify_staff_manually']                                     = 'Personeli Manuel olarak uyar';
-$lang['goal_notify_staff_notified_manually_success']                    = 'Personele hedef sonuçları bildirildi';
-$lang['goal_notify_staff_notified_manually_fail']                       = 'Personele Hedef Sonuçları Bildirilemedi.';
-$lang['goal_achieved']                                                  = 'Ulaşıldı';
-$lang['goal_failed']                                                    = 'Başarısız olundu';
-$lang['goal_close']                                                     = 'Çok Yaklaştın';
-$lang['goal_type_total_income']                                         = 'Toplam Gelire Ulaşma';
-$lang['goal_type_convert_leads']                                        = 'X Fırsat Dönüştür';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Müşteri Sayısını Arttır';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Olası Satış Dönüşümü Dışlandı';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'Müşteri Sayısını Arttır';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'Olası Satış Dönüşümleri Dahil Edildi';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'Tipe Göre Sözleşme Yapılması';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'Veritabanına eklenen tarihten hesaplanır';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'Make Sözleşmeler By Type';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'Sözleşme başlangıç tarihinden itibaren hesaplanır';
-$lang['goal_type_total_estimates_converted']                            = 'X Tahmin Dönüşümleri ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'Yalnızca faturalara dönüştürülecek olan tahminler alınır';
-$lang['goal_type_income_subtext']                                       = 'Gelir, baz döviz cinsinden hesaplanır (dönüştürülmez)';
 
 # Payments
 $lang['payment_transaction_id'] = 'İşlem ID';
@@ -1576,7 +1447,6 @@ $lang['task_public_help']          = 'Bu görevi herkese açık olarak ayarlarsa
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Müşteri dilinde yönetici alanından müşteri PDF belgelerini çıkartın';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Bu seçenekler evet ve ex olarak ayarlanırsa. Sistem varsayılan dili ingilizce ve istemci kurulum dili fransızca pdf belgeleri istemci dilde çıktılacak';
-$lang['settings_cron_surveys']                                               = 'Anketler';
 $lang['settings_default_tax']                                                = 'Varsayılan Vergi';
 $lang['setup_calendar_by_departments']                                       = 'Departmanlara Özel Takvim Ayarla';
 $lang['settings_calendar']                                                   = 'Takvim';
@@ -1637,19 +1507,6 @@ $lang['bulk_export_status']            = 'Durum';
 $lang['bulk_export_zip_payment_modes'] = 'Tarafından yapılan ödemeler';
 $lang['bulk_export_include_tag']       = 'Etiketi Dahil Et';
 $lang['bulk_export_include_tag_help']  = 'Ör. Orijinal veya Kopya. Etiket PDF de çıkacaktır. Sadece 1 etiketi kullanmanız önerilir';
-# Backup
-$lang['auto_backup_options_updated']     = 'Otomatik Yedekleme seçenekleri güncellendi';
-$lang['auto_backup_every']               = 'Her X günde yedekleme oluştur';
-$lang['auto_backup_enabled']             = 'Aktif (Cron Gerekli)';
-$lang['auto_backup']                     = 'Otomatik Yedekleme';
-$lang['backup_delete']                   = 'Yedek Silindi';
-$lang['backup_success']                  = 'Yedekleme Başarılı';
-$lang['utility_backup']                  = 'Veritabanı Yedekleme';
-$lang['utility_create_new_backup_db']    = 'Veritabanı Yedekleme Oluştur';
-$lang['utility_backup_table_backupname'] = 'Yedekleme';
-$lang['utility_backup_table_backupsize'] = 'Yedekleme Boyutu';
-$lang['utility_backup_table_backupdate'] = 'Tarih';
-$lang['utility_db_backup_note']          = 'Not: PHP için sınırlı yürütme süresi ve belleği nedeniyle, çok büyük veritabanlarının yedeklenmesi mümkün olmayabilir. Veritabanınız çok büyükse komut satırından doğrudan SQL sunucunuzdan yedekleme yapmanız gerekebilir veya root yetkiniz yoksa sunucu yöneticiniz sizin için yapabilir.';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1855,26 +1712,11 @@ $lang['custom_field_show_on_client_portal']      = 'Müşteri Portalında Göste
 $lang['custom_field_show_on_client_portal_help'] = 'Bu alan işaretlendiyse, tablolarda da gösterilecektir';
 $lang['custom_field_visibility']                 = 'Görünürlük';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Buraya ayrıca dizeleri çevirebilirsiniz. Yani, personel / sistemin öntanımlı dili varsa, menü maddesi isimleri personel dilinde verilecektir. Aksi takdirde tercüme edilemeyen dosyasında mevcutsa buraya girdiğiniz dize alınacaktır.';
-$lang['utilities_menu_icon']                = 'Icon';
-$lang['active_menu_items']                  = 'Aktif Menu Nesneleri';
-$lang['inactive_menu_items']                = 'Pasif Menu Nesneleri';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Adı';
-$lang['utilities_menu_save']                = 'Menüyü Kaydet';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'Makaleleri Görüntüle';
 $lang['view_articles_list_all'] = 'Tüm Makaleler';
 $lang['als_all_articles']       = 'Tüm Makaleler';
 $lang['als_kb_groups']          = 'Gruplar';
-
-# Customizer Menu
-$lang['menu_builder']            = 'Menu Kurulumu';
-$lang['main_menu']               = 'Ana Menu';
-$lang['setup_menu']              = 'Menu Kurulumu';
-$lang['utilities_menu_url_help'] = '%s, URL ye otomatik olarak eklendi';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Spam Filtreleri';
@@ -1952,11 +1794,6 @@ $lang['not_received_lead_imported_email_integration'] = 'Email Entegrasyonundan 
 $lang['not_lead_imported_attachment']                 = 'Email den Dosya Eki içeri aktarıldı.';
 $lang['not_estimate_status_change']                   = 'Email den Dosya Eki içeri aktarıldı.';
 $lang['not_estimate_status_updated']                  = 'Proforma Durumu Güncellendi: %s buradan %s buraya';
-$lang['not_goal_message_success']                     = 'Tebrikler! Yedi Hedefe ulaştık.<br /> Hedef Tipi: %s
-<br />Hedef Başarısı: %s
-<br />Tüm Başarılar: %s
-<br />Başlangıç Tarihi: %s
-<br />Bitiş Tarihi: %s';
 $lang['not_assigned_lead_to_you']                                 = 'ana %s fırsatını atadı';
 $lang['not_lead_activity_assigned_to']                            = '%s, %s personeline atandı';
 $lang['not_lead_activity_attachment_deleted']                     = 'Dosya Eki Silindi';
@@ -2468,8 +2305,6 @@ $lang['expense_repeat_every']                    = 'Tekrarla';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'KanBan Görünüme Geç';
-$lang['survey_no_questions']                      = 'Bu ankete henüz soru eklenmedi.';
-$lang['survey_submit']                            = 'Gönder';
 $lang['contract_content']                         = 'Sözleşme';
 $lang['contract_save']                            = 'Sözleşmeyi Kaydet';
 $lang['contract_send_to_email']                   = 'E-mail Gönder';
@@ -2573,7 +2408,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Yeni zamanlayıcı başlatıl
 $lang['notification_when_customer_pay_invoice'] = 'Müşteri faturayı ödediğinde bildirim al (Dahili)';
 $lang['not_invoice_payment_recorded']           = 'Yeni fatura ödemesi - %s';
 $lang['email_template_contact_warning']         = 'İşlem yaparken iletişim kurulmazsa, kişi birleştirme alanları değiştirilmeyecektir.';
-$lang['theme_style']                            = 'Tema Stili';
 $lang['change_role_permission_warning']         = 'Rol izinlerini değiştirme, bu rolü kullanan geçerli personel üyelerinin izinlerini etkilemeyecektir.';
 $lang['task_copied_successfully']               = 'Görev başarıyla kopyalandı';
 $lang['failed_to_copy_task']                    = 'Görev kopyalama işlemi başarısız oldu';
@@ -2608,11 +2442,6 @@ $lang['to_date']                                = 'Tarihine';
 $lang['not_results_found']                      = 'Sonuç bulunamadı';
 $lang['lead_lock_after_convert_to_customer']    = 'Müşteriye dönüştürdükten sonra müşteri adayının düzenlenmesine izin vermeyin (yöneticilere uygulanmaz)';
 $lang['default_pipeline_sort']                  = 'Varsayılan Pipeline sıralaması';
-$lang['not_goal_message_failed']                = 'Hedefi Başaramadık!<br /> Hedep Tipi: %s
-<br />Hedef Başarı: %s
-<br />Toplam Başarı: %s
-<br />Başlangıç Tarihi: %s
-<br />Bitiş Tarihi: %s';
 $lang['toggle_full_view']             = 'Tam Ekrana Geçiş';
 $lang['not_estimate_invoice_deleted'] = 'Oluşturulan fatura silindi';
 $lang['not_task_new_comment']         = '%s görevine yorum yapıldı';
@@ -2881,8 +2710,6 @@ $lang['task_checklist_item_completed_by']                   = 'Tamamlayan: %s';
 $lang['staff_email_signature_help']                         = 'Boş varsayılan e-posta imza ayarları kullanılacak olursa';
 $lang['default_task_priority']                              = 'Varsayılan Öncelik';
 $lang['project_send_created_email']                         = 'Proje oluşturuldu e-maili gönder';
-$lang['survey_send_to_lists']                               = 'Anket Gönderim listeleri';
-$lang['survey_send_notice']                                 = 'E-mail ler her saat başı CRON JOB üzerinden gönderilecektir.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'PDFde fatura ödemelerini (işlemleri) göster';
@@ -2894,7 +2721,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Müşteri Alanında Gös
 $lang['customer_attachments_show_notice']            = 'Yalnızca müşteri profilinden yüklenen dosyaların müşterilere gösterilme / gizlenme özelliği var.';
 $lang['customer_profile_files']                      = 'Dosyalar';
 $lang['no_files_found']                              = 'Dosya Bulunamadı';
-$lang['survey_customers_all']                        = 'Tüm Müşteriler';
 $lang['custom_field_column']                         = 'Grid (Bootstrap Sütun Örnek: 12) - Maksimum 12';
 $lang['task_status']                                 = 'Durum';
 $lang['task_status_1']                               = 'Başlamadı';
@@ -3104,7 +2930,6 @@ $lang['proposals_report']                                = 'Teklif Raporu';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Eğer personel üyelerin müşterileri için izni yoksa VIEW yalnızca yönetici alanından müşteri yönetici olarak atanan müşteri irtibat kişilerine yeni etiketler oluşturabilecektir.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Personelin tüm kişilere fiş açmasına izin ver?';
 $lang['charts_based_report']                             = 'Grafikler Tabanlı Rapor';
-$lang['delete_backups_older_then']                       = 'Yedeklemeleri daha sonra X gününden önce otomatik olarak sil (devre dışı bırakmak için 0 olarak ayarlayın)';
 $lang['responsible_admin']                               = 'Sorumlu yönetici';
 $lang['tags']                                            = 'Etiketler';
 $lang['tag']                                             = 'Etiket';
@@ -3710,4 +3535,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+

@@ -300,40 +300,6 @@ $lang['group_table_name_heading']      = 'Namn';
 $lang['group_table_isactive_heading']  = 'Aktiv';
 $lang['kb_no_groups_found']            = 'Inga grupper funna i kunskapsdatabasen';
 
-# Mail Lists
-$lang['mail_lists']                            = 'Maillista';
-$lang['mail_list']                             = 'MailLista';
-$lang['new_mail_list']                         = 'Ny MailLista';
-$lang['mail_list_lowercase']                   = 'maillista';
-$lang['custom_field_deleted_success']          = 'Anpassat fält raderade';
-$lang['custom_field_deleted_fail']             = 'Problem att radera Anpassat fält';
-$lang['email_removed_from_list']               = 'Epost togs bort Från listan';
-$lang['email_remove_fail']                     = 'Epost togs ej bort Från listan';
-$lang['staff_mail_lists']                      = 'Personal sändlista';
-$lang['clients_mail_lists']                    = 'Kunder sändlista';
-$lang['mail_list_total_imported']              = 'Totalt inporterade epostadresser: %s';
-$lang['mail_list_total_duplicate']             = 'Antal dubletter: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Emails failed to insert: %s';
-$lang['mail_list_total_invalid']               = 'Invalid email address: %s';
-$lang['cant_edit_mail_list']                   = 'You cant edit this list, this list is populated automatically';
-$lang['mail_list_add_edit_name']               = 'Mail List Name';
-$lang['mail_list_add_edit_customfield']        = 'Add custom field';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Date Added';
-$lang['add_new_email_to']                      = 'Add New Email to %s';
-$lang['import_emails_to']                      = 'Import Emails to %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Import File';
-$lang['mail_list_available_custom_fields']     = 'Available Custom Fields';
-$lang['submit_import_emails']                  = 'Import Emails';
-$lang['btn_import_emails']                     = 'Import Emails (Excel)';
-$lang['btn_add_email_to_list']                 = 'Add Email to This List';
-$lang['mail_lists_dt_list_name']               = 'List Name';
-$lang['mail_lists_dt_datecreated']             = 'Date Created';
-$lang['mail_lists_dt_creator']                 = 'Creator';
-$lang['email_added_to_mail_list_successfully'] = 'Email added to list';
-$lang['email_is_duplicate_mail_list']          = 'Email already exists in this list';
-
 # Media
 $lang['media_files'] = 'Filer';
 
@@ -579,7 +545,6 @@ $lang['als_sales']                 = 'Försäljning';
 $lang['als_staff']                 = 'Personal';
 $lang['als_tasks']                 = 'Uppgifter';
 $lang['als_kb']                    = 'Kunskaps DB';
-$lang['als_surveys']               = 'Enkät';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapporter';
 $lang['als_reports_sales_submenu'] = 'Försäljning';
@@ -710,63 +675,6 @@ $lang['staff_edit_profile_change_your_password']       = 'Byt ditt lösenord';
 $lang['staff_edit_profile_change_old_password']        = 'Ditt gamla lösenord';
 $lang['staff_edit_profile_change_new_password']        = 'Nytt lösenord';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Repetera nya lösenordet';
-
-# Surveys
-$lang['new_survey']                    = 'Ny Undersökning';
-$lang['surveys']                       = 'Undersökningar';
-$lang['survey']                        = 'Undersökning';
-$lang['survey_lowercase']              = 'undersökning';
-$lang['survey_no_mail_lists_selected'] = 'Inga mailinglistor valda';
-$lang['survey_send_success_note']      = 'All Enkät e-post(%s) kommer skickas via CRON';
-$lang['survey_result']                 = 'Enkät resultat: %s';
-$lang['question_string']               = 'Fråga';
-$lang['question_field_string']         = 'Fält';
-
-$lang['survey_list_view_tooltip']         = 'Visa undersökning';
-$lang['survey_list_view_results_tooltip'] = 'Visa resultat';
-
-$lang['survey_add_edit_subject']                   = 'Undersökningens Ämne';
-$lang['survey_add_edit_email_description']         = 'Enkät beskrivning (Epost Beskrivning)';
-$lang['survey_include_survey_link']                = 'Inkludera enkätlänk i beskrivningen';
-$lang['survey_available_mail_lists_custom_fields'] = 'Finns anpassade fält från e-postlistor';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Anpassade fält kan användas för e-post redaktör.';
-$lang['survey_add_edit_short_description_view']    = 'Enkät kort beskrivning (Se beskrivning)';
-$lang['survey_add_edit_from']                      = 'Från (visas i e-post)';
-$lang['survey_add_edit_redirect_url']              = 'Enkät omdirigeringsadress';
-$lang['survey_add_edit_red_url_note']              = 'När användaren avsluta undersökningen var skakunden hamna, omdirigeras till (lämna tomt för denna webbadress)';
-$lang['survey_add_edit_disabled']                  = 'Avaktiverad';
-$lang['survey_add_edit_only_for_logged_in']        = 'Endast för inloggade deltagare (personal, kunderna)';
-$lang['send_survey_string']                        = 'Skicka undersökning';
-$lang['survey_send_mail_list_clients']             = 'Kunder';
-$lang['survey_send_mail_list_staff']               = 'Personal';
-$lang['survey_send_mail_lists_string']             = 'Mail listor';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Obs: Om du skickar enkäten till mailinglistor för endast inloggade deltagare, måste den vara omarkerad. ehee ja ja bättre menings uppbyggnad kan ni komma på på denna beskrivning';
-$lang['survey_send_string']                        = 'Skicka';
-
-$lang['survey_send_to_total']  = 'Skicka till totalt %s epostadresser';
-$lang['survey_send_till_now']  = 'Tills nu';
-$lang['survey_send_finished']  = 'Undersökningen har skickat färdigt: %s';
-$lang['survey_added_to_queue'] = 'Denna undersökning läggs till i CRON kö på %s';
-
-$lang['survey_questions_string']          = 'Fråga';
-$lang['survey_insert_field']              = 'Infoga fält';
-$lang['survey_field_checkbox']            = 'Checkbox';
-$lang['survey_field_radio']               = 'Radio';
-$lang['survey_field_input']               = 'Inmatningsfält';
-$lang['survey_field_textarea']            = 'Textfält';
-$lang['survey_question_required']         = 'Obligatoriskt';
-$lang['survey_question_only_for_preview'] = 'Endast för förhandsvisning';
-$lang['survey_create_first']              = 'Du måste skapa undersökningen först då kommer du att kunna sätta in frågorna.';
-
-
-$lang['survey_dt_name']               = 'Namn';
-$lang['survey_dt_total_questions']    = 'Totalt Frågor';
-$lang['survey_dt_total_participants'] = 'Totalt Deltagare';
-$lang['survey_dt_date_created']       = 'Skapat datum';
-$lang['survey_dt_active']             = 'Aktiv';
-
-$lang['survey_text_questions_results'] = 'Resultat Textfrågor';
-$lang['survey_view_all_answers']       = 'Visa alla svar';
 
 # Staff Tasks
 $lang['new_task']       = 'Ny uppgift';
@@ -1121,8 +1029,6 @@ $lang['payment_view_heading'] = 'Betalning';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Låt kund ändra belopp att betala (för onlinebetalningar).';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Hur många e-post i timmen (Cron) ';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Det här alternativet används när du skickar undersökningar. Survey cron kommer att skicka X e-postmeddelanden per timme. Vissa webbhotell har gräns för att skicka e-post per timme.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Radera faktura tillåts endast på sista fakturan';
 $lang['settings_sales_estimate_prefix']                             = 'Offertnummer Prefix';
 $lang['settings_sales_next_estimate_number']                        = 'Nästa offertnummer';
@@ -1393,7 +1299,6 @@ $lang['contract_renewal_old_end_date'] = 'Gammalt avtals sluttadum: %s';
 $lang['contract_attachment']           = 'Bilagor';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Målspårning';
 $lang['als_expenses']           = 'Kostnader';
 $lang['als_reports_expenses']   = 'Kostnader';
 $lang['als_expenses_vs_income'] = 'Kostnader vs Inkomst';
@@ -1404,50 +1309,6 @@ $lang['invoice_mark_as_sent']          = 'Markera som skickat';
 $lang['invoice_marked_as_sent']        = 'Faktura markerad som skickad';
 $lang['invoice_marked_as_sent_failed'] = 'Misslyckades markera faktura som skickad';
 
-# Goals Tracking
-$lang['goals']                                         = 'Målen';
-$lang['goal']                                          = 'Mål';
-$lang['goals_tracking']                                = 'Målspårning';
-$lang['new_goal']                                      = 'Nytt mål';
-$lang['goal_lowercase']                                = 'mål';
-$lang['goal_start_date']                               = 'Startdatum';
-$lang['goal_end_date']                                 = 'Slutdatum';
-$lang['goal_subject']                                  = 'Ämne';
-$lang['goal_description']                              = 'Beskrivning';
-$lang['goal_type']                                     = 'Typ av mål';
-$lang['goal_achievement']                              = 'Prestation';
-$lang['goal_contract_type']                            = 'Typ av kontrakt';
-$lang['goal_notify_when_fail']                         = 'Meddela anställda när målet ej uppnåts';
-$lang['goal_notify_when_achieve']                      = 'Meddela anställda när målet har uppnåts';
-$lang['goal_progress']                                 = 'Framsteg';
-$lang['goal_total']                                    = 'Total: %s';
-$lang['goal_result_heading']                           = 'Framsteg (för slutmål)';
-$lang['goal_income_shown_in_base_currency']            = 'Totala intäkter visas i basvalutan';
-$lang['goal_notify_when_end_date_arrives']             = 'Anställda kommer att meddelas när slutdatum anträffar (Kräver CRON).';
-$lang['goal_staff_members_notified_about_achievement'] = 'Anställda meddelas om detta måls uppfyllda prestationer';
-$lang['goal_staff_members_notified_about_failure']     = 'Anställda kommer bli meddelade om misslyckande att uppnå detta mål';
-$lang['goal_notify_staff_manually']                    = 'Meddela manuelt de anställda';
-$lang['goal_notify_staff_notified_manually_success']   = 'Anställda meddelas om detta målresultat';
-$lang['goal_notify_staff_notified_manually_fail']      = 'Det gick inte att meddela anställda om detta målresultat';
-
-$lang['goal_achieved'] = 'Framsteg';
-$lang['goal_failed']   = 'Misslyckat';
-$lang['goal_close']    = 'Väldigt nära';
-
-$lang['goal_type_total_income']                                         = 'Framsteg på de sammanlagda inkomsterna';
-$lang['goal_type_convert_leads']                                        = 'Konvertera X kundämnen';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Öka kundnummret';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Konvertering kundämnen utesluten';
-
-$lang['goal_type_increase_customers_with_leads_conversions']         = 'Ökapå kundnummren';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'kundämnen Konvertering ingår';
-$lang['goal_type_make_contracts_by_type_calc_database']              = 'Gör avtal enligt typ';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Beräknas Från datum då det laggts till i databasen';
-$lang['goal_type_make_contracts_by_type_calc_date']                  = 'Gör kontrakt enligt typ';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']          = 'Beräknas Från kontraktets startdatum';
-$lang['goal_type_total_estimates_converted']                         = 'X Offert omvandling ';
-$lang['goal_type_total_estimates_converted_subtext']                 = 'Kommer bara att ta offerter att omvandla till fakturor';
-$lang['goal_type_income_subtext']                                    = 'Inkomster kommer att beräknas i basvalutan (inte konverteras)';
 # Payments
 $lang['payment_transaction_id'] = 'Transaktions ID';
 # Settings Menu
@@ -1657,7 +1518,6 @@ Uppdragstagare, Följare, skapare eller administratörer';
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Ställ in kunds PDF-dokument Från admin till kundens språk';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Om detta alternativ är satt till JA och ex. systemstandardspråket är Satt till Svenska och kunden har ställt in sitt språk som franska. Så kommer pdf-dokumenten att visas i kundens språk.';
-$lang['settings_cron_surveys']                                               = 'Undersökningar';
 $lang['settings_default_tax']                                                = 'Standard moms';
 $lang['setup_calendar_by_departments']                                       = 'Skapa kalender per avdelning';
 $lang['settings_calendar']                                                   = 'Kalendar';
@@ -1719,19 +1579,6 @@ $lang['bulk_export_status']            = 'Status';
 $lang['bulk_export_zip_payment_modes'] = 'Made payments by';
 $lang['bulk_export_include_tag']       = 'inkluderar Tag';
 $lang['bulk_export_include_tag_help']  = 'eq. Original eller kopia. Taggen kommer att matas ut i PDF-filen. Rekommenderas att använda endast en tagg';
-## Clients area
-$lang['auto_backup_options_updated']     = 'Auto backup alternativ uppdateras';
-$lang['auto_backup_every']               = 'Skapa en backup varje X dag';
-$lang['auto_backup_enabled']             = 'Aktiv (Kräver Cron)';
-$lang['auto_backup']                     = 'Auto backup';
-$lang['backup_delete']                   = 'Backup Raderad';
-$lang['backup_success']                  = 'Backup är gjord';
-$lang['utility_backup']                  = 'Databas Backup';
-$lang['utility_create_new_backup_db']    = 'Skapa Databas Backup';
-$lang['utility_backup_table_backupname'] = 'Backup';
-$lang['utility_backup_table_backupsize'] = 'Backup storlek';
-$lang['utility_backup_table_backupdate'] = 'Datum';
-$lang['utility_db_backup_note']          = 'Obs: På grund av den tid och det minne som är tillgängligt för PHP är möjligheten att utföra backup begränsad, att säkerhetskopiera mycket stora databaser kan ibland inte vara möjligt. Om databasen är mycket stor kan du behöva säkerhetskopiera direkt från din SQL Server via kommandoraden , eller låta din server admin göra det åt dig om du inte har administratörsbehörighet..';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1940,26 +1787,11 @@ $lang['custom_field_show_on_client_portal']      = 'Visa på kundportalen';
 $lang['custom_field_show_on_client_portal_help'] = 'Om detta fält är markerat kommer det visas i menyn också';
 $lang['custom_field_visibility']                 = 'Synlighet';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Du kan lägg till här, och också översätta textsträngar. Så om personal / system har ett annat språk än standard svenska, så kommer det visas på det valda språket som personal önskar. Men om strängen inte fins i översättningsfilen kommer textsträngen du anger här att visas..';
-$lang['utilities_menu_icon']                = 'Ikon';
-$lang['active_menu_items']                  = 'Aktiva menyposter';
-$lang['inactive_menu_items']                = 'Inaktiva menyposter';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Namn';
-$lang['utilities_menu_save']                = 'Spara menyn';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'Visa artikel';
 $lang['view_articles_list_all'] = 'Alla artiklar';
 $lang['als_all_articles']       = 'Artiklar';
 $lang['als_kb_groups']          = 'Grupper';
-
-# Customizer Menu
-$lang['menu_builder']            = 'Menyinställningar';
-$lang['main_menu']               = 'Huvudmeny';
-$lang['setup_menu']              = 'Inställnings meny';
-$lang['utilities_menu_url_help'] = '%s URL,en bifigas automatiskt';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Spam Filter';
@@ -2038,11 +1870,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Kundämne Importerat fr
 $lang['not_lead_imported_attachment']                 = 'Importerade bifogad fil från e-post';
 $lang['not_estimate_status_change']                   = 'bifogad fil Importerad från e-post';
 $lang['not_estimate_status_updated']                  = 'Offertstatus uppdaterad: Från: %s to %s';
-$lang['not_goal_message_success']                     = 'Grattis! Vi har uppnått nya mål i företaget :) .<br /> Typ av mål: %s
-<br />Uppfylda mål: %s
-<br />totalt prestation: %s
-<br />Startdatum: %s
-<br />Slutdatum: %s';
+
 $lang['not_assigned_lead_to_you']                                 = 'tilldelade kundämnen %s till dig min vän';
 $lang['not_lead_activity_assigned_to']                            = '%s tilldelat till %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Raderade bilagor/filer';
@@ -2562,8 +2390,6 @@ $lang['expense_repeat_every']              = 'Upprepa varje';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Byt till kanban vy ';
-$lang['survey_no_questions']                      = 'Denna undersökning har inga frågor ännu.';
-$lang['survey_submit']                            = 'Skicka';
 $lang['contract_content']                         = 'Kontrakt';
 $lang['contract_save']                            = 'Spara kontrakt';
 $lang['contract_send_to_email']                   = 'Skicka till epost';
@@ -2667,7 +2493,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Stoppa alla andra påbörjade
 $lang['notification_when_customer_pay_invoice'] = 'Få ett meddelande när kunden betala fakturan (inbyggd)';
 $lang['not_invoice_payment_recorded']           = 'Ny faktura Betalning - %s';
 $lang['email_template_contact_warning']         = 'Om kontakten inte är inloggad samtidigt som åtgärder av kontaktsammanslagning inte bytas ut.';
-$lang['theme_style']                            = 'tema stil';
 $lang['change_role_permission_warning']         = 'Förändrade rollbehörigheter kommer inte påverkas nuvarande personalens behörigheter som använder denna roll.';
 $lang['task_copied_successfully']               = 'Uppgiften kopierades';
 $lang['failed_to_copy_task']                    = 'Misslyckades att kopiera uppgiften';
@@ -2702,11 +2527,6 @@ $lang['to_date']                                = 'Till datum';
 $lang['not_results_found']                      = 'Inga resultat funna';
 $lang['lead_lock_after_convert_to_customer']    = 'Tillåt inte redigering av Kundämne efter omvandling till kund (admins tillämpas ej)';
 $lang['default_pipeline_sort']                  = 'Normal pipeline sortering';
-$lang['not_goal_message_failed']                = 'Vi misslyckades med att uppnå målet!<br /> Typ av mål: %s
-<br />mål uppfyllt: %s
-<br />total prestation: %s
-<br />Startdatum: %s
-<br />Slutdatum: %s';
 $lang['toggle_full_view']             = 'Växla till helbild';
 $lang['not_estimate_invoice_deleted'] = 'Raderade den skapade fakturan';
 $lang['not_task_new_comment']         = 'kommentar på uppgift %s';
@@ -2975,8 +2795,6 @@ $lang['task_checklist_item_completed_by']                   = 'Avslutat av %s';
 $lang['staff_email_signature_help']                         = 'Om tom standard e-signatur, Kommer Inställningarna Från att användas';
 $lang['default_task_priority']                              = 'Normal prioritering';
 $lang['project_send_created_email']                         = 'Skicka e-post att projekt har skapats';
-$lang['survey_send_to_lists']                               = 'Undersökning - skicka lista';
-$lang['survey_send_notice']                                 = 'Eposten kommer skickas via CRON JOB per timme.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Visa fakturabetalningar (transaktioner) på PDF';
@@ -2988,7 +2806,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Visa på kunds sida';
 $lang['customer_attachments_show_notice']            = 'Endast filer uppladdade Från kundprofil har förmåga att visa/dölja i kund området.';
 $lang['customer_profile_files']                      = 'Filer';
 $lang['no_files_found']                              = 'Inga filer funna';
-$lang['survey_customers_all']                        = 'Alla kunder';
 $lang['custom_field_column']                         = 'Grid (Bootstrap kolumn likamed. 12) - Max är 12';
 $lang['task_status']                                 = 'Status';
 $lang['task_status_1']                               = 'Ej påbörjad';
@@ -3200,7 +3017,6 @@ $lang['proposals_report']                                = 'Rapport Anbud';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Om anställd inte har tillgång att SE kund så enda möjligheten att kunna skapa ett ärende är att anställd blivigt tilldelad att bli kund Admin.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Låt anställda att öppna ärenden till alla kontakter?';
 $lang['charts_based_report']                             = 'Diagram Baserad Rapport';
-$lang['delete_backups_older_then']                       = 'Automatiskt ta bort säkerhetskopior äldre än X dagar (ange 0 för att avaktivera)';
 $lang['responsible_admin']                               = 'ansvarig admin';
 $lang['tags']                                            = 'Tags';
 $lang['tag']                                             = 'Tag';
@@ -3807,4 +3623,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+

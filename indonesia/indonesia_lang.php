@@ -282,40 +282,6 @@ $lang['group_table_name_heading']      		= 'Nama';
 $lang['group_table_isactive_heading']  		= 'Aktif';
 $lang['kb_no_groups_found']            		= 'Tidak ada kategori yang ditemukan';
 
-# String Milis/Mail Lists
-$lang['mail_lists']                            = 'Daftar Milis';
-$lang['mail_list']                             = 'Daftar Milis';
-$lang['new_mail_list']                         = 'Daftar Milis baru';
-$lang['mail_list_lowercase']                   = 'daftar milis';
-$lang['custom_field_deleted_success']          = 'Bidang Khusus Berhasil Dihapus';
-$lang['custom_field_deleted_fail']             = 'Terjadi Masalah saat Menghapus Bidang Khusus';
-$lang['email_removed_from_list']               = 'Email dihapus dari daftar';
-$lang['email_remove_fail']                     = 'Email dihapus dari daftar';
-$lang['staff_mail_lists']                      = 'Milis Staf';
-$lang['clients_mail_lists']                    = 'Milis Klien';
-$lang['mail_list_total_imported']              = 'Jumlah email yang diimpor: %s';
-$lang['mail_list_total_duplicate']             = 'Jumlah email yang terduplikat: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Jumlah email yang gagal dimasukkan: %s';
-$lang['mail_list_total_invalid']               = 'Jumlah email yang tidak valid: %s ';
-$lang['cant_edit_mail_list']                   = 'Anda tidak dapat mengedit daftar ini, daftar ini diisi secara otomatis';
-$lang['mail_list_add_edit_name']               = 'Nama Milis';
-$lang['mail_list_add_edit_customfield']        = 'Tambahkan Bidang Khusus';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Tanggal Ditambahkan';
-$lang['add_new_email_to']                      = 'Tambahkan Email Baru ke %s';
-$lang['import_emails_to']                      = 'Impor Email ke %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Impor File';
-$lang['mail_list_available_custom_fields']     = 'Terdapat Bidang Khusus';
-$lang['submit_import_emails']                  = 'Impor Email';
-$lang['btn_import_emails']                     = 'Impor Email (Excel)';
-$lang['btn_add_email_to_list']                 = 'Tambahkan Email ke Daftar ini';
-$lang['mail_lists_dt_list_name']               = 'Daftar Nama';
-$lang['mail_lists_dt_datecreated']             = 'Tanggal Dibuat';
-$lang['mail_lists_dt_creator']                 = 'Pembuat';
-$lang['email_added_to_mail_list_successfully'] = 'Email ditambahkan ke daftar';
-$lang['email_is_duplicate_mail_list']          = 'Email sudah ada di daftar ini';
-
 # String Media
 $lang['media_files'] = 'File';
 
@@ -548,7 +514,6 @@ $lang['als_sales'] 					= 'Penjualan';
 $lang['als_staff'] 					= 'Staf';
 $lang['als_tasks'] 					= 'Tugas';
 $lang['als_kb']    					= 'Panduan Dasar';
-$lang['als_surveys']               	= 'Survei';
 $lang['als_media']                 	= 'File / Media';
 $lang['als_reports']               	= 'Laporan';
 $lang['als_reports_sales_submenu'] 	= 'Penjualan';
@@ -671,56 +636,6 @@ $lang['staff_edit_profile_change_your_password']       		= 'Ubah Kata Sandi';
 $lang['staff_edit_profile_change_old_password']        		= 'Kata Sandi Lama';
 $lang['staff_edit_profile_change_new_password']        		= 'Kata Sandi Baru';
 $lang['staff_edit_profile_change_repeat_new_password'] 		= 'Ulangi Kata Sandi Baru';
-
-# String Survei/Surveys
-$lang['new_survey']                    					= 'Survei Baru';
-$lang['surveys']                       					= 'Survei';
-$lang['survey']                        					= 'Survei';
-$lang['survey_lowercase']              					= 'survei';
-$lang['survey_no_mail_lists_selected'] 					= 'Tidak ada daftar email yang dipilih';
-$lang['survey_send_success_note']      					= 'Semua Email Survei (%s) akan dikirim melalui CRON';
-$lang['survey_result']                 					= 'Hasil untuk Survei: %s';
-$lang['question_string']               					= 'Pertanyaan';
-$lang['question_field_string']         					= 'Bidang';
-$lang['survey_list_view_tooltip']         				= 'Lihat Survey';
-$lang['survey_list_view_results_tooltip'] 				= 'Lihat Hasil';
-$lang['survey_add_edit_subject']                   		= 'Judul Survei';
-$lang['survey_add_edit_email_description']         		= 'Deskripsi Survei (Deskripsi pada Email)';
-$lang['survey_include_survey_link']                		= 'Sertakan link survei di deskripsi';
-$lang['survey_available_mail_lists_custom_fields'] 		= 'Bidang khusus yang tersedia dari daftar email';
-$lang['survey_mail_lists_custom_fields_tooltip']   		= 'Bidang khusus yang dapat digunakan pada editor email. TIP: Klik pada editor email dan kemudian pilih dari drop down menu yang akan ditambahkan secara otomatis.';
-$lang['survey_add_edit_short_description_view']    		= 'Deskripsi Singkat Survei (Keterangan Survei)';
-$lang['survey_add_edit_from']                      		= 'Dari (ditampilkan dalam email)';
-$lang['survey_add_edit_redirect_url']              		= 'URL Redirect Survei';
-$lang['survey_add_edit_red_url_note']              		= 'Kemana pengguna akan diarahkan ketika selesai mengisi survei? (kosongkan jika ingin tetap pada laman ini) ';
-$lang['survey_add_edit_disabled']                  		= 'Nonaktifkan';
-$lang['survey_add_edit_only_for_logged_in']        		= 'Hanya untuk peserta yang login (staf dan atau klien)';
-$lang['send_survey_string']                        		= 'Kirim Survei';
-$lang['survey_send_mail_list_clients']             		= 'Klien';
-$lang['survey_send_mail_list_staff']               		= 'Staf';
-$lang['survey_send_mail_lists_string']             		= 'Milis';
-$lang['survey_send_mail_lists_note_logged_in']     		= 'Catatan: Jika Anda mengirim survei hanya untuk anggota milis yang diharuskan login, maka jangan centang pilihan ini.';
-$lang['survey_send_string']                        		= 'Kirim';
-$lang['survey_send_to_total']  							= 'Kirim ke %s email';
-$lang['survey_send_till_now']  							= 'Hingga saat ini';
-$lang['survey_send_finished']  							= 'Survei yang selesai dikirim: % s';
-$lang['survey_added_to_queue'] 							= 'Survei ini ditambahkan ke antrian cron pada %s';
-$lang['survey_questions_string']          				= 'Pertanyaan';
-$lang['survey_insert_field']              				= 'Masukkan Kolom/Bidang';
-$lang['survey_field_checkbox']            				= 'Kotak Centang';
-$lang['survey_field_radio']               				= 'Radio';
-$lang['survey_field_input']               				= 'Bidang Masukkan';
-$lang['survey_field_textarea']            				= 'Teks Area';
-$lang['survey_question_required']         				= 'Wajib';
-$lang['survey_question_only_for_preview'] 				= 'Hanya untuk pratinjau';
-$lang['survey_create_first']              				= 'Anda perlu membuat survei terlebih dahulu baru Anda dapat memasukkan pertanyaan.';
-$lang['survey_dt_name']               					= 'Nama';
-$lang['survey_dt_total_questions']    					= 'Total Pertanyaan';
-$lang['survey_dt_total_participants'] 					= 'Jumlah Peserta';
-$lang['survey_dt_date_created']       					= 'Tanggal Dibuat';
-$lang['survey_dt_active']             					= 'Aktif';
-$lang['survey_text_questions_results'] 					= 'Teks hasil pertanyaan';
-$lang['survey_view_all_answers']       					= 'Lihat Semua Jawaban';
 
 # String Tugas Staf
 $lang['new_task']       					= 'Tugas Baru';
@@ -1070,8 +985,6 @@ $lang['payment_view_heading'] 		= 'Pembayaran';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Izinkan klien mengubah jumlah yang akan dibayar (untuk pembayaran online)?';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Berapa banyak email survei yang dikirim per jam?';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Pilihan ini digunakan saat mengirim Survei. Survei cron berjalan setiap 5 menit. Jadi Anda dapat mengatur berapa banyak email dikirim setiap 5 menit';
 $lang['settings_delete_only_on_last_invoice']                       = 'Menghapus faktur diperbolehkan hanya untuk faktur terakhir';
 $lang['settings_sales_estimate_prefix']                             = 'Nomor Awalan Estimasi';
 $lang['settings_sales_next_estimate_number']                        = 'Nomor Estimasi Berikutnya';
@@ -1343,7 +1256,6 @@ $lang['contract_renewal_old_end_date'] 				= 'Kontrak Lama diakhiri pada: %s';
 $lang['contract_attachment']           				= 'Lampiran';
 
 # String Admin Aside Menu
-$lang['als_goals_tracking']     					= 'Pelacakan Target/Goals';
 $lang['als_expenses']           					= 'Pengeluaran';
 $lang['als_reports_expenses']   					= 'Pengeluaran';
 $lang['als_expenses_vs_income'] 					= 'Pengeluaran vs Pendapatan';
@@ -1353,49 +1265,6 @@ $lang['invoice_attach_file']           				= 'Lampirkan File';
 $lang['invoice_mark_as_sent']          				= 'Tandai sbg Telah Dikirim';
 $lang['invoice_marked_as_sent']        				= 'Faktur telah berhasil ditandai sbg Telah Dikirim';
 $lang['invoice_marked_as_sent_failed'] 				= 'Gagal menandai Faktur sbg Telah Dikirim';
-
-# String Pelacakan Target/Goals Tracking
-$lang['goals']                                         	= 'Target';
-$lang['goal']                                          	= 'Target';
-$lang['goals_tracking']                                	= 'Pelacakan Target';
-$lang['new_goal']                                      	= 'Target Baru';
-$lang['goal_lowercase']                                	= 'target';
-$lang['goal_start_date']                               	= 'Tanggal Mulai';
-$lang['goal_end_date']                                 	= 'Tanggal Berakhir';
-$lang['goal_subject']                                  	= 'Judul';
-$lang['goal_description']                              	= 'Deskripsi';
-$lang['goal_type']                                     	= 'Tipe Target';
-$lang['goal_achievement']                              	= 'Pencapaian';
-$lang['goal_contract_type']                            	= 'Tipe Kontrak';
-$lang['goal_notify_when_fail']                         	= 'Beritahu anggota staf ketika target gagal dicapai';
-$lang['goal_notify_when_achieve']                      	= 'Beritahu anggota staf ketika target tercapai';
-$lang['goal_progress']                                 	= 'Progres';
-$lang['goal_total']                                    	= 'Total: %s';
-$lang['goal_result_heading']                           	= 'Progres Target';
-$lang['goal_income_shown_in_base_currency']            	= 'Total penghasilan ditampilkan dalam Mata Uang Utama Anda';
-$lang['goal_notify_when_end_date_arrives']             	= 'Anggota staf akan diberitahu ketika tanggal berakhir tiba.';
-$lang['goal_staff_members_notified_about_achievement'] 	= 'Anggota staf akan diberitahu tentang pencapaian target ini';
-$lang['goal_staff_members_notified_about_failure']     	= 'Anggota staf telah diberitahu tentang kegagalan ini';
-$lang['goal_notify_staff_manually']                    	= 'Beritahu Anggota Staf secara Manual';
-$lang['goal_notify_staff_notified_manually_success']  	= 'Anggota staf akan diberitahu tentang hasil target ini';
-$lang['goal_notify_staff_notified_manually_fail']      	= 'Gagal untuk memberitahu anggota staf tentang hasil target ini';
-$lang['goal_achieved'] 									= 'Tercapai';
-$lang['goal_failed']   									= 'Gagal';
-$lang['goal_close']    									= 'Hampir';
-
-$lang['goal_type_total_income']                                         = 'Total Pencapaian Penghasilan';
-$lang['goal_type_convert_leads']                                        = 'Mengkonversi X Prospek';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Kenaikan Jumlah Klien';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Tidak Termasuk Konversi Prospek';
-$lang['goal_type_increase_customers_with_leads_conversions']         	= 'Kenaikan Jumlah Klien';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] 	= 'Termasuk Konversi Prospek';
-$lang['goal_type_make_contracts_by_type_calc_database']              	= 'Buat Kontrak berdasarkan Tipe';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']      	= 'Dihitung dari tanggal ditambahkan ke database';
-$lang['goal_type_make_contracts_by_type_calc_date']                  	= 'Buat Kontrak Berdasarkan Tipe';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']          	= 'Dihitung dari tanggal mulai kontrak';
-$lang['goal_type_total_estimates_converted']                         	= 'X Estimasi di Konversi';
-$lang['goal_type_total_estimates_converted_subtext']                 	= 'Hanya Estimasi yang akan dikonversi menjadi Faktur yang akan diambil.';
-$lang['goal_type_income_subtext']                                    	= 'Pendapatan akan dihitung dalam Mata Uang Utama anda (tidak dikonversi).';
 
 # String Pembayaran
 $lang['payment_transaction_id'] 										= 'ID Transaksi';
@@ -1614,7 +1483,6 @@ $lang['task_public_help']          			= 'Jika Anda mengatur tugas ini kepada pub
 $lang['settings_general_favicon']                                            	= 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      	= 'Ekspor dokumen PDF klien dari portal klien sesuai dengan bahasa yang dipilih klien?';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] 	= 'Jika anda memilih YA, maka dokumen PDF yang diekspor oleh klien akan menggunakan bahasa yang digunakan Klien.';
-$lang['settings_cron_surveys']                                               	= 'Survei';
 $lang['settings_default_tax']                                                	= 'Pajak Standar';
 $lang['setup_calendar_by_departments']                                       	= 'Setel Kalender berdasarkan Divisi';
 $lang['settings_calendar']                                                   	= 'Kalender';
@@ -1676,21 +1544,6 @@ $lang['bulk_export_status']            		= 'Status';
 $lang['bulk_export_zip_payment_modes'] 		= 'Lakukan pembayaran dengan';
 $lang['bulk_export_include_tag']       		= 'Sertakan Tag';
 $lang['bulk_export_include_tag_help']  		= 'Contoh: Original atau Salin. Tag akan ditampilan pada PDF yang diekspor. Direkomendasikan untuk hanya memberikan 1 tag';
-
-
-## String Area Klien/Clients area
-$lang['auto_backup_options_updated']     	= 'Opsi Backup Otomatis Diperbarui';
-$lang['auto_backup_every']               	= 'Buat backup setiap X hari';
-$lang['auto_backup_enabled']             	= 'Diaktifkan (Dibutuhkan Cron)';
-$lang['auto_backup']                     	= 'Backup otomatis';
-$lang['backup_delete']                   	= 'Backup Dihapus';
-$lang['backup_success']                  	= 'Backup is made successfuly';
-$lang['utility_backup']                  	= 'Backup Database';
-$lang['utility_create_new_backup_db']    	= 'Buat Backup Database';
-$lang['utility_backup_table_backupname'] 	= 'Backup';
-$lang['utility_backup_table_backupsize'] 	= 'Ukuran Backup';
-$lang['utility_backup_table_backupdate'] 	= 'Tanggal';
-$lang['utility_db_backup_note']          	= 'Catatan: Karena waktu eksekusi dan memori yang tersedia untuk PHP terbatas, back up database yang sangat besar mungkin tidak dapat dilakukan. Jika database Anda sangat besar Anda mungkin perlu untuk backup langsung dari SQL server Anda melalui baris perintah, atau minta admin server Anda melakukannya untuk Anda jika Anda tidak memiliki hak akses root.';
 
 # Version 1.0.7
 ## String Klien-Portal/Customers - portal
@@ -1899,26 +1752,12 @@ $lang['custom_field_show_on_client_portal']      = 'Tampilkan di Portal Klien';
 $lang['custom_field_show_on_client_portal_help'] = 'Jika bidang ini dicentang, maka juga akan ditampilkan dalam tabel';
 $lang['custom_field_visibility']                 = 'Keterlihatan';
 
-# String Peralatan #Pembangun Menu/Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Anda juga dapat menambahkan terjemahan string disini. Jadi jika staf / sistem memiliki bahasa lain maka default nama-nama item menu akan dikeluarkan dalam bahasa staf. Kalau tidak jika string tidak ada dalam file terjemahan akan diambil string yang Anda masukkan di sini.';
-$lang['utilities_menu_icon']                = 'Ikon';
-$lang['active_menu_items']                  = 'Item Menu yang Aktif';
-$lang['inactive_menu_items']                = 'Item Menu yang Nonaktif';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Nama';
-$lang['utilities_menu_save']                = 'Save Menu';
-
 # String Panduan Dasar
 $lang['view_articles_list']     = 'Lihat Artikel';
 $lang['view_articles_list_all'] = 'Semua Artikel';
 $lang['als_all_articles']       = 'Semua Artikel';
 $lang['als_kb_groups']          = 'Kategori';
 
-# String Customizer Menu
-$lang['menu_builder']            = 'Pengaturan Menu';
-$lang['main_menu']               = 'Menu Utama';
-$lang['setup_menu']              = 'Pengaturan Menu';
-$lang['utilities_menu_url_help'] = '%s otomatis ditambahkan untuk URL';
 
 # String Spam Filter - Tiket
 $lang['spam_filters']                 = 'Filter Spam';
@@ -2000,11 +1839,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Prospek diimpor dari In
 $lang['not_lead_imported_attachment']                 = 'Impor lampiran dari Email';
 $lang['not_estimate_status_change']                   = 'Impor lampiran dari Email';
 $lang['not_estimate_status_updated']                  = 'Status Estimasi Diperbarui: Dari: %s menjadi %s';
-$lang['not_goal_message_success']                     = 'Selamat! Kita berhasil mencapai Target baru.<br />Tipe Target: %s
-<br />Pencapaian Target: %s
-<br />Total Pencapaian: %s
-<br />Tanggal Mulai: %s
-<br />Tanggal Berakahir: %s';
+
 $lang['not_assigned_lead_to_you']             						= 'Prospek %s dikaitkan dengan anda';
 $lang['not_lead_activity_assigned_to']        						= '%s dikaitkan dengan %s';
 $lang['not_lead_activity_attachment_deleted'] 						= 'Hapus Lampiran';
@@ -2526,8 +2361,6 @@ $lang['expense_repeat_every']              		 = 'Ulangi setiap';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Alihkan ke KanBan';
-$lang['survey_no_questions']                      = 'Survei ini belum memiliki pertanyaan sama sekali.';
-$lang['survey_submit']                            = 'Kirim';
 $lang['contract_content']                         = 'Kontrak';
 $lang['contract_save']                            = 'Simpan Kontrak';
 $lang['contract_send_to_email']                   = 'Kirim ke Email';
@@ -2631,7 +2464,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Hentikan semua timer berjalan
 $lang['notification_when_customer_pay_invoice'] = 'Terima Pengumuman ketika pelanggan membayar faktur (tertanam)';
 $lang['not_invoice_payment_recorded']           = 'Faktur pembayaran baru - %s';
 $lang['email_template_contact_warning']         = 'Jika kontak tidak login saat melakukan tindakan, kolom gabungan kontak tidak akan diganti.';
-$lang['theme_style']                            = 'Gaya Tema';
 $lang['change_role_permission_warning']         = 'Mengubah izin peran tidak akan memengaruhi izin anggota staf yang saat ini menggunakan peran ini.';
 $lang['task_copied_successfully']               = 'Tugas berhasil disalin';
 $lang['failed_to_copy_task']                    = 'Gagal menyalin tugas';
@@ -2666,11 +2498,6 @@ $lang['to_date']                                = 'Sampai tanggal';
 $lang['not_results_found']                      = 'Tidak ada hasil yang ditemukan';
 $lang['lead_lock_after_convert_to_customer']    = 'Jangan izinkan prospek untuk diedit setelah dikonversi menjadi Klien (administrator tidak terpengaruh)';
 $lang['default_pipeline_sort']                  = 'Urutan pipeline default';
-$lang['not_goal_message_failed']                = 'Kami gagal mencapai tujuan!<br /> Tipe Pencapaian: %s
-<br />Pencapaian Target: %s
-<br />Total Prestasi: %s
-<br />Waktu Dimulai: %s
-<br />Waktu Berakhir: %s';
 $lang['toggle_full_view']             = 'Alihkan pada tampilan penuh';
 $lang['not_estimate_invoice_deleted'] = 'menghapus faktur yang dibuat';
 $lang['not_task_new_comment']         = 'mengomentari tugas %s';
@@ -2939,8 +2766,6 @@ $lang['task_checklist_item_completed_by']                   = 'Diselesaikan oleh
 $lang['staff_email_signature_help']                         = 'Jika kosong, tanda tangan email default dari pengaturan akan digunakan';
 $lang['default_task_priority']                              = 'Prioritas Default';
 $lang['project_send_created_email']                         = 'Kirim email yang dibuat oleh proyek';
-$lang['survey_send_to_lists']                               = 'Daftar pengiriman survei';
-$lang['survey_send_notice']                                 = 'Email akan dikirim melalui CRON JOB per jam.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Tampilkan faktur pembayaran (transaksi) di PDF';
@@ -2952,7 +2777,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Tampilkan di area Klien'
 $lang['customer_attachments_show_notice']            = 'Hanya file yang diunggah dari profil klien yang memiliki kemampuan untuk ditampilkan / disembunyikan di area klien.';
 $lang['customer_profile_files']                      = 'Files';
 $lang['no_files_found']                              = 'Tidak Ada File Ditemukan';
-$lang['survey_customers_all']                        = 'Semua Klien';
 $lang['custom_field_column']                         = 'Grid (Kolom Bootstrap) - Max is 12';
 $lang['task_status']                                 = 'Status';
 $lang['task_status_1']                               = 'Belum Dimulai';
@@ -3162,7 +2986,6 @@ $lang['proposals_report']                                = 'Laporan Proposal';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Jika anggota staf tidak memiliki izin untuk klien, \'TAMPILKAN\' hanya untuk membuka tiket baru dari area admin untuk kontak klien yang ditugaskan sebagai admin klien.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Izinkan anggota staf membuka tiket ke semua kontak? Allow staff members to open tickets to all contacts?';
 $lang['charts_based_report']                             = 'Grafik Berdasarkan Laporan';
-$lang['delete_backups_older_then']                       = 'Otomatis hapus cadangan yang lebih lama dari X hari (setel 0 untuk menonaktifkan)';
 $lang['responsible_admin']                               = 'Admin yang Bertanggung Jawab';
 $lang['tags']                                            = 'Tag';
 $lang['tag']                                             = 'Tag';
@@ -3769,4 +3592,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+

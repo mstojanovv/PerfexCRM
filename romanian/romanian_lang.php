@@ -278,40 +278,6 @@ $lang['group_table_name_heading']      = 'Nume';
 $lang['group_table_isactive_heading']  = 'Activ';
 $lang['kb_no_groups_found']            = 'Nu s-au găsit grupuri de bază de cunoștințe';
 
-# Mail Lists
-$lang['mail_lists']                            = 'Listă de e-mailuri';
-$lang['mail_list']                             = 'Listă de e-mailuri';
-$lang['new_mail_list']                         = 'Noua listă de e-mailuri';
-$lang['mail_list_lowercase']                   = 'mail lista';
-$lang['custom_field_deleted_success']          = 'Campul personalizat a fost șters';
-$lang['custom_field_deleted_fail']             = 'Problemă ștergere câmp personalizat';
-$lang['email_removed_from_list']               = 'E-mailul a fost eliminat din listă';
-$lang['email_remove_fail']                     = 'E-mailul a fost eliminat din listă';
-$lang['staff_mail_lists']                      = 'Lista cu mesaje de poștă electronică';
-$lang['clients_mail_lists']                    = 'Lista de corespondenți pentru clienți';
-$lang['mail_list_total_imported']              = 'Numărul total de e-mailuri importate: %s';
-$lang['mail_list_total_duplicate']             = 'Total e-mailuri duplicate: %s';
-$lang['mail_list_total_failed_to_insert']      = 'E-mailurile nu au reușit să introducă: %s';
-$lang['mail_list_total_invalid']               = 'Adresa email invalida: %s';
-$lang['cant_edit_mail_list']                   = 'Nu puteți să editați această listă, această listă este populate automat';
-$lang['mail_list_add_edit_name']               = 'Numele listei poștale';
-$lang['mail_list_add_edit_customfield']        = 'Adăugați câmpuri personalizate';
-$lang['mail_lists_view_email_email_heading']   = 'E-mail';
-$lang['mail_lists_view_email_date_heading']    = 'Data adaugata';
-$lang['add_new_email_to']                      = 'Adăugați un e - mail nou la %s';
-$lang['import_emails_to']                      = 'Importați emailuri către %s';
-$lang['mail_list_new_email_edit_add_label']    = 'E-mail';
-$lang['mail_list_import_file']                 = 'Fișier de import';
-$lang['mail_list_available_custom_fields']     = 'Câmpurile personalizate disponibile';
-$lang['submit_import_emails']                  = 'Importați e-mailuri';
-$lang['btn_import_emails']                     = 'Importați e-mailuri (Excel)';
-$lang['btn_add_email_to_list']                 = 'Adăugați e-mail la această listă';
-$lang['mail_lists_dt_list_name']               = 'Nume listă';
-$lang['mail_lists_dt_datecreated']             = 'Data creării';
-$lang['mail_lists_dt_creator']                 = 'Creator';
-$lang['email_added_to_mail_list_successfully'] = 'Emailul a fost adăugat la listă';
-$lang['email_is_duplicate_mail_list']          = 'E-mailul există deja în această listă';
-
 # Media
 $lang['media_files'] = 'Fișiere';
 
@@ -544,7 +510,6 @@ $lang['als_sales']                 = 'Vânzări';
 $lang['als_staff']                 = 'Personal';
 $lang['als_tasks']                 = 'Sarcini';
 $lang['als_kb']                    = 'Bază de cunoștințe';
-$lang['als_surveys']               = 'Sondaje';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapoarte';
 $lang['als_reports_sales_submenu'] = 'Vânzări';
@@ -667,56 +632,6 @@ $lang['staff_edit_profile_change_your_password']       = 'Schimbați-vă parola'
 $lang['staff_edit_profile_change_old_password']        = 'Parola veche';
 $lang['staff_edit_profile_change_new_password']        = 'Parolă Nouă';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Repeta noua parola';
-
-# Surveys
-$lang['new_survey']                                = 'Sondaj nou';
-$lang['surveys']                                   = 'Sondaje';
-$lang['survey']                                    = 'Studiu';
-$lang['survey_lowercase']                          = 'studiu';
-$lang['survey_no_mail_lists_selected']             = 'Nu sunt selectate liste de e-mailuri';
-$lang['survey_send_success_note']                  = 'Toate e-mailurile din sondaj (%s) vor fi trimise prin CRON';
-$lang['survey_result']                             = 'Rezultat pentru sondaj: %s';
-$lang['question_string']                           = 'Întrebare';
-$lang['question_field_string']                     = 'Camp';
-$lang['survey_list_view_tooltip']                  = 'Vizualizați sondajul';
-$lang['survey_list_view_results_tooltip']          = 'Vezi rezultate';
-$lang['survey_add_edit_subject']                   = 'Cercetare subiect';
-$lang['survey_add_edit_email_description']         = 'Descrierea sondajului (descrierea e-mailului)';
-$lang['survey_include_survey_link']                = 'Includeți linkul sondajului în descriere';
-$lang['survey_available_mail_lists_custom_fields'] = 'Câmpuri personalizate disponibile din listele de e-mail';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Câmpurile personalizate pot fi utilizate pentru editorul de e-mailuri.';
-$lang['survey_add_edit_short_description_view']    = 'Scurtă descriere a sondajului (Vizualizare descriere)';
-$lang['survey_add_edit_from']                      = 'Din (afișat în e-mail)';
-$lang['survey_add_edit_redirect_url']              = 'Adresa URL de redirecționare a sondajului';
-$lang['survey_add_edit_red_url_note']              = 'Când utilizatorul finalizează sondajul în care urmează să fie redirecționat (lăsați necompletat pentru acest site URL)';
-$lang['survey_add_edit_disabled']                  = 'invalid';
-$lang['survey_add_edit_only_for_logged_in']        = 'Numai pentru participanții conectați (personal, clienți)';
-$lang['send_survey_string']                        = 'Trimiteți Ancheta';
-$lang['survey_send_mail_list_clients']             = 'clienţii';
-$lang['survey_send_mail_list_staff']               = 'Personal';
-$lang['survey_send_mail_lists_string']             = 'Listă de corespondență';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Notă: dacă trimiteți sondaj la listele de mail Numai pentru participanții conectați trebuie să fie nesecată';
-$lang['survey_send_string']                        = 'Trimite';
-$lang['survey_send_to_total']                      = 'Trimiteți la e-mailuri %s totale';
-$lang['survey_send_till_now']                      = 'Pana acum';
-$lang['survey_send_finished']                      = 'Sondajul trimis a terminat: %s';
-$lang['survey_added_to_queue']                     = 'Acest sondaj este adăugat la coada cron %s';
-$lang['survey_questions_string']                   = 'Întrebări';
-$lang['survey_insert_field']                       = 'Introduceți câmpul';
-$lang['survey_field_checkbox']                     = 'Caseta de bifat';
-$lang['survey_field_radio']                        = 'Radio';
-$lang['survey_field_input']                        = 'Câmp de introducere';
-$lang['survey_field_textarea']                     = 'Zona de text';
-$lang['survey_question_required']                  = 'Necesar';
-$lang['survey_question_only_for_preview']          = 'Numai pentru previzualizare';
-$lang['survey_create_first']                       = 'Mai întâi trebuie să creați ancheta, după care veți putea introduce întrebările.';
-$lang['survey_dt_name']                            = 'Nume';
-$lang['survey_dt_total_questions']                 = 'Întrebări totale';
-$lang['survey_dt_total_participants']              = 'Total participanți';
-$lang['survey_dt_date_created']                    = 'Data creării';
-$lang['survey_dt_active']                          = 'Activ';
-$lang['survey_text_questions_results']             = 'Au rezultat întrebări de text';
-$lang['survey_view_all_answers']                   = 'Vedeți toate răspunsurile';
 
 # Staff Tasks
 $lang['new_task']                           = 'Sarcina noua';
@@ -1052,8 +967,6 @@ $lang['payment_view_heading'] = 'Plată';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Permiteți clientului să modifice suma de plată (pentru plățile online)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Câte e-mailuri trimise pe oră';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Această opțiune este utilizată la trimiterea Sondajelor. Ancheta cron va trimite X e-mailuri pe oră. Unii furnizori de hosting au limita de trimitere a e-mailurilor pe oră.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Șterge factura permisă numai la ultima factură';
 $lang['settings_sales_estimate_prefix']                             = 'Prefixul numărului de estimare';
 $lang['settings_sales_next_estimate_number']                        = 'Estimarea următoare Numărul';
@@ -1318,7 +1231,6 @@ $lang['contract_renewal_old_end_date']        = 'Vechea dată de încheiere a co
 $lang['contract_attachment']                  = 'Atașament';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Urmărirea obiectivelor';
 $lang['als_expenses']           = 'Cheltuieli';
 $lang['als_reports_expenses']   = 'Cheltuieli';
 $lang['als_expenses_vs_income'] = 'Cheltuieli vs. Venituri';
@@ -1328,48 +1240,6 @@ $lang['invoice_attach_file']           = 'Ataseaza fisier';
 $lang['invoice_mark_as_sent']          = 'Marchează ca Trimis';
 $lang['invoice_marked_as_sent']        = 'Factura marcată ca fiind trimisă cu succes';
 $lang['invoice_marked_as_sent_failed'] = 'Nu a fost marcată factura așa cum a fost trimisă';
-
-# Goals Tracking
-$lang['goals']                                                          = 'Obiective';
-$lang['goal']                                                           = 'Obiectiv';
-$lang['goals_tracking']                                                 = 'Urmarirea obiectivului';
-$lang['new_goal']                                                       = 'Obiectiv nou';
-$lang['goal_lowercase']                                                 = 'obiectiv';
-$lang['goal_start_date']                                                = 'Data inceperii';
-$lang['goal_end_date']                                                  = 'Data de încheiere';
-$lang['goal_subject']                                                   = 'Subiect';
-$lang['goal_description']                                               = 'Descriere';
-$lang['goal_type']                                                      = 'Tipul obiectivului';
-$lang['goal_achievement']                                               = 'Realizare';
-$lang['goal_contract_type']                                             = 'Tipul contractului';
-$lang['goal_notify_when_fail']                                          = 'Notificați membrii personalului atunci când obiectivul nu a reușit';
-$lang['goal_notify_when_achieve']                                       = 'Notificați membrii personalului atunci când obiectivul atinge';
-$lang['goal_progress']                                                  = 'Progres';
-$lang['goal_total']                                                     = 'Total: %s';
-$lang['goal_result_heading']                                            = 'Progresul obiectivelor';
-$lang['goal_income_shown_in_base_currency']                             = 'Venitul total este afișat în moneda dvs. de bază';
-$lang['goal_notify_when_end_date_arrives']                              = 'Membrii personalului vor fi anunțați la data de sosire (solicită CRON).';
-$lang['goal_staff_members_notified_about_achievement']                  = 'Membrii personalului sunt informați despre realizarea acestui obiectiv';
-$lang['goal_staff_members_notified_about_failure']                      = 'Membrii personalului sunt informați despre eșec';
-$lang['goal_notify_staff_manually']                                     = 'Notificați membrii personalului manual';
-$lang['goal_notify_staff_notified_manually_success']                    = 'Membrii personalului sunt informați despre acest rezultat al obiectivului';
-$lang['goal_notify_staff_notified_manually_fail']                       = 'Nu s-a anunțat membrii personalului despre acest rezultat al obiectivului';
-$lang['goal_achieved']                                                  = 'realizat';
-$lang['goal_failed']                                                    = 'A eșuat';
-$lang['goal_close']                                                     = 'Foarte aproape';
-$lang['goal_type_total_income']                                         = 'Realizați venitul total';
-$lang['goal_type_convert_leads']                                        = 'Convertit X Leads';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Creșteți numărul de client';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Leads Conversia este exclusă';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'Creșteți numărul de client';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'Conversiile leads sunt incluse';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'Faceți contracte după tip';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'Se calculează de la data adăugată la baza de date';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'Faceți contracte după tip';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'Se calculează de la data începerii contractului';
-$lang['goal_type_total_estimates_converted']                            = 'X Estimări de conversie ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'Se vor lua numai estimări care vor fi convertite în facturi';
-$lang['goal_type_income_subtext']                                       = 'Venitul va fi calculat în moneda de bază (nu este convertită)';
 
 # Payments
 $lang['payment_transaction_id'] = 'ID-ul de tranzacție';
@@ -1583,7 +1453,6 @@ $lang['task_public_help']          = 'Dacă setați această activitate la publi
 $lang['settings_general_favicon']                                            = 'favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Ieșiți documentele PDF client din zona de administrare în limba clientului';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Dacă aceste opțiuni sunt setate la da și eq. limba implicită a sistemului este limba engleză și clientul are limba de configurare franceză, documentele pdf vor fi afișate în limba clientului';
-$lang['settings_cron_surveys']                                               = 'Sondaje';
 $lang['settings_default_tax']                                                = 'Impozitul implicit';
 $lang['setup_calendar_by_departments']                                       = 'Configurați calendarul de către departamente';
 $lang['settings_calendar']                                                   = 'Calendar';
@@ -1645,20 +1514,6 @@ $lang['bulk_export_status']            = 'Status';
 $lang['bulk_export_zip_payment_modes'] = 'A efectuat plățile prin';
 $lang['bulk_export_include_tag']       = 'Includeți eticheta';
 $lang['bulk_export_include_tag_help']  = 'ex. Original sau copie. Eticheta va fi afișată în format PDF. Recomandat să utilizați numai 1 etichetă';
-
-## Clients area
-$lang['auto_backup_options_updated']     = 'Opțiunile de rezervă automată au fost actualizate';
-$lang['auto_backup_every']               = 'Creați copii de rezervă la fiecare X de zile';
-$lang['auto_backup_enabled']             = 'Enabled (Necesită Cron)';
-$lang['auto_backup']                     = 'Copie de siguranta automata';
-$lang['backup_delete']                   = 'Backup șters';
-$lang['backup_success']                  = 'Backupul se face cu succes';
-$lang['utility_backup']                  = 'Baza de date de rezervă';
-$lang['utility_create_new_backup_db']    = 'Creați Backup de baze de date';
-$lang['utility_backup_table_backupname'] = 'Backup';
-$lang['utility_backup_table_backupsize'] = 'Backup marime';
-$lang['utility_backup_table_backupdate'] = 'Data';
-$lang['utility_db_backup_note']          = 'Notă: datorită timpului de execuție limitat și a memoriei disponibile pentru PHP, este posibil ca backup-ul bazelor de date foarte mari să nu fie posibil. Dacă baza de date este foarte mare, este posibil să aveți nevoie să faceți o copie de rezervă directă de la serverul dvs. de tip SQL prin intermediul liniei de comandă sau să o faceți administratorului de server pentru dvs. dacă nu aveți privilegii de root.';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1866,26 +1721,11 @@ $lang['custom_field_show_on_client_portal']      = 'Afișați pe portalul client
 $lang['custom_field_show_on_client_portal_help'] = 'Dacă este bifat acest câmp, acesta va fi afișat și în tabele';
 $lang['custom_field_visibility']                 = 'Vizibilitate';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Puteți adăuga aici, de asemenea, traduce și șiruri de caractere. Deci, dacă personalul / sistemul are altă limbă decât cea implicită, numele de elemente de meniu vor fi afișate în limba personalului. În caz contrar, dacă șirul nu există în fișierul de traducere, va fi preluat șirul pe care îl introduceți aici.';
-$lang['utilities_menu_icon']                = 'Icon';
-$lang['active_menu_items']                  = 'Articole active din meniu';
-$lang['inactive_menu_items']                = 'Articole din meniu inactiv';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Nume';
-$lang['utilities_menu_save']                = 'Salvați meniul';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'Vezi articole';
 $lang['view_articles_list_all'] = 'Toate articolele';
 $lang['als_all_articles']       = 'Articole';
 $lang['als_kb_groups']          = 'Grupuri';
-
-# Customizer Menu
-$lang['menu_builder']            = 'Setarea meniului';
-$lang['main_menu']               = 'Meniu principal';
-$lang['setup_menu']              = 'Meniul de configurare';
-$lang['utilities_menu_url_help'] = '%s este adăugată automat la url';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Filtre de spam';
@@ -1967,11 +1807,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Lead Imported From Emai
 $lang['not_lead_imported_attachment']                 = 'Imported attachment from email';
 $lang['not_estimate_status_change']                   = 'Imported attachment from email';
 $lang['not_estimate_status_updated']                  = 'Estimate Status Updated: From: %s to %s';
-$lang['not_goal_message_success']                     = 'Congratulations! We achieved new goal.<br /> Goal Type: %s
-<br />Goal Achievement: %s
-<br />Total Achievement: %s
-<br />Start Date: %s
-<br />End Date: %s';
+
 $lang['not_assigned_lead_to_you']                                 = 'assigned lead %s to you';
 $lang['not_lead_activity_assigned_to']                            = '%s assigned to %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Deleted Attachment';
@@ -2482,8 +2318,6 @@ $lang['expense_repeat_every']                    = 'Repetați fiecare';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Vizualizare KanBan';
-$lang['survey_no_questions']                      = 'Acest sondaj nu conține încă întrebări.';
-$lang['survey_submit']                            = 'Trimite';
 $lang['contract_content']                         = 'Contract';
 $lang['contract_save']                            = 'Salvați contractul';
 $lang['contract_send_to_email']                   = 'Trimite pe email';
@@ -2587,7 +2421,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Opriți toți ceilalți crono
 $lang['notification_when_customer_pay_invoice'] = 'Primirea notificării atunci când factura plătească clientul (built-in)';
 $lang['not_invoice_payment_recorded']           = 'Plata pe factură nouă - %s';
 $lang['email_template_contact_warning']         = 'Dacă contactul nu este înregistrat în timpul acțiunii, câmpurile de îmbinare a contactelor nu vor fi înlocuite.';
-$lang['theme_style']                            = 'Tema stilului';
 $lang['change_role_permission_warning']         = 'Modificarea permisiunilor de rol care afectează membrii personalului actual';
 $lang['task_copied_successfully']               = 'Activitatea a fost copiată cu succes';
 $lang['failed_to_copy_task']                    = 'Copierea sarcinii nu a reușit';
@@ -2622,11 +2455,6 @@ $lang['to_date']                                = 'Pana in prezenet';
 $lang['not_results_found']                      = 'Nu s-au găsit rezultate';
 $lang['lead_lock_after_convert_to_customer']    = 'Nu permiteți editarea plumbului după conversia la client (administratorii nu au fost aplicați)';
 $lang['default_pipeline_sort']                  = 'Implicit sortarea conductei';
-$lang['not_goal_message_failed']                = 'Nu am reușit să atingem un obiectiv! <br /> Tip de obiectiv: %s
-<br />Realizarea obiectivelor: %s
-<br />Evenimente totale: %s
-<br />Data de incepere: %s
-<br />Data de incheiere: %s';
 $lang['toggle_full_view']             = 'Comutați vizualizarea completă';
 $lang['not_estimate_invoice_deleted'] = 'a șters factura creată';
 $lang['not_task_new_comment']         = 'a comentat despre sarcina %s';
@@ -2895,8 +2723,6 @@ $lang['task_checklist_item_completed_by']                   = 'Finalizat de %s';
 $lang['staff_email_signature_help']                         = 'Dacă se utilizează semnătura implicită de e-mail prestabilită din setări';
 $lang['default_task_priority']                              = 'Prioritate prestabilită';
 $lang['project_send_created_email']                         = 'Trimiteți e-mailul creat de proiect';
-$lang['survey_send_to_lists']                               = 'Sondajul trimite liste';
-$lang['survey_send_notice']                                 = 'E-mailurile vor fi trimise prin CRON JOB pe oră.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Afișați plățile pe factură (tranzacții) pe PDF';
@@ -2908,7 +2734,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Afișați zona cliențil
 $lang['customer_attachments_show_notice']            = 'Numai fișierele încărcate din profilul clientului au capacitatea de a afișa / ascunde în zona clienților.';
 $lang['customer_profile_files']                      = 'Fisiere';
 $lang['no_files_found']                              = 'Nu s-a găsit niciun fisier';
-$lang['survey_customers_all']                        = 'Toti clientii';
 $lang['custom_field_column']                         = 'Grilă (Bootstrap Column eq. 12) - Max este de 12';
 $lang['task_status']                                 = 'Stare';
 $lang['task_status_1']                               = 'Nu a inceput';
@@ -3118,7 +2943,6 @@ $lang['proposals_report']                                = 'Raport de propuneri'
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Daca membrul personalului nu are permisiunea clientilor VIEW, numai vor putea sa creeze tichete noi de la zona de administrare la contactele clientului n care este atribuit ca administrator de client.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Permiteti membrilor personalului sa deschida tichetele la toate persoanele de contact?';
 $lang['charts_based_report']                             = 'Diagrama bazata pe diagrame';
-$lang['delete_backups_older_then']                       = 'È˜tergeti automat copii de rezerva mai vechi decat X zile (setati 0 pentru a dezactiva)';
 $lang['responsible_admin']                               = 'Responsabil admin';
 $lang['tags']                                            = 'Etichete';
 $lang['tag']                                             = 'Eticheta';
@@ -3724,4 +3548,29 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
