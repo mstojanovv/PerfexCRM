@@ -3620,12 +3620,12 @@ $lang['verification_key_expired']                                    = 'Verifica
 $lang['email_successfully_verified']                                 = 'Your email has been successfully verified.';
 $lang['email_successfully_verified_but_required_admin_confirmation'] = 'Your email has been successfully verified, you will be able to login once administrator confirm your account manually.';
 $lang['email_verification_mail_sent_successully']                    = 'We sent you an email with verification instructions';
-$lang['create_reminder']                                             = 'Create Reminder';
-$lang['no_reminders_for_this_task']                                  = 'No reminders for this task';
-$lang['reminder_for']                                                = 'Reminder for %s on %s';
-$lang['no_description_provided']                                     = 'No description provided';
-$lang['pay_with_card']                                               = 'Pay With Card';
-$lang['not_customer_uploaded_file']                                  = 'New File(s) Uploaded in Profile';
+$lang['create_reminder']                                             = 'Crear recordatorio';
+$lang['no_reminders_for_this_task']                                  = 'No hay recordatorios para esta tarea';
+$lang['reminder_for']                                                = 'Recordatorio para %s el %s';
+$lang['no_description_provided']                                     = 'Sin descripción provista';
+$lang['pay_with_card']                                               = 'Pagar con tarjeta';
+$lang['not_customer_uploaded_file']                                  = 'Nuevos archivos subidos al perfil';
 
 # Version 2.2.1
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
@@ -3656,4 +3656,5 @@ $lang['refund']                                  = 'Refund';
 $lang['refund_amount']                           = 'Refunded Amount';
 $lang['not_refunds_found']                       = 'No refunds found';
 $lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
 
