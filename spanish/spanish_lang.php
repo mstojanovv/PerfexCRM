@@ -313,7 +313,7 @@ $lang['report_sales_months_six_months']                   = 'Últimos 6 meses';
 $lang['report_sales_months_twelve_months']                = 'Últimos 12 meses';
 $lang['reports_sales_generated_report']                   = 'Informe generado';
 $lang['reports_sales_dt_customers_client']                = 'Cliente';
-$lang['reports_sales_dt_customers_total_invoices']        = 'Las facturas totales';
+$lang['reports_sales_dt_customers_total_invoices']        = 'Total de facturas';
 $lang['reports_sales_dt_items_customers_amount']          = 'Importe';
 $lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Importe con impuestos';
 # Roles
@@ -487,7 +487,7 @@ $lang['als_media']                 = 'Multimedia';
 $lang['als_reports']               = 'Informes';
 $lang['als_reports_sales_submenu'] = 'Ventas';
 $lang['als_reports_leads_submenu'] = 'Clientes potenciales';
-$lang['als_kb_articles_submenu']   = 'Artículos de kB';
+$lang['als_kb_articles_submenu']   = 'Artículos de conocimiento';
 $lang['als_utilities']             = 'Utilidades';
 $lang['als_announcements_submenu'] = 'Anuncios';
 $lang['als_calendar_submenu']      = 'Calendario';
