@@ -3728,3 +3728,40 @@ $lang['customer_files_info_message'] = 'Files from projects and tasks linked to 
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
 $lang['sales_item'] = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                                 = 'Modules';
+$lang['module']                                  = 'Module';
+$lang['module_description']                      = 'Description';
+$lang['module_activate']                         = 'Activate';
+$lang['module_deactivate']                       = 'Deactivate';
+$lang['module_uninstall']                        = 'Uninstall';
+$lang['module_upgrade_database']                 = 'Upgrade Database';
+$lang['module_settings']                         = 'Settings';
+$lang['module_version']                          = 'Version %s';
+$lang['module_by']                               = 'By %s';
+$lang['staff_which_are_using_role']              = 'Staff members which are using this role';
+$lang['copy']                                    = 'Copy';
+$lang['read_more']                               = 'Read More';
+$lang['show_less']                               = 'Show Less';
+$lang['project_progress_text']                   = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
+$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
+$lang['no_validation']                             = 'No Validation';
+$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
+$lang['phonenumber_exists']                        = 'Phone number already exists';
+$lang['company_exists']                            = 'Company already exists';
+$lang['website_exists']                            = 'Website already exists';
+$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
+$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
+$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
