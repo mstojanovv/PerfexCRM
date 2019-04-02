@@ -838,7 +838,6 @@ $lang['clients_article_voted_thanks_for_feedback'] = 'Obrigado pela sua opinião
 # Solicitações
 $lang['clients_ticket_open_subject']               = 'Gerar Solicitação';
 $lang['clients_ticket_open_departments']           = 'Departamento';
-$lang['clients_ticketsheading']              = 'Solicitações de Suporte';
 $lang['clients_ticket_open_service']               = 'Serviço';
 $lang['clients_ticket_open_priority']              = 'Prioridade';
 $lang['clients_ticket_open_body']                  = 'Corpo da Solicitação';
@@ -846,15 +845,12 @@ $lang['clients_ticket_attachments']                = 'Anexos';
 $lang['clients_single_ticket_string']              = 'Solicitação';
 $lang['clients_single_ticket_replied']             = 'Respondido: %s';
 $lang['clients_single_ticket_information_heading'] = 'Informações da Solicitação';
-
-$lang['clients_ticketsdt_number']     = 'Solicitação #';
-$lang['clients_ticketsdt_subject']    = 'Assunto';
-$lang['clients_ticketsdt_department'] = 'Departamento';
-$lang['clients_ticketsdt_service']    = 'Serviço';
-$lang['clients_ticketsdt_status']     = 'Status';
-$lang['clients_ticketsdt_last_reply'] = 'Última Resposta';
-
-
+$lang['clients_tickets_dt_number']                 = 'Ticket #';
+$lang['clients_tickets_dt_subject']                = 'Subject';
+$lang['clients_tickets_dt_department']             = 'Department';
+$lang['clients_tickets_dt_service']                = 'Service';
+$lang['clients_tickets_dt_status']                 = 'Status';
+$lang['clients_tickets_dt_last_reply']             = 'Last Reply';
 $lang['clients_ticket_single_department']        = 'Departamento: %s';
 $lang['clients_ticket_single_submitted']         = 'Enviado: %s';
 $lang['clients_ticket_single_status']            = 'Status:';
@@ -960,8 +956,9 @@ $lang['clients_register']                          = 'Registrar-se';
 $lang['clients_profile_updated']                   = 'Seu perfil foi atualizado';
 $lang['clients_successfully_registered']           = 'Obrigado por se registrar!';
 $lang['clients_account_created_but_not_logged_in'] = 'Sua conta foi criada, mas você ainda não está logado no nosso sistema. Por favor, faça o login!';
-# Solicitações
-$lang['clients_ticketsheading'] = 'Solicitações de Suporte';
+
+# Tickets
+$lang['clients_tickets_heading'] = 'Solicitações de Suporte';
 
 # Payments
 // Uses on stripe page
