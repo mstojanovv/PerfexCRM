@@ -442,7 +442,7 @@ $lang['settings_sales_thousand_separator']                         = 'Хиляд
 $lang['settings_sales_currency_placement']                         = 'Валута място';
 $lang['settings_sales_currency_placement_before']                  = 'Преди сума';
 $lang['settings_sales_currency_placement_after']                   = 'След сума';
-$lang['settings_sales_require_client_logged_in_to_view_invoice']   =' Клиента трябва да е в систмата за да види Фактура';
+$lang['settings_sales_require_client_logged_in_to_view_invoice']   = ' Клиента трябва да е в систмата за да види Фактура';
 $lang['settings_sales_next_invoice_number']                        = 'Следващ номер на фактура';
 $lang['settings_sales_next_invoice_number_tooltip']                = 'Задайте това поле на 1, ако искате да започнете от началото';
 $lang['settings_sales_decrement_invoice_number_on_delete']         = 'Номер на фактурата се намалява при изтриване';
@@ -1784,7 +1784,7 @@ $lang['proposals_customers_related']            = 'Свързани с клие�
 $lang['proposal_related']                       = 'Свързани';
 $lang['proposal_for_lead']                      = 'Лийд';
 $lang['proposal_for_customer']                  = 'Клиент';
-$lang['proposal_for_task']                    = 'Задача';
+$lang['proposal_for_task']                      = 'Задача';
 $lang['proposal_for_ticket']                    = 'Обслужване';
 $lang['proposal']                               = 'Предложение';
 $lang['proposal_lowercase']                     = 'предложение';
@@ -3725,9 +3725,9 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 
 # Version 2.2.1
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['ticket_import_reply_only']    = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
+$lang['learn_more']                  = 'Learn More';
+$lang['sales_item']                  = 'Item';
 
 # Version 2.3.0
 
@@ -3764,4 +3764,3 @@ $lang['website_exists']                            = 'Website already exists';
 $lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
 $lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
 $lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
-
