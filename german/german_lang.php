@@ -3436,3 +3436,8 @@ $lang['website_exists']                                                       = 
 $lang['send_payment_receipt_to_client']                                       = 'Den Zahlungsbeleg an den Kunden senden';
 $lang['payment_sent_successfully']                                            = 'Der Zahlungsbeleg wurde erfolgreich versendet.';
 $lang['payment_sent_failed']                                                  = 'Der Zahlungsbeleg konnte nicht gesendet werden.';
+
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';

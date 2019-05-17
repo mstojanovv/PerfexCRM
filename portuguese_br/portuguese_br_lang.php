@@ -3633,3 +3633,7 @@ $lang['website_exists']                            = 'Website já existe';
 $lang['send_payment_receipt_to_client']            = 'Enviar recibo de pagamento ao cliente';
 $lang['payment_sent_successfully']                 = 'Recibo de pagamento enviado com sucesso.';
 $lang['payment_sent_failed']                       = 'Não foi possível enviar o comprovante de pagamento.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
