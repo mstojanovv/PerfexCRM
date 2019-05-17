@@ -3396,43 +3396,48 @@ $lang['pay_with_card']                                                        = 
 $lang['not_customer_uploaded_file']                                           = 'Neue Datei(en) im Profil hochgeladen';
 
 # Version 2.2.1
-$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
-$lang['sales_item']                  = 'Item';
+$lang['customer_files_info_message']                                          = 'Dateien aus Projekten und Aufgaben, die mit dem Kunden verknüpft sind, werden in dieser Tabelle nicht angezeigt.';
+$lang['ticket_import_reply_only']                                             = 'Versuche, nur die tatsächliche Ticketantwort zu importieren (ohne quoted/forwarded message).';
+$lang['learn_more']                                                           = 'Mehr erfahren';
+$lang['sales_item']                                                           = 'Artikel';
 
 # Version 2.3.0
 
-$lang['modules']                    = 'Modules';
-$lang['module']                     = 'Module';
-$lang['module_description']         = 'Description';
-$lang['module_activate']            = 'Activate';
-$lang['module_deactivate']          = 'Deactivate';
-$lang['module_uninstall']           = 'Uninstall';
-$lang['module_upgrade_database']    = 'Upgrade Database';
-$lang['module_settings']            = 'Settings';
-$lang['module_version']             = 'Version %s';
-$lang['module_by']                  = 'By %s';
-$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
-$lang['copy']                       = 'Copy';
-$lang['read_more']                  = 'Read More';
-$lang['show_less']                  = 'Show Less';
-$lang['project_progress_text']      = 'Project Progress';
-$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
-$lang['refunds']                                 = 'Refunds';
-$lang['refund']                                  = 'Refund';
-$lang['refund_amount']                           = 'Refunded Amount';
-$lang['not_refunds_found']                       = 'No refunds found';
-$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+$lang['modules']                                                              = 'Module';
+$lang['module']                                                               = 'Modul';
+$lang['module_description']                                                   = 'Beschreibung';
+$lang['module_activate']                                                      = 'Aktivieren';
+$lang['module_deactivate']                                                    = 'Deaktivieren';
+$lang['module_uninstall']                                                     = 'Deinstallieren';
+$lang['module_upgrade_database']                                              = 'Datenbank aktualisieren';
+$lang['module_settings']                                                      = 'Einstellungen';
+$lang['module_version']                                                       = 'Version %s';
+$lang['module_by']                                                            = 'Von %s';
+$lang['staff_which_are_using_role']                                           = 'Mitarbeiter, die diese Rolle nutzen';
+$lang['copy']                                                                 = 'Kopieren';
+$lang['read_more']                                                            = 'Mehr erfahren';
+$lang['show_less']                                                            = 'Weniger anzeigen';
+$lang['project_progress_text']                                                = 'Projektfortschritt';
+$lang['timer_not_stopped_yet']                                                = 'Dieser Timer ist noch nicht gestoppt.';
+$lang['refunds']                                                              = 'Rückerstattungen';
+$lang['refund']                                                               = 'Rückerstattung';
+$lang['refund_amount']                                                        = 'Rückerstattungsbetrag';
+$lang['not_refunds_found']                                                    = 'Keine Rückerstattungen gefunden';
+$lang['refunds_applied_cant_delete_credit_note']                              = 'Dieser Gutschrift besteht zum Teil aus Rückerstattungen. Um die Gutschrift zu löschen, muss zuerst die Rückerstattung gelöscht werden.';
 
 # Version 2.3.2
-$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
-$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
-$lang['no_validation']                             = 'No Validation';
-$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
-$lang['phonenumber_exists']                        = 'Phone number already exists';
-$lang['company_exists']                            = 'Company already exists';
-$lang['website_exists']                            = 'Website already exists';
-$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
-$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
-$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+$lang['create_recurring_from_child_error_message']                            = 'Diese %s kann nicht als wiederkehrend gesetzt werden, da diese %s ein Kind von einer anderen wiederkehrenden %s ist.';
+$lang['statement_credit_note_refund']                                         = 'Gutschriftsrückerstattung - %s';
+$lang['no_validation']                                                        = 'Keine Validierung';
+$lang['lead_unique_validation_on']                                            = 'Die Validierung für doppelten Lead auf den folgenden Feldern durchführen:';
+$lang['phonenumber_exists']                                                   = 'Telefonnummer ist bereits vorhanden';
+$lang['company_exists']                                                       = 'Firma  ist bereits vorhanden';
+$lang['website_exists']                                                       = 'Webseite ist bereits vorhanden';
+$lang['send_payment_receipt_to_client']                                       = 'Den Zahlungsbeleg an den Kunden senden';
+$lang['payment_sent_successfully']                                            = 'Der Zahlungsbeleg wurde erfolgreich versendet.';
+$lang['payment_sent_failed']                                                  = 'Der Zahlungsbeleg konnte nicht gesendet werden.';
+
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';

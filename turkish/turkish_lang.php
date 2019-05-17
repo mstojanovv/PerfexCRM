@@ -3572,3 +3572,7 @@ $lang['website_exists']                            = 'Websitesi zaten var';
 $lang['send_payment_receipt_to_client']            = 'Müşteriye Ödeme Makbuzu Gönder';
 $lang['payment_sent_successfully']                 = 'Ödeme makbuzu başarıyla gönderildi.';
 $lang['payment_sent_failed']                       = 'Ödeme makbuzu gönderilemedi.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';

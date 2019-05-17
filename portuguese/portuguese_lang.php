@@ -3668,3 +3668,7 @@ $lang['website_exists']                            = 'Website already exists';
 $lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
 $lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
 $lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
