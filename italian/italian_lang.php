@@ -279,7 +279,7 @@ $lang['payment_edit_date']            = 'Data Pagamento';
 # Knowledge Base
 $lang['kb_article_add_edit_subject'] = 'Oggetto';
 $lang['kb_article_add_edit_group']   = 'Gruppo';
-$lang['kb_string']                   = 'Informazioni di base';
+$lang['kb_string']                   = 'FAQ';
 $lang['kb_article']                  = 'Articolo';
 $lang['kb_article_lowercase']        = 'articolo';
 $lang['kb_article_new_article']      = 'Nuovo Articolo';
@@ -410,7 +410,7 @@ $lang['settings_general_company_logo_tooltip']        = 'Dimensioni raccomandate
 $lang['settings_general_company_remove_logo_tooltip'] = 'Rimuovi logo ditta';
 $lang['settings_general_company_name']                = 'Nome Ditta';
 $lang['settings_general_company_main_domain']         = 'Dominio Principale Ditta';
-$lang['settings_general_use_knowledgebase']           = 'Usa Informazioni di Base';
+$lang['settings_general_use_knowledgebase']           = 'Usa FAQ';
 $lang['settings_general_use_knowledgebase_tooltip']   = 'Se si permettono queste opzioni per Informazioni di Base verranno visualizzate anche lato cliente';
 $lang['settings_general_tables_limit']                = 'Limiti Paginazione Tabelle';
 $lang['settings_general_default_staff_role']          = 'Ruolo Staff Predefintio';
@@ -547,7 +547,7 @@ $lang['als_contracts']             = 'Contratti';
 $lang['als_sales']                 = 'Vendite';
 $lang['als_staff']                 = 'Staff';
 $lang['als_tasks']                 = 'Attività';
-$lang['als_kb']                    = 'Knowledge base';
+$lang['als_kb']                    = 'FAQ';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Resoconti';
 $lang['als_reports_sales_submenu'] = 'Vendite';
@@ -837,7 +837,7 @@ $lang['clients_edit_profile_change_password_btn']     = 'Cambia Password';
 $lang['clients_profile_last_changed_password']        = 'Ultima Password cambiata %s';
 
 # Knowledge base
-$lang['clients_knowledge_base']                    = 'Informazioni di Base';
+$lang['clients_knowledge_base']                    = 'FAQ';
 $lang['clients_knowledge_base_articles_not_found'] = 'Nessun articolo Informazione di Base trovato';
 $lang['clients_knowledge_base_find_useful']        = 'Hai trovato utile quest\'articolo?';
 $lang['clients_knowledge_base_find_useful_yes']    = 'Si';
@@ -889,7 +889,7 @@ $lang['clients_nav_login']     = 'Accedi';
 $lang['clients_nav_register']  = 'Registrazione';
 $lang['clients_nav_invoices']  = 'Fatture';
 $lang['clients_nav_contracts'] = 'Contratti';
-$lang['clients_nav_kb']        = 'Informazioni di Base';
+$lang['clients_nav_kb']        = 'FAQ';
 $lang['clients_nav_profile']   = 'Profilo';
 $lang['clients_nav_logout']    = 'Esci';
 
@@ -968,7 +968,7 @@ $lang['client_phonenumber'] = 'Telefono';
 # Main Clients
 $lang['clients_register']                          = 'Registrazione';
 $lang['clients_profile_updated']                   = 'Il tuo profilo è stato aggiornato';
-$lang['clients_successfully_registered']           = 'Thank your for registering';
+$lang['clients_successfully_registered']           = 'Grazie della tua registrazione.';
 $lang['clients_account_created_but_not_logged_in'] = 'Il tuo account è stato creato ma non hai effettuato automaticamente l\'accesso al nostro sistema. Per favore, prova ad accedere.';
 # Tickets
 $lang['clients_tickets_heading'] = 'Ticket di Supporto';
@@ -3412,7 +3412,7 @@ $lang['help_leads_permission_view']          = 'Se questa autorizzazione non vie
 # Version 2.0.0
 
 $lang['customers']                                              = $lang['clients'];
-$lang['knowledge_base']                                         = $lang['kb_string'];
+$lang['knowledge_base']                                         = 'FAQ';
 $lang['staff']                                                  = $lang['als_staff'];
 $lang['checklist_templates']                                    = 'Task Checklist Templates';
 $lang['emails_tracking']                                        = 'Monitoraggio delle email';
@@ -3629,27 +3629,27 @@ $lang['sales_item'] = 'Articoli';
 
 # Version 2.3.0
 
-$lang['modules']                    = 'Modules';
-$lang['module']                     = 'Module';
-$lang['module_description']         = 'Description';
-$lang['module_activate']            = 'Activate';
-$lang['module_deactivate']          = 'Deactivate';
-$lang['module_uninstall']           = 'Uninstall';
-$lang['module_upgrade_database']    = 'Upgrade Database';
-$lang['module_settings']            = 'Settings';
+$lang['modules']                    = 'Moduli';
+$lang['module']                     = 'Modulo';
+$lang['module_description']         = 'Descrizione';
+$lang['module_activate']            = 'Attiva';
+$lang['module_deactivate']          = 'Disattiva';
+$lang['module_uninstall']           = 'Disistalla';
+$lang['module_upgrade_database']    = 'Aggiorna Database';
+$lang['module_settings']            = 'Impostazioni';
 $lang['module_version']             = 'Version %s';
 $lang['module_by']                  = 'By %s';
 $lang['staff_which_are_using_role'] = 'Staff members which are using this role';
-$lang['copy']                       = 'Copy';
+$lang['copy']                       = 'Copia';
 $lang['read_more']                  = 'Read More';
-$lang['show_less']                  = 'Show Less';
+$lang['show_less']                  = 'Mostra meno';
 $lang['project_progress_text']      = 'Project Progress';
 $lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
-$lang['refunds']                                 = 'Refunds';
-$lang['refund']                                  = 'Refund';
-$lang['refund_amount']                           = 'Refunded Amount';
-$lang['not_refunds_found']                       = 'No refunds found';
-$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+$lang['refunds']                                 = 'Rimborsi';
+$lang['refund']                                  = 'Rimborso';
+$lang['refund_amount']                           = 'Totale Rimborsi';
+$lang['not_refunds_found']                       = 'Rimborso non trovato';
+$lang['refunds_applied_cant_delete_credit_note'] = 'In questa nota di accredito sono stati applicati rimborsi, è necessario prima eliminare i rimborsi per eliminare la nota di accredito.';
 
 # Version 2.3.2
 $lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
@@ -3666,3 +3666,18 @@ $lang['payment_sent_failed']                       = 'Failed to send payment rec
 # Version 2.3.5
 $lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
 $lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
