@@ -3494,14 +3494,14 @@ $lang['next_invoice_date_list'] = 'Sonraki Fatura Tarihi';
 $lang['enter_new_card']    = 'Yeni Kart Ekle';
 
 # Version 2.2.0
-$lang['save_and_record_payment']                                     = 'Save & Record Payment';
+$lang['save_and_record_payment']                                     = 'Ödemeyi Sakla & Kaydet';
 $lang['choose_from_google_drive']                                    = 'Google Drive dan seç';
 $lang['open_in_google']                                              = 'Google ile aç';
 $lang['google_picker']                                               = 'Google Seçici';
 $lang['enable_google_picker']                                        = 'Google Seçiciyi Etkinleştir';
 $lang['google_api_client_id']                                        = 'Google API Client ID';
 $lang['subtract_tax_total_from_amount']                              = 'Vergi toplamını (%s) mevcut miktardan düş';
-$lang['expense_subtract_info_text']                                  = 'Harcama tutarını vergiyi dahil ederek girdiğinizde kullandığınız toplam vergi tutarını, gider tutarından çıkarmak için bu seçeneği kullanın.(vergi dahil toplam değer girdiyseniz)'; 
+$lang['expense_subtract_info_text']                                  = 'Harcama tutarını vergiyi dahil ederek girdiğinizde kullandığınız toplam vergi tutarını, gider tutarından çıkarmak için bu seçeneği kullanın.(vergi dahil toplam değer girdiyseniz)';
 $lang['company_exists_info']                                         = '%s adlı bir müşteriniz zaten var, hala aynı isimle müşteriyi oluşturmak istiyorsanız bu mesajı yok sayabilirsiniz.';
 $lang['import_items']                                                = 'Ürünleri/Hizmetleri İçe Aktar';
 $lang['total_items_deleted']                                         = 'Toplam silinen ürün: %s';
@@ -3574,5 +3574,20 @@ $lang['payment_sent_successfully']                 = 'Ödeme makbuzu başarıyla
 $lang['payment_sent_failed']                       = 'Ödeme makbuzu gönderilemedi.';
 
 # Version 2.3.5
-$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
-$lang['attach_statement']            = 'Attach Customer Statement';
+$lang['tags_update_replace_warning'] = 'Etiket adı zaten var olduğundan, bazı etiketler güncellenmedi';
+$lang['attach_statement']            = 'Müşteri Bailançosunu Ekle';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Kredi Kartını Sil';
+$lang['delete_credit_card_info']          = 'Aktif abonelikleriniz olduğu için kredi kartını silemezsiniz.';
+$lang['credit_card_successfully_deleted'] = 'Kredi kartı başarıyla silindi.';
+$lang['subscription_incomplete']          = 'Tamamlanmayan';
+$lang['subscription_incomplete_expired']  = 'Süresi Dolmuş Eksik Abonelik';
+$lang['credit_card_short']                = 'Kart';
+$lang['webhook_created']                  = 'Web Kancası Başarıyla Oluşturuldu';
+$lang['subscriptions_terms_info']         = 'Müşteriler abone olmadan önce uymaları gereken şartlar ve koşulları girin.';
+$lang['subscription_complete_payment']    = 'Ödemeyi Tamamla';
+$lang['subscription_is_subscription_is_expired'] = 'Bu aboneliğin süresi doldu.';
+$lang['subscription_plan_currency_does_not_match'] = 'Seçilen plana ait para birimi aşağıda seçilen para birimiyle eşleşmiyor.';
+$lang['subscription_first_billing_date_info'] = 'Müşteri abonelik tarihi için, müşteri abone olduğundaki tarihi kullanmak için boş bırakın. Bu alan gelecekteki bir tarih olmalıdır, geçmiş bir tarih seçtiyseniz ancak müşteri henüz abone olmadıysa, müşterinin abone olacağı tarih kullanılacaktır.';
+$lang['stripe_subscription_select_plan'] = 'Stripe Planı Seçin';
