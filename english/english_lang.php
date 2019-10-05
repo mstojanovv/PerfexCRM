@@ -2160,7 +2160,7 @@ $lang['discussion_no_comments']                              = 'No comments';
 $lang['discussion_no_attachments']                           = 'No attachments';
 $lang['discussion_attachments_drop']                         = 'Drag and drop to upload file';
 $lang['project_note']                                        = 'Note';
-$lang['project_note_private']                                = 'Private notes';
+$lang['project_note_private']                                = 'Personal notes';
 $lang['project_save_note']                                   = 'Save note';
 
 # Project Activity
@@ -3592,3 +3592,18 @@ $lang['payment_sent_failed']                       = 'Failed to send payment rec
 # Version 2.3.5
 $lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
 $lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';

@@ -1153,7 +1153,7 @@ $lang['invoice_item_long_description'] = 'Description';
 
 # Clients
 $lang['clients_list_phone']                = 'Téléphone';
-$lang['client_expenses_tab']               = 'Achats';
+$lang['client_expenses_tab']               = 'Dépenses';
 $lang['customers_summary']                 = 'Synthèse des Clients';
 $lang['customers_summary_active']          = 'Contacts Actifs';
 $lang['customers_summary_inactive']        = 'Contacts Inactifs';
@@ -1237,9 +1237,9 @@ $lang['contract_renewal_old_end_date']        = 'L\'ancienne date de fin du cont
 $lang['contract_attachment']                  = 'Pièce jointe';
 
 # Admin Aside Menu
-$lang['als_expenses']           = 'Achats';
-$lang['als_reports_expenses']   = 'Achats';
-$lang['als_expenses_vs_income'] = 'Achats vs Ventes';
+$lang['als_expenses']           = 'Dépenses';
+$lang['als_reports_expenses']   = 'Dépenses';
+$lang['als_expenses_vs_income'] = 'Dépenses vs Ventes';
 
 # Factures
 $lang['invoice_attach_file']           = 'Pièce jointe';
@@ -1251,29 +1251,29 @@ $lang['invoice_marked_as_sent_failed'] = 'Echec pour marquer la facture comme en
 $lang['payment_transaction_id'] = 'Référence de transaction';
 
 # Settings Menu
-$lang['acs_expense_categories'] = 'Catégories d\'achats';
+$lang['acs_expense_categories'] = 'Catégories dépenses';
 
-# Achats
-$lang['expense_category']                             = 'Catégorie d\'achats';
-$lang['expense_category_lowercase']                   = 'catégorie d\'achats';
-$lang['new_expense']                                  = 'Enregistrer un achat';
-$lang['expense_add_edit_name']                        = 'Nom de l\'achat';
+# Dépenses
+$lang['expense_category']                             = 'Catégorie d\'dépenses';
+$lang['expense_category_lowercase']                   = 'catégorie d\'dépenses';
+$lang['new_expense']                                  = 'Enregistrer un dépenses';
+$lang['expense_add_edit_name']                        = 'Nom de l\'dépenses';
 $lang['expense_add_edit_description']                 = 'Description';
-$lang['expense_categories']                           = 'Catégories d\'achats';
+$lang['expense_categories']                           = 'Catégories d\'dépenses';
 $lang['new_expense_category']                         = 'Ajouter une catégorie';
 $lang['dt_expense_description']                       = 'Description';
-$lang['expense']                                      = 'Achat';
-$lang['expenses']                                     = 'Achats';
-$lang['expense_lowercase']                            = 'achat';
+$lang['expense']                                      = 'Dépense';
+$lang['expenses']                                     = 'Dépenses';
+$lang['expense_lowercase']                            = 'dépenses';
 $lang['expense_add_edit_customer']                    = 'Client';
 $lang['expense_add_edit_note']                        = 'Note';
-$lang['expense_add_edit_date']                        = 'Date de l\'achat';
+$lang['expense_add_edit_date']                        = 'Date de l\'dépenses';
 $lang['expense_add_edit_amount']                      = 'Montant';
 $lang['expense_add_edit_billable']                    = 'Facturable';
 $lang['expense_add_edit_attach_receipt']              = 'Joindre un reçu';
 $lang['expense_add_edit_reference_no']                = 'Référence';
-$lang['expense_receipt']                              = 'Reçu de l\'achat';
-$lang['expense_receipt_lowercase']                    = 'reçu de l\'achat';
+$lang['expense_receipt']                              = 'Reçu de l\'dépenses';
+$lang['expense_receipt_lowercase']                    = 'reçu de l\'dépenses';
 $lang['expense_dt_table_heading_category']            = 'Catégorie';
 $lang['expense_dt_table_heading_amount']              = 'Montant';
 $lang['expense_dt_table_heading_date']                = 'Date';
@@ -1308,9 +1308,9 @@ $lang['expense_already_invoiced']                     = 'Cette dépense est déj
 $lang['expense_recurring_auto_create_invoice']        = 'Création automatique de la facture';
 $lang['expense_recurring_send_custom_on_renew']       = 'Envoyer la facture au client quand la dépense est récurrente';
 $lang['expense_recurring_autocreate_invoice_tooltip'] = 'Si cette option est cochée la facture pour le client sera automatiquement créée lors du renouvellement de la dépense.';
-$lang['expenses_yearly_by_categories']                = 'Achats annuelles par catégories';
-$lang['total_expenses_for']                           = 'Total achats pour'; // année
-$lang['expenses_report_for']                          = 'Achats pour'; // année
+$lang['expenses_yearly_by_categories']                = 'Dépenses annuelles par catégories';
+$lang['total_expenses_for']                           = 'Total dépenses pour'; // année
+$lang['expenses_report_for']                          = 'Dépenses pour'; // année
 # Custom fields
 $lang['custom_field_required']    = 'Requis';
 $lang['custom_field_show_on_pdf'] = 'Afficher sur les documents PDF';
@@ -1319,7 +1319,7 @@ $lang['custom_field_customers']   = 'Clients';
 $lang['custom_field_staff']       = 'Collaborateurs';
 $lang['custom_field_contracts']   = 'Contrats';
 $lang['custom_field_tasks']       = 'Tâches';
-$lang['custom_field_expenses']    = 'Achats';
+$lang['custom_field_expenses']    = 'Dépenses';
 $lang['custom_field_invoice']     = 'Facture';
 $lang['custom_field_estimate']    = 'Devis';
 
@@ -1415,7 +1415,7 @@ $lang['localization_default_language'] = 'Langue par défaut';
 $lang['system_default_string']         = 'Système par défaut';
 $lang['advanced_options']              = 'Options avancées';
 
-# Achats
+# Dépenses
 $lang['expense_list_invoice']  = 'Facturée';
 $lang['expense_list_billed']   = 'Facturée';
 $lang['expense_list_unbilled'] = 'Non facturée';
@@ -1509,18 +1509,18 @@ $lang['kb_group_color'] = 'Couleur';
 $lang['kb_group_order'] = 'Ordre';
 
 # Utilities - BULK PDF Exporter
-$lang['bulk_pdf_exporter']               = 'Exportation PDF';
-$lang['bulk_export_pdf_payments']        = 'Règlements';
-$lang['bulk_export_pdf_estimates']       = 'Devis';
-$lang['bulk_export_pdf_invoices']        = 'Factures';
-$lang['bulk_pdf_export_button']          = 'Exporter';
-$lang['bulk_pdf_export_select_type']     = 'Sélectionner un type';
-$lang['no_data_found_bulk_pdf_export']   = 'Aucune donnée trouvée pour l\'exportation';
-$lang['bulk_export_status_all']          = 'Tous';
-$lang['bulk_export_status']              = 'Statut';
-$lang['bulk_export_zip_payment_modes']   = 'Règlement effectué par:';
-$lang['bulk_export_include_tag']         = 'Inclure une étiquette';
-$lang['bulk_export_include_tag_help']    = 'Ex. Original ou Copie. L\'étiquette sera incluse dans le PDF. Il est recommandé d\'utiliser un seul mot.';
+$lang['bulk_pdf_exporter']             = 'Exportation PDF';
+$lang['bulk_export_pdf_payments']      = 'Règlements';
+$lang['bulk_export_pdf_estimates']     = 'Devis';
+$lang['bulk_export_pdf_invoices']      = 'Factures';
+$lang['bulk_pdf_export_button']        = 'Exporter';
+$lang['bulk_pdf_export_select_type']   = 'Sélectionner un type';
+$lang['no_data_found_bulk_pdf_export'] = 'Aucune donnée trouvée pour l\'exportation';
+$lang['bulk_export_status_all']        = 'Tous';
+$lang['bulk_export_status']            = 'Statut';
+$lang['bulk_export_zip_payment_modes'] = 'Règlement effectué par:';
+$lang['bulk_export_include_tag']       = 'Inclure une étiquette';
+$lang['bulk_export_include_tag_help']  = 'Ex. Original ou Copie. L\'étiquette sera incluse dans le PDF. Il est recommandé d\'utiliser un seul mot.';
 
 # Version 1.0.7
 ## Clients - portal
@@ -1593,8 +1593,8 @@ $lang['ticket_status_edit']   = 'Editer un statut ticket';
 $lang['ticket_service_edit']  = 'Editer un service ticket';
 $lang['edit_department']      = 'Editer le département';
 
-# Achats
-$lang['edit_expense_category'] = 'Editer la catégorie d\'achats';
+# Dépenses
+$lang['edit_expense_category'] = 'Editer la catégorie d\'dépenses';
 
 # Settings
 $lang['customer_default_country']                                 = 'Pays par défaut';
@@ -1797,26 +1797,26 @@ $lang['form_validation_is_unique']   = 'Le champ {field} doit contenir une valeu
 # Version 1.0.8
 
 # Notifications & Prospects/Devis/Factures Activity Log
-$lang['not_event']                                    = 'Evénement démarre aujourd\'hui - %s ...';
-$lang['not_event_public']                             = 'Evénement public démarre aujourd\'hui - %s ...';
-$lang['not_contract_expiry_reminder']                 = 'Rappel de l\'expiration du contrat - %s ...';
-$lang['not_recurring_expense_cron_activity_heading']  = 'Achats récurrentes du Cron Job Activité';
-$lang['not_recurring_invoices_cron_activity_heading'] = 'Factures récurrentes du Cron Job Activité';
-$lang['not_recurring_total_renewed']                  = 'Total renouvelé: %s';
-$lang['not_recurring_expenses_action_taken_from']     = 'Mesure prise en fonction des achats récurrents';
-$lang['not_invoice_created']                          = 'Facture créée:';
-$lang['not_invoice_renewed']                          = 'Facture renouvelée:';
-$lang['not_expense_renewed']                          = 'Dépense renouvelée:';
-$lang['not_invoice_sent_to_customer']                 = 'Facture envoyée au client: %s';
-$lang['not_invoice_sent_yes']                         = 'Oui';
-$lang['not_invoice_sent_not']                         = 'Non';
-$lang['not_action_taken_from_recurring_invoice']      = 'Mesure prise en fonction des factures récurrentes:';
-$lang['not_new_reminder_for']                         = 'Nouveau rappel pour %s';
-$lang['not_received_one_or_more_messages_lead']       = 'message email reçu de votre prospect';
-$lang['not_received_lead_imported_email_integration'] = 'Prospect importé de l\'intégration email';
-$lang['not_lead_imported_attachment']                 = 'Pièces jointes importées de l\email';
-$lang['not_estimate_status_change']                   = 'Pièces jointes importées de l\email';
-$lang['not_estimate_status_updated']                  = 'Mise à jour statut devis: de: %s à %s';
+$lang['not_event']                                                = 'Evénement démarre aujourd\'hui - %s ...';
+$lang['not_event_public']                                         = 'Evénement public démarre aujourd\'hui - %s ...';
+$lang['not_contract_expiry_reminder']                             = 'Rappel de l\'expiration du contrat - %s ...';
+$lang['not_recurring_expense_cron_activity_heading']              = 'Dépenses récurrentes du Cron Job Activité';
+$lang['not_recurring_invoices_cron_activity_heading']             = 'Factures récurrentes du Cron Job Activité';
+$lang['not_recurring_total_renewed']                              = 'Total renouvelé: %s';
+$lang['not_recurring_expenses_action_taken_from']                 = 'Mesure prise en fonction des dépenses récurrents';
+$lang['not_invoice_created']                                      = 'Facture créée:';
+$lang['not_invoice_renewed']                                      = 'Facture renouvelée:';
+$lang['not_expense_renewed']                                      = 'Dépense renouvelée:';
+$lang['not_invoice_sent_to_customer']                             = 'Facture envoyée au client: %s';
+$lang['not_invoice_sent_yes']                                     = 'Oui';
+$lang['not_invoice_sent_not']                                     = 'Non';
+$lang['not_action_taken_from_recurring_invoice']                  = 'Mesure prise en fonction des factures récurrentes:';
+$lang['not_new_reminder_for']                                     = 'Nouveau rappel pour %s';
+$lang['not_received_one_or_more_messages_lead']                   = 'message email reçu de votre prospect';
+$lang['not_received_lead_imported_email_integration']             = 'Prospect importé de l\'intégration email';
+$lang['not_lead_imported_attachment']                             = 'Pièces jointes importées de l\email';
+$lang['not_estimate_status_change']                               = 'Pièces jointes importées de l\email';
+$lang['not_estimate_status_updated']                              = 'Mise à jour statut devis: de: %s à %s';
 $lang['not_assigned_lead_to_you']                                 = 'vous a assigné le prospect %s';
 $lang['not_lead_activity_assigned_to']                            = '%s assigné à %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Supprimer les pièces jointes';
@@ -2372,7 +2372,7 @@ $lang['proposals_sort_proposal_date']                     = 'Date de offre';
 $lang['is_not_staff_member']                              = 'Ce n\'est pas un membre du personnel';
 $lang['lead_created']                                     = 'Créé';
 $lang['access_tickets_to_none_staff_members']             = 'Permet aux non membres du personnel d\'accéder aux tickets';
-$lang['project_expenses']                                 = 'Achats';
+$lang['project_expenses']                                 = 'Dépenses';
 $lang['expense_currency']                                 = 'Devise';
 $lang['currency_valid_code_help']                         = 'Assurez-vous de bien saisir un code devise valide.';
 $lang['week']                                             = 'Semaine';
@@ -2399,16 +2399,16 @@ $lang['unpin_project']                                    = 'Détacher le projet
 $lang['smtp_encryption']                                  = 'Encryption e-mail';
 $lang['smtp_encryption_none']                             = 'Aucun';
 $lang['show_proposals_on_calendar']                       = 'Offres';
-$lang['invoice_project_see_billed_expenses']              = 'Afficher les achats qui seront facturés sur cette facture';
-$lang['project_overview_expenses']                        = 'Total des achats';
-$lang['project_overview_expenses_billable']               = 'Achats facturables';
-$lang['project_overview_expenses_billed']                 = 'Achats facturés';
-$lang['project_overview_expenses_unbilled']               = 'Achats non facturés';
+$lang['invoice_project_see_billed_expenses']              = 'Afficher les dépenses qui seront facturés sur cette facture';
+$lang['project_overview_expenses']                        = 'Total des dépenses';
+$lang['project_overview_expenses_billable']               = 'Dépenses facturables';
+$lang['project_overview_expenses_billed']                 = 'Dépenses facturés';
+$lang['project_overview_expenses_unbilled']               = 'Dépenses non facturés';
 $lang['announcement_date_list']                           = 'Date';
 $lang['project_setting_view_finance_overview']            = 'afficher la vue d\'ensemble des finances';
 $lang['show_all_tasks_for_project_member']                = 'Permettre à tout le personnel de visualiser toutes les tâches en rapport avec les projects (même les non-membres)';
 $lang['not_staff_added_as_project_member']                = 'Vous a ajouté en tant que membre de projet';
-$lang['report_expenses_base_currency_select_explanation'] = 'Vous devez sélectionner une devise car le system a trouvé différentes devises pour les achats.';
+$lang['report_expenses_base_currency_select_explanation'] = 'Vous devez sélectionner une devise car le system a trouvé différentes devises pour les dépenses.';
 
 # Version 1.1.6
 $lang['project_activity_recorded_expense']   = 'Dépense enregistrée';
@@ -2442,7 +2442,7 @@ $lang['reminder']                               = 'Rappel';
 $lang['back_to_tasks_list']                     = 'Retour à la liste de tâches';
 $lang['copy_task_confirm']                      = 'Confirmer';
 $lang['changing_items_affect_warning']          = 'La modification des infos n\'affectera les factures/devis.';
-$lang['tax_is_used_in_expenses_warning']        = 'Vous ne pouvez pas mettre à jour cette taxe car elle est appliquée à certains achats.';
+$lang['tax_is_used_in_expenses_warning']        = 'Vous ne pouvez pas mettre à jour cette taxe car elle est appliquée à certains dépenses.';
 $lang['note']                                   = 'Note';
 $lang['leads_staff_report_converted']           = 'Nombre total de cibles converties';
 $lang['leads_staff_report_created']             = 'Nombre total de cibles converties';
@@ -2466,9 +2466,9 @@ $lang['to_date']                                = 'Date de fin';
 $lang['not_results_found']                      = 'Aucun résultat';
 $lang['lead_lock_after_convert_to_customer']    = 'Ne pas permettre de modifier la cible une fois qu\'elle a été convertie en client (admins pas appliqués)';
 $lang['default_pipeline_sort']                  = 'Trie du pipeline par défaut';
-$lang['toggle_full_view']             = 'Basculer en plein écran';
-$lang['not_estimate_invoice_deleted'] = 'a supprimé la facture émise';
-$lang['not_task_new_comment']         = 'a commenté la tâche %s';
+$lang['toggle_full_view']                       = 'Basculer en plein écran';
+$lang['not_estimate_invoice_deleted']           = 'a supprimé la facture émise';
+$lang['not_task_new_comment']                   = 'a commenté la tâche %s';
 
 # Version 1.1.8
 $lang['invoice_number_exists']                  = 'Ce numéro de facture existe pour l\'année en cours.';
@@ -2547,8 +2547,8 @@ $lang['remove_decimals_on_zero']         = 'Supprimer les décimales sur les nom
 $lang['remove_tax_name_from_item_table'] = 'Supprimer le nom de la taxe de la ligne item du tableau';
 
 # Version 1.2.0
-$lang['not_billable_expenses_by_categories']      = 'Achats non facturables par catégories';
-$lang['billable_expenses_by_categories']          = 'Achats facturables par catégories';
+$lang['not_billable_expenses_by_categories']      = 'Dépenses non facturables par catégories';
+$lang['billable_expenses_by_categories']          = 'Dépenses facturables par catégories';
 $lang['format_letter_size']                       = 'A4 Paysage';
 $lang['pdf_formats']                              = 'Formats des documents';
 $lang['swap_pdf_info']                            = 'Intervertir les infos de l’entreprise et du client (mettre les infos de l’entreprise à droite et celles du client à gauche)';
@@ -2561,7 +2561,7 @@ $lang['estimate_activity_added_attachment']       = 'Fichier joint ajouté';
 $lang['show_to_customer']                         = 'Afficher au client';
 $lang['hide_from_customer']                       = 'Masquer au client';
 $lang['expenses_report_total']                    = 'Total';
-$lang['expenses_report']                          = 'Rapport d\'achats';
+$lang['expenses_report']                          = 'Rapport d\'dépenses';
 $lang['expenses_report_total_tax']                = 'Taxe totale';
 $lang['expenses_detailed_report']                 = 'Rapport détaillé';
 $lang['expense_not_billable']                     = 'Non facturable';
@@ -2678,12 +2678,12 @@ $lang['task_recurring_days']                       = $lang['expense_recurring_da
 $lang['task_recurring_weeks']                      = $lang['expense_recurring_weeks'];
 $lang['todays_tasks']                              = 'Tâches d\'aujourd\'hui';
 $lang['payment_mode_invoices_only']                = 'Factures uniquement';
-$lang['payment_mode_expenses_only']                = 'Achats uniquement';
+$lang['payment_mode_expenses_only']                = 'Dépenses uniquement';
 $lang['task_no_checklist_items_found']             = 'Éléments de la liste de contrôle introuvables pour cette tâche';
 $lang['task_no_description']                       = 'Aucune description pour cette tâche';
 $lang['expenses_reminders']                        = 'Relances';
-$lang['expense_set_reminder_title']                = 'Définir relance d\'achats';
-$lang['calendar_expense_reminder']                 = 'Relance d\'achats';
+$lang['expense_set_reminder_title']                = 'Définir relance d\'dépenses';
+$lang['calendar_expense_reminder']                 = 'Relance d\'dépenses';
 $lang['recurring_task']                            = 'Tâches récurrentes';
 $lang['disable_email_from_being_sent']             = 'Désactiver l\'envoi cet e-mail';
 $lang['not_sent_indicator']                        = 'Non envoyé';
@@ -2710,7 +2710,7 @@ $lang['payment_method_info']                                  = 'Certaines passe
 
 # Version 1.2.7
 $lang['dropbox_app_key']                                    = 'Clé APP Dropbox APP';
-$lang['project_invoice_select_all_expenses']                = 'Sélectionner toutes les achats';
+$lang['project_invoice_select_all_expenses']                = 'Sélectionner toutes les dépenses';
 $lang['role_update_staff_permissions']                      = 'Mise à jour de toutes les autorisations des membres du personnel qui utilisent ce rôle';
 $lang['customer_active']                                    = 'Actif';
 $lang['note_updated_successfully']                          = 'Échec de la mise à jour';
@@ -2742,7 +2742,7 @@ $lang['project_send_created_email']                         = 'Envoyé l\'e-mail
 $lang['show_transactions_on_invoice_pdf']            = 'Afficher les paiements sur factures (transactions) en PDF';
 $lang['bulk_actions']                                = 'Actions en masse';
 $lang['additional_filters']                          = 'Filtres Additionnels';
-$lang['expenses_available_to_bill']                  = 'Achats éligibles à la facturation';
+$lang['expenses_available_to_bill']                  = 'Dépenses éligibles à la facturation';
 $lang['bulk_action_customers_groups_warning']        = 'Si vous ne sélectionnez aucun groupe tous les groupes liés à ce clients seronts supprimés.';
 $lang['customer_attachments_show_in_customers_area'] = 'Afficher dans l\'espace client';
 $lang['customer_attachments_show_notice']            = 'Seuls les fichiers téléversé depuis l\'espace client seront affiché ou caché dans ce même espace.';
@@ -2812,7 +2812,7 @@ $lang['no_proposals_found']                      = 'Aucune offre trouvée';
 $lang['no_estimates_found']                      = 'Pas de Devis trouvé';
 $lang['pipeline_limit_status']                   = 'Limite de Pipeline par statut';
 $lang['settings_update']                         = 'Mise à jour';
-$lang['purchase_key']                            = 'Clé d\'achat';
+$lang['purchase_key']                            = 'Clé d\'dépenses';
 $lang['update_now']                              = 'Mettre à jour maintenant';
 $lang['update_available']                        = 'Une mise à jour est disponible';
 $lang['latest_version']                          = 'Dernière Version';
@@ -2843,14 +2843,14 @@ $lang['item_group_name']                                    = 'Nom du groupe';
 $lang['new_item_group']                                     = 'Nouveau Groupe';
 $lang['show_setup_menu_item_only_on_hover']                 = 'Afficher l\'élément du menu de configuration seulement lors du survol de la souris sur la sidebar';
 $lang['internal_article']                                   = 'Article Interne';
-$lang['expenses_created_from_this_recurring_expense']       = 'Achats créés depuis cet achat récurrent';
+$lang['expenses_created_from_this_recurring_expense']       = 'Dépenses créés depuis cet dépenses récurrent';
 $lang['convert_to_task']                                    = 'Convertir en Tâche';
 $lang['next_invoice_date']                                  = 'Prochaine date de Facture: %s';
 $lang['next_expense_date']                                  = 'Prochaine date de Dépense: %s';
 $lang['invoice_recurring_from']                             = 'Cette facture est créée depuis la facture récurrente avec le numéro: %s';
 $lang['expense_recurring_from']                             = 'Cette dépense est créée depuis cette dépense récurrente: %s';
 $lang['child_invoices']                                     = 'Factures Parentes';
-$lang['child_expenses']                                     = 'Achats Parents';
+$lang['child_expenses']                                     = 'Dépenses Parents';
 $lang['no_announcements']                                   = 'Aucune Annonces';
 $lang['unit']                                               = 'Unité';
 $lang['permission_view_own']                                = 'Afficher (Votre)';
@@ -3480,7 +3480,7 @@ $lang['briefly_describe_why_remove_data']                       = 'Décrivez bri
 $lang['date_published']                                         = 'Date de publication';
 $lang['view']                                                   = 'Voir';
 $lang['customer_is_subscribed_to_subscription_info']            = 'Le client a souscrit à cet abonnement';
-$lang['save_last_order_for_tables'] = 'Enregistrer le tri des tables';
+$lang['save_last_order_for_tables']                             = 'Enregistrer le tri des tables';
 $lang['date_created']                                           = 'Date de création';
 
 # Version 2.0.1
@@ -3490,19 +3490,19 @@ $lang['customer_requires_registration_confirmation']            = 'Requiert une 
 $lang['confirm_registration']                                   = 'Confirmer l\'inscription';
 $lang['customer_registration_successfully_confirmed']           = 'Inscription du client confirmée avec succès';
 $lang['customer_register_account_confirmation_approval_notice'] = 'Merci pour votre inscription, votre compte est en attente de validation et sera bientôt actif.';
-$lang['after_subscription_payment_succeeded'] = 'Paiement après abonnement réussi';
-$lang['subscription_option_send_invoice'] = 'Envoyer facture';
-$lang['subscription_option_send_payment_receipt'] = 'Envoyer reçu de paiement';
-$lang['subscription_option_send_payment_receipt_and_invoice'] = 'Envoyer facture et reçu de paiement';
-$lang['subscription_option_do_nothing'] = 'Ne rien faire';
-$lang['gdpr_not_enabled'] = 'GDPR désactivé';
-$lang['enable_gdpr'] = 'Activer GDPR';
-$lang['gdpr_right_to_rectification'] = 'Droit de modification';
-$lang['test_sms_config'] = 'Tester configuration SMS';
-$lang['test_sms_message'] = 'Tester message';
-$lang['send_test_sms'] = 'Envoyer SMS de test';
-$lang['gdpr_short'] = 'GDPR';
-$lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Autoriser les collaborateurs hors administrateurs à supprimer les pièces jointes des tickets';
+$lang['after_subscription_payment_succeeded']                   = 'Paiement après abonnement réussi';
+$lang['subscription_option_send_invoice']                       = 'Envoyer facture';
+$lang['subscription_option_send_payment_receipt']               = 'Envoyer reçu de paiement';
+$lang['subscription_option_send_payment_receipt_and_invoice']   = 'Envoyer facture et reçu de paiement';
+$lang['subscription_option_do_nothing']                         = 'Ne rien faire';
+$lang['gdpr_not_enabled']                                       = 'GDPR désactivé';
+$lang['enable_gdpr']                                            = 'Activer GDPR';
+$lang['gdpr_right_to_rectification']                            = 'Droit de modification';
+$lang['test_sms_config']                                        = 'Tester configuration SMS';
+$lang['test_sms_message']                                       = 'Tester message';
+$lang['send_test_sms']                                          = 'Envoyer SMS de test';
+$lang['gdpr_short']                                             = 'GDPR';
+$lang['allow_non_admin_staff_to_delete_ticket_attachments']     = 'Autoriser les collaborateurs hors administrateurs à supprimer les pièces jointes des tickets';
 
 # Version 2.1.0
 $lang['contract_number']                                = 'Numéro du contrat';
@@ -3518,11 +3518,11 @@ $lang['contract_notes']                                 = 'Notes';
 $lang['contract_add_note']                              = 'Ajouter une note';
 
 # Version 2.1.1
-$lang['frequency']         = 'Fréquence';
-$lang['frequency_every']   = 'Tous les %s';
-$lang['last_invoice_date'] = 'Dernière date de facture';
+$lang['frequency']              = 'Fréquence';
+$lang['frequency_every']        = 'Tous les %s';
+$lang['last_invoice_date']      = 'Dernière date de facture';
 $lang['next_invoice_date_list'] = 'Prochaine date de facture';
-$lang['enter_new_card']    = 'Ajouter une nouvelle carte';
+$lang['enter_new_card']         = 'Ajouter une nouvelle carte';
 
 # Version 2.2.0
 $lang['save_and_record_payment']                                     = 'Enregistrer & encoder le paiement';
@@ -3564,27 +3564,27 @@ $lang['not_customer_uploaded_file']                                  = 'Nouveau 
 
 # Version 2.2.1
 $lang['customer_files_info_message'] = 'Les fichiers des projets et tâches liées au client n\'apparaissent pas dans cette liste';
-$lang['ticket_import_reply_only'] = 'Importer uniquement les réponses de ce ticket (sans le message cité/transféré)';
-$lang['learn_more'] = 'En savoir plus';
+$lang['ticket_import_reply_only']    = 'Importer uniquement les réponses de ce ticket (sans le message cité/transféré)';
+$lang['learn_more']                  = 'En savoir plus';
 $lang['sales_item']                  = 'Article';
 
 # Version 2.3.0
 
-$lang['modules']                    = 'Modules';
-$lang['module']                     = 'Module';
-$lang['module_description']         = 'Description';
-$lang['module_activate']            = 'Activé';
-$lang['module_deactivate']          = 'Désactivé';
-$lang['module_uninstall']           = 'Désinstaller';
-$lang['module_upgrade_database']    = 'Mise à jour de la base de données';
-$lang['module_settings']            = 'Paramètres';
-$lang['module_version']             = 'Version %s';
-$lang['module_by']                  = 'par %s';
-$lang['staff_which_are_using_role'] = 'Les collègues utilisant ce rôle';
-$lang['copy']                       = 'Dupliquer';
-$lang['read_more']                  = 'Lire plus';
-$lang['show_less']                  = 'Cacher';
-$lang['project_progress_text']      = 'Avancement du projet';
+$lang['modules']                                 = 'Modules';
+$lang['module']                                  = 'Module';
+$lang['module_description']                      = 'Description';
+$lang['module_activate']                         = 'Activé';
+$lang['module_deactivate']                       = 'Désactivé';
+$lang['module_uninstall']                        = 'Désinstaller';
+$lang['module_upgrade_database']                 = 'Mise à jour de la base de données';
+$lang['module_settings']                         = 'Paramètres';
+$lang['module_version']                          = 'Version %s';
+$lang['module_by']                               = 'par %s';
+$lang['staff_which_are_using_role']              = 'Les collègues utilisant ce rôle';
+$lang['copy']                                    = 'Dupliquer';
+$lang['read_more']                               = 'Lire plus';
+$lang['show_less']                               = 'Cacher';
+$lang['project_progress_text']                   = 'Avancement du projet';
 $lang['timer_not_stopped_yet']                   = 'Ce timer n\'est pas encore arrêté';
 $lang['refunds']                                 = 'Remboursements';
 $lang['refund']                                  = 'Remboursement';
@@ -3608,3 +3608,18 @@ $lang['payment_sent_failed']                       = 'Erreur lors de l\'envoie d
 # Version 2.3.5
 $lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
 $lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';

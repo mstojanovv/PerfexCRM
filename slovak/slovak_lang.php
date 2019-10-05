@@ -336,7 +336,7 @@ $lang['service_lowercase']     = 'služba';
 $lang['services_dt_name']      = 'Názov služby';
 $lang['service_add_edit_name'] = 'Názov služby';
 # Settings
-$lang['settings']                                                  = 'Nastavenie';
+$lang['settings']                                                  = 'Nastavenia';
 $lang['settings_updated']                                          = 'Nastavenie aktualizované';
 $lang['settings_save']                                             = 'Uložiť nastavenie';
 $lang['settings_group_general']                                    = 'Všeobecné';
@@ -3432,17 +3432,32 @@ $lang['not_refunds_found']                       = 'Nenašli sa žiadne refundá
 $lang['refunds_applied_cant_delete_credit_note'] = 'V tomto dobropise sa používajú refundácie. Najprv musíte odstrániť refundované platby, aby ste mohli odstrániť kreditný záznam.';
 
 # Version 2.3.2
-$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
-$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
-$lang['no_validation']                             = 'No Validation';
-$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
-$lang['phonenumber_exists']                        = 'Phone number already exists';
-$lang['company_exists']                            = 'Company already exists';
-$lang['website_exists']                            = 'Website already exists';
-$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
-$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
-$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+$lang['create_recurring_from_child_error_message'] = 'Toto %s nie je možné nastaviť ako opakujúce sa, pretože toto %s je podradené z iného opakovaného %s.';
+$lang['statement_credit_note_refund']              = 'Refundácia dobropisu - %s';
+$lang['no_validation']                             = 'Žiadna kontrola platnosti';
+$lang['lead_unique_validation_on']                 = 'Vykonajte overenie duplicitného vedenia na nasledujúcich poliach:';
+$lang['phonenumber_exists']                        = 'Telefónne číslo už existuje';
+$lang['company_exists']                            = 'Spoločnosť už existuje';
+$lang['website_exists']                            = 'Web stránka už existuje';
+$lang['send_payment_receipt_to_client']            = 'Odoslanie potvrdenia o platbe klientovi';
+$lang['payment_sent_successfully']                 = 'Potvrdenie o platbe bolo úspešne odoslané.';
+$lang['payment_sent_failed']                       = 'Odoslanie potvrdenia o platbe zlyhalo.';
 
 # Version 2.3.5
-$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
-$lang['attach_statement']            = 'Attach Customer Statement';
+$lang['tags_update_replace_warning'] = 'Niektoré značky sa neaktualizujú, pretože názov značky už existuje';
+$lang['attach_statement']            = 'Pripojiť vyhlásenie zákazníka';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';

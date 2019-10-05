@@ -3591,3 +3591,4 @@ $lang['subscription_is_subscription_is_expired'] = 'Bu aboneliğin süresi doldu
 $lang['subscription_plan_currency_does_not_match'] = 'Seçilen plana ait para birimi aşağıda seçilen para birimiyle eşleşmiyor.';
 $lang['subscription_first_billing_date_info'] = 'Müşteri abonelik tarihi için, müşteri abone olduğundaki tarihi kullanmak için boş bırakın. Bu alan gelecekteki bir tarih olmalıdır, geçmiş bir tarih seçtiyseniz ancak müşteri henüz abone olmadıysa, müşterinin abone olacağı tarih kullanılacaktır.';
 $lang['stripe_subscription_select_plan'] = 'Stripe Planı Seçin';
+
