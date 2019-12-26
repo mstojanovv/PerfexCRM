@@ -3594,16 +3594,30 @@ $lang['tags_update_replace_warning'] = 'Some tags are not updated because the na
 $lang['attach_statement']            = 'Attach Customer Statement';
 
 # Version 2.4.0
-$lang['delete_credit_card']               = 'Delete Card';
-$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
-$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
-$lang['subscription_incomplete']          = 'Incomplete';
-$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
-$lang['credit_card_short']                = 'Card';
-$lang['webhook_created']                  = 'Webhook created successfully.';
-$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
-$lang['subscription_complete_payment']    = 'Complete Payment';
-$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['delete_credit_card']                        = 'Delete Card';
+$lang['delete_credit_card_info']                   = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted']          = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']                   = 'Incomplete';
+$lang['subscription_incomplete_expired']           = 'Incomplete Expired';
+$lang['credit_card_short']                         = 'Card';
+$lang['webhook_created']                           = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']                  = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']             = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired']   = 'This subscription is expired.';
 $lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
-$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
-$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+$lang['subscription_first_billing_date_info']      = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan']           = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
