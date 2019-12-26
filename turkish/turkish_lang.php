@@ -3592,3 +3592,17 @@ $lang['subscription_plan_currency_does_not_match'] = 'Seçilen plana ait para bi
 $lang['subscription_first_billing_date_info'] = 'Müşteri abonelik tarihi için, müşteri abone olduğundaki tarihi kullanmak için boş bırakın. Bu alan gelecekteki bir tarih olmalıdır, geçmiş bir tarih seçtiyseniz ancak müşteri henüz abone olmadıysa, müşterinin abone olacağı tarih kullanılacaktır.';
 $lang['stripe_subscription_select_plan'] = 'Stripe Planı Seçin';
 
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
