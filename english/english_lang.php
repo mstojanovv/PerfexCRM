@@ -3626,4 +3626,5 @@ $lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
 $lang['recaptcha_ignore_ips'] = 'Ignored IP Addresses';
 $lang['recaptcha_ignore_ips_info'] = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
 $lang['show_task_reminders_on_calendar'] = 'Task Reminders';
+$lang['contracts_about_to_expire'] = 'Contracts Expiring Soon';
 $lang['no_contracts_about_to_expire'] = 'There are no contracts that are going to expire in the next %s days.';
