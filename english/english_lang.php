@@ -3632,3 +3632,4 @@ $lang['lead_value']                         = 'Lead value';
 $lang['lead_value_tooltip']                 = 'Base currency will be used.';
 $lang['leads_dt_lead_value']                = 'Lead Value';
 $lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
