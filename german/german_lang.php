@@ -3468,3 +3468,15 @@ $lang['schedule_email_for']                                                   = 
 $lang['schedule_date']                                                        = 'Wann soll die E-Mail gesendet werden?';
 $lang['email_scheduled_successfully']                                         = 'E-Mail erfolgreich geplant';
 $lang['invoice_will_be_sent_at']                                              = 'Die Rechnung wird versandt am %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';

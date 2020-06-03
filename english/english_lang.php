@@ -3622,7 +3622,7 @@ $lang['schedule_date']                  = 'When would you like to send the email
 $lang['email_scheduled_successfully']   = 'Email scheduled successfully';
 $lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
 
-# Version 2.5.0 - Dev
+# Version 2.5.0
 $lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
 $lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
 $lang['show_task_reminders_on_calendar']    = 'Task Reminders';
