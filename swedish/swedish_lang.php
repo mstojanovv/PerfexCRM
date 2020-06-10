@@ -3679,3 +3679,29 @@ $lang['subscription_is_subscription_is_expired'] = 'This subscription is expired
 $lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
 $lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
 $lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
