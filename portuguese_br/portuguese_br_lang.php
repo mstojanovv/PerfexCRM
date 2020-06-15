@@ -1819,7 +1819,6 @@ $lang['ticket_pipe_status']   = 'Status';
 # Home
 $lang['home_latest_activity']   = 'Últimas Atividades';
 $lang['home_my_tasks']          = 'Minhas Tarefas';
-$lang['home_latest_activity']   = 'Últimas Atividades';
 $lang['home_my_todo_items']     = 'Minha lista de Tarefas';
 $lang['home_widget_view_all']   = 'Visualizar Todas';
 $lang['home_stats_full_report'] = 'Relatório Completo';
@@ -3492,7 +3491,6 @@ $lang['view_consent']                                           = 'Visualizar co
 $lang['transfer_consent']                                       = 'Transfer Consent';
 $lang['view_public_form']                                       = 'Consentimento de transferência';
 $lang['update_consent']                                         = 'Visualizar formulário público';
-$lang['update_consent']                                         = 'Atualizar consentimento';
 $lang['consent_last_updated']                                   = 'Última atualização: %s';
 $lang['showing_search_result']                                  = 'Mostrando resultados da pesquisa para: %s';
 $lang['per_page']                                               = 'Por página';

@@ -1655,7 +1655,6 @@ $lang['ticket_pipe_status']   = 'Stav';
 # Home
 $lang['home_latest_activity']   = 'Posledné aktivity';
 $lang['home_my_tasks']          = 'Moje úlohy';
-$lang['home_latest_activity']   = 'Posledné aktivity';
 $lang['home_my_todo_items']     = 'Moje rýchle úlohy';
 $lang['home_widget_view_all']   = 'Zobraziť všetko';
 $lang['home_stats_full_report'] = 'Celý prehľad';
