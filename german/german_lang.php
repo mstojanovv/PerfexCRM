@@ -1652,7 +1652,6 @@ $lang['ticket_pipe_status']                                                   = 
 # Home
 $lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_tasks']                                                        = 'Meine Aufgaben';
-$lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_todo_items']                                                   = 'Meine ToDos';
 $lang['home_widget_view_all']                                                 = 'Alle anzeigen';
 $lang['home_stats_full_report']                                               = 'Komplette Aufzeichnung';
@@ -3470,16 +3469,16 @@ $lang['email_scheduled_successfully']                                         = 
 $lang['invoice_will_be_sent_at']                                              = 'Die Rechnung wird versandt am %s';
 
 # Version 2.5.0
-$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
-$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
-$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
-$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
-$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
-$lang['lead_value']                         = 'Lead value';
-$lang['lead_value_tooltip']                 = 'Base currency will be used.';
-$lang['leads_dt_lead_value']                = 'Lead Value';
-$lang['leads_canban_lead_value']            = 'Lead Value: %s';
-$lang['lead_add_edit_lead_value']           = 'Lead Value';
+$lang['recaptcha_ignore_ips']                                                 = 'Ignorierte IP-Adressen';
+$lang['recaptcha_ignore_ips_info']                                            = 'Kommagetrennte IP-Adressen eingeben, die die reCaptcha Validierung überspringen soll.';
+$lang['show_task_reminders_on_calendar']                                      = 'Aufgaben-Erinnerungen';
+$lang['contracts_about_to_expire']                                            = 'Bald auslaufende Verträge';
+$lang['no_contracts_about_to_expire']                                         = 'Es gibt keine Verträge, die in den nächsten %s-Tagen auslaufen.';
+$lang['lead_value']                                                           = 'Intressenten Wert';
+$lang['lead_value_tooltip']                                                   = 'Die Basiswährung wird verwendet.';
+$lang['leads_dt_lead_value']                                                  = 'Intressenten Wert';
+$lang['leads_canban_lead_value']                                              = 'Intressenten Wert: %s';
+$lang['lead_add_edit_lead_value']                                             = 'Intressenten Wert';
 
 # Version 2.6.0
 $lang['gantt_view_day'] = 'Days View';

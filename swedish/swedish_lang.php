@@ -1834,7 +1834,6 @@ $lang['ticket_pipe_date']     = 'Datum';
 $lang['ticket_pipe_status']   = 'Status';
 
 # Home
-$lang['home_latest_activity']   = 'Senaste aktivitet';
 $lang['home_my_tasks']          = 'Mina uppgifter';
 $lang['home_latest_activity']   = 'Senaste aktivitet';
 $lang['home_my_todo_items']     = 'Mina Att göra uppgifter';
@@ -2823,7 +2822,6 @@ $lang['no_leads_found']                              = 'Inga Leads Funna';
 $lang['created_today']                               = 'Skapad idag';
 $lang['total_tasks_deleted']                         = 'Totalt antal uppgifter raderade: %s';
 $lang['total_tickets_delete']                        = 'Totalt antal poster raderade: %s';
-$lang['total_tickets_delete']                        = 'Totalt antal poster raderade: %s';
 $lang['format_letter_portrait']                      = 'Brev porträtt';
 $lang['format_letter_landscape']                     = 'Brev Landskap';
 $lang['period_datepicker']                           = 'Period';
@@ -3518,7 +3516,6 @@ $lang['gdpr_consent_disagree']                                  = 'I disagree';
 $lang['view_consent']                                           = 'View Consent';
 $lang['transfer_consent']                                       = 'Transfer Consent';
 $lang['view_public_form']                                       = 'View Public Form';
-$lang['update_consent']                                         = 'Update Consent';
 $lang['update_consent']                                         = 'Update Consent';
 $lang['consent_last_updated']                                   = 'Last Updated: %s';
 $lang['showing_search_result']                                  = 'Showing search results for: %s';
