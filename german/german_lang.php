@@ -3485,3 +3485,9 @@ $lang['gantt_view_day']                                                       = 
 $lang['gantt_view_week']                                                      = 'Wochenansicht';
 $lang['gantt_view_month']                                                     = 'Monatsansicht';
 $lang['gantt_view_year']                                                      = 'Jahresansicht';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';

@@ -3627,3 +3627,9 @@ $lang['lead_value_tooltip']                 = 'Будет использоват
 $lang['leads_dt_lead_value']                = 'Значение лида';
 $lang['leads_canban_lead_value']            = 'Значение лида: %s';
 $lang['lead_add_edit_lead_value']           = 'Значение лида';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
