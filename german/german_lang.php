@@ -3468,3 +3468,21 @@ $lang['schedule_email_for']                                                   = 
 $lang['schedule_date']                                                        = 'Wann soll die E-Mail gesendet werden?';
 $lang['email_scheduled_successfully']                                         = 'E-Mail erfolgreich geplant';
 $lang['invoice_will_be_sent_at']                                              = 'Die Rechnung wird versandt am %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']                                                 = 'Ignorierte IP-Adressen';
+$lang['recaptcha_ignore_ips_info']                                            = 'Kommagetrennte IP-Adressen eingeben, die die reCaptcha Validierung überspringen soll.';
+$lang['show_task_reminders_on_calendar']                                      = 'Aufgaben-Erinnerungen';
+$lang['contracts_about_to_expire']                                            = 'Bald auslaufende Verträge';
+$lang['no_contracts_about_to_expire']                                         = 'Es gibt keine Verträge, die in den nächsten %s-Tagen auslaufen.';
+$lang['lead_value']                                                           = 'Intressenten Wert';
+$lang['lead_value_tooltip']                                                   = 'Die Basiswährung wird verwendet.';
+$lang['leads_dt_lead_value']                                                  = 'Intressenten Wert';
+$lang['leads_canban_lead_value']                                              = 'Intressenten Wert: %s';
+$lang['lead_add_edit_lead_value']                                             = 'Intressenten Wert';
+
+# Version 2.5.2
+$lang['gantt_view_day']                                                       = 'Tagesansicht';
+$lang['gantt_view_week']                                                      = 'Wochenansicht';
+$lang['gantt_view_month']                                                     = 'Monatsansicht';
+$lang['gantt_view_year']                                                      = 'Jahresansicht';
