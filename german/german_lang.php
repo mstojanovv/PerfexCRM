@@ -1652,7 +1652,6 @@ $lang['ticket_pipe_status']                                                   = 
 # Home
 $lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_tasks']                                                        = 'Meine Aufgaben';
-$lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_todo_items']                                                   = 'Meine ToDos';
 $lang['home_widget_view_all']                                                 = 'Alle anzeigen';
 $lang['home_stats_full_report']                                               = 'Komplette Aufzeichnung';
