@@ -3636,3 +3636,6 @@ $lang['gantt_view_day'] = 'Days View';
 $lang['gantt_view_week'] = 'Weeks View';
 $lang['gantt_view_month'] = 'Months View';
 $lang['gantt_view_year'] = 'Years View';
+
+# Version 2.6.1
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] ='24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring invoices, overdue notices etc.';
