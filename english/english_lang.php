@@ -3639,3 +3639,13 @@ $lang['gantt_view_year'] = 'Years View';
 
 # Version 2.6.1
 $lang['hour_of_day_perform_tasks_reminder_notification_help'] ='24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['allow_individual_customer_to_manage_other_contacts']   = 'Allow individual customers to add and manage other contacts';
+
