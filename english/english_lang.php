@@ -3648,4 +3648,4 @@ $lang['clients_contact_added']                                = 'Contact added s
 $lang['clients_contact_updated']                              = 'Contact updated successfuly';
 $lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
 $lang['allow_individual_customer_to_manage_other_contacts']   = 'Allow individual customers to add and manage other contacts';
-$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} address already exists in our system';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
