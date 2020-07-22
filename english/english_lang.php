@@ -1784,7 +1784,7 @@ $lang['home_stats_full_report'] = 'Full Report';
 $lang['form_validation_required']    = 'The {field} field is required.';
 $lang['form_validation_valid_email'] = 'The {field} field must contain a valid email address.';
 $lang['form_validation_matches']     = 'The {field} field does not match the {param} field.';
-$lang['form_validation_is_unique']   = 'The {field} field must contain a unique value.'; 
+$lang['form_validation_is_unique']   = 'The {field} field must contain a unique value.';
 
 # Version 1.0.8
 # Notifications & Leads/Estimates/Invoices Activity Log
@@ -3637,7 +3637,7 @@ $lang['gantt_view_week'] = 'Weeks View';
 $lang['gantt_view_month'] = 'Months View';
 $lang['gantt_view_year'] = 'Years View';
 
-# Version 2.6.1
+# Version 2.7.0
 $lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring Task, Task reminders etc.';
 $lang['clients_nav_contacts']                                 = 'Contacts';
 $lang['clients_my_contacts']                                  = 'Contacts';
