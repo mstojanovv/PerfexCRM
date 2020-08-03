@@ -3476,11 +3476,7 @@ $lang['leads_canban_lead_value']                                              = 
 $lang['lead_add_edit_lead_value']                                             = 'Intressenten Wert';
 
 # Version 2.6.0
-$lang['gantt_view_day']                                                       = 'Tagesansicht';
-$lang['gantt_view_week']                                                      = 'Wochenansicht';
-$lang['gantt_view_month']                                                     = 'Monatsansicht';
-$lang['gantt_view_year']                                                      = 'Jahresansicht';
-
-# Version 2.6.1
-$lang['hour_of_day_perform_tasks_reminder_notification_help']                 ='24-Stunden-Format: 9 für 9 Uhr morgens oder 15 für 15 Uhr abends. Wird für sich wiederholende Aufgaben, Aufgabenerinnerungen usw. verwendet.';
-
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
