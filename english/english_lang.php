@@ -3654,3 +3654,5 @@ $lang['google_two_factor_authentication_failed']              = 'Inalid Authenti
 $lang['enter_two_factor_auth_code_from_mobile']               = 'enter twofactor authentication code from Authenticator App ';
 $lang['staff_two_factor_authentication']                      = 'Two factor Authentication';
 $lang['google_authentication_code']                           = 'Enter code From Authentication App';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated Two Factor Autentication Settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update Two Factor options';
