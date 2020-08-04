@@ -3645,3 +3645,12 @@ $lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary c
 $lang['allow_individual_customer_to_manage_other_contacts']   = 'Allow individual customers to add and manage other contacts';
 $lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
 $lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Googe Authenticator';
+$lang['set_google_two_factor_authentication_successful']      = 'Successfully set google two factor authenticatopn';
+$lang['set_google_two_factor_authentication_failed']          = 'Inalid Authenticationn code entered';
+$lang['google_two_factor_authentication_failed']              = 'Inalid Authenticationn code entered';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'enter twofactor authentication code from Authenticator App ';
+$lang['staff_two_factor_authentication']                      = 'Two factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code From Authentication App';
