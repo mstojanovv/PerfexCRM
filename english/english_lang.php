@@ -3653,6 +3653,6 @@ $lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentic
 $lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
 $lang['google_authentication_code']                           = 'Enter code from Authenticator app';
 $lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
-$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication options';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
 $lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
 $lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
