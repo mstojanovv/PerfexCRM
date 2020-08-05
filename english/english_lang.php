@@ -3655,5 +3655,5 @@ $lang['staff_two_factor_authentication']                      = 'Two factor Auth
 $lang['google_authentication_code']                           = 'Enter code From Authentication App';
 $lang['set_two_factor_authentication_successful']             = 'Successfully updated Two Factor Autentication Settings';
 $lang['set_two_factor_authentication_failed']                 = 'Could not update Two Factor options';
-$lang['google_2fa_code_valid']                                = 'Inalid Authenticationn code entered';
-$lang['google_2fa_code_invalid']                              = 'Successfuly verified the authentication';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Inalid Authenticationn code entered';
