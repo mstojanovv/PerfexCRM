@@ -3656,5 +3656,5 @@ $lang['set_two_factor_authentication_successful']             = 'Successfully up
 $lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
 $lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
 $lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
-$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, qfter that fill in the field below with the code generated in the app';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
 $lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
