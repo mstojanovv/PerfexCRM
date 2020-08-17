@@ -3722,7 +3722,6 @@ $lang['customer_contact']                                     = 'My Contacts';
 $lang['clients_contact_added']                                = 'Contact added successfuly';
 $lang['clients_contact_updated']                              = 'Contact updated successfuly';
 $lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
-$lang['allow_individual_customer_to_manage_other_contacts']   = 'Allow individual customers to add and manage other contacts';
 $lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
 $lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
 
