@@ -3629,7 +3629,7 @@ $lang['leads_canban_lead_value']            = 'Значение лида: %s';
 $lang['lead_add_edit_lead_value']           = 'Значение лида';
 
 # Version 2.6.0
-$lang['gantt_view_day'] = 'Days View';
-$lang['gantt_view_week'] = 'Weeks View';
-$lang['gantt_view_month'] = 'Months View';
-$lang['gantt_view_year'] = 'Years View';
+$lang['gantt_view_day'] = 'Обзор за день';
+$lang['gantt_view_week'] = 'Обзор за неделю';
+$lang['gantt_view_month'] = 'Обзор за месяц';
+$lang['gantt_view_year'] = 'Обзор за год';
