@@ -3487,3 +3487,30 @@ $lang['gantt_view_day'] = 'Days View';
 $lang['gantt_view_week'] = 'Weeks View';
 $lang['gantt_view_month'] = 'Months View';
 $lang['gantt_view_year'] = 'Years View';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['allow_individual_customer_to_manage_other_contacts']   = 'Allow individual customers to add and manage other contacts';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
+$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Googe Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
+$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
