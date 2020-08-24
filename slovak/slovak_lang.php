@@ -3502,7 +3502,7 @@ $lang['contact_form_validation_is_unique']                    = 'Contact with th
 $lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
 
 $lang['two_factor_authentication_disabed']                    = 'Disabled';
-$lang['enable_google_two_factor_authentication']              = 'Enable Googe Authenticator';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
 $lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
 $lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
 $lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
