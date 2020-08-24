@@ -3674,7 +3674,7 @@ $lang['gantt_view_month'] = 'Months View';
 $lang['gantt_view_year'] = 'Years View';
 
 # Version 2.7.0
-$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring Task, Task reminders etc.';
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm. It is used for recurring Task, Task reminders etc.';
 $lang['clients_nav_contacts']                                 = 'Contacts';
 $lang['clients_my_contacts']                                  = 'Contacts';
 $lang['clients_my_contact']                                   = 'Contact';
