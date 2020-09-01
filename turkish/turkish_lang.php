@@ -3587,6 +3587,7 @@ $lang['stripe_subscription_select_plan'] = 'Stripe Planı Seçin';
 
 # Version 2.4.1
 $lang['contract_content_permission_edit_warning'] = 'Mevcut izinleriniz sözleşme içeriğini düzenlemenize izin vermiyor. Sözleşmeleri düzenleme izni için bir yöneticiye danışın.';
+
 $lang['mark_as_signed']                 = 'İmzalandı olarak işaretle';
 $lang['unmark_as_signed']               = 'İmzalanmadı olarak işaretle';
 $lang['marked_as_signed']               = 'İmzalandı olarak işaretlendi';
