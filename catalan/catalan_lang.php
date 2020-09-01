@@ -1851,7 +1851,6 @@ $lang['ticket_pipe_status']   = 'Estat';
 # Home
 $lang['home_latest_activity'] = 'Activitat Recent';
 $lang['home_my_tasks']        = 'Tasques meves';
-//$lang['home_latest_activity']       = 'Activitat Recent'; //repetició
 $lang['home_my_todo_items']     = 'Resum Tasques';
 $lang['home_widget_view_all']   = 'Veure-ho tot';
 $lang['home_stats_full_report'] = 'Resum Complet';
@@ -2678,15 +2677,10 @@ $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 $lang['milestone_description']                      = 'Descripció';
 $lang['description_visible_to_customer']            = 'Mostrar descripció al client';
 $lang['upcoming_tasks']                             = 'Tasques imminents';
-$lang['paymentmethod_two_checkout_account_number']  = 'Número de Compte (ID venedor)';
-$lang['paymentmethod_two_checkout_private_key']     = 'Clau Privada';
-$lang['paymentmethod_two_checkout_publishable_key'] = 'Clau Pública';
 $lang['payment_credit_card_number']                 = 'Número de Targeta';
 $lang['payment_credit_card_expiration_date']        = 'Data de caducitat';
 $lang['payment_billing_email']                      = 'Email';
 $lang['submit_payment']                             = 'Enviar pagament';
-$lang['2checkout_notice_payment']                   = 'Els detalls de la targeta de crèdit es processen de forma segura amb 2Checkout';
-$lang['2checkout_usage_notice']                     = 'Si utilitses API pagament 2Checkout necessites SSL. És necessari per cridar de forma segura autentificador i autorització. El sistema també funcionarà sense SSL, però, això us situarà fora de compliment, amb el risc de desactivació dels permisos de l\'API.';
 $lang['custom_field_disallow_customer_to_edit']     = 'Desautoritzar el client per a editar aquest camp';
 $lang['project_due_notice']                         = 'Aquest projecte porta vençut %s dies';
 $lang['not_lead_added_attachment']                  = 'afegit nou annex al potencial %s';
@@ -2836,7 +2830,6 @@ $lang['no_leads_found']                              = 'No s\'han trobat potenci
 $lang['created_today']                               = 'Creat Avui';
 $lang['total_tasks_deleted']                         = 'Total Tasques Esborrades: %s';
 $lang['total_tickets_delete']                        = 'Total Tiquets Esborrats: %s';
-//$lang['total_tickets_delete'] = 'Total Tickets Deleted: %s';
 $lang['format_letter_portrait']  = 'Carta Retrat (Letter Portrait)';
 $lang['format_letter_landscape'] = 'Carta Paissatge (Letter Landscape)';
 $lang['period_datepicker']       = 'Període';
@@ -3531,7 +3524,6 @@ $lang['view_consent']                                           = 'View Consent'
 $lang['transfer_consent']                                       = 'Transfer Consent';
 $lang['view_public_form']                                       = 'View Public Form';
 $lang['update_consent']                                         = 'Update Consent';
-$lang['update_consent']                                         = 'Update Consent';
 $lang['consent_last_updated']                                   = 'Last Updated: %s';
 $lang['showing_search_result']                                  = 'Showing search results for: %s';
 $lang['per_page']                                               = 'Per Page';
@@ -3661,3 +3653,91 @@ $lang['refund_amount']                           = 'Refunded Amount';
 $lang['not_refunds_found']                       = 'No refunds found';
 $lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
 
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
+$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
+$lang['no_validation']                             = 'No Validation';
+$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
+$lang['phonenumber_exists']                        = 'Phone number already exists';
+$lang['company_exists']                            = 'Company already exists';
+$lang['website_exists']                            = 'Website already exists';
+$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
+$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
+$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm. It is used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
+$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
+$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';

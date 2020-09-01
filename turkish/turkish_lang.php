@@ -3631,7 +3631,7 @@ $lang['contact_form_validation_is_unique']                    = 'Görünüşe g�
 $lang['invoice_number_not_applied_on_draft']                  = 'Fatura taslak olarak kaydedilmiş ise numara uygulanmayacak, bunun yerine fatura müşteriye gönderildiğinde veya gönderilmiş olarak işaretlendiğinde bir sonraki fatura numarası verilecektir.';
 
 $lang['two_factor_authentication_disabed']                    = 'Devre Dışı';
-$lang['enable_google_two_factor_authentication']              = 'Googe Authenticator uygulamasını etkinleştir';
+$lang['enable_google_two_factor_authentication']              = 'Google Authenticator uygulamasını etkinleştir';
 $lang['set_google_two_factor_authentication_failed']          = 'Kimlik doğrulama kaydedilemedi, lütfen tekrar deneyin';
 $lang['enter_two_factor_auth_code_from_mobile']               = 'Authenticator uygulamasından aldığınız kimlik doğrulama kodunu girin';
 $lang['staff_two_factor_authentication']                      = 'İki Faktörlü Kimlik Doğrulama';

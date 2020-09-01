@@ -1652,7 +1652,6 @@ $lang['ticket_pipe_status']                                                   = 
 # Home
 $lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_tasks']                                                        = 'Meine Aufgaben';
-$lang['home_latest_activity']                                                 = 'Letzte Aufgaben';
 $lang['home_my_todo_items']                                                   = 'Meine ToDos';
 $lang['home_widget_view_all']                                                 = 'Alle anzeigen';
 $lang['home_stats_full_report']                                               = 'Komplette Aufzeichnung';
@@ -2448,15 +2447,10 @@ $lang['task_single_log_user']                                                 = 
 $lang['milestone_description']                                                = 'Beschreibung';
 $lang['description_visible_to_customer']                                      = 'Beschreibung dem Kunden zeigen';
 $lang['upcoming_tasks']                                                       = 'Kommende Aufgaben';
-$lang['paymentmethod_two_checkout_account_number']                            = 'Kontonummer (Verkäufer-ID)';
-$lang['paymentmethod_two_checkout_private_key']                               = 'Privater Schlüssel';
-$lang['paymentmethod_two_checkout_publishable_key']                           = 'öffentlicher Schlüssel';
 $lang['payment_credit_card_number']                                           = 'Kartennummer';
 $lang['payment_credit_card_expiration_date']                                  = 'Ablaufdatum';
 $lang['payment_billing_email']                                                = 'E-Mail';
 $lang['submit_payment']                                                       = 'Zahlung senden';
-$lang['2checkout_notice_payment']                                             = 'Kreditkartendaten werden über eine sichere Verbindung von 2Checkout verarbeitet';
-$lang['2checkout_usage_notice']                                               = 'Für die Nutzung der 2Checkout Bezahl-API ist SSL erforderlich. Dies ist für einen sicheren Verbindungsaufbau notwendig. Das System funktioniert auch ohne SSL, doch in diesem Fall wird außerhalb der Richtlinien gehandelt, was die Deaktivierung der API-Berechtigung zufolge haben kann.';
 $lang['custom_field_disallow_customer_to_edit']                               = 'Kunde darf dieses Feld nicht bearbeiten';
 $lang['project_due_notice']                                                   = 'Dieses Projekt ist seit %s Tagen überfällig';
 $lang['not_lead_added_attachment']                                            = 'hat eine neue Anlage zum Interessenten %s hinzugefügt';
@@ -3396,32 +3390,119 @@ $lang['pay_with_card']                                                        = 
 $lang['not_customer_uploaded_file']                                           = 'Neue Datei(en) im Profil hochgeladen';
 
 # Version 2.2.1
-$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
-$lang['sales_item']                  = 'Item';
+$lang['customer_files_info_message']                                          = 'Dateien aus Projekten und Aufgaben, die mit dem Kunden verknüpft sind, werden in dieser Tabelle nicht angezeigt.';
+$lang['ticket_import_reply_only']                                             = 'Versuche, nur die tatsächliche Ticketantwort zu importieren (ohne quoted/forwarded message).';
+$lang['learn_more']                                                           = 'Mehr erfahren';
+$lang['sales_item']                                                           = 'Artikel';
 
 # Version 2.3.0
 
-$lang['modules']                    = 'Modules';
-$lang['module']                     = 'Module';
-$lang['module_description']         = 'Description';
-$lang['module_activate']            = 'Activate';
-$lang['module_deactivate']          = 'Deactivate';
-$lang['module_uninstall']           = 'Uninstall';
-$lang['module_upgrade_database']    = 'Upgrade Database';
-$lang['module_settings']            = 'Settings';
-$lang['module_version']             = 'Version %s';
-$lang['module_by']                  = 'By %s';
-$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
-$lang['copy']                       = 'Copy';
-$lang['read_more']                  = 'Read More';
-$lang['show_less']                  = 'Show Less';
-$lang['project_progress_text']      = 'Project Progress';
-$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
-$lang['refunds']                                 = 'Refunds';
-$lang['refund']                                  = 'Refund';
-$lang['refund_amount']                           = 'Refunded Amount';
-$lang['not_refunds_found']                       = 'No refunds found';
-$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+$lang['modules']                                                              = 'Module';
+$lang['module']                                                               = 'Modul';
+$lang['module_description']                                                   = 'Beschreibung';
+$lang['module_activate']                                                      = 'Aktivieren';
+$lang['module_deactivate']                                                    = 'Deaktivieren';
+$lang['module_uninstall']                                                     = 'Deinstallieren';
+$lang['module_upgrade_database']                                              = 'Datenbank aktualisieren';
+$lang['module_settings']                                                      = 'Einstellungen';
+$lang['module_version']                                                       = 'Version %s';
+$lang['module_by']                                                            = 'Von %s';
+$lang['staff_which_are_using_role']                                           = 'Mitarbeiter, die diese Rolle nutzen';
+$lang['copy']                                                                 = 'Kopieren';
+$lang['read_more']                                                            = 'Mehr erfahren';
+$lang['show_less']                                                            = 'Weniger anzeigen';
+$lang['project_progress_text']                                                = 'Projektfortschritt';
+$lang['timer_not_stopped_yet']                                                = 'Dieser Timer ist noch nicht gestoppt.';
+$lang['refunds']                                                              = 'Rückerstattungen';
+$lang['refund']                                                               = 'Rückerstattung';
+$lang['refund_amount']                                                        = 'Rückerstattungsbetrag';
+$lang['not_refunds_found']                                                    = 'Keine Rückerstattungen gefunden';
+$lang['refunds_applied_cant_delete_credit_note']                              = 'Dieser Gutschrift besteht zum Teil aus Rückerstattungen. Um die Gutschrift zu löschen, muss zuerst die Rückerstattung gelöscht werden.';
 
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message']                            = 'Diese %s kann nicht als wiederkehrend gesetzt werden, da diese %s ein Kind von einer anderen wiederkehrenden %s ist.';
+$lang['statement_credit_note_refund']                                         = 'Gutschriftsrückerstattung - %s';
+$lang['no_validation']                                                        = 'Keine Validierung';
+$lang['lead_unique_validation_on']                                            = 'Die Validierung für doppelten Lead auf den folgenden Feldern durchführen:';
+$lang['phonenumber_exists']                                                   = 'Telefonnummer ist bereits vorhanden';
+$lang['company_exists']                                                       = 'Firma  ist bereits vorhanden';
+$lang['website_exists']                                                       = 'Webseite ist bereits vorhanden';
+$lang['send_payment_receipt_to_client']                                       = 'Den Zahlungsbeleg an den Kunden senden';
+$lang['payment_sent_successfully']                                            = 'Der Zahlungsbeleg wurde erfolgreich versendet.';
+$lang['payment_sent_failed']                                                  = 'Der Zahlungsbeleg konnte nicht gesendet werden.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning']                                          = 'Einige Tags werden nicht aktualisiert, weil der Name des Tags bereits existiert';
+$lang['attach_statement']                                                     = 'Kundenerklärung anfügen';
+
+# Version 2.4.0
+$lang['delete_credit_card']                                                   = 'Karte löschen';
+$lang['delete_credit_card_info']                                              = 'Die Kreditkarte kann nicht gelöscht werden, da aktive Abonnements vorhanden sind.';
+$lang['credit_card_successfully_deleted']                                     = 'Kreditkarte wurde erfolgreich gelöscht.';
+$lang['subscription_incomplete']                                              = 'Unvollständig';
+$lang['subscription_incomplete_expired']                                      = 'Unvollständig abgelaufen';
+$lang['credit_card_short']                                                    = 'Karte';
+$lang['webhook_created']                                                      = 'Webhook wurde erfolgreich erstellt.';
+$lang['subscriptions_terms_info']                                             = 'Hier können die Geschäftsbedingungen eingegeben werden, die dem Kunden vor der Anmeldung zum Abonnement angezeigt werden sollen.';
+$lang['subscription_complete_payment']                                        = 'Zahlung abschließen';
+$lang['subscription_is_subscription_is_expired']                              = 'Dieses Abonnement ist abgelaufen.';
+$lang['subscription_plan_currency_does_not_match']                            = 'Ausgewählte Planwährung stimmt nicht mit der unten ausgewählten Währung überein.';
+$lang['subscription_first_billing_date_info']                                 = 'Leer lassen, um das Datum zu verwenden, an dem der Kunde das Abonnement abonniert hat. Dieses Feld muss ein zukünftiges Datum sein. Wenn das gewählte Datum überschritten ist, der Kunde aber noch nicht abonniert hat, wird das Datum verwendet, an dem der Kunde abonnieren wird.';
+$lang['stripe_subscription_select_plan']                                      = 'Stripe Plan auswählen';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning']                             = 'Deine aktuellen Berechtigungen erlauben es dir nicht, den Vertragsinhalt zu bearbeiten. Wende dich an einen Administrator, um die Berechtigung zum Bearbeiten von Verträgen zu erhalten.';
+$lang['mark_as_signed']                                                       = 'Als unterschrieben markieren';
+$lang['unmark_as_signed']                                                     = 'Als nicht-unterschrieben markieren';
+$lang['marked_as_signed']                                                     = 'Als unterschrieben markiert';
+$lang['contract_marked_as_signed_info']                                       = 'Dieser Vertrag wird manuell als unterschrieben markiert.';
+$lang['save_and_send_later']                                                  = 'Speichern und später senden';
+$lang['schedule']                                                             = 'Plan';
+$lang['schedule_email_for']                                                   = 'E-Mail planen für %s';
+$lang['schedule_date']                                                        = 'Wann soll die E-Mail gesendet werden?';
+$lang['email_scheduled_successfully']                                         = 'E-Mail erfolgreich geplant';
+$lang['invoice_will_be_sent_at']                                              = 'Die Rechnung wird versandt am %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']                                                 = 'Ignorierte IP-Adressen';
+$lang['recaptcha_ignore_ips_info']                                            = 'Kommagetrennte IP-Adressen eingeben, die die reCaptcha Validierung überspringen soll.';
+$lang['show_task_reminders_on_calendar']                                      = 'Aufgaben-Erinnerungen';
+$lang['contracts_about_to_expire']                                            = 'Bald auslaufende Verträge';
+$lang['no_contracts_about_to_expire']                                         = 'Es gibt keine Verträge, die in den nächsten %s-Tagen auslaufen.';
+$lang['lead_value']                                                           = 'Intressenten Wert';
+$lang['lead_value_tooltip']                                                   = 'Die Basiswährung wird verwendet.';
+$lang['leads_dt_lead_value']                                                  = 'Intressenten Wert';
+$lang['leads_canban_lead_value']                                              = 'Intressenten Wert: %s';
+$lang['lead_add_edit_lead_value']                                             = 'Intressenten Wert';
+
+# Version 2.6.0
+$lang['gantt_view_day']                                                       = 'Tagesansicht';
+$lang['gantt_view_week']                                                      = 'Wochenansicht';
+$lang['gantt_view_month']                                                     = 'Monatsansicht';
+$lang['gantt_view_year']                                                      = 'Jahresansicht';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help']                 = '24-Stunden-Format: 9 für 9 Uhr morgens oder 15 für 15 Uhr abends. Wird für wiederkehrende Aufgaben, Aufgabenerinnerungen usw. verwendet.';
+$lang['clients_nav_contacts']                                                 = 'Kontakte';
+$lang['clients_my_contacts']                                                  = 'Kontakte';
+$lang['clients_my_contact']                                                   = 'Kontakt';
+$lang['new_contact']                                                          = 'Neuer Kontakt';
+$lang['customer_contact']                                                     = 'Meine Kontakte';
+$lang['clients_contact_added']                                                = 'Kontakt wurde erfolgreich hinzugefügt';
+$lang['clients_contact_updated']                                              = 'Kontakt wurde erfolgreich aktualisiert';
+$lang['allow_primary_contact_to_manage_other_contacts']                       = 'Dem Hauptkontakt erlauben, andere Kundenkontakte zu verwalten';
+$lang['contact_form_validation_is_unique']                                    = 'Kontakt mit diesem {field} besteht bereits in unserem System';
+$lang['invoice_number_not_applied_on_draft']                                  = 'Wenn die Rechnung als Entwurf gespeichert wird, wird die Nummer nicht übernommen. Stattdessen wird die nächste Rechnungsnummer angegeben, wenn die Rechnung an den Kunden gesendet wird oder die Rechnung als gesendet markiert wird.';
+
+$lang['two_factor_authentication_disabed']                                    = 'Deaktivert';
+$lang['enable_google_two_factor_authentication']                              = 'Google-Authenticator aktivieren';
+$lang['set_google_two_factor_authentication_failed']                          = 'Speichern der Authentifizierung fehlgeschlagen, bitte versuchen Sie es erneut';
+$lang['enter_two_factor_auth_code_from_mobile']                               = 'Authentifizierungscode aus der Authentifizierungsanwendung eingeben';
+$lang['staff_two_factor_authentication']                                      = 'Zwei-Faktor-Authentifizierung';
+$lang['google_authentication_code']                                           = 'Code aus Authentifizierungsanwendung eingeben';
+$lang['set_two_factor_authentication_successful']                             = 'Zwei-Faktor-Authentifizierungseinstellungen wurden erfolgreich aktualisiert';
+$lang['set_two_factor_authentication_failed']                                 = 'Zwei-Faktor-Authentifizierungseinstellungen konnte nicht aktualisieren werden';
+$lang['google_2fa_code_valid']                                                = 'Erfolgreiche Überprüfung der Authentifizierung';
+$lang['google_2fa_code_invalid']                                              = 'Ungültiger Authentifizierungscode eingegeben, versuchen Sie es erneut.';
+$lang['google_2fa_scan_qr_guide']                                             = 'Scannen Sie den unten stehenden QR mit der Google Authenticator-Anwendung auf Ihrem Mobilgerät und füllen Sie anschließend das unten stehende Feld mit dem in der Anwendung generierten Code aus';
+$lang['google_2fa_manul_input_secret']                                        = 'Geheimschlüssel für manuelle Eingabe';

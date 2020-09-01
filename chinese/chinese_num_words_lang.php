@@ -127,7 +127,10 @@ $lang['num_word'] = 'With words';
 $currencies = [
     'USD' => 'Dollars',
     'EUR' => 'Euros',
-    'CNY' => '中國元',
+    'CNY' => '人民幣',
+    'HKD' => '港元',
+    'MOP' => '澳門元',
+    'TWD' => '新臺幣',
 ];
 
 $currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
