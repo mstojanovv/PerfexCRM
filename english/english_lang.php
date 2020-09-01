@@ -3657,3 +3657,16 @@ $lang['google_2fa_code_valid']                                = 'Successfuly ver
 $lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
 $lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
 $lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
+
+# Version 2.7.1
+$lang['proposal_templates']     = 'Proposal Templates';
+$lang['contract_templates']     = 'Contract Templates';
+$lang['proposal_add_template']  = 'add Template';
+$lang['contract_add_template']  = 'add Template';
+$lang['template_name']      = 'Template Title';
+$lang['template_content']       = 'Template Content';
+$lang['insert_template']        = 'insert';
+$lang['add_template']      = 'Add Template';
+$lang['edit_template']     = 'Edit Template';
+$lang['template_added']       = 'Template added successfully';
+$lang['template_updated']       = 'Template updated successfully';
