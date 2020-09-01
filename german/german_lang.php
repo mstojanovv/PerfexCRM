@@ -3495,7 +3495,7 @@ $lang['contact_form_validation_is_unique']                                    = 
 $lang['invoice_number_not_applied_on_draft']                                  = 'Wenn die Rechnung als Entwurf gespeichert wird, wird die Nummer nicht übernommen. Stattdessen wird die nächste Rechnungsnummer angegeben, wenn die Rechnung an den Kunden gesendet wird oder die Rechnung als gesendet markiert wird.';
 
 $lang['two_factor_authentication_disabed']                                    = 'Deaktivert';
-$lang['enable_google_two_factor_authentication']                              = 'Googe-Authenticator aktivieren';
+$lang['enable_google_two_factor_authentication']                              = 'Google-Authenticator aktivieren';
 $lang['set_google_two_factor_authentication_failed']                          = 'Speichern der Authentifizierung fehlgeschlagen, bitte versuchen Sie es erneut';
 $lang['enter_two_factor_auth_code_from_mobile']                               = 'Authentifizierungscode aus der Authentifizierungsanwendung eingeben';
 $lang['staff_two_factor_authentication']                                      = 'Zwei-Faktor-Authentifizierung';
