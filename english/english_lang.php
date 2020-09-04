@@ -3659,14 +3659,11 @@ $lang['google_2fa_scan_qr_guide']                             = 'Scan the QR bel
 $lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
 
 # Version 2.7.1
-$lang['proposal_templates']     = 'Proposal Templates';
-$lang['contract_templates']     = 'Contract Templates';
-$lang['proposal_add_template']  = 'add Template';
-$lang['contract_add_template']  = 'add Template';
-$lang['template_name']      = 'Template Title';
-$lang['template_content']       = 'Template Content';
-$lang['insert_template']        = 'insert';
-$lang['add_template']      = 'Add Template';
-$lang['edit_template']     = 'Edit Template';
-$lang['template_added']       = 'Template added successfully';
-$lang['template_updated']       = 'Template updated successfully';
+$lang['templates']                  = 'Templates';
+$lang['add_template']               = 'Add Template';
+$lang['edit_template']              = 'Edit Template';
+$lang['template_added']             = 'Template added successfully';
+$lang['template_updated']           = 'Template updated successfully';
+$lang['template_name']              = 'Template Title';
+$lang['template_content']           = 'Template Content';
+$lang['insert_template']            = 'Insert';
