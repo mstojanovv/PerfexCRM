@@ -3667,3 +3667,4 @@ $lang['template_updated']           = 'Template updated successfully';
 $lang['template_name']              = 'Template Title';
 $lang['template_content']           = 'Template Content';
 $lang['insert_template']            = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol']          = 'Exclude currency symbol from items table Amount';
