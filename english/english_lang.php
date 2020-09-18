@@ -3668,7 +3668,3 @@ $lang['template_name']              = 'Template Title';
 $lang['template_content']           = 'Template Content';
 $lang['insert_template']            = 'Insert';
 $lang['items_table_amounts_exclude_currency_symbol']          = 'Exclude currency symbol from items table Amount';
-
-$lang['two_checkout_merchant_code']             = 'Merchant Code';
-$lang['two_checkout_secret_Key']                = 'Secret Code';
-$lang['two_checkout_proceed_to_pay']            = 'Proceed to Pay';
