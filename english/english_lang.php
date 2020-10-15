@@ -3671,7 +3671,7 @@ $lang['items_table_amounts_exclude_currency_symbol']          = 'Exclude currenc
 
 $lang['round_off_task_timer_option'] = 'Round off task timer';
 $lang['task_timer_dont_round_off'] = 'Don\'t round off';
-$lang['task_timer_round_up_to'] = 'Round up to';
-$lang['task_timer_round_down_to'] = 'Round down to';
-$lang['task_timer_round_to_nearest'] = 'Round to nearest';
+$lang['task_timer_round_up'] = 'Round up';
+$lang['task_timer_round_down'] = 'Round down';
+$lang['task_timer_round_nearest'] = 'Round to nearest';
 $lang['round_off_task_timer_time'] = 'Time to Round to (only applied if round off is enabled)';
