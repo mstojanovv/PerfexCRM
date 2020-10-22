@@ -3676,4 +3676,5 @@ $lang['task_timer_round_up']         = 'Round up';
 $lang['task_timer_round_down']       = 'Round down';
 $lang['task_timer_round_nearest']    = 'Round to nearest';
 $lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
 $lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
