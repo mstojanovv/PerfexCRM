@@ -3680,4 +3680,5 @@ $lang['projects_chart']              = 'Projects Chart';
 $lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
 
 $lang['two_checkout_payment_processing']    = 'Payment is been processed you will be notified if Successful';
+$lang['two_checkout_payment_cancelled']     = 'Payment Cancelled';
 $lang['somthing_went_wrong']                = 'Something went wrong. Try again after a while';
