@@ -3681,4 +3681,7 @@ $lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
 
 $lang['two_checkout_payment_processing']    = 'Payment is been processed you will be notified if Successful';
 $lang['two_checkout_payment_cancelled']     = 'Payment Cancelled';
-$lang['somthing_went_wrong']                = 'Something went wrong. Try again after a while';
+$lang['two_checkout_merchant_code']         = 'Merchant Code';
+$lang['two_checkout_secret_Key']            = 'Secret Code';
+$lang['two_gateway_webhook_notice']         = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']               = 'Something went wrong. Try again';
