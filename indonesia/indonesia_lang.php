@@ -3683,7 +3683,6 @@ $lang['clients_contact_updated']                              = 'Kontak berhasil
 $lang['allow_primary_contact_to_manage_other_contacts']       = 'Izinkan kontak utama untuk mengelola kontak pelanggan lainnya';
 $lang['contact_form_validation_is_unique']                    = 'Kontak dengan {field} ini sudah ada di sistem kami';
 $lang['invoice_number_not_applied_on_draft']                  = 'Jika faktur disimpan sebagai draft, nomor tidak akan digunakan, nomor faktur berikutnya akan diberikan pada saat faktur telah dikirim ke pelanggan atau ditandai sebagai terkirim.';
-
 $lang['two_factor_authentication_disabed']                    = 'Nonaktifkan';
 $lang['enable_google_two_factor_authentication']              = 'Aktifkan Google Authenticator';
 $lang['set_google_two_factor_authentication_failed']          = 'Autentikasi gagal disimpan, coba lagi';
@@ -3696,3 +3695,34 @@ $lang['google_2fa_code_valid']                                = 'Berhasil memver
 $lang['google_2fa_code_invalid']                              = 'Kode otentikasi yang dimasukkan tidak valid, coba lagi.';
 $lang['google_2fa_scan_qr_guide']                             = 'Pindai QR di bawah ini dengan aplikasi Authenticator di perangkat seluler Anda, setelah itu isi bidang di bawah ini dengan kode yang dihasilkan aplikasi';
 $lang['google_2fa_manul_input_secret']                        = 'Kunci rahasia untuk input manual';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';
