@@ -1,7 +1,6 @@
 <?php
 
 # Version 1.0.0
-#
 # String Umum
 $lang['id']                   = 'ID';
 $lang['name']                 = 'Nama';
@@ -34,7 +33,7 @@ $lang['invoice_table_rate_heading']            = 'Nilai';
 $lang['invoice_table_tax_heading']             = 'Pajak';
 $lang['invoice_table_amount_heading']          = 'Jumlah';
 $lang['invoice_subtotal']                      = 'Subtotal';
-$lang['invoice_adjustment']                    = 'Pengaturan';
+$lang['invoice_adjustment']                    = 'Penyesuaian';
 $lang['invoice_total']                         = 'Total';
 $lang['invoice_bill_to']                       = 'Ditagihkan kepada';
 $lang['invoice_data_date']                     = 'Tanggal Faktur:';
@@ -69,13 +68,13 @@ $lang['client_firstname']                     		= 'Nama Depan';
 $lang['client_lastname']                      		= 'Nama Belakang';
 $lang['client_email']                         		= 'Email';
 $lang['client_company']                       		= 'Perusahaan';
-$lang['client_vat_number']                    		= 'Nomor Pajak';
+$lang['client_vat_number']                    		= 'Nomor Pajak (NPWP)';
 $lang['client_address']                       		= 'Alamat';
 $lang['client_city']                          		= 'Kota';
 $lang['client_postal_code']                   		= 'Kode Pos';
-$lang['client_state']                         		= 'Negara';
+$lang['client_state']                         		= 'Provinsi';
 $lang['client_password']                      		= 'Kata Sandi';
-$lang['client_password_change_populate_note'] 		= 'Catatan: Jika Anda mengisi bidang ini, kata sandi akan berubah pada kontak ini.';
+$lang['client_password_change_populate_note'] 		= 'Catatan: Jika Anda mengisi bidang ini, kata sandi pada kontak ini akan berubah.';
 $lang['client_password_last_changed']         		= 'Kata sandi yang terakhir dirubah:';
 $lang['login_as_client']                      		= 'Masuk sebagai klien';
 $lang['client_invoices_tab']                  		= 'Faktur';
@@ -282,40 +281,6 @@ $lang['group_table_name_heading']      		= 'Nama';
 $lang['group_table_isactive_heading']  		= 'Aktif';
 $lang['kb_no_groups_found']            		= 'Tidak ada kategori yang ditemukan';
 
-# String Milis/Mail Lists
-$lang['mail_lists']                            = 'Daftar Milis';
-$lang['mail_list']                             = 'Daftar Milis';
-$lang['new_mail_list']                         = 'Daftar Milis baru';
-$lang['mail_list_lowercase']                   = 'daftar milis';
-$lang['custom_field_deleted_success']          = 'Bidang Khusus Berhasil Dihapus';
-$lang['custom_field_deleted_fail']             = 'Terjadi Masalah saat Menghapus Bidang Khusus';
-$lang['email_removed_from_list']               = 'Email dihapus dari daftar';
-$lang['email_remove_fail']                     = 'Email dihapus dari daftar';
-$lang['staff_mail_lists']                      = 'Milis Staf';
-$lang['clients_mail_lists']                    = 'Milis Klien';
-$lang['mail_list_total_imported']              = 'Jumlah email yang diimpor: %s';
-$lang['mail_list_total_duplicate']             = 'Jumlah email yang terduplikat: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Jumlah email yang gagal dimasukkan: %s';
-$lang['mail_list_total_invalid']               = 'Jumlah email yang tidak valid: %s ';
-$lang['cant_edit_mail_list']                   = 'Anda tidak dapat mengedit daftar ini, daftar ini diisi secara otomatis';
-$lang['mail_list_add_edit_name']               = 'Nama Milis';
-$lang['mail_list_add_edit_customfield']        = 'Tambahkan Bidang Khusus';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Tanggal Ditambahkan';
-$lang['add_new_email_to']                      = 'Tambahkan Email Baru ke %s';
-$lang['import_emails_to']                      = 'Impor Email ke %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Impor File';
-$lang['mail_list_available_custom_fields']     = 'Terdapat Bidang Khusus';
-$lang['submit_import_emails']                  = 'Impor Email';
-$lang['btn_import_emails']                     = 'Impor Email (Excel)';
-$lang['btn_add_email_to_list']                 = 'Tambahkan Email ke Daftar ini';
-$lang['mail_lists_dt_list_name']               = 'Daftar Nama';
-$lang['mail_lists_dt_datecreated']             = 'Tanggal Dibuat';
-$lang['mail_lists_dt_creator']                 = 'Pembuat';
-$lang['email_added_to_mail_list_successfully'] = 'Email ditambahkan ke daftar';
-$lang['email_is_duplicate_mail_list']          = 'Email sudah ada di daftar ini';
-
 # String Media
 $lang['media_files'] = 'File';
 
@@ -445,7 +410,7 @@ $lang['settings_sales_thousand_separator']                         	= 'Pemisah R
 $lang['settings_sales_currency_placement']                         	= 'Penempatan Simbol Mata Uang';
 $lang['settings_sales_currency_placement_before']                  	= 'Sebelum Jumlah';
 $lang['settings_sales_currency_placement_after']                   	= 'Setelah Jumlah';
-$lang['settings_sales_require_client_logged_in_to_view_invoice']   	= 'Klien dihauskan login untuk melihat Faktur?';
+$lang['settings_sales_require_client_logged_in_to_view_invoice']   	= 'Klien diharuskan login untuk melihat Faktur?';
 $lang['settings_sales_next_invoice_number']                        	= 'Nomor Faktur Selanjutnya';
 $lang['settings_sales_next_invoice_number_tooltip']                	= 'Isi dengan nomor 1 jika anda ingin memulai nomor Faktur dari awal.';
 $lang['settings_sales_decrement_invoice_number_on_delete']         	= 'Kurangi nomor Faktur saat Faktur terakhir Dihapus?';
@@ -516,14 +481,14 @@ $lang['dt_paginate_first']    = 'Pertama';
 $lang['dt_paginate_last']     = 'Terakhir';
 $lang['dt_paginate_next']     = 'Berikutnya';
 $lang['dt_paginate_previous'] = 'Sebelumnya';
-$lang['dt_search']            = 'Pencarian:';
+$lang['dt_search']            = 'Mencari:';
 $lang['dt_zero_records']      = 'Tidak ada catatan yang cocok ditemukan';
 $lang['dt_loading_records']   = 'Sedang Memuat...';
 $lang['dt_length_menu']       = 'Lihat _MENU_ Entri';
 $lang['dt_info_filtered']     = '(Disaring dari _MAX_ Total {0})';
 $lang['dt_info_empty']        = 'Menampilkan 0 hingga 0 dari 0 {0}';
 $lang['dt_info']              = 'Menampilkan _START_ hingga _END_ dari _TOTAL_ {0}';
-$lang['dt_empty_table']       = 'Tidak ada {0} ditemukan';
+$lang['dt_empty_table']       = 'Belum menemukan {0}';
 $lang['dt_sort_ascending']    = 'aktifkan untuk mengurutkan kolom menaik';
 $lang['dt_sort_descending']   = 'aktifkan untuk menyortir kolom menurun';
 
@@ -548,13 +513,12 @@ $lang['als_sales'] 					= 'Penjualan';
 $lang['als_staff'] 					= 'Staf';
 $lang['als_tasks'] 					= 'Tugas';
 $lang['als_kb']    					= 'Panduan Dasar';
-$lang['als_surveys']               	= 'Survei';
 $lang['als_media']                 	= 'File / Media';
 $lang['als_reports']               	= 'Laporan';
 $lang['als_reports_sales_submenu'] 	= 'Penjualan';
 $lang['als_reports_leads_submenu'] 	= 'Prospek';
 $lang['als_kb_articles_submenu']   	= 'Artikel Panduan Dasar';
-$lang['als_utilities']             	= 'Alat Utilitas';
+$lang['als_utilities']             	= 'Alat Berguna';
 $lang['als_announcements_submenu'] 	= 'Pengumuman';
 $lang['als_calendar_submenu']      	= 'Kalender';
 $lang['als_activity_log_submenu']  	= 'Log Aktivitas';
@@ -580,8 +544,8 @@ $lang['new_ticket']                                          = 'Buka Tiket Baru'
 $lang['tickets']                                             = 'Tiket';
 $lang['ticket']                                              = 'Tiket';
 $lang['ticket_lowercase']                                    = 'tiket';
-$lang['support_tickets']                                     = 'Tiket Dukungan';
-$lang['support_ticket']                                      = 'Tiket Dukungan';
+$lang['support_tickets']                                     = 'Tiket Bantuan';
+$lang['support_ticket']                                      = 'Tiket Bantuan';
 $lang['ticket_settings_to']                                  = 'Nama';
 $lang['ticket_settings_email']                               = 'Alamat email';
 $lang['ticket_settings_departments']                         = 'Divisi';
@@ -671,56 +635,6 @@ $lang['staff_edit_profile_change_your_password']       		= 'Ubah Kata Sandi';
 $lang['staff_edit_profile_change_old_password']        		= 'Kata Sandi Lama';
 $lang['staff_edit_profile_change_new_password']        		= 'Kata Sandi Baru';
 $lang['staff_edit_profile_change_repeat_new_password'] 		= 'Ulangi Kata Sandi Baru';
-
-# String Survei/Surveys
-$lang['new_survey']                    					= 'Survei Baru';
-$lang['surveys']                       					= 'Survei';
-$lang['survey']                        					= 'Survei';
-$lang['survey_lowercase']              					= 'survei';
-$lang['survey_no_mail_lists_selected'] 					= 'Tidak ada daftar email yang dipilih';
-$lang['survey_send_success_note']      					= 'Semua Email Survei (%s) akan dikirim melalui CRON';
-$lang['survey_result']                 					= 'Hasil untuk Survei: %s';
-$lang['question_string']               					= 'Pertanyaan';
-$lang['question_field_string']         					= 'Bidang';
-$lang['survey_list_view_tooltip']         				= 'Lihat Survey';
-$lang['survey_list_view_results_tooltip'] 				= 'Lihat Hasil';
-$lang['survey_add_edit_subject']                   		= 'Judul Survei';
-$lang['survey_add_edit_email_description']         		= 'Deskripsi Survei (Deskripsi pada Email)';
-$lang['survey_include_survey_link']                		= 'Sertakan link survei di deskripsi';
-$lang['survey_available_mail_lists_custom_fields'] 		= 'Bidang khusus yang tersedia dari daftar email';
-$lang['survey_mail_lists_custom_fields_tooltip']   		= 'Bidang khusus yang dapat digunakan pada editor email. TIP: Klik pada editor email dan kemudian pilih dari drop down menu yang akan ditambahkan secara otomatis.';
-$lang['survey_add_edit_short_description_view']    		= 'Deskripsi Singkat Survei (Keterangan Survei)';
-$lang['survey_add_edit_from']                      		= 'Dari (ditampilkan dalam email)';
-$lang['survey_add_edit_redirect_url']              		= 'URL Redirect Survei';
-$lang['survey_add_edit_red_url_note']              		= 'Kemana pengguna akan diarahkan ketika selesai mengisi survei? (kosongkan jika ingin tetap pada laman ini) ';
-$lang['survey_add_edit_disabled']                  		= 'Nonaktifkan';
-$lang['survey_add_edit_only_for_logged_in']        		= 'Hanya untuk peserta yang login (staf dan atau klien)';
-$lang['send_survey_string']                        		= 'Kirim Survei';
-$lang['survey_send_mail_list_clients']             		= 'Klien';
-$lang['survey_send_mail_list_staff']               		= 'Staf';
-$lang['survey_send_mail_lists_string']             		= 'Milis';
-$lang['survey_send_mail_lists_note_logged_in']     		= 'Catatan: Jika Anda mengirim survei hanya untuk anggota milis yang diharuskan login, maka jangan centang pilihan ini.';
-$lang['survey_send_string']                        		= 'Kirim';
-$lang['survey_send_to_total']  							= 'Kirim ke %s email';
-$lang['survey_send_till_now']  							= 'Hingga saat ini';
-$lang['survey_send_finished']  							= 'Survei yang selesai dikirim: % s';
-$lang['survey_added_to_queue'] 							= 'Survei ini ditambahkan ke antrian cron pada %s';
-$lang['survey_questions_string']          				= 'Pertanyaan';
-$lang['survey_insert_field']              				= 'Masukkan Kolom/Bidang';
-$lang['survey_field_checkbox']            				= 'Kotak Centang';
-$lang['survey_field_radio']               				= 'Radio';
-$lang['survey_field_input']               				= 'Bidang Masukkan';
-$lang['survey_field_textarea']            				= 'Teks Area';
-$lang['survey_question_required']         				= 'Wajib';
-$lang['survey_question_only_for_preview'] 				= 'Hanya untuk pratinjau';
-$lang['survey_create_first']              				= 'Anda perlu membuat survei terlebih dahulu baru Anda dapat memasukkan pertanyaan.';
-$lang['survey_dt_name']               					= 'Nama';
-$lang['survey_dt_total_questions']    					= 'Total Pertanyaan';
-$lang['survey_dt_total_participants'] 					= 'Jumlah Peserta';
-$lang['survey_dt_date_created']       					= 'Tanggal Dibuat';
-$lang['survey_dt_active']             					= 'Aktif';
-$lang['survey_text_questions_results'] 					= 'Teks hasil pertanyaan';
-$lang['survey_view_all_answers']       					= 'Lihat Semua Jawaban';
 
 # String Tugas Staf
 $lang['new_task']       					= 'Tugas Baru';
@@ -1017,7 +931,7 @@ $lang['invoice_html_online_payment']             = 'Pembayaran Online';
 $lang['invoice_html_online_payment_button_text'] = 'Bayar Sekarang';
 $lang['invoice_html_payment_modes_not_selected'] = 'Mohon Pilih Metode Pembayaran';
 $lang['invoice_html_amount_blank']               = 'Total Pembayaran tidak Boleh Nol atau Kosong';
-$lang['invoice_html_offline_payment']            = 'Pembayaran Offline';
+$lang['invoice_html_offline_payment']            = 'Pembayaran Manual';
 $lang['invoice_html_amount']                     = 'Jumlah';
 
 
@@ -1069,9 +983,7 @@ $lang['payment_mode']         		= 'Metode Pembayaran';
 $lang['payment_view_heading'] 		= 'Pembayaran';
 
 # Settings
-$lang['settings_allow_payment_amount_to_be_modified']               = 'Izinkan klien mengubah jumlah yang akan dibayar (untuk pembayaran online)?';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Berapa banyak email survei yang dikirim per jam?';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Pilihan ini digunakan saat mengirim Survei. Survei cron berjalan setiap 5 menit. Jadi Anda dapat mengatur berapa banyak email dikirim setiap 5 menit';
+$lang['settings_allow_payment_amount_to_be_modified']               = 'Izinkan klien mengubah jumlah yang akan dibayar (untuk pembayaran online) ?';
 $lang['settings_delete_only_on_last_invoice']                       = 'Menghapus faktur diperbolehkan hanya untuk faktur terakhir';
 $lang['settings_sales_estimate_prefix']                             = 'Nomor Awalan Estimasi';
 $lang['settings_sales_next_estimate_number']                        = 'Nomor Estimasi Berikutnya';
@@ -1343,7 +1255,6 @@ $lang['contract_renewal_old_end_date'] 				= 'Kontrak Lama diakhiri pada: %s';
 $lang['contract_attachment']           				= 'Lampiran';
 
 # String Admin Aside Menu
-$lang['als_goals_tracking']     					= 'Pelacakan Target/Goals';
 $lang['als_expenses']           					= 'Pengeluaran';
 $lang['als_reports_expenses']   					= 'Pengeluaran';
 $lang['als_expenses_vs_income'] 					= 'Pengeluaran vs Pendapatan';
@@ -1353,49 +1264,6 @@ $lang['invoice_attach_file']           				= 'Lampirkan File';
 $lang['invoice_mark_as_sent']          				= 'Tandai sbg Telah Dikirim';
 $lang['invoice_marked_as_sent']        				= 'Faktur telah berhasil ditandai sbg Telah Dikirim';
 $lang['invoice_marked_as_sent_failed'] 				= 'Gagal menandai Faktur sbg Telah Dikirim';
-
-# String Pelacakan Target/Goals Tracking
-$lang['goals']                                         	= 'Target';
-$lang['goal']                                          	= 'Target';
-$lang['goals_tracking']                                	= 'Pelacakan Target';
-$lang['new_goal']                                      	= 'Target Baru';
-$lang['goal_lowercase']                                	= 'target';
-$lang['goal_start_date']                               	= 'Tanggal Mulai';
-$lang['goal_end_date']                                 	= 'Tanggal Berakhir';
-$lang['goal_subject']                                  	= 'Judul';
-$lang['goal_description']                              	= 'Deskripsi';
-$lang['goal_type']                                     	= 'Tipe Target';
-$lang['goal_achievement']                              	= 'Pencapaian';
-$lang['goal_contract_type']                            	= 'Tipe Kontrak';
-$lang['goal_notify_when_fail']                         	= 'Beritahu anggota staf ketika target gagal dicapai';
-$lang['goal_notify_when_achieve']                      	= 'Beritahu anggota staf ketika target tercapai';
-$lang['goal_progress']                                 	= 'Progres';
-$lang['goal_total']                                    	= 'Total: %s';
-$lang['goal_result_heading']                           	= 'Progres Target';
-$lang['goal_income_shown_in_base_currency']            	= 'Total penghasilan ditampilkan dalam Mata Uang Utama Anda';
-$lang['goal_notify_when_end_date_arrives']             	= 'Anggota staf akan diberitahu ketika tanggal berakhir tiba.';
-$lang['goal_staff_members_notified_about_achievement'] 	= 'Anggota staf akan diberitahu tentang pencapaian target ini';
-$lang['goal_staff_members_notified_about_failure']     	= 'Anggota staf telah diberitahu tentang kegagalan ini';
-$lang['goal_notify_staff_manually']                    	= 'Beritahu Anggota Staf secara Manual';
-$lang['goal_notify_staff_notified_manually_success']  	= 'Anggota staf akan diberitahu tentang hasil target ini';
-$lang['goal_notify_staff_notified_manually_fail']      	= 'Gagal untuk memberitahu anggota staf tentang hasil target ini';
-$lang['goal_achieved'] 									= 'Tercapai';
-$lang['goal_failed']   									= 'Gagal';
-$lang['goal_close']    									= 'Hampir';
-
-$lang['goal_type_total_income']                                         = 'Total Pencapaian Penghasilan';
-$lang['goal_type_convert_leads']                                        = 'Mengkonversi X Prospek';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Kenaikan Jumlah Klien';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Tidak Termasuk Konversi Prospek';
-$lang['goal_type_increase_customers_with_leads_conversions']         	= 'Kenaikan Jumlah Klien';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] 	= 'Termasuk Konversi Prospek';
-$lang['goal_type_make_contracts_by_type_calc_database']              	= 'Buat Kontrak berdasarkan Tipe';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']      	= 'Dihitung dari tanggal ditambahkan ke database';
-$lang['goal_type_make_contracts_by_type_calc_date']                  	= 'Buat Kontrak Berdasarkan Tipe';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']          	= 'Dihitung dari tanggal mulai kontrak';
-$lang['goal_type_total_estimates_converted']                         	= 'X Estimasi di Konversi';
-$lang['goal_type_total_estimates_converted_subtext']                 	= 'Hanya Estimasi yang akan dikonversi menjadi Faktur yang akan diambil.';
-$lang['goal_type_income_subtext']                                    	= 'Pendapatan akan dihitung dalam Mata Uang Utama anda (tidak dikonversi).';
 
 # String Pembayaran
 $lang['payment_transaction_id'] 										= 'ID Transaksi';
@@ -1491,10 +1359,10 @@ $lang['clients_contracts_type'] 			= 'Tipe Kontrak';
 # Version 1.0.5
 # String Umum/General
 $lang['no_tax']                              		= 'Tanpa Pajak';
-$lang['numbers_not_formatted_while_editing'] 		= 'Nomor pada kolom input tida terformat saat edit/tambah item dan tetap tidak akan terformat. Jangan coba memmformatnya secara manual disini.';
+$lang['numbers_not_formatted_while_editing'] 		= 'Nomor pada kolom input tidak terformat saat edit/tambah item dan tetap tidak akan terformat. Jangan coba memformatnya secara manual disini.';
 
 # String Kontrak
-$lang['contracts_view_expired']         			= 'Kedaluarsa';
+$lang['contracts_view_expired']         			= 'Kadaluarsa';
 $lang['contracts_view_without_dateend'] 			= 'Kontrak tanpa Tanggal Berakhir';
 
 # String Template Email/Email Templates
@@ -1553,7 +1421,7 @@ $lang['customer_billing_copy']                                 = 'Salin Alamat P
 $lang['customer_map']                                          = 'Peta';
 $lang['set_password_email_sent_to_client']                     = 'Email untuk mengatur kata sandi berhasil dikirim ke klien';
 $lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profil diperbarui dan email untuk mengatur kata sandi berhasil dikirim ke klien';
-$lang['customer_attachments']                                  = 'Files';
+$lang['customer_attachments']                                  = 'Berkas';
 $lang['customer_longitude']                                    = 'Garis Bujur/Longitude (Google Maps)';
 $lang['customer_latitude']                                     = 'Garis Lintang/Latitude (Google Maps)';
 
@@ -1614,7 +1482,6 @@ $lang['task_public_help']          			= 'Jika Anda mengatur tugas ini kepada pub
 $lang['settings_general_favicon']                                            	= 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      	= 'Ekspor dokumen PDF klien dari portal klien sesuai dengan bahasa yang dipilih klien?';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] 	= 'Jika anda memilih YA, maka dokumen PDF yang diekspor oleh klien akan menggunakan bahasa yang digunakan Klien.';
-$lang['settings_cron_surveys']                                               	= 'Survei';
 $lang['settings_default_tax']                                                	= 'Pajak Standar';
 $lang['setup_calendar_by_departments']                                       	= 'Setel Kalender berdasarkan Divisi';
 $lang['settings_calendar']                                                   	= 'Kalender';
@@ -1677,21 +1544,6 @@ $lang['bulk_export_zip_payment_modes'] 		= 'Lakukan pembayaran dengan';
 $lang['bulk_export_include_tag']       		= 'Sertakan Tag';
 $lang['bulk_export_include_tag_help']  		= 'Contoh: Original atau Salin. Tag akan ditampilan pada PDF yang diekspor. Direkomendasikan untuk hanya memberikan 1 tag';
 
-
-## String Area Klien/Clients area
-$lang['auto_backup_options_updated']     	= 'Opsi Backup Otomatis Diperbarui';
-$lang['auto_backup_every']               	= 'Buat backup setiap X hari';
-$lang['auto_backup_enabled']             	= 'Diaktifkan (Dibutuhkan Cron)';
-$lang['auto_backup']                     	= 'Backup otomatis';
-$lang['backup_delete']                   	= 'Backup Dihapus';
-$lang['backup_success']                  	= 'Backup is made successfuly';
-$lang['utility_backup']                  	= 'Backup Database';
-$lang['utility_create_new_backup_db']    	= 'Buat Backup Database';
-$lang['utility_backup_table_backupname'] 	= 'Backup';
-$lang['utility_backup_table_backupsize'] 	= 'Ukuran Backup';
-$lang['utility_backup_table_backupdate'] 	= 'Tanggal';
-$lang['utility_db_backup_note']          	= 'Catatan: Karena waktu eksekusi dan memori yang tersedia untuk PHP terbatas, back up database yang sangat besar mungkin tidak dapat dilakukan. Jika database Anda sangat besar Anda mungkin perlu untuk backup langsung dari SQL server Anda melalui baris perintah, atau minta admin server Anda melakukannya untuk Anda jika Anda tidak memiliki hak akses root.';
-
 # Version 1.0.7
 ## String Klien-Portal/Customers - portal
 $lang['clients_nav_proposals'] 				= 'Proposal';
@@ -1744,7 +1596,7 @@ $lang['bulk_export_pdf_proposals'] 			= 'Proposal';
 # String Faktur
 $lang['delete_invoice'] 					= 'Hapus';
 $lang['items']      						= 'Item';
-$lang['support']    						= 'Dukungan';
+$lang['support']    						= 'Bantuan';
 $lang['new_ticket'] 						= 'Tiket Baru';
 
 # String Pengingat/Reminders
@@ -1899,26 +1751,12 @@ $lang['custom_field_show_on_client_portal']      = 'Tampilkan di Portal Klien';
 $lang['custom_field_show_on_client_portal_help'] = 'Jika bidang ini dicentang, maka juga akan ditampilkan dalam tabel';
 $lang['custom_field_visibility']                 = 'Keterlihatan';
 
-# String Peralatan #Pembangun Menu/Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Anda juga dapat menambahkan terjemahan string disini. Jadi jika staf / sistem memiliki bahasa lain maka default nama-nama item menu akan dikeluarkan dalam bahasa staf. Kalau tidak jika string tidak ada dalam file terjemahan akan diambil string yang Anda masukkan di sini.';
-$lang['utilities_menu_icon']                = 'Ikon';
-$lang['active_menu_items']                  = 'Item Menu yang Aktif';
-$lang['inactive_menu_items']                = 'Item Menu yang Nonaktif';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Nama';
-$lang['utilities_menu_save']                = 'Save Menu';
-
 # String Panduan Dasar
 $lang['view_articles_list']     = 'Lihat Artikel';
 $lang['view_articles_list_all'] = 'Semua Artikel';
 $lang['als_all_articles']       = 'Semua Artikel';
 $lang['als_kb_groups']          = 'Kategori';
 
-# String Customizer Menu
-$lang['menu_builder']            = 'Pengaturan Menu';
-$lang['main_menu']               = 'Menu Utama';
-$lang['setup_menu']              = 'Pengaturan Menu';
-$lang['utilities_menu_url_help'] = '%s otomatis ditambahkan untuk URL';
 
 # String Spam Filter - Tiket
 $lang['spam_filters']                 = 'Filter Spam';
@@ -1967,7 +1805,6 @@ $lang['ticket_pipe_status']   		= 'Status';
 # String Beranda/Home
 $lang['home_latest_activity']   = 'Aktivitas Terakhir';
 $lang['home_my_tasks']          = 'Tugas Saya';
-$lang['home_latest_activity']   = 'Aktivitas Terakhir';
 $lang['home_my_todo_items']     = 'Item To-Do Saya';
 $lang['home_widget_view_all']   = 'Lihat Semua';
 $lang['home_stats_full_report'] = 'Laporan Penuh';
@@ -2000,11 +1837,7 @@ $lang['not_received_lead_imported_email_integration'] = 'Prospek diimpor dari In
 $lang['not_lead_imported_attachment']                 = 'Impor lampiran dari Email';
 $lang['not_estimate_status_change']                   = 'Impor lampiran dari Email';
 $lang['not_estimate_status_updated']                  = 'Status Estimasi Diperbarui: Dari: %s menjadi %s';
-$lang['not_goal_message_success']                     = 'Selamat! Kita berhasil mencapai Target baru.<br />Tipe Target: %s
-<br />Pencapaian Target: %s
-<br />Total Pencapaian: %s
-<br />Tanggal Mulai: %s
-<br />Tanggal Berakahir: %s';
+
 $lang['not_assigned_lead_to_you']             						= 'Prospek %s dikaitkan dengan anda';
 $lang['not_lead_activity_assigned_to']        						= '%s dikaitkan dengan %s';
 $lang['not_lead_activity_attachment_deleted'] 						= 'Hapus Lampiran';
@@ -2149,12 +1982,12 @@ $lang['announcements_recent']   = 'Pengumuman Terbaru';
 $lang['zip_invoices']         	= 'Kompres Faktur (dalam ZIP)';
 $lang['zip_estimates']        	= 'Kompres Estimasi (dalam ZIP)';
 $lang['zip_payments']         	= 'Kompres Pembayaran (dalam ZIP)';
-$lang['setup_help']           	= 'Bantuan';
+$lang['setup_help']           	= 'Dukungan';
 $lang['clients_list_company'] 	= 'Perusahaan';
 $lang['dt_button_export']     	= 'Ekspor';
-$lang['dt_entries']         	= 'masukan';
+$lang['dt_entries']         	= 'data';
 $lang['invoice_total_paid'] 	= 'Total Dibayar';
-$lang['invoice_amount_due'] 	= 'Jumlah yang harus dibayar dibayarkan';
+$lang['invoice_amount_due'] 	= 'Jumlah yang harus dibayar';
 
 # String Kalender/Calendar
 $lang['calendar_project'] 		= 'Proyek';
@@ -2472,8 +2305,8 @@ $lang['auto_close_ticket_after']                 = 'Otomatis Tutup Tiket Setelah
 $lang['event_description']                       = 'Deskripsi';
 $lang['delete_event']                            = 'Hapus';
 $lang['not_new_ticket_created']                  = 'Tiket baru dibuat untuk divisi anda - %s';
-$lang['receive_notification_on_new_ticket']      = 'Terima Pengumuman untuk tiket yang baru dibuat';
-$lang['receive_notification_on_new_ticket_help'] = 'Semua anggota staf yang berada dalam divisi yang dituju oleh tiket akan menerima Pengumuman bahwa tiket baru telah dibuat';
+$lang['receive_notification_on_new_ticket']      = 'Terima Pemberitahuan untuk tiket yang baru dibuat';
+$lang['receive_notification_on_new_ticket_help'] = 'Semua anggota staf yang berada dalam divisi yang dituju oleh tiket akan menerima Pemberitahuan bahwa tiket baru telah dibuat';
 $lang['event_updated']                           = 'Agenda Berhasil Diperbarui';
 $lang['customer_contacts']                       = 'Kontak';
 $lang['new_contact']                             = 'Kontak Baru';
@@ -2526,8 +2359,6 @@ $lang['expense_repeat_every']              		 = 'Ulangi setiap';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Alihkan ke KanBan';
-$lang['survey_no_questions']                      = 'Survei ini belum memiliki pertanyaan sama sekali.';
-$lang['survey_submit']                            = 'Kirim';
 $lang['contract_content']                         = 'Kontrak';
 $lang['contract_save']                            = 'Simpan Kontrak';
 $lang['contract_send_to_email']                   = 'Kirim ke Email';
@@ -2628,10 +2459,9 @@ $lang['kb_article_slug']                     = 'Slug';
 # Version 1.1.7
 $lang['email_template_ticket_warning']          = 'Jika tiket diimpor dengan email piping (pipeline) dan kontak tidak ada di CRM, maka bidang isian tidak akan diganti.';
 $lang['auto_stop_tasks_timers_on_new_timer']    = 'Hentikan semua timer berjalan lainnya saat memulai timer baru.';
-$lang['notification_when_customer_pay_invoice'] = 'Terima Pengumuman ketika pelanggan membayar faktur (tertanam)';
+$lang['notification_when_customer_pay_invoice'] = 'Terima Pemberitahuan ketika pelanggan membayar faktur (tertanam)';
 $lang['not_invoice_payment_recorded']           = 'Faktur pembayaran baru - %s';
 $lang['email_template_contact_warning']         = 'Jika kontak tidak login saat melakukan tindakan, kolom gabungan kontak tidak akan diganti.';
-$lang['theme_style']                            = 'Gaya Tema';
 $lang['change_role_permission_warning']         = 'Mengubah izin peran tidak akan memengaruhi izin anggota staf yang saat ini menggunakan peran ini.';
 $lang['task_copied_successfully']               = 'Tugas berhasil disalin';
 $lang['failed_to_copy_task']                    = 'Gagal menyalin tugas';
@@ -2654,7 +2484,7 @@ $lang['calendar_proposal_reminder']             = 'Pengingat Proposal';
 $lang['show_estimate_reminders_on_calendar']    = 'Pengingat Estimasi';
 $lang['show_invoice_reminders_on_calendar']     = 'Pengingat Faktur';
 $lang['show_proposal_reminders_on_calendar']    = 'Pengingat Proposal';
-$lang['proposal_due_after']                     = 'Proposal Jatuh Tempo setelah (days)';
+$lang['proposal_due_after']                     = 'Proposal Jatuh Tempo setelah (hari)';
 $lang['project_progress']                       = 'Progres';
 $lang['calculate_progress_through_tasks']       = 'Hitung progres melalui tugas';
 $lang['allow_customer_to_change_ticket_status'] = 'Memungkinkan Klien untuk mengubah status tiket dari area Klien';
@@ -2666,11 +2496,6 @@ $lang['to_date']                                = 'Sampai tanggal';
 $lang['not_results_found']                      = 'Tidak ada hasil yang ditemukan';
 $lang['lead_lock_after_convert_to_customer']    = 'Jangan izinkan prospek untuk diedit setelah dikonversi menjadi Klien (administrator tidak terpengaruh)';
 $lang['default_pipeline_sort']                  = 'Urutan pipeline default';
-$lang['not_goal_message_failed']                = 'Kami gagal mencapai tujuan!<br /> Tipe Pencapaian: %s
-<br />Pencapaian Target: %s
-<br />Total Prestasi: %s
-<br />Waktu Dimulai: %s
-<br />Waktu Berakhir: %s';
 $lang['toggle_full_view']             = 'Alihkan pada tampilan penuh';
 $lang['not_estimate_invoice_deleted'] = 'menghapus faktur yang dibuat';
 $lang['not_task_new_comment']         = 'mengomentari tugas %s';
@@ -2685,13 +2510,13 @@ $lang['not_commented_on_project_discussion']    = 'Komentar baru pada diskusi pr
 $lang['all_staff_members']                      = 'Semua anggota staf';
 $lang['help_project_permissions']               = 'TAMPILKAN memungkinkan anggota staf untuk melihat SEMUA proyek. Jika Anda hanya ingin mereka melihat proyek yang ditugaskan kepada mereka (ditambahkan sebagai anggota), jangan berikan izin TAMPILKAN.';
 $lang['help_tasks_permissions']                 = 'TAMPILKAN memungkinkan anggota staf untuk melihat SEMUA tugas. Jika Anda hanya ingin mereka melihat tugas yang ditugaskan atau diikuti, jangan berikan izin TAMPILKAN.';
-$lang['expense_recurring_days']                 = 'Hari(s)';
-$lang['expense_recurring_weeks']                = 'Minggu(s)';
-$lang['expense_recurring_months']               = 'Bulan(s)';
-$lang['expense_recurring_years']                = 'Tahun(s)';
+$lang['expense_recurring_days']                 = 'Hari';
+$lang['expense_recurring_weeks']                = 'Minggu';
+$lang['expense_recurring_months']               = 'Bulan';
+$lang['expense_recurring_years']                = 'Tahun';
 $lang['reset_to_default_color']                 = 'Setel ulang ke warna default';
 $lang['pdf_logo_width']                         = 'Lebar Logo (PX)';
-$lang['drop_files_here_to_upload']              = 'Jatuhkan file di sini untuk mengunggah';
+$lang['drop_files_here_to_upload']              = 'Seret file di sini untuk mengunggah';
 $lang['browser_not_support_drag_and_drop']      = 'Peramban Anda tidak mendukung pengunggahan file \'Tarik dan Lepaskan\'';
 $lang['remove_file']                            = 'Hapus file';
 $lang['you_can_not_upload_any_more_files']      = 'Anda tidak dapat mengunggah file lagi';
@@ -2708,7 +2533,7 @@ $lang['dept_encryption']                        = 'Enkripsi';
 $lang['dept_email_password']                    = 'Kata Sandi';
 $lang['dept_email_no_encryption']               = 'Tidak Ada Enkripsi';
 $lang['failed_to_decrypt_password']             = 'Gagal mendekripsi kata sandi';
-$lang['delete_mail_after_import']               = 'Hapus email setelah impor?';
+$lang['delete_mail_after_import']               = 'Hapus email setelah impor ?';
 $lang['expiry_reminder_enabled']                = 'Kirim pengingat kedaluwarsa';
 $lang['send_expiry_reminder_before']            = 'Kirim pengingat kedaluwarsa sebelum (HARI)';
 $lang['not_expiry_reminder_sent']               = 'Pengingat kedaluwarsa terkirim';
@@ -2810,15 +2635,10 @@ $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 $lang['milestone_description']                      = 'Deskripsi';
 $lang['description_visible_to_customer']            = 'Tampilkan deskripsi kepada klien';
 $lang['upcoming_tasks']                             = 'Tugas Mendatang';
-$lang['paymentmethod_two_checkout_account_number']  = 'Account Number (Seller ID)';
-$lang['paymentmethod_two_checkout_private_key']     = 'Private Key';
-$lang['paymentmethod_two_checkout_publishable_key'] = 'Publishable Key';
 $lang['payment_credit_card_number']                 = 'Nomor Kartu';
 $lang['payment_credit_card_expiration_date']        = 'Tanggal Kadaluarsa';
 $lang['payment_billing_email']                      = 'Email';
 $lang['submit_payment']                             = 'Kirim Pembayaran';
-$lang['2checkout_notice_payment']                   = 'Rincian kartu kredit diproses melalui token aman yang disediakan dari 2CheckOut';
-$lang['2checkout_usage_notice']                     = 'SSL diperlukan jika Anda menggunakan API pembayaran 2Checkout. Ini diperlukan untuk melakukan panggilan aman otorisasi dan token. Sistem akan berfungsi tanpa SSL, namun ini akan membuat Anda tidak patuh, yang berisiko izin API Anda dinonaktifkan.';
 $lang['custom_field_disallow_customer_to_edit']     = 'Larang klien mengedit bidang ini';
 $lang['project_due_notice']                         = 'Proyek ini akan berakhir dalam %s hari';
 $lang['not_lead_added_attachment']                  = 'tambahkan lampiran baru ke prospek %s';
@@ -2939,8 +2759,6 @@ $lang['task_checklist_item_completed_by']                   = 'Diselesaikan oleh
 $lang['staff_email_signature_help']                         = 'Jika kosong, tanda tangan email default dari pengaturan akan digunakan';
 $lang['default_task_priority']                              = 'Prioritas Default';
 $lang['project_send_created_email']                         = 'Kirim email yang dibuat oleh proyek';
-$lang['survey_send_to_lists']                               = 'Daftar pengiriman survei';
-$lang['survey_send_notice']                                 = 'Email akan dikirim melalui CRON JOB per jam.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Tampilkan faktur pembayaran (transaksi) di PDF';
@@ -2952,7 +2770,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Tampilkan di area Klien'
 $lang['customer_attachments_show_notice']            = 'Hanya file yang diunggah dari profil klien yang memiliki kemampuan untuk ditampilkan / disembunyikan di area klien.';
 $lang['customer_profile_files']                      = 'Files';
 $lang['no_files_found']                              = 'Tidak Ada File Ditemukan';
-$lang['survey_customers_all']                        = 'Semua Klien';
 $lang['custom_field_column']                         = 'Grid (Kolom Bootstrap) - Max is 12';
 $lang['task_status']                                 = 'Status';
 $lang['task_status_1']                               = 'Belum Dimulai';
@@ -2969,7 +2786,6 @@ $lang['show_pay_link_to_invoice_pdf']                = 'Tampilkan tautan pembaya
 $lang['no_leads_found']                              = 'Tidak Ada Propek Ditemukan';
 $lang['created_today']                               = 'Dibuat Hari Ini';
 $lang['total_tasks_deleted']                         = 'Total Tugas yang Dihapus: %s';
-$lang['total_tickets_delete']                        = 'Total Tiket yang Dihapus: %s';
 $lang['total_tickets_delete']                        = 'Total Tiket yang Dihapus: %s';
 $lang['format_letter_portrait']                      = 'Letter Portrait';
 $lang['format_letter_landscape']                     = 'Letter Landscape';
@@ -3109,7 +2925,7 @@ $lang['and_track_duplicate_by_field']                       = '+ bidang (biarkan
 $lang['create_the_duplicate_form_data_as_task']             = 'Buat duplikat data %s sebagai tugas dan kaitkan kepada staf yang bertanggung jawab';
 $lang['create_the_duplicate_form_data_as_task_help']        = 'Digunakan untuk peninjauan lebih lanjut tentang pengajuan dan mengambil tindakan yang diperlukan';
 $lang['currently_selected']                                 = 'Baru Saja Dipilih';
-$lang['search_ajax_empty']                                  = 'Pilih dan mulai mengetik=';
+$lang['search_ajax_empty']                                  = 'Pilih dan mulai mengetik...';
 $lang['search_ajax_placeholder']                            = 'Ketik untuk mencari...';
 $lang['search_ajax_searching']                              = 'Mencari...';
 $lang['search_ajax_initialized']                            = 'Mulai mengetik untuk mencari';
@@ -3156,13 +2972,12 @@ $lang['show_primary_contact']                            = 'Tampilkan nama lengk
 $lang['view_members_timesheets']                         = 'Lihat semua absensi';
 $lang['priority']                                        = 'Prioritas';
 $lang['fetch_from_google']                               = 'Ambil dari Google';
-$lang['customer_fetch_lat_lng_usage']                    = 'Isi alamant, kota dan negara sebelum mengambil untuk mendapatkan hasil yang terbaik.';
+$lang['customer_fetch_lat_lng_usage']                    = 'Isi alamat, kota dan negara sebelum mengambil untuk mendapatkan hasil yang terbaik.';
 $lang['g_search_address_not_found']                      = 'Alamat ini tidak ditemukan, mohon coba kembali';
 $lang['proposals_report']                                = 'Laporan Proposal';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Jika anggota staf tidak memiliki izin untuk klien, \'TAMPILKAN\' hanya untuk membuka tiket baru dari area admin untuk kontak klien yang ditugaskan sebagai admin klien.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Izinkan anggota staf membuka tiket ke semua kontak? Allow staff members to open tickets to all contacts?';
 $lang['charts_based_report']                             = 'Grafik Berdasarkan Laporan';
-$lang['delete_backups_older_then']                       = 'Otomatis hapus cadangan yang lebih lama dari X hari (setel 0 untuk menonaktifkan)';
 $lang['responsible_admin']                               = 'Admin yang Bertanggung Jawab';
 $lang['tags']                                            = 'Tag';
 $lang['tag']                                             = 'Tag';
@@ -3601,13 +3416,13 @@ $lang['cycles_passed']                                          = 'Lolos %s';
 $lang['api_key_not_set_error_message']                          = 'Kunci API tidak terkonfigurasi, klik tautan berikut untuk mengkonfigurasi kunci API: %s';
 $lang['subscription']                                           = 'Layanan Berlangganan';
 $lang['subscription_lowercase']                                 = 'layanan berlangganan';
-$lang['subscriptions']                                          = 'Layanan Berlangganan';
+$lang['subscriptions']                                          = 'Langganan';
 $lang['tax_is_used_in_subscriptions_warning']                   = 'Anda tidak dapat memperbarui Pajak ini karena digunakan pada layanan berlangganan.';
 $lang['credit_card']                                            = 'Kartu Kredit';
 $lang['update_credit_card']                                     = 'Perbarui Kartu Kredit';
 $lang['credit_card_update_info']                                = 'Ingin memperbarui kartu kredit yang ada di arsip kami? Berikan detail baru di sini. Informasi kartu Anda tidak akan pernah langsung menyentuh server kami.';
 $lang['update_card_details']                                    = 'Perbarui Detail Kartu';
-$lang['update_card_btn']                                        = 'Pernarui Kartu';
+$lang['update_card_btn']                                        = 'Perbarui Kartu';
 $lang['subscription_name']                                      = 'Nama Klien';
 $lang['subscriptions_description']                              = 'Deskripsi';
 $lang['subscribe']                                              = 'Berlangganan';
@@ -3665,7 +3480,6 @@ $lang['view_consent']                                           = 'Lihat Persetu
 $lang['transfer_consent']                                       = 'Serahkan Persetujuan';
 $lang['view_public_form']                                       = 'Lihat Form Publik';
 $lang['update_consent']                                         = 'Perbarui Persetujuan';
-$lang['update_consent']                                         = 'Perbarui Persetujuan';
 $lang['consent_last_updated']                                   = 'Terakhir Diperbarui: %s';
 $lang['showing_search_result']                                  = 'Hasil pencarian untuk: %s';
 $lang['per_page']                                               = 'Per Halaman';
@@ -3708,65 +3522,207 @@ $lang['gdpr_short'] = 'GDPR';
 $lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Izinkan staf non-admin menghapus lampiran pada Tiket';
 
 # Version 2.1.0
-$lang['contract_number']                                = 'Contract Number';
-$lang['project_changing_status_recurring_tasks_notice'] = 'You are changing the status to {0}, all recurring tasks will be cancelled';
-$lang['not_contract_signed']                            = 'Contract with subject %s has been signed by the customer';
+$lang['contract_number']                                = 'Nomor Kontrak';
+$lang['project_changing_status_recurring_tasks_notice'] = 'Anda mengubah status menjadi {0}, semua tugas berulang akan dibatalkan';
+$lang['not_contract_signed']                            = 'Kontrak dengan subjek %s telah ditandatangani oleh pelanggan';
 $lang['the_number_sign']                                = '#';
-$lang['not_new_ticket_reply']                           = 'Customer replied to ticket - %s';
-$lang['receive_notification_on_new_ticket_replies']     = 'Receive notification when customer reply to a ticket';
-$lang['receive_notification_on_new_ticket_reply_help']  = 'All staff members which belong to the ticket department will receive notification when customer reply to a ticket';
-$lang['payment_gateway_enable_paypal']                  = 'Enable PayPal Payments';
-$lang['project_member']                                 = 'Project Member';
-$lang['contract_notes']                                 = 'Notes';
-$lang['contract_add_note']                              = 'Add Note';
+$lang['not_new_ticket_reply']                           = 'Pelanggan membalas tiket - %s';
+$lang['receive_notification_on_new_ticket_replies']     = 'Terima pemberitahuan ketika pelanggan membalas tiket';
+$lang['receive_notification_on_new_ticket_reply_help']  = 'Semua anggota staf yang termasuk dalam departemen tiket akan menerima pemberitahuan saat pelanggan membalas tiket';
+$lang['payment_gateway_enable_paypal']                  = 'Aktifkan Pembayaran PayPal';
+$lang['project_member']                                 = 'Anggota Proyek';
+$lang['contract_notes']                                 = 'Catatan';
+$lang['contract_add_note']                              = 'Tambah Catatan';
 
 # Version 2.1.1
-$lang['frequency']         = 'Frequency';
-$lang['frequency_every']   = 'Every %s';
-$lang['last_invoice_date'] = 'Last Invoice Date';
-$lang['next_invoice_date_list'] = 'Next Invoice Date';
-$lang['enter_new_card']    = 'Enter New Card';
+$lang['frequency']         = 'Frekuensi';
+$lang['frequency_every']   = 'Setiap %s';
+$lang['last_invoice_date'] = 'Tanggal Faktur Terakhir';
+$lang['next_invoice_date_list'] = 'Tanggal Faktur Berikutnya';
+$lang['enter_new_card']    = 'Masukkan Kartu Baru';
 
 # Version 2.2.0
-$lang['save_and_record_payment']                                     = 'Save & Record Payment';
-$lang['choose_from_google_drive']                                    = 'Choose from Google Drive';
-$lang['open_in_google']                                              = 'Open In Google';
+$lang['save_and_record_payment']                                     = 'Simpan & Rekam Pembayaran';
+$lang['choose_from_google_drive']                                    = 'Pilih dari Google Drive';
+$lang['open_in_google']                                              = 'Buka di Google';
 $lang['google_picker']                                               = 'Google Picker';
-$lang['enable_google_picker']                                        = 'Enable Google Picker';
+$lang['enable_google_picker']                                        = 'Aktifkan Google Picker';
 $lang['google_api_client_id']                                        = 'Google API Client ID';
-$lang['subtract_tax_total_from_amount']                              = 'Subtract TAX total (%s) from amount';
-$lang['expense_subtract_info_text']                                  = 'Use this option to subtract the total tax amount from the expense amount, useful when you entered the expense amount with tax included (tax inclusive).';
-$lang['company_exists_info']                                         = 'It looks that a customer with name %s already exists, if you still want to create the customer you can ignore this message.';
-$lang['import_items']                                                = 'Import Items';
-$lang['total_items_deleted']                                         = 'Total items deleted: %s';
-$lang['billable_amount']                                             = 'Billable Amount';
+$lang['subtract_tax_total_from_amount']                              = 'Kurangi total PAJAK (%s) dari jumlah';
+$lang['expense_subtract_info_text']                                  = 'Gunakan opsi ini untuk mengurangi jumlah pajak total dari jumlah pengeluaran, berguna ketika Anda memasukkan jumlah pengeluaran dengan termasuk pajak (termasuk pajak).';
+$lang['company_exists_info']                                         = 'Tampaknya klien dengan nama %s sudah ada, jika Anda masih ingin membuat klien ini, abaikan pesan ini.';
+$lang['import_items']                                                = 'Impor Item';
+$lang['total_items_deleted']                                         = 'Total item dihapus: %s';
+$lang['billable_amount']                                             = 'Jumlah Tagihan';
 $lang['last_child_invoice_date']                                     = 'Last Child Invoice Date';
-$lang['good_morning']                                                = 'Good Morning';
-$lang['good_afternoon']                                              = 'Good Afternoon';
-$lang['good_evening']                                                = 'Good Evening';
-$lang['description_in_invoice_item']                                 = 'Include description in invoice item';
-$lang['description_in_invoice_item_help']                            = 'Useful if you want to include additional information on the subscription invoice, e.q. what this subscription includes.';
-$lang['ticket_reminders']                                            = 'Reminders';
-$lang['ticket_set_reminder_title']                                   = 'Set Ticket Reminder';
-$lang['calendar_ticket_reminder']                                    = 'Ticket Reminders';
-$lang['email_verification_required']                                 = 'Email Verification Required';
-$lang['email_verification_required_message']                         = 'In order to access all the available features in the portal, first you must verify your email.';
-$lang['email_verification_required_message_mail']                    = 'We have sent you an email with verification instructions, if you haven\'t received the email please check the spam folder or click <a href="%s">here</a> to resend the verification mail.';
-$lang['email_already_verified']                                      = 'Your email is already verified';
-$lang['invalid_verification_key']                                    = 'Invalid verification key';
-$lang['verification_key_expired']                                    = 'Verification Key Expired';
-$lang['email_successfully_verified']                                 = 'Your email has been successfully verified.';
-$lang['email_successfully_verified_but_required_admin_confirmation'] = 'Your email has been successfully verified, you will be able to login once administrator confirm your account manually.';
-$lang['email_verification_mail_sent_successully']                    = 'We sent you an email with verification instructions';
-$lang['create_reminder']                                             = 'Create Reminder';
-$lang['no_reminders_for_this_task']                                  = 'No reminders for this task';
-$lang['reminder_for']                                                = 'Reminder for %s on %s';
-$lang['no_description_provided']                                     = 'No description provided';
-$lang['pay_with_card']                                               = 'Pay With Card';
-$lang['not_customer_uploaded_file']                                  = 'New File(s) Uploaded in Profile';
+$lang['good_morning']                                                = 'Selamat Pagi';
+$lang['good_afternoon']                                              = 'Selamat Sore';
+$lang['good_evening']                                                = 'Selamat Malam';
+$lang['description_in_invoice_item']                                 = 'Sertakan deskripsi dalam item faktur';
+$lang['description_in_invoice_item_help']                            = 'Berguna jika Anda ingin memasukkan informasi tambahan pada faktur langganan, mis. apa yang termasuk dalam langganan ini.';
+$lang['ticket_reminders']                                            = 'Pengingat';
+$lang['ticket_set_reminder_title']                                   = 'Atur Pengingat Tiket';
+$lang['calendar_ticket_reminder']                                    = 'Pengingat Tiket';
+$lang['email_verification_required']                                 = 'Verifikasi Email Diperlukan';
+$lang['email_verification_required_message']                         = 'Untuk mengakses semua fitur yang tersedia di portal, pertama Anda harus memverifikasi email Anda.';
+$lang['email_verification_required_message_mail']                    = 'Kami telah mengirimi Anda email dengan instruksi verifikasi, jika Anda belum menerima email tersebut harap periksa folder spam atau klik <a href="%s"> di sini </a> untuk mengirim ulang email verifikasi.';
+$lang['email_already_verified']                                      = 'Email Anda sudah diverifikasi';
+$lang['invalid_verification_key']                                    = 'Kunci verifikasi tidak valid';
+$lang['verification_key_expired']                                    = 'Kunci Verifikasi Kedaluwarsa';
+$lang['email_successfully_verified']                                 = 'Email Anda telah berhasil diverifikasi.';
+$lang['email_successfully_verified_but_required_admin_confirmation'] = 'Email Anda telah berhasil diverifikasi, Anda akan dapat login setelah administrator mengkonfirmasi akun Anda secara manual.';
+$lang['email_verification_mail_sent_successully']                    = 'Kami mengirimi Anda email dengan instruksi verifikasi';
+$lang['create_reminder']                                             = 'Buat Pengingat';
+$lang['no_reminders_for_this_task']                                  = 'Tidak ada pengingat untuk tugas ini';
+$lang['reminder_for']                                                = 'Pengingat untuk %s pada %s';
+$lang['no_description_provided']                                     = 'Tidak ada deskripsi yang tersedia';
+$lang['pay_with_card']                                               = 'Bayar dengan Kartu';
+$lang['not_customer_uploaded_file']                                  = 'File Baru Diupload di Profil';
 
 # Version 2.2.1
-$lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
-$lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
-$lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['customer_files_info_message'] = 'File dari proyek dan tugas yang ditautkan ke klien tidak ditampilkan di tabel ini.';
+$lang['ticket_import_reply_only'] = 'Cobalah untuk mengimpor hanya balasan tiket yang sebenarnya (tanpa kutipan / pesan yang diteruskan)';
+$lang['learn_more'] = 'Pelajari Lagi';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modul';
+$lang['module']                     = 'Modul';
+$lang['module_description']         = 'Deskripsi';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Setelan';
+$lang['module_version']             = 'Versi %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Anggota staf yang menggunakan peran ini';
+$lang['copy']                       = 'Salin';
+$lang['read_more']                  = 'Lanjut baca';
+$lang['show_less']                  = 'Tampilkan Lebih Sedikit';
+$lang['project_progress_text']      = 'Progres Proyek';
+$lang['timer_not_stopped_yet']                   = 'Timer ini belum berhenti';
+$lang['refunds']                                 = 'Pengembalian uang';
+$lang['refund']                                  = 'Pengembalian';
+$lang['refund_amount']                           = 'Jumlah yang Dikembalikan';
+$lang['not_refunds_found']                       = 'Tidak ada pengembalian dana yang ditemukan';
+$lang['refunds_applied_cant_delete_credit_note'] = 'Nota kredit ini menerapkan pengembalian dana, Anda harus menghapus dulu pengembalian dana sebelum menghapus catatan kredit.';
+
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'Anda tidak dapat mengatur ini %s sebagai berulang karena ini %s adalah anak dari berulang lain %s.';
+$lang['statement_credit_note_refund']              = 'Pengembalian Nota Kredit - %s';
+$lang['no_validation']                             = 'Tidak Ada Validasi';
+$lang['lead_unique_validation_on']                 = 'Lakukan validasi untuk duplikat prospek di bidang berikut:';
+$lang['phonenumber_exists']                        = 'Nomor telepon sudah ada';
+$lang['company_exists']                            = 'Perusahaan sudah ada';
+$lang['website_exists']                            = 'Situs web sudah ada';
+$lang['send_payment_receipt_to_client']            = 'Kirim Tanda Terima Pembayaran Ke Klien';
+$lang['payment_sent_successfully']                 = 'Tanda terima pembayaran berhasil dikirim.';
+$lang['payment_sent_failed']                       = 'Gagal mengirim tanda terima pembayaran.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Beberapa tag tidak diperbarui karena nama tag sudah ada';
+$lang['attach_statement']            = 'Lampirkan Pernyataan Pelanggan';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Hapus Kartu';
+$lang['delete_credit_card_info']          = 'Anda tidak dapat menghapus kartu kredit karena Anda memiliki langganan aktif.';
+$lang['credit_card_successfully_deleted'] = 'Kartu kredit berhasil dihapus.';
+$lang['subscription_incomplete']          = 'Tidak lengkap';
+$lang['subscription_incomplete_expired']  = 'Kedaluwarsa Tidak Lengkap';
+$lang['credit_card_short']                = 'Kartu';
+$lang['webhook_created']                  = 'Webhook berhasil dibuat.';
+$lang['subscriptions_terms_info']         = 'Masukkan syarat & ketentuan pelanggan untuk ditampilkan kepada pelanggan sebelum berlangganan.';
+$lang['subscription_complete_payment']    = 'Selesaikan Pembayaran';
+$lang['subscription_is_subscription_is_expired'] = 'Langganan ini sudah kedaluwarsa.';
+$lang['subscription_plan_currency_does_not_match'] = 'Mata uang paket yang dipilih tidak sesuai dengan mata uang yang dipilih di bawah ini.';
+$lang['subscription_first_billing_date_info'] = 'Biarkan kosong untuk menggunakan tanggal saat pelanggan berlangganan. Kolom ini harus tanggal masa depan, jika Anda memilih tanggal dan tanggal sudah lewat tetapi pelanggan belum berlangganan, tanggal pelanggan akan berlangganan yg akan digunakan.';
+$lang['stripe_subscription_select_plan'] = 'Pilih Paket Stripe';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Izin Anda saat ini tidak memungkinkan Anda untuk mengedit konten kontrak. Konsultasikan dengan administrator untuk memberi Anda izin mengedit kontrak.';
+$lang['mark_as_signed']                 = 'Tandai sebagai ditandatangani';
+$lang['unmark_as_signed']               = 'Hapus tanda sudah ditandatangani';
+$lang['marked_as_signed']               = 'Ditandai sebagai ditandatangani';
+$lang['contract_marked_as_signed_info'] = 'Kontrak ini secara manual ditandai sebagai ditandatangani.';
+$lang['save_and_send_later']            = 'Simpan dan Kirim Nanti';
+$lang['schedule']                       = 'Jadwal';
+$lang['schedule_email_for']             = 'Jadwalkan Email untuk %s';
+$lang['schedule_date']                  = 'Kapan Anda ingin mengirim email ?';
+$lang['email_scheduled_successfully']   = 'Email berhasil dijadwalkan';
+$lang['invoice_will_be_sent_at']        = 'Faktur akan dikirim pada %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Alamat IP yang Diabaikan';
+$lang['recaptcha_ignore_ips_info']          = 'Masukkan alamat IP yang dipisahkan koma yang Anda ingin reCaptcha melewati validasi.';
+$lang['show_task_reminders_on_calendar']    = 'Pengingat Tugas';
+$lang['contracts_about_to_expire']          = 'Kontrak Segera Berakhir';
+$lang['no_contracts_about_to_expire']       = 'Tidak ada kontrak yang akan berakhir dalam %s hari mendatang.';
+$lang['lead_value']                         = 'Nilai prospek';
+$lang['lead_value_tooltip']                 = 'Mata uang dasar akan digunakan.';
+$lang['leads_dt_lead_value']                = 'Nilai Prospek';
+$lang['leads_canban_lead_value']            = 'Nilai Prospek: %s';
+$lang['lead_add_edit_lead_value']           = 'Nilai Prospek';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Tampilkan Hari';
+$lang['gantt_view_week'] = 'Tampilkan Minggu';
+$lang['gantt_view_month'] = 'Tampilkan Bulan';
+$lang['gantt_view_year'] = 'Tampilkan Tahun';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = 'Persamaan format 24 jam, mis. 9 untuk jam 9 pagi atau 15 untuk jam 3 sore. Digunakan untuk Tugas berulang, pengingat Tugas, dll.';
+$lang['clients_nav_contacts']                                 = 'Kontak';
+$lang['clients_my_contacts']                                  = 'Kontak';
+$lang['clients_my_contact']                                   = 'Kontak';
+$lang['new_contact']                                          = 'Kontak Baru';
+$lang['customer_contact']                                     = 'Kontak Saya';
+$lang['clients_contact_added']                                = 'Kontak berhasil ditambahkan';
+$lang['clients_contact_updated']                              = 'Kontak berhasil diperbarui';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Izinkan kontak utama untuk mengelola kontak pelanggan lainnya';
+$lang['contact_form_validation_is_unique']                    = 'Kontak dengan {field} ini sudah ada di sistem kami';
+$lang['invoice_number_not_applied_on_draft']                  = 'Jika faktur disimpan sebagai draft, nomor tidak akan digunakan, nomor faktur berikutnya akan diberikan pada saat faktur telah dikirim ke pelanggan atau ditandai sebagai terkirim.';
+$lang['two_factor_authentication_disabed']                    = 'Nonaktifkan';
+$lang['enable_google_two_factor_authentication']              = 'Aktifkan Google Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Autentikasi gagal disimpan, coba lagi';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Masukkan kode otentikasi dari aplikasi Authenticator';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Masukkan kode dari aplikasi Authenticator';
+$lang['set_two_factor_authentication_successful']             = 'Berhasil memperbarui pengaturan otentikasi dua langkah';
+$lang['set_two_factor_authentication_failed']                 = 'Tidak dapat memperbarui pengaturan otentikasi dua langkah';
+$lang['google_2fa_code_valid']                                = 'Berhasil memverifikasi otentikasi';
+$lang['google_2fa_code_invalid']                              = 'Kode otentikasi yang dimasukkan tidak valid, coba lagi.';
+$lang['google_2fa_scan_qr_guide']                             = 'Pindai QR di bawah ini dengan aplikasi Authenticator di perangkat seluler Anda, setelah itu isi bidang di bawah ini dengan kode yang dihasilkan aplikasi';
+$lang['google_2fa_manul_input_secret']                        = 'Kunci rahasia untuk input manual';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';

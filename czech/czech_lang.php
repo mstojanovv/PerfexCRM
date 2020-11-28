@@ -279,40 +279,6 @@ $lang['group_table_name_heading']      = 'Název';
 $lang['group_table_isactive_heading']  = 'Aktivní';
 $lang['kb_no_groups_found']            = 'Nenalezeny žádné skupiny znalostní báze';
 
-# Mail Lists
-$lang['mail_lists']                            = 'Seznamy emailů';
-$lang['mail_list']                             = 'Seznam emailů';
-$lang['new_mail_list']                         = 'Nový seznam emailů';
-$lang['mail_list_lowercase']                   = 'mail list';
-$lang['custom_field_deleted_success']          = 'Vlastní pole odstraněno';
-$lang['custom_field_deleted_fail']             = 'Chyba odstraňování vlastního pole';
-$lang['email_removed_from_list']               = 'Email odstraněn ze seznamu';
-$lang['email_remove_fail']                     = 'Email odstraněn ze seznamu';
-$lang['staff_mail_lists']                      = 'Seznam emailů zaměstnanců';
-$lang['clients_mail_lists']                    = 'Seznam emailů klientů';
-$lang['mail_list_total_imported']              = 'Celkem iportováno emailů: %s';
-$lang['mail_list_total_duplicate']             = 'Celkem duplikováno emailů: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Neúspěšně vložených emailů: %s';
-$lang['mail_list_total_invalid']               = 'Neplatných emailových adres: %s';
-$lang['cant_edit_mail_list']                   = 'Tento seznam je vytvářen automaticky a nelze ho upravit';
-$lang['mail_list_add_edit_name']               = 'Název seznamu emailů';
-$lang['mail_list_add_edit_customfield']        = 'Přidat vlastní pole';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Datum přidání';
-$lang['add_new_email_to']                      = 'Přidat nový email do %s';
-$lang['import_emails_to']                      = 'Importovat emaily do %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Soubor importu';
-$lang['mail_list_available_custom_fields']     = 'Dostupná vlastní pole';
-$lang['submit_import_emails']                  = 'Importovat emaily';
-$lang['btn_import_emails']                     = 'Importovat emaily (Excel)';
-$lang['btn_add_email_to_list']                 = 'Přidat email do tohoto seznamu';
-$lang['mail_lists_dt_list_name']               = 'Název seznamu';
-$lang['mail_lists_dt_datecreated']             = 'Datum vytvoření';
-$lang['mail_lists_dt_creator']                 = 'Vytvořil';
-$lang['email_added_to_mail_list_successfully'] = 'Email přidán do seznamu';
-$lang['email_is_duplicate_mail_list']          = 'Email v tomto seznamu již existuje';
-
 # Media
 $lang['media_files'] = 'Files';
 
@@ -544,7 +510,6 @@ $lang['als_sales']                 = 'Prodeje';
 $lang['als_staff']                 = 'Zaměstnanci';
 $lang['als_tasks']                 = 'Úkoly';
 $lang['als_kb']                    = 'Znalostní báze';
-$lang['als_surveys']               = 'Průzkumy';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Reporty';
 $lang['als_reports_sales_submenu'] = 'Prodeje';
@@ -667,56 +632,6 @@ $lang['staff_edit_profile_change_your_password']       = 'Změňte si heslo';
 $lang['staff_edit_profile_change_old_password']        = 'Staré heslo';
 $lang['staff_edit_profile_change_new_password']        = 'Nové heslo';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Zopakovat nové heslo';
-
-# Surveys
-$lang['new_survey']                                = 'Nový průzkum';
-$lang['surveys']                                   = 'Průzkumy';
-$lang['survey']                                    = 'Průzkum';
-$lang['survey_lowercase']                          = 'průzkum';
-$lang['survey_no_mail_lists_selected']             = 'Nebyl zvolen seznam emailů';
-$lang['survey_send_success_note']                  = 'Všechny emaily průzkumu(%s) budou odeslány pomocí CRONu';
-$lang['survey_result']                             = 'Výsledky průzkumu: %s';
-$lang['question_string']                           = 'Otázka';
-$lang['question_field_string']                     = 'Pole';
-$lang['survey_list_view_tooltip']                  = 'Zobrazit průzkum';
-$lang['survey_list_view_results_tooltip']          = 'Zobrazit výsledky';
-$lang['survey_add_edit_subject']                   = 'Předmět průzkumu';
-$lang['survey_add_edit_email_description']         = 'Popis průzkumu (Popis emailu)';
-$lang['survey_include_survey_link']                = 'Připojit odkaz na průzkum v popisu';
-$lang['survey_available_mail_lists_custom_fields'] = 'Dostupná vlastní pole ze seznamu emailů';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Vlastní pole mohou být použita pro editor emailu.';
-$lang['survey_add_edit_short_description_view']    = 'Krátký popis průzkumu (Zobrazit popis)';
-$lang['survey_add_edit_from']                      = 'Od (zobrazeno v emailu)';
-$lang['survey_add_edit_redirect_url']              = 'URL přesměrování průzkumu';
-$lang['survey_add_edit_red_url_note']              = 'Kam bude uživatel přesměrován po dokončení průzkumu (ponechte prázdné pro přesměrování na tuto stránku)';
-$lang['survey_add_edit_disabled']                  = 'Zakázáno';
-$lang['survey_add_edit_only_for_logged_in']        = 'Pouze pro přihlášené (zaměstnanci,zákazníci)';
-$lang['send_survey_string']                        = 'Poslat průzkum';
-$lang['survey_send_mail_list_clients']             = 'Zákazníci';
-$lang['survey_send_mail_list_staff']               = 'Zaměstnanci';
-$lang['survey_send_mail_lists_string']             = 'Seznamy mailů';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Poznámka: Pokud odesíláte průzkum přes seznamy mailů, odškrtněte Pouze pro přihlášené uživatele.';
-$lang['survey_send_string']                        = 'Odeslat';
-$lang['survey_send_to_total']                      = 'Odeslat na celkem %s emailů';
-$lang['survey_send_till_now']                      = 'Doposud';
-$lang['survey_send_finished']                      = 'Odeslání průzkumu dokončeno: %s';
-$lang['survey_added_to_queue']                     = 'Tento průzkum je přidán do fronty cornu %s';
-$lang['survey_questions_string']                   = 'Otázka';
-$lang['survey_insert_field']                       = 'Vložit pole';
-$lang['survey_field_checkbox']                     = 'Zakškrtávací pole';
-$lang['survey_field_radio']                        = 'Radio';
-$lang['survey_field_input']                        = 'Pole zadávání';
-$lang['survey_field_textarea']                     = 'Textová oblast';
-$lang['survey_question_required']                  = 'Povinné';
-$lang['survey_question_only_for_preview']          = 'Pouze pro náhled';
-$lang['survey_create_first']                       = 'Nejdřív musíte vytvořit průzkum, poté budete moci vložit otázky.';
-$lang['survey_dt_name']                            = 'Jméno';
-$lang['survey_dt_total_questions']                 = 'Celkem otázek';
-$lang['survey_dt_total_participants']              = 'Celkem účastníků';
-$lang['survey_dt_date_created']                    = 'Datum vytvoření';
-$lang['survey_dt_active']                          = 'Aktivní';
-$lang['survey_text_questions_results']             = 'Výsledky textových otázek';
-$lang['survey_view_all_answers']                   = 'Prohlédnout všechny odpovědi';
 
 # Staff Tasks
 $lang['new_task']                           = 'Nový úkol';
@@ -1052,8 +967,6 @@ $lang['payment_view_heading'] = 'Platba';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Umožnit zákazníkovi upravit částku k úhradě (pro online platby)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Kolik emailů odesílat za hodinu';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Tato možnost se využívá při odesílání průzkumů. Cron odešle X emailů za hodinu. Některé hostingy mají limit pro odesílání emailů.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Odstranění faktury povoleno pouze u poslední faktury';
 $lang['settings_sales_estimate_prefix']                             = 'Prefix čísla odhadů';
 $lang['settings_sales_next_estimate_number']                        = 'Následující číslo odhadů';
@@ -1318,7 +1231,6 @@ $lang['contract_renewal_old_end_date']        = 'Staré datum expirace bylo: %s'
 $lang['contract_attachment']                  = 'Příloha';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Sledování cílů';
 $lang['als_expenses']           = 'Výdaje';
 $lang['als_reports_expenses']   = 'Výdaje';
 $lang['als_expenses_vs_income'] = 'Příjmy vs. výdaje';
@@ -1329,47 +1241,6 @@ $lang['invoice_mark_as_sent']          = 'Označit jako odeslané';
 $lang['invoice_marked_as_sent']        = 'Faktura označena jako odeslaná';
 $lang['invoice_marked_as_sent_failed'] = 'Nepodařilo se označit fakturu jako odeslanou';
 
-# Goals Tracking
-$lang['goals']                                                          = 'Cíle';
-$lang['goal']                                                           = 'Cíl';
-$lang['goals_tracking']                                                 = 'Sledování cílů';
-$lang['new_goal']                                                       = 'Nový cíl';
-$lang['goal_lowercase']                                                 = 'cíl';
-$lang['goal_start_date']                                                = 'Začátek';
-$lang['goal_end_date']                                                  = 'Konec';
-$lang['goal_subject']                                                   = 'Předmět';
-$lang['goal_description']                                               = 'Popis';
-$lang['goal_type']                                                      = 'Typ cíle';
-$lang['goal_achievement']                                               = 'Úspěch';
-$lang['goal_contract_type']                                             = 'Typ smlouvy';
-$lang['goal_notify_when_fail']                                          = 'Upozornit zaměstnance, pokud se nepodařilo dosáhnout cíle';
-$lang['goal_notify_when_achieve']                                       = 'Upozornit zaměstnance, jakmile bude dosaženo cíle';
-$lang['goal_progress']                                                  = 'Průběh';
-$lang['goal_total']                                                     = 'Celekm: %s';
-$lang['goal_result_heading']                                            = 'Průběh cíle';
-$lang['goal_income_shown_in_base_currency']                             = 'Celkový příjem je zobrazen ve výchozí měně';
-$lang['goal_notify_when_end_date_arrives']                              = 'Zamšstnanci budou upozorněni při dosažení data konce (Vyžaduje CRON).';
-$lang['goal_staff_members_notified_about_achievement']                  = 'Zaměstnanci budou upozorněni při dosažení cíle';
-$lang['goal_staff_members_notified_about_failure']                      = 'Zaměstnanci budou upozorněni při nesplnění cíle';
-$lang['goal_notify_staff_manually']                                     = 'Upozornit zaměstnance manuálně';
-$lang['goal_notify_staff_notified_manually_success']                    = 'Zaměstnanci budou upozorněni na výsledky cíle';
-$lang['goal_notify_staff_notified_manually_fail']                       = 'Nepodařilo se upozornit zaměstnance na výsledky cíle';
-$lang['goal_achieved']                                                  = 'Úspěch';
-$lang['goal_failed']                                                    = 'Neúspěch';
-$lang['goal_close']                                                     = 'Téměř dosaženo';
-$lang['goal_type_total_income']                                         = 'Celkový dosažený příjem';
-$lang['goal_type_convert_leads']                                        = 'Konverce x Akvizice';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Zvýšit počet zákazníků';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Konverze akvizic není zahrnuta';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'Zvýšit počet zákazníků';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'Konverze akvizic je zahrnuta';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'Vytvořit smlouvy dle typu';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'Je kalkulováno dle data přidání do databáze';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'Vytvořit smlouvy dle typu';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'Je kalkulováno dle data začátku smlouvy';
-$lang['goal_type_total_estimates_converted']                            = 'X Konverze odhadů ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'Zahrnuty budou pouze odhady, které byly změněny na faktury';
-$lang['goal_type_income_subtext']                                       = 'Příjem bude vypočítám ve výchozí měně (nepřevedené)';
 
 # Payments
 $lang['payment_transaction_id'] = 'ID Transakce';
@@ -1583,7 +1454,6 @@ $lang['task_public_help']          = 'Pokud nastavíte úkol jako veřejný, bud
 $lang['settings_general_favicon']                                            = 'Favicona';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Vytvářet PDF dokumenty z administrace v jazyce klienta';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Pokud je tato možnost nastavena budou dokumenty vytvářeny v jazyce klienta, nikoliv ve výchozím jazyce administrace';
-$lang['settings_cron_surveys']                                               = 'Průzkumy';
 $lang['settings_default_tax']                                                = 'Výchozí daň';
 $lang['setup_calendar_by_departments']                                       = 'Nastavit kalendář dle oddělení';
 $lang['settings_calendar']                                                   = 'Kalendář';
@@ -1645,20 +1515,6 @@ $lang['bulk_export_status']            = 'Stav';
 $lang['bulk_export_zip_payment_modes'] = 'Platby';
 $lang['bulk_export_include_tag']       = 'Zahrnout štítek';
 $lang['bulk_export_include_tag_help']  = 'např. Originál nebo Kopie. Štítek bude zobrazen v PDF. Doporučujeme použít pouze jeden';
-
-## Clients area
-$lang['auto_backup_options_updated']     = 'Nastavení automatických záloh aktualizováno';
-$lang['auto_backup_every']               = 'Vytvořit zálohu každých X dní';
-$lang['auto_backup_enabled']             = 'Povoleno (vyžaduje Cron)';
-$lang['auto_backup']                     = 'Automatická záloha';
-$lang['backup_delete']                   = 'Záloha odstraněna';
-$lang['backup_success']                  = 'Záloha úspěšně vytvořena';
-$lang['utility_backup']                  = 'Záloha databáze';
-$lang['utility_create_new_backup_db']    = 'Vytvořit zálohu databáze';
-$lang['utility_backup_table_backupname'] = 'Záloha';
-$lang['utility_backup_table_backupsize'] = 'Velikost zálohy';
-$lang['utility_backup_table_backupdate'] = 'Datum';
-$lang['utility_db_backup_note']          = 'Pozn.: Vzhledem k limitům PHP nemusí být zálohování příliš velké databáze možné. Pokud je databáze příliš velká, budete muset provést zálohu přímo z SQL serveru pomocí příkazového řádku nebo pořádat svého administrátora.';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1866,26 +1722,11 @@ $lang['custom_field_show_on_client_portal']      = 'Zobrazit v klientské sekci'
 $lang['custom_field_show_on_client_portal_help'] = 'Pokud je zaškrtnuto bude zobrazeno také v tabulce';
 $lang['custom_field_visibility']                 = 'Viditelnost';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'Můžete zde přidat také řetězce překladu. Pokud má zaměstanec/systém jiný jazyk než výchozí, bude zobrazen v jejich jazyce. V opačném případě bude nataven řetězek, který zadáte zde.';
-$lang['utilities_menu_icon']                = 'Ikona';
-$lang['active_menu_items']                  = 'Aktivní položky menu';
-$lang['inactive_menu_items']                = 'Neaktivní položky menu';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'Název';
-$lang['utilities_menu_save']                = 'Uložit menu';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'Zobrazit články';
 $lang['view_articles_list_all'] = 'Všechny články';
 $lang['als_all_articles']       = 'Články';
 $lang['als_kb_groups']          = 'Skupiny';
-
-# Customizer Menu
-$lang['menu_builder']            = 'Nastavení menu';
-$lang['main_menu']               = 'Hlavní menu';
-$lang['setup_menu']              = 'Možnosti menu';
-$lang['utilities_menu_url_help'] = '%s je automaticky připojena k adrese URL';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Filtry spamu';
@@ -1934,7 +1775,6 @@ $lang['ticket_pipe_status']   = 'Stav';
 # Home
 $lang['home_latest_activity']   = 'Poslední aktivity';
 $lang['home_my_tasks']          = 'Moje úkoly';
-$lang['home_latest_activity']   = 'Poslední aktivity';
 $lang['home_my_todo_items']     = 'Moje rychlé úkoly';
 $lang['home_widget_view_all']   = 'Zobrazit vše';
 $lang['home_stats_full_report'] = 'Celý report';
@@ -1967,11 +1807,6 @@ $lang['not_received_lead_imported_email_integration'] = 'Akvizice importována z
 $lang['not_lead_imported_attachment']                 = 'Importována příloha z emailu';
 $lang['not_estimate_status_change']                   = 'Importována příloha z emailu';
 $lang['not_estimate_status_updated']                  = 'Stav odhadu aktualizován: Z: %s na %s';
-$lang['not_goal_message_success']                     = 'Gratulujeme! Dosáhli jsme nového cíle.<br /> Typ cíle: %s
-<br />Goal Achievement: %s
-<br />Total Achievement: %s
-<br />Start Date: %s
-<br />End Date: %s';
 $lang['not_assigned_lead_to_you']                                 = 'byla vám přiřazena akvizice %s ';
 $lang['not_lead_activity_assigned_to']                            = '%s přiřazen %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Smazat přílohu';
@@ -2482,8 +2317,6 @@ $lang['expense_repeat_every']                    = 'Opakovat každé';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Přepnout na kan ban';
-$lang['survey_no_questions']                      = 'Tento průzkum zatím nemá žádné dotazy.';
-$lang['survey_submit']                            = 'Odeslat';
 $lang['contract_content']                         = 'Smlouva';
 $lang['contract_save']                            = 'Uložit smlouvu';
 $lang['contract_send_to_email']                   = 'Odeslat na email';
@@ -2587,7 +2420,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Zastavit všechny běžící 
 $lang['notification_when_customer_pay_invoice'] = 'Dostat upozornění, když klient zaplatí fakturu (vestavěné)';
 $lang['not_invoice_payment_recorded']           = 'Nová úhrada faktury - %s';
 $lang['email_template_contact_warning']         = 'Pokud není kontakt přihlášen při provádění této akce, pole pro sloučení nebudou nahrazena..';
-$lang['theme_style']                            = 'Styl šablony';
 $lang['change_role_permission_warning']         = 'Změna práv této role neovlivní zaměstnance, kteří jsou k této roli přiřazeni.';
 $lang['task_copied_successfully']               = 'Úkol úspěšně zkopírován';
 $lang['failed_to_copy_task']                    = 'Nepodařilo se zkopírovat úkol';
@@ -2622,11 +2454,6 @@ $lang['to_date']                                = 'Datum do';
 $lang['not_results_found']                      = 'Žádné výsledky';
 $lang['lead_lock_after_convert_to_customer']    = 'Zakázat úpravy akvizic poté, co byly změněny na zákazníky (neplatí pro administrátory)';
 $lang['default_pipeline_sort']                  = 'Výchozí řazení stavů';
-$lang['not_goal_message_failed']                = 'Nepodařilo se dosáhnout cíle!<br /> Typ cíle: %s
-<br />Dosažení cíle: %s
-<br />Celkem dosažení: %s
-<br />Datum začátku: %s
-<br />Datum konce: %s';
 $lang['toggle_full_view']             = 'Zapnout plné zobrazení';
 $lang['not_estimate_invoice_deleted'] = 'odstranil vytvořenou fakturu';
 $lang['not_task_new_comment']         = 'komentoval úkol %s';
@@ -2766,15 +2593,10 @@ $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 $lang['milestone_description']                      = 'Popis';
 $lang['description_visible_to_customer']            = 'Zobrazit popis klientovi';
 $lang['upcoming_tasks']                             = 'Nadcházející úkoly';
-$lang['paymentmethod_two_checkout_account_number']  = 'Číslo účtu (ID prodejce)';
-$lang['paymentmethod_two_checkout_private_key']     = 'Soukromý klíč';
-$lang['paymentmethod_two_checkout_publishable_key'] = 'Publikovatelný klíč';
 $lang['payment_credit_card_number']                 = 'Číslo karty';
 $lang['payment_credit_card_expiration_date']        = 'Datum expirace';
 $lang['payment_billing_email']                      = 'Email';
 $lang['submit_payment']                             = 'Potvrdit platbu';
-$lang['2checkout_notice_payment']                   = 'Údaje platební karty jsou zpracovávány pomocí zabezpečeného tokenu od 2Checkout';
-$lang['2checkout_usage_notice']                     = 'SSL je vyžadováno, pokud chcete použít 2Checkou API platby. Je vyžadován pro bezpečné volání tokenizace a autentizace. Systém bude fungovat bez SSL, ale budete porušovat podmínky, čímž riskujete deaktivaci vašeho API.';
 $lang['custom_field_disallow_customer_to_edit']     = 'Zakázat zákazníkům úpravy tohoto pole';
 $lang['project_due_notice']                         = 'Tento projekt měl být dokončen před %s dny';
 $lang['not_lead_added_attachment']                  = 'přidal novou přílohu k akvizici %s';
@@ -2895,8 +2717,6 @@ $lang['task_checklist_item_completed_by']                   = 'Dokončil %s';
 $lang['staff_email_signature_help']                         = 'Pokud je pole prázdné, bude použito výchozí nastavení podpisu emailu';
 $lang['default_task_priority']                              = 'Výchozí priorita';
 $lang['project_send_created_email']                         = 'Odeslat email o vytvoření projektu';
-$lang['survey_send_to_lists']                               = 'Seznamy pro odeslání průzkumu';
-$lang['survey_send_notice']                                 = 'Emaily budou odeslány pomocí CRONu.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Zobrazit platby faktury (transakce) na PDF';
@@ -2908,7 +2728,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Zobrazit v klientské se
 $lang['customer_attachments_show_notice']            = 'Pouze soubory nahrané ze zákaznického profilu mají možnost zobrazení/skrytí v zákaznické sekci.';
 $lang['customer_profile_files']                      = 'Soubory';
 $lang['no_files_found']                              = 'Žádné soubory';
-$lang['survey_customers_all']                        = 'Všichni klienti';
 $lang['custom_field_column']                         = 'Mřížka (Bootstrap sloupce např. 12) - Max. je 12';
 $lang['task_status']                                 = 'Stav';
 $lang['task_status_1']                               = 'Zadáno';
@@ -2925,7 +2744,6 @@ $lang['show_pay_link_to_invoice_pdf']                = 'Zobrazit odkaz pro zapla
 $lang['no_leads_found']                              = 'Žádné akvizice';
 $lang['created_today']                               = 'Dnes vytvořeno';
 $lang['total_tasks_deleted']                         = 'Celkem odstraněno úkolů: %s';
-$lang['total_tickets_delete']                        = 'Celkem odstraněno tiketů: %s';
 $lang['total_tickets_delete']                        = 'Celkem odstraněno tiketů: %s';
 $lang['format_letter_portrait']                      = 'Dopis na výšku';
 $lang['format_letter_landscape']                     = 'Dopis na šířku';
@@ -3118,7 +2936,6 @@ $lang['proposals_report']                                = 'Report nabídky';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Pokud zaměstnanec nemá právo na zobrazení klientů, bude moci vytvářet tikety pouze z administrace pro klienty, ke kterým je přiřazen jako správce.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Povolit zaměstnancům vytváření tiketů pro všechny kontakty?';
 $lang['charts_based_report']                             = 'Reporty založené na grafech';
-$lang['delete_backups_older_then']                       = 'Automaticky odstranit zálohu starší než X dní (nastavte 0 pro vypnutí)';
 $lang['responsible_admin']                               = 'Zodpovědný správce';
 $lang['tags']                                            = 'Štítky';
 $lang['tag']                                             = 'Štítek';
@@ -3620,7 +3437,6 @@ $lang['view_consent']                                           = 'Zobrazit souh
 $lang['transfer_consent']                                       = 'Převést souhlas';
 $lang['view_public_form']                                       = 'Zorazit veřejný formulář';
 $lang['update_consent']                                         = 'Aktualizovat souhlas';
-$lang['update_consent']                                         = 'Aktualizovat souhlas';
 $lang['consent_last_updated']                                   = 'Poslední aktualizace: %s';
 $lang['showing_search_result']                                  = 'Výsledky vyhledávání pro: %s';
 $lang['per_page']                                               = 'Na stránku';
@@ -3724,4 +3540,148 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
+$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
+$lang['no_validation']                             = 'No Validation';
+$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
+$lang['phonenumber_exists']                        = 'Phone number already exists';
+$lang['company_exists']                            = 'Company already exists';
+$lang['website_exists']                            = 'Website already exists';
+$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
+$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
+$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm. It is used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
+$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
+$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';

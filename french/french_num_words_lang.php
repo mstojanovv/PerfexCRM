@@ -115,13 +115,22 @@ $lang['num_word_trillion'] = 'Billion';
 $lang['num_word_zillion']  = 'Zillion';
 $lang['num_word_cents']    = 'Centimes';
 $lang['number_word_and']   = 'et';
+
+# For Indian Customers, used with INR currency
+$lang['num_word_hundred'] = 'Hundred';
+$lang['num_word_lakh'] = 'Lakh';
+$lang['num_word_lakhs'] = 'Lakh';
+
 // Show in invoices and estimates
 $lang['num_word'] = 'En lettres';
+
 $currencies       = [
     'USD' => 'Dollars',
     'EUR' => 'Euros',
 ];
-$currencies = do_action('before_number_format_render_languge_currencies', $currencies);
+
+$currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
+
 foreach ($currencies as $key => $val) {
     $lang['num_word_' . strtoupper($key)] = $val;
 }

@@ -278,40 +278,6 @@ $lang['group_table_name_heading']      = 'نام';
 $lang['group_table_isactive_heading']  = 'فعال';
 $lang['kb_no_groups_found']            = 'هيچ گروهي در پايگاه دانش پيدا نشده است';
 
-# Mail Lists
-$lang['mail_lists']                            = 'فهرست هاي ايميل';
-$lang['mail_list']                             = 'فهرست ايميل';
-$lang['new_mail_list']                         = 'فهرست جديد ايميل';
-$lang['mail_list_lowercase']                   = 'فهرست ايميل';
-$lang['custom_field_deleted_success']          = 'فيلد مشتري حدف شد';
-$lang['custom_field_deleted_fail']             = 'مشکلي در حذف شدن فيلد مشتري';
-$lang['email_removed_from_list']               = 'حدف ايميل از فهرست';
-$lang['email_remove_fail']                     = 'مشکل در حذف فيلد';
-$lang['staff_mail_lists']                      = 'ليست ايميل کارکنان';
-$lang['clients_mail_lists']                    = 'ليست ايميل مشتريان';
-$lang['mail_list_total_imported']              = 'مجموع ايميل هاي وارد شده: %s';
-$lang['mail_list_total_duplicate']             = 'مجموع ايميل هاي تکراري: %s';
-$lang['mail_list_total_failed_to_insert']      = 'مشکل در وارد کردن ايميل: %s';
-$lang['mail_list_total_invalid']               = 'آدرس ايميل نامعتبر است: %s';
-$lang['cant_edit_mail_list']                   = 'شما نمي توانيد اين ليست را ويرايش کنيد، اين ليست به صورت خودکار پر ميشود';
-$lang['mail_list_add_edit_name']               = 'نام فهرست ايميل';
-$lang['mail_list_add_edit_customfield']        = 'اضافه کردن فيلد هاي سفارشي';
-$lang['mail_lists_view_email_email_heading']   = 'ايميل';
-$lang['mail_lists_view_email_date_heading']    = 'تاريخ اضافه شدن';
-$lang['add_new_email_to']                      = 'اضافه کردن ايميل جديد به %s';
-$lang['import_emails_to']                      = 'وارد کردن ايميل ها به %s';
-$lang['mail_list_new_email_edit_add_label']    = 'ايميل';
-$lang['mail_list_import_file']                 = 'وارد کردن فايل';
-$lang['mail_list_available_custom_fields']     = 'فيلد هاي سفارشي در دسترس';
-$lang['submit_import_emails']                  = 'وارد کردن ايميل ها';
-$lang['btn_import_emails']                     = 'وارد کردن ايميل ها‌(اکسل)';
-$lang['btn_add_email_to_list']                 = 'اضافه کردن ايميل به اين فهرست';
-$lang['mail_lists_dt_list_name']               = 'نام فهرست ';
-$lang['mail_lists_dt_datecreated']             = 'تاريخ ايجاد';
-$lang['mail_lists_dt_creator']                 = 'ايجاد کننده';
-$lang['email_added_to_mail_list_successfully'] = 'ايميل به ليست اضافه شده ';
-$lang['email_is_duplicate_mail_list']          = 'ايميل در حال حاضر در اين ليست وجود دارد';
-
 # Media
 $lang['media_files'] = 'فايلها';
 
@@ -546,7 +512,6 @@ $lang['als_sales']                 = 'فروش';
 $lang['als_staff']                 = 'کارکنان';
 $lang['als_tasks']                 = 'وظايف';
 $lang['als_kb']                    = 'پايگاه دانش';
-$lang['als_surveys']               = 'بررسي ها';
 $lang['als_media']                 = 'رسانه';
 $lang['als_reports']               = 'گزارش ها';
 $lang['als_reports_sales_submenu'] = 'فروش';
@@ -669,56 +634,6 @@ $lang['staff_edit_profile_change_your_password']       = 'رمزعبور خود 
 $lang['staff_edit_profile_change_old_password']        = 'رمز عبور قديمي';
 $lang['staff_edit_profile_change_new_password']        = 'رمزعبور جديد';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'رمزعبور جديد را تکرار نماييد';
-
-# Surveys
-$lang['new_survey']                                = 'بررسي جديد';
-$lang['surveys']                                   = 'بررسي ها';
-$lang['survey']                                    = 'بررسي';
-$lang['survey_lowercase']                          = 'بررسي';
-$lang['survey_no_mail_lists_selected']             = 'هيچ فهرست ايميلي انتخاب نشده است';
-$lang['survey_send_success_note']                  = 'همه ايميل هاي بررسي از طريق CRON ارسال مي شوند.';
-$lang['survey_result']                             = 'نتايج براي بررسي: %s';
-$lang['question_string']                           = 'سوال';
-$lang['question_field_string']                     = 'فيلد';
-$lang['survey_list_view_tooltip']                  = 'مشاهده بررسي';
-$lang['survey_list_view_results_tooltip']          = 'بررسي نتايج';
-$lang['survey_add_edit_subject']                   = 'موضوع بررسي';
-$lang['survey_add_edit_email_description']         = 'توضيحات بررسي(توضيحات ايميل)';
-$lang['survey_include_survey_link']                = 'لينک بررسي را در توضيحات قرار دهيد';
-$lang['survey_available_mail_lists_custom_fields'] = 'فيلدهاي سفارشي موجود از ليست ايميل ها';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'فيلدهاي سفارشي مي توانند براي ويرايشگر ايميل استفاده شوند';
-$lang['survey_add_edit_short_description_view']    = 'توضيح کوتاه بررسي';
-$lang['survey_add_edit_from']                      = 'از(نمايش داده شده در ايميل)';
-$lang['survey_add_edit_redirect_url']              = 'تغيير مسير بررسي';
-$lang['survey_add_edit_red_url_note']              = 'وقتي کاربر بررسي را تمام ميکند به کجا بايد تغيير مسير دهد.';
-$lang['survey_add_edit_disabled']                  = 'غيرفعال';
-$lang['survey_add_edit_only_for_logged_in']        = 'فقط براي کاربران وارد شده';
-$lang['send_survey_string']                        = 'ارسال بررسي';
-$lang['survey_send_mail_list_clients']             = 'مشتريان';
-$lang['survey_send_mail_list_staff']               = 'کارکنان';
-$lang['survey_send_mail_lists_string']             = 'فهرست ايميل';
-$lang['survey_send_mail_lists_note_logged_in']     = 'نکته: اگر شما بررسي را فقط براي شرکت کنندگان وارد شده براي يک ليست ايميل ارسال ميکنيد بايد تيک نخورده باشند';
-$lang['survey_send_string']                        = 'ارسال';
-$lang['survey_send_to_total']                      = 'ايميل %s ارسال به مجموع';
-$lang['survey_send_till_now']                      = 'تاکنون';
-$lang['survey_send_finished']                      = 'ارسال بررسي اتمام يافته است: %s';
-$lang['survey_added_to_queue']                     = 'اين بررسي به صف cron اضافه شده است %s';
-$lang['survey_questions_string']                   = 'سوالات';
-$lang['survey_insert_field']                       = 'درج فيلد';
-$lang['survey_field_checkbox']                     = 'Checkbox';
-$lang['survey_field_radio']                        = 'Radio';
-$lang['survey_field_input']                        = 'فيلد ورودي';
-$lang['survey_field_textarea']                     = 'متن';
-$lang['survey_question_required']                  = 'موردنياز';
-$lang['survey_question_only_for_preview']          = 'فقط جهت پيش نمايش';
-$lang['survey_create_first']                       = 'شما ابتدا بايد اين بررسي را ايجاد کنيد و سپس در آن سوال وارد کنيد';
-$lang['survey_dt_name']                            = 'نام';
-$lang['survey_dt_total_questions']                 = 'مجموع سوالات';
-$lang['survey_dt_total_participants']              = 'مجموع شرکت کننده ها';
-$lang['survey_dt_date_created']                    = 'تاريخ ايجاد';
-$lang['survey_dt_active']                          = 'فعال';
-$lang['survey_text_questions_results']             = 'نتنايج متن سوالات';
-$lang['survey_view_all_answers']                   = 'نمايش همه پاسخ ها';
 
 # Staff Tasks
 $lang['new_task']                           = 'وظيفه جديد';
@@ -1059,8 +974,6 @@ $lang['payment_view_heading'] = 'پرداخت';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'اجازه تغيير در مقدار براي پرداخت مشتري(در پرداخت آنلاين)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'چند ايميل در هر ساعت فرستاده شود';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'از اين ويژگي براي ارسال بررسي استفاده ميشود.CRONبررسي در هر ساعت  X ايميل ارسال ميکند بعضي از فراهم کنندگان ميزبان براي ارسال ايميل در هر ساعت محدوديت دارند.';
 $lang['settings_delete_only_on_last_invoice']                       = 'حذف فاکتور فقط در آخرين فاکتور مجاز است';
 $lang['settings_sales_estimate_prefix']                             = 'تخمين شماره پيشوند';
 $lang['settings_sales_next_estimate_number']                        = 'شماره تخمين بعدي';
@@ -1325,7 +1238,6 @@ $lang['contract_renewal_old_end_date']        = 'تاريخ قبلي اتمام:
 $lang['contract_attachment']                  = 'پيوست';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'دنبال کردن اهداف';
 $lang['als_expenses']           = 'هزينه ها';
 $lang['als_reports_expenses']   = 'هزينه ها';
 $lang['als_expenses_vs_income'] = 'هزينه ها درمقايسه با فاکتور';
@@ -1336,49 +1248,6 @@ $lang['invoice_mark_as_sent']          = 'علامت زدن به عنوان ار
 $lang['invoice_marked_as_sent']        = 'فاکتور با عنوان ارسال موفقيت آميز علامت زده شد';
 $lang['invoice_marked_as_sent_failed'] = 'علامت زدن فاکتور به عنوان ارسال شده با شکست مواجه شد';
 
-# Goals Tracking
-$lang['goals']                                         = 'اهداف';
-$lang['goal']                                          = 'هدف';
-$lang['goals_tracking']                                = 'دنبال کردن اهداف';
-$lang['new_goal']                                      = 'هدف جديد';
-$lang['goal_lowercase']                                = 'هدف';
-$lang['goal_start_date']                               = 'تاريخ شروع';
-$lang['goal_end_date']                                 = 'تاريخ پايان';
-$lang['goal_subject']                                  = 'موضوع';
-$lang['goal_description']                              = 'توضيحات';
-$lang['goal_type']                                     = 'نوع هدف';
-$lang['goal_achievement']                              = 'دستاورد';
-$lang['goal_contract_type']                            = 'نوع قرارداد';
-$lang['goal_notify_when_fail']                         = 'زماني که در رسيدن به هدف با مشکل مواجه ميشويم کارکنان را مطلع سازيد';
-$lang['goal_notify_when_achieve']                      = 'زماني که به هدف دست پيدا کرديم کارکنان را مطلع سازيد';
-$lang['goal_progress']                                 = 'پيشرفت';
-$lang['goal_total']                                    = 'مجموع: %s';
-$lang['goal_result_heading']                           = 'پيشرفت هدف';
-$lang['goal_income_shown_in_base_currency']            = 'مجموع درآمد براساس ارز پايه شما نمايش داده ميشود';
-$lang['goal_notify_when_end_date_arrives']             = 'کارکنان عضو وقتي که زمان پايان فرابرسد مطلع ميشوند ';
-$lang['goal_staff_members_notified_about_achievement'] = 'کارکنان عضو درباره دستاورد اين هدف مطلع هستند.';
-$lang['goal_staff_members_notified_about_failure']     = 'کارکنان عضو درباره شکست اين هدف مطلع هستند.';
-$lang['goal_notify_staff_manually']                    = 'کارکنان عضو را به صورت دستي مطلع کنيد';
-$lang['goal_notify_staff_notified_manually_success']   = 'به کارکنان عضو درباره نتايج اين هدف هشدار داده ميشود.';
-$lang['goal_notify_staff_notified_manually_fail']      = 'شکست در هشدار به کارکنان عضو درباره نتايج اين هدف';
-
-$lang['goal_achieved'] = 'دست يافته';
-$lang['goal_failed']   = 'شکست';
-$lang['goal_close']    = 'بسيار نزديک';
-
-$lang['goal_type_total_income']                                         = 'رسيدن به درآمد کل';
-$lang['goal_type_convert_leads']                                        = 'تبديل راهنماهاي X';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'تعداد مشتري را افزايش بده';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'تبديل راهنما صادر شد';
-$lang['goal_type_increase_customers_with_leads_conversions']            = 'تعداد مشتري را افزايش بده';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext']    = 'تبديل راهنماها لحاظ شد';
-$lang['goal_type_make_contracts_by_type_calc_database']                 = 'ساخت قراردادها براساس نوع';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']         = 'از تاريخ اضافه شدن به پايگاه داده محاسبه شده است.';
-$lang['goal_type_make_contracts_by_type_calc_date']                     = 'ساخت قراردادها براساس نوع';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']             = 'از تاريخ شروع قرارداد محاسبه شده است.';
-$lang['goal_type_total_estimates_converted']                            = 'تبديل تخمين X ';
-$lang['goal_type_total_estimates_converted_subtext']                    = 'تنها شامل تخمينهايي است که به فاکتور تبديل شده اند.';
-$lang['goal_type_income_subtext']                                       = 'درآمد براساس ارز پايه شما محاسبه ميشود.';
 # Payments
 $lang['payment_transaction_id'] = 'شناسه تراکنش';
 # Settings Menu
@@ -1585,7 +1454,6 @@ $lang['task_public_help']          = 'اگر اين را علامت بزنيد �
 $lang['settings_general_favicon']                                            = 'علائق';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'خروجي اسناد مشتري از ناحيه مدير به زبان مشتري';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'اگر اين گزينه علامت زده شود و زبان پيش فرض سيستم انليسي باشد و مشتري زبان فرانسوي را انتخاب کرده باشد اسناد به زبان مشتري خروجي داده ميشوند.';
-$lang['settings_cron_surveys']                                               = 'بررسي ها';
 $lang['settings_default_tax']                                                = 'ماليات پيش فرض';
 $lang['setup_calendar_by_departments']                                       = 'تنظيم تقويم توسط شعبه ها';
 $lang['settings_calendar']                                                   = 'تقويم';
@@ -1647,19 +1515,6 @@ $lang['bulk_export_zip_payment_modes'] = 'انجام پرداخت توسط';
 $lang['bulk_export_include_tag']       = 'شامل تگ';
 $lang['bulk_export_include_tag_help']  = 'اصلي يا کپي. تگ به عنوان خروجي PDF صادر ميشود. توصيه ميشود که از يک تگ استفاده کنيد.';
 
-# Backup
-$lang['auto_backup_options_updated']     = 'گزينه پشتيبان گيري خودکار به روز رساني شد';
-$lang['auto_backup_every']               = 'پشتيان گيري را هر X روز يکبار انجام بده';
-$lang['auto_backup_enabled']             = 'فعال (موردنياز Cron)';
-$lang['auto_backup']                     = 'پشتيبان گيري خودکار';
-$lang['backup_delete']                   = 'پشتيبان گيري حذف شد';
-$lang['backup_success']                  = 'پشتيبان گيري با موفقيت انجام شد';
-$lang['utility_backup']                  = 'پشتيبان گيري پايگاه داده';
-$lang['utility_create_new_backup_db']    = 'ايجاد پشتيبان گيري پايگاه داده';
-$lang['utility_backup_table_backupname'] = 'پشتيبان گيري';
-$lang['utility_backup_table_backupsize'] = 'اندازه پشتيبان';
-$lang['utility_backup_table_backupdate'] = 'تاريخ';
-$lang['utility_db_backup_note']          = 'توجه: به دليل زمان و حافظه محدود موجود در پي اچ پي پشتيبان گيري از پايگاه هاي داده بسيار بزرگ امکان پذير نيست. اگر پايگاه داده شما بسيار بزرگ است بهتر است به طور مستقيم از SQL Server با استفاده از خط فرمان پشتيبان تهيه کنيد يا اگر دسترسي نداريد مدير سرور اين کار را براي شما انجام دهد.  ، ';
 # Version 1.0.7
 ## Customers - portal
 $lang['clients_nav_proposals'] = 'پيشنهادات';
@@ -1864,26 +1719,11 @@ $lang['custom_field_show_on_client_portal']      = 'نمايش در پرتال �
 $lang['custom_field_show_on_client_portal_help'] = 'اگر اين را علامت بزنيد در جدول هم نمايش داده ميشود.';
 $lang['custom_field_visibility']                 = 'قابليت نمايش';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'شما ميتوانيد اينجا رشته هاي ترجمه را وارد کنيد. بنابراين اگر کارکنان/ سيستم زبانش با زبان پيش فرض متفاوت باشد، آيکون هاي منو به زبان ديگر ترجمه ميشوند. ';
-$lang['utilities_menu_icon']                = 'آيکون';
-$lang['active_menu_items']                  = 'موارد فعال منو';
-$lang['inactive_menu_items']                = 'موارد غيرفعال منو';
-$lang['utilities_menu_url']                 = 'URL';
-$lang['utilities_menu_name']                = 'نام';
-$lang['utilities_menu_save']                = 'منوي ذخيره';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'مشاهده مقاله ها';
 $lang['view_articles_list_all'] = 'همه مقاله ها';
 $lang['als_all_articles']       = 'مقاله ها';
 $lang['als_kb_groups']          = 'گروه ها';
-
-# Customizer Menu
-$lang['menu_builder']            = 'تنظيمات منو';
-$lang['main_menu']               = 'منوي اصلي';
-$lang['setup_menu']              = 'منوي تنظيمات';
-$lang['utilities_menu_url_help'] = ' متصل ميشود%s به طور خودکار به آدرس';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'فيلترهاي هرزنامه';
@@ -1928,7 +1768,6 @@ $lang['ticket_pipe_status']   = 'وضعيت';
 # Home
 $lang['home_latest_activity']   = 'آخرين فعاليت';
 $lang['home_my_tasks']          = 'وظايف من';
-$lang['home_latest_activity']   = 'آخرين فعاليت';
 $lang['home_my_todo_items']     = 'موارد کارهاي من';
 $lang['home_widget_view_all']   = 'مشاهده همه';
 $lang['home_stats_full_report'] = 'گزارش کامل';
@@ -1962,11 +1801,7 @@ $lang['not_received_lead_imported_email_integration'] = 'راهنما از يک�
 $lang['not_lead_imported_attachment']                 = 'پيوست از ايميل وارد شد.';
 $lang['not_estimate_status_change']                   = 'پيوست از ايميل وارد شد.';
 $lang['not_estimate_status_updated']                  = ' %s به %sوضعيت تخمين به روزرساني شد: از: ';
-$lang['not_goal_message_success']                     = 'تبريک! ما به هدف جديد دست پيدا کرديم.<br /> نوع هدف: %s
-<br />دستاورد هدف: %s
-<br />مجموع دستاورد: %s
-<br />تاريخ شروع: %s
-<br />تاريخ پايان: %s';
+
 $lang['not_assigned_lead_to_you']                                 = 'به شما %s راهنماي اختصاص داده شده';
 $lang['not_lead_activity_assigned_to']                            = '%s اختصاص داده شد به %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'پيوست حذف شد';
@@ -2486,8 +2321,6 @@ $lang['expense_repeat_every']              = 'تکرار کردن هر';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'kan banتغيير به';
-$lang['survey_no_questions']                      = 'اين بررسي هنوز هيچ سوالي ندارد';
-$lang['survey_submit']                            = 'ثبت';
 $lang['contract_content']                         = 'قرارداد';
 $lang['contract_save']                            = 'ذخيره قرارداد';
 $lang['contract_send_to_email']                   = 'ارسال به ايميل';
@@ -2591,7 +2424,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'وقتي يک تايمر شر
 $lang['notification_when_customer_pay_invoice'] = 'وقتي مشتري فاکتور را ميپردازد هشدار دريافت کن.';
 $lang['not_invoice_payment_recorded']           = 'پرداخت فاکتور جديد - %s';
 $lang['email_template_contact_warning']         = 'اگر مخاطب در زمان انجام کار وارد نشده باشد، ادغام فيلدها توسط مخاطب جايگزين نميشود.';
-$lang['theme_style']                            = 'تم سبک طراحي';
 $lang['change_role_permission_warning']         = 'تغيير اجازه نقش ها روي کارکنان عضوي که در اين نقش ها از اين اجازه ها استفاده ميکنند اثر ندارد.';
 $lang['task_copied_successfully']               = 'وظيفه با موفقيت کپي شد.';
 $lang['failed_to_copy_task']                    = 'کپي وظيفه با مشکل مواجه شد';
@@ -2626,11 +2458,6 @@ $lang['to_date']                                = 'تا تاريخ';
 $lang['not_results_found']                      = 'هيچ نتيجه اي يافت نشد';
 $lang['lead_lock_after_convert_to_customer']    = 'بعد از تبديل به مشتري به راهنما اجازه ويرايش ندهيد.';
 $lang['default_pipeline_sort']                  = 'ترتيب صف پيش فرض';
-$lang['not_goal_message_failed']                = 'ما در دستيابي به هدف شکست خورديم<br /> Goal Type: %s
-<br />دستاورد هدف: %s
-<br />مجموع دستاوردها: %s
-<br />تاريخ شروع: %s
-<br />تاريخ پايان: %s';
 $lang['toggle_full_view']             = 'مشاهده کامل تغيير';
 $lang['not_estimate_invoice_deleted'] = 'فاکتور ايجاد شده حذف شد';
 $lang['not_task_new_comment']         = 'درباره وظيفه نظر داد%s';
@@ -2770,15 +2597,10 @@ $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 $lang['milestone_description']                      = 'توضيحات';
 $lang['description_visible_to_customer']            = 'نمايش توضيحات به فروشنده';
 $lang['upcoming_tasks']                             = 'وظايف جاري';
-$lang['paymentmethod_two_checkout_account_number']  = 'شماره حساب (شناسه فروشنده)';
-$lang['paymentmethod_two_checkout_private_key']     = 'کليد خصوصي';
-$lang['paymentmethod_two_checkout_publishable_key'] = 'کليد عمومي';
 $lang['payment_credit_card_number']                 = 'شماره کارت';
 $lang['payment_credit_card_expiration_date']        = 'تاريخ انقضا';
 $lang['payment_billing_email']                      = 'ايميل';
 $lang['submit_payment']                             = 'ثبت پرداخت';
-$lang['2checkout_notice_payment']                   = 'جزييات credit card توسط توکن امن فراهم شده از طريق 2Checkout پردازش ميشود.';
-$lang['2checkout_usage_notice']                     = 'اگر از api پرداخت 2Checkout  استفاده مي کنيد SSL موردنياز است و براي فراخواني احراز هويت امن لازم است. ';
 $lang['custom_field_disallow_customer_to_edit']     = 'مشتري اجازه تغيير اين فيلد را ندارد';
 $lang['project_due_notice']                         = 'روز ميگذرد%s از تاريخ سررسيد اين پروژه';
 $lang['not_lead_added_attachment']                  = 'اضافه شد %s پيوست جديد به راهنماي';
@@ -2901,7 +2723,6 @@ $lang['task_checklist_item_completed_by']                   = 'کامل شده �
 $lang['staff_email_signature_help']                         = 'اگر امضاي ايميل خالي باشد از امضاي پيش تنظيمات استفاده ميشود.';
 $lang['default_task_priority']                              = 'اولويت پيش فرض';
 $lang['project_send_created_email']                         = 'ارسال ايميل ايجاد شده توسط پروژه';
-$lang['survey_send_to_lists']                               = 'فهرست هاي ارسال بررسي';
 $lang['survey_send_notice']                                 = 'ايميلها در هر ساعت توسط کار CRON فرستاده ميشوند.';
 
 # Version 1.2.8
@@ -2914,7 +2735,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'نمايش به ناحي
 $lang['customer_attachments_show_notice']            = 'فقط فايلهاي بارگذاري شده از پروفايل مشتري ميتوانند در ناحيه مشتري پنهان/نمايش داده شوند.';
 $lang['customer_profile_files']                      = 'فايل ها';
 $lang['no_files_found']                              = 'هيچ فايلي يافت نشد';
-$lang['survey_customers_all']                        = 'همه مشتريان';
 $lang['custom_field_column']                         = 'جدول';
 $lang['task_status']                                 = 'وضعيت';
 $lang['task_status_1']                               = 'شروع نشده';
@@ -2931,7 +2751,6 @@ $lang['show_pay_link_to_invoice_pdf']                = 'نمايش لينک فا
 $lang['no_leads_found']                              = 'هيچ راهنمايي يافت نشد';
 $lang['created_today']                               = 'ايجادهاي امروز';
 $lang['total_tasks_deleted']                         = 'مجموع وظايف حذف شده: %s';
-$lang['total_tickets_delete']                        = 'مجموع بليط هاي حذف شده: %s';
 $lang['total_tickets_delete']                        = 'مجموع بليط هاي حذف شده: %s';
 $lang['format_letter_portrait']                      = 'نامه در حالت پرتره';
 $lang['format_letter_landscape']                     = 'نامه در حالت لنداسکيپ';
@@ -3123,7 +2942,6 @@ $lang['proposals_report']                                = 'Proposals Report';
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'If staff member don\'t have permission for customers VIEW only will be able to create new tickets from admin area to customer contacts where is assigned as customer admin.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Allow staff members to open tickets to all contacts?';
 $lang['charts_based_report']                             = 'Charts Based Report';
-$lang['delete_backups_older_then']                       = 'Auto delete backups older then X days (set 0 to disable)';
 $lang['responsible_admin']                               = 'Responsible admin';
 $lang['tags']                                            = 'Tags';
 $lang['tag']                                             = 'Tag';
@@ -3626,7 +3444,6 @@ $lang['view_consent']                                           = 'View Consent'
 $lang['transfer_consent']                                       = 'Transfer Consent';
 $lang['view_public_form']                                       = 'View Public Form';
 $lang['update_consent']                                         = 'Update Consent';
-$lang['update_consent']                                         = 'Update Consent';
 $lang['consent_last_updated']                                   = 'Last Updated: %s';
 $lang['showing_search_result']                                  = 'Showing search results for: %s';
 $lang['per_page']                                               = 'Per Page';
@@ -3730,4 +3547,148 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
+$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
+$lang['no_validation']                             = 'No Validation';
+$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
+$lang['phonenumber_exists']                        = 'Phone number already exists';
+$lang['company_exists']                            = 'Company already exists';
+$lang['website_exists']                            = 'Website already exists';
+$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
+$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
+$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm. It is used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
+$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
+$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';

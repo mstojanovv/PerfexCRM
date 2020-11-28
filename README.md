@@ -1,7 +1,12 @@
-# <a href="http://perfexcrm.com">PerfexCRM</a>
-Perfex CRM - Language files
-Version 2.2.1
+# <a href="https://perfexcrm.com">Perfex CRM</a>
+Perfex CRM - Main language files for version >= 2.7.1
 
+### Modules Language Files Repositories
+* <a href="https://github.com/mstojanovv/PerfexCRM-surveys">Surveys</a>
+* <a href="https://github.com/mstojanovv/PerfexCRM-goals">Goals</a>
+* <a href="https://github.com/mstojanovv/PerfexCRM-backup">Backup</a>
+* <a href="https://github.com/mstojanovv/PerfexCRM-theme_style">Theme Style</a>
+* <a href="https://github.com/mstojanovv/PerfexCRM-menu_setup">Menu Setup</a>
 <p>
     Perfex CRM is complete Customer Relationship Management software that is a great fit for almost any company, freelancer or many other uses. With its clean and modern design, Perfex CRM can help you look more professional to your customers and help improve business performance at the same time.
 </p>

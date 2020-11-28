@@ -284,40 +284,6 @@ $lang['group_table_name_heading']      = 'Naam';
 $lang['group_table_isactive_heading']  = 'Actief';
 $lang['kb_no_groups_found']            = 'Geen kennisbank groepen gevonden';
 
-# Mail Lists
-$lang['mail_lists']                            = 'Maillijsten';
-$lang['mail_list']                             = 'Maillijst';
-$lang['new_mail_list']                         = 'Nieuwe maillijst';
-$lang['mail_list_lowercase']                   = 'maillijst';
-$lang['custom_field_deleted_success']          = 'Aangepast veld verwijderd';
-$lang['custom_field_deleted_fail']             = 'Probleem bij het verwijderen van aangepast veld';
-$lang['email_removed_from_list']               = 'Email adres verwijderd van maillijst';
-$lang['email_remove_fail']                     = 'Probleem bij het verwijderen van het email adres';
-$lang['staff_mail_lists']                      = 'Medewerkers maillijst';
-$lang['clients_mail_lists']                    = 'Klanten maillijst';
-$lang['mail_list_total_imported']              = 'Totale emails geïmport: %s';
-$lang['mail_list_total_duplicate']             = 'Totale dubbele emails: %s';
-$lang['mail_list_total_failed_to_insert']      = 'Emails onsuccesvol toegevoegd: %s';
-$lang['mail_list_total_invalid']               = 'Ongeldig email adres: %s';
-$lang['cant_edit_mail_list']                   = 'Je kan deze lijst niet bewerken, deze lijst wordt automatisch bijgehouden.';
-$lang['mail_list_add_edit_name']               = 'Maillijst titel';
-$lang['mail_list_add_edit_customfield']        = 'Aangepast veld toevoegen';
-$lang['mail_lists_view_email_email_heading']   = 'Email';
-$lang['mail_lists_view_email_date_heading']    = 'Datum';
-$lang['add_new_email_to']                      = 'Nieuw email adres toevoegen aan %s';
-$lang['import_emails_to']                      = 'Importeer emails naar %s';
-$lang['mail_list_new_email_edit_add_label']    = 'Email';
-$lang['mail_list_import_file']                 = 'Importeer document';
-$lang['mail_list_available_custom_fields']     = 'Beschikbare aangepaste velden';
-$lang['submit_import_emails']                  = 'Importeer emails';
-$lang['btn_import_emails']                     = 'Importeer emails (Excel)';
-$lang['btn_add_email_to_list']                 = 'Email aan deze lijst toevoegen';
-$lang['mail_lists_dt_list_name']               = 'Lijst titel';
-$lang['mail_lists_dt_datecreated']             = 'Datum';
-$lang['mail_lists_dt_creator']                 = 'Door';
-$lang['email_added_to_mail_list_successfully'] = 'Email toegevoegd aan lijst';
-$lang['email_is_duplicate_mail_list']          = 'Email bestaat al in deze lijst';
-
 # Media
 $lang['media_files'] = 'Documenten';
 
@@ -549,7 +515,6 @@ $lang['als_sales']                 = 'Verkoop';
 $lang['als_staff']                 = 'Medewerkers';
 $lang['als_tasks']                 = 'Taken';
 $lang['als_kb']                    = 'Kennisbank';
-$lang['als_surveys']               = 'Enquêtes';
 $lang['als_media']                 = 'Media';
 $lang['als_reports']               = 'Rapporten';
 $lang['als_reports_sales_submenu'] = 'Verkoop';
@@ -673,55 +638,6 @@ $lang['staff_edit_profile_change_old_password']        = 'Oud wachtwoord';
 $lang['staff_edit_profile_change_new_password']        = 'Nieuw wachtwoord';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Herhaal nieuw wachtwoord';
 
-# Surveys
-$lang['new_survey']                                = 'Nieuwe enquête';
-$lang['surveys']                                   = 'Enquêtes';
-$lang['survey']                                    = 'Enquête';
-$lang['survey_lowercase']                          = 'enquête';
-$lang['survey_no_mail_lists_selected']             = 'Geen maillijst geselecteerd';
-$lang['survey_send_success_note']                  = 'Alle enquêtemails (%s) zullen verzonden worden via cronjob';
-$lang['survey_result']                             = 'Resultaat voor enquête: %s';
-$lang['question_string']                           = 'Vraag';
-$lang['question_field_string']                     = 'Veld';
-$lang['survey_list_view_tooltip']                  = 'Bekijk enquête';
-$lang['survey_list_view_results_tooltip']          = 'Bekijk resultaten';
-$lang['survey_add_edit_subject']                   = 'Enquête onderwerp';
-$lang['survey_add_edit_email_description']         = 'Enquête beschrijving (voor email)';
-$lang['survey_include_survey_link']                = 'Enquête link toevoegen aan beschrijving';
-$lang['survey_available_mail_lists_custom_fields'] = 'Beschikbare aangepaste velden van mailing lijst';
-$lang['survey_mail_lists_custom_fields_tooltip']   = 'Aangepaste velden kunnen gebruikt worden voor mailing editor.';
-$lang['survey_add_edit_short_description_view']    = 'Enquête beschrijving (voor enquête )';
-$lang['survey_add_edit_from']                      = 'Van (in email weergegeven)';
-$lang['survey_add_edit_redirect_url']              = 'Enquête doorsturing';
-$lang['survey_add_edit_red_url_note']              = 'Waar gebruikers na het invoeren van de enquête naar doorgestuurd worden. (Laat leeg voor deze site URL)';
-$lang['survey_add_edit_disabled']                  = 'Uitgeschakeld';
-$lang['survey_add_edit_only_for_logged_in']        = 'Alleen voor ingelogde deelnemers (medewerkers, klanten)';
-$lang['send_survey_string']                        = 'Enquête versturen';
-$lang['survey_send_mail_list_clients']             = 'Klanten';
-$lang['survey_send_mail_list_staff']               = 'Medewerker';
-$lang['survey_send_mail_lists_string']             = 'Maillijsten';
-$lang['survey_send_mail_lists_note_logged_in']     = 'Let op: als je de enquête verstuurt naar maillijsten, moet \'alleen voor ingelogde gebruikers\' niet zijn aangevinkt.';
-$lang['survey_send_string']                        = 'Versturen';
-$lang['survey_send_to_total']                      = 'Stuur naar totaal %s emails';
-$lang['survey_send_till_now']                      = 'Tot nu toe';
-$lang['survey_send_finished']                      = 'Enquête versturen klaar: %s';
-$lang['survey_added_to_queue']                     = 'Deze enquête word toegevoegd aan de cron queue op %s';
-$lang['survey_questions_string']                   = 'Vragen';
-$lang['survey_insert_field']                       = 'Veld toevoegen';
-$lang['survey_field_checkbox']                     = 'Selectievakjes';
-$lang['survey_field_radio']                        = 'Meerkeuze';
-$lang['survey_field_input']                        = 'Korte tekst';
-$lang['survey_field_textarea']                     = 'Lange tekst';
-$lang['survey_question_required']                  = 'Verplicht';
-$lang['survey_question_only_for_preview']          = 'Alleen voor preview';
-$lang['survey_create_first']                       = 'Je moet eerst de enquête maken, daarna kan je de vragen toevoegen.';
-$lang['survey_dt_name']                            = 'Naam';
-$lang['survey_dt_total_questions']                 = 'Aantal vragen';
-$lang['survey_dt_total_participants']              = 'Aantal deelnemers';
-$lang['survey_dt_date_created']                    = 'Aangemaakt ';
-$lang['survey_dt_active']                          = 'Actief';
-$lang['survey_text_questions_results']             = 'Tekst antwoorden op vragen';
-$lang['survey_view_all_answers']                   = 'Bekijk alle antwoorden';
 
 # Staff Tasks
 $lang['new_task']                           = 'Nieuwe taak';
@@ -1069,8 +985,6 @@ $lang['payment_view_heading'] = 'Betaling';
 
 # Settings
 $lang['settings_allow_payment_amount_to_be_modified']               = 'Klant toestaan het te betalen bedrag te wijzigen (voor online betalingen)';
-$lang['settings_survey_send_emails_per_cron_run']                   = 'Hoeveel emails per uur te verzenden';
-$lang['settings_survey_send_emails_per_cron_run_tooltip']           = 'Deze optie wordt gebruikt wanneer je enquêtes verstuurd. De enquête cronjob gaat elke 5 minuten, dus je kan kiezen hoeveel emails je elke 5 minuten stuurt.';
 $lang['settings_delete_only_on_last_invoice']                       = 'Factuur verwijderen alleen toegestaan bij laatste factuur';
 $lang['settings_sales_estimate_prefix']                             = 'Offertenummer voorvoegsel';
 $lang['settings_sales_next_estimate_number']                        = 'Volgend offertenummer';
@@ -1338,7 +1252,6 @@ $lang['contract_renewal_old_end_date'] = 'Oud contract eind datum was: %s';
 $lang['contract_attachment']           = 'Document';
 
 # Admin Aside Menu
-$lang['als_goals_tracking']     = 'Doelen';
 $lang['als_expenses']           = 'Inkoop';
 $lang['als_reports_expenses']   = 'Inkoop';
 $lang['als_expenses_vs_income'] = 'Verkoop / inkoop';
@@ -1349,50 +1262,6 @@ $lang['invoice_mark_as_sent']          = 'Markeren als verzonden';
 $lang['invoice_marked_as_sent']        = 'Factuur gemarkeerd als succesvol verzonden';
 $lang['invoice_marked_as_sent_failed'] = 'Onsuccesvol in factuur als verzonden markeren.';
 
-# Goals Tracking
-$lang['goals']                                         = 'Doelen';
-$lang['goal']                                          = 'Doel';
-$lang['goals_tracking']                                = 'Doelen bijhouden';
-$lang['new_goal']                                      = 'Nieuw doel';
-$lang['goal_lowercase']                                = 'Doel';
-$lang['goal_start_date']                               = 'Start datum';
-$lang['goal_end_date']                                 = 'Eind datum';
-$lang['goal_subject']                                  = 'Onderwerp';
-$lang['goal_description']                              = 'Beschrijving';
-$lang['goal_type']                                     = 'Doel type';
-$lang['goal_achievement']                              = 'Prestatie';
-$lang['goal_contract_type']                            = 'Contract type';
-$lang['goal_notify_when_fail']                         = 'Staff lid op de hoogte stellen als doel niet behaald wordt.';
-$lang['goal_notify_when_achieve']                      = 'Staff lid op de hoogte stellen als doel behaald wordt';
-$lang['goal_progress']                                 = 'Vooruitgang';
-$lang['goal_total']                                    = 'Totaal: %s';
-$lang['goal_result_heading']                           = 'Doel vooruitgang';
-$lang['goal_income_shown_in_base_currency']            = 'Totaal inkomen is weergegeven in uw standaard munteenheid';
-$lang['goal_notify_when_end_date_arrives']             = 'De staff leden zullen op de hoogte gesteld worden als de eind datum er is.';
-$lang['goal_staff_members_notified_about_achievement'] = 'De staff members zijn op de hoogte gesteld van deze doel prestatie';
-$lang['goal_staff_members_notified_about_failure']     = 'Staff leden zijn op de hoogte gesteld van het gefaald hebben';
-$lang['goal_notify_staff_manually']                    = 'Staff leden handmatig op de hoogte stellen';
-$lang['goal_notify_staff_notified_manually_success']   = 'De staff leden zijn op de hoogte gesteld over dit doel resultaat';
-$lang['goal_notify_staff_notified_manually_fail']      = 'Onsuccesvol geweest in staff leden op de hoogte stellen van het gefaald hebben';
-
-$lang['goal_achieved'] = 'Behaald';
-$lang['goal_failed']   = 'Gefaald';
-$lang['goal_close']    = 'Heel dichtbij';
-
-$lang['goal_type_total_income']                                         = 'Behaal totaal inkomen';
-$lang['goal_type_convert_leads']                                        = 'Zet x leads om in klanten';
-$lang['goal_type_increase_customers_without_leads_conversions']         = 'Klanten nummer verhogen';
-$lang['goal_type_increase_customers_without_leads_conversions_subtext'] = 'Leads omzetting is geexcludeerd';
-
-$lang['goal_type_increase_customers_with_leads_conversions']         = 'Klanten nummer verhogen';
-$lang['goal_type_increase_customers_with_leads_conversions_subtext'] = 'Leads omzetting is geincludeerd';
-$lang['goal_type_make_contracts_by_type_calc_database']              = 'Maak contracten bij typen';
-$lang['goal_type_make_contracts_by_type_calc_database_subtext']      = 'Is berekend van de datum toegevoegd aan de database';
-$lang['goal_type_make_contracts_by_type_calc_date']                  = 'Maak contracten bij typen';
-$lang['goal_type_make_contracts_by_type_calc_date_subtext']          = 'Is berekend van het contract start datum';
-$lang['goal_type_total_estimates_converted']                         = 'X offertes omgezet';
-$lang['goal_type_total_estimates_converted_subtext']                 = 'Zal alleen offertes nemen die omgezet zijn naar facturen';
-$lang['goal_type_income_subtext']                                    = 'Inkomen zal berekend worden in uw standaard munteenheid (niet omgezet)';
 # Payments
 $lang['payment_transaction_id'] = 'Transactie ID';
 # Settings Menu
@@ -1601,7 +1470,6 @@ $lang['task_public_help']          = 'Als je deze taak op openbaar zet zal het z
 $lang['settings_general_favicon']                                            = 'Favicon';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Genereer PDF documenten in de taal die de klant heeft ingesteld';
 $lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Als deze optie aan staat, zal het systeem PDF documenten zoals facturen en offertes genereren in de taal die de klant heeft ingesteld. Dit is dan niet de standaard ingestelde taal.';
-$lang['settings_cron_surveys']                                               = 'Enquêtes';
 $lang['settings_default_tax']                                                = 'Standaard BTW';
 $lang['setup_calendar_by_departments']                                       = 'Zet kalender op bij afdelingen';
 $lang['settings_calendar']                                                   = 'Kalender';
@@ -1662,19 +1530,6 @@ $lang['bulk_export_status']            = 'Status';
 $lang['bulk_export_zip_payment_modes'] = 'Betalingen gemaakt door';
 $lang['bulk_export_include_tag']       = 'Inclusief Tag';
 $lang['bulk_export_include_tag_help']  = 'B. Origineel of Kopie. De tag zal geoutput zijn in de PDF. Geadviseerd om maar 1 tag te gebruiken.';
-
-$lang['auto_backup_options_updated']     = 'Automatische back-up bijgewerkt';
-$lang['auto_backup_every']               = 'Maak back-up elke (dagen)';
-$lang['auto_backup_enabled']             = 'Automatische back-up inschakelen (heeft cronjob nodig)';
-$lang['auto_backup']                     = 'Automatische back-up';
-$lang['backup_delete']                   = 'Back-up is verwijderd';
-$lang['backup_success']                  = 'Back-up is gemaakt';
-$lang['utility_backup']                  = 'Database back-up';
-$lang['utility_create_new_backup_db']    = 'Maak database back-up';
-$lang['utility_backup_table_backupname'] = 'Back-up';
-$lang['utility_backup_table_backupsize'] = 'Back-up grootte';
-$lang['utility_backup_table_backupdate'] = 'Datum';
-$lang['utility_db_backup_note']          = 'Let op: vanwege de beperkte uitvoeringstijd en het beschikbare geheugen voor PHP, is het maken van back-ups van zeer grote databases in sommige gevallen niet mogelijk. Wanneer de database erg groot is, moet er mogelijk een rechtstreekse back-up vanaf de SQL-server gemaakt worden. Laat je server beheerder dit doen wanneer je geen root rechten hebt.';
 
 # Version 1.0.7
 ## Customers - portal
@@ -1883,26 +1738,11 @@ $lang['custom_field_show_on_client_portal']      = 'Laten zien op klant portaal'
 $lang['custom_field_show_on_client_portal_help'] = 'Als dit veld aangevinkt is, zal het ook te zien zijn op tabellen.';
 $lang['custom_field_visibility']                 = 'Zichtbaarheid';
 
-# Utilities # Menu Builder
-$lang['utilities_menu_translate_name_help'] = 'U kunt zogenaamde \'Vertaling String\' toevoegen. Dit betekend dat zodra onze medewerkers of ons systeem een andere taal spreken dan de taal op uw opgegeven product, de namen van het product omgezet zullen worden naar de taal van de betreffende medewerker. Zodra de door u opgegeven taal niet herkend word zal de keuze vallen op de taal String die u hier kunt invullen';
-$lang['utilities_menu_icon']                = 'Icon';
-$lang['active_menu_items']                  = 'Actieve menu items';
-$lang['inactive_menu_items']                = 'Inactieve menu items';
-$lang['utilities_menu_url']                 = 'Url';
-$lang['utilities_menu_name']                = 'Naam';
-$lang['utilities_menu_save']                = 'Sla menu op';
-
 # Knowledge Base
 $lang['view_articles_list']     = 'Artikelen bekijken';
 $lang['view_articles_list_all'] = 'Alle artikelen';
 $lang['als_all_articles']       = 'Alle artikelen';
 $lang['als_kb_groups']          = 'Groepen';
-
-# Customizer Menu
-$lang['menu_builder']            = 'Menu instellingen';
-$lang['main_menu']               = 'Hoofdmenu';
-$lang['setup_menu']              = 'Instellingen menu';
-$lang['utilities_menu_url_help'] = '%s is automatisch toegevoegd aan de url';
 
 # Spam Filter - Tickets
 $lang['spam_filters']                 = 'Spamfilters';
@@ -1947,7 +1787,6 @@ $lang['ticket_pipe_status']   = 'Status';
 # Home
 $lang['home_latest_activity']   = 'Laatste activiteit';
 $lang['home_my_tasks']          = 'Mijn taken';
-$lang['home_latest_activity']   = 'Laatste activiteit';
 $lang['home_my_todo_items']     = 'Mijn taken';
 $lang['home_widget_view_all']   = 'Bekijk alles';
 $lang['home_stats_full_report'] = 'Volledig rapport';
@@ -1981,11 +1820,6 @@ $lang['not_received_lead_imported_email_integration'] = 'Lead geimporteerd van e
 $lang['not_lead_imported_attachment']                 = 'Document van email geimporteerd';
 $lang['not_estimate_status_change']                   = 'Document van email geimporteerd';
 $lang['not_estimate_status_updated']                  = 'Offerte status geupdate: van: %s naar %s';
-$lang['not_goal_message_success']                     = 'Gefeliciteerd! We hebben een nieuw doel bereikt.<br />Doel type: %s
-<br />Doel prestatie: %s
-<br />Totaal prestatie: %s
-<br />Start datum: %s
-<br />Eind datum: %s';
 $lang['not_assigned_lead_to_you']                                 = 'Heeft lead %s aan u toegewezen';
 $lang['not_lead_activity_assigned_to']                            = '%s toegewezen aan %s';
 $lang['not_lead_activity_attachment_deleted']                     = 'Verwijder Document';
@@ -2505,8 +2339,6 @@ $lang['expense_repeat_every']              = 'Herhaal elke';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Wissel naar overzicht';
-$lang['survey_no_questions']                      = 'Deze enquête heeft nog geen vragen.';
-$lang['survey_submit']                            = 'Inleveren';
 $lang['contract_content']                         = 'Contract';
 $lang['contract_save']                            = 'Sla contact op';
 $lang['contract_send_to_email']                   = 'Verzenden naar email';
@@ -2610,7 +2442,6 @@ $lang['auto_stop_tasks_timers_on_new_timer']    = 'Stop alle andere gestarte tim
 $lang['notification_when_customer_pay_invoice'] = 'Ontvangen kennisgeving wanneer de klant de factuur betaalt(ingebouwd)';
 $lang['not_invoice_payment_recorded']           = 'Nieuwe factuurbetaling - %s';
 $lang['email_template_contact_warning']         = 'Indien het contact niet is geregistreerd tijdens het ondernemen van actie, kunnen de contact samenvoeging velden niet worden vervangen.';
-$lang['theme_style']                            = 'Thema stijl';
 $lang['change_role_permission_warning']         = 'Veranderen van rol permissies heeft nu geen invloed op de huidige medewerkers toestemmingen die gebruik maken van deze rol.';
 $lang['task_copied_successfully']               = 'Taak met succes gekopieerd';
 $lang['failed_to_copy_task']                    = 'Taak kopiëren is mislukt';
@@ -2645,11 +2476,7 @@ $lang['to_date']                                = 'Geen datum';
 $lang['not_results_found']                      = 'Geen resultaten gevonden';
 $lang['lead_lock_after_convert_to_customer']    = 'Sta bewerken van de lead niet toe na het converteren naar de klant (niet van toepassing voor administratoren)';
 $lang['default_pipeline_sort']                  = 'Standaard pijplijn sorteren';
-$lang['not_goal_message_failed']                = 'Wij zijn er niet in geslaagd het doel te bereiken!<br /> Soort Doel: %s
-<br />Doelbereiking: %s
-<br />Doelbereiking: %s
-<br />Startdatum: %s
-<br />Einddatum: %s';
+
 $lang['toggle_full_view']             = 'Omschakelen naar volledige zicht';
 $lang['not_estimate_invoice_deleted'] = 'verwijderde de aangemaakte factuur';
 $lang['not_task_new_comment']         = 'gereageerd op taak %s';
@@ -2788,15 +2615,10 @@ $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 $lang['milestone_description']                      = 'Beschrijving';
 $lang['description_visible_to_customer']            = 'Toon beschrijving aan klant';
 $lang['upcoming_tasks']                             = 'Komende Taken';
-$lang['paymentmethod_two_checkout_account_number']  = 'Rekeningnummer (Verkoper ID)';
-$lang['paymentmethod_two_checkout_private_key']     = 'Private Sleutel';
-$lang['paymentmethod_two_checkout_publishable_key'] = 'Publiceerbare Sleutel';
 $lang['payment_credit_card_number']                 = 'Kaartnummer';
 $lang['payment_credit_card_expiration_date']        = 'Vervaldatum';
 $lang['payment_billing_email']                      = 'E-mail';
 $lang['submit_payment']                             = 'Dien betaling in';
-$lang['2checkout_notice_payment']                   = 'Kredietkaartinformatie wordt met een veilige token verwerkt die 2Checkout wordt verstrekt';
-$lang['2checkout_usage_notice']                     = 'SSL is vereist als u gebruikt maakt van de 2Checkout betaling API. Het veilig oproepen van de tokenisatie en autorisaties. Het systeem zal zonder SSL functioneren, maar dit zal u buiten naleving plaatsen, wat tot het deactiveren van uw API permissies kan leiden.';
 $lang['custom_field_disallow_customer_to_edit']     = 'Sta klant niet toe om dit veld te bewerken';
 $lang['project_due_notice']                         = 'Dit project is te laat met %s dagen';
 $lang['not_lead_added_attachment']                  = 'Nieuwe bijlage toegevoegd aan lead %s';
@@ -2917,8 +2739,6 @@ $lang['task_checklist_item_completed_by']                   = 'Voltooid door %s'
 $lang['staff_email_signature_help']                         = 'Indien leeg, zal de standaard e-mail handtekening uit instellingen worden gebruikt';
 $lang['default_task_priority']                              = 'Standaard prioriteit';
 $lang['project_send_created_email']                         = 'Verstuur project aangemaakte e-mail';
-$lang['survey_send_to_lists']                               = 'Enquête verstuurd lijsten';
-$lang['survey_send_notice']                                 = 'Emails worden ieder uur door cronjob verzonden.';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Betalingen op de factuur PDF weergeven';
@@ -2930,7 +2750,6 @@ $lang['customer_attachments_show_in_customers_area'] = 'Show to customers area';
 $lang['customer_attachments_show_notice']            = 'Alleen bestanden die vanuit het klantprofiel zijn geüpload, kunnen weergeven / verbergen in het klantengedeelte.';
 $lang['customer_profile_files']                      = 'Bestanden';
 $lang['no_files_found']                              = 'Geen bestanden gevonden';
-$lang['survey_customers_all']                        = 'Alle klanten';
 $lang['custom_field_column']                         = 'Raster (Bootstrap-kolom, vergelijking 12) - Max is 12';
 $lang['task_status']                                 = 'Status';
 $lang['task_status_1']                               = 'Niet begonnen';
@@ -2947,7 +2766,6 @@ $lang['show_pay_link_to_invoice_pdf']                = 'Toon betaal factuur link
 $lang['no_leads_found']                              = 'Geen leads gevonden ';
 $lang['created_today']                               = 'Vandaag gemaakt';
 $lang['total_tasks_deleted']                         = 'Totaal taken verwijderd: %s';
-$lang['total_tickets_delete']                        = 'Totaal aantal tickets verwijderd: %s';
 $lang['total_tickets_delete']                        = 'Totaal aantal tickets verwijderd: %s';
 $lang['format_letter_portrait']                      = 'Brief portret';
 $lang['format_letter_landscape']                     = 'Letterlandschap';
@@ -3140,7 +2958,6 @@ $lang['proposals_report']                                = 'Voorstellen rapport'
 $lang['staff_members_open_tickets_to_all_contacts_help'] = 'Als het personeelslid geen toestemming heeft voor klanten, kan VIEW alleen nieuwe tickets maken van het admin-gebied naar klantcontacten waar de klantbeheerder is toegewezen.';
 $lang['staff_members_open_tickets_to_all_contacts']      = 'Sta medewerkers toe om tickets te openen voor alle contacten?';
 $lang['charts_based_report']                             = 'Op grafieken gebaseerd rapport';
-$lang['delete_backups_older_then']                       = 'Verwijder automatisch back-ups ouder dan (dagen) </br><small>gebruik 0 om uit te schakelen</small>';
 $lang['responsible_admin']                               = 'Verantwoordelijke beheerder';
 $lang['tags']                                            = 'Tags';
 $lang['tag']                                             = 'Tag';
@@ -3642,7 +3459,6 @@ $lang['view_consent']                                           = 'Consent bekij
 $lang['transfer_consent']                                       = 'Toestemming overdragen';
 $lang['view_public_form']                                       = 'Bekijk openbaar formulier';
 $lang['update_consent']                                         = 'Toestemming bijwerken';
-$lang['update_consent']                                         = 'Toestemming bijwerken';
 $lang['consent_last_updated']                                   = 'Laatst bijgewerkt: %s';
 $lang['showing_search_result']                                  = 'Zoekresultaten weergeven voor: %s';
 $lang['per_page']                                               = 'Per pagina';
@@ -3746,4 +3562,148 @@ $lang['not_customer_uploaded_file']                                  = 'Nieuw be
 $lang['customer_files_info_message'] = 'Files from projects and tasks linked to the customer are not shown on this table.';
 $lang['ticket_import_reply_only'] = 'Try to import only the actual ticket reply (without quoted/forwarded message)';
 $lang['learn_more'] = 'Learn More';
-$lang['sales_item'] = 'Item';
+$lang['sales_item']                  = 'Item';
+
+# Version 2.3.0
+
+$lang['modules']                    = 'Modules';
+$lang['module']                     = 'Module';
+$lang['module_description']         = 'Description';
+$lang['module_activate']            = 'Activate';
+$lang['module_deactivate']          = 'Deactivate';
+$lang['module_uninstall']           = 'Uninstall';
+$lang['module_upgrade_database']    = 'Upgrade Database';
+$lang['module_settings']            = 'Settings';
+$lang['module_version']             = 'Version %s';
+$lang['module_by']                  = 'By %s';
+$lang['staff_which_are_using_role'] = 'Staff members which are using this role';
+$lang['copy']                       = 'Copy';
+$lang['read_more']                  = 'Read More';
+$lang['show_less']                  = 'Show Less';
+$lang['project_progress_text']      = 'Project Progress';
+$lang['timer_not_stopped_yet']                   = 'This timer is not yet stopped';
+$lang['refunds']                                 = 'Refunds';
+$lang['refund']                                  = 'Refund';
+$lang['refund_amount']                           = 'Refunded Amount';
+$lang['not_refunds_found']                       = 'No refunds found';
+$lang['refunds_applied_cant_delete_credit_note'] = 'This credit note has refunds applied, you need first to delete the refunds in order to delete the credit note.';
+
+# Version 2.3.2
+$lang['create_recurring_from_child_error_message'] = 'You cannot set this %s as recurring because this %s is child from another recurring %s.';
+$lang['statement_credit_note_refund']              = 'Credit Note Refund - %s';
+$lang['no_validation']                             = 'No Validation';
+$lang['lead_unique_validation_on']                 = 'Perform validation for duplicate lead on the following fields:';
+$lang['phonenumber_exists']                        = 'Phone number already exists';
+$lang['company_exists']                            = 'Company already exists';
+$lang['website_exists']                            = 'Website already exists';
+$lang['send_payment_receipt_to_client']            = 'Send Payment Receipt To Client';
+$lang['payment_sent_successfully']                 = 'Payment receipt sent successfully.';
+$lang['payment_sent_failed']                       = 'Failed to send payment receipt.';
+
+# Version 2.3.5
+$lang['tags_update_replace_warning'] = 'Some tags are not updated because the name of the tag already exist';
+$lang['attach_statement']            = 'Attach Customer Statement';
+
+# Version 2.4.0
+$lang['delete_credit_card']               = 'Delete Card';
+$lang['delete_credit_card_info']          = 'You cannot delete the credit card as you have active subscriptions.';
+$lang['credit_card_successfully_deleted'] = 'Credit card successfully deleted.';
+$lang['subscription_incomplete']          = 'Incomplete';
+$lang['subscription_incomplete_expired']  = 'Incomplete Expired';
+$lang['credit_card_short']                = 'Card';
+$lang['webhook_created']                  = 'Webhook created successfully.';
+$lang['subscriptions_terms_info']         = 'Enter customer terms & conditions to be displayed to the customer before subscribe to the subscription.';
+$lang['subscription_complete_payment']    = 'Complete Payment';
+$lang['subscription_is_subscription_is_expired'] = 'This subscription is expired.';
+$lang['subscription_plan_currency_does_not_match'] = 'Selected plan currency does not match currency selected below.';
+$lang['subscription_first_billing_date_info'] = 'Leave blank to use date when the customer is subscribed to the subscription. This field must be future date, if you select date and the date is passed but customer is not yet subscribed, the date when the customer will subscribe will be used.';
+$lang['stripe_subscription_select_plan'] = 'Select Stripe plan';
+
+# Version 2.4.1
+$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
+                              administrator to allow you permission to edit contracts.';
+$lang['mark_as_signed']                 = 'Mark as signed';
+$lang['unmark_as_signed']               = 'Unmark as signed';
+$lang['marked_as_signed']               = 'Marked as signed';
+$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
+$lang['save_and_send_later']            = 'Save and Send Later';
+$lang['schedule']                       = 'Schedule';
+$lang['schedule_email_for']             = 'Schedule Email for %s';
+$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['email_scheduled_successfully']   = 'Email scheduled successfully';
+$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+
+# Version 2.5.0
+$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
+$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
+$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
+$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
+$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
+$lang['lead_value']                         = 'Lead value';
+$lang['lead_value_tooltip']                 = 'Base currency will be used.';
+$lang['leads_dt_lead_value']                = 'Lead Value';
+$lang['leads_canban_lead_value']            = 'Lead Value: %s';
+$lang['lead_add_edit_lead_value']           = 'Lead Value';
+
+# Version 2.6.0
+$lang['gantt_view_day'] = 'Days View';
+$lang['gantt_view_week'] = 'Weeks View';
+$lang['gantt_view_month'] = 'Months View';
+$lang['gantt_view_year'] = 'Years View';
+
+# Version 2.7.0
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm. It is used for recurring Task, Task reminders etc.';
+$lang['clients_nav_contacts']                                 = 'Contacts';
+$lang['clients_my_contacts']                                  = 'Contacts';
+$lang['clients_my_contact']                                   = 'Contact';
+$lang['new_contact']                                          = 'New Contact';
+$lang['customer_contact']                                     = 'My Contacts';
+$lang['clients_contact_added']                                = 'Contact added successfuly';
+$lang['clients_contact_updated']                              = 'Contact updated successfuly';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
+$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
+$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+
+$lang['two_factor_authentication_disabed']                    = 'Disabled';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
+$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
+$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
+$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
+$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
+$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
+$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
+$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
+$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
+$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';
