@@ -1,5 +1,5 @@
 # <a href="https://perfexcrm.com">Perfex CRM</a>
-Perfex CRM - Main language files for version >= 2.7.0
+Perfex CRM - Main language files for version >= 2.7.1
 
 ### Modules Language Files Repositories
 * <a href="https://github.com/mstojanovv/PerfexCRM-surveys">Surveys</a>

@@ -124,7 +124,8 @@ $currencies = [
     'EUR' => 'Euros',
 ];
 
-$currencies = do_action('before_number_format_render_languge_currencies', $currencies);
+$currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
+
 foreach ($currencies as $key => $val) {
     $lang['num_word_' . strtoupper($key)] = $val;
 }

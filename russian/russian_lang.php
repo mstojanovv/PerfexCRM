@@ -3630,6 +3630,7 @@ $lang['gantt_view_month'] = 'Обзор за месяц';
 $lang['gantt_view_year'] = 'Обзор за год';
 
 # Version 2.7.0
+
 $lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24-часовой формат экв. 9 для 9 утра или 15 для 15:00. Используется для повторяющихся задач, напоминаний о задачах и т.д.';
 $lang['clients_nav_contacts']                                 = 'Контакты';
 $lang['clients_my_contacts']                                  = 'Контакты';

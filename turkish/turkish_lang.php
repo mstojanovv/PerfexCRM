@@ -1517,7 +1517,7 @@ $lang['more']            = 'Daha';
 $lang['add_item']        = 'Ürün/Hizmet Ekle';
 $lang['goto_admin_area'] = 'Yönetim Paneline Git';
 $lang['delete']          = 'Sil %s';
-$lang['welcome_top']     = 'Hoşgeldiniz %s';
+$lang['welcome_top']     = 'Hoşgeldin %s';
 
 # Customers
 $lang['customer_permissions']         = 'İzinler';
@@ -3411,7 +3411,7 @@ $lang['settings_require_client_logged_in_to_view_contract']     = 'Sözleşmeyi 
 $lang['privacy_policy']                                         = 'Gizlilik Politikası';
 $lang['gdpr_terms_agree']                                       = '<a href="%s" target="_blank">Şartlar Ve Koşulları</a> Onaylayın.';
 $lang['terms_and_conditions_validation']                        = 'Devam etmek için & Şartları kabul etmelisiniz.';
-$lang['gdpr']                                                   = 'Genel Veri Koruma Yönetmeliği (GVKY)';
+$lang['gdpr']                                                   = 'Kişisel Verilerin Korunması Kanunu (KVKK)';
 $lang['data_removal_request_sent']                              = 'Veri kaldırma isteği gönderildi';
 $lang['gdpr_consents']                                          = 'Kabul Et';
 $lang['gdpr_consent']                                           = 'Kabul Et';
@@ -3456,13 +3456,13 @@ $lang['subscription_option_send_invoice'] = 'Fatura Gönder';
 $lang['subscription_option_send_payment_receipt'] = 'Ödeme Makbuzu Gönderin';
 $lang['subscription_option_send_payment_receipt_and_invoice'] = 'Fatura ve Ödeme Makbuzu Gönder';
 $lang['subscription_option_do_nothing'] = 'Hiçbir şey yapma';
-$lang['gdpr_not_enabled'] = 'GVKY etkin değil';
-$lang['enable_gdpr'] = 'GVKY Aktif Et';
+$lang['gdpr_not_enabled'] = 'KVKK etkin değil';
+$lang['enable_gdpr'] = 'KVKK Aktif Et';
 $lang['gdpr_right_to_rectification'] = 'Düzeltme hakkı';
 $lang['test_sms_config'] = 'SMS Ayar Testi';
 $lang['test_sms_message'] = 'Test Mesajı';
 $lang['send_test_sms'] = 'SMS Test Mesajı Gönder';
-$lang['gdpr_short'] = 'GVKY';
+$lang['gdpr_short'] = 'KVKK';
 $lang['allow_non_admin_staff_to_delete_ticket_attachments'] = 'Yönetici olmayan personelin destek eklerini silmesine izin ver';
 
 # Version 2.1.0
@@ -3586,59 +3586,90 @@ $lang['stripe_subscription_select_plan'] = 'Stripe Planı Seçin';
 
 
 # Version 2.4.1
-$lang['contract_content_permission_edit_warning'] = 'Your current permissions does not allows you to edit the contract content. Consult with an
-                              administrator to allow you permission to edit contracts.';
-$lang['mark_as_signed']                 = 'Mark as signed';
-$lang['unmark_as_signed']               = 'Unmark as signed';
-$lang['marked_as_signed']               = 'Marked as signed';
-$lang['contract_marked_as_signed_info'] = 'This contract is manually marked as signed.';
-$lang['save_and_send_later']            = 'Save and Send Later';
-$lang['schedule']                       = 'Schedule';
-$lang['schedule_email_for']             = 'Schedule Email for %s';
-$lang['schedule_date']                  = 'When would you like to send the email?';
+$lang['contract_content_permission_edit_warning'] = 'Mevcut izinleriniz sözleşme içeriğini düzenlemenize izin vermiyor. Sözleşmeleri düzenleme izni için bir yöneticiye danışın.';
+
+$lang['mark_as_signed']                 = 'İmzalandı olarak işaretle';
+$lang['unmark_as_signed']               = 'İmzalanmadı olarak işaretle';
+$lang['marked_as_signed']               = 'İmzalandı olarak işaretlendi';
+$lang['contract_marked_as_signed_info'] = 'Bu sözleşme manuel olarak imzalandı olarak işaretlendi.';
+$lang['save_and_send_later']            = 'Kaydet ve Daha Sonra Gönder';
+$lang['schedule']                       = 'Planla';
+$lang['schedule_email_for']             = 'Epostayı şunun için planla %s';
+$lang['schedule_date']                  = 'E-postayı ne zaman göndermek istersiniz?';
 $lang['email_scheduled_successfully']   = 'Email scheduled successfully';
-$lang['invoice_will_be_sent_at']        = 'Invoice will be sent at %s';
+$lang['invoice_will_be_sent_at']        = 'Fatura şu tarihte gönderilecek %s';
 
 # Version 2.5.0
-$lang['recaptcha_ignore_ips']               = 'Ignored IP Addresses';
-$lang['recaptcha_ignore_ips_info']          = 'Enter coma separated IP addresses that you want the reCaptcha to skip validation.';
-$lang['show_task_reminders_on_calendar']    = 'Task Reminders';
-$lang['contracts_about_to_expire']          = 'Contracts Expiring Soon';
-$lang['no_contracts_about_to_expire']       = 'There are no contracts that are going to expire in the next %s days.';
-$lang['lead_value']                         = 'Lead value';
-$lang['lead_value_tooltip']                 = 'Base currency will be used.';
-$lang['leads_dt_lead_value']                = 'Lead Value';
-$lang['leads_canban_lead_value']            = 'Lead Value: %s';
-$lang['lead_add_edit_lead_value']           = 'Lead Value';
+$lang['recaptcha_ignore_ips']               = 'Yoksayılan IP Adresleri';
+$lang['recaptcha_ignore_ips_info']          = 'reCaptcha doğrulamayı atlamasını istediğiniz, IP adreslerini viirgülle ayırarak girin.';
+$lang['show_task_reminders_on_calendar']    = 'Görev Hatırlatıcıları';
+$lang['contracts_about_to_expire']          = 'Yakında Bitecek Sözleşmeler';
+$lang['no_contracts_about_to_expire']       = 'Önümüzdeki %s gün içinde süresi bitecek sözleşme yok.';
+$lang['lead_value']                         = 'Fırsat değeri';
+$lang['lead_value_tooltip']                 = 'Temel para birimi kullanılacak.';
+$lang['leads_dt_lead_value']                = 'Fırsat Değeri';
+$lang['leads_canban_lead_value']            = 'Fırsat Değeri: %s';
+$lang['lead_add_edit_lead_value']           = 'Fırsat Değeri';
 
 # Version 2.6.0
-$lang['gantt_view_day'] = 'Days View';
-$lang['gantt_view_week'] = 'Weeks View';
-$lang['gantt_view_month'] = 'Months View';
-$lang['gantt_view_year'] = 'Years View';
+$lang['gantt_view_day'] = 'Gün Görünümü';
+$lang['gantt_view_week'] = 'Hafta Görünümü';
+$lang['gantt_view_month'] = 'Ay Görünümü';
+$lang['gantt_view_year'] = 'Yıl Görünümü';
 
 # Version 2.7.0
-$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 hours format eq. 9 for 9am or 15 for 3pm.I t Used for recurring Task, Task reminders etc.';
-$lang['clients_nav_contacts']                                 = 'Contacts';
-$lang['clients_my_contacts']                                  = 'Contacts';
-$lang['clients_my_contact']                                   = 'Contact';
-$lang['new_contact']                                          = 'New Contact';
-$lang['customer_contact']                                     = 'My Contacts';
-$lang['clients_contact_added']                                = 'Contact added successfuly';
-$lang['clients_contact_updated']                              = 'Contact updated successfuly';
-$lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary contact to manage other customer contacts';
-$lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
-$lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
+$lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24 saat biçimi örn. sabah 9 için 9am ya da öğlen 15 için 3pm. Yinelenen görevler,görev hatırlatıcıları vb. için kullanılır.';
+$lang['clients_nav_contacts']                                 = 'Kişiler';
+$lang['clients_my_contacts']                                  = 'Kişiler';
+$lang['clients_my_contact']                                   = 'Kişi';
+$lang['new_contact']                                          = 'Yeni Kişi';
+$lang['customer_contact']                                     = 'Kişilerim';
+$lang['clients_contact_added']                                = 'Kişi başarıyla eklendi';
+$lang['clients_contact_updated']                              = 'Kişi başarıyla güncellendi';
+$lang['allow_primary_contact_to_manage_other_contacts']       = 'Birincil kişinin diğer müşteri kişilerini yönetmesine izin ver';
+$lang['contact_form_validation_is_unique']                    = 'Görünüşe göre bu {field} ile sisteminizde zaten bir kişi var';
+$lang['invoice_number_not_applied_on_draft']                  = 'Fatura taslak olarak kaydedilmiş ise numara uygulanmayacak, bunun yerine fatura müşteriye gönderildiğinde veya gönderilmiş olarak işaretlendiğinde bir sonraki fatura numarası verilecektir.';
 
-$lang['two_factor_authentication_disabed']                    = 'Disabled';
-$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
-$lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
-$lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
-$lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
-$lang['google_authentication_code']                           = 'Enter code from Authenticator app';
-$lang['set_two_factor_authentication_successful']             = 'Successfully updated two factor authentication settings';
-$lang['set_two_factor_authentication_failed']                 = 'Could not update two factor authentication settings';
-$lang['google_2fa_code_valid']                                = 'Successfuly verified the authentication';
-$lang['google_2fa_code_invalid']                              = 'Invalid authentication code entered, try again.';
-$lang['google_2fa_scan_qr_guide']                             = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
-$lang['google_2fa_manul_input_secret']                        = 'Secret key for manual input';
+$lang['two_factor_authentication_disabed']                    = 'Devre Dışı';
+$lang['enable_google_two_factor_authentication']              = 'Google Authenticator uygulamasını etkinleştir';
+$lang['set_google_two_factor_authentication_failed']          = 'Kimlik doğrulama kaydedilemedi, lütfen tekrar deneyin';
+$lang['enter_two_factor_auth_code_from_mobile']               = 'Authenticator uygulamasından aldığınız kimlik doğrulama kodunu girin';
+$lang['staff_two_factor_authentication']                      = 'İki Faktörlü Kimlik Doğrulama';
+$lang['google_authentication_code']                           = 'Authenticator uygulamasından aldığınız kodu girin';
+$lang['set_two_factor_authentication_successful']             = 'İki faktörlü kimlik doğrulama ayarları başarıyla güncellendi';
+$lang['set_two_factor_authentication_failed']                 = 'İki faktörlü kimlik doğrulama ayarları güncellenemedi';
+$lang['google_2fa_code_valid']                                = 'Kimliğiniz başarıyla doğrulandı';
+$lang['google_2fa_code_invalid']                              = 'Geçersiz kimlik doğrulama kodu girildi, tekrar deneyin.';
+$lang['google_2fa_scan_qr_guide']                             = 'Aşağıdaki QR kodunu mobil cihazınızdaki Google Authenticator uygulamasıyla tarayın, uygulamada oluşturulan kodu aşağıdaki alana girin';
+$lang['google_2fa_manul_input_secret']                        = 'Manuel giriş için gizli anahtar';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';
