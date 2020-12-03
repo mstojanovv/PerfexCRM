@@ -3655,3 +3655,35 @@ $lang['google_2fa_code_valid']                                = 'Успешно 
 $lang['google_2fa_code_invalid']                              = 'Введен неверный код аутентификации, попробуйте еще раз.';
 $lang['google_2fa_scan_qr_guide']                             = 'Отсканируйте QR-код ниже с помощью приложения Google Authenticator на вашем мобильном устройстве, после чего заполните поле ниже кодом, сгенерированным в приложении.';
 $lang['google_2fa_manul_input_secret']                        = 'Секретный ключ для ручного ввода';
+
+
+# Version 2.7.1
+$lang['templates']                                   = 'Шаблоны';
+$lang['add_template']                                = 'Добавить шаблон';
+$lang['edit_template']                               = 'Редактировать шаблон';
+$lang['template_added']                              = 'Шаблон успешно добавлен';
+$lang['template_updated']                            = 'Шаблон успешно обновлен';
+$lang['template_name']                               = 'Название шаблона';
+$lang['template_content']                            = 'Содержимое шаблона';
+$lang['insert_template']                             = 'Вставить';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Исключить символ валюты из таблицы товаров Сумма';
+
+$lang['multiplies_of']               = 'Кратные';
+$lang['round_off_task_timer_option'] = 'Таймер округления задачи';
+$lang['task_timer_dont_round_off']   = 'Не округлять';
+$lang['task_timer_round_up']         = 'Округление в большую сторону';
+$lang['task_timer_round_down']       = 'Округление в меньшую сторону';
+$lang['task_timer_round_nearest']    = 'Округление до ближайшего';
+$lang['calendar_task_reminder']      = 'Напоминание о задаче';
+$lang['projects_chart']              = 'График проектов';
+$lang['overdue_by_days']             = 'ПРОСРОЧЕН НА %s ДНЕЙ';
+
+$lang['two_checkout_payment_processing'] = 'Платеж обработан, в случае успеха вы получите уведомление';
+$lang['two_checkout_payment_cancelled']  = 'Оплата отменена';
+$lang['two_checkout_merchant_code']      = 'Код продавца';
+$lang['two_checkout_secret_Key']         = 'Секретный код';
+$lang['two_gateway_webhook_notice']      = 'Конечная точка IPN для 2Checkout это ( %s )';
+$lang['something_went_wrong']            = 'Что-то пошло не так. Попробуй еще раз';
+$lang['imap_folder']                     = 'Папка';
+$lang['retrieve_folders']                = 'Получить папки';
+$lang['email_to_ticket_config']          = 'Эл. почта для настроки тикета';
