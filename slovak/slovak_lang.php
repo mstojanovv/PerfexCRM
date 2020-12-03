@@ -3457,7 +3457,7 @@ $lang['subscription_first_billing_date_info'] = 'Ak je zákazník prihlásený n
 $lang['stripe_subscription_select_plan'] = 'Vyberte Stripe plán';
 
 # Version 2.4.1
-$lang['contract_content_permission_edit_warning'] = 'Vaše súčasné oprávnenie vám neumožňuje upravovať obsah zmluvy. Poraďte sa s 
+$lang['contract_content_permission_edit_warning'] = 'Vaše súčasné oprávnenie vám neumožňuje upravovať obsah zmluvy. Poraďte sa s
                             administrátorom, ktorý vám umožní povolenie na úpravu zmlúv.';
 $lang['mark_as_signed']                 = 'Označiť ako podpísané';
 $lang['unmark_as_signed']               = 'Zrušiť označenie ako podpísané';
@@ -3513,3 +3513,34 @@ $lang['google_2fa_code_valid']                                = 'Autentifikácia
 $lang['google_2fa_code_invalid']                              = 'Bol zadaný neplatný autentifikačný kód, skúste to znova.';
 $lang['google_2fa_scan_qr_guide']                             = 'Naskenujte QR kód nižšie pomocou aplikácie Google Authenticator na vašom mobilnom zariadení. Potom vyplňte dole uvedené pole kódom vygenerovaným v aplikácii';
 $lang['google_2fa_manul_input_secret']                        = 'Tajný kľúč pre ručné zadanie';
+
+# Version 2.7.1
+$lang['templates']                                   = 'Šablóny';
+$lang['add_template']                                = 'Pridať šablónu';
+$lang['edit_template']                               = 'Upraviť šablónu';
+$lang['template_added']                              = 'Šablóna bola úspešne pridaná';
+$lang['template_updated']                            = 'Šablóna bola úspešne aktualizovaná';
+$lang['template_name']                               = 'Názov šablóny';
+$lang['template_content']                            = 'Obsah šablóny';
+$lang['insert_template']                             = 'Vložiť';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Vylúčiť symbol meny z položiek v tabuľke Suma';
+
+$lang['multiplies_of']               = 'Násobky';
+$lang['round_off_task_timer_option'] = 'Zaokrúhlenie časovača úloh';
+$lang['task_timer_dont_round_off']   = 'Nezaokrúhľovať';
+$lang['task_timer_round_up']         = 'Zaokrúhliť nahor';
+$lang['task_timer_round_down']       = 'Zaokrúhliť nadol';
+$lang['task_timer_round_nearest']    = 'Zaokrúhliť na najbližšie';
+$lang['calendar_task_reminder']      = 'Pripomienka úlohy';
+$lang['projects_chart']              = 'Graf projektov';
+$lang['overdue_by_days']             = 'PO ZAPLATENí %s DNI';
+
+$lang['two_checkout_payment_processing'] = 'Platba bola spracovaná, v prípade úspechu vás budeme informovať';
+$lang['two_checkout_payment_cancelled']  = 'Platba zrušená';
+$lang['two_checkout_merchant_code']      = 'Obchodný kód';
+$lang['two_checkout_secret_Key']         = 'Tajný kód';
+$lang['two_gateway_webhook_notice']      = 'Koncový bod IPN pre 2Checkout je ( %s )';
+$lang['something_went_wrong']            = 'Niečo sa pokazilo. Skúste to znova';
+$lang['imap_folder']                     = 'Priečinok';
+$lang['retrieve_folders']                = 'Načítať priečinky';
+$lang['email_to_ticket_config']          = 'Konfigurácia tiketu e-mailom';
