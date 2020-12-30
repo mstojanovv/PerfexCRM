@@ -3687,3 +3687,6 @@ $lang['something_went_wrong']            = 'Something went wrong. Try again';
 $lang['imap_folder']                     = 'Folder';
 $lang['retrieve_folders']                = 'Retrieve Folders';
 $lang['email_to_ticket_config']          = 'Email to ticket configuration';
+
+# Version 2.7.4
+$lang['enable_support_menu_badges']          = 'Enable Support menu item badge';
