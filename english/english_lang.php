@@ -3689,4 +3689,6 @@ $lang['retrieve_folders']                = 'Retrieve Folders';
 $lang['email_to_ticket_config']          = 'Email to ticket configuration';
 
 # Version 2.7.4
-$lang['enable_support_menu_badges']          = 'Enable Support menu item badge';
+$lang['enable_support_menu_badges']     = 'Enable support menu item badge';
+$lang['item_copy_success']              = 'Item copied successfully';
+$lang['item_copy_fail']         = 'Failed to copy item';
