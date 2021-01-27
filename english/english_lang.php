@@ -3691,4 +3691,5 @@ $lang['email_to_ticket_config']          = 'Email to ticket configuration';
 # Version 2.7.4
 $lang['enable_support_menu_badges']     = 'Enable support menu item badge';
 $lang['item_copy_success']              = 'Item copied successfully';
-$lang['item_copy_fail']         = 'Failed to copy item';
+$lang['item_copy_fail']                 = 'Failed to copy item';
+$lang['attach_invoice_to_payment_receipt_email'] = 'Attach invoice PDF when sending payment receipt to email';
