@@ -3693,3 +3693,16 @@ $lang['enable_support_menu_badges']     = 'Enable support menu item badge';
 $lang['item_copy_success']              = 'Item copied successfully';
 $lang['item_copy_fail']                 = 'Failed to copy item';
 $lang['attach_invoice_to_payment_receipt_email'] = 'Attach invoice PDF when sending payment receipt to email';
+
+$lang['estimate_request']     = 'Estimate request';
+$lang['estimate_requests']     = 'Estimate request';
+$lang['estimate_request_form']     = 'Estimate request form';
+$lang['acs_estimate_request']     = 'Estimate request';
+$lang['acs_estimate_request_forms']     = 'Forms';
+$lang['estimate_request_dt_datecreated']     = 'Created';
+$lang['estimate_request_notify_staff']     = 'Staff Members to Notify';
+$lang['estimate_request_notify_when_submitted']     = 'Notify when estimate request imported';
+$lang['estimate_request_assignee']     = 'Responsible (Assignee)';
+$lang['estimate_request_notify_roles']     = 'Roles to Notify';
+$lang['custom_field_estimate_request']     = 'Estimate request';
+$lang['new_estimate_request_submitted_from_form']     = 'New Estimate Request submitted from Form - %s';
