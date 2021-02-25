@@ -3726,4 +3726,16 @@ $lang['estimate_request_lowercase']             = 'estimate request';
 $lang['estimate_request_form_email_field_is_required']     = 'Email field is required to be added on the form';
 $lang['estimate_request_form_email_field_set_to_required'] = 'Mark the email field as required';
 $lang['not_delete_estimate_request_default_status']        = 'Cannot delete default estimate request status';
-$lang['mark_estimate_request_as']             = 'Mark as %s';
+$lang['mark_estimate_request_as']               = 'Mark as %s';
+$lang['estimate_request_assigned']              = 'Assigned Staff';
+$lang['convert_estimate_request']               = 'Convert Estimate Request';
+$lang['estimate_request_client_firstname']      = 'First Name';
+$lang['estimate_request_client_lastname']       = 'Last Name';
+$lang['estimate_request_email']                 = 'Email';
+$lang['estimate_request_for_lead']              = 'Lead';
+$lang['estimate_request_for_customer']          = 'Customer';
+$lang['estimate_request_related']               = 'Related to';
+$lang['estimate_request_client_created_success'] = 'Estimate Request Customer Created';
+$lang['estmate_request_assigned_updated']       = 'Staff Assigned';
+$lang['not_estimate_request_activity_assigned_updated']       = 'Estimate Request Assigned to %s';
+
