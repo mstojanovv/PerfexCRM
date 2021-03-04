@@ -3739,3 +3739,9 @@ $lang['estimate_request_client_created_success'] = 'Estimate Request Customer Cr
 $lang['estmate_request_assigned_updated']       = 'Staff Assigned';
 $lang['not_estimate_request_activity_assigned_updated']       = 'Estimate Request Assigned to %s';
 
+$lang['activity_due_reminder_is_sent'] = '%s sent invoice becoming due reminder';
+$lang['invoice_due_notice_before'] = 'Send due reminder X days before due date';
+$lang['overdue_notices'] = 'Overdue Notices';
+$lang['invoice_overdue_notices_info'] = 'Overdue notices are sent when the invoice becomes overdue.';
+$lang['due_reminders'] = 'Due Reminders';
+$lang['due_reminders_for_invoices_info'] = 'Due reminders are sent to unpaid and partially paid invoices as reminder to the customer to pay the invoice before is due.';
