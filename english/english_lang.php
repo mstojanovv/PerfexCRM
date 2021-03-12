@@ -3699,6 +3699,7 @@ $lang['estimate_requests']                      = 'Estimate request';
 $lang['estimate_request_form']                  = 'Estimate request form';
 $lang['acs_estimate_request']                   = 'Estimate request';
 $lang['acs_estimate_request_forms']             = 'Forms';
+$lang['estimate_request_forms']             = 'Estimate Request Forms';
 $lang['estimate_request_notify_staff']          = 'Staff Members to Notify';
 $lang['estimate_request_notify_when_submitted']     = 'Notify when estimate request submitted';
 $lang['estimate_request_assignee']              = 'Responsible (Assignee)';
