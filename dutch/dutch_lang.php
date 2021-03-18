@@ -3768,3 +3768,9 @@ $lang['invoice_overdue_notices_info']           = 'Er worden achterstallige mede
 $lang['due_reminders']                          = 'Herinneringen';
 $lang['due_reminders_for_invoices_info']        = 'Vervallen herinneringen worden naar onbetaalde en gedeeltelijk betaalde facturen gestuurd als herinnering aan de klant om de factuur te betalen voordat deze verschuldigd is.';
 $lang['expenses_list_made_payment_by']          = 'Betaling gedaan door %s';
+
+# Version 2.8.2
+$lang['hide_task_checklist_items_completed']          = 'Hide completed items';
+$lang['show_task_checklist_items_completed']          = 'Show completed items %s';
+$lang['task_checklist_assign']                        = 'Assign staff';
+$lang['task_checklist_assigned']                      = 'Assigned to %s';

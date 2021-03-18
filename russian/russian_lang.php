@@ -3749,3 +3749,9 @@ $lang['invoice_overdue_notices_info']           = 'Просроченные ув
 $lang['due_reminders']                          = 'Предстоящие напоминания';
 $lang['due_reminders_for_invoices_info']        = 'Напоминания о сроке оплаты отправляются на неоплаченные и частично оплаченные счета в качестве напоминания клиенту оплатить счет до наступления срока оплаты.';
 $lang['expenses_list_made_payment_by']          = 'Произведена оплата %s';
+
+# Version 2.8.2
+$lang['hide_task_checklist_items_completed']          = 'Hide completed items';
+$lang['show_task_checklist_items_completed']          = 'Show completed items %s';
+$lang['task_checklist_assign']                        = 'Assign staff';
+$lang['task_checklist_assigned']                      = 'Assigned to %s';
