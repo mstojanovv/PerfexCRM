@@ -3824,3 +3824,9 @@ $lang['invoice_overdue_notices_info']           = 'Overdue notices are sent when
 $lang['due_reminders']                          = 'Due Reminders';
 $lang['due_reminders_for_invoices_info']        = 'Due reminders are sent to unpaid and partially paid invoices as reminder to the customer to pay the invoice before is due.';
 $lang['expenses_list_made_payment_by']          = 'Made Payment by %s';
+
+# Version 2.8.2
+$lang['hide_task_checklist_items_completed']          = 'Hide completed items';
+$lang['show_task_checklist_items_completed']          = 'Show completed items %s';
+$lang['task_checklist_assign']                        = 'Assign staff';
+$lang['task_checklist_assigned']                      = 'Assigned to %s';
