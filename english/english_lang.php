@@ -3755,3 +3755,6 @@ $lang['hide_task_checklist_items_completed']          = 'Hide completed items';
 $lang['show_task_checklist_items_completed']          = 'Show completed items %s';
 $lang['task_checklist_assign']                        = 'Assign staff';
 $lang['task_checklist_assigned']                      = 'Assigned to %s';
+
+# Version 2.8.2
+$lang['custom_field_add_edit_default_value']    = 'Default Value';
