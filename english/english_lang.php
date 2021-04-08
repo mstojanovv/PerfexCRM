@@ -3756,3 +3756,10 @@ $lang['task_checklist_assigned']                      = 'Assigned to %s';
 
 # Version 2.8.2
 $lang['custom_field_add_edit_default_value']    = 'Default Value';
+
+# Version 2.8.3
+$lang['projects_send_contact_notification'] = 'Send contacts notifications';
+$lang['project_send_all_contacts_with_notifications_enabled'] = 'To all contacts with notifications for projects enabled';
+$lang['project_do_not_send_contacts_notifications'] = 'Do not send notifications';
+$lang['project_send_specific_contacts_with_notification'] = 'Specific contacts';
+$lang['project_contacts_to_notify'] = 'Select contacts to notify';
