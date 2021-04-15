@@ -3766,3 +3766,5 @@ $lang['project_contacts_to_notify'] = 'Select contacts to notify';
 $lang['contract_signed_by']                         = 'Signer Name';
 $lang['contract_signed_date']                       = 'Signed Date';
 $lang['contract_signed_ip']                         = 'IP Address';
+$lang['show_estimate_request_in_customers_area']    = 'Show Estimate request link in customers area?';
+$lang['customers_estimate_request_link_text'] 	    = 'Request Estimate';
