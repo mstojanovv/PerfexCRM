@@ -3751,7 +3751,7 @@ $lang['due_reminders_for_invoices_info']        = 'Напоминания о с�
 $lang['expenses_list_made_payment_by']          = 'Произведена оплата %s';
 
 # Version 2.8.2
-$lang['hide_task_checklist_items_completed']          = 'Hide completed items';
-$lang['show_task_checklist_items_completed']          = 'Show completed items %s';
-$lang['task_checklist_assign']                        = 'Assign staff';
-$lang['task_checklist_assigned']                      = 'Assigned to %s';
+$lang['hide_task_checklist_items_completed']          = 'Скрыть завершенные элементы';
+$lang['show_task_checklist_items_completed']          = 'Показать завершенные элементы %s';
+$lang['task_checklist_assign']                        = 'Назначить персонал';
+$lang['task_checklist_assigned']                      = 'Назначен на %s';
