@@ -1180,7 +1180,7 @@ $lang['calendar_estimate']          = 'Кошторис';
 $lang['calendar_invoice']           = 'Рахунок на оплату';
 $lang['calendar_contract']          = 'Договір';
 $lang['calendar_customer_reminder'] = 'Нагадування замовнику';
-$lang['calendar_event']             = 'Подія';	
+$lang['calendar_event']             = 'Подія';
 $lang['calendar_task']              = 'Завдання';
 
 # Leads
@@ -3143,8 +3143,6 @@ $lang['signature']                               = 'Підпис';
 $lang['signature_image']                         = 'Зображення підпису';
 $lang['insert_checklist_templates']              = 'Вставити шаблони списків';
 $lang['save_as_template']                        = 'Зберегти як шаблон';
-$lang['scroll_responsive_tables_help']           = 'Таблиці з великою кількістю даних матимуть горизонтальну прокрутку, а рядки матимуть іконку +';
-$lang['scroll_responsive_tables']                = 'Активувати прокручувані динамічні таблиці';
 $lang['invoice_item_add_edit_rate_currency']     = 'Ставка - %s';
 $lang['total_files_deleted']                     = 'Всього файлів видалено: %s';
 $lang['invalid_transaction']                     = 'Недійсна транзакція. Будь ласка спробуйте ще раз.';
@@ -3767,3 +3765,18 @@ $lang['hide_task_checklist_items_completed']          = 'Сховати заве
 $lang['show_task_checklist_items_completed']          = 'Показати завершені елементи %s';
 $lang['task_checklist_assign']                        = 'Призначити співробітника';
 $lang['task_checklist_assigned']                      = 'Призначено %s';
+
+# Version 2.8.3
+$lang['projects_send_contact_notification']                   = 'Send contacts notifications';
+$lang['project_send_all_contacts_with_notifications_enabled'] = 'To all contacts with notifications for projects enabled';
+$lang['project_do_not_send_contacts_notifications']           = 'Do not send notifications';
+$lang['project_send_specific_contacts_with_notification']     = 'Specific contacts';
+$lang['project_contacts_to_notify']                           = 'Select contacts to notify';
+$lang['contract_signed_by']                                   = 'Signer Name';
+$lang['contract_signed_date']                                 = 'Signed Date';
+$lang['contract_signed_ip']                                   = 'IP Address';
+$lang['show_estimate_request_in_customers_area']              = 'Show Estimate request link in customers area?';
+$lang['customers_estimate_request_link_text']                 = 'Request Estimate';
+$lang['total_expenses_deleted']                               = 'Total Expenses Deleted: %s';
+$lang['estimate_convert_to_project']                          = 'Convert to Project';
+$lang['estimate_items_convert_to_tasks']                      = 'Items that will be converted to tasks';

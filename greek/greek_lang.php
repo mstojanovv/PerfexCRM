@@ -3140,8 +3140,6 @@ $lang['signature']                               = 'Υπογραφή <small>(Σ�
 $lang['signature_image']                         = 'Φωτογραφία Υπογραφής';
 $lang['insert_checklist_templates']              = 'Επιλέξτε είδος εργασίας';
 $lang['save_as_template']                        = 'Αποθήκευση ως Πρότυπο';
-$lang['scroll_responsive_tables_help']           = 'Οι πίνακες με μεγάλο όγκο δεδομένων θα έχουν οριζόντια κύλιση αντί για γραμμές που τυλίγονται στο εικονίδιο +.';
-$lang['scroll_responsive_tables']                = 'Να φαίνεται όλος ο πίνακας και στις μικρές οθόνες;';
 $lang['invoice_item_add_edit_rate_currency']     = 'Ποσό (€)';
 $lang['total_files_deleted']                     = 'Διαγραφή Συνολικών Αρχείων: %s';
 $lang['invalid_transaction']                     = 'Ακυρη Συναλλαγή. Παρακαλώ προσπαθήστε ξανά.';
@@ -3764,3 +3762,18 @@ $lang['hide_task_checklist_items_completed']          = 'Hide completed items';
 $lang['show_task_checklist_items_completed']          = 'Show completed items %s';
 $lang['task_checklist_assign']                        = 'Assign staff';
 $lang['task_checklist_assigned']                      = 'Assigned to %s';
+
+# Version 2.8.3
+$lang['projects_send_contact_notification']                   = 'Send contacts notifications';
+$lang['project_send_all_contacts_with_notifications_enabled'] = 'To all contacts with notifications for projects enabled';
+$lang['project_do_not_send_contacts_notifications']           = 'Do not send notifications';
+$lang['project_send_specific_contacts_with_notification']     = 'Specific contacts';
+$lang['project_contacts_to_notify']                           = 'Select contacts to notify';
+$lang['contract_signed_by']                                   = 'Signer Name';
+$lang['contract_signed_date']                                 = 'Signed Date';
+$lang['contract_signed_ip']                                   = 'IP Address';
+$lang['show_estimate_request_in_customers_area']              = 'Show Estimate request link in customers area?';
+$lang['customers_estimate_request_link_text']                 = 'Request Estimate';
+$lang['total_expenses_deleted']                               = 'Total Expenses Deleted: %s';
+$lang['estimate_convert_to_project']                          = 'Convert to Project';
+$lang['estimate_items_convert_to_tasks']                      = 'Items that will be converted to tasks';
