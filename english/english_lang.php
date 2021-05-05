@@ -3775,3 +3775,5 @@ $lang['estimate_items_convert_to_tasks']                      = 'Items that will
 $lang['proposal_signed_by']                                   = 'Signer Name';
 $lang['proposal_signed_date']                                 = 'Signed Date';
 $lang['proposal_signed_ip']                                   = 'IP Address';
+$lang['hide_milestone_from_customer']                         = 'Hide from customer';
+$lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the custoer area, the whole milestone and its tasks will be hidden';
