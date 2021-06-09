@@ -1,6 +1,6 @@
 <?php
 
-# Version 1.0.2
+# Version 1.0.3
 #
 # General
 $lang['id']                   = 'ІД';
@@ -1180,7 +1180,7 @@ $lang['calendar_estimate']          = 'Кошторис';
 $lang['calendar_invoice']           = 'Рахунок на оплату';
 $lang['calendar_contract']          = 'Договір';
 $lang['calendar_customer_reminder'] = 'Нагадування замовнику';
-$lang['calendar_event']             = 'Подія';
+$lang['calendar_event']             = 'Подія';	
 $lang['calendar_task']              = 'Завдання';
 
 # Leads
@@ -1893,7 +1893,7 @@ $lang['estimate_copied_successfully'] = 'Кошторис успішно ско�
 $lang['estimate_copied_fail']         = 'Помилка при копіюванні';
 
 # Tasks
-$lang['tasks_view_assigned_to_user'] = 'Завдань закріплених за мною';
+$lang['tasks_view_assigned_to_user'] = 'Завданнь закріплених за мною';
 $lang['tasks_view_follower_by_user'] = 'Завдання за якими я слідкую';
 $lang['no_tasks_found']              = 'Завдання не знайдені';
 
@@ -1905,7 +1905,7 @@ $lang['leads_sort_by_kanban_order'] = 'Сортування канбан';
 
 # Authentication
 $lang['check_email_for_resetting_password'] = 'Перевірте вашу ел.пошту для подальших інструкцій по відновленню пароля';
-$lang['inactive_account']                   = 'Неактивна обліковкука';
+$lang['inactive_account']                   = 'Неактивна обліковка';
 $lang['error_setting_new_password_key']     = 'Помилка при встановленні нового паролю';
 $lang['password_reset_message']             = 'Ваш пароль був скинутий. Будь ласка, зайдіть!';
 $lang['password_reset_message_fail']        = 'Помилка при скиданні пароля. Спробуйте знову.';
@@ -2443,7 +2443,7 @@ $lang['settings_calendar_colors_heading']       = 'Зовнішній вид';
 $lang['reminder']                               = 'Нагадування';
 $lang['back_to_tasks_list']                     = 'Повернутися до списку завдань';
 $lang['copy_task_confirm']                      = 'Підтвердити';
-$lang['changing_items_affect_warning']          = 'Зміна інформації не вплине на створення рахунку/кошторису/пропозиції.';
+$lang['changing_items_affect_warning']          = 'Зміна інформації не вплине на створенні рахунки/кошториси/пропозиції.';
 $lang['tax_is_used_in_expenses_warning']        = 'Ви не можете оновити цей податок, тому що знайдені транзакції з використанням цього податку.';
 $lang['note']                                   = 'Примітка';
 $lang['leads_staff_report_converted']           = 'Всього конвертовано потенційних замовників';
@@ -2726,7 +2726,7 @@ $lang['project_marked_as_failed']                           = 'Не вдалос
 $lang['auto_assign_customer_admin_after_lead_convert']      = 'Якщо цей параметр встановлений як ТАК, то користувач який конвертував потенційного замовника в замовника, буде автоматично призначений в якості адміністратора для цього замовника. ПРИМІТКА: Цей параметр буде застосовуватися тільки до співробітників, які не мають дозволу на ПЕРЕГЛЯД замовників';
 $lang['auto_close_tickets_disable']                         = 'Встановити 0 для відключення';
 $lang['task_checklist_item_completed_by']                   = 'Завершено %s';
-$lang['staff_email_signature_help']                         = 'Якщо підпис для ел.листа не вказана, то буде використовуватися підпис з налаштувань';
+$lang['staff_email_signature_help']                         = 'Якщо підпис для ел.листа не вказаний, то буде використовуватися підпис з налаштувань';
 $lang['default_task_priority']                              = 'Пріоритет за замовчуванням';
 $lang['project_send_created_email']                         = 'Надіслати проект, створений по ел.пошті';
 
@@ -3143,6 +3143,8 @@ $lang['signature']                               = 'Підпис';
 $lang['signature_image']                         = 'Зображення підпису';
 $lang['insert_checklist_templates']              = 'Вставити шаблони списків';
 $lang['save_as_template']                        = 'Зберегти як шаблон';
+$lang['scroll_responsive_tables_help']           = 'Таблиці з великою кількістю даних матимуть горизонтальну прокрутку, а рядки матимуть іконку +';
+$lang['scroll_responsive_tables']                = 'Активувати прокручувані динамічні таблиці';
 $lang['invoice_item_add_edit_rate_currency']     = 'Ставка - %s';
 $lang['total_files_deleted']                     = 'Всього файлів видалено: %s';
 $lang['invalid_transaction']                     = 'Недійсна транзакція. Будь ласка спробуйте ще раз.';
@@ -3184,7 +3186,7 @@ $lang['customers_assigned_to_me']              = 'Замовникі, призн
 $lang['bcc_all_emails']                        = 'BCC (прихована копія) - приховані одержувачі листа, чиї адреси не показуються іншим одержувачам';
 $lang['confirmation_of_identity']              = 'Підтвердження особи';
 $lang['accept_identity_confirmation']          = 'Потрібно підтвердити особисті дані при прийнятті';
-$lang['accepted_identity_info']                = 'Це %s приймається %s на %s з IP-адреси %s';
+$lang['accepted_identity_info']                = 'Ця %s приймайнята %s на дату %s з IP-адреси %s';
 $lang['clear_this_information']                = 'Очистити цю інформацію';
 $lang['new_task_auto_follower_current_member'] = 'Автоматичне додавання автора завданя як послідовника завдань, коли створюється нове завдання';
 $lang['expenses_report_net']                   = 'Чиста сума (Проміжний підсумок)';
@@ -3354,7 +3356,7 @@ $lang['tracked_email_not_opened']                               = 'Не відк
 $lang['not_viewed_yet']                                         = 'Цей лист %s ще не переглянутий замовником';
 $lang['undo']                                                   = 'Повернути';
 $lang['sign_document_validation']                               = 'Будь ласка, підпишіть документ.';
-$lang['document_customer_signature_text']                       = 'Підпис (Замовник)';
+$lang['document_customer_signature_text']                       = 'Цифровий підпис (Замовника)';
 $lang['accept_identity_confirmation_and_signature_sign']        = 'Вимагати підтвердження цифрового підпису та посвідчення особи';
 $lang['legal_bound_text']                                       = 'Юридичний текст';
 $lang['e_signature_sign']                                       = 'Підпис';
@@ -3610,7 +3612,7 @@ $lang['stripe_subscription_select_plan']           = 'Вибрати тариф 
 
 # Version 2.4.1
 $lang['contract_content_permission_edit_warning'] = 'Ваші поточні дозволи не дозволяють редагувати зміст договору. Зверніться до
-                               адміністратора, щоб отримати дозволи на редагування договорів.';
+                               адміністратора, щоб отримати дозволи на редагування договорів.';
 $lang['mark_as_signed']                 = 'Позначити як підписане';
 $lang['unmark_as_signed']               = 'Зняти позначку як підписане';
 $lang['marked_as_signed']               = 'Прибрати підпис';
@@ -3694,8 +3696,8 @@ $lang['two_checkout_secret_Key']         = 'Secret Code';
 $lang['two_gateway_webhook_notice']      = 'Кінцева точка IPN для 2Checkout це ( %s )';
 $lang['something_went_wrong']            = 'Щось пішло не так. Спробуйте ще раз';
 $lang['imap_folder']                     = 'Тека';
-$lang['retrieve_folders']                = 'Отримати текі';
-$lang['email_to_ticket_config']          = 'Ел. пошта для налаштування запиту';
+$lang['retrieve_folders']                = 'Отримати Текі';
+$lang['email_to_ticket_config']          = 'Ел.пошта для налаштування запиту';
 
 
 # Version 2.8.0
@@ -3766,17 +3768,20 @@ $lang['show_task_checklist_items_completed']          = 'Показати зав
 $lang['task_checklist_assign']                        = 'Призначити співробітника';
 $lang['task_checklist_assigned']                      = 'Призначено %s';
 
+# Version 2.8.2
+$lang['custom_field_add_edit_default_value'] = 'Значення за замовчуванням';
+
 # Version 2.8.3
-$lang['projects_send_contact_notification']                   = 'Send contacts notifications';
-$lang['project_send_all_contacts_with_notifications_enabled'] = 'To all contacts with notifications for projects enabled';
-$lang['project_do_not_send_contacts_notifications']           = 'Do not send notifications';
-$lang['project_send_specific_contacts_with_notification']     = 'Specific contacts';
-$lang['project_contacts_to_notify']                           = 'Select contacts to notify';
-$lang['contract_signed_by']                                   = 'Signer Name';
-$lang['contract_signed_date']                                 = 'Signed Date';
-$lang['contract_signed_ip']                                   = 'IP Address';
-$lang['show_estimate_request_in_customers_area']              = 'Show Estimate request link in customers area?';
-$lang['customers_estimate_request_link_text']                 = 'Request Estimate';
-$lang['total_expenses_deleted']                               = 'Total Expenses Deleted: %s';
-$lang['estimate_convert_to_project']                          = 'Convert to Project';
-$lang['estimate_items_convert_to_tasks']                      = 'Items that will be converted to tasks';
+$lang['projects_send_contact_notification']                   = 'Відправляти повідомлення контактам';
+$lang['project_send_all_contacts_with_notifications_enabled'] = 'Всім контактам з увімкненими повідомленнями про проекти';
+$lang['project_do_not_send_contacts_notifications']           = 'Не відправляти повідомлення';
+$lang['project_send_specific_contacts_with_notification']     = 'Конкретні контакти';
+$lang['project_contacts_to_notify']                           = 'Виберіть контакти для повідомлення';
+$lang['contract_signed_by']                                   = 'Ім\'я підписувача';
+$lang['contract_signed_date']                                 = 'Дата підписання';
+$lang['contract_signed_ip']                                   = 'IP адреса';
+$lang['show_estimate_request_in_customers_area']              = 'Показувати посилання на запит оцінки для замовників?';
+$lang['customers_estimate_request_link_text']                 = 'Запросити оцінку';
+$lang['total_expenses_deleted']                               = 'Загальна сума витрат видалена: %s';
+$lang['estimate_convert_to_project']                          = 'Перетворити в проект';
+$lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
