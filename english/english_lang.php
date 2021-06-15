@@ -3778,3 +3778,4 @@ $lang['proposal_signed_ip']                                   = 'IP Address';
 $lang['hide_milestone_from_customer']                         = 'Hide from customer';
 $lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the custoer area, the whole milestone and its tasks will be hidden';
 $lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
+$lang['home_payment_records']               = 'Payment Records';
