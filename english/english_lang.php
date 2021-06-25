@@ -3778,6 +3778,14 @@ $lang['proposal_signed_ip']                                   = 'IP Address';
 $lang['hide_milestone_from_customer']                         = 'Hide from customer';
 $lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the custoer area, the whole milestone and its tasks will be hidden';
 $lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
+
+# Version 2.8.5
 $lang['home_payment_records']                                 = 'Payment Records';
 $lang['weekly']                                               = 'Weekly';
 $lang['monthly']                                              = 'Monthly';
+$lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
+$lang['permission_create_timesheets']                         = 'Create Timesheets';
+$lang['permission_edit_timesheets']                           = 'Edit Timesheets';
+$lang['permission_delete_timesheets']                         = 'Delete Timesheets';
+$lang['permission_edit_milestones']                           = 'Edit Milestones';
+$lang['permission_delete_milestones']                         = 'Delete Milestonea';
