@@ -3785,7 +3785,10 @@ $lang['weekly']                                               = 'Weekly';
 $lang['monthly']                                              = 'Monthly';
 $lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
 $lang['permission_create_timesheets']                         = 'Create Timesheets';
-$lang['permission_edit_timesheets']                           = 'Edit Timesheets';
-$lang['permission_delete_timesheets']                         = 'Delete Timesheets';
+$lang['permission_edit_timesheets']                           = 'Edit Timesheets (Global)';
+$lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
+$lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
+$lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
+
 $lang['permission_edit_milestones']                           = 'Edit Milestones';
 $lang['permission_delete_milestones']                         = 'Delete Milestonea';
