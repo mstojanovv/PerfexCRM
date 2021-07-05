@@ -134,3 +134,6 @@ $currencies = hooks()->apply_filters('before_number_format_render_languge_curren
 foreach ($currencies as $key => $val) {
     $lang['num_word_' . strtoupper($key)] = $val;
 }
+
+# Version 2.8.5
+$lang['num_word_0']        = 'Zero';
