@@ -3793,3 +3793,6 @@ $lang['permission_delete_own_timesheets']                     = 'Delete own Time
 $lang['permission_edit_milestones']                           = 'Edit Milestones';
 $lang['permission_delete_milestones']                         = 'Delete Milestonea';
 $lang['add_timesheet'] 										  = 'Add timesheet';
+$lang['submit_button_bg_color']                               = 'Submit button background color';
+$lang['submit_button_text_color']                             = 'Submit button background text';
+
