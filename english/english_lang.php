@@ -3776,7 +3776,7 @@ $lang['proposal_signed_by']                                   = 'Signer Name';
 $lang['proposal_signed_date']                                 = 'Signed Date';
 $lang['proposal_signed_ip']                                   = 'IP Address';
 $lang['hide_milestone_from_customer']                         = 'Hide from customer';
-$lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the custoer area, the whole milestone and its tasks will be hidden';
+$lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the customer area, the whole milestone and its tasks will be hidden';
 $lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
 
 # Version 2.8.5
