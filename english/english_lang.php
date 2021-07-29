@@ -3795,4 +3795,4 @@ $lang['permission_delete_milestones']                         = 'Delete Mileston
 $lang['add_timesheet'] 										  = 'Add timesheet';
 $lang['submit_button_bg_color']                               = 'Submit button background color';
 $lang['submit_button_text_color']                             = 'Submit button background text';
-
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
