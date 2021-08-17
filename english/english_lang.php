@@ -3779,7 +3779,7 @@ $lang['hide_milestone_from_customer']                         = 'Hide from custo
 $lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the customer area, the whole milestone and its tasks will be hidden';
 $lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
 
-# Version 2.8.5
+# Version 2.9.0
 $lang['home_payment_records']                                 = 'Payment Records';
 $lang['weekly']                                               = 'Weekly';
 $lang['monthly']                                              = 'Monthly';
