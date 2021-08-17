@@ -135,5 +135,5 @@ foreach ($currencies as $key => $val) {
     $lang['num_word_' . strtoupper($key)] = $val;
 }
 
-# Version 2.8.5
+# Version 2.9.0
 $lang['num_word_0']        = 'Zero';
