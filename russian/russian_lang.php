@@ -878,7 +878,7 @@ $lang['view_invoice_pdf_link_pay']                                            = 
 $lang['payment_mode_add_edit_description']         = 'Банковский счет / Описание';
 $lang['payment_mode_add_edit_description_tooltip'] = 'Вы можете здесь указать банковские реквизиты. Будет отображаться на странице счета';
 $lang['payment_modes_dt_description']              = 'Банковские счета / Описание';
-$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к оффлайновым методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
+$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к офлайновым методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
 $lang['payment_mode_add_edit_active']              = 'Активно';
 $lang['payment_modes_dt_active']                   = 'Активно';
 
@@ -920,7 +920,7 @@ $lang['invoice_html_online_payment']             = 'Онлайн оплата';
 $lang['invoice_html_online_payment_button_text'] = 'Оплатить сейчас';
 $lang['invoice_html_payment_modes_not_selected'] = 'Пожалуйста, выберите способ оплаты';
 $lang['invoice_html_amount_blank']               = 'Общая сумма не может быть пустой или с нулевым значением';
-$lang['invoice_html_offline_payment']            = 'Оффлайн оплаты';
+$lang['invoice_html_offline_payment']            = 'Офлайн оплаты';
 $lang['invoice_html_amount']                     = 'Сумма';
 # Version 1.0.2
 # DataTables
