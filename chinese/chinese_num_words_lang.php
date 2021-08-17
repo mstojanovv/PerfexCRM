@@ -1,5 +1,6 @@
 <?php
 
+$lang['num_word_0']        = 'Zero';
 $lang['num_word_1']        = '一';
 $lang['num_word_2']        = '二';
 $lang['num_word_3']        = '三';

@@ -3771,3 +3771,27 @@ $lang['customers_estimate_request_link_text']                 = 'Request Estimat
 $lang['total_expenses_deleted']                               = 'Total Expenses Deleted: %s';
 $lang['estimate_convert_to_project']                          = 'Convert to Project';
 $lang['estimate_items_convert_to_tasks']                      = 'Items that will be converted to tasks';
+
+$lang['proposal_signed_by']                                   = 'Signer Name';
+$lang['proposal_signed_date']                                 = 'Signed Date';
+$lang['proposal_signed_ip']                                   = 'IP Address';
+$lang['hide_milestone_from_customer']                         = 'Hide from customer';
+$lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the customer area, the whole milestone and its tasks will be hidden';
+$lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
+
+# Version 2.9.0
+$lang['home_payment_records']                                 = 'Payment Records';
+$lang['weekly']                                               = 'Weekly';
+$lang['monthly']                                              = 'Monthly';
+$lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
+$lang['permission_create_timesheets']                         = 'Create Timesheets';
+$lang['permission_edit_timesheets']                           = 'Edit Timesheets (Global)';
+$lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
+$lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
+$lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
+$lang['permission_edit_milestones']                           = 'Edit Milestones';
+$lang['permission_delete_milestones']                         = 'Delete Milestonea';
+$lang['add_timesheet'] 										  = 'Add timesheet';
+$lang['submit_button_bg_color']                               = 'Submit button background color';
+$lang['submit_button_text_color']                             = 'Submit button background text';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';

@@ -3768,3 +3768,20 @@ $lang['customers_estimate_request_link_text']                 = 'Запроси�
 $lang['total_expenses_deleted']                               = 'Общая сумма расходов удалена: %s';
 $lang['estimate_convert_to_project']                          = 'Преобразовать в проект';
 $lang['estimate_items_convert_to_tasks']                      = 'Элементы, которые будут преобразованы в задачи';
+
+# Version 2.9.0
+$lang['home_payment_records']                                 = 'Payment Records';
+$lang['weekly']                                               = 'Weekly';
+$lang['monthly']                                              = 'Monthly';
+$lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
+$lang['permission_create_timesheets']                         = 'Create Timesheets';
+$lang['permission_edit_timesheets']                           = 'Edit Timesheets (Global)';
+$lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
+$lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
+$lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
+$lang['permission_edit_milestones']                           = 'Edit Milestones';
+$lang['permission_delete_milestones']                         = 'Delete Milestonea';
+$lang['add_timesheet'] 										  = 'Add timesheet';
+$lang['submit_button_bg_color']                               = 'Submit button background color';
+$lang['submit_button_text_color']                             = 'Submit button background text';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';

@@ -1,5 +1,6 @@
 <?php
 
+$lang['num_word_0']        = 'Zero';
 $lang['num_word_1']        = 'One';
 $lang['num_word_2']        = 'Two';
 $lang['num_word_3']        = 'Three';
@@ -116,10 +117,11 @@ $lang['num_word_zillion']  = 'Zillion';
 $lang['num_word_cents']    = 'Cents';
 $lang['number_word_and']   = 'And';
 
+
 # For Indian Customers, used with INR currency
 $lang['num_word_hundred'] = 'Hundred';
-$lang['num_word_lakh'] = 'Lakh';
-$lang['num_word_lakhs'] = 'Lakh';
+$lang['num_word_lakh']    = 'Lakh';
+$lang['num_word_lakhs']   = 'Lakh';
 
 // Show in invoices and estimates
 $lang['num_word'] = 'With words';
