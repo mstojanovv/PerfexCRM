@@ -3789,7 +3789,6 @@ $lang['permission_edit_timesheets']                           = 'Edit Timesheets
 $lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
 $lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
 $lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
-
 $lang['permission_edit_milestones']                           = 'Edit Milestones';
 $lang['permission_delete_milestones']                         = 'Delete Milestonea';
 $lang['add_timesheet'] 										  = 'Add timesheet';
