@@ -129,6 +129,7 @@ $currencies = [
     'USD' => 'Dolari',
     'EUR' => 'Euro',
     'RON' => 'Leu',
+    'GBP' => 'Liră sterlină',
 ];
 
 $currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
