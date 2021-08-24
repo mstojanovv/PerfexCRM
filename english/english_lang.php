@@ -3779,7 +3779,7 @@ $lang['hide_milestone_from_customer']                         = 'Hide from custo
 $lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the customer area, the whole milestone and its tasks will be hidden';
 $lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
 
-# Version 2.8.5
+# Version 2.9.0
 $lang['home_payment_records']                                 = 'Payment Records';
 $lang['weekly']                                               = 'Weekly';
 $lang['monthly']                                              = 'Monthly';
@@ -3789,7 +3789,6 @@ $lang['permission_edit_timesheets']                           = 'Edit Timesheets
 $lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
 $lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
 $lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
-
 $lang['permission_edit_milestones']                           = 'Edit Milestones';
 $lang['permission_delete_milestones']                         = 'Delete Milestonea';
 $lang['add_timesheet'] 										  = 'Add timesheet';
