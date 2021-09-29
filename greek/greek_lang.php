@@ -3794,3 +3794,10 @@ $lang['add_timesheet'] 										  = 'Δημιουργία χρονοδιαγρ�
 $lang['submit_button_bg_color']                               = 'Χρώμα κουμπιού';
 $lang['submit_button_text_color']                             = 'Χρώμα κειμένου στο κουμπί';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Να εκχωρηθεί αυτόματα το Ticket στο πρώτο μέλος που θα απάντησει;';
+
+# Version 2.9.1
+$lang['contract_signed_not_all_fields_editable'] = 'This contract is signed, hence not all fields can be edited until the signature is removed.';
+$lang['form_submit_success_action']              = 'What should happen after a visitor submits this form';
+$lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
+$lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
+$lang['form_submit_website_url']                 = 'Website URL';
