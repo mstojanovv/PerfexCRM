@@ -3787,8 +3787,8 @@ $lang['submit_button_text_color']                             = 'Цвет тек
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматически назначать тикет первому сотруднику, который отправит ответ?';
 
 # Version 2.9.1
-$lang['contract_signed_not_all_fields_editable'] = 'This contract is signed, hence not all fields can be edited until the signature is removed.';
-$lang['form_submit_success_action']              = 'What should happen after a visitor submits this form';
-$lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
-$lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
-$lang['form_submit_website_url']                 = 'Website URL';
+$lang['contract_signed_not_all_fields_editable'] = 'Этот контракт подписан, поэтому не все поля можно редактировать, пока подпись не будет удалена.';
+$lang['form_submit_success_action']              = 'Что должно произойти после того, как посетитель отправит эту форму';
+$lang['form_submit_success_display_thank_you']   = 'Показать сообщение с благодарностью';
+$lang['form_submit_success_redirect_to_website'] = 'Перенаправить на другой сайт';
+$lang['form_submit_website_url']                 = 'URL веб-сайта';
