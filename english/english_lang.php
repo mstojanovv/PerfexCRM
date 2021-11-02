@@ -3804,4 +3804,7 @@ $lang['form_submit_success_redirect_to_website'] = 'Redirect to another website'
 $lang['form_submit_website_url']                 = 'Website URL';
 $lang['lead_name_prefix']                        = 'Lead title prefix';
 $lang['lead_name_prefix_help']                   = 'For each newly created lead via the form, the lead name will be prefixed with the text added in the field for easier recognition.';
+
+# Version 2.9.2
 $lang['open_google_map']                         = 'Open in Google Map';
+$lang['milestone_start_date']                    = 'Start Date';
