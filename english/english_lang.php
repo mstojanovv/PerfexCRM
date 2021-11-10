@@ -3809,7 +3809,7 @@ $lang['lead_name_prefix_help']                   = 'For each newly created lead 
 $lang['open_google_map']                                    = 'Open in Google Map';
 $lang['milestone_start_date']                               = 'Start Date';
 $lang['send_reminder_for_completed_but_not_billed_tasks']   = 'Send an email reminder of billable tasks completed but not billed';
-$lang['staff_to_notify_completed_but_not_billed_tasks']     = 'Select which staff members you want to receive the reminder.';
-$lang['reminder_for_completed_but_not_billed_tasks_days']   = 'Select day of the week reminder should be sent';
+$lang['staff_to_notify_completed_but_not_billed_tasks']     = 'Select which staff members you want to receive the reminder';
+$lang['reminder_for_completed_but_not_billed_tasks_days']   = 'Select days of the week reminder should be sent';
 $lang['notifications']                                      = 'Notifications';
 
