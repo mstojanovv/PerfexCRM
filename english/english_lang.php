@@ -3812,4 +3812,9 @@ $lang['send_reminder_for_completed_but_not_billed_tasks']   = 'Send an email rem
 $lang['staff_to_notify_completed_but_not_billed_tasks']     = 'Select which staff members you want to receive the reminder';
 $lang['reminder_for_completed_but_not_billed_tasks_days']   = 'Select days of the week reminder should be sent';
 $lang['notifications']                                      = 'Notifications';
-
+$lang['merged']                                             = 'Merged';
+$lang['ticket_merged_notice']                               = 'This ticket is merged into the ticket with ID';
+$lang['view_primary_ticket']                                = 'View primary ticket';
+$lang['merge_tickets']                                      = 'Merge Tickets';
+$lang['primary_ticket']                                     = 'Primary Ticket';
+$lang['primary_ticket_status']                              = 'Primary Ticket Status';
