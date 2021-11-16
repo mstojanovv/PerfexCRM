@@ -3819,3 +3819,4 @@ $lang['merge_tickets']                                      = 'Merge Tickets';
 $lang['primary_ticket']                                     = 'Primary Ticket';
 $lang['primary_ticket_status']                              = 'Primary Ticket Status';
 $lang['tickets_merged']                                     = 'Tickets Merged Successfully';
+$lang['cannot_merge_into_merged_ticket']                    = 'An already merged ticket cannot be used as the primary ticket';
