@@ -3877,4 +3877,3 @@ $lang['form_submit_success_action']              = 'What should happen after a v
 $lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
 $lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
 $lang['form_submit_website_url']                 = 'Website URL';
-$lang['added_by']                                = 'Added by';
