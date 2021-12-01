@@ -3819,6 +3819,4 @@ $lang['merge_tickets']                                      = 'Merge Tickets';
 $lang['primary_ticket']                                     = 'Primary Ticket';
 $lang['primary_ticket_status']                              = 'Primary Ticket Status';
 $lang['tickets_merged']                                     = 'Tickets Merged Successfully';
-$lang['cannot_merge_into_merged_ticket']                    = 'An already merged ticket cannot be used as the primary ticket';
-$lang['added_by']                                           = 'Added by';
-$lang['ticket_merged_from']                                 = 'Merged from ticket ID %s';
+$lang['cannot_merge_into_merged_ticket']                    = 'Ticket that is merged into another ticket cannot be used as primary ticket';
