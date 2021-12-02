@@ -3823,3 +3823,4 @@ $lang['cannot_merge_into_merged_ticket']                    = 'Ticket that is me
 $lang['merge_ticket_ids_field_label']                       = 'Merge Ticket #';
 $lang['merge_ticket_ids_field_placeholder']                 = 'example: 5 or 5,6';
 $lang['cannot_merge_tickets_with_ids']                      = 'Ticket %s is already merged in another ticket';
+$lang['ticket_merged_tickets_header']                       = 'This ticket contains %s tickets that are merged';
