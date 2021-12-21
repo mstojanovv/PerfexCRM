@@ -3834,3 +3834,5 @@ $lang['add_batch_payments']                                 = 'Add Payments';
 $lang['batch_payment_filter_by_customer']                   = 'Filter invoices by customer';
 $lang['batch_payments']                                     = 'Batch Payments';
 $lang['batch_payment_added_successfully']                   = 'You have successfully added %s payments';
+$lang['batch_payments_send_invoice_payment_recorded']       = 'Do not send invoice payment recorded email to customer contacts';
+$land['invoice_batch_payments']                             = 'Batch Payment';
