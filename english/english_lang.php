@@ -3837,3 +3837,7 @@ $lang['batch_payment_added_successfully']                   = 'You have successf
 $lang['batch_payments_send_invoice_payment_recorded']       = 'Do not send invoice payment recorded email to customer contacts';
 $land['invoice_batch_payments']                             = 'Batch Payment';
 $lang['staff_is_currently_replying']                        = '%s is currently replying to ticket.';
+
+# Version 2.9.4
+$lang['permission_view_timesheet_report']                   = 'View Timesheets Report';
+$lang['timesheets_overview_all_members_notice_permission']  = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
