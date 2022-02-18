@@ -3823,5 +3823,5 @@ $lang['batch_payment_filter_by_customer']                   = 'Фильтров�
 $lang['batch_payments']                                     = 'Пакетные платежи';
 $lang['batch_payment_added_successfully']                   = 'Вы успешно добавили %s платежей';
 $lang['batch_payments_send_invoice_payment_recorded']       = 'Не отправлять эл. письмо с записью оплаты счета контактам клиента';
-$land['invoice_batch_payments']                             = 'Пакетный платеж';
+$lang['invoice_batch_payments']                             = 'Пакетный платеж';
 $lang['staff_is_currently_replying']                        = '%s в настоящее время отвечает на тикет.';
