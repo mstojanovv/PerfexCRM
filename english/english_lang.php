@@ -3848,3 +3848,4 @@ $lang['ticket_reports_open_tickets']                        = 'Open Tickets';
 $lang['ticket_reports_closed_tickets']                      = 'Closed Tickets';
 $lang['ticket_reports_replies_to_tickets']                  = 'Replies To Tickets';
 $lang['ticket_reports_average_reply_time']                  = 'Average Reply Time';
+$lang['home_tickets_report']                                = 'Staff Tickets Report';
