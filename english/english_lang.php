@@ -3850,3 +3850,4 @@ $lang['ticket_reports_replies_to_tickets']                  = 'Replies To Ticket
 $lang['ticket_reports_average_reply_time']                  = 'Average Reply Time';
 $lang['home_tickets_report']                                = 'Staff Tickets Report';
 $lang['ticket_reports_average_reply_time_help']             = "Average response time from assigned tickets.";
+$lang['created_by']                                         = 'Created by';
