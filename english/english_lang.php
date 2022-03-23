@@ -3851,3 +3851,6 @@ $lang['ticket_reports_average_reply_time']                  = 'Average Reply Tim
 $lang['home_tickets_report']                                = 'Staff Tickets Report';
 $lang['ticket_reports_average_reply_time_help']             = "Average response time from assigned tickets.";
 $lang['created_by']                                         = 'Created by';
+
+$lang['staff_related_ticket_notification_to_assignee_only']         = 'Send staff-related ticket notifications to the ticket assignee only';
+$lang['staff_related_ticket_notification_to_assignee_only_help']    = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
