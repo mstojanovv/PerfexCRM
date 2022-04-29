@@ -3856,3 +3856,4 @@ $lang['staff_related_ticket_notification_to_assignee_only']         = 'Send staf
 $lang['staff_related_ticket_notification_to_assignee_only_help']    = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
 $lang['import_expenses']                                            = 'Import Expenses';
 $lang['show_pdf_signature_proposal'] = 'Show PDF Signature on Proposal';
+$lang['enable_honeypot_spam_validation'] = 'Enable Honeypot spam validation';
