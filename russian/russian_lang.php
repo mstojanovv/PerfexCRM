@@ -878,7 +878,7 @@ $lang['view_invoice_pdf_link_pay']                                            = 
 $lang['payment_mode_add_edit_description']         = 'Банковский счет / Описание';
 $lang['payment_mode_add_edit_description_tooltip'] = 'Вы можете здесь указать банковские реквизиты. Будет отображаться на странице счета';
 $lang['payment_modes_dt_description']              = 'Банковские счета / Описание';
-$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к офлайновым методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
+$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к офлайн методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
 $lang['payment_mode_add_edit_active']              = 'Активно';
 $lang['payment_modes_dt_active']                   = 'Активно';
 
