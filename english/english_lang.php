@@ -3643,7 +3643,7 @@ $lang['allow_primary_contact_to_manage_other_contacts']       = 'Allow primary c
 $lang['contact_form_validation_is_unique']                    = 'Contact with this {field} already exists in our system';
 $lang['invoice_number_not_applied_on_draft']                  = 'If the invoice is saved as draft, the number won\'t be applied, instead, the next invoice number will be given when the invoice is sent to the customer or is marked as sent.';
 $lang['two_factor_authentication_disabed']                    = 'Disabled';
-$lang['enable_google_two_factor_authentication']              = 'Enable Googe Authenticator';
+$lang['enable_google_two_factor_authentication']              = 'Enable Google Authenticator';
 $lang['set_google_two_factor_authentication_failed']          = 'Saving authentication failed, please try again';
 $lang['enter_two_factor_auth_code_from_mobile']               = 'Enter authentication code from the Authenticator app';
 $lang['staff_two_factor_authentication']                      = 'Two Factor Authentication';
@@ -3835,5 +3835,25 @@ $lang['batch_payment_filter_by_customer']                   = 'Filter invoices b
 $lang['batch_payments']                                     = 'Batch Payments';
 $lang['batch_payment_added_successfully']                   = 'You have successfully added %s payments';
 $lang['batch_payments_send_invoice_payment_recorded']       = 'Do not send invoice payment recorded email to customer contacts';
-$land['invoice_batch_payments']                             = 'Batch Payment';
+$lang['invoice_batch_payments']                             = 'Batch Payment';
 $lang['staff_is_currently_replying']                        = '%s is currently replying to ticket.';
+
+# Version 2.9.4
+$lang['permission_view_timesheet_report']                   = 'View Timesheets Report';
+$lang['timesheets_overview_all_members_notice_permission']  = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
+$lang['show_project_on_proposal']                           = 'Show Project Name On Proposal';
+$lang['ticket_reports_staff']                               = 'Staff Member';
+$lang['ticket_reports_total_assigned']                      = 'Total Assigned Tickets';
+$lang['ticket_reports_open_tickets']                        = 'Open Tickets';
+$lang['ticket_reports_closed_tickets']                      = 'Closed Tickets';
+$lang['ticket_reports_replies_to_tickets']                  = 'Replies To Tickets';
+$lang['ticket_reports_average_reply_time']                  = 'Average Reply Time';
+$lang['home_tickets_report']                                = 'Staff Tickets Report';
+$lang['ticket_reports_average_reply_time_help']             = "Average response time from assigned tickets.";
+$lang['created_by']                                         = 'Created by';
+
+$lang['staff_related_ticket_notification_to_assignee_only']	= 'Send staff-related ticket notifications to the ticket assignee only';
+$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
+$lang['import_expenses'] = 'Import Expenses';
+$lang['show_pdf_signature_proposal'] = 'Show PDF Signature on Proposal';
+$lang['enable_honeypot_spam_validation'] = 'Enable Honeypot spam validation';
