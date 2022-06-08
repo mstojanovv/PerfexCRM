@@ -3857,3 +3857,8 @@ $lang['staff_related_ticket_notification_to_assignee_only_help'] = 'If this opti
 $lang['import_expenses'] = 'Import Expenses';
 $lang['show_pdf_signature_proposal'] = 'Show PDF Signature on Proposal';
 $lang['enable_honeypot_spam_validation'] = 'Enable Honeypot spam validation';
+
+# Version 2.9.5
+$lang['contracts_view_marked_as_signed']    = 'Marked As Signed';
+$lang['contracts_view_signed']              = 'signed';
+$lang['contracts_view_not_expired']         = 'Not Expired';
