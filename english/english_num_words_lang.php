@@ -122,6 +122,7 @@ $lang['number_word_and']   = 'And';
 $lang['num_word_hundred'] = 'Hundred';
 $lang['num_word_lakh']    = 'Lakh';
 $lang['num_word_lakhs']   = 'Lakh';
+$lang['num_word_crore']   = 'Crore';
 
 // Show in invoices and estimates
 $lang['num_word'] = 'With words';
