@@ -116,12 +116,15 @@ $lang['num_word_trillion'] = 'Trillion';
 $lang['num_word_zillion']  = 'Zillion';
 $lang['num_word_cents']    = 'Cents';
 $lang['number_word_and']   = 'And';
+$lang['number_word_only']  = 'Only';
 
 
 # For Indian Customers, used with INR currency
 $lang['num_word_hundred'] = 'Hundred';
 $lang['num_word_lakh']    = 'Lakh';
 $lang['num_word_lakhs']   = 'Lakh';
+$lang['num_word_crore']   = 'Crore';
+$lang['num_word_paisa']   = 'Paisa';
 
 // Show in invoices and estimates
 $lang['num_word'] = 'With words';
@@ -129,6 +132,7 @@ $lang['num_word'] = 'With words';
 $currencies = [
     'USD' => 'Dollars',
     'EUR' => 'Euros',
+    'INR' => 'Rupees',
 ];
 
 $currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
