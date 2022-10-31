@@ -1219,7 +1219,7 @@ $lang['contract_summary_by_type_value']       = 'Contracts Value by Type';
 $lang['contract_renewed_successfully']        = 'Contract renewed successfully';
 $lang['contract_renewed_fail']                = 'Problem while renewing the contract. Contact administrator';
 $lang['no_contract_renewals_found']           = 'Renewals for this contract are not found';
-$lang['no_contract_renewals_history_heading'] = 'Contract Renewal History';
+$lang['no_contract_renewals_history_heading'] = 'Renewal History';
 $lang['contract_renewed_by']                  = '%s renewed this contract';
 $lang['contract_renewal_deleted']             = 'Renewal successfully deleted';
 $lang['contract_renewal_delete_fail']         = 'Failed to delete contract renewal. Contact administrator';
@@ -3858,7 +3858,7 @@ $lang['import_expenses'] = 'Import Expenses';
 $lang['show_pdf_signature_proposal'] = 'Show PDF Signature on Proposal';
 $lang['enable_honeypot_spam_validation'] = 'Enable Honeypot spam validation';
 
-# Version 2.9.5
+# Version 3.0.0
 $lang['contracts_view_marked_as_signed']    = 'Marked As Signed';
 $lang['contracts_view_signed']              = 'signed';
 $lang['contracts_view_not_expired']         = 'Not Expired';
@@ -3866,3 +3866,4 @@ $lang['contract_information'] = 'Contract Information';
 $lang['receipt'] = 'Receipt';
 $lang['search_proposals'] = 'Search Proposals';
 $lang['search_estimates'] = 'Search Estimates';
+$lang['quick_create'] = 'Quick Create';
