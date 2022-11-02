@@ -2000,8 +2000,8 @@ $lang['task_user_logged_time']  = 'Ваш час роботи:';
 $lang['task_total_logged_time'] = 'Загальний час роботи:';
 $lang['task_is_billed']         = 'На це завдання виставлений рахунок на оплату з номером %s';
 
-$lang['task_statistics']        = 'Статистика';
-$lang['task_milestone']         = 'Етап';
+$lang['task_statistics'] = 'Статистика';
+$lang['task_milestone']  = 'Етап';
 
 # Tickets
 $lang['ticket_message_updated_successfully'] = 'Повідомлення оновлено';
@@ -2604,18 +2604,18 @@ $lang['task_log_time_end']    = $lang['project_timesheet_end_time'];
 $lang['task_single_log_user'] = $lang['project_timesheet_user'];
 
 # Version 1.2.2
-$lang['milestone_description']                      = 'Опис';
-$lang['description_visible_to_customer']            = 'Показати опис для замовника';
-$lang['upcoming_tasks']                             = 'Майбутні завдання';
-$lang['payment_credit_card_number']                 = 'Номер карти';
-$lang['payment_credit_card_expiration_date']        = 'Строк дії';
-$lang['payment_billing_email']                      = 'Ел.пошта';
-$lang['submit_payment']                             = 'Відправити';
-$lang['custom_field_disallow_customer_to_edit']     = 'Заборонити замовнику редагувати це поле';
-$lang['project_due_notice']                         = 'Цей проект прострочений на %s дн.';
-$lang['not_lead_added_attachment']                  = 'додано нове вкладення %s';
-$lang['lead_note_date_added']                       = 'Додана примітка: %s';
-$lang['recurring_custom']                           = 'Довільно';
+$lang['milestone_description']                  = 'Опис';
+$lang['description_visible_to_customer']        = 'Показати опис для замовника';
+$lang['upcoming_tasks']                         = 'Майбутні завдання';
+$lang['payment_credit_card_number']             = 'Номер карти';
+$lang['payment_credit_card_expiration_date']    = 'Строк дії';
+$lang['payment_billing_email']                  = 'Ел.пошта';
+$lang['submit_payment']                         = 'Відправити';
+$lang['custom_field_disallow_customer_to_edit'] = 'Заборонити замовнику редагувати це поле';
+$lang['project_due_notice']                     = 'Цей проект прострочений на %s дн.';
+$lang['not_lead_added_attachment']              = 'додано нове вкладення %s';
+$lang['lead_note_date_added']                   = 'Додана примітка: %s';
+$lang['recurring_custom']                       = 'Довільно';
 // Dont translate these, only added for better readability already translated for the expenses custom recurring feature.
 $lang['invoice_recurring_months'] = $lang['expense_recurring_months'];
 $lang['invoice_recurring_years']  = $lang['expense_recurring_years'];
@@ -2702,33 +2702,33 @@ $lang['leads_report_converted_notice']                        = 'Тільки п
 $lang['payment_method']                                       = 'Спосіб оплати';
 $lang['payment_method_info']                                  = 'Деякі платіжні шлюзи підтримують різні способи оплати, такі як банківська картка, PayPal, банківський переказ';
 # Version 1.2.7
-$lang['dropbox_app_key']                                    = 'Ключ Dropbox';
-$lang['project_invoice_select_all_expenses']                = 'Виберіть всі витрати';
-$lang['role_update_staff_permissions']                      = 'Оновіть дозволи всіх співробітників, які використовують цю роль';
-$lang['customer_active']                                    = 'Активний';
-$lang['note_updated_successfully']                          = 'Примітка оновлена успішно';
-$lang['update_note']                                        = 'Оновити примітку';
-$lang['update_comment']                                     = 'Оновити коментар';
-$lang['comment_updated_successfully']                       = 'Коментар оновлений успішно';
-$lang['staff_send_welcome_email']                           = 'Надіслати вітальний лист';
-$lang['proposal_warning_email_change']                      = 'Ел.пошта змінена для %s.  %s пов\'язаний з пропозицією (ями). Ви хочете оновити всі пропозиції, пов\'язані з поштою %s?';
-$lang['update_proposal_email_yes']                          = 'Так, оновити всі пов\'язані ел.листи.';
-$lang['update_proposal_email_no']                           = 'Ні, я оновлю вручну.';
-$lang['proposals_emails_updated']                           = 'Всі запропоновані ел.листи пов’язані з цим %s оновлено на %s';
-$lang['custom_field_company']                               = 'Компанія';
-$lang['actions']                                            = 'Дії';
-$lang['project_mark_as']                                    = 'Позначити як %s';
-$lang['todo_edit_title']                                    = 'Редагування';
-$lang['additional_action_required']                         = 'Потрібна додаткова дія!';
-$lang['project_mark_tasks_finished_confirm']                = 'Підтвердити';
-$lang['project_marked_as_success']                          = 'Проект успішно позначено як %s';
-$lang['project_marked_as_failed']                           = 'Не вдалося позначити проект як %s';
-$lang['auto_assign_customer_admin_after_lead_convert']      = 'Якщо цей параметр встановлений як ТАК, то користувач який конвертував потенційного замовника в замовника, буде автоматично призначений в якості адміністратора для цього замовника. ПРИМІТКА: Цей параметр буде застосовуватися тільки до співробітників, які не мають дозволу на ПЕРЕГЛЯД замовників';
-$lang['auto_close_tickets_disable']                         = 'Встановити 0 для відключення';
-$lang['task_checklist_item_completed_by']                   = 'Завершено %s';
-$lang['staff_email_signature_help']                         = 'Якщо підпис для ел.листа не вказаний, то буде використовуватися підпис з налаштувань';
-$lang['default_task_priority']                              = 'Пріоритет за замовчуванням';
-$lang['project_send_created_email']                         = 'Надіслати проект, створений по ел.пошті';
+$lang['dropbox_app_key']                               = 'Ключ Dropbox';
+$lang['project_invoice_select_all_expenses']           = 'Виберіть всі витрати';
+$lang['role_update_staff_permissions']                 = 'Оновіть дозволи всіх співробітників, які використовують цю роль';
+$lang['customer_active']                               = 'Активний';
+$lang['note_updated_successfully']                     = 'Примітка оновлена успішно';
+$lang['update_note']                                   = 'Оновити примітку';
+$lang['update_comment']                                = 'Оновити коментар';
+$lang['comment_updated_successfully']                  = 'Коментар оновлений успішно';
+$lang['staff_send_welcome_email']                      = 'Надіслати вітальний лист';
+$lang['proposal_warning_email_change']                 = 'Ел.пошта змінена для %s.  %s пов\'язаний з пропозицією (ями). Ви хочете оновити всі пропозиції, пов\'язані з поштою %s?';
+$lang['update_proposal_email_yes']                     = 'Так, оновити всі пов\'язані ел.листи.';
+$lang['update_proposal_email_no']                      = 'Ні, я оновлю вручну.';
+$lang['proposals_emails_updated']                      = 'Всі запропоновані ел.листи пов’язані з цим %s оновлено на %s';
+$lang['custom_field_company']                          = 'Компанія';
+$lang['actions']                                       = 'Дії';
+$lang['project_mark_as']                               = 'Позначити як %s';
+$lang['todo_edit_title']                               = 'Редагування';
+$lang['additional_action_required']                    = 'Потрібна додаткова дія!';
+$lang['project_mark_tasks_finished_confirm']           = 'Підтвердити';
+$lang['project_marked_as_success']                     = 'Проект успішно позначено як %s';
+$lang['project_marked_as_failed']                      = 'Не вдалося позначити проект як %s';
+$lang['auto_assign_customer_admin_after_lead_convert'] = 'Якщо цей параметр встановлений як ТАК, то користувач який конвертував потенційного замовника в замовника, буде автоматично призначений в якості адміністратора для цього замовника. ПРИМІТКА: Цей параметр буде застосовуватися тільки до співробітників, які не мають дозволу на ПЕРЕГЛЯД замовників';
+$lang['auto_close_tickets_disable']                    = 'Встановити 0 для відключення';
+$lang['task_checklist_item_completed_by']              = 'Завершено %s';
+$lang['staff_email_signature_help']                    = 'Якщо підпис для ел.листа не вказаний, то буде використовуватися підпис з налаштувань';
+$lang['default_task_priority']                         = 'Пріоритет за замовчуванням';
+$lang['project_send_created_email']                    = 'Надіслати проект, створений по ел.пошті';
 
 # Version 1.2.8
 $lang['show_transactions_on_invoice_pdf']            = 'Показувати сплачені рахунки (транзакції) в файлі в PDF';
@@ -3625,22 +3625,22 @@ $lang['email_scheduled_successfully']   = 'Розклад успішно від�
 $lang['invoice_will_be_sent_at']        = 'Рахунок буде надісланий за адресою %s';
 
 # Version 2.5.0
-$lang['recaptcha_ignore_ips']               = 'IP-адреси, що ігноруються';
-$lang['recaptcha_ignore_ips_info']          = 'Введіть IP-адреси через кому, які reCaptcha повинна ігнорувати.';
-$lang['show_task_reminders_on_calendar']    = 'Нагадування про завдання';
-$lang['contracts_about_to_expire']          = 'Договори незабарам спливають';
-$lang['no_contracts_about_to_expire']       = 'Немає жодних договорів, термін дії яких закінчується в найближчі %s дні.';
-$lang['lead_value']                         = 'Значення потенціного замовника';
-$lang['lead_value_tooltip']                 = 'Буде використовуватися базова валюта.';
-$lang['leads_dt_lead_value']                = 'Значення потенційного замовника';
-$lang['leads_canban_lead_value']            = 'Значення потенційного замовника: %s';
-$lang['lead_add_edit_lead_value']           = 'Значення потенційного замовника';
+$lang['recaptcha_ignore_ips']            = 'IP-адреси, що ігноруються';
+$lang['recaptcha_ignore_ips_info']       = 'Введіть IP-адреси через кому, які reCaptcha повинна ігнорувати.';
+$lang['show_task_reminders_on_calendar'] = 'Нагадування про завдання';
+$lang['contracts_about_to_expire']       = 'Договори незабарам спливають';
+$lang['no_contracts_about_to_expire']    = 'Немає жодних договорів, термін дії яких закінчується в найближчі %s дні.';
+$lang['lead_value']                      = 'Значення потенціного замовника';
+$lang['lead_value_tooltip']              = 'Буде використовуватися базова валюта.';
+$lang['leads_dt_lead_value']             = 'Значення потенційного замовника';
+$lang['leads_canban_lead_value']         = 'Значення потенційного замовника: %s';
+$lang['lead_add_edit_lead_value']        = 'Значення потенційного замовника';
 
 # Version 2.6.0
-$lang['gantt_view_day'] = 'Огляд за день';
-$lang['gantt_view_week'] = 'Огляд за тиждень';
+$lang['gantt_view_day']   = 'Огляд за день';
+$lang['gantt_view_week']  = 'Огляд за тиждень';
 $lang['gantt_view_month'] = 'Огляд за місяць';
-$lang['gantt_view_year'] = 'Огляд за рік';
+$lang['gantt_view_year']  = 'Огляд за рік';
 
 # Version 2.7.0
 $lang['hour_of_day_perform_tasks_reminder_notification_help'] = '24-годинний формат екв. 9 для 9-ї ранку або 15 для 15:00. Використовується для повторюваних завдань, нагадувань про завдання і т.д..';
@@ -3655,18 +3655,18 @@ $lang['allow_primary_contact_to_manage_other_contacts']       = 'Дозволи�
 $lang['contact_form_validation_is_unique']                    = 'Контакт з цім {field} вже існує в нашій системі';
 $lang['invoice_number_not_applied_on_draft']                  = 'Якщо рахунок збережений як чернетка, то номер не буде застосований, замість цього буде вказано номер рахунку, коли рахунок буде відправлений замовнику або позначений як відправлений.';
 
-$lang['two_factor_authentication_disabed']                    = 'Відключено';
-$lang['enable_google_two_factor_authentication']              = 'Увімкнути Google Authenticator';
-$lang['set_google_two_factor_authentication_failed']          = 'Не вдалося зберегти аутентифікацію, спробуйте ще раз';
-$lang['enter_two_factor_auth_code_from_mobile']               = 'Введіть код аутентифікації з додатка Authenticator';
-$lang['staff_two_factor_authentication']                      = 'Двофакторна автентифікація';
-$lang['google_authentication_code']                           = 'Введіть код із додатку Authenticator';
-$lang['set_two_factor_authentication_successful']             = 'Успішно оновлені налаштування двофакторної аутентифікації';
-$lang['set_two_factor_authentication_failed']                 = 'Не вдалося оновити налаштування двофакторної автентифікації';
-$lang['google_2fa_code_valid']                                = 'Успішно перевірена аутентифікація';
-$lang['google_2fa_code_invalid']                              = 'Введено невірний код аутентифікації, спробуйте ще раз.';
-$lang['google_2fa_scan_qr_guide']                             = 'Відскануте QR-код нижче за допомогою програми Google Authenticator на вашому мобільному пристрої, після чого заповніть поле нижче кодом, що згенерував в додатку';
-$lang['google_2fa_manul_input_secret']                        = 'Таємний ключ для ручного введення';
+$lang['two_factor_authentication_disabed']           = 'Відключено';
+$lang['enable_google_two_factor_authentication']     = 'Увімкнути Google Authenticator';
+$lang['set_google_two_factor_authentication_failed'] = 'Не вдалося зберегти аутентифікацію, спробуйте ще раз';
+$lang['enter_two_factor_auth_code_from_mobile']      = 'Введіть код аутентифікації з додатка Authenticator';
+$lang['staff_two_factor_authentication']             = 'Двофакторна автентифікація';
+$lang['google_authentication_code']                  = 'Введіть код із додатку Authenticator';
+$lang['set_two_factor_authentication_successful']    = 'Успішно оновлені налаштування двофакторної аутентифікації';
+$lang['set_two_factor_authentication_failed']        = 'Не вдалося оновити налаштування двофакторної автентифікації';
+$lang['google_2fa_code_valid']                       = 'Успішно перевірена аутентифікація';
+$lang['google_2fa_code_invalid']                     = 'Введено невірний код аутентифікації, спробуйте ще раз.';
+$lang['google_2fa_scan_qr_guide']                    = 'Відскануте QR-код нижче за допомогою програми Google Authenticator на вашому мобільному пристрої, після чого заповніть поле нижче кодом, що згенерував в додатку';
+$lang['google_2fa_manul_input_secret']               = 'Таємний ключ для ручного введення';
 
 # Version 2.7.1
 $lang['templates']                                   = 'Шаблони';
@@ -3701,72 +3701,72 @@ $lang['email_to_ticket_config']          = 'Ел.пошта для налашт�
 
 
 # Version 2.8.0
-$lang['enable_support_menu_badges']     = 'Увімкніть значок пункту меню підтримки';
-$lang['item_copy_success']              = 'Елемент успішно скопійовано';
-$lang['item_copy_fail']                 = 'Не вдалося скопіювати елемент';
+$lang['enable_support_menu_badges']              = 'Увімкніть значок пункту меню підтримки';
+$lang['item_copy_success']                       = 'Елемент успішно скопійовано';
+$lang['item_copy_fail']                          = 'Не вдалося скопіювати елемент';
 $lang['attach_invoice_to_payment_receipt_email'] = 'Прикріпити рахунок PDF при відправлені квитанції про оплату на ел.пошту';
 
-$lang['estimate_request']                       = 'Запит на кошторис';
-$lang['estimate_requests']                      = 'Запити на кошторис';
-$lang['estimate_request_form']                  = 'Форма запиту кошторису';
-$lang['acs_estimate_request']                   = 'Запит на кошторис';
-$lang['acs_estimate_request_forms']             = 'Форми';
-$lang['estimate_request_forms']             = 'Форми запиту кошторису';
-$lang['estimate_request_notify_staff']          = 'Повідомляти співробітників';
-$lang['estimate_request_notify_when_submitted']     = 'Повідомляти про подання запиту на кошторис';
-$lang['estimate_request_assignee']              = 'Відповідальний (Призначений)';
-$lang['estimate_request_notify_roles']          = 'Ролі для повідомлення';
-$lang['custom_field_estimate_request']          = 'Запит на кошторис';
-$lang['new_estimate_request_submitted_from_form']     = 'Новий запит на кошторис, відправлений з форми - %s';
-$lang['acs_estimate_request_statuses_submenu']  = 'Статуси';
-$lang['estimate_request_dt_email']              = 'Ел.пошта';
-$lang['estimate_request_dt_assigned']           = 'Призначений';
-$lang['estimate_request_dt_status']             = 'Статус';
-$lang['estimate_request_dt_datecreated']        = 'Створений';
-$lang['estimate_request_attachments']           = 'Вкладення';
-$lang['estimate_request_new_status']            = 'Новий статус';
-$lang['estimate_request_status_table_name']     = 'Ім\'я статусу';
-$lang['estimate_request_table_total']           = 'Всього запитів: %s';
-$lang['estimate_request_statuses_not_found']    = 'Статуси запитів кошторису не знайдені';
-$lang['estimate_request_status_add_edit_name']  = 'Ім\'я статусу';
-$lang['estimate_request_status_color']          = 'Колір';
-$lang['estimate_request_status_add_edit_order'] = 'Статус замовлення';
-$lang['estimate_request_status']                = 'Статус';
-$lang['estimate_request_date_added']            = 'Дата створення';
-$lang['estmate_request_tags_updated']           = 'Теґи оновлені';
-$lang['not_estimate_request_activity_status_updated'] = '%s оновлений статус кошторису з %s на %s';
-$lang['estimate_request_lowercase']             = 'запит на кошторис';
+$lang['estimate_request']                                  = 'Запит на кошторис';
+$lang['estimate_requests']                                 = 'Запити на кошторис';
+$lang['estimate_request_form']                             = 'Форма запиту кошторису';
+$lang['acs_estimate_request']                              = 'Запит на кошторис';
+$lang['acs_estimate_request_forms']                        = 'Форми';
+$lang['estimate_request_forms']                            = 'Форми запиту кошторису';
+$lang['estimate_request_notify_staff']                     = 'Повідомляти співробітників';
+$lang['estimate_request_notify_when_submitted']            = 'Повідомляти про подання запиту на кошторис';
+$lang['estimate_request_assignee']                         = 'Відповідальний (Призначений)';
+$lang['estimate_request_notify_roles']                     = 'Ролі для повідомлення';
+$lang['custom_field_estimate_request']                     = 'Запит на кошторис';
+$lang['new_estimate_request_submitted_from_form']          = 'Новий запит на кошторис, відправлений з форми - %s';
+$lang['acs_estimate_request_statuses_submenu']             = 'Статуси';
+$lang['estimate_request_dt_email']                         = 'Ел.пошта';
+$lang['estimate_request_dt_assigned']                      = 'Призначений';
+$lang['estimate_request_dt_status']                        = 'Статус';
+$lang['estimate_request_dt_datecreated']                   = 'Створений';
+$lang['estimate_request_attachments']                      = 'Вкладення';
+$lang['estimate_request_new_status']                       = 'Новий статус';
+$lang['estimate_request_status_table_name']                = 'Ім\'я статусу';
+$lang['estimate_request_table_total']                      = 'Всього запитів: %s';
+$lang['estimate_request_statuses_not_found']               = 'Статуси запитів кошторису не знайдені';
+$lang['estimate_request_status_add_edit_name']             = 'Ім\'я статусу';
+$lang['estimate_request_status_color']                     = 'Колір';
+$lang['estimate_request_status_add_edit_order']            = 'Статус замовлення';
+$lang['estimate_request_status']                           = 'Статус';
+$lang['estimate_request_date_added']                       = 'Дата створення';
+$lang['estmate_request_tags_updated']                      = 'Теґи оновлені';
+$lang['not_estimate_request_activity_status_updated']      = '%s оновлений статус кошторису з %s на %s';
+$lang['estimate_request_lowercase']                        = 'запит на кошторис';
 $lang['estimate_request_form_email_field_is_required']     = 'Поле ел.пошти обов\'язково має бути додано в форму';
 $lang['estimate_request_form_email_field_set_to_required'] = 'Відмітити поле ел.пошти як обов\'язкове';
 $lang['not_delete_estimate_request_default_status']        = 'Неможливо видалити головний статус запиту кошторису';
-$lang['mark_estimate_request_as']               = 'Відмітити як %s';
-$lang['estimate_request_updated']              = 'Запит кошторису оновлений';
-$lang['convert_estimate_request']               = 'Перетворення запиту кошторису';
-$lang['estimate_request_client_firstname']      = 'Ім\'я';
-$lang['estimate_request_client_lastname']       = 'Прізвище';
-$lang['estimate_request_email']                 = 'Ел.пошта';
-$lang['estimate_request_for_lead']              = 'Потенційний замовник';
-$lang['estimate_request_for_customer']          = 'Замовник';
-$lang['estimate_request_related']               = 'Відноситься до';
-$lang['estimate_request_client_created_success'] = 'Запит на кошторис замовника створено';
-$lang['estimate_request_assigned']              = 'Призначений персонал';
-$lang['not_estimate_request_activity_assigned_updated']       = 'Запит кошторису, призначений %s';
-$lang['estimate_request_status_lowercase']      = 'статус кошторису';
-$lang['estimate_request_assigned_to_staff']     = 'Вам призначений запит на кошторис';
+$lang['mark_estimate_request_as']                          = 'Відмітити як %s';
+$lang['estimate_request_updated']                          = 'Запит кошторису оновлений';
+$lang['convert_estimate_request']                          = 'Перетворення запиту кошторису';
+$lang['estimate_request_client_firstname']                 = 'Ім\'я';
+$lang['estimate_request_client_lastname']                  = 'Прізвище';
+$lang['estimate_request_email']                            = 'Ел.пошта';
+$lang['estimate_request_for_lead']                         = 'Потенційний замовник';
+$lang['estimate_request_for_customer']                     = 'Замовник';
+$lang['estimate_request_related']                          = 'Відноситься до';
+$lang['estimate_request_client_created_success']           = 'Запит на кошторис замовника створено';
+$lang['estimate_request_assigned']                         = 'Призначений персонал';
+$lang['not_estimate_request_activity_assigned_updated']    = 'Запит кошторису, призначений %s';
+$lang['estimate_request_status_lowercase']                 = 'статус кошторису';
+$lang['estimate_request_assigned_to_staff']                = 'Вам призначений запит на кошторис';
 
-$lang['activity_due_reminder_is_sent']          = '%s відправлений рахунок став нагадуванням про термін оплати';
-$lang['invoice_due_notice_before']              = 'Надіслати нагадування про термін оплати за X днів до дати оплати';
-$lang['overdue_notices']                        = 'Прострочені повідомлення';
-$lang['invoice_overdue_notices_info']           = 'Прострочені повідомлення відправляються, коли рахунок стає простроченим.';
-$lang['due_reminders']                          = 'Майбутні нагадування';
-$lang['due_reminders_for_invoices_info']        = 'Нагадування про термін оплати відправляються за несплачені та частково оплачені рахунки в якості нагадування замовнику оплатити рахунок до настання терміну оплати.';
-$lang['expenses_list_made_payment_by']          = 'Здійснено оплату %s';
+$lang['activity_due_reminder_is_sent']   = '%s відправлений рахунок став нагадуванням про термін оплати';
+$lang['invoice_due_notice_before']       = 'Надіслати нагадування про термін оплати за X днів до дати оплати';
+$lang['overdue_notices']                 = 'Прострочені повідомлення';
+$lang['invoice_overdue_notices_info']    = 'Прострочені повідомлення відправляються, коли рахунок стає простроченим.';
+$lang['due_reminders']                   = 'Майбутні нагадування';
+$lang['due_reminders_for_invoices_info'] = 'Нагадування про термін оплати відправляються за несплачені та частково оплачені рахунки в якості нагадування замовнику оплатити рахунок до настання терміну оплати.';
+$lang['expenses_list_made_payment_by']   = 'Здійснено оплату %s';
 
 # Version 2.8.2
-$lang['hide_task_checklist_items_completed']          = 'Сховати завершені елементи';
-$lang['show_task_checklist_items_completed']          = 'Показати завершені елементи %s';
-$lang['task_checklist_assign']                        = 'Призначити співробітника';
-$lang['task_checklist_assigned']                      = 'Призначено %s';
+$lang['hide_task_checklist_items_completed'] = 'Сховати завершені елементи';
+$lang['show_task_checklist_items_completed'] = 'Показати завершені елементи %s';
+$lang['task_checklist_assign']               = 'Призначити співробітника';
+$lang['task_checklist_assigned']             = 'Призначено %s';
 
 # Version 2.8.2
 $lang['custom_field_add_edit_default_value'] = 'Значення за замовчуванням';
@@ -3787,6 +3787,7 @@ $lang['estimate_convert_to_project']                          = 'Перетво�
 $lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
 
 # Version 2.9.0
+<<<<<<< HEAD
 $lang['home_payment_records']                                 = 'Платіжні записи';
 $lang['weekly']                                               = 'Щотижня';
 $lang['monthly']                                              = 'Щомісячно';
@@ -3802,6 +3803,23 @@ $lang['add_timesheet'] 										  = 'Додати графік робочого
 $lang['submit_button_bg_color']                               = 'Колір фону кнопки надіслати';
 $lang['submit_button_text_color']                             = 'Колір тексту кнопки надіслати';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматично призначати запит першому співробітнику, який надішле відповідь?';
+=======
+$lang['home_payment_records']                                  = 'Payment Records';
+$lang['weekly']                                                = 'Weekly';
+$lang['monthly']                                               = 'Monthly';
+$lang['failed_to_update_timesheet']                            = 'Timesheet was not updated';
+$lang['permission_create_timesheets']                          = 'Create Timesheets';
+$lang['permission_edit_timesheets']                            = 'Edit Timesheets (Global)';
+$lang['permission_edit_own_timesheets']                        = 'Edit Own Timesheets';
+$lang['permission_delete_timesheets']                          = 'Delete Timesheets (Global)';
+$lang['permission_delete_own_timesheets']                      = 'Delete own Timesheets';
+$lang['permission_edit_milestones']                            = 'Edit Milestones';
+$lang['permission_delete_milestones']                          = 'Delete Milestonea';
+$lang['add_timesheet']                                         = 'Add timesheet';
+$lang['submit_button_bg_color']                                = 'Submit button background color';
+$lang['submit_button_text_color']                              = 'Submit button background text';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
+>>>>>>> development
 
 # Version 2.9.1
 $lang['contract_signed_not_all_fields_editable'] = 'Цей контракт підписаний, тому не всі поля можна редагувати, доки підпис не буде видалено.';
@@ -3844,21 +3862,31 @@ $land['invoice_batch_payments']                             = 'Пакетна о
 $lang['staff_is_currently_replying']                        = '%s на даний час відповідає на запит.';
 
 # Version 2.9.4
-$lang['permission_view_timesheet_report']                   = 'View Timesheets Report';
-$lang['timesheets_overview_all_members_notice_permission']  = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
-$lang['show_project_on_proposal']                           = 'Show Project Name On Proposal';
-$lang['ticket_reports_staff']                               = 'Staff Member';
-$lang['ticket_reports_total_assigned']                      = 'Total Assigned Tickets';
-$lang['ticket_reports_open_tickets']                        = 'Open Tickets';
-$lang['ticket_reports_closed_tickets']                      = 'Closed Tickets';
-$lang['ticket_reports_replies_to_tickets']                  = 'Replies To Tickets';
-$lang['ticket_reports_average_reply_time']                  = 'Average Reply Time';
-$lang['home_tickets_report']                                = 'Staff Tickets Report';
-$lang['ticket_reports_average_reply_time_help']             = "Average response time from assigned tickets.";
-$lang['created_by']                                         = 'Created by';
+$lang['permission_view_timesheet_report']                  = 'View Timesheets Report';
+$lang['timesheets_overview_all_members_notice_permission'] = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
+$lang['show_project_on_proposal']                          = 'Show Project Name On Proposal';
+$lang['ticket_reports_staff']                              = 'Staff Member';
+$lang['ticket_reports_total_assigned']                     = 'Total Assigned Tickets';
+$lang['ticket_reports_open_tickets']                       = 'Open Tickets';
+$lang['ticket_reports_closed_tickets']                     = 'Closed Tickets';
+$lang['ticket_reports_replies_to_tickets']                 = 'Replies To Tickets';
+$lang['ticket_reports_average_reply_time']                 = 'Average Reply Time';
+$lang['home_tickets_report']                               = 'Staff Tickets Report';
+$lang['ticket_reports_average_reply_time_help']            = 'Average response time from assigned tickets.';
+$lang['created_by']                                        = 'Created by';
 
-$lang['staff_related_ticket_notification_to_assignee_only']	= 'Send staff-related ticket notifications to the ticket assignee only';
+$lang['staff_related_ticket_notification_to_assignee_only']      = 'Send staff-related ticket notifications to the ticket assignee only';
 $lang['staff_related_ticket_notification_to_assignee_only_help'] = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
-$lang['import_expenses'] = 'Import Expenses';
-$lang['show_pdf_signature_proposal'] = 'Show PDF Signature on Proposal';
-$lang['enable_honeypot_spam_validation'] = 'Enable Honeypot spam validation';
+$lang['import_expenses']                                         = 'Import Expenses';
+$lang['show_pdf_signature_proposal']                             = 'Show PDF Signature on Proposal';
+$lang['enable_honeypot_spam_validation']                         = 'Enable Honeypot spam validation';
+
+# Version 3.0.0
+$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
+$lang['contracts_view_signed']           = 'signed';
+$lang['contracts_view_not_expired']      = 'Not Expired';
+$lang['contract_information']            = 'Contract Information';
+$lang['receipt']                         = 'Receipt';
+$lang['search_proposals']                = 'Search Proposals';
+$lang['search_estimates']                = 'Search Estimates';
+$lang['quick_create']                    = 'Quick Create';
