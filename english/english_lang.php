@@ -3867,3 +3867,6 @@ $lang['receipt']                         = 'Receipt';
 $lang['search_proposals']                = 'Search Proposals';
 $lang['search_estimates']                = 'Search Estimates';
 $lang['quick_create']                    = 'Quick Create';
+
+# Version 3.0.5
+$lang['last_notified']  = 'Last Notified';
