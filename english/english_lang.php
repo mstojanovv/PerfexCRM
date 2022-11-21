@@ -3869,4 +3869,4 @@ $lang['search_estimates']                = 'Search Estimates';
 $lang['quick_create']                    = 'Quick Create';
 
 # Version 3.0.5
-$lang['last_notified']  = 'Last Notified';
+$lang['subscription_last_sent']  = 'Last Sent';
