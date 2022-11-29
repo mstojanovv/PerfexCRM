@@ -3869,4 +3869,6 @@ $lang['search_estimates']                = 'Search Estimates';
 $lang['quick_create']                    = 'Quick Create';
 
 # Version 3.0.5
-$lang['subscription_last_sent']  = 'Last Sent';
+$lang['subscription_last_sent']                             = 'Last Sent';
+$lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically assign logged in staff as sale agent';
+$lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
