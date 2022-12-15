@@ -3872,3 +3872,5 @@ $lang['quick_create']                    = 'Quick Create';
 $lang['subscription_last_sent']                             = 'Last Sent';
 $lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically assign logged in staff as sale agent';
 $lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
+$lang['contract_templates']                                 = 'Contract templates';
+$lang['proposal_templates']                                 = 'Proposal templates';
