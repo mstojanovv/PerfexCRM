@@ -3874,3 +3874,6 @@ $lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically ass
 $lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
 $lang['contract_templates']                                 = 'Contract templates';
 $lang['proposal_templates']                                 = 'Proposal templates';
+$lang['settings_contract_sign_reminder_every_days_info']    = 'Sign reminders are sent to the customer contacts after the contract is first time sent to the customer and they are automatically stopped when the contract is signed.';
+$lang['contract_sign_reminder_every_days']                  = 'Send sign reminder every (days)';
+$lang['contract_sign_reminders']                            = 'Sign Reminders';
