@@ -3833,11 +3833,11 @@ $lang['show_pdf_signature_proposal']                             = 'PDF İmzayı
 $lang['enable_honeypot_spam_validation']                         = 'Honeypot spam doğrulamayı etkinleştir';
 
 # Version 3.0.0
-$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
-$lang['contracts_view_signed']           = 'signed';
-$lang['contracts_view_not_expired']      = 'Not Expired';
-$lang['contract_information']            = 'Contract Information';
-$lang['receipt']                         = 'Receipt';
-$lang['search_proposals']                = 'Search Proposals';
-$lang['search_estimates']                = 'Search Estimates';
-$lang['quick_create']                    = 'Quick Create';
+$lang['contracts_view_marked_as_signed'] = 'İmzalandı Olarak İşaretle';
+$lang['contracts_view_signed']           = 'imzalandı';
+$lang['contracts_view_not_expired']      = 'Süresi Dolmadı';
+$lang['contract_information']            = 'Sözleşme Bilgileri';
+$lang['receipt']                         = 'Fiş';
+$lang['search_proposals']                = 'Teklifleri Ara';
+$lang['search_estimates']                = 'Fiyat Tahminlerinde Ara';
+$lang['quick_create']                    = 'Hızlı Oluştur';
