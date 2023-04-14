@@ -3876,3 +3876,7 @@ $lang['permission_view_all_templates']                      = 'View All Template
 $lang['settings_contract_sign_reminder_every_days_info']    = 'Sign reminders are sent to the customer contacts after the contract is first time sent to the customer and they are automatically stopped when the contract is signed.';
 $lang['contract_sign_reminder_every_days']                  = 'Send sign reminder every (days)';
 $lang['contract_sign_reminders']                            = 'Sign Reminders';
+$lang['payment_gateway_fee_percentage']                     = 'Percentage Fee';
+$lang['payment_gateway_fee_fixed']                          = 'Fixed Fee';
+$lang['payment_attempt_amount']                             = 'Invoice Total';
+$lang['payment_attempt_fee']                                = 'Payment Fee';
