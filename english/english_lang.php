@@ -3880,3 +3880,5 @@ $lang['payment_gateway_fee_percentage']                     = 'Percentage Fee';
 $lang['payment_gateway_fee_fixed']                          = 'Fixed Fee';
 $lang['payment_attempt_amount']                             = 'Invoice Total';
 $lang['payment_attempt_fee']                                = 'Payment Fee';
+$lang['feature']                                            = 'Feature';
+$lang['capabilities']                                       = 'Capabilities';
