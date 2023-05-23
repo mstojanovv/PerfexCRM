@@ -3855,3 +3855,18 @@ $lang['receipt']                         = 'Чек';
 $lang['search_proposals']                = 'Поиск предложений';
 $lang['search_estimates']                = 'Поиск оценок';
 $lang['quick_create']                    = 'Быстрое создание';
+
+# Version 3.0.5
+$lang['subscription_last_sent']                             = 'Last Sent';
+$lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically assign logged in staff as sale agent';
+$lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
+$lang['permission_view_all_templates']                      = 'View All Templates';
+$lang['settings_contract_sign_reminder_every_days_info']    = 'Sign reminders are sent to the customer contacts after the contract is first time sent to the customer and they are automatically stopped when the contract is signed.';
+$lang['contract_sign_reminder_every_days']                  = 'Send sign reminder every (days)';
+$lang['contract_sign_reminders']                            = 'Sign Reminders';
+$lang['payment_gateway_fee_percentage']                     = 'Percentage Fee';
+$lang['payment_gateway_fee_fixed']                          = 'Fixed Fee';
+$lang['payment_attempt_amount']                             = 'Invoice Total';
+$lang['payment_attempt_fee']                                = 'Payment Fee';
+$lang['feature']                                            = 'Feature';
+$lang['capabilities']                                       = 'Capabilities';
