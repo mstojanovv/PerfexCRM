@@ -3847,11 +3847,11 @@ $lang['show_pdf_signature_proposal']                             = 'Показа
 $lang['enable_honeypot_spam_validation']                         = 'Включить проверку спама Honeypot';
 
 # Version 3.0.0
-$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
-$lang['contracts_view_signed']           = 'signed';
-$lang['contracts_view_not_expired']      = 'Not Expired';
-$lang['contract_information']            = 'Contract Information';
-$lang['receipt']                         = 'Receipt';
-$lang['search_proposals']                = 'Search Proposals';
-$lang['search_estimates']                = 'Search Estimates';
-$lang['quick_create']                    = 'Quick Create';
+$lang['contracts_view_marked_as_signed'] = 'Помечено как подписанный';
+$lang['contracts_view_signed']           = 'подписанный';
+$lang['contracts_view_not_expired']      = 'Не истек';
+$lang['contract_information']            = 'Информация о контракте';
+$lang['receipt']                         = 'Чек';
+$lang['search_proposals']                = 'Поиск предложений';
+$lang['search_estimates']                = 'Поиск оценок';
+$lang['quick_create']                    = 'Быстрое создание';
