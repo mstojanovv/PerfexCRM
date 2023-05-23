@@ -878,7 +878,7 @@ $lang['view_invoice_pdf_link_pay']                                            = 
 $lang['payment_mode_add_edit_description']         = 'Банковский счет / Описание';
 $lang['payment_mode_add_edit_description_tooltip'] = 'Вы можете здесь указать банковские реквизиты. Будет отображаться на странице счета';
 $lang['payment_modes_dt_description']              = 'Банковские счета / Описание';
-$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к офлайновым методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
+$lang['payment_modes_add_edit_announcement']       = 'Примечание: способы оплаты, перечисленные ниже относятся к офлайн методам. Онлайн-оплата может быть настроена в разделе Настройки -> Настройки -> Системы оплаты';
 $lang['payment_mode_add_edit_active']              = 'Активно';
 $lang['payment_modes_dt_active']                   = 'Активно';
 
@@ -3827,34 +3827,34 @@ $lang['invoice_batch_payments']                           = 'Пакетный п
 $lang['staff_is_currently_replying']                      = '%s в настоящее время отвечает на тикет.';
 
 # Version 2.9.4
-$lang['permission_view_timesheet_report']                  = 'View Timesheets Report';
-$lang['timesheets_overview_all_members_notice_permission'] = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
-$lang['show_project_on_proposal']                          = 'Show Project Name On Proposal';
-$lang['ticket_reports_staff']                              = 'Staff Member';
-$lang['ticket_reports_total_assigned']                     = 'Total Assigned Tickets';
-$lang['ticket_reports_open_tickets']                       = 'Open Tickets';
-$lang['ticket_reports_closed_tickets']                     = 'Closed Tickets';
-$lang['ticket_reports_replies_to_tickets']                 = 'Replies To Tickets';
-$lang['ticket_reports_average_reply_time']                 = 'Average Reply Time';
-$lang['home_tickets_report']                               = 'Staff Tickets Report';
-$lang['ticket_reports_average_reply_time_help']            = 'Average response time from assigned tickets.';
-$lang['created_by']                                        = 'Created by';
+$lang['permission_view_timesheet_report']                  = 'Посмотреть отсчет о табелях';
+$lang['timesheets_overview_all_members_notice_permission'] = 'Обзор табелей для всех сотрудников доступен только для сотрудников, имеющих разрешение на просмотр отчетов о табелях, и администраторов.';
+$lang['show_project_on_proposal']                          = 'Показать название проекта в предложении';
+$lang['ticket_reports_staff']                              = 'Сотрудник';
+$lang['ticket_reports_total_assigned']                     = 'Общее количество назначенных тикетов';
+$lang['ticket_reports_open_tickets']                       = 'Открытые тикеты';
+$lang['ticket_reports_closed_tickets']                     = 'Закрытые тикеты';
+$lang['ticket_reports_replies_to_tickets']                 = 'Ответы на тикеты';
+$lang['ticket_reports_average_reply_time']                 = 'Среднее время ответа';
+$lang['home_tickets_report']                               = 'Отчет о тикетах персонала';
+$lang['ticket_reports_average_reply_time_help']            = 'Среднее время отклика от назначенных тикетов.';
+$lang['created_by']                                        = 'Созданный';
 
-$lang['staff_related_ticket_notification_to_assignee_only']      = 'Send staff-related ticket notifications to the ticket assignee only';
-$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
-$lang['import_expenses']                                         = 'Import Expenses';
-$lang['show_pdf_signature_proposal']                             = 'Show PDF Signature on Proposal';
-$lang['enable_honeypot_spam_validation']                         = 'Enable Honeypot spam validation';
+$lang['staff_related_ticket_notification_to_assignee_only']      = 'Отправка уведомлений о тикетах, связанных с персоналом, только ответственному за тикет';
+$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'Если для этого параметра установлено значение Да и у тикета нет исполнителя, уведомление будет отправлено всем сотрудникам, принадлежащим к отделу тикетов';
+$lang['import_expenses']                                         = 'Импорт расходов';
+$lang['show_pdf_signature_proposal']                             = 'Показать PDF подпись в предложении';
+$lang['enable_honeypot_spam_validation']                         = 'Включить проверку спама Honeypot';
 
 # Version 3.0.0
-$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
-$lang['contracts_view_signed']           = 'signed';
-$lang['contracts_view_not_expired']      = 'Not Expired';
-$lang['contract_information']            = 'Contract Information';
-$lang['receipt']                         = 'Receipt';
-$lang['search_proposals']                = 'Search Proposals';
-$lang['search_estimates']                = 'Search Estimates';
-$lang['quick_create']                    = 'Quick Create';
+$lang['contracts_view_marked_as_signed'] = 'Помечено как подписанный';
+$lang['contracts_view_signed']           = 'подписанный';
+$lang['contracts_view_not_expired']      = 'Не истек';
+$lang['contract_information']            = 'Информация о контракте';
+$lang['receipt']                         = 'Чек';
+$lang['search_proposals']                = 'Поиск предложений';
+$lang['search_estimates']                = 'Поиск оценок';
+$lang['quick_create']                    = 'Быстрое создание';
 
 # Version 3.0.5
 $lang['subscription_last_sent']                             = 'Last Sent';

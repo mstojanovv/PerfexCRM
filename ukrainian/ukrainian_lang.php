@@ -1,6 +1,6 @@
 <?php
 
-# Version 1.0.3
+# Version 2.9.3
 #
 # General
 $lang['id']                   = 'ІД';
@@ -923,7 +923,7 @@ $lang['invoice_html_online_payment']             = 'Онлайн оплата';
 $lang['invoice_html_online_payment_button_text'] = 'Оплатити зараз';
 $lang['invoice_html_payment_modes_not_selected'] = 'Будь ласка, виберіть спосіб оплати';
 $lang['invoice_html_amount_blank']               = 'Загальна сума не може бути порожньою або з нульовим значенням';
-$lang['invoice_html_offline_payment']            = 'Оффлайн оплати';
+$lang['invoice_html_offline_payment']            = 'Офлайн оплати';
 $lang['invoice_html_amount']                     = 'Сума';
 # Version 1.0.2
 # Admin
@@ -2529,7 +2529,7 @@ $lang['ticket_priority_db_2']                   = 'Середній';
 $lang['ticket_priority_db_3']                   = 'Високий';
 $lang['customer_have_projects_by']              = 'Містить проекти по статусу %s';
 $lang['customer_have_proposals_by']             = 'Містить пропозиції по статусу %s';
-$lang['do_not_redirect_payment']                = 'Не перенаправляйте мене до оплати';
+$lang['do_not_redirect_payment']                = 'Не перенаправляти мене на сторінку оплати';
 $lang['project_tickets']                        = 'Запити';
 $lang['invoice_report']                         = 'Звіт по рахункам';
 $lang['payment_modes_report']                   = 'Способи оплати (Транзакції)';
@@ -3787,6 +3787,23 @@ $lang['estimate_convert_to_project']                          = 'Перетво�
 $lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
 
 # Version 2.9.0
+<<<<<<< HEAD
+$lang['home_payment_records']                                 = 'Платіжні записи';
+$lang['weekly']                                               = 'Щотижня';
+$lang['monthly']                                              = 'Щомісячно';
+$lang['failed_to_update_timesheet']                           = 'Графік робочого часу не оновлювався';
+$lang['permission_create_timesheets']                         = 'Створення графіків робочого часу';
+$lang['permission_edit_timesheets']                           = 'Редагувати графіків робочого часу (Глобально)';
+$lang['permission_edit_own_timesheets']                       = 'Редагувати власних графіків робочого часу';
+$lang['permission_delete_timesheets']                         = 'Видалення графіків робочого часу (Глобально)';
+$lang['permission_delete_own_timesheets']                     = 'Видалення власних графіків робочого часу';
+$lang['permission_edit_milestones']                           = 'Редагувати етапи';
+$lang['permission_delete_milestones']                         = 'Видалити етапи';
+$lang['add_timesheet'] 										  = 'Додати графік робочого часу';
+$lang['submit_button_bg_color']                               = 'Колір фону кнопки надіслати';
+$lang['submit_button_text_color']                             = 'Колір тексту кнопки надіслати';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматично призначати запит першому співробітнику, який надішле відповідь?';
+=======
 $lang['home_payment_records']                                  = 'Payment Records';
 $lang['weekly']                                                = 'Weekly';
 $lang['monthly']                                               = 'Monthly';
@@ -3802,46 +3819,47 @@ $lang['add_timesheet']                                         = 'Add timesheet'
 $lang['submit_button_bg_color']                                = 'Submit button background color';
 $lang['submit_button_text_color']                              = 'Submit button background text';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
+>>>>>>> development
 
 # Version 2.9.1
-$lang['contract_signed_not_all_fields_editable'] = 'This contract is signed, hence not all fields can be edited until the signature is removed.';
-$lang['form_submit_success_action']              = 'What should happen after a visitor submits this form';
-$lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
-$lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
-$lang['form_submit_website_url']                 = 'Website URL';
+$lang['contract_signed_not_all_fields_editable'] = 'Цей контракт підписаний, тому не всі поля можна редагувати, доки підпис не буде видалено.';
+$lang['form_submit_success_action']              = 'Що має статися після того, як відвідувач надішле цю форму';
+$lang['form_submit_success_display_thank_you']   = 'Показати повідомлення з подякою';
+$lang['form_submit_success_redirect_to_website'] = 'Переспрямування на інший веб-сайт';
+$lang['form_submit_website_url']                 = 'URL веб-сайта';
 
 # Version 2.9.2
-$lang['open_google_map']                                  = 'Open in Google Map';
-$lang['milestone_start_date']                             = 'Start Date';
-$lang['send_reminder_for_completed_but_not_billed_tasks'] = 'Send an email reminder of billable tasks completed but not billed';
-$lang['staff_to_notify_completed_but_not_billed_tasks']   = 'Select which staff members you want to receive the reminder';
-$lang['reminder_for_completed_but_not_billed_tasks_days'] = 'Select days of the week reminder should be sent';
-$lang['notifications']                                    = 'Notifications';
-$lang['merged']                                           = 'Merged';
-$lang['ticket_merged_notice']                             = 'This ticket is merged into the ticket with ID';
-$lang['view_primary_ticket']                              = 'View primary ticket';
-$lang['merge_tickets']                                    = 'Merge Tickets';
-$lang['primary_ticket']                                   = 'Primary Ticket';
-$lang['primary_ticket_status']                            = 'Primary Ticket Status';
-$lang['tickets_merged']                                   = 'Tickets Merged Successfully';
-$lang['cannot_merge_into_merged_ticket']                  = 'Ticket that is merged into another ticket cannot be used as primary ticket';
-$lang['merge_ticket_ids_field_label']                     = 'Merge Ticket #';
-$lang['merge_ticket_ids_field_placeholder']               = 'example: 5 or 5,6';
-$lang['cannot_merge_tickets_with_ids']                    = 'Ticket %s is already merged in another ticket';
-$lang['ticket_merged_tickets_header']                     = 'This ticket contains %s tickets that are merged';
-$lang['batch_payments_table_invoice_number_heading']      = 'Invoice Number';
-$lang['batch_payments_table_payment_date_heading']        = 'Payment Date';
-$lang['batch_payments_table_payment_mode_heading']        = 'Payment Mode';
-$lang['batch_payments_table_transaction_id_heading']      = 'Transaction Id';
-$lang['batch_payments_table_amount_received_heading']     = 'Amount received';
-$lang['batch_payments_table_invoice_balance_due']         = 'Invoice Balance Due';
-$lang['add_batch_payments']                               = 'Add Payments';
-$lang['batch_payment_filter_by_customer']                 = 'Filter invoices by customer';
-$lang['batch_payments']                                   = 'Batch Payments';
-$lang['batch_payment_added_successfully']                 = 'You have successfully added %s payments';
-$lang['batch_payments_send_invoice_payment_recorded']     = 'Do not send invoice payment recorded email to customer contacts';
-$lang['invoice_batch_payments']                           = 'Batch Payment';
-$lang['staff_is_currently_replying']                      = '%s is currently replying to ticket.';
+$lang['open_google_map']                                    = 'Відкрити на карті Google';
+$lang['milestone_start_date']                               = 'Дата початку';
+$lang['send_reminder_for_completed_but_not_billed_tasks']   = 'Надішліть ел.поштою нагадування про виконані завдання, але не оплачені';
+$lang['staff_to_notify_completed_but_not_billed_tasks']     = 'Виберіть співробітників за якими ви хочете отримати нагадування';
+$lang['reminder_for_completed_but_not_billed_tasks_days']   = 'Виберіть дні тижня, коли слід надсилати нагадування';
+$lang['notifications']                                      = 'Сповіщення';
+$lang['merged']                                             = 'Об\'єднано';
+$lang['ticket_merged_notice']                               = 'Цей pfgbn об\'єднано з запитом з ідентифікатором';
+$lang['view_primary_ticket']                                = 'Переглянути основного запиту';
+$lang['merge_tickets']                                      = 'Об\'єднати запити';
+$lang['primary_ticket']                                     = 'Основний запит';
+$lang['primary_ticket_status']                              = 'Статус основного запиту';
+$lang['tickets_merged']                                     = 'Запити успішно об\'єднані';
+$lang['cannot_merge_into_merged_ticket']                    = 'Запит, об\'єднаний з іншим запитом, не може бути використаний як основний запит';
+$lang['merge_ticket_ids_field_label']                       = 'Об\'єднати запит #';
+$lang['merge_ticket_ids_field_placeholder']                 = 'приклад: 5 або 5.6';
+$lang['cannot_merge_tickets_with_ids']                      = 'Запит %s вже об\'єднаний в інший запит';
+$lang['ticket_merged_tickets_header']                       = 'Цей запит містить запити %s, які об\'єднані';
+$lang['batch_payments_table_invoice_number_heading']        = 'Номер рахунку';
+$lang['batch_payments_table_payment_date_heading']          = 'Дата оплати';
+$lang['batch_payments_table_payment_mode_heading']          = 'Спосіб оплати';
+$lang['batch_payments_table_transaction_id_heading']        = 'Ідентифікатор транзакції';
+$lang['batch_payments_table_amount_received_heading']       = 'Отримана сума';
+$lang['batch_payments_table_invoice_balance_due']           = 'Залишок за рахунком';
+$lang['add_batch_payments']                                 = 'Додати платежі';
+$lang['batch_payment_filter_by_customer']                   = 'Фільтрувати рахунки за замовниками';
+$lang['batch_payments']                                     = 'Пакетні платежі';
+$lang['batch_payment_added_successfully']                   = 'Ви успішно додали %s платежів';
+$lang['batch_payments_send_invoice_payment_recorded']       = 'Не надсилати ел.лист із записом оплати рахунку контактам замовника';
+$land['invoice_batch_payments']                             = 'Пакетна оплата';
+$lang['staff_is_currently_replying']                        = '%s на даний час відповідає на запит.';
 
 # Version 2.9.4
 $lang['permission_view_timesheet_report']                  = 'View Timesheets Report';
