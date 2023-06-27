@@ -3787,7 +3787,6 @@ $lang['estimate_convert_to_project']                          = 'Перетво�
 $lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
 
 # Version 2.9.0
-<<<<<<< HEAD
 $lang['home_payment_records']                                 = 'Платіжні записи';
 $lang['weekly']                                               = 'Щотижня';
 $lang['monthly']                                              = 'Щомісячно';
@@ -3803,7 +3802,6 @@ $lang['add_timesheet'] 										  = 'Додати графік робочого
 $lang['submit_button_bg_color']                               = 'Колір фону кнопки надіслати';
 $lang['submit_button_text_color']                             = 'Колір тексту кнопки надіслати';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматично призначати запит першому співробітнику, який надішле відповідь?';
-=======
 $lang['home_payment_records']                                  = 'Payment Records';
 $lang['weekly']                                                = 'Weekly';
 $lang['monthly']                                               = 'Monthly';
@@ -3819,7 +3817,6 @@ $lang['add_timesheet']                                         = 'Add timesheet'
 $lang['submit_button_bg_color']                                = 'Submit button background color';
 $lang['submit_button_text_color']                              = 'Submit button background text';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
->>>>>>> development
 
 # Version 2.9.1
 $lang['contract_signed_not_all_fields_editable'] = 'Цей контракт підписаний, тому не всі поля можна редагувати, доки підпис не буде видалено.';
