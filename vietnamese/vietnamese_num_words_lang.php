@@ -1,6 +1,6 @@
 <?php
 
-$lang['num_word_0']        = 'Zero';
+$lang['num_word_0']        = 'Không';
 $lang['num_word_1']        = 'Một';
 $lang['num_word_2']        = 'Hai';
 $lang['num_word_3']        = 'Ba';
@@ -114,7 +114,7 @@ $lang['num_word_million']  = 'Triệu';
 $lang['num_word_billion']  = 'Tỷ';
 $lang['num_word_trillion'] = 'Nghìn tỷ';
 $lang['num_word_zillion']  = 'Trăm nghìn tỷ';
-$lang['num_word_cents']    = 'Cent';
+$lang['num_word_cents']    = 'Xu';
 $lang['number_word_and']   = 'và';
 
 # For Indian Customers, used with INR currency

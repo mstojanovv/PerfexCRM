@@ -3787,7 +3787,6 @@ $lang['estimate_convert_to_project']                          = 'Перетво�
 $lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
 
 # Version 2.9.0
-<<<<<<< HEAD
 $lang['home_payment_records']                                 = 'Платіжні записи';
 $lang['weekly']                                               = 'Щотижня';
 $lang['monthly']                                              = 'Щомісячно';
@@ -3803,23 +3802,6 @@ $lang['add_timesheet'] 										  = 'Додати графік робочого
 $lang['submit_button_bg_color']                               = 'Колір фону кнопки надіслати';
 $lang['submit_button_text_color']                             = 'Колір тексту кнопки надіслати';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматично призначати запит першому співробітнику, який надішле відповідь?';
-=======
-$lang['home_payment_records']                                  = 'Payment Records';
-$lang['weekly']                                                = 'Weekly';
-$lang['monthly']                                               = 'Monthly';
-$lang['failed_to_update_timesheet']                            = 'Timesheet was not updated';
-$lang['permission_create_timesheets']                          = 'Create Timesheets';
-$lang['permission_edit_timesheets']                            = 'Edit Timesheets (Global)';
-$lang['permission_edit_own_timesheets']                        = 'Edit Own Timesheets';
-$lang['permission_delete_timesheets']                          = 'Delete Timesheets (Global)';
-$lang['permission_delete_own_timesheets']                      = 'Delete own Timesheets';
-$lang['permission_edit_milestones']                            = 'Edit Milestones';
-$lang['permission_delete_milestones']                          = 'Delete Milestones';
-$lang['add_timesheet']                                         = 'Add timesheet';
-$lang['submit_button_bg_color']                                = 'Submit button background color';
-$lang['submit_button_text_color']                              = 'Submit button background text';
-$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
->>>>>>> development
 
 # Version 2.9.1
 $lang['contract_signed_not_all_fields_editable'] = 'Цей контракт підписаний, тому не всі поля можна редагувати, доки підпис не буде видалено.';
@@ -3906,3 +3888,48 @@ $lang['payment_attempt_amount']                             = 'Invoice Total';
 $lang['payment_attempt_fee']                                = 'Payment Fee';
 $lang['feature']                                            = 'Feature';
 $lang['capabilities']                                       = 'Capabilities';
+
+# Version 3.1.0
+$lang['filter_boolean_yes'] = 'Yes';
+$lang['filter_boolean_no'] = 'No';
+$lang['filter_matchtype_and'] = 'and';
+$lang['filter_matchtype_or'] = 'or';
+$lang['filter_share'] = 'Share with other team members?';
+$lang['filter_mark_as_default'] = 'Mark as default';
+$lang['filter_unmark_as_default'] = 'Unmark as default';
+$lang['filter_save'] = 'Save Filter';
+$lang['filter_name'] = 'Filter name';
+$lang['filter_apply'] = 'Apply';
+$lang['filter_apply_and_save'] = 'Apply and Save';
+$lang['filter_use_dynamic_dates'] = 'Use dynamic dates';
+$lang['filter_new'] = 'New Filter';
+$lang['filter_clear_active'] = 'Clear Filter';
+$lang['filter_edit'] = 'Edit';
+$lang['filter_create'] = 'Create Filter';
+$lang['filter_update'] = 'Update Filter';
+$lang['filter_delete'] = 'Delete Filter';
+$lang['filter_cannot_be_shared'] = 'This filter cannot be shared with other team members as it contains rules that may not be available for all users.';
+$lang['filter_add_rule'] = 'Add Rule';
+
+$lang['filter_operator_is_empty'] = 'is unknown';
+$lang['filter_operator_is_not_empty'] = 'is known';
+$lang['filter_operator_equal'] = 'equal';
+$lang['filter_operator_not_equal'] = 'not equal';
+$lang['filter_operator_begins_with'] = 'begins with';
+$lang['filter_operator_not_begins_with'] = 'not begins with';
+$lang['filter_operator_contains'] = 'contains';
+$lang['filter_operator_not_contains'] = 'not contains';
+$lang['filter_operator_ends_with'] = 'ends with';
+$lang['filter_operator_not_ends_with'] = 'not ends with';
+$lang['filter_operator_in'] = 'in';
+$lang['filter_operator_not_in'] = 'not in';
+$lang['filter_operator_between'] = 'between';
+$lang['filter_operator_not_between'] = 'not between';
+$lang['filter_operator_dynamic'] = 'dynamic';
+$lang['filter_operator_greater'] = 'greater';
+$lang['filter_operator_greater_or_equal'] = 'greater or equal';
+$lang['filter_operator_less'] = 'less';
+$lang['filter_operator_less_or_equal'] = 'less or equal';
+$lang['no_filters_found'] = 'No saved filters, get started by creating a new filter.';
+
+$lang['staff_logged_in_public_ticket_warning'] = 'You are logged in a staff member, if you want to reply to the ticket as staff, you must make reply via the admin area.';
