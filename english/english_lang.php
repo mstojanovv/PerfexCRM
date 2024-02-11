@@ -3928,5 +3928,7 @@ $lang['no_filters_found'] = 'No saved filters, get started by creating a new fil
 
 $lang['staff_logged_in_public_ticket_warning'] = 'You are logged in a staff member, if you want to reply to the ticket as staff, you must make reply via the admin area.';
 
-# Version 3.1.12
+# Version 3.1.2
 $lang['allow_non_admin_members_to_delete_tickets_and_replies'] = 'Allow non-admin staff members to delete tickets and replies';
+$lang['default_filter_info'] = 'The filter will be marked as default only for your account.';
+$lang['required_register_fields'] = 'Required fields for registration (customers area)';
