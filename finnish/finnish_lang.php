@@ -3846,3 +3846,8 @@ $lang['receipt']                         = 'Kuitti';
 $lang['search_proposals']                = 'Ehdotusten haku';
 $lang['search_estimates']                = 'Etsi arvioita';
 $lang['quick_create']                    = 'Pikaluo';
+
+# Version 3.1.2
+$lang['allow_non_admin_members_to_delete_tickets_and_replies'] = 'Allow non-admin staff members to delete tickets and replies';
+$lang['default_filter_info'] = 'The filter will be marked as default only for your account.';
+$lang['required_register_fields'] = 'Required fields for registration (customers area)';
