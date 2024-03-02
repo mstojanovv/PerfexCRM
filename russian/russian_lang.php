@@ -3601,7 +3601,7 @@ $lang['contract_content_permission_edit_warning'] = 'Ваши текущие р�
 $lang['mark_as_signed']                           = 'Отметить как подписанное';
 $lang['unmark_as_signed']                         = 'Убрать подпись';
 $lang['marked_as_signed']                         = 'Отмечен как подписанный';
-$lang['contract_marked_as_signed_info']           = 'Этот контракт подписан вручную.';
+$lang['contract_marked_as_signed_info']           = 'Этот договор подписан вручную.';
 $lang['save_and_send_later']                      = 'Сохранить и отправить позже';
 $lang['schedule']                                 = 'График';
 $lang['schedule_email_for']                       = 'Отправить расписание по Email для %s';
@@ -3787,7 +3787,7 @@ $lang['submit_button_text_color']                              = 'Цвет те�
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматически назначать тикет первому сотруднику, который отправит ответ?';
 
 # Version 2.9.1
-$lang['contract_signed_not_all_fields_editable'] = 'Этот контракт подписан, поэтому не все поля можно редактировать, пока подпись не будет удалена.';
+$lang['contract_signed_not_all_fields_editable'] = 'Этот договор подписан, поэтому не все поля можно редактировать, пока подпись не будет удалена.';
 $lang['form_submit_success_action']              = 'Что должно произойти после того, как посетитель отправит эту форму';
 $lang['form_submit_success_display_thank_you']   = 'Показать сообщение с благодарностью';
 $lang['form_submit_success_redirect_to_website'] = 'Перенаправить на другой сайт';
@@ -3850,13 +3850,26 @@ $lang['enable_honeypot_spam_validation']                         = 'Включи
 $lang['contracts_view_marked_as_signed'] = 'Помечено как подписанный';
 $lang['contracts_view_signed']           = 'подписанный';
 $lang['contracts_view_not_expired']      = 'Не истек';
-$lang['contract_information']            = 'Информация о контракте';
+$lang['contract_information']            = 'Информация о договоре';
 $lang['receipt']                         = 'Чек';
 $lang['search_proposals']                = 'Поиск предложений';
 $lang['search_estimates']                = 'Поиск оценок';
 $lang['quick_create']                    = 'Быстрое создание';
 
 # Version 3.0.5
+$lang['subscription_last_sent']                             = 'Последнее отправленное';
+$lang['automatically_set_logged_in_staff_sales_agent']      = 'Автоматически назначать зарегистрированных сотрудников в качестве агентов по продажам';
+$lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Применимо для: смет, счетов, предложений';
+$lang['permission_view_all_templates']                      = 'Просмотреть все шаблоны';
+$lang['settings_contract_sign_reminder_every_days_info']    = 'Напоминания о подписании отправляются контактам клиента после того, как договор был отправлен клиенту в первый раз, и они автоматически прекращаются при подписании договора.';
+$lang['contract_sign_reminder_every_days']                  = 'Отправлять подписанные напоминания каждые (дни)';
+$lang['contract_sign_reminders']                            = 'Подписать напоминания';
+$lang['payment_gateway_fee_percentage']                     = 'Процентная комиссия';
+$lang['payment_gateway_fee_fixed']                          = 'Фиксированная комиссия';
+$lang['payment_attempt_amount']                             = 'Общая сумма счета';
+$lang['payment_attempt_fee']                                = 'Комиссия за оплату';
+$lang['feature']                                            = 'Особенность';
+$lang['capabilities']                                       = 'Возможности';
 $lang['subscription_last_sent']                             = 'Last Sent';
 $lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically assign logged in staff as sale agent';
 $lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
@@ -3870,3 +3883,53 @@ $lang['payment_attempt_amount']                             = 'Invoice Total';
 $lang['payment_attempt_fee']                                = 'Payment Fee';
 $lang['feature']                                            = 'Feature';
 $lang['capabilities']                                       = 'Capabilities';
+
+# Version 3.1.0
+$lang['filter_boolean_yes'] = 'Yes';
+$lang['filter_boolean_no'] = 'No';
+$lang['filter_matchtype_and'] = 'and';
+$lang['filter_matchtype_or'] = 'or';
+$lang['filter_share'] = 'Share with other team members?';
+$lang['filter_mark_as_default'] = 'Mark as default';
+$lang['filter_unmark_as_default'] = 'Unmark as default';
+$lang['filter_save'] = 'Save Filter';
+$lang['filter_name'] = 'Filter name';
+$lang['filter_apply'] = 'Apply';
+$lang['filter_apply_and_save'] = 'Apply and Save';
+$lang['filter_use_dynamic_dates'] = 'Use dynamic dates';
+$lang['filter_new'] = 'New Filter';
+$lang['filter_clear_active'] = 'Clear Filter';
+$lang['filter_edit'] = 'Edit';
+$lang['filter_create'] = 'Create Filter';
+$lang['filter_update'] = 'Update Filter';
+$lang['filter_delete'] = 'Delete Filter';
+$lang['filter_cannot_be_shared'] = 'This filter cannot be shared with other team members as it contains rules that may not be available for all users.';
+$lang['filter_add_rule'] = 'Add Rule';
+
+$lang['filter_operator_is_empty'] = 'is unknown';
+$lang['filter_operator_is_not_empty'] = 'is known';
+$lang['filter_operator_equal'] = 'equal';
+$lang['filter_operator_not_equal'] = 'not equal';
+$lang['filter_operator_begins_with'] = 'begins with';
+$lang['filter_operator_not_begins_with'] = 'not begins with';
+$lang['filter_operator_contains'] = 'contains';
+$lang['filter_operator_not_contains'] = 'not contains';
+$lang['filter_operator_ends_with'] = 'ends with';
+$lang['filter_operator_not_ends_with'] = 'not ends with';
+$lang['filter_operator_in'] = 'in';
+$lang['filter_operator_not_in'] = 'not in';
+$lang['filter_operator_between'] = 'between';
+$lang['filter_operator_not_between'] = 'not between';
+$lang['filter_operator_dynamic'] = 'dynamic';
+$lang['filter_operator_greater'] = 'greater';
+$lang['filter_operator_greater_or_equal'] = 'greater or equal';
+$lang['filter_operator_less'] = 'less';
+$lang['filter_operator_less_or_equal'] = 'less or equal';
+$lang['no_filters_found'] = 'No saved filters, get started by creating a new filter.';
+
+$lang['staff_logged_in_public_ticket_warning'] = 'You are logged in a staff member, if you want to reply to the ticket as staff, you must make reply via the admin area.';
+
+# Version 3.1.2
+$lang['allow_non_admin_members_to_delete_tickets_and_replies'] = 'Allow non-admin staff members to delete tickets and replies';
+$lang['default_filter_info'] = 'The filter will be marked as default only for your account.';
+$lang['required_register_fields'] = 'Required fields for registration (customers area)';

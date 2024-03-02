@@ -3996,6 +3996,7 @@ $lang['no_filters_found'] = 'Sem filtros guardados, comece por criar um novo fil
 
 $lang['staff_logged_in_public_ticket_warning'] = 'Se quiser responder ao pedido como membro do pessoal, deve fazê-lo através da área de administração.';
 
+# Version 3.1.2
 $lang['allow_non_admin_members_to_delete_tickets_and_replies'] = 'Permitir que membros não administradores eliminem tickets e respostas';
 $lang['default_filter_info'] = 'O filtro será marcado como predefinido apenas para a sua conta.';
 $lang['required_register_fields'] = 'Campos obrigatórios para o registo (área de clientes)';
