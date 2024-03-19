@@ -126,6 +126,9 @@ $lang['num_word_lakhs']   = 'Lakh';
 $lang['num_word_crore']   = 'Crore';
 $lang['num_word_paisa']   = 'Paisa';
 
+// AED currency, Fils instead of Cents.
+$lang['num_word_cents_AED'] = 'Fils';
+
 // Show in invoices and estimates
 $lang['num_word'] = 'With words';
 
@@ -133,6 +136,7 @@ $currencies = [
     'USD' => 'Dollars',
     'EUR' => 'Euros',
     'INR' => 'Rupees',
+    'AED' => 'Dirhams',
 ];
 
 $currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
