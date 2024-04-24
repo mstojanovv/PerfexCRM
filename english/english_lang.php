@@ -3937,3 +3937,4 @@ $lang['required_register_fields'] = 'Required fields for registration (customers
 $lang['allow_non_admin_members_to_edit_ticket_messages'] = 'Allow non-admin staff members to delete tickets and replies';
 $lang['proposal_auto_convert_to_invoice_on_client_accept'] = 'Auto convert the proposal to invoice after client accept';
 $lang['invoice_activity_auto_converted_from_proposal']      = 'Invoice auto created from proposal with number %s';
+$lang['clients_proposal_invoiced_successfully'] = 'Thank you for accepting the proposal. Please review the created invoice for the proposal';
