@@ -1182,7 +1182,7 @@ $lang['lead_edit_delete_tooltip'] = 'Supprimer';
 $lang['lead_attachments']         = 'Pièces jointes';
 
 # Admin Customizer Sidebar
-$lang['acs_finance'] = 'Finance';
+$lang['acs_finance'] = 'Ventes';
 
 # Settings
 $lang['settings_show_sale_agent_on_invoices']       = 'Indiquer le contact sur les factures';
