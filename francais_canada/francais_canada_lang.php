@@ -770,12 +770,12 @@ $lang['clients_state']     = 'Province';
 # Édition du profil et inscription END
 
 $lang['clients_register_password']                    = 'Mot de passe';
-$lang['clients_register_password_repeat']             = 'Répéter le mot de passe';
+$lang['clients_register_password_repeat']             = 'Confirmer le mot de passe';
 $lang['clients_edit_profile_update_btn']              = 'Mettre à jour';
 $lang['clients_edit_profile_change_password_heading'] = 'Changer le mot de passe';
 $lang['clients_edit_profile_old_password']            = 'Ancien mot de passe';
 $lang['clients_edit_profile_new_password']            = 'Nouveau mot de passe';
-$lang['clients_edit_profile_new_password_repeat']     = 'Répéter le mot de passe';
+$lang['clients_edit_profile_new_password_repeat']     = 'Confirmer le mot de passe';
 $lang['clients_edit_profile_change_password_btn']     = 'Mettre à jour';
 $lang['clients_profile_last_changed_password']        = 'Dernière modification du mot de passe %s';
 
@@ -1165,7 +1165,7 @@ $lang['admin_auth_login_button']              = 'Connexion';
 $lang['admin_auth_login_fp']                  = 'Mot de passe oublié ?';
 $lang['admin_auth_reset_password_heading']    = 'Réinitialiser le mot de passe';
 $lang['admin_auth_reset_password']            = 'Mot de passe';
-$lang['admin_auth_reset_password_repeat']     = 'Répéter le mot de passe';
+$lang['admin_auth_reset_password_repeat']     = 'Confirmer le mot de passe';
 $lang['admin_auth_invalid_email_or_password'] = 'Courriel ou mot de passe invalide';
 $lang['admin_auth_inactive_account']          = 'Compte inactif';
 
@@ -1399,7 +1399,7 @@ $lang['customer_latitude']                                     = 'Latitude (Goog
 
 # Authentication
 $lang['admin_auth_set_password']         = 'Mot de passe';
-$lang['admin_auth_set_password_repeat']  = 'Répétez le mot de passe';
+$lang['admin_auth_set_password_repeat']  = 'Confirmer le mot de passe';
 $lang['admin_auth_set_password_heading'] = 'Création du mot de passe';
 
 # General
@@ -1692,7 +1692,7 @@ $lang['customer_reset_password_heading']  = 'Réinitialiser votre mot de passe';
 $lang['customer_forgot_password_heading'] = 'Mot de passe oublié';
 $lang['customer_forgot_password']         = 'Mot de passe oublié ?';
 $lang['customer_reset_password']          = 'Mot de passe';
-$lang['customer_reset_password_repeat']   = 'Répéter le mot de passe';
+$lang['customer_reset_password_repeat']   = 'Confirmer le mot de passe';
 $lang['customer_forgot_password_email']   = 'Courriel';
 $lang['customer_forgot_password_submit']  = 'Soumettre';
 $lang['customer_ticket_subject']          = 'Objet';
