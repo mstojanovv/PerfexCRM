@@ -28,7 +28,7 @@ $lang['invoice_status_unpaid']                 = 'Impayée';
 $lang['invoice_status_overdue']                = 'Echue';
 $lang['invoice_status_not_paid_completely']    = 'Partiellement payée';
 $lang['invoice_pdf_heading']                   = 'FACTURE';
-$lang['invoice_table_item_heading']            = 'Article';
+$lang['invoice_table_item_heading']            = 'Produit';
 $lang['invoice_table_quantity_heading']        = 'Qté';
 $lang['invoice_table_rate_heading']            = 'Prix';
 $lang['invoice_table_tax_heading']             = 'Taxe';
@@ -186,16 +186,16 @@ $lang['newsfeed_comment_likes_modal_heading']               = 'collègues qui ai
 $lang['newsfeed_newsfeed_post_only_visible_to_departments'] = 'Ce poste est visible seulement pour les départements suivants: %s';
 
 # Facture - Articles
-$lang['invoice_items']                     = 'Articles facture';
-$lang['invoice_item']                      = 'Article facture';
-$lang['new_invoice_item']                  = 'Nouvel article';
-$lang['invoice_item_lowercase']            = 'article facture';
-$lang['invoice_items_list_description']    = 'Article';
+$lang['invoice_items']                     = 'Produits facture';
+$lang['invoice_item']                      = 'Produit facture';
+$lang['new_invoice_item']                  = 'Nouveau produit';
+$lang['invoice_item_lowercase']            = 'produit facture';
+$lang['invoice_items_list_description']    = 'Produit';
 $lang['invoice_items_list_rate']           = 'Prix';
-$lang['invoice_item_add_edit_description'] = 'Article';
+$lang['invoice_item_add_edit_description'] = 'Produit';
 $lang['invoice_item_add_edit_rate']        = 'Prix';
-$lang['invoice_item_edit_heading']         = 'Editer l\'article';
-$lang['invoice_item_add_heading']          = 'Nouvel article';
+$lang['invoice_item_edit_heading']         = 'Editer le produit';
+$lang['invoice_item_add_heading']          = 'Nouveeau produit';
 
 # Factures
 $lang['invoices']                                = 'Factures';
@@ -1071,7 +1071,7 @@ $lang['client_payments_tab'] = 'Paiements';
 
 # Estimate General
 $lang['estimate_pdf_heading']            = 'SOUMISSION';
-$lang['estimate_table_item_heading']     = 'Article';
+$lang['estimate_table_item_heading']     = 'Produit';
 $lang['estimate_table_quantity_heading'] = 'Qté';
 $lang['estimate_table_rate_heading']     = 'Prix';
 $lang['estimate_table_tax_heading']      = 'Taxe';
@@ -1332,7 +1332,7 @@ $lang['clients_contracts_type'] = 'Type de contrat';
 # Version 1.0.5
 # General
 $lang['no_tax']                              = 'Aucune taxe';
-$lang['numbers_not_formatted_while_editing'] = 'Le nombre dans ce champ n\'est pas formaté lors de l\'ajout ou l\'édition d\'articles et doit rester non formaté.';
+$lang['numbers_not_formatted_while_editing'] = 'Le nombre dans ce champ n\'est pas formaté lors de l\'ajout ou l\'édition de produit et doit rester non formaté.';
 # Contrats
 $lang['contracts_view_expired']         = 'Expiré';
 $lang['contracts_view_without_dateend'] = 'Contrats sans date de fin';
@@ -1524,7 +1524,7 @@ $lang['clients_nav_support']   = 'Support';
 
 # General
 $lang['more']            = 'Options';
-$lang['add_item']        = 'Ajouter un article';
+$lang['add_item']        = 'Ajouter un produit';
 $lang['goto_admin_area'] = 'Retour au tableau de bord';
 $lang['delete']          = 'Supprimer %s';
 $lang['welcome_top']     = 'Bonjour %s';
@@ -1567,7 +1567,7 @@ $lang['bulk_export_pdf_proposals'] = 'Propositions';
 
 # Factures
 $lang['delete_invoice'] = 'Supprimer';
-$lang['items']                  = 'Articles';
+$lang['items']                  = 'Produits';
 $lang['support']                = 'Support';
 $lang['new_ticket']             = 'Nouveau billet';
 
@@ -1843,14 +1843,14 @@ $lang['not_estimate_customer_accepted']                           = 'Félicitati
 $lang['not_estimate_customer_declined']                           = 'Le client a refusé la soumission numéro %s';
 $lang['estimate_activity_converted']                              = 'a converti cette soumission en facture.<br /> %s';
 $lang['estimate_activity_created']                                = 'a créé la soumission';
-$lang['invoice_estimate_activity_removed_item']                   = 'article supprimé <b>%s</b>';
+$lang['invoice_estimate_activity_removed_item']                   = 'produit supprimé <b>%s</b>';
 $lang['estimate_activity_number_changed']                         = 'Numéro de soumission modifiée de %s à %s';
 $lang['invoice_activity_number_changed']                          = 'Numéro de facture modifié de %s à %s';
-$lang['invoice_estimate_activity_updated_item_short_description'] = 'description courte de l\'article mise à jour de %s à %s';
-$lang['invoice_estimate_activity_updated_item_long_description']  = 'description longue de l\'article mise à jour de <b>%s</b> à <b>%s</b>';
-$lang['invoice_estimate_activity_updated_item_rate']              = 'mise à jour du prix de l\'article de %s a %s';
-$lang['invoice_estimate_activity_updated_qty_item']               = 'modification de la quantité sur l\'article <b>%s</b> de %s a %s';
-$lang['invoice_estimate_activity_added_item']                     = 'a ajouté un nouvel article <b>%s</b>';
+$lang['invoice_estimate_activity_updated_item_short_description'] = 'description courte du produit mise à jour de %s à %s';
+$lang['invoice_estimate_activity_updated_item_long_description']  = 'description longue du produit mise à jour de <b>%s</b> à <b>%s</b>';
+$lang['invoice_estimate_activity_updated_item_rate']              = 'mise à jour du prix de du produit de %s a %s';
+$lang['invoice_estimate_activity_updated_qty_item']               = 'modification de la quantité sur du produit <b>%s</b> de %s a %s';
+$lang['invoice_estimate_activity_added_item']                     = 'a ajouté un nouveau produit <b>%s</b>';
 $lang['invoice_estimate_activity_sent_to_client']                 = 'Envoyer la soumission au client';
 $lang['estimate_activity_client_accepted_and_converted']          = 'Le client a accepté la soumission. La soumission a été converti en facture numéro %s';
 $lang['estimate_activity_client_accepted']                        = 'Le client a accepté cette soumission';
@@ -1906,7 +1906,7 @@ $lang['settings_amount_to_words']          = 'Montant en lettres';
 $lang['settings_amount_to_words_desc']     = 'Afficher le montant total en lettres sur les factures et les soumissions';
 $lang['settings_amount_to_words_enabled']  = 'Activer';
 $lang['settings_total_to_words_lowercase'] = 'Afficher les lettres en minuscules';
-$lang['settings_show_tax_per_item']        = 'Afficher la taxe par ligne d\'article';
+$lang['settings_show_tax_per_item']        = 'Afficher la taxe par ligne de produit';
 
 # Reports
 $lang['report_sales_months_three_months'] = '3 derniers mois';
@@ -2280,8 +2280,8 @@ $lang['proposal_save']                           = 'Enregistrer la proposition';
 $lang['calendar']                                = 'Calendrier';
 $lang['settings_pdf']                            = 'PDF';
 $lang['settings_pdf_font']                       = 'Police PDF';
-$lang['settings_pdf_table_heading_color']        = 'Couleur des en-têtes du tableau d\'articles';
-$lang['settings_pdf_table_heading_text_color']   = 'Couleur du texte des en-tête du tableau d\'articles';
+$lang['settings_pdf_table_heading_color']        = 'Couleur des en-têtes du tableau des produits';
+$lang['settings_pdf_table_heading_text_color']   = 'Couleur du texte des en-tête du tableau des produits';
 $lang['settings_pdf_font_size']                  = 'Taille de police par défault';
 $lang['proposal_status_draft']                   = 'Brouillon';
 $lang['custom_field_contacts']                   = 'Contacts';
@@ -2765,7 +2765,7 @@ $lang['proposal_number_prefix']                  = 'Préfixe du numéro de propo
 $lang['settings_number_padding_prefix']          = 'Nombre de chiffres pour la numérotation des instances (factures, soumissions, ...)<br /> <small>ex. Si la valeur est 3 le nombre aura le format : 005 ou 025</small>';
 $lang['this_week_payments']                      = 'Paiements de cette semaine';
 $lang['last_week_payments']                      = 'Paiements de la semaine dernière';
-$lang['not_published_new_post']                  = 'Nouveau article publié';
+$lang['not_published_new_post']                  = 'Nouvel article publié';
 $lang['expense_name']                            = 'Nom';
 $lang['expense_name_help']                       = 'Pour usage personnel';
 $lang['adjustments']                             = 'Ajustements';
@@ -2782,12 +2782,12 @@ $lang['lead_is_public_no']                       = 'Non';
 $lang['lead_info']                               = 'Informations du Lead';
 $lang['lead_general_info']                       = 'Informations Générales';
 $lang['lead_latest_activity']                    = 'Dernières Activités';
-$lang['item_description_new_lines_notice']       = 'Le retour à la ligne n\'est pas supporté la description de l\'article. Utilisez plutôt la description longue.';
+$lang['item_description_new_lines_notice']       = 'Le retour à la ligne n\'est pas supporté la description du produit. Utilisez plutôt la description longue.';
 $lang['estimates_report']                        = 'Soumissions';
 $lang['confirm']                                 = 'Confirmer';
 $lang['delete_staff']                            = 'Supprimer ce collaborateurs';
 $lang['delete_staff_info']                       = 'Les données de ce membre doivent être transférées sur un autre membre. Veuillez sélectionner un utilisateur pour le transfert de ces données.';
-$lang['estimate_items']                          = 'Articles de soumission';
+$lang['estimate_items']                          = 'Produits de soumission';
 $lang['no_proposals_found']                      = 'Aucune proposition trouvée';
 $lang['no_estimates_found']                      = 'Pas de soumission trouvé';
 $lang['pipeline_limit_status']                   = 'Limite de processus par état';
@@ -2811,14 +2811,14 @@ $lang['proposal_sync_1_info']                    = 'Toutes les données des prop
 $lang['proposal_sync_2_info']                    = 'Si vous avez recemment mis à jour vos infos de %s vous pouvez synchroniser toutes les données liées à cette proposition. Voici les liste des champs qui peuvent être synchronisés.';
 
 # Version 1.3.0
-$lang['expense_include_additional_data_on_convert'] = 'Inclure les informations additionnelles à la description longue de cet article depuis cette dépense.';
+$lang['expense_include_additional_data_on_convert'] = 'Inclure les informations additionnelles à la description longue de ce produit depuis cette dépense.';
 
 # Version 1.4.0
 $lang['calendar_events_limit']                              = 'Limite du calendrier des évènements (vue par mois et par semaine)';
 $lang['show_page_number_on_pdf']                            = 'Afficher les numéros de page sur le PDF';
 $lang['customer_active_inactive_help']                      = 'Ne sera pas affiché dans le menu déroulant en créant un nouvel enregistrement';
 $lang['item_groups']                                        = 'Groupes';
-$lang['item_group']                                         = 'Groupe d\'article';
+$lang['item_group']                                         = 'Groupe de produits';
 $lang['item_group_name']                                    = 'Nom du groupe';
 $lang['new_item_group']                                     = 'Nouveau groupe';
 $lang['show_setup_menu_item_only_on_hover']                 = 'Afficher l\'élément du menu de configuration seulement lors du survol de la souris sur la sidebar';
@@ -3113,12 +3113,12 @@ $lang['project_setting_create_tasks']                  = 'ajouter de nouvelles t
 $lang['project_setting_edit_tasks']                    = 'éditer des tâches (seulement les tâches créé par le contact)';
 
 # Version 1.9.2
-$lang['items_report']                            = 'Articles';
-$lang['reports_item']                            = 'Article';
+$lang['items_report']                            = 'Produits';
+$lang['reports_item']                            = 'Produit';
 $lang['quantity_sold']                           = 'Quantité vendue';
 $lang['total_amount']                            = 'Montant total';
 $lang['avg_price']                               = 'Prix moyen';
-$lang['item_report_paid_invoices_notice']        = 'Le rapport de l\'article est généré uniquement sur les factures soldées hors remises et taxes.';
+$lang['item_report_paid_invoices_notice']        = 'Le rapport des produits est généré uniquement sur les factures soldées hors remises et taxes.';
 $lang['overview']                                = 'Vue d\'ensemble';
 $lang['timer_started_change_status_in_progress'] = 'Modifier l\'état de la tâche pour "en cours" lors du lancement d\'une minuterie (applicable uniquement si l\'état de la tâche est à l\'arrêt)';
 $lang['company_info_format']                     = 'Format des informations de l\'entreprise (PDF et HTML)';
@@ -3282,8 +3282,8 @@ $lang['visible_tabs']                             = 'Onglets visibles';
 $lang['all']                                      = 'Tous';
 $lang['view_widgetable_area']                     = 'Voir les zones de widgets';
 $lang['hide_widgetable_area']                     = 'Masquer les zones de widgets';
-$lang['no_items_warning']                         = 'Entrer au moins un article.';
-$lang['item_forgotten_in_preview']                = 'Avez vous oublié d\'ajouter cet article ?';
+$lang['no_items_warning']                         = 'Entrer au moins un produit.';
+$lang['item_forgotten_in_preview']                = 'Avez vous oublié d\'ajouter ce produit ?';
 $lang['not_task_status_changed']                  = '%s - état de la tâche changé en %s';
 $lang['not_project_activity_task_status_changed'] = 'État de la tâche modifié';
 $lang['reset']                                    = 'Reset';
@@ -3508,14 +3508,14 @@ $lang['google_api_client_id']                                        = 'ID clien
 $lang['subtract_tax_total_from_amount']                              = 'Soustraire la taxe (%s €) du montant de la dépense.';
 $lang['expense_subtract_info_text']                                  = 'Utilisez cette option pour soustraire le montant de la taxe de cette dépense, utile lorsque vous encodez le montant avec TVA.';
 $lang['company_exists_info']                                         = 'Il semble qu\'un client avec le nom %s existe déjà, si vous voulez tout de même enregistrer ce client merci d\'ignorer le message.';
-$lang['import_items']                                                = 'Importer des articles';
-$lang['total_items_deleted']                                         = 'Total articles supprimés: %s';
+$lang['import_items']                                                = 'Importer des produits';
+$lang['total_items_deleted']                                         = 'Nombre de produits supprimés: %s';
 $lang['billable_amount']                                             = 'Montant facturé';
 $lang['last_child_invoice_date']                                     = 'Dernière date de facture';
 $lang['good_morning']                                                = 'Excellente matinée';
 $lang['good_afternoon']                                              = 'Excellente après-midi';
 $lang['good_evening']                                                = 'Excellente soirée';
-$lang['description_in_invoice_item']                                 = 'Ajouter une description dans l\'article de la facture';
+$lang['description_in_invoice_item']                                 = 'Ajouter une description pour le produit de la facture';
 $lang['description_in_invoice_item_help']                            = 'Utile si vous souhaitez inclure des informations supplémentaires sur la facture d\'abonnement, par exemple, ce que comprend cet abonnement.';
 $lang['ticket_reminders']                                            = 'Rappels';
 $lang['ticket_set_reminder_title']                                   = 'Configurer un rappel pour ce billet';
@@ -3540,7 +3540,7 @@ $lang['not_customer_uploaded_file']                                  = 'Nouveau 
 $lang['customer_files_info_message'] = 'Les fichiers des projets et tâches liées au client n\'apparaissent pas dans cette liste';
 $lang['ticket_import_reply_only']    = 'Importer uniquement les réponses de ce billet (sans le message cité/transféré)';
 $lang['learn_more']                  = 'En savoir plus';
-$lang['sales_item']                  = 'Article';
+$lang['sales_item']                  = 'Produit';
 
 
 # Version 2.3.0
@@ -3663,7 +3663,7 @@ $lang['template_updated']                            = 'Modèle mis à jour';
 $lang['template_name']                               = 'Titre du modèle';
 $lang['template_content']                            = 'Contenu du modèle';
 $lang['insert_template']                             = 'Insert';
-$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclure le symbole de devise du champ Montant dans la table articles';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclure le symbole de devise du champ Montant dans la table produits';
 
 $lang['multiplies_of']               = 'Multiplié par';
 $lang['round_off_task_timer_option'] = 'Arrondir le minutage des tâches';
@@ -3687,8 +3687,8 @@ $lang['email_to_ticket_config']          = 'Configuration d\'envoi de courriel v
 
 # Version 2.8.0
 $lang['enable_support_menu_badges']              = 'Activer le badge de l\'élément de menu de support';
-$lang['item_copy_success']                       = 'Article copié';
-$lang['item_copy_fail']                          = 'Échec de la copie de l\'article';
+$lang['item_copy_success']                       = 'Produit copié';
+$lang['item_copy_fail']                          = 'Échec de la copie du produit';
 $lang['attach_invoice_to_payment_receipt_email'] = 'Joindre la facture PDF lors de l\'envoi du reçu de paiement par courriel';
 
 $lang['estimate_request']                                  = 'Demande de soumission';
