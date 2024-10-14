@@ -2318,7 +2318,7 @@ $lang['expense_repeat_every']                    = 'Repeat every';
 
 # Version 1.1.2
 $lang['leads_switch_to_kanban']                   = 'Switch to Kanban';
-$lang['contract_content']                         = 'Contract';
+$lang['contract_content']                         = 'Content';
 $lang['contract_save']                            = 'Save Contract';
 $lang['contract_send_to_email']                   = 'Send to email';
 $lang['contract_send_to_client_modal_heading']    = 'Send contract to email';
@@ -3948,3 +3948,6 @@ $lang['view_financial_stats'] = 'View Financial Stats';
 $lang['timesheet_summary'] = 'Timesheet Summary';
 $lang['timesheet_detailed_overview'] = 'Detailed Overview of Logged Timesheets and Hours';
 $lang['ticket_request_history'] = 'Request History';
+$lang['integrations'] = 'Integrations';
+$lang['settings_group_other'] = 'Other';
+$lang['settings_group_configure_features'] = 'Configure Features';
