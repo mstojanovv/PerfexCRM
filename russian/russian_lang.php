@@ -3926,3 +3926,17 @@ $lang['allow_non_admin_members_to_edit_ticket_messages'] = 'Разрешить �
 $lang['proposal_auto_convert_to_invoice_on_client_accept'] = 'Автоматическое преобразование предложения в счет после принятия клиентом (только предложения, связанные с клиентами)';
 $lang['invoice_activity_auto_converted_from_proposal']      = 'Счет автоматически создается из предложения с номером %s';
 $lang['clients_proposal_invoiced_successfully'] = 'Благодарим вас за принятие предложения. Пожалуйста, ознакомьтесь с созданным счетом-фактурой для этого предложения';
+
+# Version 3.2.0
+$lang['ideal_payment_failure_message'] = 'The payment failed or was canceled.';
+$lang['ideal_api_publishable_key'] = 'Stripe Publishable Key';
+$lang['ideal_api_secret_key'] = 'Stripe API Secret Key';
+$lang['filters'] = 'Filters';
+$lang['view_financial_stats'] = 'View Financial Stats';
+$lang['timesheet_summary'] = 'Timesheet Summary';
+$lang['timesheet_detailed_overview'] = 'Detailed Overview of Logged Timesheets and Hours';
+$lang['ticket_request_history'] = 'Request History';
+$lang['integrations'] = 'Integrations';
+$lang['settings_group_other'] = 'Other';
+$lang['settings_group_configure_features'] = 'Configure Features';
+$lang['disable_ticket_public_url'] = 'Disable Ticket Public URL';
