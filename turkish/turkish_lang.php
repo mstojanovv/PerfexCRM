@@ -3926,3 +3926,9 @@ $lang['integrations'] = 'Entegrasyonlar';
 $lang['settings_group_other'] = 'Diğer';
 $lang['settings_group_configure_features'] = 'Özellikleri Yapılandır';
 $lang['disable_ticket_public_url'] = 'Biletin Genel URL’sini Devre Dışı Bırak';
+
+# Version 3.2.1
+$lang['ideal_gateway_keys_not_configured'] = 'iDEAL Payment Gateway API not configured.';
+$lang['ideal_gateway_cannot_be_activated_keys_not_configured'] = 'iDEAL Payment Gateway cannot be activated as the Stripe Publishable/API key is not configured.';
+$lang['company_logo_light'] = 'Company Logo Light';
+$lang['welcome_back_sign_in'] = 'Welcome, please sign in to your dashboard';
