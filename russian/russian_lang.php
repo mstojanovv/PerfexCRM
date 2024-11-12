@@ -3928,21 +3928,21 @@ $lang['invoice_activity_auto_converted_from_proposal']      = 'Счет авто
 $lang['clients_proposal_invoiced_successfully'] = 'Благодарим вас за принятие предложения. Пожалуйста, ознакомьтесь с созданным счетом-фактурой для этого предложения';
 
 # Version 3.2.0
-$lang['ideal_payment_failure_message'] = 'The payment failed or was canceled.';
-$lang['ideal_api_publishable_key'] = 'Stripe Publishable Key';
-$lang['ideal_api_secret_key'] = 'Stripe API Secret Key';
-$lang['filters'] = 'Filters';
-$lang['view_financial_stats'] = 'View Financial Stats';
-$lang['timesheet_summary'] = 'Timesheet Summary';
-$lang['timesheet_detailed_overview'] = 'Detailed Overview of Logged Timesheets and Hours';
-$lang['ticket_request_history'] = 'Request History';
-$lang['integrations'] = 'Integrations';
-$lang['settings_group_other'] = 'Other';
-$lang['settings_group_configure_features'] = 'Configure Features';
-$lang['disable_ticket_public_url'] = 'Disable Ticket Public URL';
+$lang['ideal_payment_failure_message'] = 'Платеж не выполнен или был отменен.';
+$lang['ideal_api_publishable_key'] = 'Публичный ключ Stripe';
+$lang['ideal_api_secret_key'] = 'Секретный ключ Stripe';
+$lang['filters'] = 'Фильтры';
+$lang['view_financial_stats'] = 'Просмотр финансовой статистики';
+$lang['timesheet_summary'] = 'Сводка по табелю';
+$lang['timesheet_detailed_overview'] = 'Детальный обзор зарегистрированных табелей и часов';
+$lang['ticket_request_history'] = 'История запросов';
+$lang['integrations'] = 'Интеграции';
+$lang['settings_group_other'] = 'Прочее';
+$lang['settings_group_configure_features'] = 'Настроить функции';
+$lang['disable_ticket_public_url'] = 'Отключить публичный URL заявки';
 
 # Version 3.2.1
-$lang['ideal_gateway_keys_not_configured'] = 'iDEAL Payment Gateway API not configured.';
-$lang['ideal_gateway_cannot_be_activated_keys_not_configured'] = 'iDEAL Payment Gateway cannot be activated as the Stripe Publishable/API key is not configured.';
-$lang['company_logo_light'] = 'Company Logo Light';
-$lang['welcome_back_sign_in'] = 'Welcome, please sign in to your dashboard';
+$lang['ideal_gateway_keys_not_configured'] = 'API шлюза оплаты iDEAL не настроен.';
+$lang['ideal_gateway_cannot_be_activated_keys_not_configured'] = 'Шлюз оплаты iDEAL не может быть активирован, так как публичный/API ключ Stripe не настроен.';
+$lang['company_logo_light'] = 'Светлый логотип компании';
+$lang['welcome_back_sign_in'] = 'Добро пожаловать, пожалуйста, войдите в свою панель управления';
