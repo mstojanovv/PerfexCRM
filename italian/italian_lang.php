@@ -4018,4 +4018,4 @@ $lang['disable_ticket_public_url'] = 'Disabilita l\'URL Pubblico del Ticket';
 $lang['ideal_gateway_keys_not_configured'] = 'API del Gateway di Pagamento iDEAL non configurata.';
 $lang['ideal_gateway_cannot_be_activated_keys_not_configured'] = 'Il Gateway di Pagamento iDEAL non può essere attivato poiché la chiave pubblica/API di Stripe non è configurata.';
 $lang['company_logo_light'] = 'Logo Aziendale Chiaro';
-$lang['welcome_back_sign_in'] = 'Benvenuto, accedi al tuo dashboard';
+$lang['welcome_back_sign_in'] = 'Benvenuto, accedi alla tua dashboard';
