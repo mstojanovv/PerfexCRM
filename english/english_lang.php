@@ -3958,3 +3958,23 @@ $lang['ideal_gateway_keys_not_configured'] = 'iDEAL Payment Gateway API not conf
 $lang['ideal_gateway_cannot_be_activated_keys_not_configured'] = 'iDEAL Payment Gateway cannot be activated as the Stripe Publishable/API key is not configured.';
 $lang['company_logo_light'] = 'Company Logo Light';
 $lang['welcome_back_sign_in'] = 'Welcome, please sign in to your dashboard';
+
+# Version 3.3.0
+$lang['settings_ai'] = 'AI';
+$lang['settings_group_ai'] = 'AI Integration';
+$lang['settings_ai_general'] = 'General';
+$lang['settings_ai_provider'] = 'Provider';
+$lang['settings_ai_system_prompt'] = 'System Prompt';
+$lang['settings_ai_system_prompt_help'] = 'Provide context about your company and how you handle support tickets to help AI generate better responses.';
+$lang['settings_ai_enable_ticket_summarization'] = 'Enable Ticket Summarization';
+$lang['settings_ai_enable_ticket_summarization_help'] = 'Enable the AI ticket summary feature to automatically generate a summary of the ticket conversation.';
+$lang['settings_ai_enable_ticket_reply_suggestions'] = 'Enable Ticket Reply Suggestion';
+$lang['settings_ai_enable_ticket_reply_suggestions_help'] = 'Enable the AI ticket reply suggestion to automatically generate a reply to the customer based on the tickets conversation.';
+$lang['ticket_summarization_disabled'] = 'Ticket summarization is disabled';
+$lang['ticket_reply_suggestion_disabled'] = 'Ticket reply suggestions is disabled';
+
+$lang['openai_api_key']             = 'OpenAI API Key';
+$lang['openai_model']               = 'OpenAI Model';
+$lang['openai']               = 'OpenAI';
+$lang['ticket_summarize_ai']               = 'Summarize (AI)';
+$lang['ticket_suggest_reply']               = 'Suggest Reply (AI)';
