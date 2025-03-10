@@ -3973,8 +3973,11 @@ $lang['settings_ai_enable_ticket_reply_suggestions_help'] = 'Enable the AI ticke
 $lang['ticket_summarization_disabled'] = 'Ticket summarization is disabled';
 $lang['ticket_reply_suggestion_disabled'] = 'Ticket reply suggestions is disabled';
 
-$lang['openai_api_key']             = 'OpenAI API Key';
-$lang['openai_model']               = 'OpenAI Model';
-$lang['openai']               = 'OpenAI';
-$lang['ticket_summarize_ai']               = 'Summarize (AI)';
-$lang['ticket_suggest_reply']               = 'Suggest Reply (AI)';
+$lang['openai_api_key'] = 'OpenAI API Key';
+$lang['openai_model'] = 'OpenAI Model';
+$lang['openai'] = 'OpenAI';
+$lang['ticket_summarize_ai'] = 'Summarize (AI)';
+$lang['ticket_suggest_reply'] = 'Suggest Reply (AI)';
+$lang['ticket_rephrase_reply'] = 'Rephrase (AI)';
+$lang['ai_ticket_summary'] = 'Ticket Summary (AI)';
+$lang['openai_max_token'] = 'Max Token';
