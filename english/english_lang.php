@@ -3980,4 +3980,5 @@ $lang['ticket_summarize_ai'] = 'Summarize (AI)';
 $lang['ticket_suggest_reply'] = 'Suggest Reply (AI)';
 $lang['ticket_rephrase_reply'] = 'Rephrase (AI)';
 $lang['ai_ticket_summary'] = 'Ticket Summary (AI)';
-$lang['openai_max_token'] = 'Max Token';
+$lang['openai_max_token'] = 'Max Output Token';
+$lang['warn_ticket_thread_too_long'] = 'This ticket contains a significant amount of information. Processing such a long ticket may require more input tokens, which could potentially impact the accuracy or efficiency of the response. Would you like to proceed with this request?';
