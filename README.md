@@ -1,6 +1,6 @@
 # <a href="https://perfexcrm.com">Perfex CRM</a>
 
-Perfex CRM - Main language files for version >= 3.2.0
+Perfex CRM - Main language files for version >= 3.3.0
 
 ### Modules Language Files Repositories
 

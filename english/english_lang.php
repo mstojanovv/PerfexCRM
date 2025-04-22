@@ -4035,7 +4035,6 @@ $lang['text_enhancement_make_friendly'] = 'Make more friendly';
 $lang['text_enhancement_make_formal'] = 'Make more formal';
 $lang['text_enhancement_make_polite'] = 'Make more polite';
 
-# OpenAI Fine Tuning
 $lang['openai_fine_tuning']          = 'OpenAI Fine-Tuning';
 $lang['fine_tuning_source_data']     = 'Source Data for Fine-Tuning';
 $lang['available_articles']          = 'Available Articles';
