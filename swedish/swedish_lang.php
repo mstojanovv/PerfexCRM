@@ -622,7 +622,7 @@ $lang['ticket_status_changed_fail']               = 'Problem ändra ärende stat
 
 $lang['ticket_staff_string']                = 'Personal';
 $lang['ticket_client_string']               = 'Kund';
-$lang['ticket_posted']                      = 'Postad: %e';
+$lang['ticket_posted']                      = 'Postad: %s';
 $lang['ticket_access_by_department_denied'] = 'Du har tillgång till detta ärende. Ärendet tillhör en avdelning som du inte tilldelats.';
 
 # Staff
