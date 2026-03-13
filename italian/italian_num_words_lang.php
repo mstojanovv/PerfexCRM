@@ -110,12 +110,12 @@ $lang['num_word_700']      = 'Settecento';
 $lang['num_word_800']      = 'Ottocento';
 $lang['num_word_900']      = 'Novecento';
 $lang['num_word_thousand'] = 'Mille';
-$lang['num_word_million']  = 'Miliuno';
+$lang['num_word_million']  = 'Milione';
 $lang['num_word_billion']  = 'Miliardo';
 $lang['num_word_trillion'] = 'Trillioni';
 $lang['num_word_zillion']  = 'Zillioni';
 $lang['num_word_cents']    = 'Centesimi';
-$lang['number_word_and']   = 'And';
+$lang['number_word_and']   = 'e';
 
 # For Indian Customers, used with INR currency
 $lang['num_word_hundred'] = 'Hundred';
@@ -123,7 +123,7 @@ $lang['num_word_lakh'] = 'Lakh';
 $lang['num_word_lakhs'] = 'Lakh';
 
 // Show in invoices and estimates
-$lang['num_word'] = 'With words';
+$lang['num_word'] = 'In parole';
 
 $currencies = [
     'USD' => 'Dollari',
