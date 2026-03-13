@@ -1,5 +1,6 @@
 <?php
 
+$lang['num_word_0']        = 'Nolla';
 $lang['num_word_1']        = 'Yksi';
 $lang['num_word_2']        = 'Kaksi';
 $lang['num_word_3']        = 'Kolme';
@@ -111,15 +112,21 @@ $lang['num_word_900']      = 'Yhdeksänsataa';
 $lang['num_word_thousand'] = 'Tuhat';
 $lang['num_word_million']  = 'Miljoona';
 $lang['num_word_billion']  = 'Miljardi';
-$lang['num_word_trillion'] = 'biljoona';
+$lang['num_word_trillion'] = 'Biljoona';
 $lang['num_word_zillion']  = 'Zillion';
 $lang['num_word_cents']    = 'senttiä';
 $lang['number_word_and']   = 'Ja';
+$lang['number_word_only']  = 'Vain';
 
 # For Indian Customers, used with INR currency
 $lang['num_word_hundred'] = 'Hundred';
 $lang['num_word_lakh'] = 'Lakh';
 $lang['num_word_lakhs'] = 'Lakh';
+$lang['num_word_crore'] = 'Crore';
+$lang['num_word_paisa'] = 'Paisa';
+
+// AED currency, Fils instead of Cents.
+$lang['num_word_cents_AED'] = 'Fils';
 
 // Show in invoices and estimates
 $lang['num_word'] = 'Sanoin';
@@ -127,6 +134,8 @@ $lang['num_word'] = 'Sanoin';
 $currencies = [
     'USD' => 'Dollaria',
     'EUR' => 'Euroa',
+    'INR' => 'Rupiaa',
+    'AED' => 'Dirhamia',
 ];
 
 $currencies = hooks()->apply_filters('before_number_format_render_languge_currencies', $currencies);
