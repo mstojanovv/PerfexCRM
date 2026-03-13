@@ -1,6 +1,6 @@
 <?php
 
-$lang['num_word_0']        = 'Zero';
+$lang['num_word_0']        = 'Cero';
 $lang['num_word_1']        = 'Uno';
 $lang['num_word_2']        = 'Dos';
 $lang['num_word_3']        = 'Tres';
@@ -123,7 +123,7 @@ $lang['num_word_lakh'] = 'Lakh';
 $lang['num_word_lakhs'] = 'Lakh';
 
 // Show in invoices and estimates
-$lang['num_word'] = 'Con Palabras';
+$lang['num_word'] = 'En Palabras';
 
 $currencies = [
     'USD' => 'Dólares',

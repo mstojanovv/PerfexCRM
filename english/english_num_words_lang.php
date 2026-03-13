@@ -118,8 +118,7 @@ $lang['num_word_cents']    = 'Cents';
 $lang['number_word_and']   = 'And';
 $lang['number_word_only']  = 'Only';
 
-
-# For Indian Customers, used with INR currency
+// For Indian Customers, used with INR currency
 $lang['num_word_hundred'] = 'Hundred';
 $lang['num_word_lakh']    = 'Lakh';
 $lang['num_word_lakhs']   = 'Lakh';
